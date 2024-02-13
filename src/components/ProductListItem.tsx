@@ -1,20 +1,23 @@
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Image, Pressable } from 'react-native';
 import Colors from '@/src/constants/Colors';
 import EditScreenInfo from '@/src/components/EditScreenInfo';
 import { Text, View } from '@/src/components/Themed';
 import products from '@/assets/data/products';
 import { Product } from '../types';
+import { Link } from 'expo-router';
 type ProductListItemProps ={ 
     product: Product;
 };
 const ProductListItem = ({ product }: ProductListItemProps) => {
   return(
-    <View style={styles.container}>
+    <Link href={`/menu/${product.id}`} asChild>
+    <Pressable  style={styles.container}>
     <Image source={{ uri: product.image }} style= {styles.image} resizeMode="contain"/>
     <Text style= {styles.title}>{product.name}</Text>
     <Text style={styles.price}>SAR {product.price}</Text>
     
-  </View>
+  </Pressable>
+  </Link>
   )
 }
 export default ProductListItem;
@@ -56,5 +59,7 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     color: '#2f95dc'
   },
-  
+  link: {
+    color: 'white',
+  }
 });
