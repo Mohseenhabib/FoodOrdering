@@ -3,11 +3,14 @@ import Colors from '@/src/constants/Colors';
 import EditScreenInfo from '@/src/components/EditScreenInfo';
 import { Text, View } from '@/src/components/Themed';
 import products from '@/assets/data/products';
-
-const ProductListItem = ({ product }) => {
+import { Product } from '../types';
+type ProductListItemProps ={ 
+    product: Product;
+};
+const ProductListItem = ({ product }: ProductListItemProps) => {
   return(
     <View style={styles.container}>
-    <Image source={{ uri: product.image }} style= {styles.image} />
+    <Image source={{ uri: product.image }} style= {styles.image} resizeMode="contain"/>
     <Text style= {styles.title}>{product.name}</Text>
     <Text style={styles.price}>SAR {product.price}</Text>
     
@@ -19,10 +22,17 @@ export default ProductListItem;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'white',
-    padding: 10,
-    margin: 0,
-    borderRadius: 20
+    backgroundColor: 'black',
+    padding: 5,
+    margin: 10,
+    borderRadius: 10,
+    borderBottomWidth: 0.5,
+    borderBottomColor: 'white',
+    flex: 1,
+    borderRightColor:'white',
+    borderRightWidth: 0.5 ,
+    // borderWidth: 0.5 ,
+    // borderColor: 'white',
     
   },
   image: {
@@ -33,7 +43,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     marginVertical: 5 ,
-    color: 'black'
+    color: 'white'
     
   },
   separator: {
