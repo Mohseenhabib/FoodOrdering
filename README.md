@@ -19,13 +19,13 @@ This is a Food Ordering app built using TypeScript for Android and iOS platforms
 1. Clone the repository:
 
    ```
-   git clone https://github.com/MohseenHabib/FoodOrdering-app.git
+   git clone https://github.com/MohseenHabib/FoodOrdering.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd FoodOrdering-app
+   cd FoodOrdering
    ```
 
 3. Install dependencies:
