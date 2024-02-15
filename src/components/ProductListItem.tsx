@@ -4,13 +4,14 @@ import EditScreenInfo from '@/src/components/EditScreenInfo';
 import { Text, View } from '@/src/components/Themed';
 import products from '@/assets/data/products';
 import { Product } from '../types';
-import { Link } from 'expo-router';
+import { Link, useSegments } from 'expo-router';
 type ProductListItemProps ={ 
     product: Product;
 };
 const ProductListItem = ({ product }: ProductListItemProps) => {
+    const segments = useSegments();
   return(
-    <Link href={`/menu/${product.id}`} asChild>
+    <Link href={`/${segments[0]}/menu/${product.id}`} asChild>
     <Pressable  style={styles.container}>
     <Image source={{ uri: product.image }} style= {styles.image} resizeMode="contain"/>
     <Text style= {styles.title}>{product.name}</Text>
