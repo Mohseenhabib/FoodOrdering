@@ -1,10 +1,15 @@
- import Colors from "@/src/constants/Colors";
+import Colors from "@/src/constants/Colors";
 import { FontAwesome } from "@expo/vector-icons";
 import { Stack, Link } from "expo-router";
 import { Pressable } from "react-native";
- export default function MenuStack(){
-    return <Stack >
-        <Stack.Screen name="index" options={{ title: "Menu", headerRight: () => (
+export default function MenuStack() {
+  return (
+    <Stack>
+      <Stack.Screen
+        name="index"
+        options={{
+          title: "Menu",
+          headerRight: () => (
             <Link href="/(admin)/menu/create" asChild>
               <Pressable>
                 {({ pressed }) => (
@@ -17,21 +22,9 @@ import { Pressable } from "react-native";
                 )}
               </Pressable>
             </Link>
-          ),}}/>
-
-<Stack.Screen name="[id]" options={{ title: "Menu", headerRight: () => (
-            <Link href="/" asChild>
-              <Pressable>
-                {({ pressed }) => (
-                  <FontAwesome
-                    name="pencil"
-                    size={25}
-                    color={Colors.light.tint}
-                    style={{ marginRight: 15, opacity: pressed ? 0.5 : 1 }}
-                  />
-                )}
-              </Pressable>
-            </Link>
-          ),}}/>
-        </Stack>;  
+          ),
+        }}
+      />
+    </Stack>
+  );
 }

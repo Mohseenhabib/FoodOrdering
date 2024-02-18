@@ -7,18 +7,21 @@ import {
   FlatList,
   Keyboard,
   TouchableWithoutFeedback,
+  Alert,
 } from "react-native";
 import React, { useState } from "react";
 import Colors from "@/src/constants/Colors";
 import Button from "@/src/components/Button";
 import * as ImagePicker from "expo-image-picker";
-import { Stack } from "expo-router";
+import { Stack, useLocalSearchParams } from "expo-router";
 
 const CreateProductScreen = () => {
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
   const [errors, setErrors] = useState("");
   const [image, setImage] = useState<string | null>(null);
+  const { id } = useLocalSearchParams();
+  const isUpdating = !!id;
   const hideKeyboard = () => {
     Keyboard.dismiss();
   };
@@ -42,16 +45,29 @@ const CreateProductScreen = () => {
     }
     return true;
   };
-
+  const onSubmit = () => {
+    if (isUpdating) {
+      onUpdateCreate();
+    } else {
+      onCreate();
+    }
+  };
   const onCreate = () => {
     if (!validateInput()) {
       return;
     }
-    console.error("creating");
+    console.warn("Creating Product");
 
     resetFields();
   };
+  const onUpdateCreate = () => {
+    if (!validateInput()) {
+      return;
+    }
+    console.warn("Updating Product");
 
+    resetFields();
+  };
   const pickImage = async () => {
     // No permissions request is necessary for launching the image library
     let result = await ImagePicker.launchImageLibraryAsync({
@@ -67,16 +83,34 @@ const CreateProductScreen = () => {
       setImage(result.assets[0].uri);
     }
   };
+  const onDelete = () => {
+    console.warn("Deleting Product");
+  };
+  const confirmDelete = () => {
+    Alert.alert(
+      "Are you sure?",
+      "You will not be able to recover this imaginary file!",
+      [
+        {
+          text: "Cancel",
+        },
+        { text: "Delete", style: "destructive", onPress: onDelete },
+      ],
+      { cancelable: false }
+    );
+  };
   return (
     <>
-      <Stack.Screen options={{ title: "Create Product" }} />
+      <Stack.Screen
+        options={{ title: isUpdating ? "Update Product" : "Create Product" }}
+      />
       <View style={styles.container}>
         <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
           <Image
             source={{
               uri:
                 image ||
-                " https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/margarita.png",
+                "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/food/margarita.png",
             }}
             style={styles.image}
           />
@@ -100,7 +134,14 @@ const CreateProductScreen = () => {
           keyboardType="numeric"
         />
         <Text style={{ color: "red", fontStyle: "italic" }}> {errors}</Text>
-        <Button onPress={onCreate} text="Create" />
+        <Button onPress={onSubmit} text={isUpdating ? "Update" : "Create"} />
+        {isUpdating && (
+          <Button
+            onPress={confirmDelete}
+            style={styles.deleteButton}
+            text="Delete"
+          />
+        )}
       </View>
     </>
   );
@@ -124,6 +165,13 @@ const styles = StyleSheet.create({
     marginVertical: 0,
     marginBottom: 0,
   },
+  textButtonContainer: {
+    backgroundColor: Colors.light.tint,
+    paddingBottom: 8888,
+    alignItems: "center",
+    borderRadius: 100,
+    marginBottom: 10,
+  },
   input: {
     backgroundColor: "black",
     padding: 10,
@@ -135,9 +183,25 @@ const styles = StyleSheet.create({
     color: "white",
   },
   textButton: {
-    color: "white",
     alignSelf: "center",
     color: Colors.light.tint,
+    fontWeight: "bold",
+    marginVertical: 10,
+    marginBottom: 10,
+  },
+  imageContainer: {
+    width: 425,
+    height: 450,
+    alignSelf: "center",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 10,
+    borderColor: "white",
+    borderWidth: 0.5,
+  },
+  deleteButton: {
+    alignSelf: "center",
+    color: "yellow",
     fontWeight: "bold",
     marginVertical: 10,
     marginBottom: 10,
