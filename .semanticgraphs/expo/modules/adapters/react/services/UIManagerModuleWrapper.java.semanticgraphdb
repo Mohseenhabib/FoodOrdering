@@ -1,0 +1,936 @@
+
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java…0
+;expo.modules.adapters.react.services.UIManagerModuleWrapperCLASS
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java (#"/
+package$expo.modules.adapters.react.services"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ë
+declarationString“<mark class="modifier">public </mark><mark class="modifier">class </mark>UIManagerModuleWrapper<mark class="modifier"><br>implements </mark>ActivityProvider, InternalModule, JavaScriptContextProvider, UIManager"
+accesspublic*UIManagerModuleWrapper2ä
+zexpo.modules.adapters.react.services.UIManagerModuleWrapper.UIManagerModuleWrapper(com.facebook.react.bridge.ReactContext)DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java&	 &(2ÿ
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java* *(#2„
+Sexpo.modules.adapters.react.services.UIManagerModuleWrapper.getExportedInterfaces()DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java/ /(*2¨
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8 8(2ï
+Ñexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(expo.modules.core.interfaces.services.UIManager.GroupUIBlock)DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP P(2‹
+Lexpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai i(2Ú
+bexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnUiQueueThread(java.lang.Runnable)DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar r( 2˙
+jexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnClientCodeQueueThread(java.lang.Runnable)DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{ {((2Ä
+mexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnNativeModulesQueueThread(java.lang.Runnable)DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ É(+2£
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaç ç(,2•
+ëexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨ ¨(.2°
+çexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤ ≤(+2£
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀ À(-2Ë
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper.getJavaScriptContextRef()DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java– –(%2Á
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.getJSCallInvokerHolder()DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java‘ ‘(52„
+Pexpo.modules.adapters.react.services.UIManagerModuleWrapper.getCurrentActivity()DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaŸ Ÿ($2Â
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java" "($2Ô
+_expo.modules.adapters.react.services.UIManagerModuleWrapper?mLifecycleListenersMap@35.88:35.110DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java#X #(n2Û
+cexpo.modules.adapters.react.services.UIManagerModuleWrapper?mActivityEventListenersMap@36.86:36.112DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java$V $(p2∏
+-expo.modules.core.interfaces.ActivityProviderEXTEND
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java (2∂
++expo.modules.core.interfaces.InternalModuleEXTEND
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java (2¡
+6expo.modules.core.interfaces.JavaScriptContextProviderEXTEND
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java   (2∫
+/expo.modules.core.interfaces.services.UIManagerEXTEND
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java! !(à
+zexpo.modules.adapters.react.services.UIManagerModuleWrapper.UIManagerModuleWrapper(com.facebook.react.bridge.ReactContext)CONSTRUCTOR
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java&	 &("á
+declarationStringr<mark class="modifier">public </mark><mark class="method">UIManagerModuleWrapper</mark>(ReactContext reactContext)*UIManagerModuleWrapper2ﬁ
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java' '(2ë
+áexpo.modules.adapters.react.services.UIManagerModuleWrapper.UIManagerModuleWrapper(com.facebook.react.bridge.ReactContext)!reactContextCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java' '( 2ñ
+áexpo.modules.adapters.react.services.UIManagerModuleWrapper.UIManagerModuleWrapper(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java&- &(92À
+;expo.modules.adapters.react.services.UIManagerModuleWrapperRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java&	 &(Æ
+áexpo.modules.adapters.react.services.UIManagerModuleWrapper.UIManagerModuleWrapper(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java&- &(9"
+typeReactContext"
+isFinalfalse".
+declarationStringReactContext reactContext*reactContext2Ø
+&com.facebook.react.bridge.ReactContextTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java&  &(,“
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java* *(#"
+isFinalfalse"r
+declarationString]<mark class="modifier">protected </mark>ReactContext <mark class="method">getContext</mark>()"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typeReactContext*
+getContext2ﬁ
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java+ +(2∂
+&com.facebook.react.bridge.ReactContextRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java* *(¸
+Sexpo.modules.adapters.react.services.UIManagerModuleWrapper.getExportedInterfaces()METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java/ /(*"
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Class&gt; <mark class="method">getExportedInterfaces</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Class>*getExportedInterfaces2¶
+java.util.Arrays.asList(T...)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java0 0(2û
+java.util.ListRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java/	 /(2®
+java.lang.ClassRETURN_TYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java/ /(≠O
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8 8("
+isFinalfalse"í
+declarationString¸<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addUIBlock</mark>(final <mark class="modifier">int</mark> tag<mark class="modifier"><mark class="modifier">,</mark></mark> final UIBlock&lt;T&gt; block<mark class="modifier"><mark class="modifier">,</mark></mark> final Class&lt;T&gt; tClass)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+addUIBlock2Ê
+]com.facebook.react.uimanager.UIManagerModule.addUIBlock(com.facebook.react.uimanager.UIBlock)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java98 9(B2”
+Jcom.facebook.react.bridge.ReactContext.getNativeModule(java.lang.Class<T>)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java9 9( 2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java9 9(2—
+Hcom.facebook.react.uimanager.NativeViewHierarchyManager.resolveView(int)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java</ <(:2‹
+Sexpo.modules.core.interfaces.services.UIManager.UIBlock.reject(java.lang.Throwable)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java> >(2µ
+,java.lang.Class.isInstance(java.lang.Object)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaA A(!2À
+Bexpo.modules.core.interfaces.services.UIManager.UIBlock.resolve(T)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaB B(2Ø
+&java.lang.Class.cast(java.lang.Object)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaB# B('2‹
+Sexpo.modules.core.interfaces.services.UIManager.UIBlock.reject(java.lang.Throwable)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaD D(2‹
+Sexpo.modules.core.interfaces.services.UIManager.UIBlock.reject(java.lang.Throwable)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaH H(2•
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-e43e7505-855c-4ab1-9220-7081a9787d3e.Anonymous-e43e7505-855c-4ab1-9220-7081a9787d3e()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java9G 9(k2÷
+Mjava.lang.IllegalArgumentException.IllegalArgumentException(java.lang.String)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java> >(32–
+∆expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-52f7feb7-8d2d-47e6-b112-a60f8f35efa5.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)!nativeViewHierarchyManagerCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java< <(.2©
+üexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tagCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java<; <(>2∆
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-3a1dd33d-3244-4727-9b70-62777816c52b.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?view@60.13:60.17CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java= =(2´
+°expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!blockCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java>
+ >(2¨
+¢expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tClassCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaA A(2∆
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-67496064-4ad4-437f-86e4-512f6aca93f2.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?view@60.13:60.17CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaA" A(&2´
+°expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!blockCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaB B(2¨
+¢expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tClassCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaB B("2∆
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-6ffd2e12-c7d6-4cdb-835d-47e775ae5235.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?view@60.13:60.17CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaB( B(,2´
+°expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!blockCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaD D(2¨
+¢expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tClassCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaE. E(42∆
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-29b941a0-7891-44b1-b7e8-d277707f9687.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?view@60.13:60.17CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaED E(H2´
+°expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!blockCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaH H(2√
+πexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-23927c38-5fcb-453f-a634-e2215049da11.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?e@71.29:71.30CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaH H(2ù
+èexpo.modules.core.interfaces.services.UIManager.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)OVERRIDE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8 8(2Æ
+üexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tag	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8' 8(*2∞
+°expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!block	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8= 8(B2±
+¢expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tClass	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8S 8(Y2Õ
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-7bde8ac9-307c-47f4-8597-428fda3549ab.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?view@60.13:60.17DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java< <(2 
+πexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-44693ffd-caad-49ba-9874-740950cf3c29.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?e@71.29:71.30DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaG G(2î
+voidRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8 8(2±
+ùexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>).TTYPE_PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8
+ 8(Ô
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-1886ddd4-cb4c-4031-89b5-02fb55c46bc2.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?view@60.13:60.17VARIABLE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java< <("
+typeView"
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark>View <mark class="class-field">view</mark> = nativeViewHierarchyManager.resolveView(tag)*view2ö
+android.view.ViewTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java< <(2—
+Hcom.facebook.react.uimanager.NativeViewHierarchyManager.resolveView(int)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java</ <(:2–
+∆expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-e8edbec4-d312-4213-b920-1a89b88cdd07.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)!nativeViewHierarchyManagerCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java< <(.2©
+üexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tagCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java<; <(>ú
+üexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tag	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8' 8(*"
+typeint"
+isFinaltrue":
+declarationString%<mark class="modifier">int</mark> tag*tag2å
+intTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8# 8(&ù
+°expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!block	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8= 8(B"
+type
+UIBlock<T>"
+isFinaltrue"I
+declarationString4UIBlock<<mark class="type-parameter">T</mark>> block*block2¿
+7expo.modules.core.interfaces.services.UIManager.UIBlockTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java82 8(92∞
+ùexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>).TTYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8: 8(;Ù
+¢expo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>)!tClass	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8S 8(Y"
+typeClass<T>"
+isFinaltrue"H
+declarationString3Class<<mark class="type-parameter">T</mark>> tClass*tClass2ò
+java.lang.ClassTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8J 8(O2∞
+ùexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>).TTYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8P 8(Q∂
+∆expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-106957bb-4d7f-4339-a9ff-28cfc78d5d45.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)!nativeViewHierarchyManager	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java;5 ;(O""
+typeNativeViewHierarchyManager"
+isFinalfalse"J
+declarationString5NativeViewHierarchyManager nativeViewHierarchyManager*nativeViewHierarchyManager2¿
+7com.facebook.react.uimanager.NativeViewHierarchyManagerTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java; ;(4∞
+πexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-fcc4432d-0e8a-44db-a9b7-3bef55dda544.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)?e@71.29:71.30VARIABLE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaG G("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ú
+java.lang.ExceptionTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaG G(¥
+ùexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(int, expo.modules.core.interfaces.services.UIManager.UIBlock<T>, java.lang.Class<T>).TTYPE_PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java8
+ 8(*T—'
+Ñexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(expo.modules.core.interfaces.services.UIManager.GroupUIBlock)METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP P("
+isFinalfalse"Ã
+declarationString∂<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addUIBlock</mark>(final GroupUIBlock block)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+addUIBlock2Ê
+]com.facebook.react.uimanager.UIManagerModule.addUIBlock(com.facebook.react.uimanager.UIBlock)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaQ8 Q(B2”
+Jcom.facebook.react.bridge.ReactContext.getNativeModule(java.lang.Class<T>)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaQ Q( 2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaQ Q(2ä
+Äexpo.modules.core.interfaces.services.UIManager.GroupUIBlock.execute(expo.modules.core.interfaces.services.UIManager.ViewHolder)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaT T(2—
+Hcom.facebook.react.uimanager.NativeViewHierarchyManager.resolveView(int)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaY2 Y(=2§
+java.lang.Number.intValue()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaYM Y(U2§
+java.lang.Object.getClass()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java^G ^(O2•
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-72c08493-e950-48eb-a57d-91b0ba733510.Anonymous-72c08493-e950-48eb-a57d-91b0ba733510()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaQG Q(k2•
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-2db3e98b-acc9-4706-8a36-62991d608e66.Anonymous-2db3e98b-acc9-4706-8a36-62991d608e66()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaT T($2î
+äexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(expo.modules.core.interfaces.services.UIManager.GroupUIBlock)!blockCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaT T(2é
+Ñexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-630181cf-fcaf-44ce-bf0c-4ed248e345c3.get(java.lang.Object)!keyCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaW W(2–
+∆expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-179d2b74-1114-4067-9e14-f49e2965cc26.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)!nativeViewHierarchyManagerCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaY Y(12é
+Ñexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-401926c8-fb37-4ba0-b80b-7a7f26b31bec.get(java.lang.Object)!keyCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaYH Y(K2é
+Ñexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-6988ae7e-104f-40f7-863a-075923b82605.get(java.lang.Object)!keyCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java^C ^(F2Ö
+xexpo.modules.core.interfaces.services.UIManager.addUIBlock(expo.modules.core.interfaces.services.UIManager.GroupUIBlock)OVERRIDE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP P(2ô
+äexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(expo.modules.core.interfaces.services.UIManager.GroupUIBlock)!block	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP, P(12ü
+éexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-3cb58fec-1849-4756-bedb-6fdf707ae63b.get(java.lang.Object)?e@90.53:90.54DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaZ5 Z(62î
+voidRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP	 P(∏
+äexpo.modules.adapters.react.services.UIManagerModuleWrapper.addUIBlock(expo.modules.core.interfaces.services.UIManager.GroupUIBlock)!block	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP, P(1"
+typeGroupUIBlock"
+isFinaltrue"'
+declarationStringGroupUIBlock block*block2≈
+<expo.modules.core.interfaces.services.UIManager.GroupUIBlockTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaP P(+µ
+∆expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-fdfb4e24-4534-416b-a3eb-a222bb7a4ad3.execute(com.facebook.react.uimanager.NativeViewHierarchyManager)!nativeViewHierarchyManager	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaS; S(U""
+typeNativeViewHierarchyManager"
+isFinaltrue"J
+declarationString5NativeViewHierarchyManager nativeViewHierarchyManager*nativeViewHierarchyManager2¿
+7com.facebook.react.uimanager.NativeViewHierarchyManagerTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaS  S(:˜
+Ñexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-cc54bab1-2ac0-4f4e-9aaa-a5121450258c.get(java.lang.Object)!key	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaV! V($"
+typeObject"
+isFinalfalse"
+declarationString
+Object key*key2ô
+java.lang.ObjectTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaV V( ‘
+éexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-61cc818d-c31e-437b-81e5-12ced1477908.get(java.lang.Object)?e@90.53:90.54VARIABLE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaZ5 Z(6"%
+typeIllegalViewOperationException"
+isFinalfalse"4
+declarationStringIllegalViewOperationException e*e2√
+:com.facebook.react.uimanager.IllegalViewOperationExceptionTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaZ Z(4á
+Lexpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai i("
+isFinalfalse"≈
+declarationStringØ <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>View <mark class="method">resolveView</mark>(<mark class="modifier">int</mark> viewTag)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeView*resolveView2˙
+qcom.facebook.react.uimanager.UIManagerHelper.getUIManagerForReactTag(com.facebook.react.bridge.ReactContext, int)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javajJ j(a2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javajb j(l2Ω
+4com.facebook.react.bridge.UIManager.resolveView(int)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javan n( 2›
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)!viewTagCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javajp j(w2Ì
+dexpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)?uiManager@106.46:106.55CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javak k(2Ì
+dexpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)?uiManager@106.46:106.55CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javan n(2›
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)!viewTagCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javan! n((2Õ
+@expo.modules.core.interfaces.services.UIManager.resolveView(int)OVERRIDE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai i(2‚
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)!viewTag	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai i(%2Ù
+dexpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)?uiManager@106.46:106.55DECLARATION
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaj. j(72°
+android.view.ViewRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai	 i(†
+dexpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)?uiManager@106.46:106.55VALUE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaj. j(7"+
+type#com.facebook.react.bridge.UIManager"
+isFinaltrue"Ü
+declarationString<mark class="modifier"> </mark><mark class="modifier">final </mark>com.facebook.react.bridge.UIManager <mark class="class-field">uiManager</mark> = UIManagerHelper.getUIManagerForReactTag(getContext()<mark class="modifier">,</mark> viewTag)*	uiManager2¨
+#com.facebook.react.bridge.UIManagerTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaj$ j(-2˙
+qcom.facebook.react.uimanager.UIManagerHelper.getUIManagerForReactTag(com.facebook.react.bridge.ReactContext, int)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javajJ j(a2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javajb j(l2›
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)!viewTagCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javajp j(wŸ
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.resolveView(int)!viewTag	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai i(%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> viewTag*viewTag2å
+intTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javai i(˝
+bexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnUiQueueThread(java.lang.Runnable)METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar r( "
+isFinalfalse"Õ
+declarationString∑<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">runOnUiQueueThread</mark>(Runnable runnable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*runOnUiQueueThread2√
+:com.facebook.react.bridge.ReactContext.isOnUiQueueThread()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javas s(&2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javas s(2°
+java.lang.Runnable.run()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javat t(2÷
+Mcom.facebook.react.bridge.ReactContext.runOnUiQueueThread(java.lang.Runnable)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javav v(%2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javav v(2Ù
+kexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnUiQueueThread(java.lang.Runnable)!runnableCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javat t(2Ù
+kexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnUiQueueThread(java.lang.Runnable)!runnableCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javav& v(.2„
+Vexpo.modules.core.interfaces.services.UIManager.runOnUiQueueThread(java.lang.Runnable)OVERRIDE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar r( 2˘
+kexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnUiQueueThread(java.lang.Runnable)!runnable	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar* r(22î
+voidRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar	 r(Ì
+kexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnUiQueueThread(java.lang.Runnable)!runnable	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar* r(2"
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable runnable*runnable2õ
+java.lang.RunnableTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javar! r()µ
+jexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnClientCodeQueueThread(java.lang.Runnable)METHOD
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{ {(("
+isFinalfalse"’
+declarationStringø<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">runOnClientCodeQueueThread</mark>(Runnable runnable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*runOnClientCodeQueueThread2√
+:com.facebook.react.bridge.ReactContext.isOnJSQueueThread()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java| |(&2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java| |(2°
+java.lang.Runnable.run()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java} }(2÷
+Mcom.facebook.react.bridge.ReactContext.runOnJSQueueThread(java.lang.Runnable)CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java (%2—
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java (2¸
+sexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnClientCodeQueueThread(java.lang.Runnable)!runnableCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java} }(2¸
+sexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnClientCodeQueueThread(java.lang.Runnable)!runnableCALL
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java& (.2Î
+^expo.modules.core.interfaces.services.UIManager.runOnClientCodeQueueThread(java.lang.Runnable)OVERRIDE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{ {((2Å
+sexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnClientCodeQueueThread(java.lang.Runnable)!runnable	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{2 {(:2î
+voidRETURN_TYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{	 {(ı
+sexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnClientCodeQueueThread(java.lang.Runnable)!runnable	PARAMETER
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{2 {(:"
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable runnable*runnable2õ
+java.lang.RunnableTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java{) {(1Ì
+mexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnNativeModulesQueueThread(java.lang.Runnable)METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ É(+"
+isFinalfalse"™
+declarationStringî<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">runOnNativeModulesQueueThread</mark>(Runnable runnable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*runOnNativeModulesQueueThread2—
+Ecom.facebook.react.bridge.ReactContext.isOnNativeModulesQueueThread()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÑ Ñ(22§
+java.lang.Runnable.run()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÖ Ö(2‰
+Xcom.facebook.react.bridge.ReactContext.runOnNativeModulesQueueThread(java.lang.Runnable)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaá á(12·
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÑ Ñ(2Ç
+vexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnNativeModulesQueueThread(java.lang.Runnable)!runnableCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÖ Ö(2·
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaá á(2Ç
+vexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnNativeModulesQueueThread(java.lang.Runnable)!runnableCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaá2 á(:2Ò
+aexpo.modules.core.interfaces.services.UIManager.runOnNativeModulesQueueThread(java.lang.Runnable)OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ É(+2á
+vexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnNativeModulesQueueThread(java.lang.Runnable)!runnable	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ5 É(=2ó
+voidRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ	 É(˛
+vexpo.modules.adapters.react.services.UIManagerModuleWrapper.runOnNativeModulesQueueThread(java.lang.Runnable)!runnable	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ5 É(="
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable runnable*runnable2û
+java.lang.RunnableTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÉ, É(4ÔF
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaç ç(,"
+isFinalfalse"Ì
+declarationString◊<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerLifecycleEventListener</mark>(final LifecycleEventListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerLifecycleEventListener2£
+java.util.Map.put(K, V)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaè è(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí7 í(:2À
+?com.facebook.react.bridge.LifecycleEventListener.onHostResume()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaî î(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö7 ö(:2 
+>com.facebook.react.bridge.LifecycleEventListener.onHostPause()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaú ú(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢7 ¢(:2Ã
+@com.facebook.react.bridge.LifecycleEventListener.onHostDestroy()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java§ §( 2˛
+rcom.facebook.react.bridge.ReactContext.addLifecycleEventListener(com.facebook.react.bridge.LifecycleEventListener)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java® ®(+2Ø
+#java.util.Map.get(java.lang.Object)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java®C ®(F2∏
+,java.lang.ref.WeakReference.WeakReference(T)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaéC é(R2®
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-ffb61d88-642a-4d7d-b125-e92e4a1f58cc.Anonymous-ffb61d88-642a-4d7d-b125-e92e4a1f58cc()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaè- è(]2•
+òexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaéS é([2Î
+_expo.modules.adapters.react.services.UIManagerModuleWrapper?mLifecycleListenersMap@35.88:35.110CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaè è(2•
+òexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaè è('2∑
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí* í(62ù
+êexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-4d94ad20-52d3-4e40-9c04-dafeef0f816d.onHostResume()?listener@146.31:146.39CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaì ì(2ù
+êexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-3ccfc8af-1770-48a5-a078-a0a4d62ea5d6.onHostResume()?listener@146.31:146.39CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaî
+ î(2∑
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö* ö(62ú
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-2164d7be-1a7d-4e65-813b-a821982ac981.onHostPause()?listener@154.31:154.39CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaõ õ(2ú
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-94fd0e5c-4b86-4959-be59-1b78ccf4f740.onHostPause()?listener@154.31:154.39CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaú
+ ú(2∑
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢* ¢(62û
+ëexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-b5589b7b-e482-4de0-8ae5-1d9090154a67.onHostDestroy()?listener@162.31:162.39CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java£ £(2û
+ëexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-58a14a50-e1ae-4d5a-be8a-17175f037118.onHostDestroy()?listener@162.31:162.39CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java§
+ §(2·
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java® ®(2Î
+_expo.modules.adapters.react.services.UIManagerModuleWrapper?mLifecycleListenersMap@35.88:35.110CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java®, ®(B2•
+òexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java®G ®(O2î
+Éexpo.modules.core.interfaces.services.UIManager.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaç ç(,2™
+òexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaçJ ç(R2æ
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaé0 é(<2§
+êexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-d3435f7f-ed08-4100-bdc6-6357308fe98d.onHostResume()?listener@146.31:146.39DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí í('2£
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-6e998575-2f33-474c-8c3d-168101017eb5.onHostPause()?listener@154.31:154.39DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö ö('2•
+ëexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-20feaa1d-533a-4d67-b466-94d3e11c015d.onHostDestroy()?listener@162.31:162.39DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢ ¢('2ó
+voidRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaç	 ç(≠
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60VALUEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaé0 é(<"-
+type%WeakReference<LifecycleEventListener>"
+isFinaltrue"Ã
+declarationString∂<mark class="modifier"> </mark><mark class="modifier">final </mark>WeakReference<LifecycleEventListener> <mark class="class-field">weakListener</mark> = new WeakReference<>(listener)*weakListener2ß
+java.lang.ref.WeakReferenceTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaé
+ é(2»
+3expo.modules.core.interfaces.LifecycleEventListenerTYPE_ARGUMENTÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaé é(.2∏
+,java.lang.ref.WeakReference.WeakReference(T)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaéC é(R2•
+òexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaéS é([é	
+êexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-c702aa07-680e-47a8-a86a-4e1900508db4.onHostResume()?listener@146.31:146.39VARIABLEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí í('"
+typeLifecycleEventListener"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>LifecycleEventListener <mark class="class-field">listener</mark> = weakListener.get()*listener2º
+0com.facebook.react.bridge.LifecycleEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí í(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí7 í(:2∑
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaí* í(6ç	
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-788691b0-7fdb-44c9-8054-8f5727f0eea3.onHostPause()?listener@154.31:154.39VARIABLEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö ö('"
+typeLifecycleEventListener"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>LifecycleEventListener <mark class="class-field">listener</mark> = weakListener.get()*listener2º
+0com.facebook.react.bridge.LifecycleEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö ö(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö7 ö(:2∑
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaö* ö(6è	
+ëexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-8f834d26-abb0-48eb-9bef-9edf442555af.onHostDestroy()?listener@162.31:162.39VARIABLEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢ ¢('"
+typeLifecycleEventListener"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>LifecycleEventListener <mark class="class-field">listener</mark> = weakListener.get()*listener2º
+0com.facebook.react.bridge.LifecycleEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢ ¢(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢7 ¢(:2∑
+™expo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)?weakListener@142.48:142.60CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¢* ¢(6›
+òexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaçJ ç(R"
+typeLifecycleEventListener"
+isFinaltrue"4
+declarationStringLifecycleEventListener listener*listener2ø
+3expo.modules.core.interfaces.LifecycleEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaç3 ç(I‹
+ëexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨ ¨(."
+isFinalfalse"È
+declarationString”<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">unregisterLifecycleEventListener</mark>(LifecycleEventListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid* unregisterLifecycleEventListener2Å
+ucom.facebook.react.bridge.ReactContext.removeLifecycleEventListener(com.facebook.react.bridge.LifecycleEventListener)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≠ ≠(-2‘
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≠ ≠(2Ø
+#java.util.Map.get(java.lang.Object)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≠E ≠(H2≤
+&java.util.Map.remove(java.lang.Object)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÆ Æ(!2Î
+_expo.modules.adapters.react.services.UIManagerModuleWrapper?mLifecycleListenersMap@35.88:35.110CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≠. ≠(D2ß
+öexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≠I ≠(Q2Î
+_expo.modules.adapters.react.services.UIManagerModuleWrapper?mLifecycleListenersMap@35.88:35.110CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÆ Æ(2ß
+öexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÆ" Æ(*2ñ
+Öexpo.modules.core.interfaces.services.UIManager.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨ ¨(.2¨
+öexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨F ¨(N2ó
+voidRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨	 ¨(‡
+öexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterLifecycleEventListener(expo.modules.core.interfaces.LifecycleEventListener)!listener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨F ¨(N"
+typeLifecycleEventListener"
+isFinalfalse"4
+declarationStringLifecycleEventListener listener*listener2ø
+3expo.modules.core.interfaces.LifecycleEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¨/ ¨(EñJ
+çexpo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤ ≤(+"
+isFinalfalse"¯
+declarationString‚<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerActivityEventListener</mark>(final ActivityEventListener activityEventListener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerActivityEventListener2£
+java.util.Map.put(K, V)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaµ µ("2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏6 ∏(92Ñ
+xcom.facebook.react.bridge.ActivityEventListener.onActivityResult(android.app.Activity, int, int, android.content.Intent)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∫ ∫(#2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿6 ¿(92ﬂ
+Scom.facebook.react.bridge.ActivityEventListener.onNewIntent(android.content.Intent)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¬ ¬(2¸
+pcom.facebook.react.bridge.ReactContext.addActivityEventListener(com.facebook.react.bridge.ActivityEventListener)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java« «(*2Ø
+#java.util.Map.get(java.lang.Object)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java«F «(I2∏
+,java.lang.ref.WeakReference.WeakReference(T)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥B ≥(Q2®
+õexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-8e0b1b97-d8c1-4c89-a7d6-ce6e4889f452.Anonymous-8e0b1b97-d8c1-4c89-a7d6-ce6e4889f452()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaµ> µ(m2∞
+£expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥R ≥(g2Ô
+cexpo.modules.adapters.react.services.UIManagerModuleWrapper?mActivityEventListenersMap@36.86:36.112CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaµ µ(2∞
+£expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaµ# µ(82µ
+®expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)?weakListener@179.47:179.59CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏) ∏(52◊
+ expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-ea92b42a-be86-4f0e-bbad-68285955e992.onActivityResult(android.app.Activity, int, int, android.content.Intent)?listener@184.30:184.38CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaπ π(2◊
+ expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-b0ae0438-b874-424f-973b-3fb7475d596b.onActivityResult(android.app.Activity, int, int, android.content.Intent)?listener@184.30:184.38CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∫
+ ∫(2…
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-69aee4dc-6601-49f0-919e-ad75a215a31f.onActivityResult(android.app.Activity, int, int, android.content.Intent)!activityCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∫$ ∫(,2Ã
+øexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-9adb1a46-dbe7-4d2a-982b-aa000b83107d.onActivityResult(android.app.Activity, int, int, android.content.Intent)!requestCodeCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∫. ∫(92À
+æexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-9764a20a-be6f-4649-911b-7cb25f866345.onActivityResult(android.app.Activity, int, int, android.content.Intent)!resultCodeCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∫; ∫(E2≈
+∏expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-3cf32550-b220-4ee3-b487-9cb110e9e844.onActivityResult(android.app.Activity, int, int, android.content.Intent)!dataCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∫G ∫(K2µ
+®expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)?weakListener@179.47:179.59CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿) ¿(52≤
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-aeedda9e-59ab-4b5f-8cae-8fa85dad453a.onNewIntent(android.content.Intent)?listener@192.30:192.38CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¡ ¡(2≤
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-d9ed1d55-583a-418d-adfe-2470efa60020.onNewIntent(android.content.Intent)?listener@192.30:192.38CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¬
+ ¬(2¢
+ïexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-c499760e-e9e0-4a80-978a-822c8ae3afac.onNewIntent(android.content.Intent)!intentCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¬ ¬(%2·
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java« «(2Ô
+cexpo.modules.adapters.react.services.UIManagerModuleWrapper?mActivityEventListenersMap@36.86:36.112CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java«+ «(E2∞
+£expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java«J «(_2í
+Åexpo.modules.core.interfaces.services.UIManager.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤ ≤(+2µ
+£expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤H ≤(]2º
+®expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)?weakListener@179.47:179.59DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥/ ≥(;2ﬁ
+ expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-6e33affa-abb6-4415-8ace-fdf34838f3e0.onActivityResult(android.app.Activity, int, int, android.content.Intent)?listener@184.30:184.38DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏ ∏(&2π
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-ec9b53b2-25f6-4815-ad2a-09865dd4ab93.onNewIntent(android.content.Intent)?listener@192.30:192.38DECLARATIONÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿ ¿(&2ó
+voidRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤	 ≤(¿
+®expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)?weakListener@179.47:179.59VALUEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥/ ≥(;",
+type$WeakReference<ActivityEventListener>"
+isFinaltrue"ÿ
+declarationString¬<mark class="modifier"> </mark><mark class="modifier">final </mark>WeakReference<ActivityEventListener> <mark class="class-field">weakListener</mark> = new WeakReference<>(activityEventListener)*weakListener2ß
+java.lang.ref.WeakReferenceTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥
+ ≥(2«
+2expo.modules.core.interfaces.ActivityEventListenerTYPE_ARGUMENTÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥ ≥(-2∏
+,java.lang.ref.WeakReference.WeakReference(T)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥B ≥(Q2∞
+£expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≥R ≥(g√	
+ expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-b3049e09-21a8-4083-abbc-85e42cffb838.onActivityResult(android.app.Activity, int, int, android.content.Intent)?listener@184.30:184.38VARIABLEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏ ∏(&"
+typeActivityEventListener"
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark>ActivityEventListener <mark class="class-field">listener</mark> = weakListener.get()*listener2ª
+/com.facebook.react.bridge.ActivityEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏ ∏(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏6 ∏(92µ
+®expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)?weakListener@179.47:179.59CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∏) ∏(5û	
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-2a8001a1-6210-4786-a45d-07f4488e3865.onNewIntent(android.content.Intent)?listener@192.30:192.38VARIABLEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿ ¿(&"
+typeActivityEventListener"
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark>ActivityEventListener <mark class="class-field">listener</mark> = weakListener.get()*listener2ª
+/com.facebook.react.bridge.ActivityEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿ ¿(2©
+java.lang.ref.Reference.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿6 ¿(92µ
+®expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)?weakListener@179.47:179.59CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java¿) ¿(5ˇ
+£expo.modules.adapters.react.services.UIManagerModuleWrapper.registerActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤H ≤(]"
+typeActivityEventListener"
+isFinaltrue"@
+declarationString+ActivityEventListener activityEventListener*activityEventListener2æ
+2expo.modules.core.interfaces.ActivityEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java≤2 ≤(G«
+ºexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-49145371-d3d0-4d09-b9e6-4ad9ddaf356c.onActivityResult(android.app.Activity, int, int, android.content.Intent)!activity	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑, ∑(4"
+typeActivity"
+isFinalfalse"&
+declarationStringActivity activity*activity2†
+android.app.ActivityTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑# ∑(+”
+øexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-aca4c3c9-db2d-4e43-b22a-18851ee1b8e9.onActivityResult(android.app.Activity, int, int, android.content.Intent)!requestCode	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑: ∑(E"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> requestCode*requestCode2è
+intTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑6 ∑(9–
+æexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-27f98a59-10ad-419c-9ebd-37205476d3a1.onActivityResult(android.app.Activity, int, int, android.content.Intent)!resultCode	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑K ∑(U"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> resultCode*
+resultCode2è
+intTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑G ∑(Jπ
+∏expo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-c710dc83-d0a6-4fb3-a92d-0a5d596a0773.onActivityResult(android.app.Activity, int, int, android.content.Intent)!data	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑^ ∑(b"
+typeIntent"
+isFinalfalse" 
+declarationStringIntent data*data2¢
+android.content.IntentTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java∑W ∑(]ö
+ïexpo.modules.adapters.react.services.UIManagerModuleWrapper.Anonymous-29e4e0ee-6579-4f6c-8f68-3682587078fa.onNewIntent(android.content.Intent)!intent	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaø% ø(+"
+typeIntent"
+isFinalfalse""
+declarationStringIntent intent*intent2¢
+android.content.IntentTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaø ø($è
+èexpo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀ À(-"
+isFinalfalse"˙
+declarationString‰<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">unregisterActivityEventListener</mark>(final ActivityEventListener activityEventListener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*unregisterActivityEventListener2ˇ
+scom.facebook.react.bridge.ReactContext.removeActivityEventListener(com.facebook.react.bridge.ActivityEventListener)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÃ Ã(,2‘
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÃ Ã(2Ø
+#java.util.Map.get(java.lang.Object)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÃH Ã(K2≤
+&java.util.Map.remove(java.lang.Object)CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÕ Õ(%2Ô
+cexpo.modules.adapters.react.services.UIManagerModuleWrapper?mActivityEventListenersMap@36.86:36.112CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÃ- Ã(G2≤
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÃL Ã(a2Ô
+cexpo.modules.adapters.react.services.UIManagerModuleWrapper?mActivityEventListenersMap@36.86:36.112CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÕ Õ(2≤
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListenerCALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÕ& Õ(;2î
+Éexpo.modules.core.interfaces.services.UIManager.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀ À(-2∑
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀJ À(_2ó
+voidRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀ	 À(Å
+•expo.modules.adapters.react.services.UIManagerModuleWrapper.unregisterActivityEventListener(expo.modules.core.interfaces.ActivityEventListener)!activityEventListener	PARAMETERÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀJ À(_"
+typeActivityEventListener"
+isFinaltrue"@
+declarationString+ActivityEventListener activityEventListener*activityEventListener2æ
+2expo.modules.core.interfaces.ActivityEventListenerTYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaÀ4 À(I‰
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper.getJavaScriptContextRef()METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java– –(%"
+isFinalfalse"í
+declarationString}<mark class="modifier">public </mark><mark class="modifier">long</mark> <mark class="method">getJavaScriptContextRef</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typelong*getJavaScriptContextRef2√
+7com.facebook.react.bridge.JavaScriptContextHolder.get()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java—6 —(92œ
+Ccom.facebook.react.bridge.ReactContext.getJavaScriptContextHolder()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java— —(32·
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java— —(2‡
+Pexpo.modules.core.interfaces.JavaScriptContextProvider.getJavaScriptContextRef()OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java– –(%2ó
+longRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java–	 –(û
+Texpo.modules.adapters.react.services.UIManagerModuleWrapper.getJSCallInvokerHolder()METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java‘ ‘(5"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark>CallInvokerHolderImpl <mark class="method">getJSCallInvokerHolder</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeCallInvokerHolderImpl*getJSCallInvokerHolder2œ
+Ccom.facebook.react.bridge.CatalystInstance.getJSCallInvokerHolder()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java’G ’(]2»
+<com.facebook.react.bridge.ReactContext.getCatalystInstance()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java’1 ’(D2·
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java’# ’(02ﬂ
+Oexpo.modules.core.interfaces.JavaScriptContextProvider.getJSCallInvokerHolder()OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java‘ ‘(52Ã
+9com.facebook.react.turbomodule.core.CallInvokerHolderImplRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java‘	 ‘(ï
+
+Pexpo.modules.adapters.react.services.UIManagerModuleWrapper.getCurrentActivity()METHODÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaŸ Ÿ($"
+isFinalfalse"¢
+declarationStringå<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Activity <mark class="method">getCurrentActivity</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeActivity*getCurrentActivity2«
+;com.facebook.react.bridge.ReactContext.getCurrentActivity()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java⁄ ⁄(*2‘
+Hexpo.modules.adapters.react.services.UIManagerModuleWrapper.getContext()CALLÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java⁄ ⁄(2“
+Bexpo.modules.core.interfaces.ActivityProvider.getCurrentActivity()OVERRIDEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaŸ Ÿ($2ß
+android.app.ActivityRETURN_TYPEÅ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.javaŸ	 Ÿ(È
+Uexpo.modules.adapters.react.services.UIManagerModuleWrapper?mReactContext@34.23:34.36VARIABLE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java" "($"
+isFinalfalse"
+typeReactContext"v
+declarationStringa<mark class="modifier">private </mark>ReactContext <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2Ø
+&com.facebook.react.bridge.ReactContextTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java"
+ "(≈
+
+_expo.modules.adapters.react.services.UIManagerModuleWrapper?mLifecycleListenersMap@35.88:35.110VARIABLE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java#X #(n"
+isFinalfalse"U
+typeMMap<LifecycleEventListener, com.facebook.react.bridge.LifecycleEventListener>"ÿ
+declarationString¬<mark class="modifier">private </mark>Map<LifecycleEventListener, com.facebook.react.bridge.LifecycleEventListener> <mark class="class-field">mLifecycleListenersMap</mark> = new WeakHashMap<>();"
+isStaticfalse"
+accessprivate*mLifecycleListenersMap2ñ
+java.util.MapTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java#
+ #(2≈
+3expo.modules.core.interfaces.LifecycleEventListenerTYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java# #($2¬
+0com.facebook.react.bridge.LifecycleEventListenerTYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java#@ #(V2Æ
+#java.util.WeakHashMap.WeakHashMap()CALLÄ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java#u #(ÇÀ
+
+cexpo.modules.adapters.react.services.UIManagerModuleWrapper?mActivityEventListenersMap@36.86:36.112VARIABLE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java$V $(p"
+isFinalfalse"S
+typeKMap<ActivityEventListener, com.facebook.react.bridge.ActivityEventListener>"⁄
+declarationStringƒ<mark class="modifier">private </mark>Map<ActivityEventListener, com.facebook.react.bridge.ActivityEventListener> <mark class="class-field">mActivityEventListenersMap</mark> = new WeakHashMap<>();"
+isStaticfalse"
+accessprivate*mActivityEventListenersMap2ñ
+java.util.MapTYPE
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java$
+ $(2ƒ
+2expo.modules.core.interfaces.ActivityEventListenerTYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java$ $(#2¡
+/com.facebook.react.bridge.ActivityEventListenerTYPE_ARGUMENT
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java$? $(T2Æ
+#java.util.WeakHashMap.WeakHashMap()CALLÄ
+unode_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/services/UIManagerModuleWrapper.java$w $(Ñ

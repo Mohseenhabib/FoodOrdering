@@ -1,0 +1,2354 @@
+
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄¿
+,com.facebook.react.uimanager.ReactShadowNodeTRAITp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java. .( "'
+packagecom.facebook.react.uimanager"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>ReactShadowNode"
+accesspublic*ReactShadowNode2π
+8com.facebook.react.uimanager.ReactShadowNode.isVirtual()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java5
+ 5(2ø
+>com.facebook.react.uimanager.ReactShadowNode.isVirtualAnchor()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java=
+ =(2æ
+=com.facebook.react.uimanager.ReactShadowNode.isYogaLeafNode()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaE
+ E(2√
+Bcom.facebook.react.uimanager.ReactShadowNode.hoistNativeChildren()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaM
+ M(2º
+;com.facebook.react.uimanager.ReactShadowNode.getViewClass()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaO	 O(2∫
+9com.facebook.react.uimanager.ReactShadowNode.hasUpdates()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaQ
+ Q(2æ
+=com.facebook.react.uimanager.ReactShadowNode.markUpdateSeen()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaS S(2ª
+:com.facebook.react.uimanager.ReactShadowNode.markUpdated()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaU U(2¿
+?com.facebook.react.uimanager.ReactShadowNode.hasUnseenUpdates()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaW
+ W(2µ
+4com.facebook.react.uimanager.ReactShadowNode.dirty()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaY Y(2∑
+6com.facebook.react.uimanager.ReactShadowNode.isDirty()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java[
+ [(2¿
+?com.facebook.react.uimanager.ReactShadowNode.addChildAt(T, int)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ](2¿
+?com.facebook.react.uimanager.ReactShadowNode.removeChildAt(int)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java_ _(2Ω
+<com.facebook.react.uimanager.ReactShadowNode.getChildCount()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaa a(2Ω
+<com.facebook.react.uimanager.ReactShadowNode.getChildAt(int)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javac c(2∏
+7com.facebook.react.uimanager.ReactShadowNode.indexOf(T)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javae e(2À
+Jcom.facebook.react.uimanager.ReactShadowNode.removeAndDisposeAllChildren()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javag g("2˜
+vcom.facebook.react.uimanager.ReactShadowNode.onBeforeLayout(com.facebook.react.uimanager.NativeViewHierarchyOptimizer)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javan n(2Ô
+ncom.facebook.react.uimanager.ReactShadowNode.updateProperties(com.facebook.react.uimanager.ReactStylesDiffMap)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javap p(2»
+Gcom.facebook.react.uimanager.ReactShadowNode.onAfterUpdateTransaction()DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javar r(2ˆ
+ucom.facebook.react.uimanager.ReactShadowNode.onCollectExtraUpdates(com.facebook.react.uimanager.UIViewOperationQueue)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java{ {(2€
+Zcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdatesWillChangeLayout(float, float)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java} }(72∫
+∏com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java ($2Ω
+:com.facebook.react.uimanager.ReactShadowNode.getReactTag()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÖ Ö(2¿
+=com.facebook.react.uimanager.ReactShadowNode.setReactTag(int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á(2º
+9com.facebook.react.uimanager.ReactShadowNode.getRootTag()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaâ â(2ø
+<com.facebook.react.uimanager.ReactShadowNode.setRootTag(int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaã ã(2“
+Ocom.facebook.react.uimanager.ReactShadowNode.setViewClassName(java.lang.String)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaç ç(2ª
+8com.facebook.react.uimanager.ReactShadowNode.getParent()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaê ê(2¡
+>com.facebook.react.uimanager.ReactShadowNode.getLayoutParent()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î(2¬
+?com.facebook.react.uimanager.ReactShadowNode.setLayoutParent(T)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ ñ(2¬
+?com.facebook.react.uimanager.ReactShadowNode.getThemedContext()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaù ù(%2Ò
+ncom.facebook.react.uimanager.ReactShadowNode.setThemedContext(com.facebook.react.uimanager.ThemedReactContext)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaü ü(2∆
+Ccom.facebook.react.uimanager.ReactShadowNode.shouldNotifyOnLayout()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java°
+ °(2¡
+>com.facebook.react.uimanager.ReactShadowNode.calculateLayout()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java£ £(2Õ
+Jcom.facebook.react.uimanager.ReactShadowNode.calculateLayout(float, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java• •(2æ
+;com.facebook.react.uimanager.ReactShadowNode.hasNewLayout()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaß
+ ß(2¿
+=com.facebook.react.uimanager.ReactShadowNode.markLayoutSeen()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java© ©(2»
+Ecom.facebook.react.uimanager.ReactShadowNode.addNativeChildAt(T, int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ Ø(2»
+Ecom.facebook.react.uimanager.ReactShadowNode.removeNativeChildAt(int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java± ±(2…
+Fcom.facebook.react.uimanager.ReactShadowNode.removeAllNativeChildren()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≥ ≥(2≈
+Bcom.facebook.react.uimanager.ReactShadowNode.getNativeChildCount()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaµ µ(2≈
+Bcom.facebook.react.uimanager.ReactShadowNode.indexOfNativeChild(T)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∑ ∑(2¡
+>com.facebook.react.uimanager.ReactShadowNode.getNativeParent()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫(2»
+Ecom.facebook.react.uimanager.ReactShadowNode.setIsLayoutOnly(boolean)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(2æ
+;com.facebook.react.uimanager.ReactShadowNode.isLayoutOnly()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬
+ ¬(2ø
+<com.facebook.react.uimanager.ReactShadowNode.getNativeKind()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ(2»
+Ecom.facebook.react.uimanager.ReactShadowNode.getTotalNativeChildren()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆(2¡
+>com.facebook.react.uimanager.ReactShadowNode.isDescendantOf(T)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java»
+ »(2¬
+?com.facebook.react.uimanager.ReactShadowNode.getHierarchyInfo()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÕ	 Õ(2Œ
+Kcom.facebook.react.uimanager.ReactShadowNode.setLocalData(java.lang.Object)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŸ Ÿ(2 
+Gcom.facebook.react.uimanager.ReactShadowNode.getNativeOffsetForChild(T)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ(2º
+9com.facebook.react.uimanager.ReactShadowNode.getLayoutX()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(2º
+9com.facebook.react.uimanager.ReactShadowNode.getLayoutY()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˙ ˙(2¿
+=com.facebook.react.uimanager.ReactShadowNode.getLayoutWidth()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¸ ¸(2¡
+>com.facebook.react.uimanager.ReactShadowNode.getLayoutHeight()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˛ ˛(2º
+9com.facebook.react.uimanager.ReactShadowNode.getScreenX()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÅ Å(2º
+9com.facebook.react.uimanager.ReactShadowNode.getScreenY()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÑ Ñ(2¿
+=com.facebook.react.uimanager.ReactShadowNode.getScreenWidth()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á(2¡
+>com.facebook.react.uimanager.ReactShadowNode.getScreenHeight()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaä ä(2ƒ
+Acom.facebook.react.uimanager.ReactShadowNode.getLayoutDirection()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaå å("2„
+`com.facebook.react.uimanager.ReactShadowNode.setLayoutDirection(com.facebook.yoga.YogaDirection)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaé é(2ø
+<com.facebook.react.uimanager.ReactShadowNode.getStyleWidth()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaê ê(2ƒ
+Acom.facebook.react.uimanager.ReactShadowNode.setStyleWidth(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaí í(2À
+Hcom.facebook.react.uimanager.ReactShadowNode.setStyleWidthPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î(2√
+@com.facebook.react.uimanager.ReactShadowNode.setStyleWidthAuto()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ ñ(2«
+Dcom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidth(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaò ò(2Œ
+Kcom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidthPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaö ö(2«
+Dcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidth(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaú ú(2Œ
+Kcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidthPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaû û(2¿
+=com.facebook.react.uimanager.ReactShadowNode.getStyleHeight()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java† †(2π
+6com.facebook.react.uimanager.ReactShadowNode.getFlex()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¢ ¢(2≈
+Bcom.facebook.react.uimanager.ReactShadowNode.setStyleHeight(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java§ §(2Ã
+Icom.facebook.react.uimanager.ReactShadowNode.setStyleHeightPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¶ ¶(2ƒ
+Acom.facebook.react.uimanager.ReactShadowNode.setStyleHeightAuto()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java® ®(2»
+Ecom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeight(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java™ ™(2œ
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeightPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¨ ¨(2»
+Ecom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeight(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÆ Æ(2œ
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeightPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∞ ∞(2æ
+;com.facebook.react.uimanager.ReactShadowNode.setFlex(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≤ ≤(2¬
+?com.facebook.react.uimanager.ReactShadowNode.setFlexGrow(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¥ ¥(2¿
+=com.facebook.react.uimanager.ReactShadowNode.setRowGap(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∂ ∂(2√
+@com.facebook.react.uimanager.ReactShadowNode.setColumnGap(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∏ ∏(2Ω
+:com.facebook.react.uimanager.ReactShadowNode.setGap(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫(2ƒ
+Acom.facebook.react.uimanager.ReactShadowNode.setFlexShrink(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaº º(2√
+@com.facebook.react.uimanager.ReactShadowNode.setFlexBasis(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaæ æ(2¬
+?com.facebook.react.uimanager.ReactShadowNode.setFlexBasisAuto()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(2 
+Gcom.facebook.react.uimanager.ReactShadowNode.setFlexBasisPercent(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬ ¬(2 
+Gcom.facebook.react.uimanager.ReactShadowNode.setStyleAspectRatio(float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ(2Â
+bcom.facebook.react.uimanager.ReactShadowNode.setFlexDirection(com.facebook.yoga.YogaFlexDirection)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆(2◊
+Tcom.facebook.react.uimanager.ReactShadowNode.setFlexWrap(com.facebook.yoga.YogaWrap)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »(2Ÿ
+Vcom.facebook.react.uimanager.ReactShadowNode.setAlignSelf(com.facebook.yoga.YogaAlign)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java   (2⁄
+Wcom.facebook.react.uimanager.ReactShadowNode.setAlignItems(com.facebook.yoga.YogaAlign)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÃ Ã(2‹
+Ycom.facebook.react.uimanager.ReactShadowNode.setAlignContent(com.facebook.yoga.YogaAlign)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŒ Œ(2‡
+]com.facebook.react.uimanager.ReactShadowNode.setJustifyContent(com.facebook.yoga.YogaJustify)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java– –(2€
+Xcom.facebook.react.uimanager.ReactShadowNode.setOverflow(com.facebook.yoga.YogaOverflow)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java“ “(2Ÿ
+Vcom.facebook.react.uimanager.ReactShadowNode.setDisplay(com.facebook.yoga.YogaDisplay)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‘ ‘(2≈
+Bcom.facebook.react.uimanager.ReactShadowNode.setMargin(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷ ÷(2Ã
+Icom.facebook.react.uimanager.ReactShadowNode.setMarginPercent(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ ÿ(2¬
+?com.facebook.react.uimanager.ReactShadowNode.setMarginAuto(int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄ ⁄(2ø
+<com.facebook.react.uimanager.ReactShadowNode.getPadding(int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‹ ‹(2ƒ
+Acom.facebook.react.uimanager.ReactShadowNode.getStylePadding(int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaﬁ ﬁ(2Õ
+Jcom.facebook.react.uimanager.ReactShadowNode.setDefaultPadding(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡ ‡(2∆
+Ccom.facebook.react.uimanager.ReactShadowNode.setPadding(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚ ‚(2Õ
+Jcom.facebook.react.uimanager.ReactShadowNode.setPaddingPercent(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰ ‰(2≈
+Bcom.facebook.react.uimanager.ReactShadowNode.setBorder(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ Ê(2«
+Dcom.facebook.react.uimanager.ReactShadowNode.setPosition(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË Ë(2Œ
+Kcom.facebook.react.uimanager.ReactShadowNode.setPositionPercent(int, float)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ Í(2„
+`com.facebook.react.uimanager.ReactShadowNode.setPositionType(com.facebook.yoga.YogaPositionType)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÏ Ï(2–
+Mcom.facebook.react.uimanager.ReactShadowNode.setShouldNotifyOnLayout(boolean)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÓ Ó(2Î
+hcom.facebook.react.uimanager.ReactShadowNode.setBaselineFunction(com.facebook.yoga.YogaBaselineFunction)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java (2È
+fcom.facebook.react.uimanager.ReactShadowNode.setMeasureFunction(com.facebook.yoga.YogaMeasureFunction)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÚ Ú(2¬
+?com.facebook.react.uimanager.ReactShadowNode.isMeasureDefined()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÙ
+ Ù(2π
+6com.facebook.react.uimanager.ReactShadowNode.dispose()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ(2…
+Fcom.facebook.react.uimanager.ReactShadowNode.setMeasureSpecs(int, int)DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(2≈
+Bcom.facebook.react.uimanager.ReactShadowNode.getWidthMeasureSpec()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˙
+ ˙(2∆
+Ccom.facebook.react.uimanager.ReactShadowNode.getHeightMeasureSpec()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¸
+ ¸(2À
+Hcom.facebook.react.uimanager.ReactShadowNode.calculateLayoutOnChildren()DECLARATIONr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˛& ˛(?2≤
+.com.facebook.react.uimanager.ReactShadowNode.TTYPE_PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java.! .("ô
+8com.facebook.react.uimanager.ReactShadowNode.isVirtual()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java5
+ 5("
+isFinalfalse"Ê
+declarationString–<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isVirtual</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*	isVirtual2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java5 5(	´
+>com.facebook.react.uimanager.ReactShadowNode.isVirtualAnchor()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java=
+ =("
+isFinalfalse"Ï
+declarationString÷<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isVirtualAnchor</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isVirtualAnchor2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java= =(	®
+=com.facebook.react.uimanager.ReactShadowNode.isYogaLeafNode()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaE
+ E("
+isFinalfalse"Î
+declarationString’<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isYogaLeafNode</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isYogaLeafNode2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaE E(	∑
+Bcom.facebook.react.uimanager.ReactShadowNode.hoistNativeChildren()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaM
+ M("
+isFinalfalse"
+declarationString⁄<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">hoistNativeChildren</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hoistNativeChildren2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaM M(	ã
+;com.facebook.react.uimanager.ReactShadowNode.getViewClass()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaO	 O("
+isFinalfalse" 
+declarationString¥<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; String <mark class="method">getViewClass</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getViewClass2ë
+java.lang.StringRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaO O(ú
+9com.facebook.react.uimanager.ReactShadowNode.hasUpdates()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaQ
+ Q("
+isFinalfalse"Á
+declarationString—<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">hasUpdates</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+hasUpdates2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaQ Q(	ü
+=com.facebook.react.uimanager.ReactShadowNode.markUpdateSeen()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaS S("
+isFinalfalse"Ë
+declarationString“<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">markUpdateSeen</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*markUpdateSeen2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaS S(ñ
+:com.facebook.react.uimanager.ReactShadowNode.markUpdated()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaU U("
+isFinalfalse"Â
+declarationStringœ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">markUpdated</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*markUpdated2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaU U(Æ
+?com.facebook.react.uimanager.ReactShadowNode.hasUnseenUpdates()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaW
+ W("
+isFinalfalse"Ì
+declarationString◊<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">hasUnseenUpdates</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasUnseenUpdates2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaW W(	Ñ
+4com.facebook.react.uimanager.ReactShadowNode.dirty()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaY Y("
+isFinalfalse"ﬂ
+declarationString…<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">dirty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*dirty2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaY Y(ì
+6com.facebook.react.uimanager.ReactShadowNode.isDirty()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java[
+ [("
+isFinalfalse"‰
+declarationStringŒ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isDirty</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isDirty2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java[ [(	ã	
+?com.facebook.react.uimanager.ReactShadowNode.addChildAt(T, int)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ]("
+isFinalfalse"Ã
+declarationString∂<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">addChildAt</mark>(T child<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> i)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+addChildAt2ƒ
+Ecom.facebook.react.uimanager.ReactShadowNode.addChildAt(T, int)!child	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ](2¿
+Acom.facebook.react.uimanager.ReactShadowNode.addChildAt(T, int)!i	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ]( 2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ](±
+Ecom.facebook.react.uimanager.ReactShadowNode.addChildAt(T, int)!child	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ]("	
+typeT"
+isFinalfalse"
+declarationStringT child*child2®
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ](õ
+Acom.facebook.react.uimanager.ReactShadowNode.addChildAt(T, int)!i	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ]( "
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> i*i2}
+intTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java] ](ﬁ
+?com.facebook.react.uimanager.ReactShadowNode.removeChildAt(int)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java_ _("
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; T <mark class="method">removeChildAt</mark>(<mark class="modifier">int</mark> i)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*removeChildAt2¿
+Acom.facebook.react.uimanager.ReactShadowNode.removeChildAt(int)!i	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java_ _(2Ç
+TRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java_ _(õ
+Acom.facebook.react.uimanager.ReactShadowNode.removeChildAt(int)!i	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java_ _("
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> i*i2}
+intTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java_ _(ô
+<com.facebook.react.uimanager.ReactShadowNode.getChildCount()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaa a("
+isFinalfalse"Ê
+declarationString–<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getChildCount</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getChildCount2Ñ
+intRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaa a(“
+<com.facebook.react.uimanager.ReactShadowNode.getChildAt(int)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javac c("
+isFinalfalse"Ê
+declarationString–<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; T <mark class="method">getChildAt</mark>(<mark class="modifier">int</mark> i)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*
+getChildAt2Ω
+>com.facebook.react.uimanager.ReactShadowNode.getChildAt(int)!i	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javac c(2Ç
+TRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javac c(ò
+>com.facebook.react.uimanager.ReactShadowNode.getChildAt(int)!i	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javac c("
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> i*i2}
+intTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javac c(Œ
+7com.facebook.react.uimanager.ReactShadowNode.indexOf(T)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javae e("
+isFinalfalse"Á
+declarationString—<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">indexOf</mark>(T child)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*indexOf2º
+=com.facebook.react.uimanager.ReactShadowNode.indexOf(T)!child	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javae e(2Ñ
+intRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javae e(©
+=com.facebook.react.uimanager.ReactShadowNode.indexOf(T)!child	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javae e("	
+typeT"
+isFinalfalse"
+declarationStringT child*child2®
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javae e(∆
+Jcom.facebook.react.uimanager.ReactShadowNode.removeAndDisposeAllChildren()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javag g(""
+isFinalfalse"ı
+declarationStringﬂ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">removeAndDisposeAllChildren</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*removeAndDisposeAllChildren2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javag g(ß
+vcom.facebook.react.uimanager.ReactShadowNode.onBeforeLayout(com.facebook.react.uimanager.NativeViewHierarchyOptimizer)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javan n("
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">onBeforeLayout</mark>(NativeViewHierarchyOptimizer nativeViewHierarchyOptimizer)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onBeforeLayout2ì
+ìcom.facebook.react.uimanager.ReactShadowNode.onBeforeLayout(com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!nativeViewHierarchyOptimizer	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javan3 n(O2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javan n(Ô
+ìcom.facebook.react.uimanager.ReactShadowNode.onBeforeLayout(com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!nativeViewHierarchyOptimizer	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javan3 n(O"$
+typeNativeViewHierarchyOptimizer"
+isFinalfalse"N
+declarationString9NativeViewHierarchyOptimizer nativeViewHierarchyOptimizer*nativeViewHierarchyOptimizer2≥
+9com.facebook.react.uimanager.NativeViewHierarchyOptimizerTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javan n(2‚
+ncom.facebook.react.uimanager.ReactShadowNode.updateProperties(com.facebook.react.uimanager.ReactStylesDiffMap)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javap p("
+isFinalfalse"Ç
+declarationStringÏ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">updateProperties</mark>(ReactStylesDiffMap props)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*updateProperties2Û
+tcom.facebook.react.uimanager.ReactShadowNode.updateProperties(com.facebook.react.uimanager.ReactStylesDiffMap)!props	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javap+ p(02Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javap p(É
+tcom.facebook.react.uimanager.ReactShadowNode.updateProperties(com.facebook.react.uimanager.ReactStylesDiffMap)!props	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javap+ p(0"
+typeReactStylesDiffMap"
+isFinalfalse"-
+declarationStringReactStylesDiffMap props*props2©
+/com.facebook.react.uimanager.ReactStylesDiffMapTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javap p(*Ω
+Gcom.facebook.react.uimanager.ReactShadowNode.onAfterUpdateTransaction()METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javar r("
+isFinalfalse"Ú
+declarationString‹<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">onAfterUpdateTransaction</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onAfterUpdateTransaction2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javar r(õ
+ucom.facebook.react.uimanager.ReactShadowNode.onCollectExtraUpdates(com.facebook.react.uimanager.UIViewOperationQueue)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java{ {("
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">onCollectExtraUpdates</mark>(UIViewOperationQueue uiViewOperationQueue)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onCollectExtraUpdates2ä
+äcom.facebook.react.uimanager.ReactShadowNode.onCollectExtraUpdates(com.facebook.react.uimanager.UIViewOperationQueue)!uiViewOperationQueue	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java{2 {(F2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java{ {(æ
+äcom.facebook.react.uimanager.ReactShadowNode.onCollectExtraUpdates(com.facebook.react.uimanager.UIViewOperationQueue)!uiViewOperationQueue	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java{2 {(F"
+typeUIViewOperationQueue"
+isFinalfalse">
+declarationString)UIViewOperationQueue uiViewOperationQueue*uiViewOperationQueue2´
+1com.facebook.react.uimanager.UIViewOperationQueueTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java{ {(1À
+
+Zcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdatesWillChangeLayout(float, float)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java} }(7"
+isFinalfalse"î
+declarationString˛<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">dispatchUpdatesWillChangeLayout</mark>(<mark class="modifier">float</mark> absoluteX<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> absoluteY)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*dispatchUpdatesWillChangeLayout2„
+dcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdatesWillChangeLayout(float, float)!absoluteX	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java}> }(G2„
+dcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdatesWillChangeLayout(float, float)!absoluteY	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java}O }(X2à
+booleanRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java} }(‘
+dcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdatesWillChangeLayout(float, float)!absoluteX	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java}> }(G"
+typefloat"
+isFinalfalse"B
+declarationString-<mark class="modifier">float</mark> absoluteX*	absoluteX2
+floatTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java}8 }(=‘
+dcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdatesWillChangeLayout(float, float)!absoluteY	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java}O }(X"
+typefloat"
+isFinalfalse"B
+declarationString-<mark class="modifier">float</mark> absoluteY*	absoluteY2
+floatTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java}I }(NÕ
+∏com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java ($"
+isFinalfalse"ﬂ
+declarationString…<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">dispatchUpdates</mark>(<mark class="modifier">float</mark> absoluteX<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> absoluteY<mark class="modifier"><mark class="modifier">,</mark></mark> UIViewOperationQueue uiViewOperationQueue<mark class="modifier"><mark class="modifier">,</mark></mark> NativeViewHierarchyOptimizer nativeViewHierarchyOptimizer)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*dispatchUpdates2ƒ
+¬com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!absoluteX	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÄ Ä(2ƒ
+¬com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!absoluteY	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÅ Å(2œ
+Õcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!uiViewOperationQueue	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÇ Ç(/2◊
+’com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!nativeViewHierarchyOptimizer	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÉ# É(?2Ö
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java (∏
+¬com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!absoluteX	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÄ Ä("
+typefloat"
+isFinalfalse"B
+declarationString-<mark class="modifier">float</mark> absoluteX*	absoluteX2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÄ Ä(∏
+¬com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!absoluteY	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÅ Å("
+typefloat"
+isFinalfalse"B
+declarationString-<mark class="modifier">float</mark> absoluteY*	absoluteY2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÅ Å(Ö
+Õcom.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!uiViewOperationQueue	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÇ Ç(/"
+typeUIViewOperationQueue"
+isFinalfalse">
+declarationString)UIViewOperationQueue uiViewOperationQueue*uiViewOperationQueue2≠
+1com.facebook.react.uimanager.UIViewOperationQueueTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÇ Ç(µ
+’com.facebook.react.uimanager.ReactShadowNode.dispatchUpdates(float, float, com.facebook.react.uimanager.UIViewOperationQueue, com.facebook.react.uimanager.NativeViewHierarchyOptimizer)!nativeViewHierarchyOptimizer	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÉ# É(?"$
+typeNativeViewHierarchyOptimizer"
+isFinalfalse"N
+declarationString9NativeViewHierarchyOptimizer nativeViewHierarchyOptimizer*nativeViewHierarchyOptimizer2µ
+9com.facebook.react.uimanager.NativeViewHierarchyOptimizerTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÉ É("ó
+:com.facebook.react.uimanager.ReactShadowNode.getReactTag()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÖ Ö("
+isFinalfalse"‰
+declarationStringŒ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getReactTag</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getReactTag2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÖ Ö(ë
+=com.facebook.react.uimanager.ReactShadowNode.setReactTag(int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á("
+isFinalfalse"è
+declarationString˘<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setReactTag</mark>(<mark class="modifier">int</mark> reactTag)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setReactTag2«
+Fcom.facebook.react.uimanager.ReactShadowNode.setReactTag(int)!reactTag	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á(2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á(≤
+Fcom.facebook.react.uimanager.ReactShadowNode.setReactTag(int)!reactTag	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á("
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> reactTag*reactTag2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á(î
+9com.facebook.react.uimanager.ReactShadowNode.getRootTag()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaâ â("
+isFinalfalse"„
+declarationStringÕ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getRootTag</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*
+getRootTag2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaâ â(ã
+<com.facebook.react.uimanager.ReactShadowNode.setRootTag(int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaã ã("
+isFinalfalse"ç
+declarationString˜<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setRootTag</mark>(<mark class="modifier">int</mark> rootTag)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+setRootTag2≈
+Dcom.facebook.react.uimanager.ReactShadowNode.setRootTag(int)!rootTag	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaã ã(2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaã ã(Æ
+Dcom.facebook.react.uimanager.ReactShadowNode.setRootTag(int)!rootTag	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaã ã("
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> rootTag*rootTag2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaã ã(Æ
+Ocom.facebook.react.uimanager.ReactShadowNode.setViewClassName(java.lang.String)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaç ç("
+isFinalfalse"˛
+declarationStringË<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setViewClassName</mark>(String viewClassName)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setViewClassName2ﬁ
+]com.facebook.react.uimanager.ReactShadowNode.setViewClassName(java.lang.String)!viewClassName	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaç ç(,2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaç ç(…
+]com.facebook.react.uimanager.ReactShadowNode.setViewClassName(java.lang.String)!viewClassName	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaç ç(,"
+typeString"
+isFinalfalse")
+declarationStringString viewClassName*viewClassName2å
+java.lang.StringTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaç ç(õ
+8com.facebook.react.uimanager.ReactShadowNode.getParent()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaê ê("
+isFinalfalse"
+declarationString⁄<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; T <mark class="method">getParent</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*	getParent2Ñ
+TRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaê ê(≠
+>com.facebook.react.uimanager.ReactShadowNode.getLayoutParent()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î("
+isFinalfalse"ˆ
+declarationString‡<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; T <mark class="method">getLayoutParent</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*getLayoutParent2Ñ
+TRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î(Ø
+?com.facebook.react.uimanager.ReactShadowNode.setLayoutParent(T)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ ñ("
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setLayoutParent</mark>(<mark class="annotation">@Nullable</mark> T layoutParent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setLayoutParent2Õ
+Lcom.facebook.react.uimanager.ReactShadowNode.setLayoutParent(T)!layoutParent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ# ñ(/2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ ñ(Ù
+Lcom.facebook.react.uimanager.ReactShadowNode.setLayoutParent(T)!layoutParent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ# ñ(/"	
+typeT"
+isFinalfalse"M
+declarationString8<mark class="annotation">@Nullable</mark> T layoutParent*layoutParent2™
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ! ñ("“
+?com.facebook.react.uimanager.ReactShadowNode.getThemedContext()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaù ù(%"
+isFinalfalse"⁄
+declarationStringƒ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; ThemedReactContext <mark class="method">getThemedContext</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeThemedReactContext*getThemedContext2≤
+/com.facebook.react.uimanager.ThemedReactContextRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaù ù(¯
+ncom.facebook.react.uimanager.ReactShadowNode.setThemedContext(com.facebook.react.uimanager.ThemedReactContext)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaü ü("
+isFinalfalse"ä
+declarationStringÙ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setThemedContext</mark>(ThemedReactContext themedContext)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setThemedContext2˝
+|com.facebook.react.uimanager.ReactShadowNode.setThemedContext(com.facebook.react.uimanager.ThemedReactContext)!themedContext	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaü+ ü(82á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaü ü(ü
+|com.facebook.react.uimanager.ReactShadowNode.setThemedContext(com.facebook.react.uimanager.ThemedReactContext)!themedContext	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaü+ ü(8"
+typeThemedReactContext"
+isFinalfalse"5
+declarationString ThemedReactContext themedContext*themedContext2´
+/com.facebook.react.uimanager.ThemedReactContextTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaü ü(*æ
+Ccom.facebook.react.uimanager.ReactShadowNode.shouldNotifyOnLayout()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java°
+ °("
+isFinalfalse"Ò
+declarationString€<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">shouldNotifyOnLayout</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*shouldNotifyOnLayout2ä
+booleanRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java° °(	¶
+>com.facebook.react.uimanager.ReactShadowNode.calculateLayout()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java£ £("
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">calculateLayout</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*calculateLayout2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java£ £(Ï	
+Jcom.facebook.react.uimanager.ReactShadowNode.calculateLayout(float, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java• •("
+isFinalfalse"˙
+declarationString‰<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">calculateLayout</mark>(<mark class="modifier">float</mark> width<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> height)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*calculateLayout2—
+Pcom.facebook.react.uimanager.ReactShadowNode.calculateLayout(float, float)!width	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java• •("2“
+Qcom.facebook.react.uimanager.ReactShadowNode.calculateLayout(float, float)!height	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java•* •(02á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java• •(Ω
+Pcom.facebook.react.uimanager.ReactShadowNode.calculateLayout(float, float)!width	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java• •(""
+typefloat"
+isFinalfalse">
+declarationString)<mark class="modifier">float</mark> width*width2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java• •(¿
+Qcom.facebook.react.uimanager.ReactShadowNode.calculateLayout(float, float)!height	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java•* •(0"
+typefloat"
+isFinalfalse"?
+declarationString*<mark class="modifier">float</mark> height*height2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java•$ •()¶
+;com.facebook.react.uimanager.ReactShadowNode.hasNewLayout()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaß
+ ß("
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">hasNewLayout</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasNewLayout2ä
+booleanRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaß ß(	£
+=com.facebook.react.uimanager.ReactShadowNode.markLayoutSeen()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java© ©("
+isFinalfalse"Ë
+declarationString“<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">markLayoutSeen</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*markLayoutSeen2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java© ©(≈	
+Ecom.facebook.react.uimanager.ReactShadowNode.addNativeChildAt(T, int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ Ø("
+isFinalfalse"‹
+declarationString∆<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">addNativeChildAt</mark>(T child<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> nativeIndex)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*addNativeChildAt2Ã
+Kcom.facebook.react.uimanager.ReactShadowNode.addNativeChildAt(T, int)!child	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ Ø(2“
+Qcom.facebook.react.uimanager.ReactShadowNode.addNativeChildAt(T, int)!nativeIndex	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ% Ø(02á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ Ø(ª
+Kcom.facebook.react.uimanager.ReactShadowNode.addNativeChildAt(T, int)!child	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ Ø("	
+typeT"
+isFinalfalse"
+declarationStringT child*child2™
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ Ø(√
+Qcom.facebook.react.uimanager.ReactShadowNode.addNativeChildAt(T, int)!nativeIndex	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ% Ø(0"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> nativeIndex*nativeIndex2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaØ! Ø($¸
+Ecom.facebook.react.uimanager.ReactShadowNode.removeNativeChildAt(int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java± ±("
+isFinalfalse"Ô
+declarationStringŸ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; T <mark class="method">removeNativeChildAt</mark>(<mark class="modifier">int</mark> i)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*removeNativeChildAt2»
+Gcom.facebook.react.uimanager.ReactShadowNode.removeNativeChildAt(int)!i	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java± ±(2Ñ
+TRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java± ±(•
+Gcom.facebook.react.uimanager.ReactShadowNode.removeNativeChildAt(int)!i	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java± ±("
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> i*i2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java± ±(æ
+Fcom.facebook.react.uimanager.ReactShadowNode.removeAllNativeChildren()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≥ ≥("
+isFinalfalse"Ò
+declarationString€<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">removeAllNativeChildren</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*removeAllNativeChildren2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≥ ≥(Ø
+Bcom.facebook.react.uimanager.ReactShadowNode.getNativeChildCount()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaµ µ("
+isFinalfalse"Ï
+declarationString÷<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getNativeChildCount</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getNativeChildCount2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaµ µ(å
+Bcom.facebook.react.uimanager.ReactShadowNode.indexOfNativeChild(T)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∑ ∑("
+isFinalfalse"¯
+declarationString‚<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">indexOfNativeChild</mark>(T nativeChild)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*indexOfNativeChild2œ
+Ncom.facebook.react.uimanager.ReactShadowNode.indexOfNativeChild(T)!nativeChild	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∑ ∑(&2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∑ ∑( 
+Ncom.facebook.react.uimanager.ReactShadowNode.indexOfNativeChild(T)!nativeChild	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∑ ∑(&"	
+typeT"
+isFinalfalse""
+declarationStringT nativeChild*nativeChild2™
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∑ ∑(≠
+>com.facebook.react.uimanager.ReactShadowNode.getNativeParent()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫("
+isFinalfalse"ˆ
+declarationString‡<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; T <mark class="method">getNativeParent</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*getNativeParent2Ñ
+TRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫(µ
+Ecom.facebook.react.uimanager.ReactShadowNode.setIsLayoutOnly(boolean)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setIsLayoutOnly</mark>(<mark class="modifier">boolean</mark> isLayoutOnly)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setIsLayoutOnly2”
+Rcom.facebook.react.uimanager.ReactShadowNode.setIsLayoutOnly(boolean)!isLayoutOnly	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(+2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(”
+Rcom.facebook.react.uimanager.ReactShadowNode.setIsLayoutOnly(boolean)!isLayoutOnly	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(+"
+typeboolean"
+isFinalfalse"G
+declarationString2<mark class="modifier">boolean</mark> isLayoutOnly*isLayoutOnly2É
+booleanTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(¶
+;com.facebook.react.uimanager.ReactShadowNode.isLayoutOnly()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬
+ ¬("
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isLayoutOnly</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isLayoutOnly2ä
+booleanRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬ ¬(	±
+<com.facebook.react.uimanager.ReactShadowNode.getNativeKind()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ("
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; NativeKind <mark class="method">getNativeKind</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type
+NativeKind*getNativeKind2™
+'com.facebook.react.uimanager.NativeKindRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ(∏
+Ecom.facebook.react.uimanager.ReactShadowNode.getTotalNativeChildren()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆("
+isFinalfalse"Ô
+declarationStringŸ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getTotalNativeChildren</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getTotalNativeChildren2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆(ä
+>com.facebook.react.uimanager.ReactShadowNode.isDescendantOf(T)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java»
+ »("
+isFinalfalse"˘
+declarationString„<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isDescendantOf</mark>(T ancestorNode)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isDescendantOf2Ã
+Kcom.facebook.react.uimanager.ReactShadowNode.isDescendantOf(T)!ancestorNode	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »('2ä
+booleanRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »(	…
+Kcom.facebook.react.uimanager.ReactShadowNode.isDescendantOf(T)!ancestorNode	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »('"	
+typeT"
+isFinalfalse"#
+declarationStringT ancestorNode*ancestorNode2™
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »(õ
+?com.facebook.react.uimanager.ReactShadowNode.getHierarchyInfo()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÕ	 Õ("
+isFinalfalse"Œ
+declarationString∏<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; String <mark class="method">getHierarchyInfo</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getHierarchyInfo2ì
+java.lang.StringRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÕ Õ(å
+Kcom.facebook.react.uimanager.ReactShadowNode.setLocalData(java.lang.Object)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŸ Ÿ("
+isFinalfalse"Ò
+declarationString€<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setLocalData</mark>(Object data)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setLocalData2—
+Pcom.facebook.react.uimanager.ReactShadowNode.setLocalData(java.lang.Object)!data	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŸ Ÿ(2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŸ Ÿ(™
+Pcom.facebook.react.uimanager.ReactShadowNode.setLocalData(java.lang.Object)!data	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŸ Ÿ("
+typeObject"
+isFinalfalse" 
+declarationStringObject data*data2å
+java.lang.ObjectTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŸ Ÿ(î
+Gcom.facebook.react.uimanager.ReactShadowNode.getNativeOffsetForChild(T)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ("
+isFinalfalse"˜
+declarationString·<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getNativeOffsetForChild</mark>(T child)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getNativeOffsetForChild2Œ
+Mcom.facebook.react.uimanager.ReactShadowNode.getNativeOffsetForChild(T)!child	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ  ˆ(%2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ(Ω
+Mcom.facebook.react.uimanager.ReactShadowNode.getNativeOffsetForChild(T)!child	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ  ˆ(%"	
+typeT"
+isFinalfalse"
+declarationStringT child*child2™
+.com.facebook.react.uimanager.ReactShadowNode.TTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ(ö
+9com.facebook.react.uimanager.ReactShadowNode.getLayoutX()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯("
+isFinalfalse"Â
+declarationStringœ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">float</mark> <mark class="method">getLayoutX</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typefloat*
+getLayoutX2à
+floatRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(ö
+9com.facebook.react.uimanager.ReactShadowNode.getLayoutY()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˙ ˙("
+isFinalfalse"Â
+declarationStringœ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">float</mark> <mark class="method">getLayoutY</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typefloat*
+getLayoutY2à
+floatRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˙ ˙(¶
+=com.facebook.react.uimanager.ReactShadowNode.getLayoutWidth()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¸ ¸("
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">float</mark> <mark class="method">getLayoutWidth</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typefloat*getLayoutWidth2à
+floatRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¸ ¸(©
+>com.facebook.react.uimanager.ReactShadowNode.getLayoutHeight()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˛ ˛("
+isFinalfalse"Í
+declarationString‘<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">float</mark> <mark class="method">getLayoutHeight</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typefloat*getLayoutHeight2à
+floatRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˛ ˛(î
+9com.facebook.react.uimanager.ReactShadowNode.getScreenX()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÅ Å("
+isFinalfalse"„
+declarationStringÕ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getScreenX</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*
+getScreenX2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÅ Å(î
+9com.facebook.react.uimanager.ReactShadowNode.getScreenY()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÑ Ñ("
+isFinalfalse"„
+declarationStringÕ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getScreenY</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*
+getScreenY2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÑ Ñ(†
+=com.facebook.react.uimanager.ReactShadowNode.getScreenWidth()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á("
+isFinalfalse"Á
+declarationString—<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getScreenWidth</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getScreenWidth2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaá á(£
+>com.facebook.react.uimanager.ReactShadowNode.getScreenHeight()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaä ä("
+isFinalfalse"Ë
+declarationString“<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getScreenHeight</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getScreenHeight2Ü
+intRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaä ä(æ
+Acom.facebook.react.uimanager.ReactShadowNode.getLayoutDirection()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaå å(""
+isFinalfalse"◊
+declarationString¡<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; YogaDirection <mark class="method">getLayoutDirection</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeYogaDirection*getLayoutDirection2¢
+com.facebook.yoga.YogaDirectionRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaå å(”
+`com.facebook.react.uimanager.ReactShadowNode.setLayoutDirection(com.facebook.yoga.YogaDirection)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaé é("
+isFinalfalse"É
+declarationStringÌ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setLayoutDirection</mark>(YogaDirection direction)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setLayoutDirection2Î
+jcom.facebook.react.uimanager.ReactShadowNode.setLayoutDirection(com.facebook.yoga.YogaDirection)!direction	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaé( é(12á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaé é(Î
+jcom.facebook.react.uimanager.ReactShadowNode.setLayoutDirection(com.facebook.yoga.YogaDirection)!direction	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaé( é(1"
+typeYogaDirection"
+isFinalfalse",
+declarationStringYogaDirection direction*	direction2õ
+com.facebook.yoga.YogaDirectionTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaé é('£
+<com.facebook.react.uimanager.ReactShadowNode.getStyleWidth()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaê ê("
+isFinalfalse"Œ
+declarationString∏<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; YogaValue <mark class="method">getStyleWidth</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	YogaValue*getStyleWidth2û
+com.facebook.yoga.YogaValueRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaê ê(ù
+Acom.facebook.react.uimanager.ReactShadowNode.setStyleWidth(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaí í("
+isFinalfalse"í
+declarationString¸<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleWidth</mark>(<mark class="modifier">float</mark> widthPx)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleWidth2 
+Icom.facebook.react.uimanager.ReactShadowNode.setStyleWidth(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaí í("2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaí í(∫
+Icom.facebook.react.uimanager.ReactShadowNode.setStyleWidth(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaí í(""
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> widthPx*widthPx2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaí í(π
+Hcom.facebook.react.uimanager.ReactShadowNode.setStyleWidthPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î("
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleWidthPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleWidthPercent2—
+Pcom.facebook.react.uimanager.ReactShadowNode.setStyleWidthPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî" î()2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î(¡
+Pcom.facebook.react.uimanager.ReactShadowNode.setStyleWidthPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî" î()"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaî î(!¨
+@com.facebook.react.uimanager.ReactShadowNode.setStyleWidthAuto()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ ñ("
+isFinalfalse"Î
+declarationString’<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleWidthAuto</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleWidthAuto2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javañ ñ(©
+Dcom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidth(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaò ò("
+isFinalfalse"ï
+declarationStringˇ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMinWidth</mark>(<mark class="modifier">float</mark> widthPx)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMinWidth2Õ
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidth(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaò ò(%2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaò ò(Ω
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidth(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaò ò(%"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> widthPx*widthPx2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaò ò(≈
+Kcom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidthPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaö ö("
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMinWidthPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMinWidthPercent2‘
+Scom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidthPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaö% ö(,2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaö ö(ƒ
+Scom.facebook.react.uimanager.ReactShadowNode.setStyleMinWidthPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaö% ö(,"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaö ö($©
+Dcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidth(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaú ú("
+isFinalfalse"ï
+declarationStringˇ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMaxWidth</mark>(<mark class="modifier">float</mark> widthPx)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMaxWidth2Õ
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidth(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaú ú(%2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaú ú(Ω
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidth(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaú ú(%"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> widthPx*widthPx2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaú ú(≈
+Kcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidthPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaû û("
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMaxWidthPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMaxWidthPercent2‘
+Scom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidthPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaû% û(,2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaû û(ƒ
+Scom.facebook.react.uimanager.ReactShadowNode.setStyleMaxWidthPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaû% û(,"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaû û($¶
+=com.facebook.react.uimanager.ReactShadowNode.getStyleHeight()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java† †("
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; YogaValue <mark class="method">getStyleHeight</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	YogaValue*getStyleHeight2û
+com.facebook.yoga.YogaValueRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java† †(ë
+6com.facebook.react.uimanager.ReactShadowNode.getFlex()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¢ ¢("
+isFinalfalse"‚
+declarationStringÃ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">float</mark> <mark class="method">getFlex</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typefloat*getFlex2à
+floatRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¢ ¢(£
+Bcom.facebook.react.uimanager.ReactShadowNode.setStyleHeight(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java§ §("
+isFinalfalse"î
+declarationString˛<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleHeight</mark>(<mark class="modifier">float</mark> heightPx)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleHeight2Ã
+Kcom.facebook.react.uimanager.ReactShadowNode.setStyleHeight(float)!heightPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java§ §($2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java§ §(æ
+Kcom.facebook.react.uimanager.ReactShadowNode.setStyleHeight(float)!heightPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java§ §($"
+typefloat"
+isFinalfalse"A
+declarationString,<mark class="modifier">float</mark> heightPx*heightPx2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java§ §(Ω
+Icom.facebook.react.uimanager.ReactShadowNode.setStyleHeightPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¶ ¶("
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleHeightPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleHeightPercent2“
+Qcom.facebook.react.uimanager.ReactShadowNode.setStyleHeightPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¶# ¶(*2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¶ ¶(¬
+Qcom.facebook.react.uimanager.ReactShadowNode.setStyleHeightPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¶# ¶(*"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¶ ¶("Ø
+Acom.facebook.react.uimanager.ReactShadowNode.setStyleHeightAuto()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java® ®("
+isFinalfalse"Ï
+declarationString÷<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleHeightAuto</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleHeightAuto2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java® ®(≠
+Ecom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeight(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java™ ™("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMinHeight</mark>(<mark class="modifier">float</mark> widthPx)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMinHeight2Œ
+Mcom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeight(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java™ ™(&2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java™ ™(æ
+Mcom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeight(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java™ ™(&"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> widthPx*widthPx2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java™ ™(…
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeightPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¨ ¨("
+isFinalfalse"ù
+declarationStringá<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMinHeightPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMinHeightPercent2’
+Tcom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeightPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¨& ¨(-2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¨ ¨(≈
+Tcom.facebook.react.uimanager.ReactShadowNode.setStyleMinHeightPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¨& ¨(-"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¨  ¨(%≠
+Ecom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeight(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÆ Æ("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMaxHeight</mark>(<mark class="modifier">float</mark> widthPx)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMaxHeight2Œ
+Mcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeight(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÆ Æ(&2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÆ Æ(æ
+Mcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeight(float)!widthPx	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÆ Æ(&"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> widthPx*widthPx2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÆ Æ(…
+Lcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeightPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∞ ∞("
+isFinalfalse"ù
+declarationStringá<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleMaxHeightPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleMaxHeightPercent2’
+Tcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeightPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∞& ∞(-2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∞ ∞(≈
+Tcom.facebook.react.uimanager.ReactShadowNode.setStyleMaxHeightPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∞& ∞(-"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∞  ∞(%ˇ
+;com.facebook.react.uimanager.ReactShadowNode.setFlex(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≤ ≤("
+isFinalfalse"â
+declarationStringÛ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlex</mark>(<mark class="modifier">float</mark> flex)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlex2¡
+@com.facebook.react.uimanager.ReactShadowNode.setFlex(float)!flex	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≤ ≤(2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≤ ≤(´
+@com.facebook.react.uimanager.ReactShadowNode.setFlex(float)!flex	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≤ ≤("
+typefloat"
+isFinalfalse"=
+declarationString(<mark class="modifier">float</mark> flex*flex2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java≤ ≤(ó
+?com.facebook.react.uimanager.ReactShadowNode.setFlexGrow(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¥ ¥("
+isFinalfalse"ë
+declarationString˚<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexGrow</mark>(<mark class="modifier">float</mark> flexGrow)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexGrow2…
+Hcom.facebook.react.uimanager.ReactShadowNode.setFlexGrow(float)!flexGrow	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¥ ¥(!2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¥ ¥(ª
+Hcom.facebook.react.uimanager.ReactShadowNode.setFlexGrow(float)!flexGrow	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¥ ¥(!"
+typefloat"
+isFinalfalse"A
+declarationString,<mark class="modifier">float</mark> flexGrow*flexGrow2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¥ ¥(ã
+=com.facebook.react.uimanager.ReactShadowNode.setRowGap(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∂ ∂("
+isFinalfalse"ç
+declarationString˜<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setRowGap</mark>(<mark class="modifier">float</mark> rowGap)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	setRowGap2≈
+Dcom.facebook.react.uimanager.ReactShadowNode.setRowGap(float)!rowGap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∂ ∂(2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∂ ∂(≥
+Dcom.facebook.react.uimanager.ReactShadowNode.setRowGap(float)!rowGap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∂ ∂("
+typefloat"
+isFinalfalse"?
+declarationString*<mark class="modifier">float</mark> rowGap*rowGap2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∂ ∂(ù
+@com.facebook.react.uimanager.ReactShadowNode.setColumnGap(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∏ ∏("
+isFinalfalse"ì
+declarationString˝<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setColumnGap</mark>(<mark class="modifier">float</mark> columnGap)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setColumnGap2À
+Jcom.facebook.react.uimanager.ReactShadowNode.setColumnGap(float)!columnGap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∏ ∏(#2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∏ ∏(ø
+Jcom.facebook.react.uimanager.ReactShadowNode.setColumnGap(float)!columnGap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∏ ∏(#"
+typefloat"
+isFinalfalse"B
+declarationString-<mark class="modifier">float</mark> columnGap*	columnGap2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∏ ∏(˘
+:com.facebook.react.uimanager.ReactShadowNode.setGap(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫("
+isFinalfalse"á
+declarationStringÒ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setGap</mark>(<mark class="modifier">float</mark> gap)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setGap2ø
+>com.facebook.react.uimanager.ReactShadowNode.setGap(float)!gap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫(2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫(ß
+>com.facebook.react.uimanager.ReactShadowNode.setGap(float)!gap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫("
+typefloat"
+isFinalfalse"<
+declarationString'<mark class="modifier">float</mark> gap*gap2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∫ ∫(£
+Acom.facebook.react.uimanager.ReactShadowNode.setFlexShrink(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaº º("
+isFinalfalse"ï
+declarationStringˇ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexShrink</mark>(<mark class="modifier">float</mark> flexShrink)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexShrink2Õ
+Lcom.facebook.react.uimanager.ReactShadowNode.setFlexShrink(float)!flexShrink	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaº º(%2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaº º(√
+Lcom.facebook.react.uimanager.ReactShadowNode.setFlexShrink(float)!flexShrink	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaº º(%"
+typefloat"
+isFinalfalse"C
+declarationString.<mark class="modifier">float</mark> flexShrink*
+flexShrink2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaº º(ù
+@com.facebook.react.uimanager.ReactShadowNode.setFlexBasis(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaæ æ("
+isFinalfalse"ì
+declarationString˝<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexBasis</mark>(<mark class="modifier">float</mark> flexBasis)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexBasis2À
+Jcom.facebook.react.uimanager.ReactShadowNode.setFlexBasis(float)!flexBasis	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaæ æ(#2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaæ æ(ø
+Jcom.facebook.react.uimanager.ReactShadowNode.setFlexBasis(float)!flexBasis	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaæ æ(#"
+typefloat"
+isFinalfalse"B
+declarationString-<mark class="modifier">float</mark> flexBasis*	flexBasis2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaæ æ(©
+?com.facebook.react.uimanager.ReactShadowNode.setFlexBasisAuto()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿("
+isFinalfalse"Í
+declarationString‘<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexBasisAuto</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexBasisAuto2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¿ ¿(µ
+Gcom.facebook.react.uimanager.ReactShadowNode.setFlexBasisPercent(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬ ¬("
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexBasisPercent</mark>(<mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexBasisPercent2–
+Ocom.facebook.react.uimanager.ReactShadowNode.setFlexBasisPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬! ¬((2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬ ¬(¿
+Ocom.facebook.react.uimanager.ReactShadowNode.setFlexBasisPercent(float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬! ¬(("
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¬ ¬( Ω
+Gcom.facebook.react.uimanager.ReactShadowNode.setStyleAspectRatio(float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ("
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setStyleAspectRatio</mark>(<mark class="modifier">float</mark> aspectRatio)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setStyleAspectRatio2‘
+Scom.facebook.react.uimanager.ReactShadowNode.setStyleAspectRatio(float)!aspectRatio	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ! ƒ(,2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ(Ã
+Scom.facebook.react.uimanager.ReactShadowNode.setStyleAspectRatio(float)!aspectRatio	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ! ƒ(,"
+typefloat"
+isFinalfalse"D
+declarationString/<mark class="modifier">float</mark> aspectRatio*aspectRatio2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaƒ ƒ( ﬂ
+bcom.facebook.react.uimanager.ReactShadowNode.setFlexDirection(com.facebook.yoga.YogaFlexDirection)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆("
+isFinalfalse"â
+declarationStringÛ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexDirection</mark>(YogaFlexDirection flexDirection)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexDirection2Ò
+pcom.facebook.react.uimanager.ReactShadowNode.setFlexDirection(com.facebook.yoga.YogaFlexDirection)!flexDirection	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆* ∆(72á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆(Ö
+pcom.facebook.react.uimanager.ReactShadowNode.setFlexDirection(com.facebook.yoga.YogaFlexDirection)!flexDirection	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆* ∆(7"
+typeYogaFlexDirection"
+isFinalfalse"4
+declarationStringYogaFlexDirection flexDirection*flexDirection2ü
+#com.facebook.yoga.YogaFlexDirectionTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java∆ ∆()û
+Tcom.facebook.react.uimanager.ReactShadowNode.setFlexWrap(com.facebook.yoga.YogaWrap)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »("
+isFinalfalse"Ú
+declarationString‹<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setFlexWrap</mark>(YogaWrap wrap)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFlexWrap2⁄
+Ycom.facebook.react.uimanager.ReactShadowNode.setFlexWrap(com.facebook.yoga.YogaWrap)!wrap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »( 2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »(¡
+Ycom.facebook.react.uimanager.ReactShadowNode.setFlexWrap(com.facebook.yoga.YogaWrap)!wrap	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »( "
+typeYogaWrap"
+isFinalfalse""
+declarationStringYogaWrap wrap*wrap2ñ
+com.facebook.yoga.YogaWrapTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java» »(Ø
+Vcom.facebook.react.uimanager.ReactShadowNode.setAlignSelf(com.facebook.yoga.YogaAlign)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java   ("
+isFinalfalse"˘
+declarationString„<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setAlignSelf</mark>(YogaAlign alignSelf)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setAlignSelf2·
+`com.facebook.react.uimanager.ReactShadowNode.setAlignSelf(com.facebook.yoga.YogaAlign)!alignSelf	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java   ('2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java   (’
+`com.facebook.react.uimanager.ReactShadowNode.setAlignSelf(com.facebook.yoga.YogaAlign)!alignSelf	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java   ('"
+type	YogaAlign"
+isFinalfalse"(
+declarationStringYogaAlign alignSelf*	alignSelf2ó
+com.facebook.yoga.YogaAlignTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java   (µ
+Wcom.facebook.react.uimanager.ReactShadowNode.setAlignItems(com.facebook.yoga.YogaAlign)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÃ Ã("
+isFinalfalse"˚
+declarationStringÂ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setAlignItems</mark>(YogaAlign alignItems)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setAlignItems2„
+bcom.facebook.react.uimanager.ReactShadowNode.setAlignItems(com.facebook.yoga.YogaAlign)!alignItems	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÃ Ã()2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÃ Ã(Ÿ
+bcom.facebook.react.uimanager.ReactShadowNode.setAlignItems(com.facebook.yoga.YogaAlign)!alignItems	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÃ Ã()"
+type	YogaAlign"
+isFinalfalse")
+declarationStringYogaAlign alignItems*
+alignItems2ó
+com.facebook.yoga.YogaAlignTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÃ Ã(¡
+Ycom.facebook.react.uimanager.ReactShadowNode.setAlignContent(com.facebook.yoga.YogaAlign)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŒ Œ("
+isFinalfalse"ˇ
+declarationStringÈ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setAlignContent</mark>(YogaAlign alignContent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setAlignContent2Á
+fcom.facebook.react.uimanager.ReactShadowNode.setAlignContent(com.facebook.yoga.YogaAlign)!alignContent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŒ! Œ(-2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŒ Œ(·
+fcom.facebook.react.uimanager.ReactShadowNode.setAlignContent(com.facebook.yoga.YogaAlign)!alignContent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŒ! Œ(-"
+type	YogaAlign"
+isFinalfalse"+
+declarationStringYogaAlign alignContent*alignContent2ó
+com.facebook.yoga.YogaAlignTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaŒ Œ( ”
+]com.facebook.react.uimanager.ReactShadowNode.setJustifyContent(com.facebook.yoga.YogaJustify)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java– –("
+isFinalfalse"Ö
+declarationStringÔ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setJustifyContent</mark>(YogaJustify justifyContent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setJustifyContent2Ì
+lcom.facebook.react.uimanager.ReactShadowNode.setJustifyContent(com.facebook.yoga.YogaJustify)!justifyContent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java–% –(32á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java– –(Ò
+lcom.facebook.react.uimanager.ReactShadowNode.setJustifyContent(com.facebook.yoga.YogaJustify)!justifyContent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java–% –(3"
+typeYogaJustify"
+isFinalfalse"/
+declarationStringYogaJustify justifyContent*justifyContent2ô
+com.facebook.yoga.YogaJustifyTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java– –($≤
+Xcom.facebook.react.uimanager.ReactShadowNode.setOverflow(com.facebook.yoga.YogaOverflow)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java“ “("
+isFinalfalse"˙
+declarationString‰<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setOverflow</mark>(YogaOverflow overflow)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setOverflow2‚
+acom.facebook.react.uimanager.ReactShadowNode.setOverflow(com.facebook.yoga.YogaOverflow)!overflow	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java“  “((2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java“ “(›
+acom.facebook.react.uimanager.ReactShadowNode.setOverflow(com.facebook.yoga.YogaOverflow)!overflow	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java“  “(("
+typeYogaOverflow"
+isFinalfalse"*
+declarationStringYogaOverflow overflow*overflow2ö
+com.facebook.yoga.YogaOverflowTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java“ “(©
+Vcom.facebook.react.uimanager.ReactShadowNode.setDisplay(com.facebook.yoga.YogaDisplay)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‘ ‘("
+isFinalfalse"˜
+declarationString·<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setDisplay</mark>(YogaDisplay display)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+setDisplay2ﬂ
+^com.facebook.react.uimanager.ReactShadowNode.setDisplay(com.facebook.yoga.YogaDisplay)!display	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‘ ‘(%2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‘ ‘(’
+^com.facebook.react.uimanager.ReactShadowNode.setDisplay(com.facebook.yoga.YogaDisplay)!display	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‘ ‘(%"
+typeYogaDisplay"
+isFinalfalse"(
+declarationStringYogaDisplay display*display2ô
+com.facebook.yoga.YogaDisplayTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‘ ‘(“	
+Bcom.facebook.react.uimanager.ReactShadowNode.setMargin(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷ ÷("
+isFinalfalse"¯
+declarationString‚<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setMargin</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> margin)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	setMargin2œ
+Ncom.facebook.react.uimanager.ReactShadowNode.setMargin(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷ ÷( 2 
+Icom.facebook.react.uimanager.ReactShadowNode.setMargin(int, float)!margin	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷( ÷(.2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷ ÷(¿
+Ncom.facebook.react.uimanager.ReactShadowNode.setMargin(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷ ÷( "
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷ ÷(∏
+Icom.facebook.react.uimanager.ReactShadowNode.setMargin(int, float)!margin	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷( ÷(."
+typefloat"
+isFinalfalse"?
+declarationString*<mark class="modifier">float</mark> margin*margin2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java÷" ÷('˜	
+Icom.facebook.react.uimanager.ReactShadowNode.setMarginPercent(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ ÿ("
+isFinalfalse"Ä
+declarationStringÍ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setMarginPercent</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setMarginPercent2÷
+Ucom.facebook.react.uimanager.ReactShadowNode.setMarginPercent(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ ÿ('2“
+Qcom.facebook.react.uimanager.ReactShadowNode.setMarginPercent(int, float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ/ ÿ(62á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ ÿ(«
+Ucom.facebook.react.uimanager.ReactShadowNode.setMarginPercent(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ ÿ('"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ ÿ(¬
+Qcom.facebook.react.uimanager.ReactShadowNode.setMarginPercent(int, float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ/ ÿ(6"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÿ) ÿ(.ü
+?com.facebook.react.uimanager.ReactShadowNode.setMarginAuto(int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄ ⁄("
+isFinalfalse"î
+declarationString˛<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setMarginAuto</mark>(<mark class="modifier">int</mark> spacingType)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setMarginAuto2Ã
+Kcom.facebook.react.uimanager.ReactShadowNode.setMarginAuto(int)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄ ⁄($2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄ ⁄(Ω
+Kcom.facebook.react.uimanager.ReactShadowNode.setMarginAuto(int)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄ ⁄($"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java⁄ ⁄(ñ
+<com.facebook.react.uimanager.ReactShadowNode.getPadding(int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‹ ‹("
+isFinalfalse"í
+declarationString¸<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">float</mark> <mark class="method">getPadding</mark>(<mark class="modifier">int</mark> spacingType)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typefloat*
+getPadding2…
+Hcom.facebook.react.uimanager.ReactShadowNode.getPadding(int)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‹ ‹("2à
+floatRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‹ ‹(∫
+Hcom.facebook.react.uimanager.ReactShadowNode.getPadding(int)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‹ ‹(""
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‹ ‹(™
+Acom.facebook.react.uimanager.ReactShadowNode.getStylePadding(int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaﬁ ﬁ("
+isFinalfalse"˝
+declarationStringÁ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; YogaValue <mark class="method">getStylePadding</mark>(<mark class="modifier">int</mark> spacingType)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	YogaValue*getStylePadding2Œ
+Mcom.facebook.react.uimanager.ReactShadowNode.getStylePadding(int)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaﬁ  ﬁ(+2û
+com.facebook.yoga.YogaValueRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaﬁ ﬁ(ø
+Mcom.facebook.react.uimanager.ReactShadowNode.getStylePadding(int)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaﬁ  ﬁ(+"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaﬁ ﬁ(¸	
+Jcom.facebook.react.uimanager.ReactShadowNode.setDefaultPadding(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡ ‡("
+isFinalfalse"Å
+declarationStringÎ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setDefaultPadding</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> padding)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setDefaultPadding2◊
+Vcom.facebook.react.uimanager.ReactShadowNode.setDefaultPadding(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡ ‡((2”
+Rcom.facebook.react.uimanager.ReactShadowNode.setDefaultPadding(int, float)!padding	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡0 ‡(72á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡ ‡(»
+Vcom.facebook.react.uimanager.ReactShadowNode.setDefaultPadding(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡ ‡(("
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡ ‡(√
+Rcom.facebook.react.uimanager.ReactShadowNode.setDefaultPadding(int, float)!padding	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡0 ‡(7"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> padding*padding2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‡* ‡(/Ÿ	
+Ccom.facebook.react.uimanager.ReactShadowNode.setPadding(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚ ‚("
+isFinalfalse"˙
+declarationString‰<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setPadding</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> padding)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+setPadding2–
+Ocom.facebook.react.uimanager.ReactShadowNode.setPadding(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚ ‚(!2Ã
+Kcom.facebook.react.uimanager.ReactShadowNode.setPadding(int, float)!padding	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚) ‚(02á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚ ‚(¡
+Ocom.facebook.react.uimanager.ReactShadowNode.setPadding(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚ ‚(!"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚ ‚(º
+Kcom.facebook.react.uimanager.ReactShadowNode.setPadding(int, float)!padding	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚) ‚(0"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> padding*padding2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‚# ‚((¸	
+Jcom.facebook.react.uimanager.ReactShadowNode.setPaddingPercent(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰ ‰("
+isFinalfalse"Å
+declarationStringÎ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setPaddingPercent</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setPaddingPercent2◊
+Vcom.facebook.react.uimanager.ReactShadowNode.setPaddingPercent(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰ ‰((2”
+Rcom.facebook.react.uimanager.ReactShadowNode.setPaddingPercent(int, float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰0 ‰(72á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰ ‰(»
+Vcom.facebook.react.uimanager.ReactShadowNode.setPaddingPercent(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰ ‰(("
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰ ‰(√
+Rcom.facebook.react.uimanager.ReactShadowNode.setPaddingPercent(int, float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰0 ‰(7"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java‰* ‰(/‹	
+Bcom.facebook.react.uimanager.ReactShadowNode.setBorder(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ Ê("
+isFinalfalse"˝
+declarationStringÁ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setBorder</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> borderWidth)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	setBorder2œ
+Ncom.facebook.react.uimanager.ReactShadowNode.setBorder(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ Ê( 2œ
+Ncom.facebook.react.uimanager.ReactShadowNode.setBorder(int, float)!borderWidth	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ( Ê(32á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ Ê(¿
+Ncom.facebook.react.uimanager.ReactShadowNode.setBorder(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ Ê( "
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ Ê(«
+Ncom.facebook.react.uimanager.ReactShadowNode.setBorder(int, float)!borderWidth	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ( Ê(3"
+typefloat"
+isFinalfalse"D
+declarationString/<mark class="modifier">float</mark> borderWidth*borderWidth2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÊ" Ê('‡	
+Dcom.facebook.react.uimanager.ReactShadowNode.setPosition(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË Ë("
+isFinalfalse"¸
+declarationStringÊ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setPosition</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> position)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setPosition2—
+Pcom.facebook.react.uimanager.ReactShadowNode.setPosition(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË Ë("2Œ
+Mcom.facebook.react.uimanager.ReactShadowNode.setPosition(int, float)!position	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË* Ë(22á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË Ë(¬
+Pcom.facebook.react.uimanager.ReactShadowNode.setPosition(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË Ë(""
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË Ë(¿
+Mcom.facebook.react.uimanager.ReactShadowNode.setPosition(int, float)!position	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË* Ë(2"
+typefloat"
+isFinalfalse"A
+declarationString,<mark class="modifier">float</mark> position*position2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaË$ Ë()Å
+
+Kcom.facebook.react.uimanager.ReactShadowNode.setPositionPercent(int, float)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ Í("
+isFinalfalse"Ç
+declarationStringÏ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setPositionPercent</mark>(<mark class="modifier">int</mark> spacingType<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> percent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setPositionPercent2ÿ
+Wcom.facebook.react.uimanager.ReactShadowNode.setPositionPercent(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ Í()2‘
+Scom.facebook.react.uimanager.ReactShadowNode.setPositionPercent(int, float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ1 Í(82á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ Í(…
+Wcom.facebook.react.uimanager.ReactShadowNode.setPositionPercent(int, float)!spacingType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ Í()"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> spacingType*spacingType2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ Í(ƒ
+Scom.facebook.react.uimanager.ReactShadowNode.setPositionPercent(int, float)!percent	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ1 Í(8"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> percent*percent2Å
+floatTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÍ+ Í(0÷
+`com.facebook.react.uimanager.ReactShadowNode.setPositionType(com.facebook.yoga.YogaPositionType)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÏ Ï("
+isFinalfalse"Ü
+declarationString<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setPositionType</mark>(YogaPositionType positionType)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setPositionType2Ó
+mcom.facebook.react.uimanager.ReactShadowNode.setPositionType(com.facebook.yoga.YogaPositionType)!positionType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÏ( Ï(42á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÏ Ï(˝
+mcom.facebook.react.uimanager.ReactShadowNode.setPositionType(com.facebook.yoga.YogaPositionType)!positionType	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÏ( Ï(4"
+typeYogaPositionType"
+isFinalfalse"2
+declarationStringYogaPositionType positionType*positionType2û
+"com.facebook.yoga.YogaPositionTypeTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÏ Ï('Â
+Mcom.facebook.react.uimanager.ReactShadowNode.setShouldNotifyOnLayout(boolean)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÓ Ó("
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setShouldNotifyOnLayout</mark>(<mark class="modifier">boolean</mark> shouldNotifyOnLayout)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setShouldNotifyOnLayout2„
+bcom.facebook.react.uimanager.ReactShadowNode.setShouldNotifyOnLayout(boolean)!shouldNotifyOnLayout	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÓ' Ó(;2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÓ Ó(Û
+bcom.facebook.react.uimanager.ReactShadowNode.setShouldNotifyOnLayout(boolean)!shouldNotifyOnLayout	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÓ' Ó(;"
+typeboolean"
+isFinalfalse"O
+declarationString:<mark class="modifier">boolean</mark> shouldNotifyOnLayout*shouldNotifyOnLayout2É
+booleanTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÓ Ó(&˙
+hcom.facebook.react.uimanager.ReactShadowNode.setBaselineFunction(com.facebook.yoga.YogaBaselineFunction)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java ("
+isFinalfalse"í
+declarationString¸<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setBaselineFunction</mark>(YogaBaselineFunction baselineFunction)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setBaselineFunction2˙
+ycom.facebook.react.uimanager.ReactShadowNode.setBaselineFunction(com.facebook.yoga.YogaBaselineFunction)!baselineFunction	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java0 (@2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java (ù
+ycom.facebook.react.uimanager.ReactShadowNode.setBaselineFunction(com.facebook.yoga.YogaBaselineFunction)!baselineFunction	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java0 (@"
+typeYogaBaselineFunction"
+isFinalfalse":
+declarationString%YogaBaselineFunction baselineFunction*baselineFunction2¢
+&com.facebook.yoga.YogaBaselineFunctionTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java (/Ò
+fcom.facebook.react.uimanager.ReactShadowNode.setMeasureFunction(com.facebook.yoga.YogaMeasureFunction)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÚ Ú("
+isFinalfalse"è
+declarationString˘<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setMeasureFunction</mark>(YogaMeasureFunction measureFunction)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setMeasureFunction2˜
+vcom.facebook.react.uimanager.ReactShadowNode.setMeasureFunction(com.facebook.yoga.YogaMeasureFunction)!measureFunction	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÚ. Ú(=2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÚ Ú(ï
+vcom.facebook.react.uimanager.ReactShadowNode.setMeasureFunction(com.facebook.yoga.YogaMeasureFunction)!measureFunction	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÚ. Ú(="
+typeYogaMeasureFunction"
+isFinalfalse"8
+declarationString#YogaMeasureFunction measureFunction*measureFunction2°
+%com.facebook.yoga.YogaMeasureFunctionTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÚ Ú(-≤
+?com.facebook.react.uimanager.ReactShadowNode.isMeasureDefined()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÙ
+ Ù("
+isFinalfalse"Ì
+declarationString◊<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isMeasureDefined</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isMeasureDefined2ä
+booleanRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaÙ Ù(	é
+6com.facebook.react.uimanager.ReactShadowNode.dispose()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ("
+isFinalfalse"·
+declarationStringÀ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">dispose</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*dispose2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.javaˆ ˆ(à
+
+Fcom.facebook.react.uimanager.ReactShadowNode.setMeasureSpecs(int, int)METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯("
+isFinalfalse"å
+declarationStringˆ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setMeasureSpecs</mark>(<mark class="modifier">int</mark> widthMeasureSpec<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> heightMeasureSpec)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setMeasureSpecs2ÿ
+Wcom.facebook.react.uimanager.ReactShadowNode.setMeasureSpecs(int, int)!widthMeasureSpec	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(+2Ÿ
+Xcom.facebook.react.uimanager.ReactShadowNode.setMeasureSpecs(int, int)!heightMeasureSpec	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯1 ¯(B2á
+voidRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(”
+Wcom.facebook.react.uimanager.ReactShadowNode.setMeasureSpecs(int, int)!widthMeasureSpec	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(+"
+typeint"
+isFinalfalse"G
+declarationString2<mark class="modifier">int</mark> widthMeasureSpec*widthMeasureSpec2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯ ¯(÷
+Xcom.facebook.react.uimanager.ReactShadowNode.setMeasureSpecs(int, int)!heightMeasureSpec	PARAMETERr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯1 ¯(B"
+typeint"
+isFinalfalse"H
+declarationString3<mark class="modifier">int</mark> heightMeasureSpec*heightMeasureSpec2
+intTYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¯- ¯(0ß
+Bcom.facebook.react.uimanager.ReactShadowNode.getWidthMeasureSpec()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˙
+ ˙("
+isFinalfalse"“
+declarationStringº<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; Integer <mark class="method">getWidthMeasureSpec</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeInteger*getWidthMeasureSpec2î
+java.lang.IntegerRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˙ ˙(	™
+Ccom.facebook.react.uimanager.ReactShadowNode.getHeightMeasureSpec()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¸
+ ¸("
+isFinalfalse"”
+declarationStringΩ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; Integer <mark class="method">getHeightMeasureSpec</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeInteger*getHeightMeasureSpec2î
+java.lang.IntegerRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java¸ ¸(	¯
+Hcom.facebook.react.uimanager.ReactShadowNode.calculateLayoutOnChildren()METHODr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˛& ˛(?"
+isFinalfalse"˙
+declarationString‰<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ReactShadowNode</mark></mark>&gt; Iterable&lt;? extends ReactShadowNode&gt; <mark class="method">calculateLayoutOnChildren</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"+
+type#Iterable<? extends ReactShadowNode>*calculateLayoutOnChildren2ï
+java.lang.IterableRETURN_TYPEr
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java˛ ˛(
+‡
+.com.facebook.react.uimanager.ReactShadowNode.TTYPE_PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java.! .("*T2®
+,com.facebook.react.uimanager.ReactShadowNodeEXTENDp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ReactShadowNode.java.+ .(:

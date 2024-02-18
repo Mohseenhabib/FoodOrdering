@@ -1,0 +1,590 @@
+
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java¬/
+.com.facebook.react.modules.fresco.FrescoModuleCLASSr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java% %(",
+package!com.facebook.react.modules.fresco"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"˚
+declarationStringÂ<mark class="annotation">@ReactModule(name = FrescoModule.NAME, needsEagerInit = true)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>FrescoModule<mark class="modifier"> extends </mark>ReactContextBaseJavaModule<mark class="modifier"><br>implements </mark>ModuleDataCleaner.Cleanable, LifecycleEventListener, TurboModule"
+accesspublic*FrescoModule2Ò
+ncom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java5	 5(2˙
+wcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA	 A(2™
+¶com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaM	 M(2≥
+Øcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java]	 ](2∞
+¨com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javat	 t(2æ
+;com.facebook.react.modules.fresco.FrescoModule.initialize()DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java~ ~(2Ω
+8com.facebook.react.modules.fresco.FrescoModule.getName()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaì ì(2»
+Ccom.facebook.react.modules.fresco.FrescoModule.clearSensitiveData()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaò ò( 2»
+Ccom.facebook.react.modules.fresco.FrescoModule.hasBeenInitialized()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java§ §(*2Ï
+gcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfig(com.facebook.react.bridge.ReactContext)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java®% ®(52Û
+ncom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≤, ≤(C2¬
+=com.facebook.react.modules.fresco.FrescoModule.onHostResume()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≈ ≈(2¡
+<com.facebook.react.modules.fresco.FrescoModule.onHostPause()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java» »(2√
+>com.facebook.react.modules.fresco.FrescoModule.onHostDestroy()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÀ À(2∆
+Acom.facebook.react.modules.fresco.FrescoModule.getImagePipeline()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‘ ‘((2¿
+;com.facebook.react.modules.fresco.FrescoModule.invalidate()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‹ ‹(2¬
+?com.facebook.react.modules.fresco.FrescoModule?NAME@40.29:40.33DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java( ((!2Õ
+Jcom.facebook.react.modules.fresco.FrescoModule?mClearOnDestroy@41.24:41.39DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java) )('2≈
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java*( *(/2Ã
+Icom.facebook.react.modules.fresco.FrescoModule?mImagePipeline@43.34:43.48DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java+" +(02—
+Ncom.facebook.react.modules.fresco.FrescoModule?sHasBeenInitialized@45.25:45.44DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java- -(,2ª
+=com.facebook.react.modules.common.ModuleDataCleaner.CleanableEXTENDr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java&! &(*2Æ
+0com.facebook.react.bridge.LifecycleEventListenerEXTENDr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java&, &(B2â
+TurboModuleEXTENDr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java&D &(O2≤
+4com.facebook.react.bridge.ReactContextBaseJavaModuleEXTENDr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java%" %(<∑
+ncom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTORr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java5	 5("à
+declarationStrings<mark class="modifier">public </mark><mark class="method">FrescoModule</mark>(ReactApplicationContext reactContext)*FrescoModule2˜
+{com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext)!reactContextCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java6	 6(2¸
+{com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java5. 5(:2±
+.com.facebook.react.modules.fresco.FrescoModuleRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java5	 5(®
+{com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java5. 5(:"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2≠
+1com.facebook.react.bridge.ReactApplicationContextTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java5 5(-ÿ
+wcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)CONSTRUCTORr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA	 A("˚
+declarationStringÂ<mark class="modifier">public </mark><mark class="method">FrescoModule</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> clearOnDestroy)*FrescoModule2Å
+Ñcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)!reactContextCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaB	 B(2É
+Ücom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)!clearOnDestroyCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaB B(%2Ü
+Ñcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA. A(:2à
+Ücom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaAD A(R2±
+.com.facebook.react.modules.fresco.FrescoModuleRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA	 A(≤
+Ñcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA. A(:"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2≠
+1com.facebook.react.bridge.ReactApplicationContextTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA A(-å
+Ücom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaAD A(R"
+typeboolean"
+isFinalfalse"I
+declarationString4<mark class="modifier">boolean</mark> clearOnDestroy*clearOnDestroy2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaA< A(C¥
+¶com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)CONSTRUCTORr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaM	 M("˛
+declarationStringË<mark class="modifier">public </mark><mark class="method">FrescoModule</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ImagePipeline imagePipeline<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> clearOnDestroy)*FrescoModule2∞
+≥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!reactContextCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaQ	 Q(2±
+¥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!imagePipelineCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaQ Q($2≤
+µcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!clearOnDestroyCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaQ& Q(42µ
+≥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaN N(*2∂
+¥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!imagePipeline	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaO O(+2∑
+µcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaP P(2±
+.com.facebook.react.modules.fresco.FrescoModuleRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaM	 M(·
+≥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaN N(*"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2≠
+1com.facebook.react.bridge.ReactApplicationContextTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaN N(ˆ
+¥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!imagePipeline	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaO O(+"
+typeImagePipeline"
+isFinalfalse"Z
+declarationStringE<mark class="annotation">@Nullable</mark> ImagePipeline imagePipeline*imagePipeline2©
+-com.facebook.imagepipeline.core.ImagePipelineTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaO O(ª
+µcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaP P("
+typeboolean"
+isFinalfalse"I
+declarationString4<mark class="modifier">boolean</mark> clearOnDestroy*clearOnDestroy2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaP P(•
+Øcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)CONSTRUCTORr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java]	 ]("˛
+declarationStringË<mark class="modifier">public </mark><mark class="method">FrescoModule</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ImagePipeline imagePipeline<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> clearOnDestroy<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> hasBeenInitializedExternally)*FrescoModule2π
+ºcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!reactContextCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javab	 b(2ª
+æcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!clearOnDestroyCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javab b(%2≈
+Icom.facebook.react.modules.fresco.FrescoModule?mImagePipeline@43.34:43.48CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javac c(2∫
+Ωcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!imagePipelineCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javac c("2…
+Ãcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!hasBeenInitializedExternallyCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javad d($2 
+Ncom.facebook.react.modules.fresco.FrescoModule?sHasBeenInitialized@45.25:45.44CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javae e(2æ
+ºcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java^ ^(*2ø
+Ωcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!imagePipeline	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java_ _(+2¿
+æcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java` `(2Œ
+Ãcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!hasBeenInitializedExternally	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaa a(*2±
+.com.facebook.react.modules.fresco.FrescoModuleRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java]	 ](Í
+ºcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java^ ^(*"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2≠
+1com.facebook.react.bridge.ReactApplicationContextTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java^ ^(ˇ
+Ωcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!imagePipeline	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java_ _(+"
+typeImagePipeline"
+isFinalfalse"Z
+declarationStringE<mark class="annotation">@Nullable</mark> ImagePipeline imagePipeline*imagePipeline2©
+-com.facebook.imagepipeline.core.ImagePipelineTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java_ _(ƒ
+æcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java` `("
+typeboolean"
+isFinalfalse"I
+declarationString4<mark class="modifier">boolean</mark> clearOnDestroy*clearOnDestroy2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java` `(Ó
+Ãcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, boolean, boolean)!hasBeenInitializedExternally	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaa a(*"
+typeboolean"
+isFinalfalse"W
+declarationStringB<mark class="modifier">boolean</mark> hasBeenInitializedExternally*hasBeenInitializedExternally2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaa a(€
+¨com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)CONSTRUCTORr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javat	 t("˝
+declarationStringÁ<mark class="modifier">public </mark><mark class="method">FrescoModule</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> clearOnDestroy<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ImagePipelineConfig config)*FrescoModule2ˇ
+Çcom.facebook.react.bridge.ReactContextBaseJavaModule.ReactContextBaseJavaModule(com.facebook.react.bridge.ReactApplicationContext)CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javax x(	2∂
+πcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!reactContextCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javax
+ x(2∆
+Jcom.facebook.react.modules.fresco.FrescoModule?mClearOnDestroy@41.24:41.39CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javay y(2∏
+ªcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!clearOnDestroyCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javay y($2æ
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaz z(2∞
+≥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!configCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaz z(2ª
+πcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javau u(*2Ω
+ªcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javav v(2µ
+≥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!config	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaw$ w(*2±
+.com.facebook.react.modules.fresco.FrescoModuleRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javat	 t(Á
+πcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javau u(*"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2≠
+1com.facebook.react.bridge.ReactApplicationContextTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javau u(¡
+ªcom.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!clearOnDestroy	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javav v("
+typeboolean"
+isFinalfalse"I
+declarationString4<mark class="modifier">boolean</mark> clearOnDestroy*clearOnDestroy2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javav v(˘
+≥com.facebook.react.modules.fresco.FrescoModule.FrescoModule(com.facebook.react.bridge.ReactApplicationContext, boolean, com.facebook.imagepipeline.core.ImagePipelineConfig)!config	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaw$ w(*"
+typeImagePipelineConfig"
+isFinalfalse"Y
+declarationStringD<mark class="annotation">@Nullable</mark> ImagePipelineConfig config*config2Ø
+3com.facebook.imagepipeline.core.ImagePipelineConfigTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaw w(#Å
+;com.facebook.react.modules.fresco.FrescoModule.initialize()METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java~ ~("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">initialize</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+initialize2±
+5com.facebook.react.bridge.BaseJavaModule.initialize()CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java
+ (2œ
+Qcom.facebook.react.bridge.ReactContextBaseJavaModule.getReactApplicationContext()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÅ+ Å(E2¡
+Ccom.facebook.react.modules.fresco.FrescoModule.hasBeenInitialized()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÉ	 É(2Â
+gcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfig(com.facebook.react.bridge.ReactContext)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÖ Ö("2‘
+Vcom.facebook.react.modules.fresco.FrescoModule.initialize()?reactContext@129.28:129.40CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÇ Ç(2¿
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÑ
+ Ñ(2¿
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÖ Ö(2‘
+Vcom.facebook.react.modules.fresco.FrescoModule.initialize()?reactContext@129.28:129.40CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÖ# Ö(/2‘
+Vcom.facebook.react.modules.fresco.FrescoModule.initialize()?reactContext@129.28:129.40CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaá á($2¿
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaá> á(E2Ã
+Ncom.facebook.react.modules.fresco.FrescoModule?sHasBeenInitialized@45.25:45.44CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaà à(2¿
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaâ â(2¿
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaè è(2µ
+5com.facebook.react.bridge.BaseJavaModule.initialize()OVERRIDEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java~ ~(2≥
+3com.facebook.react.bridge.NativeModule.initialize()OVERRIDEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java~ ~(2€
+Vcom.facebook.react.modules.fresco.FrescoModule.initialize()?reactContext@129.28:129.40DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÅ Å((2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java~	 ~(π
+Vcom.facebook.react.modules.fresco.FrescoModule.initialize()?reactContext@129.28:129.40VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÅ Å(("
+typeReactApplicationContext"
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier"> </mark>ReactApplicationContext <mark class="class-field">reactContext</mark> = getReactApplicationContext()*reactContext2Ø
+1com.facebook.react.bridge.ReactApplicationContextTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÅ Å(2œ
+Qcom.facebook.react.bridge.ReactContextBaseJavaModule.getReactApplicationContext()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÅ+ Å(E¡
+8com.facebook.react.modules.fresco.FrescoModule.getName()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaì ì("
+isFinalfalse"î
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2Ω
+?com.facebook.react.modules.fresco.FrescoModule?NAME@40.29:40.33CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaî î(2≤
+0com.facebook.react.bridge.NativeModule.getName()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaì ì(2ï
+java.lang.StringRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaì	 ì(ï
+Ccom.facebook.react.modules.fresco.FrescoModule.clearSensitiveData()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaò ò( "
+isFinalfalse"º
+declarationString¶<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">clearSensitiveData</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*clearSensitiveData2ø
+Acom.facebook.react.modules.fresco.FrescoModule.getImagePipeline()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaö ö(2‘
+Rcom.facebook.react.modules.common.ModuleDataCleaner.Cleanable.clearSensitiveData()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaò ò( 2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaò	 ò( 
+Ccom.facebook.react.modules.fresco.FrescoModule.hasBeenInitialized()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java§ §(*"
+isFinalfalse"∂
+declarationString†<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">hasBeenInitialized</mark>()"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*hasBeenInitialized2Ã
+Ncom.facebook.react.modules.fresco.FrescoModule?sHasBeenInitialized@45.25:45.44CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java• •(2å
+booleanRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java§ §(´
+gcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfig(com.facebook.react.bridge.ReactContext)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java®% ®(5"
+isFinalfalse"∑
+declarationString°<mark class="modifier">private </mark><mark class="modifier">static </mark>ImagePipelineConfig <mark class="method">getDefaultConfig</mark>(ReactContext context)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeImagePipelineConfig*getDefaultConfig2Ï
+ncom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java© ©("2Ì
+ocom.facebook.react.modules.fresco.FrescoModule.getDefaultConfig(com.facebook.react.bridge.ReactContext)!contextCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java©# ©(*2Ú
+ocom.facebook.react.modules.fresco.FrescoModule.getDefaultConfig(com.facebook.react.bridge.ReactContext)!context	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java®C ®(J2∏
+3com.facebook.imagepipeline.core.ImagePipelineConfigRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java® ®($ı
+ocom.facebook.react.modules.fresco.FrescoModule.getDefaultConfig(com.facebook.react.bridge.ReactContext)!context	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java®C ®(J"
+typeReactContext"
+isFinalfalse")
+declarationStringReactContext context*context2§
+&com.facebook.react.bridge.ReactContextTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java®6 ®(Bú,
+ncom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≤, ≤(C"
+isFinalfalse"≈
+declarationStringØ<mark class="modifier">public </mark><mark class="modifier">static </mark>ImagePipelineConfig.Builder <mark class="method">getDefaultConfigBuilder</mark>(ReactContext context)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"#
+typeImagePipelineConfig.Builder*getDefaultConfigBuilder2ñ
+java.util.HashSet.add(E)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java¥ ¥(2ƒ
+Fcom.facebook.react.modules.network.OkHttpClientProvider.createClient()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∂/ ∂(;2ô
+java.util.HashSet.HashSet()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≥4 ≥(=2—
+Scom.facebook.react.modules.fresco.SystraceRequestListener.SystraceRequestListener()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java¥ ¥(42¯
+zcom.facebook.react.modules.network.ForwardingCookieHandler.ForwardingCookieHandler(com.facebook.react.bridge.ReactContext)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaª* ª(A2È
+kcom.facebook.react.modules.fresco.ReactOkHttpNetworkFetcher.ReactOkHttpNetworkFetcher(okhttp3.OkHttpClient)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaø ø(82å
+çcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?requestListeners@179.29:179.45CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java¥ ¥(2Ç
+Écom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?client@182.17:182.23CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∫8 ∫(>2Ù
+vcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)!contextCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaªB ª(I2Ö
+Ücom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?container@186.23:186.32CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaº º(2É
+Ñcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?handler@187.28:187.35CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaº0 º(72Ù
+vcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)!contextCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaæ7 æ(>2Ç
+Écom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?client@182.17:182.23CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaæX æ(^2Ç
+Écom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?client@182.17:182.23CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaø9 ø(?2å
+çcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?requestListeners@179.29:179.45CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java¡ ¡(-2˘
+vcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)!context	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≤Q ≤(X2ì
+çcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?requestListeners@179.29:179.45DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≥ ≥(-2â
+Écom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?client@182.17:182.23DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∂ ∂(2å
+Ücom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?container@186.23:186.32DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∫ ∫( 2ä
+Ñcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?handler@187.28:187.35DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaª ª(#2¿
+;com.facebook.imagepipeline.core.ImagePipelineConfig.BuilderRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≤$ ≤(+‘
+çcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?requestListeners@179.29:179.45VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≥ ≥(-" 
+typeHashSet<RequestListener>"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>HashSet<RequestListener> <mark class="class-field">requestListeners</mark> = new HashSet<>()*requestListeners2è
+java.util.HashSetTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≥ ≥(2∫
+3com.facebook.imagepipeline.listener.RequestListenerTYPE_ARGUMENTt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≥ ≥(2ô
+java.util.HashSet.HashSet()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≥4 ≥(=£
+Écom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?client@182.17:182.23VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∂ ∂("
+typeOkHttpClient"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>OkHttpClient <mark class="class-field">client</mark> = OkHttpClientProvider.createClient()*client2í
+okhttp3.OkHttpClientTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∂ ∂(2ƒ
+Fcom.facebook.react.modules.network.OkHttpClientProvider.createClient()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∂/ ∂(;ú
+Ücom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?container@186.23:186.32VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∫ ∫( "
+typeCookieJarContainer"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>CookieJarContainer <mark class="class-field">container</mark> = (CookieJarContainer) client.cookieJar()*	container2≥
+5com.facebook.react.modules.network.CookieJarContainerTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∫ ∫(2Ç
+Écom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?client@182.17:182.23CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java∫8 ∫(>è	
+Ñcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)?handler@187.28:187.35VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaª ª(#"
+typeForwardingCookieHandler"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>ForwardingCookieHandler <mark class="class-field">handler</mark> = new ForwardingCookieHandler(context)*handler2∏
+:com.facebook.react.modules.network.ForwardingCookieHandlerTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaª ª(2¯
+zcom.facebook.react.modules.network.ForwardingCookieHandler.ForwardingCookieHandler(com.facebook.react.bridge.ReactContext)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaª* ª(A2Ù
+vcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)!contextCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaªB ª(I¸
+vcom.facebook.react.modules.fresco.FrescoModule.getDefaultConfigBuilder(com.facebook.react.bridge.ReactContext)!context	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≤Q ≤(X"
+typeReactContext"
+isFinalfalse")
+declarationStringReactContext context*context2§
+&com.facebook.react.bridge.ReactContextTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≤D ≤(PÆ
+=com.facebook.react.modules.fresco.FrescoModule.onHostResume()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≈ ≈("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostResume</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostResume2¡
+?com.facebook.react.bridge.LifecycleEventListener.onHostResume()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≈ ≈(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java≈	 ≈(™
+<com.facebook.react.modules.fresco.FrescoModule.onHostPause()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java» »("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostPause</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostPause2¿
+>com.facebook.react.bridge.LifecycleEventListener.onHostPause()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java» »(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java»	 »(É
+>com.facebook.react.modules.fresco.FrescoModule.onHostDestroy()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÀ À("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostDestroy2¡
+Ccom.facebook.react.modules.fresco.FrescoModule.hasBeenInitialized()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaœ œ(2ø
+Acom.facebook.react.modules.fresco.FrescoModule.getImagePipeline()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java– –(2»
+Jcom.facebook.react.modules.fresco.FrescoModule?mClearOnDestroy@41.24:41.39CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaœ  œ(/2¬
+@com.facebook.react.bridge.LifecycleEventListener.onHostDestroy()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÀ À(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÀ	 À(√	
+Acom.facebook.react.modules.fresco.FrescoModule.getImagePipeline()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‘ ‘(("
+isFinalfalse"w
+declarationStringb<mark class="modifier">private </mark>ImagePipeline <mark class="method">getImagePipeline</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeImagePipeline*getImagePipeline2«
+Icom.facebook.react.modules.fresco.FrescoModule?mImagePipeline@43.34:43.48CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java’ ’(2«
+Icom.facebook.react.modules.fresco.FrescoModule?mImagePipeline@43.34:43.48CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java÷ ÷(2«
+Icom.facebook.react.modules.fresco.FrescoModule?mImagePipeline@43.34:43.48CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaÿ ÿ(2≤
+-com.facebook.imagepipeline.core.ImagePipelineRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‘
+ ‘(ﬁ
+
+;com.facebook.react.modules.fresco.FrescoModule.invalidate()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‹ ‹("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">invalidate</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+invalidate2œ
+Qcom.facebook.react.bridge.ReactContextBaseJavaModule.getReactApplicationContext()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java› ›(2≥
+5com.facebook.react.bridge.BaseJavaModule.invalidate()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.javaﬁ
+ ﬁ(2∑
+5com.facebook.react.bridge.BaseJavaModule.invalidate()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‹ ‹(2µ
+3com.facebook.react.bridge.NativeModule.invalidate()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‹ ‹(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java‹	 ‹(€
+?com.facebook.react.modules.fresco.FrescoModule?NAME@40.29:40.33VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java( ((!"
+isFinaltrue"
+typeString"¬
+declarationString¨<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">NAME</mark> = "FrescoModule";"
+isStatictrue"
+accesspublic*NAME2å
+java.lang.StringTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java( ((ﬂ
+Jcom.facebook.react.modules.fresco.FrescoModule?mClearOnDestroy@41.24:41.39VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java) )('"
+isFinaltrue"
+typeboolean"∂
+declarationString†<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">boolean</mark> <mark class="class-field">mClearOnDestroy</mark>"
+isStaticfalse"
+accessprivate*mClearOnDestroy2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java) )(À
+Bcom.facebook.react.modules.fresco.FrescoModule?mConfig@42.40:42.47VARIABLEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java*( *(/"
+isFinalfalse"
+typeImagePipelineConfig"w
+declarationStringb<mark class="modifier">private </mark>ImagePipelineConfig <mark class="class-field">mConfig</mark>"
+isStaticfalse"
+accessprivate*mConfig2Ø
+3com.facebook.imagepipeline.core.ImagePipelineConfigTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java* *('Œ
+Icom.facebook.react.modules.fresco.FrescoModule?mImagePipeline@43.34:43.48VARIABLEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java+" +(0"
+isFinalfalse"
+typeImagePipeline"x
+declarationStringc<mark class="modifier">private </mark>ImagePipeline <mark class="class-field">mImagePipeline</mark>"
+isStaticfalse"
+accessprivate*mImagePipeline2©
+-com.facebook.imagepipeline.core.ImagePipelineTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java+ +(!ñ
+Ncom.facebook.react.modules.fresco.FrescoModule?sHasBeenInitialized@45.25:45.44VARIABLEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java- -(,"
+isFinalfalse"
+typeboolean"‚
+declarationStringÃ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="class-field">sHasBeenInitialized</mark> = <mark class="modifier">false</mark>;"
+isStatictrue"
+accessprivate*sHasBeenInitialized2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/FrescoModule.java- -(

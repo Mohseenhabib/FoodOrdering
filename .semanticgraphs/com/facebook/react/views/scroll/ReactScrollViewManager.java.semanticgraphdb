@@ -1,0 +1,1832 @@
+
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÊj
+6com.facebook.react.views.scroll.ReactScrollViewManagerCLASSz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java* *(#"*
+packagecom.facebook.react.views.scroll"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"é
+declarationString¯<mark class="annotation">@ReactModule(name = ReactScrollViewManager.REACT_CLASS)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ReactScrollViewManager<mark class="modifier"> extends </mark>ViewGroupManager<ReactScrollView><mark class="modifier"><br>implements </mark>ReactScrollViewCommandHelper.ScrollCommandHandler&lt;ReactScrollView&gt;"
+accesspublic*ReactScrollViewManager2⁄
+Ocom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java5	 5(2Ö
+zcom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager(com.facebook.react.views.scroll.FpsListener)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java9	 9(2À
+@com.facebook.react.views.scroll.ReactScrollViewManager.getName()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java> >(2Ö
+zcom.facebook.react.views.scroll.ReactScrollViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaC C(+2ç
+Åcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH H(2ú
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQ Q(-2é
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV V(!2ó
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[ [((2å
+Äcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java` `(2≠
+°com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag g(2ò
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav v( 2ä
+com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{ {(2ä
+}com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ Ä(2ó
+âcom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ Ö(&2î
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí í(#2ò
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû û(2è
+Åcom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£ £(2å
+com.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ Ø( 2ô
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ µ(2ï
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫ ∫($2‘
+Gcom.facebook.react.views.scroll.ReactScrollViewManager.getCommandsMap()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaø( ø(62≤
+§com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaƒ ƒ(2ø
+±com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java   (2ä
+}com.facebook.react.views.scroll.ReactScrollViewManager.flashScrollIndicators(com.facebook.react.views.scroll.ReactScrollView)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java– –(#2–
+¬com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java’ ’(2ë
+Écom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË Ë(2ñ
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı ı(2ê
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ Ç(2ú
+écom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí í(2ì
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô ô(2÷
+»com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû û(2ï
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥ ≥($2é
+Äcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏ ∏(!2≠
+ücom.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√ √(2æ
+∞com.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java» »(/2›
+œcom.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java“ “(2Ô
+bcom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ' Ÿ(P2Ú
+ecom.facebook.react.views.scroll.ReactScrollViewManager.createExportedCustomDirectEventTypeConstants()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‚$ ‚(P2ò
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜ ˜(2ë
+Écom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸ ¸($2õ
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ Å(*2Ÿ
+Ncom.facebook.react.views.scroll.ReactScrollViewManager?REACT_CLASS@45.29:45.40DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java- -((2€
+Pcom.facebook.react.views.scroll.ReactScrollViewManager?SPACING_TYPES@47.29:47.42DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java/ /(*2⁄
+Ocom.facebook.react.views.scroll.ReactScrollViewManager?mFpsListener@51.32:51.44DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java3  3(,2◊
+Qcom.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollCommandHandlerEXTENDz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java+, +(@2≥
+-com.facebook.react.uimanager.ViewGroupManagerEXTENDz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java*, *(<2√
+/com.facebook.react.views.scroll.ReactScrollViewEXTEND_TYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java+A +(P2√
+/com.facebook.react.views.scroll.ReactScrollViewEXTEND_TYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java*= *(L¶
+Ocom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager()CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java5	 5("n
+declarationStringY<mark class="modifier">public </mark><mark class="method">ReactScrollViewManager</mark>()*ReactScrollViewManager2¡
+6com.facebook.react.views.scroll.ReactScrollViewManagerRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java5	 5(ã
+zcom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager(com.facebook.react.views.scroll.FpsListener)CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java9	 9("∞
+declarationStringö<mark class="modifier">public </mark><mark class="method">ReactScrollViewManager</mark>(<mark class="annotation">@Nullable</mark> FpsListener fpsListener)*ReactScrollViewManager2”
+Ocom.facebook.react.views.scroll.ReactScrollViewManager?mFpsListener@51.32:51.44CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java: :(2ã
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager(com.facebook.react.views.scroll.FpsListener)!fpsListenerCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java: :(2ê
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager(com.facebook.react.views.scroll.FpsListener)!fpsListener	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java96 9(A2¡
+6com.facebook.react.views.scroll.ReactScrollViewManagerRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java9	 9(Œ
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.ReactScrollViewManager(com.facebook.react.views.scroll.FpsListener)!fpsListener	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java96 9(A"
+typeFpsListener"
+isFinalfalse"V
+declarationStringA<mark class="annotation">@Nullable</mark> FpsListener fpsListener*fpsListener2Ø
++com.facebook.react.views.scroll.FpsListenerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java9* 9(5≠	
+@com.facebook.react.views.scroll.ReactScrollViewManager.getName()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java> >("
+isFinalfalse"î
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2“
+Ncom.facebook.react.views.scroll.ReactScrollViewManager?REACT_CLASS@45.29:45.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java? ?(2∫
+2com.facebook.react.uimanager.ViewManager.getName()OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java> >(2∏
+0com.facebook.react.bridge.NativeModule.getName()OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java> >(2õ
+java.lang.StringRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java>	 >(Î
+zcom.facebook.react.views.scroll.ReactScrollViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaC C(+"
+isFinalfalse"√
+declarationString≠<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>ReactScrollView <mark class="method">createViewInstance</mark>(ThemedReactContext context)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeReactScrollView*createViewInstance2á
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!contextCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaD D(&2”
+Ocom.facebook.react.views.scroll.ReactScrollViewManager?mFpsListener@51.32:51.44CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaD( D(42å
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!context	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaC? C(F2∫
+/com.facebook.react.views.scroll.ReactScrollViewRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaC	 C(™
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!context	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaC? C(F"
+typeThemedReactContext"
+isFinalfalse"/
+declarationStringThemedReactContext context*context2≥
+/com.facebook.react.uimanager.ThemedReactContextTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaC, C(>›
+Åcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH H("
+isFinalfalse"£
+declarationStringç<mark class="annotation">@ReactProp(name</mark> = "scrollEnabled"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultBoolean = true) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setScrollEnabled</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setScrollEnabled2Õ
+Icom.facebook.react.views.scroll.ReactScrollView.setScrollEnabled(boolean)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaI	 I(2ã
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaI I(2å
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!valueCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaI I(2ã
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaM M(2å
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!valueCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaM M(2ê
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH/ H(32ë
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH= H(B2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH	 H(¢
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH/ H(3"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH H(.ã
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH= H(B"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaH5 H(<ï
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQ Q(-"
+isFinalfalse"Ó
+declarationStringÿ<mark class="annotation">@ReactProp(name</mark> = "showsVerticalScrollIndicator") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setShowsVerticalScrollIndicator</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setShowsVerticalScrollIndicator2ö
+ïcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaR R(2õ
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)!valueCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaR% R(*2ü
+ïcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQ> Q(B2†
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQL Q(Q2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQ	 Q(±
+ïcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQ> Q(B"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQ. Q(=ö
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setShowsVerticalScrollIndicator(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQL Q(Q"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaQD Q(Kõ
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV V(!"
+isFinalfalse"ﬂ
+declarationString…<mark class="annotation">@ReactProp(name</mark> = "decelerationRate") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setDecelerationRate</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> decelerationRate)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setDecelerationRate2Œ
+Jcom.facebook.react.views.scroll.ReactScrollView.setDecelerationRate(float)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaW	 W(2å
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaW W(2ò
+ìcom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)!decelerationRateCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaW W(-2ë
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV2 V(62ù
+ìcom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)!decelerationRate	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV> V(N2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV	 V(£
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV2 V(6"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV" V(1ß
+ìcom.facebook.react.views.scroll.ReactScrollViewManager.setDecelerationRate(com.facebook.react.views.scroll.ReactScrollView, float)!decelerationRate	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV> V(N"
+typefloat"
+isFinalfalse"I
+declarationString4<mark class="modifier">float</mark> decelerationRate*decelerationRate2â
+floatTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaV8 V(=˝
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[ [(("
+isFinalfalse"ˆ
+declarationString‡<mark class="annotation">@ReactProp(name</mark> = "disableIntervalMomentum") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setDisableIntervalMomentum</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> disableIntervalMomentum)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setDisableIntervalMomentum2◊
+Scom.facebook.react.views.scroll.ReactScrollView.setDisableIntervalMomentum(boolean)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java\	 \(#2ï
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java\ \(2®
+£com.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)!disableIntervalMomentumCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java\$ \(;2ö
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[9 [(=2≠
+£com.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)!disableIntervalMomentum	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[G [(^2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[	 [(¨
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[9 [(="
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[) [(8À
+£com.facebook.react.views.scroll.ReactScrollViewManager.setDisableIntervalMomentum(com.facebook.react.views.scroll.ReactScrollView, boolean)!disableIntervalMomentum	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[G [(^"
+typeboolean"
+isFinalfalse"R
+declarationString=<mark class="modifier">boolean</mark> disableIntervalMomentum*disableIntervalMomentum2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java[? [(FÖ
+Äcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java` `("
+isFinalfalse"Ÿ
+declarationString√<mark class="annotation">@ReactProp(name</mark> = "snapToInterval") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSnapToInterval</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> snapToInterval)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSnapToInterval2ƒ
+@com.facebook.react.uimanager.PixelUtil.getDisplayMetricDensity()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javab b(52»
+Dcom.facebook.react.views.scroll.ReactScrollView.setSnapInterval(int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javac	 c(2ä
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javac c(2î
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)!snapToIntervalCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javac  c(.2ô
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)?density@98.10:98.17CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javac1 c(82è
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`0 `(42ô
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)!snapToInterval	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`< `(J2†
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)?density@98.10:98.17DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javab
+ b(2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`	 `(ƒ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)?density@98.10:98.17VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javab
+ b("
+typefloat"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">density</mark> = PixelUtil.getDisplayMetricDensity()*density2â
+floatTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javab b(	2ƒ
+@com.facebook.react.uimanager.PixelUtil.getDisplayMetricDensity()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javab b(5°
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`0 `(4"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`  `(/ü
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToInterval(com.facebook.react.views.scroll.ReactScrollView, float)!snapToInterval	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`< `(J"
+typefloat"
+isFinalfalse"G
+declarationString2<mark class="modifier">float</mark> snapToInterval*snapToInterval2â
+floatTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java`6 `(;ø<
+°com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag g("
+isFinalfalse"ª
+declarationString• = "snapToOffsets") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSnapToOffsets</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray snapToOffsets)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSnapToOffsets2≤
+.com.facebook.react.bridge.ReadableArray.size()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javah/ h(32Â
+acom.facebook.react.views.scroll.ReactScrollView.setSnapOffsets(java.util.List<java.lang.Integer>)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javai i(2ƒ
+@com.facebook.react.uimanager.PixelUtil.getDisplayMetricDensity()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javam m(52≤
+.com.facebook.react.bridge.ReadableArray.size()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao& o(*2ô
+java.util.List.add(E)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javap p(2∫
+6com.facebook.react.bridge.ReadableArray.getDouble(int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javap' p(02Â
+acom.facebook.react.views.scroll.ReactScrollView.setSnapOffsets(java.util.List<java.lang.Integer>)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javar	 r(2£
+java.util.ArrayList.ArrayList()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javan  n(22¥
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!snapToOffsetsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javah h(2¥
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!snapToOffsetsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javah! h(.2´
+¶com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javai i(
+2∂
+±com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?i@111.13:111.14CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao o(2¥
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!snapToOffsetsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao o(%2∂
+±com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?i@111.13:111.14CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao. o(/2º
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?offsets@110.18:110.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javap p(2¥
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!snapToOffsetsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javap p(&2∂
+±com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?i@111.13:111.14CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javap1 p(22º
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?density@109.10:109.17CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javap6 p(=2´
+¶com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javar r(2º
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?offsets@110.18:110.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javar r(2∞
+¶com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag/ g(32π
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!snapToOffsets	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javagM g(Z2√
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?density@109.10:109.17DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javam
+ m(2√
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?offsets@110.18:110.25DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javan n(2Ω
+±com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?i@111.13:111.14DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao o(2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag	 g(Á
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?density@109.10:109.17VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javam
+ m("
+typefloat"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">density</mark> = PixelUtil.getDisplayMetricDensity()*density2â
+floatTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javam m(	2ƒ
+@com.facebook.react.uimanager.PixelUtil.getDisplayMetricDensity()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javam m(5÷
+∑com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?offsets@110.18:110.25VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javan n("
+typeList<Integer>"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>List<Integer> <mark class="class-field">offsets</mark> = new ArrayList<Integer>()*offsets2í
+java.util.ListTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javan n(2û
+java.lang.IntegerTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javan	 n(2£
+java.util.ArrayList.ArrayList()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javan  n(2‰
+±com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)?i@111.13:111.14VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao o("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javao	 o(¬
+¶com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag/ g(3"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag g(.˚
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToOffsets(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableArray)!snapToOffsets	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javagM g(Z"
+typeReadableArray"
+isFinalfalse"Z
+declarationStringE<mark class="annotation">@Nullable</mark> ReadableArray snapToOffsets*snapToOffsets2´
+'com.facebook.react.bridge.ReadableArrayTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javag? g(L¯
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav v( "
+isFinalfalse"π
+declarationString£<mark class="annotation">@ReactProp(name</mark> = "snapToAlignment") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSnapToAlignment</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> String alignment)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSnapToAlignment2À
+Gcom.facebook.react.views.scroll.ReactScrollView.setSnapToAlignment(int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaw	 w(2‡
+\com.facebook.react.views.scroll.ReactScrollViewHelper.parseSnapToAlignment(java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaw2 w(F2ñ
+ëcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaw w(2õ
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!alignmentCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javawG w(P2õ
+ëcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav1 v(52†
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!alignment	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav> v(G2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav	 v(≠
+ëcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav1 v(5"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav! v(0ã
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToAlignment(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!alignment	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav> v(G"
+typeString"
+isFinalfalse"%
+declarationStringString alignment*	alignment2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javav7 v(=Ï
+com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{ {("
+isFinalfalse"“
+declarationStringº<mark class="annotation">@ReactProp(name</mark> = "snapToStart") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSnapToStart</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> snapToStart)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSnapToStart2À
+Gcom.facebook.react.views.scroll.ReactScrollView.setSnapToStart(boolean)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java|	 |(2â
+Ñcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java| |(2ê
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)!snapToStartCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java| |(#2é
+Ñcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{- {(12ï
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)!snapToStart	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{; {(F2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{	 {(†
+Ñcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{- {(1"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2≥
+/com.facebook.react.views.scroll.ReactScrollViewTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{ {(,õ
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToStart(com.facebook.react.views.scroll.ReactScrollView, boolean)!snapToStart	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{; {(F"
+typeboolean"
+isFinalfalse"F
+declarationString1<mark class="modifier">boolean</mark> snapToStart*snapToStart2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java{3 {(:‚
+}com.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ Ä("
+isFinalfalse"Ã
+declarationString∂<mark class="annotation">@ReactProp(name</mark> = "snapToEnd") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSnapToEnd</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> snapToEnd)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSnapToEnd2À
+Ecom.facebook.react.views.scroll.ReactScrollView.setSnapToEnd(boolean)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ	 Å(2â
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ Å(2é
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)!snapToEndCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ Å(2é
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ+ Ä(/2ì
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)!snapToEnd	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ9 Ä(B2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ	 Ä(¢
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ+ Ä(/"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ Ä(*ó
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setSnapToEnd(com.facebook.react.views.scroll.ReactScrollView, boolean)!snapToEnd	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ9 Ä(B"
+typeboolean"
+isFinalfalse"D
+declarationString/<mark class="modifier">boolean</mark> snapToEnd*	snapToEnd2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÄ1 Ä(8ï
+âcom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ Ö(&"
+isFinalfalse"í
+declarationString¸<mark class="annotation">@ReactProp(name</mark> = ReactClippingViewGroupHelper.PROP_REMOVE_CLIPPED_SUBVIEWS) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setRemoveClippedSubviews</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> removeClippedSubviews)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setRemoveClippedSubviews2◊
+Qcom.facebook.react.views.scroll.ReactScrollView.setRemoveClippedSubviews(boolean)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ	 Ü(!2ï
+écom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ Ü(2¶
+ücom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)!removeClippedSubviewsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ" Ü(72ö
+écom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ7 Ö(;2´
+ücom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)!removeClippedSubviews	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖE Ö(Z2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ	 Ö(Æ
+écom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ7 Ö(;"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ' Ö(6«
+ücom.facebook.react.views.scroll.ReactScrollViewManager.setRemoveClippedSubviews(com.facebook.react.views.scroll.ReactScrollView, boolean)!removeClippedSubviews	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖE Ö(Z"
+typeboolean"
+isFinalfalse"P
+declarationString;<mark class="modifier">boolean</mark> removeClippedSubviews*removeClippedSubviews2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÖ= Ö(Dœ
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí í(#"
+isFinalfalse"Á
+declarationString—<mark class="annotation">@ReactProp(name</mark> = "sendMomentumEvents") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSendMomentumEvents</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> sendMomentumEvents)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSendMomentumEvents2‘
+Ncom.facebook.react.views.scroll.ReactScrollView.setSendMomentumEvents(boolean)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì	 ì(2í
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì ì(2†
+ôcom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)!sendMomentumEventsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì ì(12ó
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí4 í(82•
+ôcom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)!sendMomentumEvents	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaíB í(T2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí	 í(´
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí4 í(8"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí$ í(3ª
+ôcom.facebook.react.views.scroll.ReactScrollViewManager.setSendMomentumEvents(com.facebook.react.views.scroll.ReactScrollView, boolean)!sendMomentumEvents	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaíB í(T"
+typeboolean"
+isFinalfalse"M
+declarationString8<mark class="modifier">boolean</mark> sendMomentumEvents*sendMomentumEvents2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí: í(A•
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû û("
+isFinalfalse"¥
+declarationStringû = "scrollPerfTag") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setScrollPerfTag</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String scrollPerfTag)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setScrollPerfTag2ÿ
+Rcom.facebook.react.views.scroll.ReactScrollView.setScrollPerfTag(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü	 ü(2ñ
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü ü(2ü
+òcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!scrollPerfTagCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü ü('2õ
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû/ û(32§
+òcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!scrollPerfTag	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaûF û(S2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû	 û(Ø
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû/ û(3"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû û(.√
+òcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollPerfTag(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!scrollPerfTag	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaûF û(S"
+typeString"
+isFinalfalse"S
+declarationString><mark class="annotation">@Nullable</mark> String scrollPerfTag*scrollPerfTag2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû? û(Eì
+Åcom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£ £("
+isFinalfalse"ÿ
+declarationString¬<mark class="annotation">@ReactProp(name</mark> = "pagingEnabled") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPagingEnabled</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> pagingEnabled)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setPagingEnabled2œ
+Icom.facebook.react.views.scroll.ReactScrollView.setPagingEnabled(boolean)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java§	 §(2ç
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java§ §(2ñ
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!pagingEnabledCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java§ §('2í
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£/ £(32õ
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!pagingEnabled	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£= £(J2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£	 £(¶
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£/ £(3"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£ £(.ß
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setPagingEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!pagingEnabled	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£= £(J"
+typeboolean"
+isFinalfalse"H
+declarationString3<mark class="modifier">boolean</mark> pagingEnabled*pagingEnabled2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£5 £(<ò
+com.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ Ø( "
+isFinalfalse"˚
+declarationStringÂ<mark class="annotation">@ReactProp(name</mark> = "endFillColor"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultInt = Color.TRANSPARENT<mark class="modifier"><mark class="modifier">,</mark></mark> customType = "Color") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBottomFillColor</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> color)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBottomFillColor2 
+Dcom.facebook.react.views.scroll.ReactScrollView.setEndFillColor(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∞	 ∞(2ã
+Ñcom.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∞ ∞(2å
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∞ ∞(2ê
+Ñcom.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ1 Ø(52ë
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)!color	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ; Ø(@2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ	 Ø(§
+Ñcom.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ1 Ø(5"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ! Ø(0Å
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setBottomFillColor(com.facebook.react.views.scroll.ReactScrollView, int)!color	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ; Ø(@"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> color*color2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaØ7 Ø(:£
+ãcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ µ("
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@ReactProp(name</mark> = "overScrollMode") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setOverScrollMode</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> String value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setOverScrollMode2·
+[com.facebook.react.views.scroll.ReactScrollViewHelper.parseOverScrollMode(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∂1 ∂(D2ó
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∂ ∂(2ò
+ëcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∂E ∂(J2ú
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ0 µ(42ù
+ëcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ= µ(B2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ	 µ(∞
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ0 µ(4"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ  µ(/Ç
+ëcom.facebook.react.views.scroll.ReactScrollViewManager.setOverScrollMode(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ= µ(B"
+typeString"
+isFinalfalse"!
+declarationStringString value*value2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaµ6 µ(<Ÿ
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫ ∫($"
+isFinalfalse"‹
+declarationString∆<mark class="annotation">@ReactProp(name</mark> = "nestedScrollEnabled") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setNestedScrollEnabled</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setNestedScrollEnabled2ì
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaª) ª(-2î
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaª/ ª(42ò
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫5 ∫(92ô
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫C ∫(H2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫	 ∫(¨
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫5 ∫(9"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫% ∫(4ï
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setNestedScrollEnabled(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫C ∫(H"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫; ∫(B»
+Gcom.facebook.react.views.scroll.ReactScrollViewManager.getCommandsMap()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaø( ø(6"
+isFinalfalse"
+declarationString⁄ <br><mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Integer&gt; <mark class="method">getCommandsMap</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Integer>*getCommandsMap2”
+Mcom.facebook.react.views.scroll.ReactScrollViewCommandHelper.getCommandsMap()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¿( ¿(62√
+9com.facebook.react.uimanager.ViewManager.getCommandsMap()OVERRIDE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaø( ø(62ö
+java.util.MapRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaø ø(2¶
+java.lang.StringRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaø ø(2ß
+java.lang.IntegerRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaø ø(&Ì
+§com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaƒ ƒ("
+isFinalfalse"å
+declarationStringˆ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveCommand</mark>(ReactScrollView scrollView<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> commandId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveCommand2Ÿ
+“com.facebook.react.views.scroll.ReactScrollViewCommandHelper.receiveCommand(com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollCommandHandler<T>, T, int, com.facebook.react.bridge.ReadableArray)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∆! ∆(/2∂
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∆6 ∆(@2µ
+Æcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!commandIdCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∆B ∆(K2∞
+©com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!argsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∆M ∆(Q2ª
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈ ≈( 2∫
+Æcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈& ≈(/2µ
+©com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!args	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈I ≈(M2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaƒ	 ƒ(€
+Øcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈ ≈( "
+typeReactScrollView"
+isFinalfalse"/
+declarationStringReactScrollView scrollView*
+scrollView2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈ ≈(≤
+Æcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈& ≈(/"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> commandId*	commandId2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈" ≈(%Á
+©com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, int, com.facebook.react.bridge.ReadableArray)!args	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈I ≈(M"
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2≠
+'com.facebook.react.bridge.ReadableArrayTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≈; ≈(H∫
+±com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java   ("
+isFinalfalse"Ò
+declarationString€ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveCommand</mark>(ReactScrollView scrollView<mark class="modifier"><mark class="modifier">,</mark></mark> String commandId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveCommand2Ê
+ﬂcom.facebook.react.views.scroll.ReactScrollViewCommandHelper.receiveCommand(com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollCommandHandler<T>, T, java.lang.String, com.facebook.react.bridge.ReadableArray)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÃ! Ã(/2√
+ºcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÃ6 Ã(@2¬
+ªcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandIdCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÃB Ã(K2Ω
+∂com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!argsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÃM Ã(Q2»
+ºcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ À( 2«
+ªcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ) À(22¬
+∂com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!args	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀL À(P2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java 	  (Ë
+ºcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ À( "
+typeReactScrollView"
+isFinalfalse"/
+declarationStringReactScrollView scrollView*
+scrollView2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ À(¥
+ªcom.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ) À(2"
+typeString"
+isFinalfalse"%
+declarationStringString commandId*	commandId2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ" À((Ù
+∂com.facebook.react.views.scroll.ReactScrollViewManager.receiveCommand(com.facebook.react.views.scroll.ReactScrollView, java.lang.String, com.facebook.react.bridge.ReadableArray)!args	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀL À(P"
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2≠
+'com.facebook.react.bridge.ReadableArrayTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ> À(Kﬂ
+}com.facebook.react.views.scroll.ReactScrollViewManager.flashScrollIndicators(com.facebook.react.views.scroll.ReactScrollView)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java– –(#"
+isFinalfalse"Ÿ
+declarationString√<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">flashScrollIndicators</mark>(ReactScrollView scrollView)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*flashScrollIndicators2Õ
+Gcom.facebook.react.views.scroll.ReactScrollView.flashScrollIndicators()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java— —($2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.flashScrollIndicators(com.facebook.react.views.scroll.ReactScrollView)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java— —(2î
+àcom.facebook.react.views.scroll.ReactScrollViewManager.flashScrollIndicators(com.facebook.react.views.scroll.ReactScrollView)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java–4 –(>2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java–	 –(¥
+àcom.facebook.react.views.scroll.ReactScrollViewManager.flashScrollIndicators(com.facebook.react.views.scroll.ReactScrollView)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java–4 –(>"
+typeReactScrollView"
+isFinalfalse"/
+declarationStringReactScrollView scrollView*
+scrollView2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java–$ –(3ª&
+¬com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java’ ’("
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">scrollTo</mark>(ReactScrollView scrollView<mark class="modifier"><mark class="modifier">,</mark></mark> ReactScrollViewCommandHelper.ScrollToCommandData data)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*scrollTo2∆
+@com.facebook.react.views.scroll.ReactScrollView.abortAnimation()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java◊ ◊(2”
+Mcom.facebook.react.views.scroll.ReactScrollView.reactSmoothScrollTo(int, int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ Ÿ($2»
+Bcom.facebook.react.views.scroll.ReactScrollView.scrollTo(int, int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(2‘
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java◊ ◊(2Œ
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!dataCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÿ ÿ(2‘
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ Ÿ(2Œ
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!dataCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ% Ÿ()2Œ
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!dataCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ2 Ÿ(62‘
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(2Œ
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!dataCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(2Œ
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!dataCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€' €(+2Ÿ
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java÷ ÷( 2”
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!data	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java÷S ÷(W2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java’	 ’(˘
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java÷ ÷( "
+typeReactScrollView"
+isFinalfalse"/
+declarationStringReactScrollView scrollView*
+scrollView2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java÷ ÷( 
+«com.facebook.react.views.scroll.ReactScrollViewManager.scrollTo(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandData)!data	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java÷S ÷(W"8
+type0ReactScrollViewCommandHelper.ScrollToCommandData"
+isFinalfalse"J
+declarationString5ReactScrollViewCommandHelper.ScrollToCommandData data*data2÷
+Pcom.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToCommandDataTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java÷? ÷(R˙+
+Écom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË Ë("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@ReactPropGroup(names</mark> = { ViewProps.BORDER_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_LEFT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_RIGHT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_RIGHT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_LEFT_RADIUS }<mark class="modifier"><mark class="modifier">,</mark></mark> defaultFloat = YogaConstants.UNDEFINED) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderRadius</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> borderRadius)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderRadius2∏
+2com.facebook.yoga.YogaConstants.isUndefined(float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÈ È("2¬
+<com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÍ Í(-2Ã
+Fcom.facebook.react.views.scroll.ReactScrollView.setBorderRadius(float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÓ Ó(2—
+Kcom.facebook.react.views.scroll.ReactScrollView.setBorderRadius(float, int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java (2ó
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadiusCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÈ# È(/2ó
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadiusCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÍ Í(2ó
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadiusCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÍ. Í(:2ê
+âcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!indexCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÌ Ì(2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÓ Ó(
+2ó
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadiusCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÓ Ó('2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java (
+2ó
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadiusCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java ('2ê
+âcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!indexCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java) (.2î
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË. Ë(22ï
+âcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!index	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË8 Ë(=2ú
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadius	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaËE Ë(Q2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË	 Ë(®
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË. Ë(2"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË Ë(-Ö
+âcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!index	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË8 Ë(="
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË4 Ë(7†
+êcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderRadius(com.facebook.react.views.scroll.ReactScrollView, int, float)!borderRadius	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaËE Ë(Q"
+typefloat"
+isFinalfalse"E
+declarationString0<mark class="modifier">float</mark> borderRadius*borderRadius2ã
+floatTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË? Ë(Dç
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı ı("
+isFinalfalse"Æ
+declarationStringò = "borderStyle") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderStyle</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String borderStyle)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderStyle2÷
+Pcom.facebook.react.views.scroll.ReactScrollView.setBorderStyle(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaˆ	 ˆ(2î
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaˆ ˆ(2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!borderStyleCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaˆ ˆ(#2ô
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı- ı(12†
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!borderStyle	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaıD ı(O2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı	 ı(≠
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı- ı(1"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı ı(,ª
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderStyle(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!borderStyle	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaıD ı(O"
+typeString"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> String borderStyle*borderStyle2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaı= ı(CÛ$
+Çcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ Ç("
+isFinalfalse"å
+declarationStringˆ<mark class="annotation">@ReactPropGroup(names</mark> = { ViewProps.BORDER_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_LEFT_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_RIGHT_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_WIDTH }<mark class="modifier"><mark class="modifier">,</mark></mark> defaultFloat = YogaConstants.UNDEFINED) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderWidth</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> width)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderWidth2∏
+2com.facebook.yoga.YogaConstants.isUndefined(float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÉ É("2¬
+<com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÑ Ñ(&2–
+Jcom.facebook.react.views.scroll.ReactScrollView.setBorderWidth(int, float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ	 Ü(2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!widthCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÉ# É((2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!widthCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÑ Ñ(2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!widthCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÑ' Ñ(,2é
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ Ü(2÷
+Pcom.facebook.react.views.scroll.ReactScrollViewManager?SPACING_TYPES@47.29:47.42CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ Ü(%2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!indexCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ& Ü(+2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!widthCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÜ. Ü(32ì
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ- Ç(12î
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!index	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ7 Ç(<2î
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!width	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇD Ç(I2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ	 Ç(ß
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ- Ç(1"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ Ç(,Ñ
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!index	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ7 Ç(<"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ3 Ç(6ä
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderWidth(com.facebook.react.views.scroll.ReactScrollView, int, float)!width	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇD Ç(I"
+typefloat"
+isFinalfalse">
+declarationString)<mark class="modifier">float</mark> width*width2ã
+floatTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÇ> Ç(CÒ+
+écom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí í("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@ReactPropGroup(names</mark> = { "borderColor"<mark class="modifier"><mark class="modifier">,</mark></mark> "borderLeftColor"<mark class="modifier"><mark class="modifier">,</mark></mark> "borderRightColor"<mark class="modifier"><mark class="modifier">,</mark></mark> "borderTopColor"<mark class="modifier"><mark class="modifier">,</mark></mark> "borderBottomColor" }<mark class="modifier"><mark class="modifier">,</mark></mark> customType = "Color") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderColor</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index<mark class="modifier"><mark class="modifier">,</mark></mark> Integer color)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderColor2◊
+Qcom.facebook.react.views.scroll.ReactScrollView.setBorderColor(int, float, float)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaï	 ï(2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì ì(2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaìL ì(Q2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaî î( 2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaîN î(S2ö
+ìcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaï ï(2÷
+Pcom.facebook.react.views.scroll.ReactScrollViewManager?SPACING_TYPES@47.29:47.42CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaï ï(%2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!indexCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaï& ï(+2∞
+©com.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)?rgbComponent@275.10:275.22CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaï. ï(:2≤
+´com.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)?alphaComponent@276.10:276.24CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaï< ï(J2ü
+ìcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí- í(12†
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!index	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí7 í(<2†
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!color	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaíF í(K2∑
+©com.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)?rgbComponent@275.10:275.22DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì
+ ì(2π
+´com.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)?alphaComponent@276.10:276.24DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaî
+ î(2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí	 í(ª
+
+©com.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)?rgbComponent@275.10:275.22VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì
+ ì("
+typefloat"
+isFinalfalse"ã
+declarationStringı<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">rgbComponent</mark> = color == <mark class="modifier">null</mark> ? YogaConstants.UNDEFINED : (<mark class="modifier">float</mark>) (color & 0x00FFFFFF)*rgbComponent2ã
+floatTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì ì(	2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaì ì(2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaìL ì(Qª
+
+´com.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)?alphaComponent@276.10:276.24VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaî
+ î("
+typefloat"
+isFinalfalse"á
+declarationStringÒ<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">alphaComponent</mark> = color == <mark class="modifier">null</mark> ? YogaConstants.UNDEFINED : (<mark class="modifier">float</mark>) (color >>> 24)*alphaComponent2ã
+floatTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaî î(	2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaî î( 2õ
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!colorCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaîN î(S≥
+ìcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí- í(1"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí í(,ê
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!index	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí7 í(<"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí3 í(6à
+îcom.facebook.react.views.scroll.ReactScrollViewManager.setBorderColor(com.facebook.react.views.scroll.ReactScrollView, int, java.lang.Integer)!color	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaíF í(K"
+typeInteger"
+isFinalfalse""
+declarationStringInteger color*color2ó
+java.lang.IntegerTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaí> í(EÈ
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô ô("
+isFinalfalse"•
+declarationStringè = "overflow") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setOverflow</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String overflow)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setOverflow2”
+Mcom.facebook.react.views.scroll.ReactScrollView.setOverflow(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaö	 ö(2ë
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaö ö(2ï
+écom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!overflowCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaö ö(2ñ
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô* ô(.2ö
+écom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!overflow	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaôA ô(I2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô	 ô(™
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô* ô(."
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô ô()Ø
+écom.facebook.react.views.scroll.ReactScrollViewManager.setOverflow(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!overflow	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaôA ô(I"
+typeString"
+isFinalfalse"N
+declarationString9<mark class="annotation">@Nullable</mark> String overflow*overflow2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaô: ô(@‡6
+»com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû û("
+isFinalfalse"≈
+declarationStringØ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">scrollToEnd</mark>(ReactScrollView scrollView<mark class="modifier"><mark class="modifier">,</mark></mark> ReactScrollViewCommandHelper.ScrollToEndCommandData data)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*scrollToEnd2∆
+@com.facebook.react.views.scroll.ReactScrollView.abortAnimation()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java™ ™(2Ò
+kcom.facebook.react.bridge.RetryableMountingLayerException.RetryableMountingLayerException(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java• •(/2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£ £(2‚
+€com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?child@291.9:291.14CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java§ §(2‚
+€com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?child@291.9:291.14CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java© ©(2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java©% ©(/2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java™ ™(2‘
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!dataCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java´ ´(2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¨ ¨(2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¨% ¨(/2„
+‹com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?bottom@297.8:297.14CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¨> ¨(D2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÆ Æ(2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÆ Æ($2„
+‹com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?bottom@297.8:297.14CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÆ3 Æ(92ﬂ
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü ü( 2Ÿ
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!data	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaüV ü(Z2È
+€com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?child@291.9:291.14DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£	 £(2Í
+‹com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?bottom@297.8:297.14DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java© ©(2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaû	 û(Ä
+€com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?child@291.9:291.14VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£	 £("
+typeView"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>View <mark class="class-field">child</mark> = scrollView.getChildAt(0)*child2ó
+android.view.ViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£ £(2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java£ £(ë
+‹com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?bottom@297.8:297.14VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java© ©("
+typeint"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">bottom</mark> = child.getHeight() + scrollView.getPaddingBottom()*bottom2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java© ©(2‚
+€com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)?child@291.9:291.14CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java© ©(2⁄
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollViewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java©% ©(/ˇ
+”com.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!scrollView	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü ü( "
+typeReactScrollView"
+isFinalfalse"/
+declarationStringReactScrollView scrollView*
+scrollView2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü ü(Ÿ
+Õcom.facebook.react.views.scroll.ReactScrollViewManager.scrollToEnd(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandData)!data	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaüV ü(Z";
+type3ReactScrollViewCommandHelper.ScrollToEndCommandData"
+isFinalfalse"M
+declarationString8ReactScrollViewCommandHelper.ScrollToEndCommandData data*data2Ÿ
+Scom.facebook.react.views.scroll.ReactScrollViewCommandHelper.ScrollToEndCommandDataTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaü? ü(UŸ
+ácom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥ ≥($"
+isFinalfalse"‹
+declarationString∆<mark class="annotation">@ReactProp(name</mark> = "persistentScrollbar") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPersistentScrollbar</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setPersistentScrollbar2ì
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¥ ¥(2î
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¥$ ¥()2ò
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥5 ≥(92ô
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥C ≥(H2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥	 ≥(¨
+åcom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥5 ≥(9"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥% ≥(4ï
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setPersistentScrollbar(com.facebook.react.views.scroll.ReactScrollView, boolean)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥C ≥(H"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java≥; ≥(BÊ
+Äcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏ ∏(!"
+isFinalfalse"“
+declarationStringº<mark class="annotation">@ReactProp(name</mark> = "fadingEdgeLength") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setFadingEdgeLength</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setFadingEdgeLength2ç
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaπ π(2å
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∫ ∫(
+2å
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaª ª(
+2ç
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaª ª($2å
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaΩ Ω(
+2å
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaæ æ(
+2ë
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏2 ∏(62í
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏< ∏(A2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏	 ∏(•
+Öcom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏2 ∏(6"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏" ∏(1Ç
+Ücom.facebook.react.views.scroll.ReactScrollViewManager.setFadingEdgeLength(com.facebook.react.views.scroll.ReactScrollView, int)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏< ∏(A"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> value*value2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java∏8 ∏(;Á
+ücom.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√ √("
+isFinalfalse"à
+declarationStringÚ<mark class="annotation">@ReactProp(name</mark> = "contentOffset"<mark class="modifier"><mark class="modifier">,</mark></mark> customType = "Point") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setContentOffset</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> ReadableMap value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setContentOffset2Ì
+gcom.facebook.react.views.scroll.ReactScrollView.setContentOffset(com.facebook.react.bridge.ReadableMap)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaƒ	 ƒ(2´
+§com.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaƒ ƒ(2¨
+•com.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaƒ ƒ(2∞
+§com.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√/ √(32±
+•com.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√A √(F2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√	 √(ƒ
+§com.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√/ √(3"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√ √(.µ
+•com.facebook.react.views.scroll.ReactScrollViewManager.setContentOffset(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√A √(F"
+typeReadableMap"
+isFinalfalse"&
+declarationStringReadableMap value*value2´
+%com.facebook.react.bridge.ReadableMapTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java√5 √(@Ö
+∞com.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java» »(/"
+isFinalfalse"ÿ
+declarationString¬<mark class="annotation">@ReactProp(name</mark> = "maintainVisibleContentPosition") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setMaintainVisibleContentPosition</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> ReadableMap value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*!setMaintainVisibleContentPosition2§
+ùcom.facebook.react.views.scroll.ReactScrollView.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java   (,2à
+Åcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀ5 À(D2§
+ùcom.facebook.react.views.scroll.ReactScrollView.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÕ Õ(,2Ω
+∂com.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java… …(2º
+µcom.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java   (
+2Ω
+∂com.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!valueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÀE À(J2º
+µcom.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÕ Õ(
+2¡
+µcom.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»@ »(D2¬
+∂com.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»R »(W2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»	 »(’
+µcom.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»@ »(D"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»0 »(?∆
+∂com.facebook.react.views.scroll.ReactScrollViewManager.setMaintainVisibleContentPosition(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.bridge.ReadableMap)!value	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»R »(W"
+typeReadableMap"
+isFinalfalse"&
+declarationStringReadableMap value*value2´
+%com.facebook.react.bridge.ReadableMapTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java»F »(Qß
+œcom.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java“ “("
+isFinalfalse"⁄
+declarationStringƒ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Object <mark class="method">updateState</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> ReactStylesDiffMap props<mark class="modifier"><mark class="modifier">,</mark></mark> StateWrapper stateWrapper)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeObject*updateState2
+jcom.facebook.react.views.scroll.ReactScrollView.setStateWrapper(com.facebook.react.uimanager.StateWrapper)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‘	 ‘(2€
+‘com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‘ ‘(2„
+‹com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!stateWrapperCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‘ ‘(%2‡
+‘com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java” ”(2·
+’com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!props	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java”/ ”(42Ë
+‹com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!stateWrapper	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java”C ”(O2ù
+java.lang.ObjectRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java“	 “(Ù
+‘com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java” ”("
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java” ”(˝
+’com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!props	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java”/ ”(4"
+typeReactStylesDiffMap"
+isFinalfalse"-
+declarationStringReactStylesDiffMap props*props2µ
+/com.facebook.react.uimanager.ReactStylesDiffMapTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java” ”(.Ä
+‹com.facebook.react.views.scroll.ReactScrollViewManager.updateState(com.facebook.react.views.scroll.ReactScrollView, com.facebook.react.uimanager.ReactStylesDiffMap, com.facebook.react.uimanager.StateWrapper)!stateWrapper	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java”C ”(O"
+typeStateWrapper"
+isFinalfalse".
+declarationStringStateWrapper stateWrapper*stateWrapper2Ø
+)com.facebook.react.uimanager.StateWrapperTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java”6 ”(B·
+bcom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ' Ÿ(P"
+isFinalfalse"ä
+declarationStringÙ <br><mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">getExportedCustomDirectEventTypeConstants</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Object>*)getExportedCustomDirectEventTypeConstants2ﬁ
+Xcom.facebook.react.uimanager.BaseViewManager.getExportedCustomDirectEventTypeConstants()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€7 €(`2√
+=java.util.Map.putAll(java.util.Map<? extends K, ? extends V>)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaﬁ ﬁ(2Î
+ecom.facebook.react.views.scroll.ReactScrollViewManager.createExportedCustomDirectEventTypeConstants()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaﬁ ﬁ(J2°
+java.util.HashMap.HashMap()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java›- ›(D2é
+ácom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@347.24:347.46CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java› ›(2é
+ácom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@347.24:347.46CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java›I ›(_2ä
+Écom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@348.24:348.42CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaﬁ ﬁ(2ä
+Écom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@348.24:348.42CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaﬂ ﬂ(2‚
+Xcom.facebook.react.uimanager.BaseViewManager.getExportedCustomDirectEventTypeConstants()OVERRIDE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ' Ÿ(P2ﬁ
+Tcom.facebook.react.uimanager.ViewManager.getExportedCustomDirectEventTypeConstants()OVERRIDE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ' Ÿ(P2ï
+ácom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@347.24:347.46DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(.2ë
+Écom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@348.24:348.42DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‹ ‹(*2ö
+java.util.MapRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ Ÿ(2¶
+java.lang.StringRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ Ÿ(2¶
+java.lang.ObjectRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaŸ Ÿ(%À	
+ácom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@347.24:347.46VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(."
+typeMap<String, Object>"
+isFinalfalse"¥
+declarationStringû<mark class="modifier"> </mark>Map<String, Object> <mark class="class-field">baseEventTypeConstants</mark> = super.getExportedCustomDirectEventTypeConstants()*baseEventTypeConstants2ì
+java.util.MapTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(2ü
+java.lang.StringTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(2ü
+java.lang.ObjectTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€ €(2ﬁ
+Xcom.facebook.react.uimanager.BaseViewManager.getExportedCustomDirectEventTypeConstants()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java€7 €(`Ë
+Écom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@348.24:348.42VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‹ ‹(*"
+typeMap<String, Object>"
+isFinalfalse"Ù
+declarationStringﬁ<mark class="modifier"> </mark>Map<String, Object> <mark class="class-field">eventTypeConstants</mark> = baseEventTypeConstants == <mark class="modifier">null</mark> ? new HashMap<String, Object>() : baseEventTypeConstants*eventTypeConstants2ì
+java.util.MapTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‹ ‹(2ü
+java.lang.StringTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‹ ‹(2ü
+java.lang.ObjectTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‹ ‹(2°
+java.util.HashMap.HashMap()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java›- ›(D2é
+ácom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@347.24:347.46CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java› ›(2é
+ácom.facebook.react.views.scroll.ReactScrollViewManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@347.24:347.46CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java›I ›(_â$
+ecom.facebook.react.views.scroll.ReactScrollViewManager.createExportedCustomDirectEventTypeConstants()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‚$ ‚(P"
+isFinalfalse"ˇ
+declarationStringÈ<mark class="modifier">public </mark><mark class="modifier">static </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">createExportedCustomDirectEventTypeConstants</mark>()"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Object>*,createExportedCustomDirectEventTypeConstants2∫
+4com.facebook.react.common.MapBuilder.Builder.build()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÛ	 Û(2º
+6com.facebook.react.common.MapBuilder.Builder.put(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java	 (2º
+6com.facebook.react.common.MapBuilder.Builder.put(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÌ	 Ì(2º
+6com.facebook.react.common.MapBuilder.Builder.put(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÍ	 Í(2º
+6com.facebook.react.common.MapBuilder.Builder.put(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÁ	 Á(2º
+6com.facebook.react.common.MapBuilder.Builder.put(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‰	 ‰(2¥
+.com.facebook.react.common.MapBuilder.builder()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java„& „(-2ı
+ocom.facebook.react.views.scroll.ScrollEventType.getJSEventName(com.facebook.react.views.scroll.ScrollEventType)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÂ Â(*2≥
+-com.facebook.react.common.MapBuilder.of(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÊ Ê(2ı
+ocom.facebook.react.views.scroll.ScrollEventType.getJSEventName(com.facebook.react.views.scroll.ScrollEventType)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaË Ë(*2≥
+-com.facebook.react.common.MapBuilder.of(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÈ È(2ı
+ocom.facebook.react.views.scroll.ScrollEventType.getJSEventName(com.facebook.react.views.scroll.ScrollEventType)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÎ Î(*2≥
+-com.facebook.react.common.MapBuilder.of(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÏ Ï(2ı
+ocom.facebook.react.views.scroll.ScrollEventType.getJSEventName(com.facebook.react.views.scroll.ScrollEventType)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÓ Ó(*2≥
+-com.facebook.react.common.MapBuilder.of(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÔ Ô(2ı
+ocom.facebook.react.views.scroll.ScrollEventType.getJSEventName(com.facebook.react.views.scroll.ScrollEventType)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÒ Ò(*2≥
+-com.facebook.react.common.MapBuilder.of(K, V)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÚ Ú(2ö
+java.util.MapRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‚ ‚(2¶
+java.lang.StringRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‚ ‚(2¶
+java.lang.ObjectRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java‚ ‚("©
+äcom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜ ˜("
+isFinalfalse"¿
+declarationString™ = ViewProps.POINTER_EVENTS) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPointerEvents</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String pointerEventsStr)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setPointerEvents2Ú
+lcom.facebook.react.views.scroll.ReactScrollView.setPointerEvents(com.facebook.react.uimanager.PointerEvents)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¯	 ¯(2’
+Ocom.facebook.react.uimanager.PointerEvents.parsePointerEvents(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¯( ¯(:2ñ
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¯ ¯(2¢
+õcom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!pointerEventsStrCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¯; ¯(K2õ
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜/ ˜(32ß
+õcom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!pointerEventsStr	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜F ˜(V2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜	 ˜(Ø
+ècom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜/ ˜(3"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜ ˜(.Ã
+õcom.facebook.react.views.scroll.ReactScrollViewManager.setPointerEvents(com.facebook.react.views.scroll.ReactScrollView, java.lang.String)!pointerEventsStr	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜F ˜(V"
+typeString"
+isFinalfalse"V
+declarationStringA<mark class="annotation">@Nullable</mark> String pointerEventsStr*pointerEventsStr2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˜? ˜(Eø
+Écom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸ ¸($"
+isFinalfalse"Ê
+declarationString–<mark class="annotation">@ReactProp(name</mark> = "scrollEventThrottle") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setScrollEventThrottle</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> scrollEventThrottle)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setScrollEventThrottle2—
+Kcom.facebook.react.views.scroll.ReactScrollView.setScrollEventThrottle(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˝	 ˝(2è
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˝ ˝(2û
+ócom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)!scrollEventThrottleCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java˝  ˝(32î
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸5 ¸(92£
+ócom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)!scrollEventThrottle	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸? ¸(R2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸	 ¸(®
+àcom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸5 ¸(9"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸% ¸(4Ø
+ócom.facebook.react.views.scroll.ReactScrollViewManager.setScrollEventThrottle(com.facebook.react.views.scroll.ReactScrollView, int)!scrollEventThrottle	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸? ¸(R"
+typeint"
+isFinalfalse"J
+declarationString5<mark class="modifier">int</mark> scrollEventThrottle*scrollEventThrottle2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java¸; ¸(>Æ
+çcom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ Å(*"
+isFinalfalse"Î
+declarationString’<mark class="annotation">@ReactProp(name</mark> = "isInvertedVirtualizedList") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setIsInvertedVirtualizedList</mark>(ReactScrollView view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> applyFix)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setIsInvertedVirtualizedList2ù
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!applyFixCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaã ã(2ô
+ícom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaå å(
+2ô
+ícom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!viewCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaé é(
+2û
+ícom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ; Å(?2¢
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!applyFix	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅI Å(Q2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ	 Å(≤
+ícom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!view	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ; Å(?"
+typeReactScrollView"
+isFinalfalse")
+declarationStringReactScrollView view*view2µ
+/com.facebook.react.views.scroll.ReactScrollViewTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅ+ Å(:§
+ñcom.facebook.react.views.scroll.ReactScrollViewManager.setIsInvertedVirtualizedList(com.facebook.react.views.scroll.ReactScrollView, boolean)!applyFix	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅI Å(Q"
+typeboolean"
+isFinalfalse"C
+declarationString.<mark class="modifier">boolean</mark> applyFix*applyFix2ç
+booleanTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.javaÅA Å(Hâ
+Ncom.facebook.react.views.scroll.ReactScrollViewManager?REACT_CLASS@45.29:45.40VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java- -(("
+isFinaltrue"
+typeString" 
+declarationString¥<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">REACT_CLASS</mark> = "RCTScrollView";"
+isStatictrue"
+accesspublic*REACT_CLASS2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java- -(⁄
+Pcom.facebook.react.views.scroll.ReactScrollViewManager?SPACING_TYPES@47.29:47.42VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java/ /(*"
+isFinaltrue"
+typeint"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark>[] <mark class="class-field">SPACING_TYPES</mark> = { Spacing.ALL, Spacing.LEFT, Spacing.RIGHT, Spacing.TOP, Spacing.BOTTOM };"
+isStatictrue"
+accessprivate*SPACING_TYPES2â
+int[]TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java/ /(Ç
+Ocom.facebook.react.views.scroll.ReactScrollViewManager?mFpsListener@51.32:51.44VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java3  3(,"
+isFinalfalse"
+typeFpsListener"õ
+declarationStringÖ<mark class="modifier">private </mark>FpsListener <mark class="class-field">mFpsListener</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mFpsListener2Ø
++com.facebook.react.views.scroll.FpsListenerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/ReactScrollViewManager.java3 3(

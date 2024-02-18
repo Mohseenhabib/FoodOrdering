@@ -1,0 +1,383 @@
+
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaí
+8com.facebook.react.runtime.internal.bolts.BoltsExecutorsCLASS|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java ("4
+package)com.facebook.react.runtime.internal.bolts"
+isFinaltrue"
+inner classfalse"
+
+isAbstractfalse"ä
+declarationStringu<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">class </mark>BoltsExecutors"
+accesspackage_private*BoltsExecutors2÷
+Icom.facebook.react.runtime.internal.bolts.BoltsExecutors.BoltsExecutors()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java"
+ "(2ÿ
+Kcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java ()2“
+Ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.background()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java,) ,(32—
+Dcom.facebook.react.runtime.internal.bolts.BoltsExecutors.scheduled()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java09 0(B2—
+Dcom.facebook.react.runtime.internal.bolts.BoltsExecutors.immediate()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java9) 9(22⁄
+Mcom.facebook.react.runtime.internal.bolts.BoltsExecutors?INSTANCE@20.38:20.46DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java& (.2‹
+Ocom.facebook.react.runtime.internal.bolts.BoltsExecutors?background@30.41:30.51DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java) (32€
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?scheduled@31.50:31.59DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java2 (;2€
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?immediate@32.34:32.43DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java "  (+˚
+Icom.facebook.react.runtime.internal.bolts.BoltsExecutors.BoltsExecutors()CONSTRUCTOR|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java"
+ "("g
+declarationStringR<mark class="modifier">private </mark><mark class="method">BoltsExecutors</mark>()*BoltsExecutors2—
+Kcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java$	 $(2÷
+Pcom.facebook.react.runtime.internal.bolts.AndroidExecutors.newCachedThreadPool()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java& &(22«
+Ajava.util.concurrent.Executors.newSingleThreadScheduledExecutor()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java' '(:2‰
+^com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.ImmediateExecutor()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java( ((%2’
+Ocom.facebook.react.runtime.internal.bolts.BoltsExecutors?background@30.41:30.51CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java# #(2‘
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?scheduled@31.50:31.59CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java' '(2‘
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?immediate@32.34:32.43CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java( ((2≈
+8com.facebook.react.runtime.internal.bolts.BoltsExecutorsRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java"
+ "(ê
+Kcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java ()"
+isFinalfalse"µ
+declarationStringü<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">isAndroidRuntime</mark>()"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*isAndroidRuntime2¥
+.java.lang.System.getProperty(java.lang.String)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java$ (/2∑
+1java.lang.String.contains(java.lang.CharSequence)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java2 (:2¥
+.java.lang.String.toLowerCase(java.util.Locale)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (&2Ì
+gcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()?javaRuntimeName@23.11:23.26CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (2Ì
+gcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()?javaRuntimeName@23.11:23.26CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (2Ù
+gcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()?javaRuntimeName@23.11:23.26DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (2î
+booleanRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (ç
+gcom.facebook.react.runtime.internal.bolts.BoltsExecutors.isAndroidRuntime()?javaRuntimeName@23.11:23.26VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java ("
+typeString"
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark>String <mark class="class-field">javaRuntimeName</mark> = System.getProperty("java.runtime.name")*javaRuntimeName2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (
+2¥
+.java.lang.System.getProperty(java.lang.String)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java$ (/Á
+Ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.background()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java,) ,(3"
+isFinalfalse"≈
+declarationStringØ<mark class="annotation">@NonNull</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>ExecutorService <mark class="method">background</mark>()"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeExecutorService*
+background2”
+Mcom.facebook.react.runtime.internal.bolts.BoltsExecutors?INSTANCE@20.38:20.46CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java- -(2’
+Ocom.facebook.react.runtime.internal.bolts.BoltsExecutors?background@30.41:30.51CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java- -(2±
+$java.util.concurrent.ExecutorServiceRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java, ,((Å	
+Dcom.facebook.react.runtime.internal.bolts.BoltsExecutors.scheduled()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java09 0(B"
+isFinalfalse"«
+declarationString±<mark class="annotation">@NonNull</mark> <br><mark class="modifier"> </mark><mark class="modifier">static </mark>ScheduledExecutorService <mark class="method">scheduled</mark>()"
+isStatictrue"
+accesspackage_private"
+
+isAbstractfalse" 
+typeScheduledExecutorService*	scheduled2”
+Mcom.facebook.react.runtime.internal.bolts.BoltsExecutors?INSTANCE@20.38:20.46CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java1 1(2‘
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?scheduled@31.50:31.59CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java1 1(2∫
+-java.util.concurrent.ScheduledExecutorServiceRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java0  0(8—
+Dcom.facebook.react.runtime.internal.bolts.BoltsExecutors.immediate()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java9) 9(2"
+isFinalfalse"∑
+declarationString°<mark class="annotation">@NonNull</mark> <br><mark class="modifier"> </mark><mark class="modifier">static </mark>Executor <mark class="method">immediate</mark>()"
+isStatictrue"
+accesspackage_private"
+
+isAbstractfalse"
+typeExecutor*	immediate2”
+Mcom.facebook.react.runtime.internal.bolts.BoltsExecutors?INSTANCE@20.38:20.46CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java: :(2‘
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?immediate@32.34:32.43CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java: :(2™
+java.util.concurrent.ExecutorRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java9  9((ó
+Mcom.facebook.react.runtime.internal.bolts.BoltsExecutors?INSTANCE@20.38:20.46VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java& (."
+isFinaltrue"
+typeBoltsExecutors"’
+declarationStringø<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>BoltsExecutors <mark class="class-field">INSTANCE</mark> = new BoltsExecutors();"
+isStatictrue"
+accessprivate*INSTANCE2æ
+8com.facebook.react.runtime.internal.bolts.BoltsExecutorsTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (%2œ
+Icom.facebook.react.runtime.internal.bolts.BoltsExecutors.BoltsExecutors()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java5 (C˝
+Ocom.facebook.react.runtime.internal.bolts.BoltsExecutors?background@30.41:30.51VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java) (3"
+isFinaltrue"
+typeExecutorService"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">final </mark>ExecutorService <mark class="class-field">background</mark>"
+isStaticfalse"
+accessprivate*
+background2™
+$java.util.concurrent.ExecutorServiceTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java ((ï
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?scheduled@31.50:31.59VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java2 (;"
+isFinaltrue" 
+typeScheduledExecutorService"£
+declarationStringç<mark class="modifier">private </mark><mark class="modifier">final </mark>ScheduledExecutorService <mark class="class-field">scheduled</mark>"
+isStaticfalse"
+accessprivate*	scheduled2≥
+-java.util.concurrent.ScheduledExecutorServiceTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java (1‰
+Ncom.facebook.react.runtime.internal.bolts.BoltsExecutors?immediate@32.34:32.43VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java "  (+"
+isFinaltrue"
+typeExecutor"í
+declarationString}<mark class="modifier">private </mark><mark class="modifier">final </mark>Executor <mark class="class-field">immediate</mark>"
+isStaticfalse"
+accessprivate*	immediate2£
+java.util.concurrent.ExecutorTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java   (!˚
+Jcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutorCLASS|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaC C(("C
+package8com.facebook.react.runtime.internal.bolts.BoltsExecutors"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¶
+declarationStringê<mark class="modifier">private </mark><mark class="modifier">class </mark>ImmediateExecutor<mark class="modifier"><br>implements </mark>Executor"
+accessprivate*ImmediateExecutor2Ë
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaL L(2Ë
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java[ [(2Û
+fcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaj j(2Ì
+`com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?MAX_DEPTH@68.29:68.38DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaD D(&2Ú
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaE! E(/2•
+java.util.concurrent.ExecutorEXTEND|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaC4 C(<Ó
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaL L("
+isFinalfalse"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="method">incrementDepth</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeint*incrementDepth2°
+java.lang.ThreadLocal.get()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM( M(+2¢
+java.lang.ThreadLocal.set(T)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaR R(2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM M('2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?oldDepth@77.14:77.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaN
+ N(2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?oldDepth@77.14:77.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaO O(2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?oldDepth@77.14:77.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaQ Q(2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaR R(2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?newDepth@81.10:81.18CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaR R(!2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?newDepth@81.10:81.18CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaS S(2˝
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?oldDepth@77.14:77.22DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM M(2˝
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?newDepth@81.10:81.18DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaQ
+ Q(2ê
+intRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaL L(—
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?oldDepth@77.14:77.22VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM M("
+typeInteger"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark>Integer <mark class="class-field">oldDepth</mark> = executionDepth.get()*oldDepth2ó
+java.lang.IntegerTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM M(2°
+java.lang.ThreadLocal.get()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM( M(+2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaM M('π
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?newDepth@81.10:81.18VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaQ
+ Q("
+typeint"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">newDepth</mark> = oldDepth + 1*newDepth2â
+intTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaQ Q(	2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()?oldDepth@77.14:77.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaQ Q(¸
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java[ [("
+isFinalfalse"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="method">decrementDepth</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeint*decrementDepth2°
+java.lang.ThreadLocal.get()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\( \(+2§
+java.lang.ThreadLocal.remove()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javab b(2¢
+java.lang.ThreadLocal.set(T)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javad d(2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\ \('2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?oldDepth@92.14:92.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java]
+ ](2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?oldDepth@92.14:92.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java^ ^(2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?oldDepth@92.14:92.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java` `(2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?newDepth@96.10:96.18CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaa
+ a(2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javab b(2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javad d(2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?newDepth@96.10:96.18CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javad d(#2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?newDepth@96.10:96.18CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaf f(2˝
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?oldDepth@92.14:92.22DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\ \(2˝
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?newDepth@96.10:96.18DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java`
+ `(2ê
+intRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java[ [(—
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?oldDepth@92.14:92.22VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\ \("
+typeInteger"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark>Integer <mark class="class-field">oldDepth</mark> = executionDepth.get()*oldDepth2ó
+java.lang.IntegerTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\ \(2°
+java.lang.ThreadLocal.get()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\( \(+2Î
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java\ \('π
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?newDepth@96.10:96.18VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java`
+ `("
+typeint"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">newDepth</mark> = oldDepth - 1*newDepth2â
+intTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java` `(	2ˆ
+pcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()?oldDepth@92.14:92.22CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.java` `(Ç
+fcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaj j("
+isFinalfalse"¡
+declarationString´ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">execute</mark>(<mark class="annotation">@NonNull</mark> Runnable command)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*execute2·
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javak k( 2û
+java.lang.Runnable.run()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javan n(2ø
+9java.util.concurrent.Executor.execute(java.lang.Runnable)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javap& p(-2À
+Ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.background()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javap p(#2·
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.decrementDepth()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javas s(2Ä
+zcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)?depth@107.10:107.15CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javam m(2Ê
+`com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?MAX_DEPTH@68.29:68.38CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javam m(2Ù
+ncom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)!commandCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javan
+ n(2Ù
+ncom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)!commandCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javap. p(52˘
+ncom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)!command	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaj* j(12á
+zcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)?depth@107.10:107.15DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javak
+ k(2ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaj j(¨
+zcom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)?depth@107.10:107.15VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javak
+ k("
+typeint"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">depth</mark> = incrementDepth()*depth2â
+intTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javak k(	2·
+[com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.incrementDepth()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javak k( ë
+ncom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor.execute(java.lang.Runnable)!command	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaj* j(1"
+typeRunnable"
+isFinalfalse"N
+declarationString9<mark class="annotation">@NonNull</mark> Runnable command*command2ò
+java.lang.RunnableTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaj! j()õ
+`com.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?MAX_DEPTH@68.29:68.38VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaD D(&"
+isFinaltrue"
+typeint"◊
+declarationString¡<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">MAX_DEPTH</mark> = 15;"
+isStatictrue"
+accessprivate*	MAX_DEPTH2â
+intTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaD D(‹
+ecom.facebook.react.runtime.internal.bolts.BoltsExecutors.ImmediateExecutor?executionDepth@69.33:69.47VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaE! E(/"
+isFinalfalse"
+typeThreadLocal<Integer>"ó
+declarationStringÅ<mark class="modifier">private </mark>ThreadLocal<Integer> <mark class="class-field">executionDepth</mark> = new ThreadLocal<>();"
+isStaticfalse"
+accessprivate*executionDepth2õ
+java.lang.ThreadLocalTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaE E(2†
+java.lang.IntegerTYPE_ARGUMENT|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaE E(2©
+#java.lang.ThreadLocal.ThreadLocal()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/BoltsExecutors.javaE6 E(C

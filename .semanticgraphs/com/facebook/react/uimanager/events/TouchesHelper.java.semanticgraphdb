@@ -1,0 +1,934 @@
+
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÆ
+1com.facebook.react.uimanager.events.TouchesHelperCLASSu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (".
+package#com.facebook.react.uimanager.events"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>TouchesHelper"
+accesspublic*TouchesHelper2˚
+ucom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java& &(22Ø
+®com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaR R(&2≤
+´com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javat t(#2˝
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaª ª(/2÷
+Pcom.facebook.react.uimanager.events.TouchesHelper?TARGET_SURFACE_KEY@19.29:19.47DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (/2Œ
+Hcom.facebook.react.uimanager.events.TouchesHelper?TARGET_KEY@20.29:20.39DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java ('2◊
+Qcom.facebook.react.uimanager.events.TouchesHelper?CHANGED_TOUCHES_KEY@21.29:21.48DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (02œ
+Icom.facebook.react.uimanager.events.TouchesHelper?TOUCHES_KEY@22.29:22.40DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java ((2Œ
+Hcom.facebook.react.uimanager.events.TouchesHelper?PAGE_X_KEY@23.30:23.40DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java ((2Œ
+Hcom.facebook.react.uimanager.events.TouchesHelper?PAGE_Y_KEY@24.30:24.40DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java ((2—
+Kcom.facebook.react.uimanager.events.TouchesHelper?TIMESTAMP_KEY@25.30:25.43DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (+2⁄
+Tcom.facebook.react.uimanager.events.TouchesHelper?POINTER_IDENTIFIER_KEY@26.30:26.52DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (42“
+Lcom.facebook.react.uimanager.events.TouchesHelper?LOCATION_X_KEY@28.30:28.44DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (,2“
+Lcom.facebook.react.uimanager.events.TouchesHelper?LOCATION_Y_KEY@29.30:29.44DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (,2«
+Acom.facebook.react.uimanager.events.TouchesHelper?TAG@31.30:31.33DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (!áä
+ucom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)METHODu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java& &(2"
+isFinalfalse"∞
+declarationStringö<mark class="modifier">private </mark><mark class="modifier">static </mark>WritableMap[] <mark class="method">createPointersArray</mark>(TouchEvent event)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeWritableMap[]*createPointersArray2æ
+?com.facebook.react.uimanager.events.TouchEvent.getMotionEvent()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java'$ '(22∏
+9com.facebook.react.uimanager.events.TouchEvent.getViewX()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1= 1(E2∏
+9com.facebook.react.uimanager.events.TouchEvent.getViewY()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2= 2(E2Æ
+/com.facebook.react.bridge.Arguments.createMap()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java5$ 5(-2»
+Icom.facebook.react.bridge.WritableMap.putDouble(java.lang.String, double)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java> >(2ª
+<com.facebook.react.uimanager.PixelUtil.toDIPFromPixel(float)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java>0 >(>2»
+Icom.facebook.react.bridge.WritableMap.putDouble(java.lang.String, double)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java? ?(2ª
+<com.facebook.react.uimanager.PixelUtil.toDIPFromPixel(float)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java?0 ?(>2¬
+Ccom.facebook.react.bridge.WritableMap.putInt(java.lang.String, int)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java@ @(2∑
+8com.facebook.react.uimanager.events.Event.getSurfaceId()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java@- @(92¬
+Ccom.facebook.react.bridge.WritableMap.putInt(java.lang.String, int)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaA A(2µ
+6com.facebook.react.uimanager.events.Event.getViewTag()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaA% A(/2»
+Icom.facebook.react.bridge.WritableMap.putDouble(java.lang.String, double)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaB B(2π
+:com.facebook.react.uimanager.events.Event.getTimestampMs()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaB+ B(92˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java' '(#2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java(, ((72ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1" 1(-2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java17 1(<2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2" 2(-2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java27 2(<2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java4 4(2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java4  4(+2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java4? 4(D2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java8 8(2«
+Hcom.facebook.react.uimanager.events.TouchesHelper?PAGE_X_KEY@23.30:23.40CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java8 8( 2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java8; 8(F2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java8L 8(Q2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java9 9(2«
+Hcom.facebook.react.uimanager.events.TouchesHelper?PAGE_Y_KEY@24.30:24.40CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java9 9( 2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java9; 9(F2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java9L 9(Q2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java< <(#2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java<) <(.2ó
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateX@49.10:49.31CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java<2 <(G2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java= =(#2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java=) =(.2ó
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateY@50.10:50.31CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java=2 =(G2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java> >(2À
+Lcom.facebook.react.uimanager.events.TouchesHelper?LOCATION_X_KEY@28.30:28.44CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java> >($2ã
+ãcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?locationX@60.12:60.21CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java>? >(H2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java? ?(2À
+Lcom.facebook.react.uimanager.events.TouchesHelper?LOCATION_Y_KEY@29.30:29.44CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java? ?($2ã
+ãcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?locationY@61.12:61.21CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java?? ?(H2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java@ @(2œ
+Pcom.facebook.react.uimanager.events.TouchesHelper?TARGET_SURFACE_KEY@19.29:19.47CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java@ @(%2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java@' @(,2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaA A(2«
+Hcom.facebook.react.uimanager.events.TouchesHelper?TARGET_KEY@20.29:20.39CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaA A(2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaA A($2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaB B(2 
+Kcom.facebook.react.uimanager.events.TouchesHelper?TIMESTAMP_KEY@25.30:25.43CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaB B(#2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaB% B(*2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaC C(2”
+Tcom.facebook.react.uimanager.events.TouchesHelper?POINTER_IDENTIFIER_KEY@26.30:26.52CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaC C(,2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaC. C(92á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaCG C(L2â
+âcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touches@40.18:40.25CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaE E(2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaE E(2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaE E(2â
+âcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touches@40.18:40.25CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaH H(2ˇ
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!event	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java&> &(C2î
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java' '(2ê
+âcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touches@40.18:40.25DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java( ((2û
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateX@49.10:49.31DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1
+ 1(2û
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateY@50.10:50.31DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2
+ 2(2é
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java4 4(2é
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java5 5(2í
+ãcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?locationX@60.12:60.21DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java< <(2í
+ãcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?locationY@61.12:61.21DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java= =(2≠
+'com.facebook.react.bridge.WritableMap[]RETURN_TYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java& &(•
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java' '("
+typeMotionEvent"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>MotionEvent <mark class="class-field">motionEvent</mark> = event.getMotionEvent()*motionEvent2ó
+android.view.MotionEventTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java' '(2æ
+?com.facebook.react.uimanager.events.TouchEvent.getMotionEvent()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java'$ '(22˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java' '(#ï
+âcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touches@40.18:40.25VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java( (("
+typeWritableMap"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>WritableMap[] <mark class="class-field">touches</mark> = new WritableMap[motionEvent.getPointerCount()]*touches2¶
+'com.facebook.react.bridge.WritableMap[]TYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java( ((2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java(, ((7‹
+
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateX@49.10:49.31VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1
+ 1("
+typefloat"
+isFinalfalse"∑
+declarationString°<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">targetViewCoordinateX</mark> = motionEvent.getX() - event.getViewX()*targetViewCoordinateX2Ñ
+floatTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1 1(	2∏
+9com.facebook.react.uimanager.events.TouchEvent.getViewX()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1= 1(E2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java1" 1(-2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java17 1(<‹
+
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateY@50.10:50.31VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2
+ 2("
+typefloat"
+isFinalfalse"∑
+declarationString°<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">targetViewCoordinateY</mark> = motionEvent.getY() - event.getViewY()*targetViewCoordinateY2Ñ
+floatTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2 2(	2∏
+9com.facebook.react.uimanager.events.TouchEvent.getViewY()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2= 2(E2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java2" 2(-2˙
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java27 2(<π
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java4 4("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark> = 0*index2Ç
+intTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java4	 4(ë
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?touch@53.18:53.23VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java5 5("
+typeWritableMap"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>WritableMap <mark class="class-field">touch</mark> = Arguments.createMap()*touch2§
+%com.facebook.react.bridge.WritableMapTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java5 5(2Æ
+/com.facebook.react.bridge.Arguments.createMap()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java5$ 5(-Æ
+ãcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?locationX@60.12:60.21VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java< <("
+typefloat"
+isFinalfalse"µ
+declarationStringü<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">locationX</mark> = motionEvent.getX(index) - targetViewCoordinateX*	locationX2Ñ
+floatTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java< <(2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java< <(#2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java<) <(.2ó
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateX@49.10:49.31CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java<2 <(GÆ
+ãcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?locationY@61.12:61.21VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java= =("
+typefloat"
+isFinalfalse"µ
+declarationStringü<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">locationY</mark> = motionEvent.getY(index) - targetViewCoordinateY*	locationY2Ñ
+floatTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java= =(2ç
+çcom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?motionEvent@39.16:39.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java= =(#2á
+ácom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?index@52.13:52.18CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java=) =(.2ó
+ócom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)?targetViewCoordinateY@50.10:50.31CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java=2 =(GÉ
+{com.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)!event	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java&> &(C"
+type
+TouchEvent"
+isFinalfalse"%
+declarationStringTouchEvent event*event2≠
+.com.facebook.react.uimanager.events.TouchEventTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java&3 &(=ÈV
+®com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)METHODu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaR R(&"
+isFinalfalse"§
+declarationStringé<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">sendTouchesLegacy</mark>(RCTEventEmitter rctEventEmitter<mark class="modifier"><mark class="modifier">,</mark></mark> TouchEvent touchEvent)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*sendTouchesLegacy2¡
+Bcom.facebook.react.uimanager.events.TouchEvent.getTouchEventType()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS% S(62Ù
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaV V(2Ù
+ucom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaV2 V(E2æ
+?com.facebook.react.uimanager.events.TouchEvent.getMotionEvent()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW) W(72∞
+1com.facebook.react.bridge.Arguments.createArray()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java[- [(82≥
+4com.facebook.react.bridge.WritableArray.pushInt(int)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java^ ^(2¶
+¶com.facebook.react.uimanager.events.RCTEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaf f("2Ù
+ucom.facebook.react.uimanager.events.TouchEventType.getJSEventName(com.facebook.react.uimanager.events.TouchEventType)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaf2 f(@2º
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javac c( 2≥
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS S($2≥
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaVF V(P2≥
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW W((2π
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java\ \(2π
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java\' \(+2∂
+∂com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@93.15:93.16CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java] ](2¿
+¿com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@87.16:87.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java] ](%2∂
+∂com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@93.15:93.16CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java]9 ](:2√
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedIndices@91.18:91.32CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java^ ^(2∂
+∂com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@93.15:93.16CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java^ ^( 2π
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java` `(2π
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java`/ `(32√
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedIndices@91.18:91.32CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaa a(2¿
+¿com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@87.16:87.27CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaa a((2π
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javac: c(>2∏
+∏com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!rctEventEmitterCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaf f(2π
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javafA f(E2Ω
+Ωcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?pointers@85.18:85.26CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javafH f(P2√
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedIndices@91.18:91.32CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javafR f(`2Ω
+∏com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!rctEventEmitter	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaR7 R(F2∏
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEvent	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaRS R(]2¿
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS S(2ƒ
+Ωcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?pointers@85.18:85.26DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaU U(2«
+¿com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@87.16:87.27DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW W(2 
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedIndices@91.18:91.32DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java[ [( 2Ω
+∂com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@93.15:93.16DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java] ](2ä
+voidRETURN_TYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaR R(ß	
+πcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@83.19:83.23VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS S("
+typeTouchEventType"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>TouchEventType <mark class="class-field">type</mark> = touchEvent.getTouchEventType()*type2±
+2com.facebook.react.uimanager.events.TouchEventTypeTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS S(2¡
+Bcom.facebook.react.uimanager.events.TouchEvent.getTouchEventType()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS% S(62≥
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaS S($π
+Ωcom.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?pointers@85.18:85.26VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaU U("
+typeWritableArray"
+isFinalfalse"ı
+declarationStringﬂ<mark class="modifier"> </mark>WritableArray <mark class="class-field">pointers</mark> = getWritableArray(/* copyObjects */
+<mark class="modifier">false</mark><mark class="modifier">,</mark> createPointersArray(touchEvent))*pointers2¶
+'com.facebook.react.bridge.WritableArrayTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaU U(2Ù
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaV V(2Ù
+ucom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaV2 V(E2≥
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaVF V(Pñ	
+¿com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@87.16:87.27VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW W("
+typeMotionEvent"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark>MotionEvent <mark class="class-field">motionEvent</mark> = touchEvent.getMotionEvent()*motionEvent2ó
+android.view.MotionEventTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW W(2æ
+?com.facebook.react.uimanager.events.TouchEvent.getMotionEvent()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW) W(72≥
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaW W((Í
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedIndices@91.18:91.32VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java[ [( "
+typeWritableArray"
+isFinalfalse"ã
+declarationStringv<mark class="modifier"> </mark>WritableArray <mark class="class-field">changedIndices</mark> = Arguments.createArray()*changedIndices2¶
+'com.facebook.react.bridge.WritableArrayTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java[ [(2∞
+1com.facebook.react.bridge.Arguments.createArray()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java[- [(8ﬂ
+∂com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@93.15:93.16VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java] ]("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2Ç
+intTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java] ](‰
+∏com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!rctEventEmitter	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaR7 R(F"
+typeRCTEventEmitter"
+isFinalfalse"4
+declarationStringRCTEventEmitter rctEventEmitter*rctEventEmitter2≤
+3com.facebook.react.uimanager.events.RCTEventEmitterTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaR' R(6∆
+≥com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!touchEvent	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaRS R(]"
+type
+TouchEvent"
+isFinalfalse"*
+declarationStringTouchEvent touchEvent*
+touchEvent2≠
+.com.facebook.react.uimanager.events.TouchEventTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaRH R(Rﬁ¡
+´com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)METHODu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javat t(#"
+isFinalfalse"ü
+declarationStringâ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">sendTouchEvent</mark>(RCTModernEventEmitter eventEmitter<mark class="modifier"><mark class="modifier">,</mark></mark> TouchEvent event)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*sendTouchEvent2¬
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javau u(2º
+=com.facebook.react.uimanager.events.TouchEvent.getEventName()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaw6 w(B2¡
+Bcom.facebook.react.uimanager.events.TouchEvent.getTouchEventType()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay" y(32æ
+?com.facebook.react.uimanager.events.TouchEvent.getMotionEvent()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz& z(42È
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java}! }(12ˆ
+ucom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ Ñ(12≠
+,com.facebook.react.bridge.WritableMap.copy()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaãG ã(K2≠
+,com.facebook.react.bridge.WritableMap.copy()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaõ+ õ(/2≠
+,com.facebook.react.bridge.WritableMap.copy()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java•* •(.2ˆ
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaß ß(2ˆ
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java®% ®(52Í
+icom.facebook.react.bridge.WritableMap.putArray(java.lang.String, com.facebook.react.bridge.ReadableArray)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java™ ™(2Í
+icom.facebook.react.bridge.WritableMap.putArray(java.lang.String, com.facebook.react.bridge.ReadableArray)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java´ ´(2û
+úcom.facebook.react.uimanager.events.RCTModernEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java≠ ≠(!2π
+8com.facebook.react.uimanager.events.Event.getSurfaceId()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÆ Æ(2∑
+6com.facebook.react.uimanager.events.Event.getViewTag()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaØ Ø(2æ
+=com.facebook.react.uimanager.events.TouchEvent.getEventName()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java∞ ∞(2Ω
+<com.facebook.react.uimanager.events.TouchEvent.canCoalesce()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java± ±(2¬
+Acom.facebook.react.uimanager.events.TouchEvent.getEventCategory()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java¥ ¥("2∞
+/com.facebook.systrace.Systrace.endSection(long)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java∑ ∑(2∆
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (%2±
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaw0 w(52±
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay y(!2±
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz  z(%2≈
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java|
+ |(2¿
+Acom.facebook.react.uimanager.events.TouchesHelper?TAG@31.30:31.33CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java~ ~(2≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ2 Ñ(72¿
+æcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@121.21:121.25CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaá á(2«
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaâ  â(+2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaã
+ ã(2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaã. ã(52À
+…com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?newPointerIndex@137.14:137.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaã6 ã(E2«
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaé% é(02√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì( ì(/2–
+Œcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointerIndex@142.14:142.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì0 ì(D2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaî
+ î(2–
+Œcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointerIndex@142.14:142.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaî î(&2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javañ
+ ñ(2À
+…com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointer@147.22:147.37CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javañ. ñ(=2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaô
+ ô(2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaô+ ô(22Ω
+ªcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@154.19:154.20CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaö ö(2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaö ö(%2Ω
+ªcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@154.19:154.20CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaö. ö(/2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaõ õ(2Ω
+ªcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@154.19:154.20CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaõ õ(2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaõ  õ('2Ω
+ªcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@154.19:154.20CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaõ( õ()2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaü
+ ü(2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaü ü("2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java†
+ †(2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java§# §(12≈
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchData@164.23:164.32CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java•  •()2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaß5 ß(C2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java®N ®(U2≈
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?eventData@165.20:165.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java™ ™(2“
+Qcom.facebook.react.uimanager.events.TouchesHelper?CHANGED_TOUCHES_KEY@21.29:21.48CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java™ ™(.2œ
+Õcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouchesArray@166.22:166.41CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java™0 ™(C2≈
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?eventData@165.20:165.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java´ ´(2 
+Icom.facebook.react.uimanager.events.TouchesHelper?TOUCHES_KEY@22.29:22.40CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java´ ´(&2»
+∆com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchesArray@168.22:168.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java´( ´(42∫
+∏com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventEmitterCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java≠ ≠(2≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÆ Æ(2≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaØ Ø(2≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java∞ ∞(2≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java± ±(2≈
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?eventData@165.20:165.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java≥ ≥(2≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java¥ ¥(2Ω
+∏com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventEmitter	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javat: t(F2∂
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!event	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javatS t(X2≈
+æcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@121.21:121.25DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay y(2Ã
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29DECLARATIONu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz z(2 
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ Ñ(2—
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÖ Ö("2“
+…com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?newPointerIndex@137.14:137.29DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaâ â(2◊
+Œcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointerIndex@142.14:142.34DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaé é("2“
+…com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointer@147.22:147.37DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì ì(%2ƒ
+ªcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@154.19:154.20DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaö ö(2Ã
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchData@164.23:164.32DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java§ §( 2Ã
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?eventData@165.20:165.29DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java• •(2÷
+Õcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouchesArray@166.22:166.41DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java¶ ¶()2œ
+∆com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchesArray@168.22:168.34DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java® ®("2ä
+voidRETURN_TYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javat t(•	
+æcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?type@121.21:121.25VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay y("
+typeTouchEventType"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark>TouchEventType <mark class="class-field">type</mark> = event.getTouchEventType()*type2±
+2com.facebook.react.uimanager.events.TouchEventTypeTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay y(2¡
+Bcom.facebook.react.uimanager.events.TouchEvent.getTouchEventType()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay" y(32±
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javay y(!î	
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29VARIABLEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz z("
+typeMotionEvent"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>MotionEvent <mark class="class-field">motionEvent</mark> = event.getMotionEvent()*motionEvent2ó
+android.view.MotionEventTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz z(2æ
+?com.facebook.react.uimanager.events.TouchEvent.getMotionEvent()CALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz& z(42±
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaz  z(%€	
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ Ñ("
+typeWritableMap"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark>WritableMap[] <mark class="class-field">touches</mark> = createPointersArray(event)*touches2®
+'com.facebook.react.bridge.WritableMap[]TYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ Ñ(2ˆ
+ucom.facebook.react.uimanager.events.TouchesHelper.createPointersArray(com.facebook.react.uimanager.events.TouchEvent)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ Ñ(12≥
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÑ2 Ñ(7 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÖ Ö(""
+typeWritableMap"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark>WritableMap[] <mark class="class-field">changedTouches</mark> = <mark class="modifier">null</mark>*changedTouches2®
+'com.facebook.react.bridge.WritableMap[]TYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaÖ Ö(˘
+…com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?newPointerIndex@137.14:137.29VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaâ â("
+typeint"
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">newPointerIndex</mark> = motionEvent.getActionIndex()*newPointerIndex2Ñ
+intTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaâ
+ â(2«
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaâ  â(+à
+Œcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointerIndex@142.14:142.34VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaé é(""
+typeint"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">finishedPointerIndex</mark> = motionEvent.getActionIndex()*finishedPointerIndex2Ñ
+intTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaé
+ é(2«
+≈com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?motionEvent@122.18:122.29CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaé% é(0‹
+
+…com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointer@147.22:147.37VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì ì(%"
+typeWritableMap"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>WritableMap <mark class="class-field">finishedPointer</mark> = touches[finishedPointerIndex]*finishedPointer2¶
+%com.facebook.react.bridge.WritableMapTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì
+ ì(2√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì( ì(/2–
+Œcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?finishedPointerIndex@142.14:142.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaì0 ì(DË
+ªcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?i@154.19:154.20VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaö ö("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2Ñ
+intTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaö ö(ê
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchData@164.23:164.32VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java§ §( "
+typeWritableMap"
+isFinalfalse"j
+declarationStringU<mark class="modifier"> </mark>WritableMap <mark class="class-field">touchData</mark>*	touchData2¶
+%com.facebook.react.bridge.WritableMapTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java§ §(õ	
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?eventData@165.20:165.29VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java• •("
+typeWritableMap"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>WritableMap <mark class="class-field">eventData</mark> = touchData.copy()*	eventData2¶
+%com.facebook.react.bridge.WritableMapTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java• •(2≠
+,com.facebook.react.bridge.WritableMap.copy()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java•* •(.2≈
+√com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchData@164.23:164.32CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java•  •()∑
+
+Õcom.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouchesArray@166.22:166.41VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java¶ ¶()"
+typeWritableArray"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>WritableArray <mark class="class-field">changedTouchesArray</mark> = getWritableArray(/* copyObjects */
+true, changedTouches)*changedTouchesArray2®
+'com.facebook.react.bridge.WritableArrayTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java¶ ¶(2ˆ
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaß ß(2 
+»com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?changedTouches@133.20:133.34CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaß5 ß(Cî
+
+∆com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touchesArray@168.22:168.34VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java® ®(""
+typeWritableArray"
+isFinalfalse"§
+declarationStringé<mark class="modifier"> </mark>WritableArray <mark class="class-field">touchesArray</mark> = getWritableArray(/* copyObjects */
+true, touches)*touchesArray2®
+'com.facebook.react.bridge.WritableArrayTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java® ®(2ˆ
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java®% ®(52√
+¡com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)?touches@132.20:132.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java®N ®(U
+∏com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!eventEmitter	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javat: t(F"
+typeRCTModernEventEmitter"
+isFinalfalse"7
+declarationString"RCTModernEventEmitter eventEmitter*eventEmitter2∏
+9com.facebook.react.uimanager.events.RCTModernEventEmitterTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javat$ t(9∫
+±com.facebook.react.uimanager.events.TouchesHelper.sendTouchEvent(com.facebook.react.uimanager.events.RCTModernEventEmitter, com.facebook.react.uimanager.events.TouchEvent)!event	PARAMETERu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javatS t(X"
+type
+TouchEvent"
+isFinalfalse"%
+declarationStringTouchEvent event*event2≠
+.com.facebook.react.uimanager.events.TouchEventTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javatH t(Rí"
+ucom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)METHODw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaª ª(/"
+isFinalfalse"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">static </mark>WritableArray <mark class="method">getWritableArray</mark>(<mark class="modifier">boolean</mark> copyObjects<mark class="modifier"><mark class="modifier">,</mark></mark> WritableMap... objects)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeWritableArray*getWritableArray2≤
+1com.facebook.react.bridge.Arguments.createArray()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaº% º(02◊
+Vcom.facebook.react.bridge.WritableArray.pushMap(com.facebook.react.bridge.ReadableMap)CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaø ø(2≠
+,com.facebook.react.bridge.WritableMap.copy()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaø, ø(02˛
+}com.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)!objectsCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaΩ Ω(%2å
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?object@189.21:189.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaæ
+ æ(2å
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?result@188.18:188.24CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaø ø(2É
+Åcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)!copyObjectsCALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaø ø("2å
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?object@189.21:189.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaø% ø(+2å
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?object@189.21:189.27CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaø5 ø(;2å
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?result@188.18:188.24CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java¬ ¬(2à
+Åcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)!copyObjects	PARAMETERw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaª8 ª(C2É
+}com.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)!objects	PARAMETERw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaªT ª([2ì
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?result@188.18:188.24DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaº º(2ì
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?object@189.21:189.27DECLARATIONw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaΩ Ω(2Ø
+'com.facebook.react.bridge.WritableArrayRETURN_TYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaª ª(ß
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?result@188.18:188.24VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaº º("
+typeWritableArray"
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark>WritableArray <mark class="class-field">result</mark> = Arguments.createArray()*result2®
+'com.facebook.react.bridge.WritableArrayTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaº º(2≤
+1com.facebook.react.bridge.Arguments.createArray()CALLw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaº% º(0—
+äcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)?object@189.21:189.27VARIABLEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaΩ Ω("
+typeWritableMap"
+isFinalfalse"g
+declarationStringR<mark class="modifier"> </mark>WritableMap <mark class="class-field">object</mark>*object2¶
+%com.facebook.react.bridge.WritableMapTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaΩ	 Ω(ã
+Åcom.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)!copyObjects	PARAMETERw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaª8 ª(C"
+typeboolean"
+isFinalfalse"F
+declarationString1<mark class="modifier">boolean</mark> copyObjects*copyObjects2à
+booleanTYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaª0 ª(7à
+}com.facebook.react.uimanager.events.TouchesHelper.getWritableArray(boolean, com.facebook.react.bridge.WritableMap...)!objects	PARAMETERw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaªT ª(["
+typeWritableMap"
+isFinalfalse"(
+declarationStringWritableMap objects*objects2®
+'com.facebook.react.bridge.WritableMap[]TYPEw
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.javaªE ª(Pè
+Pcom.facebook.react.uimanager.events.TouchesHelper?TARGET_SURFACE_KEY@19.29:19.47VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (/"
+isFinaltrue"
+typeString"—
+declarationStringª<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TARGET_SURFACE_KEY</mark> = "targetSurface";"
+isStatictrue"
+accesspublic*TARGET_SURFACE_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (
+Hcom.facebook.react.uimanager.events.TouchesHelper?TARGET_KEY@20.29:20.39VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java ('"
+isFinaltrue"
+typeString"¬
+declarationString¨<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TARGET_KEY</mark> = "target";"
+isStatictrue"
+accesspublic*
+TARGET_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (ì
+Qcom.facebook.react.uimanager.events.TouchesHelper?CHANGED_TOUCHES_KEY@21.29:21.48VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (0"
+isFinaltrue"
+typeString"”
+declarationStringΩ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">CHANGED_TOUCHES_KEY</mark> = "changedTouches";"
+isStatictrue"
+accesspublic*CHANGED_TOUCHES_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (Ù
+Icom.facebook.react.uimanager.events.TouchesHelper?TOUCHES_KEY@22.29:22.40VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (("
+isFinaltrue"
+typeString"ƒ
+declarationStringÆ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TOUCHES_KEY</mark> = "touches";"
+isStatictrue"
+accesspublic*TOUCHES_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (Ò
+Hcom.facebook.react.uimanager.events.TouchesHelper?PAGE_X_KEY@23.30:23.40VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (("
+isFinaltrue"
+typeString"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">PAGE_X_KEY</mark> = "pageX";"
+isStatictrue"
+accessprivate*
+PAGE_X_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (Ò
+Hcom.facebook.react.uimanager.events.TouchesHelper?PAGE_Y_KEY@24.30:24.40VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (("
+isFinaltrue"
+typeString"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">PAGE_Y_KEY</mark> = "pageY";"
+isStatictrue"
+accessprivate*
+PAGE_Y_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (˛
+Kcom.facebook.react.uimanager.events.TouchesHelper?TIMESTAMP_KEY@25.30:25.43VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (+"
+isFinaltrue"
+typeString"…
+declarationString≥<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TIMESTAMP_KEY</mark> = "timestamp";"
+isStatictrue"
+accessprivate*TIMESTAMP_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (ö
+Tcom.facebook.react.uimanager.events.TouchesHelper?POINTER_IDENTIFIER_KEY@26.30:26.52VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (4"
+isFinaltrue"
+typeString"”
+declarationStringΩ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">POINTER_IDENTIFIER_KEY</mark> = "identifier";"
+isStatictrue"
+accessprivate*POINTER_IDENTIFIER_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (Å
+Lcom.facebook.react.uimanager.events.TouchesHelper?LOCATION_X_KEY@28.30:28.44VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (,"
+isFinaltrue"
+typeString" 
+declarationString¥<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">LOCATION_X_KEY</mark> = "locationX";"
+isStatictrue"
+accessprivate*LOCATION_X_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (Å
+Lcom.facebook.react.uimanager.events.TouchesHelper?LOCATION_Y_KEY@29.30:29.44VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (,"
+isFinaltrue"
+typeString" 
+declarationString¥<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">LOCATION_Y_KEY</mark> = "locationY";"
+isStatictrue"
+accessprivate*LOCATION_Y_KEY2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (‰
+Acom.facebook.react.uimanager.events.TouchesHelper?TAG@31.30:31.33VALUEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (!"
+isFinaltrue"
+typeString"√
+declarationString≠<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = "TouchesHelper";"
+isStatictrue"
+accessprivate*TAG2è
+java.lang.StringTYPEu
+knode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/TouchesHelper.java (

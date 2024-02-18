@@ -1,0 +1,705 @@
+
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÎ1
+9com.facebook.react.uimanager.events.FabricEventDispatcherCLASS}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java ("".
+package#com.facebook.react.uimanager.events"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"»
+declarationString≤<mark class="modifier">public </mark><mark class="modifier">class </mark>FabricEventDispatcher<mark class="modifier"><br>implements </mark>EventDispatcher, LifecycleEventListener"
+accesspublic*FabricEventDispatcher2ë
+Çcom.facebook.react.uimanager.events.FabricEventDispatcher.FabricEventDispatcher(com.facebook.react.bridge.ReactApplicationContext)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java 	  (2Ä
+rcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java' '(2€
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchAllEvents()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java1 1(2È
+[com.facebook.react.uimanager.events.FabricEventDispatcher.maybePostFrameCallbackFromNonUI()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java5 5(.2ë
+Çcom.facebook.react.uimanager.events.FabricEventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC C(2î
+Öcom.facebook.react.uimanager.events.FabricEventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH H(2™
+õcom.facebook.react.uimanager.events.FabricEventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaL L(-2≠
+ûcom.facebook.react.uimanager.events.FabricEventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaP P(02÷
+Hcom.facebook.react.uimanager.events.FabricEventDispatcher.onHostResume()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaU U(2’
+Gcom.facebook.react.uimanager.events.FabricEventDispatcher.onHostPause()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaZ Z(2◊
+Icom.facebook.react.uimanager.events.FabricEventDispatcher.onHostDestroy()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java_ _(2Â
+Wcom.facebook.react.uimanager.events.FabricEventDispatcher.onCatalystInstanceDestroyed()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javac c()2€
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.stopFrameCallback()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javam m( 2ó
+àcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar r("2ù
+écom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javav v("2„
+Ucom.facebook.react.uimanager.events.FabricEventDispatcher.unregisterEventEmitter(int)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{ {($2Ê
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java" (42·
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java( (52ﬁ
+Pcom.facebook.react.uimanager.events.FabricEventDispatcher?mListeners@25.62:25.72DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java> (H2Ô
+acom.facebook.react.uimanager.events.FabricEventDispatcher?mPostEventDispatchListeners@27.67:27.94DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC (^2È
+[com.facebook.react.uimanager.events.FabricEventDispatcher?mCurrentFrameCallback@29.68:29.89DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaD (Y2Â
+Wcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallbackDECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java (-2º
+3com.facebook.react.uimanager.events.EventDispatcherEXTEND}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java. (=2π
+0com.facebook.react.bridge.LifecycleEventListenerEXTEND}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java? (U∏
+Çcom.facebook.react.uimanager.events.FabricEventDispatcher.FabricEventDispatcher(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTOR}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java 	  ("ë
+declarationString|<mark class="modifier">public </mark><mark class="method">FabricEventDispatcher</mark>(ReactApplicationContext reactContext)*FabricEventDispatcher2˘
+rcom.facebook.react.bridge.ReactContext.addLifecycleEventListener(com.facebook.react.bridge.LifecycleEventListener)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java" "(+2Å
+zcom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java# #(.2⁄
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java! !(2ó
+ècom.facebook.react.uimanager.events.FabricEventDispatcher.FabricEventDispatcher(com.facebook.react.bridge.ReactApplicationContext)!reactContextCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java! !( 2⁄
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java" "(2ﬂ
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java# #(2⁄
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java#/ #(<2ú
+ècom.facebook.react.uimanager.events.FabricEventDispatcher.FabricEventDispatcher(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java 7  (C2«
+9com.facebook.react.uimanager.events.FabricEventDispatcherRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java 	  (”
+ècom.facebook.react.uimanager.events.FabricEventDispatcher.FabricEventDispatcher(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java 7  (C"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2∏
+1com.facebook.react.bridge.ReactApplicationContextTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java   (6À
+rcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java' '("
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchEvent</mark>(Event event)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchEvent2˙
+scom.facebook.react.uimanager.events.Event.dispatchModern(com.facebook.react.uimanager.events.RCTModernEventEmitter)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java(
+ ((2˝
+vcom.facebook.react.uimanager.events.EventDispatcherListener.onEventDispatch(com.facebook.react.uimanager.events.Event)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java* *(2∫
+3com.facebook.react.uimanager.events.Event.dispose()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java-
+ -(2‚
+[com.facebook.react.uimanager.events.FabricEventDispatcher.maybePostFrameCallbackFromNonUI()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java. .(#2ˇ
+xcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java( ((	2ﬂ
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java( ((+2◊
+Pcom.facebook.react.uimanager.events.FabricEventDispatcher?mListeners@25.62:25.72CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java), )(62è
+ácom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)?listener@41.33:41.41CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java* *(2ˇ
+xcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java* *($2ˇ
+xcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java- -(	2˜
+lcom.facebook.react.uimanager.events.EventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java' '(2Ñ
+xcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)!event	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java'" '('2ñ
+ácom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)?listener@41.33:41.41DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java)! )()2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java'	 '(å
+ácom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)?listener@41.33:41.41VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java)! )()"
+typeEventDispatcherListener"
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>EventDispatcherListener <mark class="class-field">listener</mark>*listener2¬
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java)	 )( Å
+xcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)!event	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java'" '('"
+typeEvent"
+isFinalfalse" 
+declarationStringEvent event*event2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java' '(!°
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.dispatchAllEvents()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java1 1("
+isFinalfalse"å
+declarationStringw<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchAllEvents</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchAllEvents2‚
+[com.facebook.react.uimanager.events.FabricEventDispatcher.maybePostFrameCallbackFromNonUI()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java2 2(#2“
+Gcom.facebook.react.uimanager.events.EventDispatcher.dispatchAllEvents()OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java1 1(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java1	 1(—
+
+[com.facebook.react.uimanager.events.FabricEventDispatcher.maybePostFrameCallbackFromNonUI()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java5 5(."
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">maybePostFrameCallbackFromNonUI</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*maybePostFrameCallbackFromNonUI2Û
+lcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePostFromNonUI()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java9 9(.2ﬂ
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java6 6(2‚
+[com.facebook.react.uimanager.events.FabricEventDispatcher?mCurrentFrameCallback@29.68:29.89CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java9 9(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java5
+ 5(Å
+Çcom.facebook.react.uimanager.events.FabricEventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC C("
+isFinalfalse"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addListener</mark>(EventDispatcherListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addListener2∑
+0java.util.concurrent.CopyOnWriteArrayList.add(E)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaD D(2◊
+Pcom.facebook.react.uimanager.events.FabricEventDispatcher?mListeners@25.62:25.72CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaD D(2ì
+ãcom.facebook.react.uimanager.events.FabricEventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listenerCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaD D(2á
+|com.facebook.react.uimanager.events.EventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC C(2ò
+ãcom.facebook.react.uimanager.events.FabricEventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC2 C(:2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC	 C(—
+ãcom.facebook.react.uimanager.events.FabricEventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC2 C(:"
+typeEventDispatcherListener"
+isFinalfalse"5
+declarationString EventDispatcherListener listener*listener2¬
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC C(1•
+Öcom.facebook.react.uimanager.events.FabricEventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH H("
+isFinalfalse"™
+declarationStringî<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeListener</mark>(EventDispatcherListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeListener2…
+Bjava.util.concurrent.CopyOnWriteArrayList.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaI I(2◊
+Pcom.facebook.react.uimanager.events.FabricEventDispatcher?mListeners@25.62:25.72CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaI I(2ñ
+écom.facebook.react.uimanager.events.FabricEventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listenerCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaI I(2ä
+com.facebook.react.uimanager.events.EventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH H(2õ
+écom.facebook.react.uimanager.events.FabricEventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH5 H(=2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH	 H(‘
+écom.facebook.react.uimanager.events.FabricEventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH5 H(="
+typeEventDispatcherListener"
+isFinalfalse"5
+declarationString EventDispatcherListener listener*listener2¬
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaH H(4§
+õcom.facebook.react.uimanager.events.FabricEventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaL L(-"
+isFinalfalse"¿
+declarationString™<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addBatchEventDispatchedListener</mark>(BatchEventDispatchedListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addBatchEventDispatchedListener2∑
+0java.util.concurrent.CopyOnWriteArrayList.add(E)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaM  M(#2Ë
+acom.facebook.react.uimanager.events.FabricEventDispatcher?mPostEventDispatchListeners@27.67:27.94CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaM M(2¨
+§com.facebook.react.uimanager.events.FabricEventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listenerCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaM$ M(,2°
+ïcom.facebook.react.uimanager.events.EventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaL L(-2±
+§com.facebook.react.uimanager.events.FabricEventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaLK L(S2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaL	 L(˘
+§com.facebook.react.uimanager.events.FabricEventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaLK L(S"$
+typeBatchEventDispatchedListener"
+isFinalfalse":
+declarationString%BatchEventDispatchedListener listener*listener2«
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaL. L(J»
+ûcom.facebook.react.uimanager.events.FabricEventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaP P(0"
+isFinalfalse"√
+declarationString≠<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeBatchEventDispatchedListener</mark>(BatchEventDispatchedListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*"removeBatchEventDispatchedListener2…
+Bjava.util.concurrent.CopyOnWriteArrayList.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaQ  Q(&2Ë
+acom.facebook.react.uimanager.events.FabricEventDispatcher?mPostEventDispatchListeners@27.67:27.94CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaQ Q(2Ø
+ßcom.facebook.react.uimanager.events.FabricEventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listenerCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaQ' Q(/2§
+òcom.facebook.react.uimanager.events.EventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaP P(02¥
+ßcom.facebook.react.uimanager.events.FabricEventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaPN P(V2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaP	 P(¸
+ßcom.facebook.react.uimanager.events.FabricEventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaPN P(V"$
+typeBatchEventDispatchedListener"
+isFinalfalse":
+declarationString%BatchEventDispatchedListener listener*listener2«
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaP1 P(Mπ
+Hcom.facebook.react.uimanager.events.FabricEventDispatcher.onHostResume()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaU U("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostResume</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostResume2‚
+[com.facebook.react.uimanager.events.FabricEventDispatcher.maybePostFrameCallbackFromNonUI()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaV V(#2 
+?com.facebook.react.bridge.LifecycleEventListener.onHostResume()OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaU U(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaU	 U(ß
+Gcom.facebook.react.uimanager.events.FabricEventDispatcher.onHostPause()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaZ Z("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostPause</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostPause2‘
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.stopFrameCallback()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java[ [(2…
+>com.facebook.react.bridge.LifecycleEventListener.onHostPause()OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaZ Z(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaZ	 Z(Ø
+Icom.facebook.react.uimanager.events.FabricEventDispatcher.onHostDestroy()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java_ _("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostDestroy2‘
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.stopFrameCallback()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java` `(2À
+@com.facebook.react.bridge.LifecycleEventListener.onHostDestroy()OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java_ _(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java_	 _(≤
+Wcom.facebook.react.uimanager.events.FabricEventDispatcher.onCatalystInstanceDestroyed()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javac c()"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onCatalystInstanceDestroyed</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onCatalystInstanceDestroyed2œ
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javad d(2‘
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.stopFrameCallback()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javah h(2°
+ôcom.facebook.react.uimanager.events.FabricEventDispatcher.Anonymous-31239806-cc0a-4f56-8e72-a13d86c07041.Anonymous-31239806-cc0a-4f56-8e72-a13d86c07041()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javae e(2‹
+Qcom.facebook.react.uimanager.events.EventDispatcher.onCatalystInstanceDestroyed()OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javac c()2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javac	 c(˘	
+Mcom.facebook.react.uimanager.events.FabricEventDispatcher.stopFrameCallback()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javam m( "
+isFinalfalse"ç
+declarationStringx<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">stopFrameCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*stopFrameCallback2¿
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javan n(!2Â
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.stop()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javao o(2‚
+[com.facebook.react.uimanager.events.FabricEventDispatcher?mCurrentFrameCallback@29.68:29.89CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javao o(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javam
+ m(„
+àcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar r(""
+isFinalfalse"»
+declarationString≤<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerEventEmitter</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType<mark class="modifier"><mark class="modifier">,</mark></mark> RCTEventEmitter eventEmitter)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerEventEmitter2ˇ
+xcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javas s(2ﬂ
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javas s(2û
+ñcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerTypeCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javas  s(-2ù
+ïcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitterCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javas/ s(;2é
+Çcom.facebook.react.uimanager.events.EventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar r("2£
+ñcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerType	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar6 r(C2¢
+ïcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitter	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javarU r(a2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar	 r(”
+ñcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerType	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar6 r(C"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2ä
+intTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javar2 r(5À
+ïcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitter	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javarU r(a"
+typeRCTEventEmitter"
+isFinalfalse"1
+declarationStringRCTEventEmitter eventEmitter*eventEmitter2∫
+3com.facebook.react.uimanager.events.RCTEventEmitterTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javarE r(Tì
+écom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javav v(""
+isFinalfalse"Œ
+declarationString∏<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerEventEmitter</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType<mark class="modifier"><mark class="modifier">,</mark></mark> RCTModernEventEmitter eventEmitter)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerEventEmitter2Ö
+~com.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javax x(2ﬂ
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javax x(2§
+úcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerTypeCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javax  x(-2£
+õcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitterCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javax/ x(;2î
+àcom.facebook.react.uimanager.events.EventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javav v("2©
+úcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerType	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaw w(&2®
+õcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitter	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaw> w(J2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javav	 v(Ÿ
+úcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerType	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaw w(&"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2ä
+intTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaw w(„
+õcom.facebook.react.uimanager.events.FabricEventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitter	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaw> w(J"
+typeRCTModernEventEmitter"
+isFinalfalse"7
+declarationString"RCTModernEventEmitter eventEmitter*eventEmitter2¿
+9com.facebook.react.uimanager.events.RCTModernEventEmitterTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaw( w(=≈
+Ucom.facebook.react.uimanager.events.FabricEventDispatcher.unregisterEventEmitter(int)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{ {($"
+isFinalfalse"
+declarationString⁄<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">unregisterEventEmitter</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*unregisterEventEmitter2Ã
+Ecom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java| |(!2ﬂ
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java| |(2Í
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.unregisterEventEmitter(int)!uiManagerTypeCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java|" |(/2⁄
+Ocom.facebook.react.uimanager.events.EventDispatcher.unregisterEventEmitter(int)OVERRIDE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{ {($2Ô
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.unregisterEventEmitter(int)!uiManagerType	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{8 {(E2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{	 {(ü
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.unregisterEventEmitter(int)!uiManagerType	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{8 {(E"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2ä
+intTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java{4 {(7≠
+Xcom.facebook.react.uimanager.events.FabricEventDispatcher?mReactEventEmitter@23.34:23.52VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java" (4"
+isFinaltrue"
+typeReactEventEmitter"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactEventEmitter <mark class="class-field">mReactEventEmitter</mark>"
+isStaticfalse"
+accessprivate*mReactEventEmitter2º
+5com.facebook.react.uimanager.events.ReactEventEmitterTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java (!¶
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java( (5"
+isFinaltrue"
+typeReactApplicationContext"¶
+declarationStringê<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactApplicationContext <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2∏
+1com.facebook.react.bridge.ReactApplicationContextTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java ('˘
+Pcom.facebook.react.uimanager.events.FabricEventDispatcher?mListeners@25.62:25.72VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java> (H"
+isFinaltrue"5
+type-CopyOnWriteArrayList<EventDispatcherListener>"Ÿ
+declarationString√<mark class="modifier">private </mark><mark class="modifier">final </mark>CopyOnWriteArrayList<EventDispatcherListener> <mark class="class-field">mListeners</mark> = new CopyOnWriteArrayList<>();"
+isStaticfalse"
+accessprivate*
+mListeners2∞
+)java.util.concurrent.CopyOnWriteArrayListTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java ($2À
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java% (<2«
+@java.util.concurrent.CopyOnWriteArrayList.CopyOnWriteArrayList()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java
+ ( ª	
+acom.facebook.react.uimanager.events.FabricEventDispatcher?mPostEventDispatchListeners@27.67:27.94VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaC (^"
+isFinaltrue":
+type2CopyOnWriteArrayList<BatchEventDispatchedListener>"Ô
+declarationStringŸ<mark class="modifier">private </mark><mark class="modifier">final </mark>CopyOnWriteArrayList<BatchEventDispatchedListener> <mark class="class-field">mPostEventDispatchListeners</mark> = new CopyOnWriteArrayList<>();"
+isStaticfalse"
+accessprivate*mPostEventDispatchListeners2∞
+)java.util.concurrent.CopyOnWriteArrayListTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java ($2–
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java% (A2«
+@java.util.concurrent.CopyOnWriteArrayList.CopyOnWriteArrayList()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java
+ ( ⁄
+[com.facebook.react.uimanager.events.FabricEventDispatcher?mCurrentFrameCallback@29.68:29.89VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaD (Y"
+isFinaltrue";
+type3FabricEventDispatcher.ScheduleDispatchFrameCallback"á
+declarationStringÒ<mark class="modifier">private </mark><mark class="modifier">final </mark>FabricEventDispatcher.ScheduleDispatchFrameCallback <mark class="class-field">mCurrentFrameCallback</mark> = new FabricEventDispatcher.ScheduleDispatchFrameCallback();"
+isStaticfalse"
+accessprivate*mCurrentFrameCallback2ﬁ
+Wcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallbackTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java& (C2˛
+wcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.ScheduleDispatchFrameCallback()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java
+ (=˝
+Wcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallbackCLASS}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java (-"D
+package9com.facebook.react.uimanager.events.FabricEventDispatcher"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"≈
+declarationStringØ<mark class="modifier">private </mark><mark class="modifier">class </mark>ScheduleDispatchFrameCallback<mark class="modifier"> extends </mark>ChoreographerCompat.FrameCallback"
+accessprivate*ScheduleDispatchFrameCallback2ı
+ecom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ(2Ó
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.stop()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaó ó(2Û
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePost()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaõ õ(2Ó
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.post()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java¢ ¢(2¸
+lcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePostFromNonUI()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaß ß("2ˇ
+ocom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mIsPosted@128.29:128.38DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÄ Ä(&2Å
+qcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mShouldStop@129.20:129.31DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÅ Å(2 
+Acom.facebook.react.modules.core.ChoreographerCompat.FrameCallbackEXTEND}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaJ (WÕ
+ecom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ("
+isFinalfalse"‚
+declarationStringÃ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">doFrame</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*doFrame2¬
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÖ Ö(#2Á
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.post()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaä ä(2Ã
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaç ç(2‚
+Ycom.facebook.react.uimanager.events.BatchEventDispatchedListener.onBatchEventDispatched()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaê ê()2∏
+/com.facebook.systrace.Systrace.endSection(long)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaì ì(2˙
+qcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mShouldStop@129.20:129.31CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaá
+ á(2¯
+ocom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mIsPosted@128.29:128.38CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaà à(2Í
+acom.facebook.react.uimanager.events.FabricEventDispatcher?mPostEventDispatchListeners@27.67:27.94CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaè5 è(P2Ö
+|com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)?listener@143.42:143.50CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaê
+ ê(2‹
+Ocom.facebook.react.modules.core.ChoreographerCompat.FrameCallback.doFrame(long)OVERRIDE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ(2Ç
+tcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)!frameTimeNanos	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ(+2å
+|com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)?listener@143.42:143.50DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaè* è(22î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ(ì
+|com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)?listener@143.42:143.50VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaè* è(2"$
+typeBatchEventDispatchedListener"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>BatchEventDispatchedListener <mark class="class-field">listener</mark>*listener2…
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaè è()ä
+tcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.doFrame(long)!frameTimeNanos	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ(+"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2ç
+longTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÑ Ñ(ﬁ
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.stop()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaó ó("
+isFinalfalse"
+declarationStringj<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">stop</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*stop2˙
+qcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mShouldStop@129.20:129.31CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaò ò(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaó ó(—
+
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePost()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaõ õ("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">maybePost</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	maybePost2Á
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.post()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaû û(2¯
+ocom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mIsPosted@128.29:128.38CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaú ú(2¯
+ocom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mIsPosted@128.29:128.38CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaù ù(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaõ õ(Ï
+
+^com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.post()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java¢ ¢("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">post</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*post2“
+»com.facebook.react.modules.core.ReactChoreographer.postFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java§ §(2…
+@com.facebook.react.modules.core.ReactChoreographer.getInstance()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java£ £($2‰
+[com.facebook.react.uimanager.events.FabricEventDispatcher?mCurrentFrameCallback@29.68:29.89CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java§L §(a2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java¢ ¢(Ü
+lcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePostFromNonUI()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaß ß(""
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">maybePostFromNonUI</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*maybePostFromNonUI2√
+:com.facebook.react.bridge.ReactContext.isOnUiQueueThread()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java≠ ≠()2Ï
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePost()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÆ Æ(2÷
+Mcom.facebook.react.bridge.ReactContext.runOnUiQueueThread(java.lang.Runnable)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java∞ ∞((2Ï
+ccom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.maybePost()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java¥ ¥(2¡
+∑com.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback.Anonymous-67567c60-92d9-4cec-a65e-0c367bb988a2.Anonymous-67567c60-92d9-4cec-a65e-0c367bb988a2()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java± ±(2¯
+ocom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mIsPosted@128.29:128.38CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java®
+ ®(2‹
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java≠
+ ≠(2‹
+Scom.facebook.react.uimanager.events.FabricEventDispatcher?mReactContext@24.40:24.53CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.java∞ ∞(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaß ß(ô
+ocom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mIsPosted@128.29:128.38VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÄ Ä(&"
+isFinalfalse"
+typeboolean"≥
+declarationStringù<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mIsPosted</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*	mIsPosted2ê
+booleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÄ Ä(ü
+qcom.facebook.react.uimanager.events.FabricEventDispatcher.ScheduleDispatchFrameCallback?mShouldStop@129.20:129.31VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÅ Å("
+isFinalfalse"
+typeboolean"µ
+declarationStringü<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mShouldStop</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mShouldStop2ê
+booleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/FabricEventDispatcher.javaÅ Å(

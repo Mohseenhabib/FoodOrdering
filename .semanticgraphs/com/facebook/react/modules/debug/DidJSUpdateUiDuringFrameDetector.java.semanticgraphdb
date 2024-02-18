@@ -1,0 +1,723 @@
+
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÍ&
+Acom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetectorCLASSÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (-"+
+package com.facebook.react.modules.debug"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ˇ
+declarationStringÈ<mark class="modifier">public </mark><mark class="modifier">class </mark>DidJSUpdateUiDuringFrameDetector<mark class="modifier"><br>implements </mark>NotThreadSafeBridgeIdleDebugListener, NotThreadSafeViewHierarchyUpdateDebugListener"
+accesspublic* DidJSUpdateUiDuringFrameDetector2Û
+\com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onTransitionToBridgeIdle()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java" "(32Û
+\com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onTransitionToBridgeBusy()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java' '(32Ï
+Ucom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onBridgeDestroyed()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java, ,(,2¯
+acom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onViewHierarchyUpdateEnqueued()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java1 1(82¯
+acom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onViewHierarchyUpdateFinished()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java6 6(82ˇ
+hcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaU U(82§
+åcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javar r(22®
+êcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java} }(32ˆ
+]com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã ã(!2ç
+tcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò ò(2¸
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToIdleEvents@25.26:25.49DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (12¸
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToBusyEvents@26.26:26.49DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (12á
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateEnqueuedEvents@27.26:27.60DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (<2á
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateFinishedEvents@29.26:29.60DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (<2˝
+fcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mWasIdleAtEndOfLastFrame@31.27:31.51DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (32–
+>com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListenerEXTENDÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (32‚
+Pcom.facebook.react.uimanager.debug.NotThreadSafeViewHierarchyUpdateDebugListenerEXTENDÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java5 (b∆
+\com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onTransitionToBridgeIdle()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java" "(3"
+isFinalfalse"Ì
+declarationString◊<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onTransitionToBridgeIdle</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onTransitionToBridgeIdle2Ω
+-com.facebook.react.common.LongArray.add(long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java# #(2´
+java.lang.System.nanoTime()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java#' #(/2ı
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToIdleEvents@25.26:25.49CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java# #(2Ì
+Ycom.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener.onTransitionToBridgeIdle()OVERRIDEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java" "(32õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java" "(∆
+\com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onTransitionToBridgeBusy()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java' '(3"
+isFinalfalse"Ì
+declarationString◊<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onTransitionToBridgeBusy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onTransitionToBridgeBusy2Ω
+-com.facebook.react.common.LongArray.add(long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java( ((2´
+java.lang.System.nanoTime()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java(' ((/2ı
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToBusyEvents@26.26:26.49CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java( ((2Ì
+Ycom.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener.onTransitionToBridgeBusy()OVERRIDEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java' '(32õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java' '(ƒ
+Ucom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onBridgeDestroyed()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java, ,(,"
+isFinalfalse"Ê
+declarationString–<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onBridgeDestroyed</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onBridgeDestroyed2Ê
+Rcom.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener.onBridgeDestroyed()OVERRIDEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java, ,(,2õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java, ,(˜
+acom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onViewHierarchyUpdateEnqueued()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java1 1(8"
+isFinalfalse"Ú
+declarationString‹<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onViewHierarchyUpdateEnqueued</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onViewHierarchyUpdateEnqueued2Ω
+-com.facebook.react.common.LongArray.add(long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java2' 2(*2´
+java.lang.System.nanoTime()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java22 2(:2Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateEnqueuedEvents@27.26:27.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java2 2(&2Ñ
+pcom.facebook.react.uimanager.debug.NotThreadSafeViewHierarchyUpdateDebugListener.onViewHierarchyUpdateEnqueued()OVERRIDEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java1 1(82õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java1 1(˜
+acom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.onViewHierarchyUpdateFinished()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java6 6(8"
+isFinalfalse"Ú
+declarationString‹<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onViewHierarchyUpdateFinished</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onViewHierarchyUpdateFinished2Ω
+-com.facebook.react.common.LongArray.add(long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java7' 7(*2´
+java.lang.System.nanoTime()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java72 7(:2Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateFinishedEvents@29.26:29.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java7 7(&2Ñ
+pcom.facebook.react.uimanager.debug.NotThreadSafeViewHierarchyUpdateDebugListener.onViewHierarchyUpdateFinished()OVERRIDEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java6 6(82õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java6 6(¡P
+hcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaU U(8"
+isFinalfalse"Ï
+declarationString÷<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">boolean</mark> <mark class="method">getDidJSHitFrameAndCleanup</mark>(<mark class="modifier">long</mark> frameStartTimeNanos<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> frameEndTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*getDidJSHitFrameAndCleanup2ù
+åcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaY Y(!2Ì
+]com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[ [(-2ù
+åcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javad d(+2Ñ
+tcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javah h(2Ñ
+tcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javai i(2Ñ
+tcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaj j(2Ñ
+tcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javak k(2Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateFinishedEvents@29.26:29.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaZ Z(.2å
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaZ0 Z(C2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaZE Z(V2å
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[. [(A2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[C [(T2ñ
+Öcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?finishedUiUpdate@88.12:88.28CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java^ ^(2ç
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?hitFrame@93.12:93.20CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java_ _(2ç
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?hitFrame@93.12:93.20CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javab b(2ï
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?didEndFrameIdle@91.12:91.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javac
+ c(2Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateEnqueuedEvents@27.26:27.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javae e(42å
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javae6 e(I2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaeK e(\2ı
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToIdleEvents@25.26:25.49CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javah h(#2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javah% h(62ı
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToBusyEvents@26.26:26.49CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javai i(#2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javai% i(62Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateEnqueuedEvents@27.26:27.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaj j(.2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaj0 j(A2Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateFinishedEvents@29.26:29.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javak k(.2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javak0 k(A2ˆ
+fcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mWasIdleAtEndOfLastFrame@31.27:31.51CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javam m(2ï
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?didEndFrameIdle@91.12:91.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javam m(.2ç
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?hitFrame@93.12:93.20CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javao o(2ë
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanos	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaV V(2è
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanos	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaV% V(62ù
+Öcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?finishedUiUpdate@88.12:88.28DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaX X(2ú
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?didEndFrameIdle@91.12:91.27DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[ [(2î
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?hitFrame@93.12:93.20DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java] ](2û
+booleanRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaU U(ü
+Öcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?finishedUiUpdate@88.12:88.28VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaX X("
+typeboolean"
+isFinalfalse"Ù
+declarationStringﬁ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">finishedUiUpdate</mark> = hasEventBetweenTimestamps(mViewHierarchyUpdateFinishedEvents, frameStartTimeNanos, frameEndTimeNanos)*finishedUiUpdate2ó
+booleanTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaX X(2ù
+åcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaY Y(!2Ä
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateFinishedEvents@29.26:29.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaZ Z(.2å
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaZ0 Z(C2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaZE Z(Vª
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?didEndFrameIdle@91.12:91.27VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[ [("
+typeboolean"
+isFinalfalse"≈
+declarationStringØ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">didEndFrameIdle</mark> = didEndFrameIdle(frameStartTimeNanos, frameEndTimeNanos)*didEndFrameIdle2ó
+booleanTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[ [(2Ì
+]com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[ [(-2å
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[. [(A2ä
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanosCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java[C [(Tﬁ
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)?hitFrame@93.12:93.20VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java] ]("
+typeboolean"
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">hitFrame</mark>*hitFrame2ó
+booleanTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java] ](™
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameStartTimeNanos	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaV V("
+typelong"
+isFinalfalse"K
+declarationString6<mark class="modifier">long</mark> frameStartTimeNanos*frameStartTimeNanos2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaV V(
+§
+zcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)!frameEndTimeNanos	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaV% V(6"
+typelong"
+isFinalfalse"I
+declarationString4<mark class="modifier">long</mark> frameEndTimeNanos*frameEndTimeNanos2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaV  V($ˆ+
+åcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javar r(2"
+isFinalfalse"§
+declarationStringé<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">hasEventBetweenTimestamps</mark>(LongArray eventArray<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> startTime<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> endTime)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*hasEventBetweenTimestamps2∫
+*com.facebook.react.common.LongArray.size()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat# t('2º
+,com.facebook.react.common.LongArray.get(int)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u( 2≠
+úcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@116.13:116.14CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat t(2®
+ócom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArrayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat t("2≠
+úcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@116.13:116.14CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat+ t(,2®
+ócom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArrayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u(2≠
+úcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@116.13:116.14CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau! u("2∞
+ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@117.11:117.15CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javav
+ v(2ß
+ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!startTimeCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javav v(2∞
+ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@117.11:117.15CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javav v(#2•
+îcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTimeCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javav& v(-2≠
+ócom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArray	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas s(2¨
+ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!startTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas! s(*2™
+îcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas1 s(82¥
+úcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@116.13:116.14DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat t(2∑
+ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@117.11:117.15DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u(2û
+booleanRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javar r(Á
+úcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@116.13:116.14VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat t("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ì
+intTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javat	 t(û
+ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@117.11:117.15VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u("
+typelong"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">time</mark> = eventArray.get(i)*time2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u(
+2º
+,com.facebook.react.common.LongArray.get(int)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u( 2®
+ócom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArrayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau u(2≠
+úcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@116.13:116.14CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javau! u("ø
+ócom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArray	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas s("
+type	LongArray"
+isFinalfalse")
+declarationStringLongArray eventArray*
+eventArray2≥
+#com.facebook.react.common.LongArrayTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas s(±
+ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!startTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas! s(*"
+typelong"
+isFinalfalse"A
+declarationString,<mark class="modifier">long</mark> startTime*	startTime2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas s( ´
+îcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.hasEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas1 s(8"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> endTime*endTime2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javas, s(0ß;
+êcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java} }(3"
+isFinalfalse"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">long</mark> <mark class="method">getLastEventBetweenTimestamps</mark>(LongArray eventArray<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> startTime<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> endTime)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typelong*getLastEventBetweenTimestamps2º
+*com.facebook.react.common.LongArray.size()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ# Ä('2æ
+,com.facebook.react.common.LongArray.get(int)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å( 2≥
+†com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@128.13:128.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ Ä(2Æ
+õcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ Ä("2≥
+†com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@128.13:128.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ+ Ä(,2Æ
+õcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å(2≥
+†com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@128.13:128.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ! Å("2∂
+£com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@129.11:129.15CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÇ
+ Ç(2≠
+öcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!startTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÇ Ç(2∂
+£com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@129.11:129.15CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÇ Ç(#2´
+òcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÇ& Ç(-2∫
+ßcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?lastEvent@127.9:127.18CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÉ É(2∂
+£com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@129.11:129.15CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÉ É(2∂
+£com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@129.11:129.15CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÑ Ñ(2´
+òcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÑ Ñ( 2∫
+ßcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?lastEvent@127.9:127.18CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaà à(2±
+õcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArray	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~ ~(2∞
+öcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!startTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~! ~(*2Æ
+òcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~1 ~(82ø
+ßcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?lastEvent@127.9:127.18DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java	 (2∫
+†com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@128.13:128.14DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ Ä(2Ω
+£com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@129.11:129.15DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å(2õ
+longRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java} }(á
+ßcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?lastEvent@127.9:127.18VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java	 ("
+typelong"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">lastEvent</mark> = -1*	lastEvent2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (Ô
+†com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@128.13:128.14VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ Ä("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ï
+intTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÄ	 Ä(¥
+£com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?time@129.11:129.15VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å("
+typelong"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">time</mark> = eventArray.get(i)*time2ñ
+longTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å(
+2æ
+,com.facebook.react.common.LongArray.get(int)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å( 2Æ
+õcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ Å(2≥
+†com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)?i@128.13:128.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaÅ! Å("√
+õcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!eventArray	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~ ~("
+type	LongArray"
+isFinalfalse")
+declarationStringLongArray eventArray*
+eventArray2≥
+#com.facebook.react.common.LongArrayTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~ ~(µ
+öcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!startTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~! ~(*"
+typelong"
+isFinalfalse"A
+declarationString,<mark class="modifier">long</mark> startTime*	startTime2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~ ~( Ø
+òcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)!endTime	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~1 ~(8"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> endTime*endTime2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java~, ~(0 )
+]com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã ã(!"
+isFinalfalse"£
+declarationStringç<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="method">didEndFrameIdle</mark>(<mark class="modifier">long</mark> startTime<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> endTime)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*didEndFrameIdle2£
+êcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaç ç(%2£
+êcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaè è(%2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToIdleEvents@25.26:25.49CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaç& ç(=2˘
+gcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!startTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaç? ç(H2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaçJ ç(Q2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToBusyEvents@26.26:26.49CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaè& è(=2˘
+gcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!startTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaè? è(H2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaèJ è(Q2è
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastIdleTransition@140.9:140.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaë ë(2è
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastBusyTransition@142.9:142.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaë$ ë(62¯
+fcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mWasIdleAtEndOfLastFrame@31.27:31.51CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaí í(%2è
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastIdleTransition@140.9:140.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaï ï(2è
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastBusyTransition@142.9:142.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaï  ï(22˛
+gcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!startTime	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã' ã(02¸
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!endTime	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã7 ã(>2ñ
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastIdleTransition@140.9:140.27DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaå	 å(2ñ
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastBusyTransition@142.9:142.27DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaé	 é(2†
+booleanRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã
+ ã(—
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastIdleTransition@140.9:140.27VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaå	 å("
+typelong"
+isFinalfalse"ÿ
+declarationString¬<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">lastIdleTransition</mark> = getLastEventBetweenTimestamps(mTransitionToIdleEvents, startTime, endTime)*lastIdleTransition2ñ
+longTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaå å(2£
+êcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaç ç(%2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToIdleEvents@25.26:25.49CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaç& ç(=2˘
+gcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!startTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaç? ç(H2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaçJ ç(Q—
+}com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)?lastBusyTransition@142.9:142.27VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaé	 é("
+typelong"
+isFinalfalse"ÿ
+declarationString¬<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">lastBusyTransition</mark> = getLastEventBetweenTimestamps(mTransitionToBusyEvents, startTime, endTime)*lastBusyTransition2ñ
+longTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaé é(2£
+êcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getLastEventBetweenTimestamps(com.facebook.react.common.LongArray, long, long)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaè è(%2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToBusyEvents@26.26:26.49CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaè& è(=2˘
+gcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!startTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaè? è(H2˜
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaèJ è(QÖ
+gcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!startTime	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã' ã(0"
+typelong"
+isFinalfalse"A
+declarationString,<mark class="modifier">long</mark> startTime*	startTime2ñ
+longTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã" ã(&ˇ
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.didEndFrameIdle(long, long)!endTime	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã7 ã(>"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> endTime*endTime2ñ
+longTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaã2 ã(6ÈG
+tcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò ò("
+isFinalfalse"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">cleanUp</mark>(LongArray eventArray<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> endTime)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typevoid*cleanUp2º
+*com.facebook.react.common.LongArray.size()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô(2æ
+,com.facebook.react.common.LongArray.get(int)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaú ú(2ƒ
+2com.facebook.react.common.LongArray.set(int, long)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£ £(2æ
+,com.facebook.react.common.LongArray.get(int)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£% £((2√
+1com.facebook.react.common.LongArray.dropTail(int)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java• •(2ë
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô(2ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@155.13:155.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaõ õ(2ô
+Ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?size@153.8:153.12CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaõ õ(2ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@155.13:155.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaõ õ(2ë
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaú
+ ú(2ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@155.13:155.14CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaú ú(2é
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!endTimeCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaú ú(%2§
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaù ù(2§
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java° °(2ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@162.15:162.16CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢ ¢(2ô
+Ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?size@153.8:153.12CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢ ¢(2§
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢! ¢(02ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@162.15:162.16CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢2 ¢(32ë
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£ £(2ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@162.15:162.16CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£ £(2ë
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£ £($2ó
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@162.15:162.16CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£) £(*2§
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java£- £(<2ë
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java• •(2§
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java• •()2ñ
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArray	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò( ò(22ì
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!endTime	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò9 ò(@2†
+Ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?size@153.8:153.12DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô(2´
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaö ö(2û
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@155.13:155.14DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaõ õ(2û
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@162.15:162.16DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢ ¢(2ù
+voidRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò ò(ø
+Ücom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?size@153.8:153.12VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô("
+typeint"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">size</mark> = eventArray.size()*size2ï
+intTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô(2º
+*com.facebook.react.common.LongArray.size()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô(2ë
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArrayCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaô ô(˝
+ëcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?indicesToRemove@154.8:154.23VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaö ö("
+typeint"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">indicesToRemove</mark> = 0*indicesToRemove2ï
+intTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaö ö(”
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@155.13:155.14VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaõ õ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ï
+intTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaõ	 õ(”
+Ñcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)?i@162.15:162.16VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢ ¢("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ï
+intTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java¢ ¢(™
+com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!eventArray	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò( ò(2"
+type	LongArray"
+isFinalfalse")
+declarationStringLongArray eventArray*
+eventArray2µ
+#com.facebook.react.common.LongArrayTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò ò('ñ
+|com.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.cleanUp(com.facebook.react.common.LongArray, long)!endTime	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò9 ò(@"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> endTime*endTime2ñ
+longTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.javaò4 ò(8¥
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToIdleEvents@25.26:25.49VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (1"
+isFinaltrue"
+type	LongArray"Õ
+declarationString∑<mark class="modifier">private </mark><mark class="modifier">final </mark>LongArray <mark class="class-field">mTransitionToIdleEvents</mark> = LongArray.createWithInitialCapacity(20);"
+isStaticfalse"
+accessprivate*mTransitionToIdleEvents2≥
+#com.facebook.react.common.LongArrayTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (2“
+Bcom.facebook.react.common.LongArray.createWithInitialCapacity(int)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java> (W¥
+ecom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mTransitionToBusyEvents@26.26:26.49VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (1"
+isFinaltrue"
+type	LongArray"Õ
+declarationString∑<mark class="modifier">private </mark><mark class="modifier">final </mark>LongArray <mark class="class-field">mTransitionToBusyEvents</mark> = LongArray.createWithInitialCapacity(20);"
+isStaticfalse"
+accessprivate*mTransitionToBusyEvents2≥
+#com.facebook.react.common.LongArrayTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (2“
+Bcom.facebook.react.common.LongArray.createWithInitialCapacity(int)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java> (W’
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateEnqueuedEvents@27.26:27.60VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (<"
+isFinaltrue"
+type	LongArray"ÿ
+declarationString¬<mark class="modifier">private </mark><mark class="modifier">final </mark>LongArray <mark class="class-field">mViewHierarchyUpdateEnqueuedEvents</mark> = LongArray.createWithInitialCapacity(20);"
+isStaticfalse"
+accessprivate*"mViewHierarchyUpdateEnqueuedEvents2≥
+#com.facebook.react.common.LongArrayTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (2“
+Bcom.facebook.react.common.LongArray.createWithInitialCapacity(int)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java ()’
+pcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mViewHierarchyUpdateFinishedEvents@29.26:29.60VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (<"
+isFinaltrue"
+type	LongArray"ÿ
+declarationString¬<mark class="modifier">private </mark><mark class="modifier">final </mark>LongArray <mark class="class-field">mViewHierarchyUpdateFinishedEvents</mark> = LongArray.createWithInitialCapacity(20);"
+isStaticfalse"
+accessprivate*"mViewHierarchyUpdateFinishedEvents2≥
+#com.facebook.react.common.LongArrayTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (2“
+Bcom.facebook.react.common.LongArray.createWithInitialCapacity(int)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java ()ù
+fcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector?mWasIdleAtEndOfLastFrame@31.27:31.51VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (3"
+isFinalfalse"
+typeboolean"£
+declarationStringç<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mWasIdleAtEndOfLastFrame</mark> = true;"
+isStaticfalse"
+accessprivate*mWasIdleAtEndOfLastFrame2ó
+booleanTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/DidJSUpdateUiDuringFrameDetector.java (

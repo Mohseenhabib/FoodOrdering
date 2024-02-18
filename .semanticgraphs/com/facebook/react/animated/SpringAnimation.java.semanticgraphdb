@@ -1,0 +1,1017 @@
+
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaá-
++com.facebook.react.animated.SpringAnimationCLASSo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (!"&
+packagecom.facebook.react.animated"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">class </mark>SpringAnimation<mark class="modifier"> extends </mark>AnimationDriver"
+accesspackage_private*SpringAnimation2‚
+bcom.facebook.react.animated.SpringAnimation.SpringAnimation(com.facebook.react.bridge.ReadableMap)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java4 4(2ﬁ
+^com.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java: :(2¬
+Bcom.facebook.react.animated.SpringAnimation.runAnimationStep(long)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK K(2Ü
+Öcom.facebook.react.animated.SpringAnimation.getDisplacementDistanceForState(com.facebook.react.animated.SpringAnimation.PhysicsState)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javak k(02∂
+6com.facebook.react.animated.SpringAnimation.isAtRest()DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javat t(2º
+<com.facebook.react.animated.SpringAnimation.isOvershooting()DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ( 2Ω
+;com.facebook.react.animated.SpringAnimation.advance(double)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÖ Ö(2 
+Jcom.facebook.react.animated.SpringAnimation?MAX_DELTA_TIME_SEC@19.30:19.48DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (02À
+Kcom.facebook.react.animated.SpringAnimation?SOLVER_TIMESTEP_SEC@21.30:21.49DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (12¡
+Acom.facebook.react.animated.SpringAnimation?mLastTime@29.15:29.24DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (2∆
+Fcom.facebook.react.animated.SpringAnimation?mSpringStarted@30.18:30.32DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ( 2»
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java! !(!2∆
+Fcom.facebook.react.animated.SpringAnimation?mSpringDamping@34.17:34.31DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java" "(2√
+Ccom.facebook.react.animated.SpringAnimation?mSpringMass@35.17:35.28DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java# #(2»
+Hcom.facebook.react.animated.SpringAnimation?mInitialVelocity@36.17:36.33DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java$ $(!2—
+Qcom.facebook.react.animated.SpringAnimation?mOvershootClampingEnabled@37.18:37.43DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java% %(+2≈
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java( ((*2√
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java) )(2¡
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java* *(2À
+Kcom.facebook.react.animated.SpringAnimation?mRestSpeedThreshold@44.17:44.36DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java, ,($2÷
+Vcom.facebook.react.animated.SpringAnimation?mDisplacementFromRestThreshold@45.17:45.47DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java- -(/2»
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java. .(!2√
+Ccom.facebook.react.animated.SpringAnimation?mIterations@48.14:48.25DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java0 0(2ƒ
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java1 1(2∆
+Fcom.facebook.react.animated.SpringAnimation?mOriginalValue@50.17:50.31DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java2 2(2¶
++com.facebook.react.animated.AnimationDriverEXTENDo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java* (9Î
+bcom.facebook.react.animated.SpringAnimation.SpringAnimation(com.facebook.react.bridge.ReadableMap)CONSTRUCTORo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java4 4("s
+declarationString^<mark class="modifier"> </mark><mark class="method">SpringAnimation</mark>(ReadableMap config)*SpringAnimation2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java5$ 5(-2◊
+^com.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java6 6(2æ
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java5 5(2‚
+icom.facebook.react.animated.SpringAnimation.SpringAnimation(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java5 5(#2‚
+icom.facebook.react.animated.SpringAnimation.SpringAnimation(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java6 6(2∆
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java5 5(2Á
+icom.facebook.react.animated.SpringAnimation.SpringAnimation(com.facebook.react.bridge.ReadableMap)!config	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java4 4($2´
++com.facebook.react.animated.SpringAnimationRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java4 4(‡
+icom.facebook.react.animated.SpringAnimation.SpringAnimation(com.facebook.react.bridge.ReadableMap)!config	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java4 4($"
+typeReadableMap"
+isFinalfalse"'
+declarationStringReadableMap config*config2û
+%com.facebook.react.bridge.ReadableMapTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java4 4(ÿ<
+^com.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java: :("
+isFinalfalse"«
+declarationString±<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">resetConfig</mark>(ReadableMap config)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*resetConfig2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java; ;('2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java< <(%2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java= =("2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java? ?( 2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java@! @(*2∫
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaA, A(52ª
+Bcom.facebook.react.bridge.ReadableMap.getBoolean(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaB' B(12∑
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaC C(2∑
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaC7 C(=2¡
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java; ;(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java; ;(2ø
+Fcom.facebook.react.animated.SpringAnimation?mSpringDamping@34.17:34.31CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java< <(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java< <(2º
+Ccom.facebook.react.animated.SpringAnimation?mSpringMass@35.17:35.28CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java= =(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java= =(2¡
+Hcom.facebook.react.animated.SpringAnimation?mInitialVelocity@36.17:36.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java> >(2æ
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java> >($2∫
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java? ?(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java? ?(2ƒ
+Kcom.facebook.react.animated.SpringAnimation?mRestSpeedThreshold@44.17:44.36CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java@ @(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java@ @( 2œ
+Vcom.facebook.react.animated.SpringAnimation?mDisplacementFromRestThreshold@45.17:45.47CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaA A("2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaA% A(+2 
+Qcom.facebook.react.animated.SpringAnimation?mOvershootClampingEnabled@37.18:37.43CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaB B(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaB  B(&2º
+Ccom.facebook.react.animated.SpringAnimation?mIterations@48.14:48.25CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaC C(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaC C(2ﬁ
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaC0 C(62º
+Ccom.facebook.react.animated.SpringAnimation?mIterations@48.14:48.25CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaD D(2Ω
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaE E(2¡
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaF F(2ø
+Fcom.facebook.react.animated.SpringAnimation?mSpringStarted@30.18:30.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaG G(2∆
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java>% >(-2€
+^com.facebook.react.animated.AnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)OVERRIDEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java: :(2„
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!config	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java:& :(,2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java:	 :(‹
+ecom.facebook.react.animated.SpringAnimation.resetConfig(com.facebook.react.bridge.ReadableMap)!config	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java:& :(,"
+typeReadableMap"
+isFinalfalse"'
+declarationStringReadableMap config*config2û
+%com.facebook.react.bridge.ReadableMapTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java: :(%È1
+Bcom.facebook.react.animated.SpringAnimation.runAnimationStep(long)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK K("
+isFinalfalse"Î
+declarationString’<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">runAnimationStep</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*runAnimationStep2¥
+;com.facebook.react.animated.SpringAnimation.advance(double)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaW W(2Ø
+6com.facebook.react.animated.SpringAnimation.isAtRest()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaZ Z(2 
+Qcom.facebook.react.animated.SpringAnimation.runAnimationStep(long)!frameTimeNanosCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaL L()2ø
+Fcom.facebook.react.animated.SpringAnimation?mSpringStarted@30.18:30.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaM	 M(2Ω
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaN
+ N(2ø
+Fcom.facebook.react.animated.SpringAnimation?mOriginalValue@50.17:50.31CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaO O(2Ω
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaP P(2º
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaR R(2æ
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaR R(!2∫
+Acom.facebook.react.animated.SpringAnimation?mLastTime@29.15:29.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaS S(2÷
+]com.facebook.react.animated.SpringAnimation.runAnimationStep(long)?frameTimeMillis@76.9:76.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaS S(!2¡
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaT T(2ø
+Fcom.facebook.react.animated.SpringAnimation?mSpringStarted@30.18:30.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaU U(2÷
+]com.facebook.react.animated.SpringAnimation.runAnimationStep(long)?frameTimeMillis@76.9:76.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaW W(2∫
+Acom.facebook.react.animated.SpringAnimation?mLastTime@29.15:29.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaW W((2∫
+Acom.facebook.react.animated.SpringAnimation?mLastTime@29.15:29.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaX X(2÷
+]com.facebook.react.animated.SpringAnimation.runAnimationStep(long)?frameTimeMillis@76.9:76.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaX X(2æ
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaY Y()2º
+Ccom.facebook.react.animated.SpringAnimation?mIterations@48.14:48.25CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java[
+ [(2Ω
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java[ [(+2º
+Ccom.facebook.react.animated.SpringAnimation?mIterations@48.14:48.25CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java[. [(92ø
+Fcom.facebook.react.animated.SpringAnimation?mSpringStarted@30.18:30.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java\ \(2ø
+Fcom.facebook.react.animated.SpringAnimation?mOriginalValue@50.17:50.31CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java]  ](.2Ω
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java^ ^(2∆
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaR" R(*2∆
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaY* Y(22ø
+Bcom.facebook.react.animated.AnimationDriver.runAnimationStep(long)OVERRIDEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK K(2œ
+Qcom.facebook.react.animated.SpringAnimation.runAnimationStep(long)!frameTimeNanos	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK$ K(22›
+]com.facebook.react.animated.SpringAnimation.runAnimationStep(long)?frameTimeMillis@76.9:76.24DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaL	 L(2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK	 K(˝
+]com.facebook.react.animated.SpringAnimation.runAnimationStep(long)?frameTimeMillis@76.9:76.24VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaL	 L("
+typelong"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">frameTimeMillis</mark> = frameTimeNanos / 1000000*frameTimeMillis2}
+longTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaL L(2 
+Qcom.facebook.react.animated.SpringAnimation.runAnimationStep(long)!frameTimeNanosCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaL L()∆
+Qcom.facebook.react.animated.SpringAnimation.runAnimationStep(long)!frameTimeNanos	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK$ K(2"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2}
+longTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaK K(#Ï
+Öcom.facebook.react.animated.SpringAnimation.getDisplacementDistanceForState(com.facebook.react.animated.SpringAnimation.PhysicsState)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javak k(0"
+isFinalfalse"∞
+declarationStringö<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="method">getDisplacementDistanceForState</mark>(PhysicsState state)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typedouble*getDisplacementDistanceForState2ì
+java.lang.Math.abs(double)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javal l(2∫
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javal l(2Ö
+ãcom.facebook.react.animated.SpringAnimation.getDisplacementDistanceForState(com.facebook.react.animated.SpringAnimation.PhysicsState)!stateCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javal  l(%2∆
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javal& l(.2ä
+ãcom.facebook.react.animated.SpringAnimation.getDisplacementDistanceForState(com.facebook.react.animated.SpringAnimation.PhysicsState)!state	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javak> k(C2Ü
+doubleRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javak
+ k(ñ
+ãcom.facebook.react.animated.SpringAnimation.getDisplacementDistanceForState(com.facebook.react.animated.SpringAnimation.PhysicsState)!state	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javak> k(C"
+typePhysicsState"
+isFinalfalse"'
+declarationStringPhysicsState state*state2±
+8com.facebook.react.animated.SpringAnimation.PhysicsStateTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javak1 k(=Ì
+6com.facebook.react.animated.SpringAnimation.isAtRest()METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javat t("
+isFinalfalse"á
+declarationStringr<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="method">isAtRest</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*isAtRest2ì
+java.lang.Math.abs(double)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javau u(2ˇ
+Öcom.facebook.react.animated.SpringAnimation.getDisplacementDistanceForState(com.facebook.react.animated.SpringAnimation.PhysicsState)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javav v(+2æ
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javau u(!2ƒ
+Kcom.facebook.react.animated.SpringAnimation?mRestSpeedThreshold@44.17:44.36CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javau/ u(B2æ
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javav, v(92œ
+Vcom.facebook.react.animated.SpringAnimation?mDisplacementFromRestThreshold@45.17:45.47CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javav> v(\2¡
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaw w(2∆
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javau" u(*2á
+booleanRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javat
+ t(ü
+<com.facebook.react.animated.SpringAnimation.isOvershooting()METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ( "
+isFinalfalse"ç
+declarationStringx<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="method">isOvershooting</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*isOvershooting2√
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÄ Ä(2æ
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÅ Å(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÅ Å($2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÅ( Å(52º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÅA Å(J2æ
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÇ Ç(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÇ Ç('2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÇ+ Ç(82º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÇD Ç(M2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÅ6 Å(>2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÇ9 Ç(A2á
+booleanRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java
+ (∫—
+;com.facebook.react.animated.SpringAnimation.advance(double)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÖ Ö("
+isFinalfalse"∂
+declarationString†<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">advance</mark>(<mark class="modifier">double</mark> realDeltaTime)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*advance2±
+6com.facebook.react.animated.SpringAnimation.isAtRest()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÜ Ü(2ñ
+java.lang.Math.sqrt(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò  ò($2ñ
+java.lang.Math.sqrt(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô(2ñ
+java.lang.Math.sqrt(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö" ö(&2ï
+java.lang.Math.exp(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢ ¢( 2ï
+java.lang.Math.sin(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶? ¶(B2ï
+java.lang.Math.cos(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaß" ß(%2ï
+java.lang.Math.sin(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆ Æ(2ï
+java.lang.Math.cos(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaØ" Ø(%2ï
+java.lang.Math.cos(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java± ±(2ï
+java.lang.Math.sin(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java≤+ ≤(.2ï
+java.lang.Math.exp(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ µ( 2±
+6com.facebook.react.animated.SpringAnimation.isAtRest()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¿ ¿(2∑
+<com.facebook.react.animated.SpringAnimation.isOvershooting()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¿4 ¿(B2ƒ
+Icom.facebook.react.animated.SpringAnimation.advance(double)!realDeltaTimeCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaå å(,2ƒ
+Icom.facebook.react.animated.SpringAnimation.advance(double)!realDeltaTimeCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaç ç(2≈
+Jcom.facebook.react.animated.SpringAnimation?MAX_DELTA_TIME_SEC@19.30:19.48CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaç ç(*2÷
+[com.facebook.react.animated.SpringAnimation.advance(double)?adjustedDeltaTime@140.11:140.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaé é(2≈
+Jcom.facebook.react.animated.SpringAnimation?MAX_DELTA_TIME_SEC@19.30:19.48CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaé é(,2√
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaë ë(2÷
+[com.facebook.react.animated.SpringAnimation.advance(double)?adjustedDeltaTime@140.11:140.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaë ë()2¡
+Fcom.facebook.react.animated.SpringAnimation?mSpringDamping@34.17:34.31CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaì ì(2æ
+Ccom.facebook.react.animated.SpringAnimation?mSpringMass@35.17:35.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaî î(2√
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaï ï(2√
+Hcom.facebook.react.animated.SpringAnimation?mInitialVelocity@36.17:36.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javañ ñ(!2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?c@147.11:147.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò ò(2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?k@149.11:149.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò% ò(&2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?m@148.11:148.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò) ò(*2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?k@149.11:149.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô(2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?m@148.11:148.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô" ô(#2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö ö(2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö. ö(22…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö5 ö(92º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ(2æ
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ('2√
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaü ü(2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java† †(2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢" ¢(&2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢) ¢(/2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢2 ¢(32Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?position@158.11:158.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java£ £(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java§
+ §(2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@162.13:162.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java• •(2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶ ¶(2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶ ¶(2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶" ¶((2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶+ ¶(-2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶1 ¶(72À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶C ¶(I2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¶L ¶(M2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaß ß(2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaß& ß(,2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaß/ ß(02Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?velocity@157.11:157.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java™ ™(2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java´
+ ´(2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¨ ¨(2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@162.13:162.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java≠ ≠(2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆ Æ($2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆ' Æ((2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆ- Æ(/2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆ2 Æ(62À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆ9 Æ(?2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆB Æ(D2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÆH Æ(N2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaØ Ø(2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaØ& Ø(,2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaØ/ Ø(02Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@162.13:162.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∞ ∞(2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java± ±($2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java±' ±((2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java±- ±(/2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java±2 ±(62À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java±9 ±(?2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java±B ±(D2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java≤ ≤(2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java≤! ≤(#2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java≤/ ≤(52∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java≤8 ≤(92À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ" µ((2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ+ µ(,2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?position@158.11:158.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂ ∂(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂ ∂(2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@181.13:181.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂ ∂(%2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂) ∂(+2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂/ ∂(12À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂4 ∂(:2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂= ∂(?2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∂C ∂(D2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?velocity@157.11:157.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑ ∑(2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@181.13:181.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑ ∑(2«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑ ∑(2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑# ∑($2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑' ∑(-2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑5 ∑(62«
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑9 ∑(;2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑? ∑(E2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∑H ∑(N2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∫ ∫(2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?position@158.11:158.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∫ ∫(%2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaª ª(2Õ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?velocity@157.11:157.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaª ª(%2Ã
+Qcom.facebook.react.animated.SpringAnimation?mOvershootClampingEnabled@37.18:37.43CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¿ ¿(02√
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¬
+ ¬(2æ
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java√ √(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java√ √(2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaƒ ƒ(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaƒ! ƒ(*2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∆ ∆(2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∆ ∆(!2æ
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java« «(2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java« «(2¿
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java… …(2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∫ ∫(2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaª ª(2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaƒ ƒ(2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java∆" ∆(*2»
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java… …(2…
+Icom.facebook.react.animated.SpringAnimation.advance(double)!realDeltaTime	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÖ Ö(+2›
+[com.facebook.react.animated.SpringAnimation.advance(double)?adjustedDeltaTime@140.11:140.28DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaå å(2Õ
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?c@147.11:147.12DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaì ì(2Õ
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?m@148.11:148.12DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaî î(2Õ
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?k@149.11:149.12DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaï ï(2Œ
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javañ ñ(2–
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò ò(2“
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô(2“
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö ö(2Œ
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ(2‘
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?velocity@157.11:157.19DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaù ù(2‘
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?position@158.11:158.19DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaû û(2Õ
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaü ü(2‘
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@162.13:162.21DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢ ¢(2‘
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@181.13:181.21DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ µ(2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÖ
+ Ö(˘
+[com.facebook.react.animated.SpringAnimation.advance(double)?adjustedDeltaTime@140.11:140.28VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaå å("
+typedouble"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">adjustedDeltaTime</mark> = realDeltaTime*adjustedDeltaTime2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaå å(
+2ƒ
+Icom.facebook.react.animated.SpringAnimation.advance(double)!realDeltaTimeCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaå å(,∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?c@147.11:147.12VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaì ì("
+typedouble"
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">c</mark> = mSpringDamping*c2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaì ì(
+2¡
+Fcom.facebook.react.animated.SpringAnimation?mSpringDamping@34.17:34.31CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaì ì(¿
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?m@148.11:148.12VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaî î("
+typedouble"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">m</mark> = mSpringMass*m2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaî î(
+2æ
+Ccom.facebook.react.animated.SpringAnimation?mSpringMass@35.17:35.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaî î( 
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?k@149.11:149.12VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaï ï("
+typedouble"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">k</mark> = mSpringStiffness*k2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaï ï(
+2√
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaï ï(Œ
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?v0@150.11:150.13VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javañ ñ("
+typedouble"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">v0</mark> = -mInitialVelocity*v02Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javañ ñ(
+2√
+Hcom.facebook.react.animated.SpringAnimation?mInitialVelocity@36.17:36.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javañ ñ(!å
+
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò ò("
+typedouble"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">zeta</mark> = c / (2 * Math.sqrt(k * m))*zeta2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò ò(
+2ñ
+java.lang.Math.sqrt(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò  ò($2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?c@147.11:147.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò ò(2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?k@149.11:149.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò% ò(&2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?m@148.11:148.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaò) ò(*æ
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô("
+typedouble"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">omega0</mark> = Math.sqrt(k / m)*omega02Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô(
+2ñ
+java.lang.Math.sqrt(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô(2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?k@149.11:149.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô ô(2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?m@148.11:148.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaô" ô(#™
+
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega1@154.11:154.17VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö ö("
+typedouble"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">omega1</mark> = omega0 * Math.sqrt(1.0 - (zeta * zeta))*omega12Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö ö(
+2ñ
+java.lang.Math.sqrt(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö" ö(&2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö ö(2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö. ö(22…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaö5 ö(9è
+Lcom.facebook.react.animated.SpringAnimation.advance(double)?x0@155.11:155.13VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ("
+typedouble"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">x0</mark> = mEndValue - mStartValue*x02Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ(
+2º
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ(2æ
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaõ õ('Ü
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?velocity@157.11:157.19VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaù ù("
+typedouble"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">velocity</mark>*velocity2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaù ù(
+Ü
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?position@158.11:158.19VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaû û("
+typedouble"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">position</mark>*position2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaû û(
+ 
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaü ü("
+typedouble"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">t</mark> = mTimeAccumulator*t2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaü ü(
+2√
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaü ü(°
+
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@162.13:162.21VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢ ¢("
+typedouble"
+isFinalfalse"¢
+declarationStringå<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">envelope</mark> = Math.exp(-zeta * omega0 * t)*envelope2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢ ¢(2ï
+java.lang.Math.exp(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢ ¢( 2…
+Ncom.facebook.react.animated.SpringAnimation.advance(double)?zeta@152.11:152.15CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢" ¢(&2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢) ¢(/2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java¢2 ¢(3Œ
+Rcom.facebook.react.animated.SpringAnimation.advance(double)?envelope@181.13:181.21VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ µ("
+typedouble"
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">envelope</mark> = Math.exp(-omega0 * t)*envelope2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ µ(2ï
+java.lang.Math.exp(double)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ µ( 2À
+Pcom.facebook.react.animated.SpringAnimation.advance(double)?omega0@153.11:153.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ" µ((2∆
+Kcom.facebook.react.animated.SpringAnimation.advance(double)?t@159.11:159.12CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaµ+ µ(,«
+Icom.facebook.react.animated.SpringAnimation.advance(double)!realDeltaTime	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÖ Ö(+"
+typedouble"
+isFinalfalse"G
+declarationString2<mark class="modifier">double</mark> realDeltaTime*realDeltaTime2Å
+doubleTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.javaÖ Ö(à
+Jcom.facebook.react.animated.SpringAnimation?MAX_DELTA_TIME_SEC@19.30:19.48VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (0"
+isFinaltrue"
+typedouble"Ê
+declarationString–<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">MAX_DELTA_TIME_SEC</mark> = 0.064;"
+isStatictrue"
+accessprivate*MAX_DELTA_TIME_SEC2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (ã
+Kcom.facebook.react.animated.SpringAnimation?SOLVER_TIMESTEP_SEC@21.30:21.49VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (1"
+isFinaltrue"
+typedouble"Á
+declarationString—<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">SOLVER_TIMESTEP_SEC</mark> = 0.001;"
+isStatictrue"
+accessprivate*SOLVER_TIMESTEP_SEC2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (ô
+Acom.facebook.react.animated.SpringAnimation?mLastTime@29.15:29.24VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ("
+isFinalfalse"
+typelong"à
+declarationStrings<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mLastTime</mark>"
+isStaticfalse"
+accessprivate*	mLastTime2}
+longTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java
+ (≤
+Fcom.facebook.react.animated.SpringAnimation?mSpringStarted@30.18:30.32VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ( "
+isFinalfalse"
+typeboolean"ê
+declarationString{<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mSpringStarted</mark>"
+isStaticfalse"
+accessprivate*mSpringStarted2Ä
+booleanTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java
+ (¥
+Hcom.facebook.react.animated.SpringAnimation?mSpringStiffness@33.17:33.33VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java! !(!"
+isFinalfalse"
+typedouble"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mSpringStiffness</mark>"
+isStaticfalse"
+accessprivate*mSpringStiffness2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java!
+ !(Æ
+Fcom.facebook.react.animated.SpringAnimation?mSpringDamping@34.17:34.31VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java" "("
+isFinalfalse"
+typedouble"è
+declarationStringz<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mSpringDamping</mark>"
+isStaticfalse"
+accessprivate*mSpringDamping2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java"
+ "(•
+Ccom.facebook.react.animated.SpringAnimation?mSpringMass@35.17:35.28VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java# #("
+isFinalfalse"
+typedouble"å
+declarationStringw<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mSpringMass</mark>"
+isStaticfalse"
+accessprivate*mSpringMass2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java#
+ #(¥
+Hcom.facebook.react.animated.SpringAnimation?mInitialVelocity@36.17:36.33VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java$ $(!"
+isFinalfalse"
+typedouble"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mInitialVelocity</mark>"
+isStaticfalse"
+accessprivate*mInitialVelocity2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java$
+ $(‘
+Qcom.facebook.react.animated.SpringAnimation?mOvershootClampingEnabled@37.18:37.43VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java% %(+"
+isFinalfalse"
+typeboolean"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mOvershootClampingEnabled</mark>"
+isStaticfalse"
+accessprivate*mOvershootClampingEnabled2Ä
+booleanTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java%
+ %(∆
+Ecom.facebook.react.animated.SpringAnimation?mCurrentState@40.29:40.42VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java( ((*"
+isFinaltrue"
+typePhysicsState"±
+declarationStringõ<mark class="modifier">private </mark><mark class="modifier">final </mark>PhysicsState <mark class="class-field">mCurrentState</mark> = new PhysicsState();"
+isStaticfalse"
+accessprivate*mCurrentState2±
+8com.facebook.react.animated.SpringAnimation.PhysicsStateTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java( ((2¿
+Gcom.facebook.react.animated.SpringAnimation.PhysicsState.PhysicsState()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java(1 ((=•
+Ccom.facebook.react.animated.SpringAnimation?mStartValue@41.17:41.28VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java) )("
+isFinalfalse"
+typedouble"å
+declarationStringw<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mStartValue</mark>"
+isStaticfalse"
+accessprivate*mStartValue2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java)
+ )(ü
+Acom.facebook.react.animated.SpringAnimation?mEndValue@42.17:42.26VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java* *("
+isFinalfalse"
+typedouble"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mEndValue</mark>"
+isStaticfalse"
+accessprivate*	mEndValue2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java*
+ *(Ω
+Kcom.facebook.react.animated.SpringAnimation?mRestSpeedThreshold@44.17:44.36VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java, ,($"
+isFinalfalse"
+typedouble"î
+declarationString<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mRestSpeedThreshold</mark>"
+isStaticfalse"
+accessprivate*mRestSpeedThreshold2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java,
+ ,(ﬂ
+Vcom.facebook.react.animated.SpringAnimation?mDisplacementFromRestThreshold@45.17:45.47VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java- -(/"
+isFinalfalse"
+typedouble"†
+declarationStringä<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mDisplacementFromRestThreshold</mark>"
+isStaticfalse"
+accessprivate*mDisplacementFromRestThreshold2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java-
+ -(¥
+Hcom.facebook.react.animated.SpringAnimation?mTimeAccumulator@46.17:46.33VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java. .(!"
+isFinalfalse"
+typedouble"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mTimeAccumulator</mark>"
+isStaticfalse"
+accessprivate*mTimeAccumulator2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java.
+ .(ú
+Ccom.facebook.react.animated.SpringAnimation?mIterations@48.14:48.25VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java0 0("
+isFinalfalse"
+typeint"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mIterations</mark>"
+isStaticfalse"
+accessprivate*mIterations2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java0
+ 0(ü
+Dcom.facebook.react.animated.SpringAnimation?mCurrentLoop@49.14:49.26VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java1 1("
+isFinalfalse"
+typeint"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mCurrentLoop</mark>"
+isStaticfalse"
+accessprivate*mCurrentLoop2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java1
+ 1(Æ
+Fcom.facebook.react.animated.SpringAnimation?mOriginalValue@50.17:50.31VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java2 2("
+isFinalfalse"
+typedouble"è
+declarationStringz<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mOriginalValue</mark>"
+isStaticfalse"
+accessprivate*mOriginalValue2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java2
+ 2(’
+8com.facebook.react.animated.SpringAnimation.PhysicsStateCLASSo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (#"6
+package+com.facebook.react.animated.SpringAnimation"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">private </mark><mark class="modifier">class </mark>PhysicsState"
+accessprivate*PhysicsState2Õ
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (2Õ
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (™
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?position@25.11:25.19VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ("
+isFinalfalse"
+typedouble"Ç
+declarationStringm<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">position</mark>"
+isStaticfalse"
+accesspackage_private*position2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (
+™
+Mcom.facebook.react.animated.SpringAnimation.PhysicsState?velocity@26.11:26.19VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java ("
+isFinalfalse"
+typedouble"Ç
+declarationStringm<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">velocity</mark>"
+isStaticfalse"
+accesspackage_private*velocity2
+doubleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/SpringAnimation.java (

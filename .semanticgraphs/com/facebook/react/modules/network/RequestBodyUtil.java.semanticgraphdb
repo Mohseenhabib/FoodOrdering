@@ -1,0 +1,668 @@
+
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaΩ
+2com.facebook.react.modules.network.RequestBodyUtilCLASSv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java) )(!"-
+package"com.facebook.react.modules.network"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier"> </mark><mark class="modifier">class </mark>RequestBodyUtil"
+accesspackage_private*RequestBodyUtil2⁄
+Scom.facebook.react.modules.network.RequestBodyUtil.isGzipEncoding(java.lang.String)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java0 0(&2˜
+pcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java8& 8(82˛
+wcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaU U(72È
+bcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javau& u(02’
+Lcom.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaÜ Ü("2Í
+acom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaë ë("2ú
+ícom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaØ$ Ø(92⁄
+Qcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaµ µ((2€
+Tcom.facebook.react.modules.network.RequestBodyUtil?CONTENT_ENCODING_GZIP@43.30:43.51DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java+ +(32 
+Ccom.facebook.react.modules.network.RequestBodyUtil?NAME@44.30:44.34DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java, ,("2÷
+Ocom.facebook.react.modules.network.RequestBodyUtil?TEMP_FILE_SUFFIX@45.30:45.46DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java- -(.¢
+Scom.facebook.react.modules.network.RequestBodyUtil.isGzipEncoding(java.lang.String)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java0 0(&"
+isFinalfalse"ı
+declarationStringﬂ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">isGzipEncoding</mark>(<mark class="annotation">@Nullable</mark> final String encodingType)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isGzipEncoding2≥
+3java.lang.String.equalsIgnoreCase(java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java1! 1(12‘
+Tcom.facebook.react.modules.network.RequestBodyUtil?CONTENT_ENCODING_GZIP@43.30:43.51CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java1 1( 2‡
+`com.facebook.react.modules.network.RequestBodyUtil.isGzipEncoding(java.lang.String)!encodingTypeCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java12 1(>2Â
+`com.facebook.react.modules.network.RequestBodyUtil.isGzipEncoding(java.lang.String)!encodingType	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java0> 0(J2é
+booleanRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java0 0(˚
+`com.facebook.react.modules.network.RequestBodyUtil.isGzipEncoding(java.lang.String)!encodingType	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java0> 0(J"
+typeString"
+isFinaltrue"R
+declarationString=<mark class="annotation">@Nullable</mark> String encodingType*encodingType2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java07 0(=Ç=
+pcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java8& 8(8"
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>InputStream <mark class="method">getFileInputStream</mark>(Context context<mark class="modifier"><mark class="modifier">,</mark></mark> String fileContentUriStr)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeInputStream*getFileInputStream2˜
+wcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java> >()2≠
+-java.lang.String.startsWith(java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaA A(&2®
+(java.lang.String.split(java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaBE B(J2´
++java.io.ByteArrayOutputStream.toByteArray()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaG. G(92µ
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaE* E(?2π
+9java.io.ByteArrayInputStream.ByteArrayInputStream(byte[])CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaG G('2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStrCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java;% ;(62å
+ãcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?fileContentUri@59.10:59.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java=
+ =(2¯
+xcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!contextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java>* >(12å
+ãcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?fileContentUri@59.10:59.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java>3 >(A2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStrCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaA
+ A(2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStrCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaB3 B(D2ë
+êcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?decodedDataUrString@66.15:66.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaD* D(=2ë
+êcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?decodedDataUrString@66.15:66.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaDB D(U2Ñ
+Écom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bitMap@67.15:67.21CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaF F(2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bytes@69.30:69.35CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaF6 F(;2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bytes@69.30:69.35CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaG( G(-2¯
+xcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!contextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaJ J(2å
+ãcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?fileContentUri@59.10:59.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaJ: J(H2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStrCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaLM L(^2˛
+~com.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?e@75.23:75.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaL` L(a2˝
+xcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!context	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java9 9(2à
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStr	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java9 9(/2ì
+ãcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?fileContentUri@59.10:59.24DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java;
+ ;(2ò
+êcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?decodedDataUrString@66.15:66.34DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaB B("2ã
+Écom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bitMap@67.15:67.21DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaC C(2ä
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bytes@69.30:69.35DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaE E(#2Ö
+~com.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?e@75.23:75.24DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaK K(2ö
+java.io.InputStreamRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java8 8(%‡
+ãcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?fileContentUri@59.10:59.24VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java;
+ ;("
+typeUri"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>Uri <mark class="class-field">fileContentUri</mark> = Uri.parse(fileContentUriStr)*fileContentUri2è
+android.net.UriTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java; ;(	2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStrCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java;% ;(6Ù
+êcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?decodedDataUrString@66.15:66.34VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaB B(""
+typebyte"
+isFinalfalse"Ì
+declarationString◊<mark class="modifier"> </mark>byte[] <mark class="class-field">decodedDataUrString</mark> = Base64.decode(fileContentUriStr.split("<mark class="modifier">,</mark>")[1]<mark class="modifier">,</mark> Base64.DEFAULT)*decodedDataUrString2Ü
+byte[]TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaB B(2®
+(java.lang.String.split(java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaBE B(J2É
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStrCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaB3 B(DÆ	
+Écom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bitMap@67.15:67.21VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaC C("
+typeBitmap"
+isFinalfalse"∑
+declarationString°<mark class="modifier"> </mark>Bitmap <mark class="class-field">bitMap</mark> = BitmapFactory.decodeByteArray(decodedDataUrString, 0, decodedDataUrString.length)*bitMap2ó
+android.graphics.BitmapTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaC C(2ë
+êcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?decodedDataUrString@66.15:66.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaD* D(=2ë
+êcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?decodedDataUrString@66.15:66.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaDB D(U®
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?bytes@69.30:69.35VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaE E(#"
+typeByteArrayOutputStream"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>ByteArrayOutputStream <mark class="class-field">bytes</mark> = new ByteArrayOutputStream()*bytes2ù
+java.io.ByteArrayOutputStreamTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaE E(2µ
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaE* E(?È
+xcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!context	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java9 9("
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2ó
+android.content.ContextTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java9 9(ˇ
+Çcom.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)!fileContentUriStr	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java9 9(/"
+typeString"
+isFinalfalse"-
+declarationStringString fileContentUriStr*fileContentUriStr2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java9 9(‚
+~com.facebook.react.modules.network.RequestBodyUtil.getFileInputStream(android.content.Context, java.lang.String)?e@75.23:75.24VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaK K("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ì
+java.lang.ExceptionTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaK K(‰K
+wcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaU U(7"
+isFinalfalse"»
+declarationString≤<mark class="modifier">private </mark><mark class="modifier">static </mark>InputStream <mark class="method">getDownloadFileInputStream</mark>(Context context<mark class="modifier"><mark class="modifier">,</mark></mark> Uri uri)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeInputStream*getDownloadFileInputStream2Õ
+Mjava.io.File.createTempFile(java.lang.String, java.lang.String, java.io.File)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX X()2õ
+java.io.File.deleteOnExit()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaY	 Y(2ô
+java.net.URL.openStream()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\ \()2∫
+:java.nio.channels.Channels.newChannel(java.io.InputStream)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^3 ^(=2›
+]java.nio.channels.FileChannel.transferFrom(java.nio.channels.ReadableByteChannel, long, long)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javag g(*2•
+%java.io.FileOutputStream.getChannel()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javag g(2†
+ java.io.FileOutputStream.close()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaj j(2°
+!java.nio.channels.Channel.close()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javam m(2õ
+java.io.InputStream.close()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javap	 p(2∑
+7java.io.FileOutputStream.FileOutputStream(java.io.File)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java`, `(<2µ
+5java.io.FileInputStream.FileInputStream(java.io.File)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javah h($2ˇ
+com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!contextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaW W("2√
+Ccom.facebook.react.modules.network.RequestBodyUtil?NAME@44.30:44.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX* X(.2œ
+Ocom.facebook.react.modules.network.RequestBodyUtil?TEMP_FILE_SUFFIX@45.30:45.46CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX0 X(@2é
+çcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?outputDir@87.15:87.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaXB X(K2â
+àcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?file@88.15:88.19CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaY Y(2˚
+{com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!uriCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java[ [(2à
+ácom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?url@91.14:91.17CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\ \(2á
+Ücom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?is@92.22:92.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^> ^(@2â
+àcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?file@88.15:88.19CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java`= `(A2ç
+åcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?maxBytes@98.15:98.23CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javae e(2ã
+äcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?stream@96.31:96.37CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javag
+ g(2å
+ãcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?channel@94.32:94.39CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javag+ g(22ç
+åcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?maxBytes@98.15:98.23CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javag7 g(?2â
+àcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?file@88.15:88.19CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javah% h()2ã
+äcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?stream@96.31:96.37CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaj
+ j(2å
+ãcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?channel@94.32:94.39CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javam m(2á
+Ücom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?is@92.22:92.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javap p(2Ñ
+com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!context	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaU@ U(G2Ä
+{com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!uri	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaUM U(P2ï
+çcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?outputDir@87.15:87.24DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaW W(2ê
+àcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?file@88.15:88.19DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX X(2è
+ácom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?url@91.14:91.17DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java[ [(2é
+Ücom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?is@92.22:92.24DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\ \(2ì
+ãcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?channel@94.32:94.39DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^  ^('2í
+äcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?stream@96.31:96.37DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java` `(%2î
+åcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?maxBytes@98.15:98.23DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javab b(2ö
+java.io.InputStreamRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaU U(Ö
+çcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?outputDir@87.15:87.24VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaW W("
+typeFile"
+isFinaltrue"∏
+declarationString¢<mark class="modifier"> </mark><mark class="modifier">final </mark>File <mark class="class-field">outputDir</mark> = context.getApplicationContext().getCacheDir()*	outputDir2å
+java.io.FileTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaW
+ W(2ˇ
+com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!contextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaW W("ˆ
+àcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?file@88.15:88.19VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX X("
+typeFile"
+isFinaltrue"º
+declarationString¶<mark class="modifier"> </mark><mark class="modifier">final </mark>File <mark class="class-field">file</mark> = File.createTempFile(NAME, TEMP_FILE_SUFFIX, outputDir)*file2å
+java.io.FileTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX
+ X(2Õ
+Mjava.io.File.createTempFile(java.lang.String, java.lang.String, java.io.File)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX X()2√
+Ccom.facebook.react.modules.network.RequestBodyUtil?NAME@44.30:44.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX* X(.2œ
+Ocom.facebook.react.modules.network.RequestBodyUtil?TEMP_FILE_SUFFIX@45.30:45.46CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaX0 X(@2é
+çcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?outputDir@87.15:87.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaXB X(K◊
+ácom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?url@91.14:91.17VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java[ [("
+typeURL"
+isFinaltrue"õ
+declarationStringÖ<mark class="modifier"> </mark><mark class="modifier">final </mark>URL <mark class="class-field">url</mark> = new URL(uri.toString())*url2å
+java.net.URLTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java[
+ [(2˚
+{com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!uriCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java[ [(ç
+Ücom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?is@92.22:92.24VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\ \("
+typeInputStream"
+isFinaltrue"õ
+declarationStringÖ<mark class="modifier"> </mark><mark class="modifier">final </mark>InputStream <mark class="class-field">is</mark> = url.openStream()*is2ì
+java.io.InputStreamTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\
+ \(2ô
+java.net.URL.openStream()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\ \()2à
+ácom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?url@91.14:91.17CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java\ \(Â
+ãcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?channel@94.32:94.39VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^  ^('"
+typeReadableByteChannel"
+isFinaltrue"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">final </mark>ReadableByteChannel <mark class="class-field">channel</mark> = Channels.newChannel(is)*channel2•
+%java.nio.channels.ReadableByteChannelTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^ ^(2∫
+:java.nio.channels.Channels.newChannel(java.io.InputStream)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^3 ^(=2á
+Ücom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?is@92.22:92.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java^> ^(@—
+äcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?stream@96.31:96.37VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java` `(%"
+typeFileOutputStream"
+isFinaltrue"Æ
+declarationStringò<mark class="modifier"> </mark><mark class="modifier">final </mark>FileOutputStream <mark class="class-field">stream</mark> = new FileOutputStream(file)*stream2ò
+java.io.FileOutputStreamTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java` `(2∑
+7java.io.FileOutputStream.FileOutputStream(java.io.File)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java`, `(<2â
+àcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?file@88.15:88.19CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java`= `(A÷
+åcom.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)?maxBytes@98.15:98.23VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javab b("
+typelong"
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">maxBytes</mark> = Long.MAX_VALUE*maxBytes2Ñ
+longTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javab
+ b(
+com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!context	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaU@ U(G"
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2ó
+android.content.ContextTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaU8 U(?‘
+{com.facebook.react.modules.network.RequestBodyUtil.getDownloadFileInputStream(android.content.Context, android.net.Uri)!uri	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaUM U(P"
+typeUri"
+isFinalfalse"
+declarationStringUri uri*uri2è
+android.net.UriTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaUI U(L©$
+bcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javau& u(0"
+isFinalfalse"™
+declarationStringî<mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>RequestBody <mark class="method">createGzip</mark>(final MediaType mediaType<mark class="modifier"><mark class="modifier">,</mark></mark> final String body)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeRequestBody*
+createGzip2¢
+"java.io.OutputStream.write(byte[])CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javay y(2õ
+java.lang.String.getBytes()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javay" y(*2ú
+java.io.OutputStream.close()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaz z(2´
++java.io.ByteArrayOutputStream.toByteArray()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java~C ~(N2µ
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javav: v(O2≈
+Ejava.util.zip.GZIPOutputStream.GZIPOutputStream(java.io.OutputStream)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax* x(:2ã
+äcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipByteArrayOutputStream@118.26:118.51CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax; x(T2Ç
+Åcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipOutputStream@120.19:120.35CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javay y(2Á
+gcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)!bodyCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javay y(!2Ç
+Åcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipOutputStream@120.19:120.35CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaz z(2Ï
+lcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)!mediaTypeCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java~ ~('2ã
+äcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipByteArrayOutputStream@118.26:118.51CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java~) ~(B2Ò
+lcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)!mediaType	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javauA u(J2Ï
+gcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)!body	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javauY u(]2í
+äcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipByteArrayOutputStream@118.26:118.51DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javav v(32â
+Åcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipOutputStream@120.19:120.35DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax x(#2˘
+rcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?e@123.25:123.26DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java{ {(2ö
+okhttp3.RequestBodyRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javau u(%Ÿ
+äcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipByteArrayOutputStream@118.26:118.51VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javav v(3"
+typeByteArrayOutputStream"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark>ByteArrayOutputStream <mark class="class-field">gzipByteArrayOutputStream</mark> = new ByteArrayOutputStream()*gzipByteArrayOutputStream2ù
+java.io.ByteArrayOutputStreamTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javav v(2µ
+5java.io.ByteArrayOutputStream.ByteArrayOutputStream()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javav: v(O’
+Åcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipOutputStream@120.19:120.35VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax x(#"
+typeOutputStream"
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark>OutputStream <mark class="class-field">gzipOutputStream</mark> = new GZIPOutputStream(gzipByteArrayOutputStream)*gzipOutputStream2î
+java.io.OutputStreamTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax x(2≈
+Ejava.util.zip.GZIPOutputStream.GZIPOutputStream(java.io.OutputStream)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax* x(:2ã
+äcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?gzipByteArrayOutputStream@118.26:118.51CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javax; x(Tﬁ
+lcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)!mediaType	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javauA u(J"
+type	MediaType"
+isFinaltrue"(
+declarationStringMediaType mediaType*	mediaType2ë
+okhttp3.MediaTypeTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javau7 u(@»
+gcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)!body	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javauY u(]"
+typeString"
+isFinaltrue" 
+declarationStringString body*body2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javauR u(X⁄
+rcom.facebook.react.modules.network.RequestBodyUtil.createGzip(okhttp3.MediaType, java.lang.String)?e@123.25:123.26VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java{ {("
+typeIOException"
+isFinalfalse""
+declarationStringIOException e*e2ì
+java.io.IOExceptionTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java{ {(Ï
+Lcom.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaÜ Ü(""
+isFinalfalse"ª
+declarationString•<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">closeQuietly</mark>(Source source)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typevoid*closeQuietly2’
+Scom.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)!sourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaà à(2ﬁ
+\com.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)?e@137.30:137.31CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaä ä(2⁄
+Scom.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)!source	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaÜ* Ü(02Â
+\com.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)?e@137.30:137.31DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaâ â(2Â
+\com.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)?e@139.23:139.24DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaã ã(2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaÜ Ü(∏
+Scom.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)!source	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaÜ* Ü(0"
+typeSource"
+isFinalfalse""
+declarationStringSource source*source2ç
+okio.SourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaÜ# Ü()Ÿ
+\com.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)?e@137.30:137.31VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaâ â("
+typeRuntimeException"
+isFinalfalse"'
+declarationStringRuntimeException e*e2ú
+java.lang.RuntimeExceptionTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaâ â(ƒ
+\com.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)?e@139.23:139.24VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaã ã("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ï
+java.lang.ExceptionTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaã ã(†
+acom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaë ë(""
+isFinalfalse"Ñ
+declarationStringÓ<mark class="modifier">public </mark><mark class="modifier">static </mark>RequestBody <mark class="method">create</mark>(final MediaType mediaType<mark class="modifier"><mark class="modifier">,</mark></mark> final InputStream inputStream)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeRequestBody*create2°
+java.io.InputStream.available()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaõ õ(&2Œ
+Lcom.facebook.react.modules.network.RequestBodyUtil.closeQuietly(okio.Source)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java®
+ ®(2Ì
+kcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!mediaTypeCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaï ï(2Ô
+mcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!inputStreamCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaõ õ(2î
+ëcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-0e485271-6c4e-477a-bdcb-6de9b019b320.writeTo(okio.BufferedSink)?source@163.15:163.21CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java•
+ •(2Ô
+mcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!inputStreamCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java• •(*2Ñ
+Åcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-75b57119-28a7-4f81-8ab1-b53016d1b307.writeTo(okio.BufferedSink)!sinkCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java¶
+ ¶(2î
+ëcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-1250d4ca-0b2e-48fc-af42-09da1eade0e3.writeTo(okio.BufferedSink)?source@163.15:163.21CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java¶ ¶(2î
+ëcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-9579c212-f476-462e-99e5-aea9e951574c.writeTo(okio.BufferedSink)?source@163.15:163.21CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java® ®(2Ú
+kcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!mediaType	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaë3 ë(<2Ù
+mcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!inputStream	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaëP ë([2õ
+ëcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-3aea1d57-9e8b-4023-93f3-124ec22f29da.writeTo(okio.BufferedSink)?source@163.15:163.21DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java£ £(2ã
+Åcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-80e25867-e856-4106-bb0f-32260c26efba.contentLength()?e@156.29:156.30DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaú ú(2ú
+okhttp3.RequestBodyRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaë ë(‹
+ëcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-2b20b507-8437-4591-a577-38112e1e4e9f.writeTo(okio.BufferedSink)?source@163.15:163.21VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java£ £("
+typeSource"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark>Source <mark class="class-field">source</mark> = <mark class="modifier">null</mark>*source2ç
+okio.SourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java£ £(·
+kcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!mediaType	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaë3 ë(<"
+type	MediaType"
+isFinaltrue"(
+declarationStringMediaType mediaType*	mediaType2ì
+okhttp3.MediaTypeTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaë) ë(2Ì
+mcom.facebook.react.modules.network.RequestBodyUtil.create(okhttp3.MediaType, java.io.InputStream)!inputStream	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaëP ë(["
+typeInputStream"
+isFinaltrue",
+declarationStringInputStream inputStream*inputStream2ï
+java.io.InputStreamTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaëD ë(OÓ
+Åcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-3b58a3e3-1de0-4990-83d8-3b0847d65330.contentLength()?e@156.29:156.30VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaú ú("
+typeIOException"
+isFinalfalse""
+declarationStringIOException e*e2ï
+java.io.IOExceptionTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaú ú(ı
+Åcom.facebook.react.modules.network.RequestBodyUtil.Anonymous-c1501bdb-4b14-4e42-b3a3-41e902dc2168.writeTo(okio.BufferedSink)!sink	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java¢' ¢(+"
+typeBufferedSink"
+isFinalfalse"&
+declarationStringBufferedSink sink*sink2ì
+okio.BufferedSinkTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java¢ ¢(&û
+ícom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaØ$ Ø(9"
+isFinalfalse"ï
+declarationStringˇ<mark class="modifier">public </mark><mark class="modifier">static </mark>ProgressRequestBody <mark class="method">createProgressRequest</mark>(RequestBody requestBody<mark class="modifier"><mark class="modifier">,</mark></mark> ProgressListener listener)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeProgressRequestBody*createProgressRequest2ó
+îcom.facebook.react.modules.network.ProgressRequestBody.ProgressRequestBody(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java± ±("2°
+ûcom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)!requestBodyCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java±# ±(.2û
+õcom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)!listenerCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java±0 ±(82¶
+ûcom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)!requestBody	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∞ ∞(2£
+õcom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)!listener	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∞0 ∞(82ø
+6com.facebook.react.modules.network.ProgressRequestBodyRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaØ Ø(#†
+ûcom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)!requestBody	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∞ ∞("
+typeRequestBody"
+isFinalfalse",
+declarationStringRequestBody requestBody*requestBody2ï
+okhttp3.RequestBodyTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∞ ∞(¡
+õcom.facebook.react.modules.network.RequestBodyUtil.createProgressRequest(okhttp3.RequestBody, com.facebook.react.modules.network.ProgressListener)!listener	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∞0 ∞(8"
+typeProgressListener"
+isFinalfalse".
+declarationStringProgressListener listener*listener2µ
+3com.facebook.react.modules.network.ProgressListenerTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∞ ∞(/ã
+Qcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaµ µ(("
+isFinalfalse"£
+declarationStringç<mark class="modifier">public </mark><mark class="modifier">static </mark>RequestBody <mark class="method">getEmptyBody</mark>(String method)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeRequestBody*getEmptyBody2´
+)java.lang.String.equals(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∂ ∂(2´
+)java.lang.String.equals(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∂( ∂(.2´
+)java.lang.String.equals(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∂@ ∂(F2⁄
+Xcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)!methodCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∂ ∂(2⁄
+Xcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)!methodCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∂! ∂('2⁄
+Xcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)!methodCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java∂9 ∂(?2ﬂ
+Xcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)!method	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaµ0 µ(62ú
+okhttp3.RequestBodyRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaµ µ(¬
+Xcom.facebook.react.modules.network.RequestBodyUtil.getEmptyBody(java.lang.String)!method	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaµ0 µ(6"
+typeString"
+isFinalfalse""
+declarationStringString method*method2í
+java.lang.StringTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.javaµ) µ(/î
+Tcom.facebook.react.modules.network.RequestBodyUtil?CONTENT_ENCODING_GZIP@43.30:43.51VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java+ +(3"
+isFinaltrue"
+typeString"Ã
+declarationString∂<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">CONTENT_ENCODING_GZIP</mark> = "gzip";"
+isStatictrue"
+accessprivate*CONTENT_ENCODING_GZIP2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java+ +(Ï
+Ccom.facebook.react.modules.network.RequestBodyUtil?NAME@44.30:44.34VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java, ,(""
+isFinaltrue"
+typeString"∆
+declarationString∞<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">NAME</mark> = "RequestBodyUtil";"
+isStatictrue"
+accessprivate*NAME2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java, ,(Ö
+Ocom.facebook.react.modules.network.RequestBodyUtil?TEMP_FILE_SUFFIX@45.30:45.46VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java- -(."
+isFinaltrue"
+typeString"«
+declarationString±<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TEMP_FILE_SUFFIX</mark> = "temp";"
+isStatictrue"
+accessprivate*TEMP_FILE_SUFFIX2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/RequestBodyUtil.java- -(

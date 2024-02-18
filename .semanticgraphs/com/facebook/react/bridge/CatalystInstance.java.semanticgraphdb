@@ -1,0 +1,578 @@
+
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javañ5
+*com.facebook.react.bridge.CatalystInstanceTRAITn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java (!"$
+packagecom.facebook.react.bridge"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ñ
+declarationStringÓ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>CatalystInstance<mark class="modifier"> extends </mark>MemoryPressureListener, JSInstance, JSBundleLoaderDelegate"
+accesspublic*CatalystInstance2∑
+8com.facebook.react.bridge.CatalystInstance.runJSBundle()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java (2∫
+;com.facebook.react.bridge.CatalystInstance.hasRunJSBundle()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java
+ (2∏
+9com.facebook.react.bridge.CatalystInstance.getSourceURL()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java$	 $(2Ì
+ncom.facebook.react.bridge.CatalystInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *(2Ç
+Çcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java- -(2≥
+4com.facebook.react.bridge.CatalystInstance.destroy()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java3 3(2∑
+8com.facebook.react.bridge.CatalystInstance.isDestroyed()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java5
+ 5(2∂
+7com.facebook.react.bridge.CatalystInstance.initialize()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java9 9(2∆
+Gcom.facebook.react.bridge.CatalystInstance.getReactQueueConfiguration()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java; ;(42…
+Jcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java=! =(,2Õ
+Ncom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java?# ?(22Õ
+Ncom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB B(,2À
+Lcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.String)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaE E(2ﬂ
+`com.facebook.react.bridge.CatalystInstance.getJSIModule(com.facebook.react.bridge.JSIModuleType)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaG G(2º
+=com.facebook.react.bridge.CatalystInstance.getNativeModules()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaI I(+2Ì
+ncom.facebook.react.bridge.CatalystInstance.extendNativeModules(com.facebook.react.bridge.NativeModuleRegistry)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaO O(2Ö
+Öcom.facebook.react.bridge.CatalystInstance.addBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaW W(!2à
+àcom.facebook.react.bridge.CatalystInstance.removeBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java] ]($2–
+Qcom.facebook.react.bridge.CatalystInstance.registerSegment(int, java.lang.String)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java` `(2ﬂ
+`com.facebook.react.bridge.CatalystInstance.setGlobalVariable(java.lang.String, java.lang.String)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac c(2∆
+Gcom.facebook.react.bridge.CatalystInstance.getJavaScriptContextHolder()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javan n(42æ
+?com.facebook.react.bridge.CatalystInstance.getRuntimeExecutor()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javap p($2ø
+@com.facebook.react.bridge.CatalystInstance.getRuntimeScheduler()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javar r(&2
+qcom.facebook.react.bridge.CatalystInstance.addJSIModules(java.util.List<com.facebook.react.bridge.JSIModuleSpec>)DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat t(2¬
+Ccom.facebook.react.bridge.CatalystInstance.getJSCallInvokerHolder()DECLARATIONn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaz z(*2Œ
+Mcom.facebook.react.bridge.CatalystInstance.getNativeMethodCallInvokerHolder()DECLARATIONp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaÄ  Ä(@2Ê
+ecom.facebook.react.bridge.CatalystInstance.setTurboModuleManager(com.facebook.react.bridge.JSIModule)DECLARATIONp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaá á(2™
+0com.facebook.react.bridge.MemoryPressureListenerEXTENDn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java ("2û
+$com.facebook.react.bridge.JSInstanceEXTENDn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java$ (.2™
+0com.facebook.react.bridge.JSBundleLoaderDelegateEXTENDn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java0 (F´
+8com.facebook.react.bridge.CatalystInstance.runJSBundle()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java ("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">runJSBundle</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*runJSBundle2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java (Ω
+;com.facebook.react.bridge.CatalystInstance.hasRunJSBundle()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java
+ ("
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">hasRunJSBundle</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasRunJSBundle2Ü
+booleanRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java (	Œ
+9com.facebook.react.bridge.CatalystInstance.getSourceURL()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java$	 $("
+isFinalfalse"ì
+declarationString~<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>String <mark class="method">getSourceURL</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getSourceURL2è
+java.lang.StringRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java$ $(˝
+ncom.facebook.react.bridge.CatalystInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *("
+isFinalfalse"¡
+declarationString´ <br><mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">invokeCallback</mark>(<mark class="modifier">int</mark> callbackID<mark class="modifier"><mark class="modifier">,</mark></mark> NativeArrayInterface arguments)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*invokeCallback2‰
+hcom.facebook.react.bridge.JSInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)OVERRIDEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *(2ˆ
+ycom.facebook.react.bridge.CatalystInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)!callbackID	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *($2ı
+xcom.facebook.react.bridge.CatalystInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)!arguments	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java*; *(D2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *(·
+ycom.facebook.react.bridge.CatalystInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)!callbackID	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *($"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> callbackID*
+callbackID2{
+intTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java* *(é
+xcom.facebook.react.bridge.CatalystInstance.invokeCallback(int, com.facebook.react.bridge.NativeArrayInterface)!arguments	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java*; *(D"
+typeNativeArrayInterface"
+isFinalfalse"3
+declarationStringNativeArrayInterface arguments*	arguments2¶
+.com.facebook.react.bridge.NativeArrayInterfaceTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java*& *(:ı
+Çcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java- -("
+isFinalfalse"›
+declarationString«<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">callFunction</mark>(String module<mark class="modifier"><mark class="modifier">,</mark></mark> String method<mark class="modifier"><mark class="modifier">,</mark></mark> NativeArray arguments)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*callFunction2á
+âcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)!module	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java- -(!2á
+âcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)!method	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java-* -(02ä
+åcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)!arguments	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java-> -(G2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java- -(‡
+âcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)!module	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java- -(!"
+typeString"
+isFinalfalse""
+declarationStringString module*module2à
+java.lang.StringTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java- -(‡
+âcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)!method	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java-* -(0"
+typeString"
+isFinalfalse""
+declarationStringString method*method2à
+java.lang.StringTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java-# -()à
+åcom.facebook.react.bridge.CatalystInstance.callFunction(java.lang.String, java.lang.String, com.facebook.react.bridge.NativeArray)!arguments	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java-> -(G"
+typeNativeArray"
+isFinalfalse"*
+declarationStringNativeArray arguments*	arguments2ù
+%com.facebook.react.bridge.NativeArrayTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java-2 -(=û
+4com.facebook.react.bridge.CatalystInstance.destroy()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java3 3("
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">destroy</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*destroy2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java3 3(¥
+8com.facebook.react.bridge.CatalystInstance.isDestroyed()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java5
+ 5("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isDestroyed</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isDestroyed2Ü
+booleanRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java5 5(	‡
+7com.facebook.react.bridge.CatalystInstance.initialize()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java9 9("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@VisibleForTesting</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">initialize</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+initialize2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java9 9(ì
+Gcom.facebook.react.bridge.CatalystInstance.getReactQueueConfiguration()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java; ;(4"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark>ReactQueueConfiguration <mark class="method">getReactQueueConfiguration</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeReactQueueConfiguration*getReactQueueConfiguration2∂
+7com.facebook.react.bridge.queue.ReactQueueConfigurationRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java; ;(÷
+Jcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java=! =(,"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>T <mark class="method">getJSModule</mark>(Class&lt;T&gt; jsInterface)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*getJSModule2”
+Vcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>)!jsInterface	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java=6 =(A2Ä
+TRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java= =( 2Œ
+Lcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>).TTYPE_PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java= =(â
+Vcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>)!jsInterface	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java=6 =(A"
+typeClass<T>"
+isFinalfalse")
+declarationStringClass<T> jsInterface*jsInterface2á
+java.lang.ClassTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java=- =(22Õ
+Lcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>).TTYPE_ARGUMENTn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java=3 =(4¯
+Lcom.facebook.react.bridge.CatalystInstance.getJSModule(java.lang.Class<T>).TTYPE_PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java= =(*T2§
+*com.facebook.react.bridge.JavaScriptModuleEXTENDn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java= =(∞
+Ncom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java?# ?(2"
+isFinalfalse"¨
+declarationStringñ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">hasNativeModule</mark>(Class&lt;T&gt; nativeModuleInterface)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasNativeModule2·
+dcom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>)!nativeModuleInterface	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java?< ?(Q2Ü
+booleanRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java? ?("2“
+Pcom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>).TTYPE_PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java? ?(Ø
+dcom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>)!nativeModuleInterface	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java?< ?(Q"
+typeClass<T>"
+isFinalfalse"3
+declarationStringClass<T> nativeModuleInterface*nativeModuleInterface2á
+java.lang.ClassTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java?3 ?(82—
+Pcom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>).TTYPE_ARGUMENTn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java?9 ?(:¯
+Pcom.facebook.react.bridge.CatalystInstance.hasNativeModule(java.lang.Class<T>).TTYPE_PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java? ?(*T2†
+&com.facebook.react.bridge.NativeModuleEXTENDn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java? ?(Æ
+Ncom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB B(,"
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>T <mark class="method">getNativeModule</mark>(Class&lt;T&gt; nativeModuleInterface)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*getNativeModule2·
+dcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>)!nativeModuleInterface	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB6 B(K2Ä
+TRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB B(2“
+Pcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>).TTYPE_PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB B(Ø
+dcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>)!nativeModuleInterface	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB6 B(K"
+typeClass<T>"
+isFinalfalse"3
+declarationStringClass<T> nativeModuleInterface*nativeModuleInterface2á
+java.lang.ClassTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB- B(22—
+Pcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>).TTYPE_ARGUMENTn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB3 B(4¯
+Pcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.Class<T>).TTYPE_PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB B(*T2†
+&com.facebook.react.bridge.NativeModuleEXTENDn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaB B(Ú
+Lcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.String)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaE E("
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>NativeModule <mark class="method">getNativeModule</mark>(String moduleName)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeNativeModule*getNativeModule2‘
+Wcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.String)!moduleName	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaE& E(02•
+&com.facebook.react.bridge.NativeModuleRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaE E(µ
+Wcom.facebook.react.bridge.CatalystInstance.getNativeModule(java.lang.String)!moduleName	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaE& E(0"
+typeString"
+isFinalfalse"&
+declarationStringString moduleName*
+moduleName2à
+java.lang.StringTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaE E(%„
+`com.facebook.react.bridge.CatalystInstance.getJSIModule(com.facebook.react.bridge.JSIModuleType)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaG G("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>JSIModule <mark class="method">getJSIModule</mark>(JSIModuleType moduleType)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	JSIModule*getJSIModule2Ë
+kcom.facebook.react.bridge.CatalystInstance.getJSIModule(com.facebook.react.bridge.JSIModuleType)!moduleType	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaG' G(12¢
+#com.facebook.react.bridge.JSIModuleRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaG G(Ó
+kcom.facebook.react.bridge.CatalystInstance.getJSIModule(com.facebook.react.bridge.JSIModuleType)!moduleType	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaG' G(1"
+typeJSIModuleType"
+isFinalfalse"-
+declarationStringJSIModuleType moduleType*
+moduleType2ü
+'com.facebook.react.bridge.JSIModuleTypeTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaG G(&ã
+=com.facebook.react.bridge.CatalystInstance.getNativeModules()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaI I(+"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Collection&lt;NativeModule&gt; <mark class="method">getNativeModules</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse" 
+typeCollection<NativeModule>*getNativeModules2ì
+java.util.CollectionRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaI I(2Æ
+&com.facebook.react.bridge.NativeModuleRETURN_TYPE_ARGUMENTn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaI I(Ñ
+ncom.facebook.react.bridge.CatalystInstance.extendNativeModules(com.facebook.react.bridge.NativeModuleRegistry)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaO O("
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">extendNativeModules</mark>(NativeModuleRegistry modules)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*extendNativeModules2Û
+vcom.facebook.react.bridge.CatalystInstance.extendNativeModules(com.facebook.react.bridge.NativeModuleRegistry)!modules	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaO0 O(72É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaO O(à
+vcom.facebook.react.bridge.CatalystInstance.extendNativeModules(com.facebook.react.bridge.NativeModuleRegistry)!modules	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaO0 O(7"
+typeNativeModuleRegistry"
+isFinalfalse"1
+declarationStringNativeModuleRegistry modules*modules2¶
+.com.facebook.react.bridge.NativeModuleRegistryTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaO O(/‘
+Öcom.facebook.react.bridge.CatalystInstance.addBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaW W(!"
+isFinalfalse"Ω
+declarationStringß<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addBridgeIdleDebugListener</mark>(NotThreadSafeBridgeIdleDebugListener listener)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*addBridgeIdleDebugListener2å
+écom.facebook.react.bridge.CatalystInstance.addBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)!listener	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaWG W(O2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaW W(”
+écom.facebook.react.bridge.CatalystInstance.addBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)!listener	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaWG W(O",
+type$NotThreadSafeBridgeIdleDebugListener"
+isFinalfalse"B
+declarationString-NotThreadSafeBridgeIdleDebugListener listener*listener2∂
+>com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListenerTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaW" W(F‡
+àcom.facebook.react.bridge.CatalystInstance.removeBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java] ]($"
+isFinalfalse"¿
+declarationString™<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">removeBridgeIdleDebugListener</mark>(NotThreadSafeBridgeIdleDebugListener listener)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*removeBridgeIdleDebugListener2è
+ëcom.facebook.react.bridge.CatalystInstance.removeBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)!listener	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java]J ](R2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java] ](÷
+ëcom.facebook.react.bridge.CatalystInstance.removeBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)!listener	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java]J ](R",
+type$NotThreadSafeBridgeIdleDebugListener"
+isFinalfalse"B
+declarationString-NotThreadSafeBridgeIdleDebugListener listener*listener2∂
+>com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListenerTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java]% ](IÚ
+Qcom.facebook.react.bridge.CatalystInstance.registerSegment(int, java.lang.String)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java` `("
+isFinalfalse"˘
+declarationString„<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">registerSegment</mark>(<mark class="modifier">int</mark> segmentId<mark class="modifier"><mark class="modifier">,</mark></mark> String path)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*registerSegment2ÿ
+[com.facebook.react.bridge.CatalystInstance.registerSegment(int, java.lang.String)!segmentId	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java` `($2”
+Vcom.facebook.react.bridge.CatalystInstance.registerSegment(int, java.lang.String)!path	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java`- `(12É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java` `(¡
+[com.facebook.react.bridge.CatalystInstance.registerSegment(int, java.lang.String)!segmentId	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java` `($"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> segmentId*	segmentId2{
+intTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java` `(®
+Vcom.facebook.react.bridge.CatalystInstance.registerSegment(int, java.lang.String)!path	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java`- `(1"
+typeString"
+isFinalfalse" 
+declarationStringString path*path2à
+java.lang.StringTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.java`& `(,«	
+`com.facebook.react.bridge.CatalystInstance.setGlobalVariable(java.lang.String, java.lang.String)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac c("
+isFinalfalse"õ
+declarationStringÖ<mark class="annotation">@VisibleForTesting</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setGlobalVariable</mark>(String propName<mark class="modifier"><mark class="modifier">,</mark></mark> String jsonValue)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setGlobalVariable2Ê
+icom.facebook.react.bridge.CatalystInstance.setGlobalVariable(java.lang.String, java.lang.String)!propName	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac  c((2Á
+jcom.facebook.react.bridge.CatalystInstance.setGlobalVariable(java.lang.String, java.lang.String)!jsonValue	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac1 c(:2É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac c(√
+icom.facebook.react.bridge.CatalystInstance.setGlobalVariable(java.lang.String, java.lang.String)!propName	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac  c(("
+typeString"
+isFinalfalse"$
+declarationStringString propName*propName2à
+java.lang.StringTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac c(∆
+jcom.facebook.react.bridge.CatalystInstance.setGlobalVariable(java.lang.String, java.lang.String)!jsonValue	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac1 c(:"
+typeString"
+isFinalfalse"%
+declarationStringString jsonValue*	jsonValue2à
+java.lang.StringTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javac* c(0æ
+Gcom.facebook.react.bridge.CatalystInstance.getJavaScriptContextHolder()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javan n(4"
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Deprecated</mark> <br><mark class="modifier"> </mark>JavaScriptContextHolder <mark class="method">getJavaScriptContextHolder</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeJavaScriptContextHolder*getJavaScriptContextHolder2∞
+1com.facebook.react.bridge.JavaScriptContextHolderRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javan n(‹
+?com.facebook.react.bridge.CatalystInstance.getRuntimeExecutor()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javap p($"
+isFinalfalse"t
+declarationString_<mark class="modifier"> </mark>RuntimeExecutor <mark class="method">getRuntimeExecutor</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeRuntimeExecutor*getRuntimeExecutor2®
+)com.facebook.react.bridge.RuntimeExecutorRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javap p(‚
+@com.facebook.react.bridge.CatalystInstance.getRuntimeScheduler()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javar r(&"
+isFinalfalse"v
+declarationStringa<mark class="modifier"> </mark>RuntimeScheduler <mark class="method">getRuntimeScheduler</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeRuntimeScheduler*getRuntimeScheduler2©
+*com.facebook.react.bridge.RuntimeSchedulerRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javar r(â
+qcom.facebook.react.bridge.CatalystInstance.addJSIModules(java.util.List<com.facebook.react.bridge.JSIModuleSpec>)METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat t("
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addJSIModules</mark>(List&lt;JSIModuleSpec&gt; jsiModules)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*addJSIModules2˘
+|com.facebook.react.bridge.CatalystInstance.addJSIModules(java.util.List<com.facebook.react.bridge.JSIModuleSpec>)!jsiModules	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat) t(32É
+voidRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat t(ù
+|com.facebook.react.bridge.CatalystInstance.addJSIModules(java.util.List<com.facebook.react.bridge.JSIModuleSpec>)!jsiModules	PARAMETERn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat) t(3"
+typeList<JSIModuleSpec>"
+isFinalfalse"3
+declarationStringList<JSIModuleSpec> jsiModules*
+jsiModules2Ü
+java.util.ListTYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat t(2®
+'com.facebook.react.bridge.JSIModuleSpecTYPE_ARGUMENTn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javat t('‘
+Ccom.facebook.react.bridge.CatalystInstance.getJSCallInvokerHolder()METHODn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaz z(*"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>CallInvokerHolder <mark class="method">getJSCallInvokerHolder</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeCallInvokerHolder*getJSCallInvokerHolder2ê
+CallInvokerHolderRETURN_TYPEn
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaz z(õ
+Mcom.facebook.react.bridge.CatalystInstance.getNativeMethodCallInvokerHolder()METHODp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaÄ  Ä(@"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>NativeMethodCallInvokerHolder <mark class="method">getNativeMethodCallInvokerHolder</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"%
+typeNativeMethodCallInvokerHolder* getNativeMethodCallInvokerHolder2û
+NativeMethodCallInvokerHolderRETURN_TYPEp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaÄ Ä(Ô
+ecom.facebook.react.bridge.CatalystInstance.setTurboModuleManager(com.facebook.react.bridge.JSIModule)METHODp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaá á("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setTurboModuleManager</mark>(JSIModule getter)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setTurboModuleManager2Î
+lcom.facebook.react.bridge.CatalystInstance.setTurboModuleManager(com.facebook.react.bridge.JSIModule)!getter	PARAMETERp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaá' á(-2Ö
+voidRETURN_TYPEp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaá á(ﬂ
+lcom.facebook.react.bridge.CatalystInstance.setTurboModuleManager(com.facebook.react.bridge.JSIModule)!getter	PARAMETERp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaá' á(-"
+type	JSIModule"
+isFinalfalse"%
+declarationStringJSIModule getter*getter2ù
+#com.facebook.react.bridge.JSIModuleTYPEp
+dnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/CatalystInstance.javaá á(&

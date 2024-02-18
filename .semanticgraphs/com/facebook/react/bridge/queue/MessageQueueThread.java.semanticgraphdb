@@ -1,0 +1,171 @@
+
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java—
+2com.facebook.react.bridge.queue.MessageQueueThreadTRAITv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (#"*
+packagecom.facebook.react.bridge.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"•
+declarationStringè<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>MessageQueueThread"
+accesspublic*MessageQueueThread2ÿ
+Qcom.facebook.react.bridge.queue.MessageQueueThread.runOnQueue(java.lang.Runnable)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java
+ (2Á
+`com.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (2∆
+?com.facebook.react.bridge.queue.MessageQueueThread.isOnThread()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java"
+ "(2Ã
+Ecom.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java) )(2‹
+Ucom.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread(java.lang.String)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java0 0(2À
+Dcom.facebook.react.bridge.queue.MessageQueueThread.quitSynchronous()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java8 8(2»
+Acom.facebook.react.bridge.queue.MessageQueueThread.getPerfStats()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java? ?(*2 
+Ccom.facebook.react.bridge.queue.MessageQueueThread.resetPerfStats()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.javaF F(2¬
+;com.facebook.react.bridge.queue.MessageQueueThread.isIdle()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.javaJ
+ J(ˇ
+Qcom.facebook.react.bridge.queue.MessageQueueThread.runOnQueue(java.lang.Runnable)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java
+ ("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">runOnQueue</mark>(Runnable runnable)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+runOnQueue2ﬂ
+Zcom.facebook.react.bridge.queue.MessageQueueThread.runOnQueue(java.lang.Runnable)!runnable	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (&2é
+booleanRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (	 
+Zcom.facebook.react.bridge.queue.MessageQueueThread.runOnQueue(java.lang.Runnable)!runnable	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (&"
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable runnable*runnable2í
+java.lang.RunnableTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (í
+`com.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java ("
+isFinalfalse"æ
+declarationString®<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark>Future&lt;T&gt; <mark class="method">callOnQueue</mark>(final Callable&lt;T&gt; callable)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	Future<T>*callOnQueue2Ó
+icom.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>)!callable	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java. (62¢
+java.util.concurrent.FutureRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (2Ú
+bcom.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>).TRETURN_TYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (2Ï
+bcom.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (˚
+icom.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>)!callable	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java. (6"
+typeCallable<T>"
+isFinaltrue"M
+declarationString8Callable<<mark class="type-parameter">T</mark>> callable*callable2ù
+java.util.concurrent.CallableTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java" (*2Î
+bcom.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java+ (,Ô
+bcom.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java (*T˙
+?com.facebook.react.bridge.queue.MessageQueueThread.isOnThread()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java"
+ "("
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isOnThread</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+isOnThread2é
+booleanRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java" "(	É
+Ecom.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java) )("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">assertIsOnThread</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*assertIsOnThread2ã
+voidRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java) )(Ü
+Ucom.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread(java.lang.String)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java0 0("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">assertIsOnThread</mark>(String message)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*assertIsOnThread2‚
+]com.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread(java.lang.String)!message	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java0 0(&2ã
+voidRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java0 0(≈
+]com.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread(java.lang.String)!message	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java0 0(&"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java0 0(Ä
+Dcom.facebook.react.bridge.queue.MessageQueueThread.quitSynchronous()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java8 8("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">quitSynchronous</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*quitSynchronous2ã
+voidRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java8 8(æ
+Acom.facebook.react.bridge.queue.MessageQueueThread.getPerfStats()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java? ?(*"
+isFinalfalse"´
+declarationStringï<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark>MessageQueueThreadPerfStats <mark class="method">getPerfStats</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"#
+typeMessageQueueThreadPerfStats*getPerfStats2¬
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.java? ?(˝
+Ccom.facebook.react.bridge.queue.MessageQueueThread.resetPerfStats()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.javaF F("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">resetPerfStats</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*resetPerfStats2ã
+voidRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.javaF F(Ó
+;com.facebook.react.bridge.queue.MessageQueueThread.isIdle()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.javaJ
+ J("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isIdle</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isIdle2é
+booleanRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThread.javaJ J(	

@@ -1,0 +1,913 @@
+
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java’!
+9com.facebook.react.modules.fresco.SystraceRequestListenerCLASS}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ($",
+package!com.facebook.react.modules.fresco"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"∞
+declarationStringö<mark class="modifier">public </mark><mark class="modifier">class </mark>SystraceRequestListener<mark class="modifier"> extends </mark>BaseRequestListener"
+accesspublic*SystraceRequestListener2˚
+mcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2ª
+¨com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java( (()2–
+¡com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java6 6()2¿
+±com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaD D(.2ç
+com.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR R(2µ
+¶com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javac c(2•
+ñcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat t(2º
+´com.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÅ Å(2Ò
+acom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaè è(#2Ï
+\com.facebook.react.modules.fresco.SystraceRequestListener.requiresExtraMap(java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaú ú(!2›
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2ﬂ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java% (02ﬂ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java% (02¿
+7com.facebook.imagepipeline.listener.BaseRequestListenerEXTEND}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java- (@€-
+mcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ("
+isFinalfalse"ö
+declarationStringÑ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onProducerStart</mark>(String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> String producerName)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onProducerStart2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2´
+$java.lang.String.replace(char, char)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java" ()2©
+"java.lang.StringBuilder.toString()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!J !(R2û
+java.util.Map.put(K, V)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java# #(2Æ
+'java.lang.StringBuilder.StringBuilder()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java" (/2ã
+Écom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?entryName@29.18:29.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2ã
+Écom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?entryName@29.18:29.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2Å
+zcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)!producerNameCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (!2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!4 !(>2ã
+Écom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?entryName@29.18:29.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!@ !(I2ç
+Öcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?requestPair@33.26:33.37CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java"@ "(K2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java"T "(^2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java# #(2˛
+wcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java# #(2ç
+Öcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?requestPair@33.26:33.37CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java# #(*2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java$ $(2É
+wcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java% (.2Ü
+zcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 (C2í
+Écom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?entryName@29.18:29.27DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2î
+Öcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?requestPair@33.26:33.37DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java! !(%2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java	 (ö
+Écom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?entryName@29.18:29.27VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ("
+typeStringBuilder"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark>StringBuilder <mark class="class-field">entryName</mark> = new StringBuilder()*	entryName2û
+java.lang.StringBuilderTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2Æ
+'java.lang.StringBuilder.StringBuilder()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java" (/Ó
+Öcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?requestPair@33.26:33.37VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java! !(%"
+typePair<Integer, String>"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">requestPair</mark> = Pair.create(mCurrentID, entryName.toString())*requestPair2ò
+android.util.PairTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java! !(2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!	 !(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java! !(2©
+"java.lang.StringBuilder.toString()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!J !(R2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!4 !(>2ã
+Écom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)?entryName@29.18:29.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java!@ !(IÒ
+wcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java% (."
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ($˙
+zcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerStart(java.lang.String, java.lang.String)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 (C"
+typeString"
+isFinalfalse"(
+declarationStringString producerName*producerName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java0 (6€)
+¨com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java( (()"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onProducerFinishWithSuccess</mark>(String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> String producerName<mark class="modifier"><mark class="modifier">,</mark></mark> Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark> String&gt; extraMap)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onProducerFinishWithSuccess2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java* *(2≤
++java.util.Map.containsKey(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java. .(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/0 /(32≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java1 1(2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java. .(2æ
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java.  .()2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/$ /(/2æ
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/4 /(=2∆
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@47.28:47.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java0@ 0(E2∆
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@47.28:47.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java0N 0(S2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java1 1(2æ
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java1 1("2√
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java) )(2∆
+πcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java) )(+2¬
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!extraMap	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java)A )(I2Õ
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@47.28:47.33DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/ /(!2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java(	 ((Ω
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@47.28:47.33VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/ /(!"
+typePair<Integer, String>"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">entry</mark> = mProducerID.get(requestId)*entry2ò
+android.util.PairTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/ /(
+2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/ /(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/ /(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/0 /(32ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/$ /(/2æ
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java/4 /(=±
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java) )("
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java) )(∫
+πcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java) )(+"
+typeString"
+isFinalfalse"(
+declarationStringString producerName*producerName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java) )(ã
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithSuccess(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!extraMap	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java)A )(I"
+typeMap<String, String>"
+isFinalfalse"1
+declarationStringMap<String, String> extraMap*extraMap2î
+java.util.MapTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java)- )(02†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java)1 )(72†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java)9 )(?Ÿ.
+¡com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java6 6()"
+isFinalfalse"ì
+declarationString˝<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onProducerFinishWithFailure</mark>(String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> String producerName<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable throwable<mark class="modifier"><mark class="modifier">,</mark></mark> Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark> String&gt; extraMap)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onProducerFinishWithFailure2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java8 8(2≤
++java.util.Map.containsKey(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java< <(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java=0 =(32≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java? ?(2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java< <(2”
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java<  <()2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java=$ =(/2”
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java=4 =(=2€
+”com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)?entry@61.28:61.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java>@ >(E2€
+”com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)?entry@61.28:61.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java>N >(S2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java? ?(2”
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java? ?("2ÿ
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 7(2€
+Œcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 7(+2ÿ
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!throwable	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java77 7(@2◊
+ com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!extraMap	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7V 7(^2‚
+”com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)?entry@61.28:61.33DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java= =(!2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java6	 6(Á
+”com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)?entry@61.28:61.33VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java= =(!"
+typePair<Integer, String>"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">entry</mark> = mProducerID.get(requestId)*entry2ò
+android.util.PairTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java= =(
+2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java= =(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java= =(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java=0 =(32ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java=$ =(/2”
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java=4 =(=∆
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 7("
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 7(œ
+Œcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 7(+"
+typeString"
+isFinalfalse"(
+declarationStringString producerName*producerName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 7(œ
+Àcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!throwable	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java77 7(@"
+type	Throwable"
+isFinalfalse"(
+declarationStringThrowable throwable*	throwable2ö
+java.lang.ThrowableTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7- 7(6†
+ com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithFailure(java.lang.String, java.lang.String, java.lang.Throwable, java.util.Map<java.lang.String, java.lang.String>)!extraMap	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7V 7(^"
+typeMap<String, String>"
+isFinalfalse"1
+declarationStringMap<String, String> extraMap*extraMap2î
+java.util.MapTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7B 7(E2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7F 7(L2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7N 7(Tó*
+±com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaD D(."
+isFinalfalse"«
+declarationString±<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onProducerFinishWithCancellation</mark>(String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> String producerName<mark class="modifier"><mark class="modifier">,</mark></mark> Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark> String&gt; extraMap)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid* onProducerFinishWithCancellation2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaF F(2≤
++java.util.Map.containsKey(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaJ J(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK0 K(32≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaM M(2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaJ J(2√
+ªcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaJ  J()2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK$ K(/2√
+ªcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK4 K(=2À
+√com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@75.28:75.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaL@ L(E2À
+√com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@75.28:75.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaLN L(S2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaM M(2√
+ªcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaM M("2»
+ªcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE E(2À
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE E(+2«
+∫com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!extraMap	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaEA E(I2“
+√com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@75.28:75.33DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK K(!2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaD	 D(«
+√com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)?entry@75.28:75.33VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK K(!"
+typePair<Integer, String>"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">entry</mark> = mProducerID.get(requestId)*entry2ò
+android.util.PairTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK K(
+2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK K(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK K(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK0 K(32ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK$ K(/2√
+ªcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaK4 K(=∂
+ªcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE E("
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE E(ø
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE E(+"
+typeString"
+isFinalfalse"(
+declarationStringString producerName*producerName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE E(ê
+∫com.facebook.react.modules.fresco.SystraceRequestListener.onProducerFinishWithCancellation(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>)!extraMap	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaEA E(I"
+typeMap<String, String>"
+isFinalfalse"1
+declarationStringMap<String, String> extraMap*extraMap2î
+java.util.MapTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE- E(02†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE1 E(72†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaE9 E(?í9
+com.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR R("
+isFinalfalse"
+declarationString⁄<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onProducerEvent</mark>(String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> String producerName<mark class="modifier"><mark class="modifier">,</mark></mark> String producerEventName)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onProducerEvent2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaS S(2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaX X(2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaY Y(2´
+$java.lang.String.replace(char, char)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaY Y(&2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaZ Z(2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java[ [(2´
+$java.lang.String.replace(char, char)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java[" [()2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java\ \(2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java] ](2´
+$java.lang.String.replace(char, char)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java]' ](.2ı
+ncom.facebook.systrace.Systrace.traceInstant(long, java.lang.String, com.facebook.systrace.Systrace.EventScope)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java^ ^(2©
+"java.lang.StringBuilder.toString()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java_3 _(;2Æ
+'java.lang.StringBuilder.StringBuilder()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaW" W(/2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaX X(2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaY Y(2ë
+âcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaY Y(2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaZ Z(2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java[ [(2î
+åcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!producerNameCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java[ [(!2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java\ \(2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java] ](2ô
+ëcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!producerEventNameCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java] ](&2ù
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java_) _(22ñ
+âcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR% R(.2ô
+åcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR7 R(C2û
+ëcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!producerEventName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaRL R(]2§
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaW W(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR	 R(¨
+ïcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)?entryName@87.18:87.27VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaW W("
+typeStringBuilder"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark>StringBuilder <mark class="class-field">entryName</mark> = new StringBuilder()*	entryName2û
+java.lang.StringBuilderTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaW W(2Æ
+'java.lang.StringBuilder.StringBuilder()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaW" W(/Ñ
+âcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR% R(."
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR R($ç
+åcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!producerName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR7 R(C"
+typeString"
+isFinalfalse"(
+declarationStringString producerName*producerName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaR0 R(6ú
+ëcom.facebook.react.modules.fresco.SystraceRequestListener.onProducerEvent(java.lang.String, java.lang.String, java.lang.String)!producerEventName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaRL R(]"
+typeString"
+isFinalfalse"-
+declarationStringString producerEventName*producerEventName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaRE R(KÏ6
+¶com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javac c("
+isFinalfalse"⁄
+declarationStringƒ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onRequestStart</mark>(ImageRequest request<mark class="modifier"><mark class="modifier">,</mark></mark> Object callerContext<mark class="modifier"><mark class="modifier">,</mark></mark> String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> isPrefetch)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onRequestStart2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javae e(2∑
+0java.lang.StringBuilder.append(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaj j(2©
+"java.lang.StringBuilder.toString()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javamJ m(R2û
+java.util.Map.put(K, V)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javao o(2Æ
+'java.lang.StringBuilder.StringBuilder()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javai" i(/2∆
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?entryName@105.18:105.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaj j(2∆
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?entryName@105.18:105.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javak k(2∂
+Æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!requestCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javak k(2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam4 m(>2∆
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?entryName@105.18:105.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam@ m(I2»
+¿com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?requestPair@109.26:109.37CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javan@ n(K2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javanT n(^2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javao o(2∏
+∞com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javao o(2»
+¿com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?requestPair@109.26:109.37CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javao o(*2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javap p(2ª
+Æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!request	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad d(2¡
+¥com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!callerContext	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad# d(02Ω
+∞com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad9 d(B2æ
+±com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!isPrefetch	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javadL d(V2Õ
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?entryName@105.18:105.27DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javai i(2œ
+¿com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?requestPair@109.26:109.37DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam m(%2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javac	 c(’
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?entryName@105.18:105.27VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javai i("
+typeStringBuilder"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark>StringBuilder <mark class="class-field">entryName</mark> = new StringBuilder()*	entryName2û
+java.lang.StringBuilderTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javai i(2Æ
+'java.lang.StringBuilder.StringBuilder()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javai" i(/‰
+¿com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?requestPair@109.26:109.37VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam m(%"
+typePair<Integer, String>"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">requestPair</mark> = Pair.create(mCurrentID, entryName.toString())*requestPair2ò
+android.util.PairTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam m(2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam	 m(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam m(2©
+"java.lang.StringBuilder.toString()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javamJ m(R2÷
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam4 m(>2∆
+æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)?entryName@105.18:105.27CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javam@ m(I–
+Æcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!request	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad d("
+typeImageRequest"
+isFinalfalse")
+declarationStringImageRequest request*request2∂
+/com.facebook.imagepipeline.request.ImageRequestTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad d(∑
+¥com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!callerContext	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad# d(0"
+typeObject"
+isFinalfalse")
+declarationStringObject callerContext*callerContext2ó
+java.lang.ObjectTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad d("´
+∞com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad9 d(B"
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javad2 d(8≈
+±com.facebook.react.modules.fresco.SystraceRequestListener.onRequestStart(com.facebook.imagepipeline.request.ImageRequest, java.lang.Object, java.lang.String, boolean)!isPrefetch	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javadL d(V"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> isPrefetch*
+isPrefetch2é
+booleanTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javadD d(Kø'
+ñcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat t("
+isFinalfalse"ä
+declarationStringÙ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onRequestSuccess</mark>(ImageRequest request<mark class="modifier"><mark class="modifier">,</mark></mark> String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> isPrefetch)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onRequestSuccess2µ
+.com.facebook.systrace.Systrace.isTracing(long)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javau u(2≤
++java.util.Map.containsKey(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javay y(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz0 z(32≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java| |(2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javay y(2®
+†com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javay  y()2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz$ z(/2®
+†com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz4 z(=2≤
+™com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)?entry@122.28:122.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java{@ {(E2≤
+™com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)?entry@122.28:122.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java{N {(S2ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java| |(2®
+†com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java| |("2´
+ûcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!request	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat, t(32≠
+†com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat< t(E2Æ
+°com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!isPrefetch	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javatO t(Y2π
+™com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)?entry@122.28:122.33DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz z(!2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat	 t(ì
+™com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)?entry@122.28:122.33VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz z(!"
+typePair<Integer, String>"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">entry</mark> = mRequestsID.get(requestId)*entry2ò
+android.util.PairTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz z(
+2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz z(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz z(2™
+#java.util.Map.get(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz0 z(32ÿ
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz$ z(/2®
+†com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!requestIdCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaz4 z(=¿
+ûcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!request	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat, t(3"
+typeImageRequest"
+isFinalfalse")
+declarationStringImageRequest request*request2∂
+/com.facebook.imagepipeline.request.ImageRequestTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat t(+õ
+†com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!requestId	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat< t(E"
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javat5 t(;µ
+°com.facebook.react.modules.fresco.SystraceRequestListener.onRequestSuccess(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, boolean)!isPrefetch	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javatO t(Y"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> isPrefetch*
+isPrefetch2é
+booleanTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javatG t(NÕ,
+´com.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÅ Å("
+isFinalfalse"€
+declarationString≈<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onRequestFailure</mark>(ImageRequest request<mark class="modifier"><mark class="modifier">,</mark></mark> String requestId<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable throwable<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> isPrefetch)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onRequestFailure2∑
+.com.facebook.systrace.Systrace.isTracing(long)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÉ É(2¥
++java.util.Map.containsKey(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaá á(2¨
+#java.util.Map.get(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà0 à(32Ø
+&java.util.Map.remove(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaä ä(2⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaá á(2ø
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaá  á()2⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà$ à(/2ø
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà4 à(=2…
+øcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)?entry@136.28:136.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaâ@ â(E2…
+øcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)?entry@136.28:136.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaâN â(S2⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaä ä(2ø
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaä ä("2¬
+≥com.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!request	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ Ç(2ƒ
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!requestId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ# Ç(,2ƒ
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!throwable	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ8 Ç(A2≈
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!isPrefetch	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇK Ç(U2–
+øcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)?entry@136.28:136.33DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà à(!2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÅ	 Å(À
+øcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)?entry@136.28:136.33VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà à(!"
+typePair<Integer, String>"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">entry</mark> = mRequestsID.get(requestId)*entry2ö
+android.util.PairTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà à(
+2£
+java.lang.IntegerTYPE_ARGUMENT
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà à(2¢
+java.lang.StringTYPE_ARGUMENT
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà à(2¨
+#java.util.Map.get(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà0 à(32⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà$ à(/2ø
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaà4 à(=Ÿ
+≥com.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!request	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ Ç("
+typeImageRequest"
+isFinalfalse")
+declarationStringImageRequest request*request2∏
+/com.facebook.imagepipeline.request.ImageRequestTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ Ç(¥
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!requestId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ# Ç(,"
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ Ç("Ω
+µcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!throwable	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ8 Ç(A"
+type	Throwable"
+isFinalfalse"(
+declarationStringThrowable throwable*	throwable2ú
+java.lang.ThrowableTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇ. Ç(7Œ
+∂com.facebook.react.modules.fresco.SystraceRequestListener.onRequestFailure(com.facebook.imagepipeline.request.ImageRequest, java.lang.String, java.lang.Throwable, boolean)!isPrefetch	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇK Ç(U"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> isPrefetch*
+isPrefetch2ê
+booleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaÇC Ç(Jö
+acom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaè è(#"
+isFinalfalse"œ
+declarationStringπ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onRequestCancellation</mark>(String requestId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onRequestCancellation2∑
+.com.facebook.systrace.Systrace.isTracing(long)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaê ê(2¥
++java.util.Map.containsKey(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaî î(2¨
+#java.util.Map.get(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï0 ï(32Ø
+&java.util.Map.remove(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaó ó(2⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaî î(2Ù
+kcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaî  î()2⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï$ ï(/2Ù
+kcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï4 ï(=2˛
+ucom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)?entry@149.28:149.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javañ@ ñ(E2˛
+ucom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)?entry@149.28:149.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javañN ñ(S2⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaó ó(2Ù
+kcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaó ó("2˘
+kcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)!requestId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaè+ è(42Ö
+ucom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)?entry@149.28:149.33DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï ï(!2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaè	 è(µ
+ucom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)?entry@149.28:149.33VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï ï(!"
+typePair<Integer, String>"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>Pair<Integer, String> <mark class="class-field">entry</mark> = mRequestsID.get(requestId)*entry2ö
+android.util.PairTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï ï(
+2£
+java.lang.IntegerTYPE_ARGUMENT
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï ï(2¢
+java.lang.StringTYPE_ARGUMENT
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï ï(2¨
+#java.util.Map.get(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï0 ï(32⁄
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï$ ï(/2Ù
+kcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)!requestIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaï4 ï(=È
+kcom.facebook.react.modules.fresco.SystraceRequestListener.onRequestCancellation(java.lang.String)!requestId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaè+ è(4"
+typeString"
+isFinalfalse"%
+declarationStringString requestId*	requestId2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaè$ è(*©
+\com.facebook.react.modules.fresco.SystraceRequestListener.requiresExtraMap(java.lang.String)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaú ú(!"
+isFinalfalse"∆
+declarationString∞<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">requiresExtraMap</mark>(String id)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*requiresExtraMap2Ì
+_com.facebook.react.modules.fresco.SystraceRequestListener.requiresExtraMap(java.lang.String)!id	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaú) ú(+2ó
+booleanRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaú	 ú(œ
+_com.facebook.react.modules.fresco.SystraceRequestListener.requiresExtraMap(java.lang.String)!id	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaú) ú(+"
+typeString"
+isFinalfalse"
+declarationString	String id*id2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.javaú" ú((…
+Ocom.facebook.react.modules.fresco.SystraceRequestListener?mCurrentID@19.6:19.16VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ("
+isFinalfalse"
+typeint"Ü
+declarationStringq<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">mCurrentID</mark> = 0;"
+isStaticfalse"
+accesspackage_private*
+mCurrentID2ä
+intTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (π
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mProducerID@20.37:20.48VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java% (0"
+isFinalfalse"*
+type"Map<String, Pair<Integer, String>>"ó
+declarationStringÅ<mark class="modifier"> </mark>Map<String, Pair<Integer, String>> <mark class="class-field">mProducerID</mark> = new HashMap<>();"
+isStaticfalse"
+accesspackage_private*mProducerID2î
+java.util.MapTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2°
+android.util.PairTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ("2¢
+java.util.HashMap.HashMap()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 (@π
+Qcom.facebook.react.modules.fresco.SystraceRequestListener?mRequestsID@21.37:21.48VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java% (0"
+isFinalfalse"*
+type"Map<String, Pair<Integer, String>>"ó
+declarationStringÅ<mark class="modifier"> </mark>Map<String, Pair<Integer, String>> <mark class="class-field">mRequestsID</mark> = new HashMap<>();"
+isStaticfalse"
+accesspackage_private*mRequestsID2î
+java.util.MapTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2°
+android.util.PairTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2°
+java.lang.IntegerTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java (2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java ("2¢
+java.util.HashMap.HashMap()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/fresco/SystraceRequestListener.java7 (@

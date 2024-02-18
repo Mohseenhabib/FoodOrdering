@@ -1,0 +1,1078 @@
+
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java©+
++com.facebook.react.runtime.ReactSurfaceViewCLASSo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java ("%
+packagecom.facebook.react.runtime"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ê
+declarationString–<mark class="annotation">@Nullsafe(Nullsafe.Mode.LOCAL)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ReactSurfaceView<mark class="modifier"> extends </mark>ReactRootView"
+accesspublic*ReactSurfaceView2É
+Çcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java,	 ,(2ø
+?com.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6(2—
+Qcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf f(2ø
+?com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javao o(!2◊
+Wcom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~ ~(02ˆ
+tcom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå å()2Ù
+rcom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ õ('2“
+Pcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™ ™(2¬
+@com.facebook.react.runtime.ReactSurfaceView.setIsFabric(boolean)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥ ¥(2¿
+>com.facebook.react.runtime.ReactSurfaceView.getUIManagerType()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∫ ∫(,2‹
+Zcom.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿ ¿(%2Á
+ecom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ œ('2≈
+Ccom.facebook.react.runtime.ReactSurfaceView.hasActiveReactContext()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java‚ ‚(&2∆
+Dcom.facebook.react.runtime.ReactSurfaceView.hasActiveReactInstance()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÁ Á('2∆
+Dcom.facebook.react.runtime.ReactSurfaceView.getCurrentReactContext()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÏ  Ï(62Õ
+Kcom.facebook.react.runtime.ReactSurfaceView.isViewAttachedToReactInstance()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÙ Ù(.2ª
+;com.facebook.react.runtime.ReactSurfaceView?TAG@33.30:33.33DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java! !(!2¿
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java#! #()2 
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java%" %(42Ã
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java&( &(<2ƒ
+Dcom.facebook.react.runtime.ReactSurfaceView?mWasMeasured@40.18:40.30DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java( ((2…
+Icom.facebook.react.runtime.ReactSurfaceView?mWidthMeasureSpec@41.14:41.31DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java) )(2 
+Jcom.facebook.react.runtime.ReactSurfaceView?mHeightMeasureSpec@42.14:42.32DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java* *( 2õ
+ com.facebook.react.ReactRootViewEXTENDo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java& (3«
+Çcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)CONSTRUCTORo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java,	 ,("Œ
+declarationString∏<mark class="modifier">public </mark><mark class="method">ReactSurfaceView</mark>(Context context<mark class="modifier"><mark class="modifier">,</mark></mark> ReactSurfaceImpl surface)*ReactSurfaceView2¿
+Gcom.facebook.react.ReactRootView.ReactRootView(android.content.Context)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java- -(	2Ñ
+äcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java-
+ -(2π
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java. .(2Ñ
+äcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)!surfaceCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java. .(2√
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java/ /(2≈
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java1 1(2â
+äcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)!context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java," ,()2â
+äcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)!surface	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java,< ,(C2´
++com.facebook.react.runtime.ReactSurfaceViewRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java,	 ,(Ó
+äcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)!context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java," ,()"
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2ê
+android.content.ContextTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java, ,(!î
+äcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)!surface	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java,< ,(C"
+typeReactSurfaceImpl"
+isFinalfalse"-
+declarationStringReactSurfaceImpl surface*surface2§
++com.facebook.react.runtime.ReactSurfaceImplTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java,+ ,(;Àf
+?com.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6("
+isFinalfalse"Ÿ
+declarationString√<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark><mark class="modifier">void</mark> <mark class="method">onMeasure</mark>(<mark class="modifier">int</mark> widthMeasureSpec<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> heightMeasureSpec)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typevoid*	onMeasure2º
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java7 7(2ï
+java.lang.Math.max(int, int)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaD D(2ï
+java.lang.Math.max(int, int)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaR R(2∏
+?com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java] ](,2®
+/com.facebook.systrace.Systrace.endSection(long)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javab b(2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!widthMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java;( ;(82Õ
+Tcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?widthMode@59.8:59.17CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java< <(2Õ
+Tcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?widthMode@59.8:59.17CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java<, <(52∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@61.15:61.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java= =(2∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@61.15:61.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java=+ =(,2∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@61.15:61.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java>  >(!2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java@ @(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaA A(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaB B(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaC C(2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?width@57.8:57.13CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaD D(2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?width@57.8:57.13CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaD D(2Œ
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?childSize@63.12:63.21CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaD  D()2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?width@57.8:57.13CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaG G(2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!widthMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaG" G(22 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!heightMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaI) I(:2Œ
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?heightMode@73.8:73.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaJ J(2Œ
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?heightMode@73.8:73.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaJ- J(72∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@75.15:75.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaK K(2∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@75.15:75.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaK+ K(,2∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@75.15:75.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaL  L(!2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaN N(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaO O(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaP P(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaQ Q(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?height@58.8:58.14CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaR R(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?height@58.8:58.14CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaR R( 2Œ
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?childSize@77.12:77.21CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaR" R(+2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?height@58.8:58.14CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaU U(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!heightMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaU# U(42…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?width@57.8:57.13CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaW W(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?height@58.8:58.14CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaW  W(&2Ω
+Dcom.facebook.react.runtime.ReactSurfaceView?mWasMeasured@40.18:40.30CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaY Y(2¬
+Icom.facebook.react.runtime.ReactSurfaceView?mWidthMeasureSpec@41.14:41.31CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaZ Z(2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!widthMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaZ Z((2√
+Jcom.facebook.react.runtime.ReactSurfaceView?mHeightMeasureSpec@42.14:42.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java[ [(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!heightMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java[ [(*2π
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java_ _(2¬
+Icom.facebook.react.runtime.ReactSurfaceView?mWidthMeasureSpec@41.14:41.31CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java` `(2√
+Jcom.facebook.react.runtime.ReactSurfaceView?mHeightMeasureSpec@42.14:42.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java` `(-2”
+Zcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?viewportOffset@93.10:93.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java`/ `(=2”
+Zcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?viewportOffset@93.10:93.24CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java`A `(O2±
+4com.facebook.react.ReactRootView.onMeasure(int, int)OVERRIDEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6(2Œ
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!widthMeasureSpec	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6(/2œ
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!heightMeasureSpec	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java65 6(F2–
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?width@57.8:57.13DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java9 9(2—
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?height@58.8:58.14DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java: :(2‘
+Tcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?widthMode@59.8:59.17DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java; ;(2Õ
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@61.15:61.16DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java= =(2—
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java> >(2’
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?childSize@63.12:63.21DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java? ?(2’
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?heightMode@73.8:73.18DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaI I(2Õ
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@75.15:75.16DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaK K(2—
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaL L(2’
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?childSize@77.12:77.21DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaM M(2⁄
+Zcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?viewportOffset@93.10:93.24DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java]
+ ](2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6(Ù
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?width@57.8:57.13VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java9 9("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">width</mark> = 0*width2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java9 9(˜
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?height@58.8:58.14VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java: :("
+typeint"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">height</mark> = 0*height2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java: :(Ò
+Tcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?widthMode@59.8:59.17VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java; ;("
+typeint"
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">widthMode</mark> = MeasureSpec.getMode(widthMeasureSpec)*	widthMode2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java; ;(2…
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!widthMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java;( ;(8Ë
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@61.15:61.16VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java= =("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java= =(º
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java> >("
+typeView"
+isFinalfalse"o
+declarationStringZ<mark class="modifier"> </mark>View <mark class="class-field">child</mark> = getChildAt(i)*child2ä
+android.view.ViewTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java> >(2∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@61.15:61.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java>  >(!í
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?childSize@63.12:63.21VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java? ?("
+typeint"
+isFinalfalse"·
+declarationStringÀ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">childSize</mark> = child.getLeft() + child.getMeasuredWidth() + child.getPaddingLeft() + child.getPaddingRight()*	childSize2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java? ?(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java@ @(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaA A(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaB B(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@62.13:62.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaC C(ˆ
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?heightMode@73.8:73.18VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaI I("
+typeint"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">heightMode</mark> = MeasureSpec.getMode(heightMeasureSpec)*
+heightMode2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaI I(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!heightMeasureSpecCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaI) I(:Ë
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@75.15:75.16VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaK K("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaK K(º
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaL L("
+typeView"
+isFinalfalse"o
+declarationStringZ<mark class="modifier"> </mark>View <mark class="class-field">child</mark> = getChildAt(i)*child2ä
+android.view.ViewTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaL L(2∆
+Mcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?i@75.15:75.16CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaL  L(!í
+Ucom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?childSize@77.12:77.21VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaM M("
+typeint"
+isFinalfalse"·
+declarationStringÀ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">childSize</mark> = child.getTop() + child.getMeasuredHeight() + child.getPaddingTop() + child.getPaddingBottom()*	childSize2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaM M(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaN N(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaO O(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaP P(2 
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?child@76.13:76.18CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaQ Q(÷
+Zcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)?viewportOffset@93.10:93.24VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java]
+ ]("
+typePoint"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>Point <mark class="class-field">viewportOffset</mark> = getViewportOffset()*viewportOffset2è
+android.graphics.PointTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java] ](	2∏
+?com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java] ](,∆
+Pcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!widthMeasureSpec	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6(/"
+typeint"
+isFinalfalse"G
+declarationString2<mark class="modifier">int</mark> widthMeasureSpec*widthMeasureSpec2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java6 6(…
+Qcom.facebook.react.runtime.ReactSurfaceView.onMeasure(int, int)!heightMeasureSpec	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java65 6(F"
+typeint"
+isFinalfalse"H
+declarationString3<mark class="modifier">int</mark> heightMeasureSpec*heightMeasureSpec2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java61 6(4ã!
+Qcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf f("
+isFinalfalse"Ù
+declarationStringﬁ<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark><mark class="modifier">void</mark> <mark class="method">onLayout</mark>(<mark class="modifier">boolean</mark> changed<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> left<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> top<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> right<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> bottom)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typevoid*onLayout2∏
+?com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javai i(.2Ω
+Dcom.facebook.react.runtime.ReactSurfaceView?mWasMeasured@40.18:40.30CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javah h(2“
+Ycom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!changedCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javah h(2π
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaj j(2¬
+Icom.facebook.react.runtime.ReactSurfaceView?mWidthMeasureSpec@41.14:41.31CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javak
+ k(2√
+Jcom.facebook.react.runtime.ReactSurfaceView?mHeightMeasureSpec@42.14:42.32CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javak k(/2Á
+ncom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)?viewportOffset@105.12:105.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javak1 k(?2Á
+ncom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)?viewportOffset@105.12:105.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javakC k(Q2√
+Fcom.facebook.react.ReactRootView.onLayout(boolean, int, int, int, int)OVERRIDEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf f(2◊
+Ycom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!changed	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf" f()2‘
+Vcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!left	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf/ f(32”
+Ucom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!top	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf9 f(<2’
+Wcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!right	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javafB f(G2÷
+Xcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!bottom	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javafM f(S2Ó
+ncom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)?viewportOffset@105.12:105.26DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javai i(2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf f(Í
+ncom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)?viewportOffset@105.12:105.26VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javai i("
+typePoint"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>Point <mark class="class-field">viewportOffset</mark> = getViewportOffset()*viewportOffset2è
+android.graphics.PointTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javai i(2∏
+?com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javai i(. 
+Ycom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!changed	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf" f()"
+typeboolean"
+isFinalfalse"B
+declarationString-<mark class="modifier">boolean</mark> changed*changed2Ä
+booleanTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf f(!¥
+Vcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!left	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf/ f(3"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> left*left2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf+ f(.±
+Ucom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!top	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf9 f(<"
+typeint"
+isFinalfalse":
+declarationString%<mark class="modifier">int</mark> top*top2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf5 f(8∑
+Wcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!right	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javafB f(G"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> right*right2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaf> f(A∫
+Xcom.facebook.react.runtime.ReactSurfaceView.onLayout(boolean, int, int, int, int)!bottom	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javafM f(S"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> bottom*bottom2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javafI f(L 
+?com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javao o(!"
+isFinalfalse"p
+declarationString[<mark class="modifier">private </mark>Point <mark class="method">getViewportOffset</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typePoint*getViewportOffset2◊
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaq q((2ÿ
+_com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?visibleWindowFrame@117.9:117.27CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javav! v(32◊
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaw w(2ÿ
+_com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?visibleWindowFrame@117.9:117.27CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaw w(-2◊
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javax x(2ÿ
+_com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?visibleWindowFrame@117.9:117.27CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javax x(-2◊
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaz z(%2◊
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaz* z(:2ﬁ
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javap
+ p(2ﬂ
+_com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?visibleWindowFrame@117.9:117.27DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javau	 u(2ñ
+android.graphics.PointRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javao
+ o(ƒ
+^com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?locationOnScreen@112.10:112.26VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javap
+ p("
+typeint"
+isFinalfalse"µ
+declarationStringü<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">locationOnScreen</mark> = new <mark class="modifier">int</mark>[2]*locationOnScreen2~
+int[]TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javap p(	ú
+_com.facebook.react.runtime.ReactSurfaceView.getViewportOffset()?visibleWindowFrame@117.9:117.27VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javau	 u("
+typeRect"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>Rect <mark class="class-field">visibleWindowFrame</mark> = new Rect()*visibleWindowFrame2é
+android.graphics.RectTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javau u(ø
+Wcom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~ ~(0"
+isFinalfalse"É
+declarationStringÌ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">requestDisallowInterceptTouchEvent</mark>(<mark class="modifier">boolean</mark> disallowIntercept)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*"requestDisallowInterceptTouchEvent2Á
+lcom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)?parent@129.15:129.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÇ Ç(2Á
+lcom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)?parent@129.15:129.21CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÉ É(2‰
+icom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)!disallowInterceptCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÉ0 É(A2…
+Lcom.facebook.react.ReactRootView.requestDisallowInterceptTouchEvent(boolean)OVERRIDEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~ ~(02Á
+icom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)!disallowIntercept	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~9 ~(J2Ó
+lcom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)?parent@129.15:129.21DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÅ Å(2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~	 ~(§
+lcom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)?parent@129.15:129.21VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÅ Å("
+type
+ViewParent"
+isFinalfalse"t
+declarationString_<mark class="modifier"> </mark>ViewParent <mark class="class-field">parent</mark> = getParent()*parent2í
+android.view.ViewParentTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÅ Å(Ó
+icom.facebook.react.runtime.ReactSurfaceView.requestDisallowInterceptTouchEvent(boolean)!disallowIntercept	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~9 ~(J"
+typeboolean"
+isFinalfalse"L
+declarationString7<mark class="modifier">boolean</mark> disallowIntercept*disallowIntercept2Ä
+booleanTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java~1 ~(8˚+
+tcom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå å()"
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onChildStartedNativeGesture</mark>(View childView<mark class="modifier"><mark class="modifier">,</mark></mark> MotionEvent ev)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onChildStartedNativeGesture2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç/ ç(A2ï
+ôcom.facebook.react.uimanager.JSTouchDispatcher.onChildStartedNativeGesture(android.view.MotionEvent, com.facebook.react.uimanager.events.EventDispatcher)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaì ì(42™
+Æcom.facebook.react.uimanager.JSPointerDispatcher.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent, com.facebook.react.uimanager.events.EventDispatcher)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javañ ñ(62ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç& ç(.2é
+ícom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@141.20:141.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaé é(2≈
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaí í(2≈
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaì ì(2Ú
+wcom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!evCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaì5 ì(72é
+ícom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@141.20:141.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaì9 ì(H2˘
+~com.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!childViewCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaï ï(2«
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaï ï(12«
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javañ ñ(2˘
+~com.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!childViewCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javañ7 ñ(@2Ú
+wcom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!evCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javañB ñ(D2é
+ícom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@141.20:141.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javañF ñ(U2Ë
+icom.facebook.react.ReactRootView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå å()2Ì
+ncom.facebook.react.uimanager.RootView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå å()2˛
+~com.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!childView	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå/ å(82˜
+wcom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!ev	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaåF å(H2ï
+ícom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@141.20:141.35DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç ç(#2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå	 å(í
+ícom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@141.20:141.35VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç ç(#"
+typeEventDispatcher"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>EventDispatcher <mark class="class-field">eventDispatcher</mark> = mSurface.getEventDispatcher()*eventDispatcher2Æ
+3com.facebook.react.uimanager.events.EventDispatcherTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç ç(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç/ ç(A2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaç& ç(.›
+~com.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!childView	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå/ å(8"
+typeView"
+isFinalfalse"#
+declarationStringView childView*	childView2å
+android.view.ViewTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå* å(.›
+wcom.facebook.react.runtime.ReactSurfaceView.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent)!ev	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaåF å(H"
+typeMotionEvent"
+isFinalfalse"#
+declarationStringMotionEvent ev*ev2ì
+android.view.MotionEventTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaå: å(E -
+rcom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ õ('"
+isFinalfalse"ù
+declarationStringá<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onChildEndedNativeGesture</mark>(View childView<mark class="modifier"><mark class="modifier">,</mark></mark> MotionEvent ev)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onChildEndedNativeGesture2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú/ ú(A2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java°/ °(A2ì
+ócom.facebook.react.uimanager.JSTouchDispatcher.onChildEndedNativeGesture(android.view.MotionEvent, com.facebook.react.uimanager.events.EventDispatcher)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¢ ¢(22ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¢@ ¢(R2™
+Æcom.facebook.react.uimanager.JSPointerDispatcher.onChildStartedNativeGesture(android.view.View, android.view.MotionEvent, com.facebook.react.uimanager.events.EventDispatcher)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java• •(62ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú& ú(.2å
+êcom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@156.20:156.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaù ù(2≈
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java° °(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java°& °(.2≈
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¢ ¢(2
+ucom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!evCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¢3 ¢(52ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¢7 ¢(?2«
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java§ §(2«
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java• •(2˜
+|com.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!childViewCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java•7 •(@2
+ucom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!evCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java•B •(D2å
+êcom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@156.20:156.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java•F •(U2Ê
+gcom.facebook.react.ReactRootView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ õ('2Î
+lcom.facebook.react.uimanager.RootView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ õ('2¸
+|com.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!childView	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ- õ(62ı
+ucom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!ev	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõD õ(F2ì
+êcom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@156.20:156.35DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú ú(#2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ	 õ(ê
+êcom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)?eventDispatcher@156.20:156.35VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú ú(#"
+typeEventDispatcher"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>EventDispatcher <mark class="class-field">eventDispatcher</mark> = mSurface.getEventDispatcher()*eventDispatcher2Æ
+3com.facebook.react.uimanager.events.EventDispatcherTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú ú(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú/ ú(A2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaú& ú(.€
+|com.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!childView	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ- õ(6"
+typeView"
+isFinalfalse"#
+declarationStringView childView*	childView2å
+android.view.ViewTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ( õ(,€
+ucom.facebook.react.runtime.ReactSurfaceView.onChildEndedNativeGesture(android.view.View, android.view.MotionEvent)!ev	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõD õ(F"
+typeMotionEvent"
+isFinalfalse"#
+declarationStringMotionEvent ev*ev2ì
+android.view.MotionEventTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaõ8 õ(CÑ!
+Pcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™ ™("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">handleException</mark>(Throwable t)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*handleException2µ
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´' ´(32π
+>java.util.Objects.toString(java.lang.Object, java.lang.String)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠$ ≠(,2õ
+ java.lang.Throwable.getMessage()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠/ ≠(92Ã
+Qcom.facebook.react.runtime.ReactHostImpl.handleHostException(java.lang.Exception)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaØ Ø(#2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´ ´(&2„
+hcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?reactHost@171.18:171.27CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¨ ¨(2Õ
+Rcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)!tCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠- ≠(.2Ê
+kcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?errorMessage@173.13:173.25CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆ6 Æ(B2Õ
+Rcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)!tCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆJ Æ(K2„
+hcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?reactHost@171.18:171.27CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaØ Ø(2€
+`com.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?e@174.16:174.17CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaØ$ Ø(%2ƒ
+Ecom.facebook.react.ReactRootView.handleException(java.lang.Throwable)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™ ™(2…
+Jcom.facebook.react.uimanager.RootView.handleException(java.lang.Throwable)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™ ™(2“
+Rcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)!t	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™( ™()2Í
+hcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?reactHost@171.18:171.27DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´ ´(2Ì
+kcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?errorMessage@173.13:173.25DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠ ≠(2‚
+`com.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?e@174.16:174.17DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆ Æ(2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™	 ™(¿
+hcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?reactHost@171.18:171.27VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´ ´("
+typeReactHostImpl"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>ReactHostImpl <mark class="class-field">reactHost</mark> = mSurface.getReactHost()*	reactHost2£
+(com.facebook.react.runtime.ReactHostImplTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´ ´(2µ
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´' ´(32ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java´ ´(&É	
+kcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?errorMessage@173.13:173.25VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠ ≠("
+typeString"
+isFinalfalse"Æ
+declarationStringò<mark class="modifier"> </mark>String <mark class="class-field">errorMessage</mark> = Objects.toString(t.getMessage()<mark class="modifier">,</mark> "")*errorMessage2ã
+java.lang.StringTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠ ≠(2π
+>java.util.Objects.toString(java.lang.Object, java.lang.String)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠$ ≠(,2õ
+ java.lang.Throwable.getMessage()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠/ ≠(92Õ
+Rcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)!tCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≠- ≠(.¨
+`com.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?e@174.16:174.17VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆ Æ("
+type	Exception"
+isFinalfalse"ÿ
+declarationString¬<mark class="modifier"> </mark>Exception <mark class="class-field">e</mark> = new IllegalViewOperationException(errorMessage, <mark class="modifier">this</mark><mark class="modifier">,</mark> t)*e2é
+java.lang.ExceptionTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆ Æ(2Ê
+kcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)?errorMessage@173.13:173.25CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆ6 Æ(B2Õ
+Rcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)!tCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÆJ Æ(K≠
+Rcom.facebook.react.runtime.ReactSurfaceView.handleException(java.lang.Throwable)!t	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™( ™()"
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable t*t2é
+java.lang.ThrowableTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java™ ™('…	
+@com.facebook.react.runtime.ReactSurfaceView.setIsFabric(boolean)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥ ¥("
+isFinalfalse"„
+declarationStringÕ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setIsFabric</mark>(<mark class="modifier">boolean</mark> isFabric)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setIsFabric2∞
+5com.facebook.react.ReactRootView.setIsFabric(boolean)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∂
+ ∂(2¥
+5com.facebook.react.ReactRootView.setIsFabric(boolean)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥ ¥(2…
+Icom.facebook.react.runtime.ReactSurfaceView.setIsFabric(boolean)!isFabric	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥" ¥(*2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥	 ¥(¿
+Icom.facebook.react.runtime.ReactSurfaceView.setIsFabric(boolean)!isFabric	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥" ¥(*"
+typeboolean"
+isFinalfalse"C
+declarationString.<mark class="modifier">boolean</mark> isFabric*isFabric2Ç
+booleanTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¥ ¥(!‰
+>com.facebook.react.runtime.ReactSurfaceView.getUIManagerType()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∫ ∫(,"
+isFinalfalse"√
+declarationString≠ <br><mark class="annotation">@UIManagerType</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getUIManagerType</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getUIManagerType2≤
+3com.facebook.react.ReactRootView.getUIManagerType()OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∫ ∫(,2∏
+9com.facebook.react.uimanager.ReactRoot.getUIManagerType()OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∫ ∫(,2Ö
+intRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∫ ∫(Æ
+Zcom.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿ ¿(%"
+isFinalfalse"“
+declarationStringº<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark><mark class="modifier">void</mark> <mark class="method">dispatchJSTouchEvent</mark>(MotionEvent event)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typevoid*dispatchJSTouchEvent2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈/ ≈(A2ä
+écom.facebook.react.uimanager.JSTouchDispatcher.handleTouchEvent(android.view.MotionEvent, com.facebook.react.uimanager.events.EventDispatcher)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java« «()2≈
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¡ ¡(2∂
+;com.facebook.react.runtime.ReactSurfaceView?TAG@33.30:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¬ ¬(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈& ≈(.2Û
+xcom.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)?eventDispatcher@197.20:197.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java∆ ∆(2≈
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java« «(2€
+`com.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)!eventCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java«* «(/2Û
+xcom.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)?eventDispatcher@197.20:197.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java«1 «(@2∂
+;com.facebook.react.runtime.ReactSurfaceView?TAG@33.30:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java 
+  (2Œ
+Ocom.facebook.react.ReactRootView.dispatchJSTouchEvent(android.view.MotionEvent)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿ ¿(%2‡
+`com.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)!event	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿2 ¿(72˙
+xcom.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)?eventDispatcher@197.20:197.35DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈ ≈(#2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿ ¿(˜
+xcom.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)?eventDispatcher@197.20:197.35VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈ ≈(#"
+typeEventDispatcher"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>EventDispatcher <mark class="class-field">eventDispatcher</mark> = mSurface.getEventDispatcher()*eventDispatcher2Æ
+3com.facebook.react.uimanager.events.EventDispatcherTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈ ≈(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈/ ≈(A2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java≈& ≈(.Ã
+`com.facebook.react.runtime.ReactSurfaceView.dispatchJSTouchEvent(android.view.MotionEvent)!event	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿2 ¿(7"
+typeMotionEvent"
+isFinalfalse"&
+declarationStringMotionEvent event*event2ì
+android.view.MotionEventTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java¿& ¿(1ﬁ 
+ecom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ œ('"
+isFinalfalse"¡
+declarationString´<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark><mark class="modifier">void</mark> <mark class="method">dispatchJSPointerEvent</mark>(MotionEvent event<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> isCapture)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typevoid*dispatchJSPointerEvent2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊/ ◊(A2ñ
+öcom.facebook.react.uimanager.JSPointerDispatcher.handleMotionEvent(android.view.MotionEvent, com.facebook.react.uimanager.events.EventDispatcher, boolean)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaŸ Ÿ(,2«
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java– –(2∂
+;com.facebook.react.runtime.ReactSurfaceView?TAG@33.30:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java‘ ‘(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊& ◊(.2ˇ
+Écom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)?eventDispatcher@215.20:215.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÿ ÿ(2«
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaŸ Ÿ(2Ê
+kcom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)!eventCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaŸ- Ÿ(22ˇ
+Écom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)?eventDispatcher@215.20:215.35CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaŸ4 Ÿ(C2Í
+ocom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)!isCaptureCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaŸE Ÿ(N2∂
+;com.facebook.react.runtime.ReactSurfaceView?TAG@33.30:33.33CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java‹
+ ‹(2Ÿ
+Zcom.facebook.react.ReactRootView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ œ('2Î
+kcom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)!event	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ4 œ(92Ô
+ocom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)!isCapture	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœC œ(L2Ü
+Écom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)?eventDispatcher@215.20:215.35DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊ ◊(#2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ œ(É
+Écom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)?eventDispatcher@215.20:215.35VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊ ◊(#"
+typeEventDispatcher"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>EventDispatcher <mark class="class-field">eventDispatcher</mark> = mSurface.getEventDispatcher()*eventDispatcher2Æ
+3com.facebook.react.uimanager.events.EventDispatcherTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊ ◊(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊/ ◊(A2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java◊& ◊(.◊
+kcom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)!event	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ4 œ(9"
+typeMotionEvent"
+isFinalfalse"&
+declarationStringMotionEvent event*event2ì
+android.view.MotionEventTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ( œ(3Ë
+ocom.facebook.react.runtime.ReactSurfaceView.dispatchJSPointerEvent(android.view.MotionEvent, boolean)!isCapture	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœC œ(L"
+typeboolean"
+isFinalfalse"D
+declarationString/<mark class="modifier">boolean</mark> isCapture*	isCapture2Ç
+booleanTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaœ; œ(BË
+Ccom.facebook.react.runtime.ReactSurfaceView.hasActiveReactContext()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java‚ ‚(&"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">hasActiveReactContext</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*hasActiveReactContext2≥
+8com.facebook.react.runtime.ReactSurfaceImpl.isAttached()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java„ „(2º
+Acom.facebook.react.runtime.ReactHostImpl.getCurrentReactContext()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java„< „(R2µ
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java„- „(92ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java„ „(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java„$ „(,2∑
+8com.facebook.react.ReactRootView.hasActiveReactContext()OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java‚ ‚(&2â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java‚	 ‚(Î
+Dcom.facebook.react.runtime.ReactSurfaceView.hasActiveReactInstance()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÁ Á('"
+isFinalfalse"√
+declarationString≠<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">hasActiveReactInstance</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*hasActiveReactInstance2≥
+8com.facebook.react.runtime.ReactSurfaceImpl.isAttached()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaË Ë(2ª
+@com.facebook.react.runtime.ReactHostImpl.isInstanceInitialized()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaË< Ë(Q2µ
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaË- Ë(92ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaË Ë(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaË$ Ë(,2∏
+9com.facebook.react.ReactRootView.hasActiveReactInstance()OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÁ Á('2â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÁ	 Á(¸
+Dcom.facebook.react.runtime.ReactSurfaceView.getCurrentReactContext()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÏ  Ï(6"
+isFinalfalse"Ø
+declarationStringô <br><mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>ReactContext <mark class="method">getCurrentReactContext</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeReactContext*getCurrentReactContext2≥
+8com.facebook.react.runtime.ReactSurfaceImpl.isAttached()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÌ Ì(2º
+Acom.facebook.react.runtime.ReactHostImpl.getCurrentReactContext()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÓ% Ó(;2µ
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÓ Ó("2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÌ Ì(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÓ Ó(2∏
+9com.facebook.react.ReactRootView.getCurrentReactContext()OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÏ  Ï(62®
+&com.facebook.react.bridge.ReactContextRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÏ Ï(”	
+Kcom.facebook.react.runtime.ReactSurfaceView.isViewAttachedToReactInstance()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÙ Ù(."
+isFinalfalse" 
+declarationString¥<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isViewAttachedToReactInstance</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isViewAttachedToReactInstance2≥
+8com.facebook.react.runtime.ReactSurfaceImpl.isAttached()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaı ı(2ª
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaı ı(2ø
+@com.facebook.react.ReactRootView.isViewAttachedToReactInstance()OVERRIDEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÙ Ù(.2â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.javaÙ	 Ù(’
+;com.facebook.react.runtime.ReactSurfaceView?TAG@33.30:33.33VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java! !(!"
+isFinaltrue"
+typeString"∆
+declarationString∞<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = "ReactSurfaceView";"
+isStatictrue"
+accessprivate*TAG2â
+java.lang.StringTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java! !(Ÿ
+@com.facebook.react.runtime.ReactSurfaceView?mSurface@35.33:35.41VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java#! #()"
+isFinaltrue"
+typeReactSurfaceImpl"ö
+declarationStringÑ<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactSurfaceImpl <mark class="class-field">mSurface</mark>"
+isStaticfalse"
+accessprivate*mSurface2§
++com.facebook.react.runtime.ReactSurfaceImplTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java# #( ¸
+Jcom.facebook.react.runtime.ReactSurfaceView?mJSTouchDispatcher@37.34:37.52VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java%" %(4"
+isFinaltrue"
+typeJSTouchDispatcher"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">final </mark>JSTouchDispatcher <mark class="class-field">mJSTouchDispatcher</mark>"
+isStaticfalse"
+accessprivate*mJSTouchDispatcher2ß
+.com.facebook.react.uimanager.JSTouchDispatcherTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java% %(!Á
+Lcom.facebook.react.runtime.ReactSurfaceView?mJSPointerDispatcher@38.40:38.60VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java&( &(<"
+isFinalfalse"
+typeJSPointerDispatcher"Ñ
+declarationStringo<mark class="modifier">private </mark>JSPointerDispatcher <mark class="class-field">mJSPointerDispatcher</mark>"
+isStaticfalse"
+accessprivate*mJSPointerDispatcher2©
+0com.facebook.react.uimanager.JSPointerDispatcherTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java& &('‘
+Dcom.facebook.react.runtime.ReactSurfaceView?mWasMeasured@40.18:40.30VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java( (("
+isFinalfalse"
+typeboolean"∂
+declarationString†<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mWasMeasured</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mWasMeasured2Ä
+booleanTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java(
+ ((≥
+Icom.facebook.react.runtime.ReactSurfaceView?mWidthMeasureSpec@41.14:41.31VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java) )("
+isFinalfalse"
+typeint"î
+declarationString<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mWidthMeasureSpec</mark> = 0;"
+isStaticfalse"
+accessprivate*mWidthMeasureSpec2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java)
+ )(∑
+Jcom.facebook.react.runtime.ReactSurfaceView?mHeightMeasureSpec@42.14:42.32VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java* *( "
+isFinalfalse"
+typeint"ñ
+declarationStringÄ<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mHeightMeasureSpec</mark> = 0;"
+isStaticfalse"
+accessprivate*mHeightMeasureSpec2|
+intTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceView.java*
+ *(

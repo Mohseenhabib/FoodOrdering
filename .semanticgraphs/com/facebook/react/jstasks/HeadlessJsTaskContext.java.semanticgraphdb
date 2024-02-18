@@ -1,0 +1,869 @@
+
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÙ%
+0com.facebook.react.jstasks.HeadlessJsTaskContextCLASSt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java (""%
+packagecom.facebook.react.jstasks"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"s
+declarationString^<mark class="modifier">public </mark><mark class="modifier">class </mark>HeadlessJsTaskContext"
+accesspublic*HeadlessJsTaskContext2Û
+ncom.facebook.react.jstasks.HeadlessJsTaskContext.HeadlessJsTaskContext(com.facebook.react.bridge.ReactContext)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java;
+ ;(2È
+dcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java)& )(12Ç
+}com.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaC C(/2Ü
+Äcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaK K(%2∆
+Acom.facebook.react.jstasks.HeadlessJsTaskContext.hasActiveTasks()DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaP P(2
+kcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaZ Z(#2ı
+pcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javad d(%2∆
+?com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaã ã('2«
+@com.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java± ±(%2 
+Ccom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java√ √(2 
+Ccom.facebook.react.jstasks.HeadlessJsTaskContext.isTaskRunning(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaœ œ(+2÷
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java” ”("2À
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext?INSTANCES@31.72:31.81DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaH (Q2œ
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mReactContext@50.44:50.57DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java2, 2(92ﬂ
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext?mHeadlessJsTaskEventListeners@51.49:51.78DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java31 3(N2Õ
+Hcom.facebook.react.jstasks.HeadlessJsTaskContext?mLastTaskId@53.30:53.41DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java5 5()2 
+Ecom.facebook.react.jstasks.HeadlessJsTaskContext?mHandler@54.24:54.32DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java6 6( 2Œ
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java7 7()2‘
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTaskConfigs@56.51:56.69DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java83 8(E2œ
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mTaskTimeouts@57.38:57.51DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java9& 9(3¡
+ncom.facebook.react.jstasks.HeadlessJsTaskContext.HeadlessJsTaskContext(com.facebook.react.bridge.ReactContext)CONSTRUCTORt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java;
+ ;("á
+declarationStringr<mark class="modifier">private </mark><mark class="method">HeadlessJsTaskContext</mark>(ReactContext reactContext)*HeadlessJsTaskContext2™
+,java.lang.ref.WeakReference.WeakReference(T)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java< <(32»
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mReactContext@50.44:50.57CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java< <(2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.HeadlessJsTaskContext(com.facebook.react.bridge.ReactContext)!reactContextCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java<4 <(@2˛
+{com.facebook.react.jstasks.HeadlessJsTaskContext.HeadlessJsTaskContext(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java;- ;(92µ
+0com.facebook.react.jstasks.HeadlessJsTaskContextRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java;
+ ;(ã
+{com.facebook.react.jstasks.HeadlessJsTaskContext.HeadlessJsTaskContext(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java;- ;(9"
+typeReactContext"
+isFinalfalse".
+declarationStringReactContext reactContext*reactContext2§
+&com.facebook.react.bridge.ReactContextTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java;  ;(,™
+dcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java)& )(1"
+isFinalfalse"≥
+declarationStringù<mark class="modifier">public </mark><mark class="modifier">static </mark>HeadlessJsTaskContext <mark class="method">getInstance</mark>(ReactContext context)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeHeadlessJsTaskContext*getInstance2©
++java.util.WeakHashMap.get(java.lang.Object)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java*- *(02ù
+java.util.WeakHashMap.put(K, V)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java- -(2Ï
+ncom.facebook.react.jstasks.HeadlessJsTaskContext.HeadlessJsTaskContext(com.facebook.react.bridge.ReactContext)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java, ,((2ƒ
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext?INSTANCES@31.72:31.81CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java*# *(,2Í
+lcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)!contextCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java*1 *(82ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)?helper@42.26:42.32CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java+ +(2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)?helper@42.26:42.32CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java, ,(2Í
+lcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)!contextCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java,) ,(02ƒ
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext?INSTANCES@31.72:31.81CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java- -(2Í
+lcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)!contextCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java- -(2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)?helper@42.26:42.32CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java- -(#2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)?helper@42.26:42.32CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java/ /(2Ô
+lcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)!context	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java)? )(F2¸
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)?helper@42.26:42.32DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java* *( 2µ
+0com.facebook.react.jstasks.HeadlessJsTaskContextRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java) )(%–	
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)?helper@42.26:42.32VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java* *( "
+typeHeadlessJsTaskContext"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark>HeadlessJsTaskContext <mark class="class-field">helper</mark> = INSTANCES.get(context)*helper2Æ
+0com.facebook.react.jstasks.HeadlessJsTaskContextTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java* *(2©
++java.util.WeakHashMap.get(java.lang.Object)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java*- *(02ƒ
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext?INSTANCES@31.72:31.81CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java*# *(,2Í
+lcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)!contextCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java*1 *(8Ú
+lcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)!context	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java)? )(F"
+typeReactContext"
+isFinalfalse")
+declarationStringReactContext context*context2§
+&com.facebook.react.bridge.ReactContextTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java)2 )(>ª
+}com.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaC C(/"
+isFinalfalse"ﬂ
+declarationString…<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">addTaskEventListener</mark>(HeadlessJsTaskEventListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addTaskEventListener2í
+java.util.Set.add(E)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaD" D(%2œ
+Qcom.facebook.react.jstasks.HeadlessJsTaskEventListener.onHeadlessJsTaskStart(int)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaF F($2ÿ
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext?mHeadlessJsTaskEventListeners@51.49:51.78CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaD D(!2Ö
+Ücom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listenerCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaD& D(.2«
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaE  E(,2Ö
+Ücom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listenerCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaF F(2ï
+ñcom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)?activeTaskId@69.17:69.29CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaF% F(12ä
+Ücom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listener	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaCL C(T2ú
+ñcom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)?activeTaskId@69.17:69.29DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaE E(2â
+voidRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaC C(«
+ñcom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)?activeTaskId@69.17:69.29VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaE E("
+typeInteger"
+isFinalfalse"i
+declarationStringT<mark class="modifier"> </mark>Integer <mark class="class-field">activeTaskId</mark>*activeTaskId2è
+java.lang.IntegerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaE	 E(Ω
+Ücom.facebook.react.jstasks.HeadlessJsTaskContext.addTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listener	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaCL C(T"#
+typeHeadlessJsTaskEventListener"
+isFinalfalse"9
+declarationString$HeadlessJsTaskEventListener listener*listener2¥
+6com.facebook.react.jstasks.HeadlessJsTaskEventListenerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaC0 C(K◊
+Äcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaK K(%"
+isFinalfalse"∑
+declarationString°<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeTaskEventListener</mark>(HeadlessJsTaskEventListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeTaskEventListener2§
+&java.util.Set.remove(java.lang.Object)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaL" L((2ÿ
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext?mHeadlessJsTaskEventListeners@51.49:51.78CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaL L(!2à
+âcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listenerCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaL) L(12ç
+âcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listener	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaKB K(J2â
+voidRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaK	 K(¿
+âcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTaskEventListener(com.facebook.react.jstasks.HeadlessJsTaskEventListener)!listener	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaKB K(J"#
+typeHeadlessJsTaskEventListener"
+isFinalfalse"9
+declarationString$HeadlessJsTaskEventListener listener*listener2¥
+6com.facebook.react.jstasks.HeadlessJsTaskEventListenerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaK& K(A´
+Acom.facebook.react.jstasks.HeadlessJsTaskContext.hasActiveTasks()METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaP P("
+isFinalfalse"å
+declarationStringw<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">hasActiveTasks</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*hasActiveTasks2í
+java.util.Set.size()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaQ Q(2«
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaQ Q(2å
+booleanRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaP	 P(û
+kcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaZ Z(#"
+isFinalfalse"‘
+declarationStringæ<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">int</mark> <mark class="method">startTask</mark>(final HeadlessJsTaskConfig taskConfig)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*	startTask2π
+;java.util.concurrent.atomic.AtomicInteger.incrementAndGet()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[# [(22Ó
+pcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java\ \(2∆
+Hcom.facebook.react.jstasks.HeadlessJsTaskContext?mLastTaskId@53.30:53.41CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[ [("2Ù
+vcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java\ \(2¸
+~com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)?taskId@91.14:91.20CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java\ \( 2¸
+~com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)?taskId@91.14:91.20CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java] ](2˘
+vcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)!taskConfig	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaZ? Z(I2É
+~com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)?taskId@91.14:91.20DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[ [(2à
+intRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaZ Z(Ò
+~com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)?taskId@91.14:91.20VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[ [("
+typeint"
+isFinaltrue"¬
+declarationString¨<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">taskId</mark> = mLastTaskId.incrementAndGet()*taskId2Å
+intTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[
+ [(2π
+;java.util.concurrent.atomic.AtomicInteger.incrementAndGet()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[# [(22∆
+Hcom.facebook.react.jstasks.HeadlessJsTaskContext?mLastTaskId@53.30:53.41CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java[ [("ö
+vcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig)!taskConfig	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaZ? Z(I"
+typeHeadlessJsTaskConfig"
+isFinaltrue"4
+declarationStringHeadlessJsTaskConfig taskConfig*
+taskConfig2≠
+/com.facebook.react.jstasks.HeadlessJsTaskConfigTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaZ* Z(>øS
+pcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javad d(%"
+isFinalfalse"º
+declarationString¶<mark class="modifier">private </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">startTask</mark>(final HeadlessJsTaskConfig taskConfig<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*	startTask2∑
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javae e(!2õ
+java.lang.ref.Reference.get()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javah h(2∏
+:com.facebook.react.bridge.ReactContext.getLifecycleState()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaj j(&2≈
+Gcom.facebook.react.jstasks.HeadlessJsTaskConfig.isAllowedInForeground()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javak k(,2∫
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTaskKey()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javan n(%2í
+java.util.Set.add(E)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaq q(2ï
+java.util.Map.put(K, V)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javar r(2Ω
+?com.facebook.react.bridge.ReactContext.hasActiveReactInstance()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javas s(+2Å
+Çcom.facebook.react.modules.appregistry.AppRegistry.startHeadlessTask(int, java.lang.String, com.facebook.react.bridge.WritableMap)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javav v(2ƒ
+Fcom.facebook.react.bridge.ReactContext.getJSModule(java.lang.Class<T>)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javau u(2∫
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTaskKey()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javav0 v(:2∑
+9com.facebook.react.jstasks.HeadlessJsTaskConfig.getData()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javavI v(P2Ë
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javax x(/2∫
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTimeout()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java| |(2Õ
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java} }(2∫
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTimeout()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java}- }(72—
+Qcom.facebook.react.jstasks.HeadlessJsTaskEventListener.onHeadlessJsTaskStart(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÄ Ä($2≈
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javal l(%2Û
+ucom.facebook.react.jstasks.HeadlessJsTaskConfig.HeadlessJsTaskConfig(com.facebook.react.jstasks.HeadlessJsTaskConfig)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javar' r(;2ª
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaz z(2»
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mReactContext@50.44:50.57CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javah h(2ä
+ãcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?reactContext@102.17:102.29CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaj j(2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javak k(2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javan n(2«
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaq q(2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskIdCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaq q(2Õ
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTaskConfigs@56.51:56.69CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javar r(2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskIdCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javar r(!2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javar< r(F2ä
+ãcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?reactContext@102.17:102.29CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javas s(2ä
+ãcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?reactContext@102.17:102.29CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javat t(2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskIdCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javav v(#2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javav% v(/2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javav> v(H2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java| |(2ı
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskIdCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java} }( 2˘
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfigCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java}" }(,2ÿ
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext?mHeadlessJsTaskEventListeners@51.49:51.78CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java0 (M2à
+ácom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?listener@127.37:127.45CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÄ Ä(2˜
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÄ% Ä(+2˛
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfig	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javadA d(K2˙
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskId	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javadQ d(W2ë
+ãcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?reactContext@102.17:102.29DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaf f(2ç
+ácom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?listener@127.37:127.45DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java% (-2â
+voidRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javad d(‡
+ãcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?reactContext@102.17:102.29VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaf f("
+typeReactContext"
+isFinalfalse"â
+declarationStringÛ<mark class="modifier"> </mark>ReactContext <mark class="class-field">reactContext</mark> = Assertions.assertNotNull(mReactContext.get()<mark class="modifier">,</mark> "Tried to start a task on a react context that has already been destroyed")*reactContext2§
+&com.facebook.react.bridge.ReactContextTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaf f(2õ
+java.lang.ref.Reference.get()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javah h(2»
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mReactContext@50.44:50.57CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javah h(˝
+ácom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)?listener@127.37:127.45VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java% (-"#
+typeHeadlessJsTaskEventListener"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>HeadlessJsTaskEventListener <mark class="class-field">listener</mark>*listener2¥
+6com.facebook.react.jstasks.HeadlessJsTaskEventListenerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java	 ($ü
+{com.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskConfig	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javadA d(K"
+typeHeadlessJsTaskConfig"
+isFinaltrue"4
+declarationStringHeadlessJsTaskConfig taskConfig*
+taskConfig2≠
+/com.facebook.react.jstasks.HeadlessJsTaskConfigTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javad, d(@‰
+wcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)!taskId	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javadQ d(W"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2Å
+intTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javadM d(Pö@
+?com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaã ã('"
+isFinalfalse"·
+declarationStringÀ<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">boolean</mark> <mark class="method">retryTask</mark>(final <mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*	retryTask2£
+#java.util.Map.get(java.lang.Object)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaåE å(H2¿
+@com.facebook.react.jstasks.HeadlessJsTaskConfig.getRetryPolicy()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaëC ë(Q2ø
+?com.facebook.react.jstasks.HeadlessJsTaskRetryPolicy.canRetry()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaí í(2√
+Ccom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javañ ñ(2º
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTaskKey()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaô ô('2π
+9com.facebook.react.jstasks.HeadlessJsTaskConfig.getData()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaö ö($2º
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTimeout()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaõ õ('2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskConfig.isAllowedInForeground()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaú ú(22Ω
+=com.facebook.react.jstasks.HeadlessJsTaskRetryPolicy.update()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaù ù(2
+pcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java£ £(2Œ
+Ncom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable, long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaß ß(2ø
+?com.facebook.react.jstasks.HeadlessJsTaskRetryPolicy.getDelay()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaß9 ß(A2√
+¬com.facebook.react.jstasks.HeadlessJsTaskConfig.HeadlessJsTaskConfig(java.lang.String, com.facebook.react.bridge.WritableMap, long, boolean, com.facebook.react.jstasks.HeadlessJsTaskRetryPolicy)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaò ò( 2ë
+êcom.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-9b434f7d-27e1-4113-8145-a95fe3d15467.Anonymous-9b434f7d-27e1-4113-8145-a95fe3d15467()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java† †(2œ
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTaskConfigs@56.51:56.69CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaå2 å(D2∆
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaåI å(O2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaé é(2∆
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaè@ è(F2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaë2 ë(B2Ÿ
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryPolicy@145.36:145.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaí	 í(2∆
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javañ ñ(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaô ô(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaö ö(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaõ õ(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaú ú(2Ÿ
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryPolicy@145.36:145.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaù ù(2ÿ
+Xcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?taskConfig@151.31:151.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java£ £( 2∆
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java£" £((2⁄
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryAttempt@159.19:159.31CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaß ß(+2Ÿ
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryPolicy@145.36:145.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaß- ß(82À
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaã2 ã(82Â
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaå å(/2‡
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryPolicy@145.36:145.47DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaë$ ë(/2ﬂ
+Xcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?taskConfig@151.31:151.41DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaó ó()2·
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryAttempt@159.19:159.31DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaü ü(2é
+booleanRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaã ã(÷	
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaå å(/"
+typeHeadlessJsTaskConfig"
+isFinaltrue"¿
+declarationString™<mark class="modifier"> </mark><mark class="modifier">final </mark>HeadlessJsTaskConfig <mark class="class-field">sourceTaskConfig</mark> = mActiveTaskConfigs.get(taskId)*sourceTaskConfig2Ø
+/com.facebook.react.jstasks.HeadlessJsTaskConfigTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaå
+ å(2£
+#java.util.Map.get(java.lang.Object)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaåE å(H2œ
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTaskConfigs@56.51:56.69CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaå2 å(D2∆
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaåI å(Oº
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryPolicy@145.36:145.47VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaë$ ë(/"!
+typeHeadlessJsTaskRetryPolicy"
+isFinaltrue"√
+declarationString≠<mark class="modifier"> </mark><mark class="modifier">final </mark>HeadlessJsTaskRetryPolicy <mark class="class-field">retryPolicy</mark> = sourceTaskConfig.getRetryPolicy()*retryPolicy2¥
+4com.facebook.react.jstasks.HeadlessJsTaskRetryPolicyTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaë
+ ë(#2¿
+@com.facebook.react.jstasks.HeadlessJsTaskConfig.getRetryPolicy()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaëC ë(Q2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaë2 ë(B˘
+Xcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?taskConfig@151.31:151.41VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaó ó()"
+typeHeadlessJsTaskConfig"
+isFinaltrue"∆
+declarationString∞<mark class="modifier"> </mark><mark class="modifier">final </mark>HeadlessJsTaskConfig <mark class="class-field">taskConfig</mark> = new HeadlessJsTaskConfig(sourceTaskConfig.getTaskKey()<mark class="modifier">,</mark> sourceTaskConfig.getData()<mark class="modifier">,</mark> sourceTaskConfig.getTimeout()<mark class="modifier">,</mark> sourceTaskConfig.isAllowedInForeground()<mark class="modifier">,</mark> retryPolicy.update())*
+taskConfig2Ø
+/com.facebook.react.jstasks.HeadlessJsTaskConfigTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaó
+ ó(2º
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTaskKey()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaô ô('2π
+9com.facebook.react.jstasks.HeadlessJsTaskConfig.getData()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaö ö($2º
+<com.facebook.react.jstasks.HeadlessJsTaskConfig.getTimeout()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaõ õ('2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskConfig.isAllowedInForeground()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaú ú(22Ω
+=com.facebook.react.jstasks.HeadlessJsTaskRetryPolicy.update()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaù ù(2√
+¬com.facebook.react.jstasks.HeadlessJsTaskConfig.HeadlessJsTaskConfig(java.lang.String, com.facebook.react.bridge.WritableMap, long, boolean, com.facebook.react.jstasks.HeadlessJsTaskRetryPolicy)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaò ò( 2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaô ô(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaö ö(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaõ õ(2ﬁ
+^com.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?sourceTaskConfig@140.31:140.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaú ú(2Ÿ
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryPolicy@145.36:145.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaù ù(Â
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?retryAttempt@159.19:159.31VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaü ü("
+typeRunnable"
+isFinaltrue"ñ
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">final </mark>Runnable <mark class="class-field">retryAttempt</mark> = new Runnable() {
+
+    @Override
+    public <mark class="modifier">void</mark> run() {
+        startTask(taskConfig, taskId);
+    }
+}*retryAttempt2í
+java.lang.RunnableTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaü
+ ü(2
+pcom.facebook.react.jstasks.HeadlessJsTaskContext.startTask(com.facebook.react.jstasks.HeadlessJsTaskConfig, int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java£ £(2ë
+êcom.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-b6daf528-ff6b-4c00-9cc6-cadb589278f0.Anonymous-b6daf528-ff6b-4c00-9cc6-cadb589278f0()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java† †(2ÿ
+Xcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)?taskConfig@151.31:151.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java£ £( 2∆
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java£" £((∂
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext.retryTask(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaã2 ã(8"
+typeint"
+isFinaltrue"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaã. ã(1Ô"
+@com.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java± ±(%"
+isFinalfalse"ﬂ
+declarationString…<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">finishTask</mark>(final <mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+finishTask2¶
+&java.util.Set.remove(java.lang.Object)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java≥ ≥(2¶
+&java.util.Map.remove(java.lang.Object)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaµ µ(!2√
+Ccom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java∑ ∑(2»
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java∏ ∏(2“
+Rcom.facebook.react.jstasks.HeadlessJsTaskEventListener.onHeadlessJsTaskFinish(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaΩ Ω(-2ë
+êcom.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-05548342-013a-417b-89ee-29adb13a6007.Anonymous-05548342-013a-417b-89ee-29adb13a6007()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaπ π(2…
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java≥ ≥(2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java≥ ≥("2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java≥T ≥(Z2œ
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTaskConfigs@56.51:56.69CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaµ µ(2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaµ" µ((2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java∂> ∂(D2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java∑ ∑(2⁄
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext?mHeadlessJsTaskEventListeners@51.49:51.78CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaº8 º(U2¸
+|com.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-1361d24f-3f4d-424e-a1c3-9b3e4f8c3ac6.run()?listener@188.45:188.53CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaΩ Ω(2«
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaΩ. Ω(42Ã
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java±0 ±(62É
+|com.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-83c13338-c7a1-47c1-a220-6ac03ec998f6.run()?listener@188.45:188.53DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaº- º(52ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java± ±(ı
+|com.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-e1ba5f5e-6065-4108-afae-3a72fb1a94ff.run()?listener@188.45:188.53VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaº- º(5"#
+typeHeadlessJsTaskEventListener"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>HeadlessJsTaskEventListener <mark class="class-field">listener</mark>*listener2∂
+6com.facebook.react.jstasks.HeadlessJsTaskEventListenerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaº º(,∑
+Gcom.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java±0 ±(6"
+typeint"
+isFinaltrue"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java±, ±(/€
+Ccom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java√ √("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">removeTimeout</mark>(<mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*removeTimeout2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mTaskTimeouts@57.38:57.51CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ ƒ($2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ) ƒ(/2Ÿ
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)?timeout@196.13:196.20CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java≈ ≈(2≈
+Ecom.facebook.react.jstasks.HeadlessJsTaskContext?mHandler@54.24:54.32CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java∆ ∆(2Ÿ
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)?timeout@196.13:196.20CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java∆ ∆(&2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mTaskTimeouts@57.38:57.51CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java« «(2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java« «(!2œ
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java√! √('2‡
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)?timeout@196.13:196.20DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ ƒ(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java√
+ √(Ω
+Ycom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)?timeout@196.13:196.20VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ ƒ("
+typeRunnable"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Runnable <mark class="class-field">timeout</mark> = mTaskTimeouts.get(taskId)*timeout2í
+java.lang.RunnableTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ ƒ(2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mTaskTimeouts@57.38:57.51CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ ƒ($2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaƒ) ƒ(/ª
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.removeTimeout(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java√! √('"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java√ √( ¿
+Ccom.facebook.react.jstasks.HeadlessJsTaskContext.isTaskRunning(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaœ œ(+"
+isFinalfalse"Â
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">boolean</mark> <mark class="method">isTaskRunning</mark>(final <mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isTaskRunning2®
+(java.util.Set.contains(java.lang.Object)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java– –( 2…
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java– –(2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.isTaskRunning(int)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java–! –('2œ
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.isTaskRunning(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaœ6 œ(<2é
+booleanRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaœ œ(∫
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext.isTaskRunning(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaœ6 œ(<"
+typeint"
+isFinaltrue"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaœ2 œ(5Ô
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java” ”(""
+isFinalfalse"¶
+declarationStringê<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">scheduleTaskTimeout</mark>(final <mark class="modifier">int</mark> taskId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> timeout)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*scheduleTaskTimeout2¿
+@com.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÿ ÿ(2ë
+êcom.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-0db86c4e-530f-420f-b409-dfc5c289234f.Anonymous-0db86c4e-530f-420f-b409-dfc5c289234f()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java’ ’(2÷
+Vcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÿ ÿ(2 
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mTaskTimeouts@57.38:57.51CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java€ €(2÷
+Vcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java€ €(2Ê
+fcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)?runnable@212.13:212.21CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java€! €()2≈
+Ecom.facebook.react.jstasks.HeadlessJsTaskContext?mHandler@54.24:54.32CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java‹ ‹(2Ê
+fcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)?runnable@212.13:212.21CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java‹ ‹(!2◊
+Wcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!timeoutCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java‹# ‹(*2€
+Vcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”- ”(32‹
+Wcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!timeout	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”: ”(A2Ì
+fcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)?runnable@212.13:212.21DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java‘ ‘(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”
+ ”(√
+
+fcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)?runnable@212.13:212.21VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java‘ ‘("
+typeRunnable"
+isFinalfalse"„
+declarationStringÕ<mark class="modifier"> </mark>Runnable <mark class="class-field">runnable</mark> = new Runnable() {
+
+    @Override
+    public <mark class="modifier">void</mark> run() {
+        finishTask(taskId);
+    }
+}*runnable2í
+java.lang.RunnableTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java‘ ‘(2¿
+@com.facebook.react.jstasks.HeadlessJsTaskContext.finishTask(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÿ ÿ(2ë
+êcom.facebook.react.jstasks.HeadlessJsTaskContext.Anonymous-9f0f5fb0-0d3b-4d0f-a0a6-3e8433f3edc9.Anonymous-9f0f5fb0-0d3b-4d0f-a0a6-3e8433f3edc9()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java’ ’(2÷
+Vcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!taskIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaÿ ÿ(∆
+Vcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”- ”(3"
+typeint"
+isFinaltrue"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”) ”(,Õ
+Wcom.facebook.react.jstasks.HeadlessJsTaskContext.scheduleTaskTimeout(int, long)!timeout	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”: ”(A"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> timeout*timeout2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java”5 ”(9ﬁ	
+Fcom.facebook.react.jstasks.HeadlessJsTaskContext?INSTANCES@31.72:31.81VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.javaH (Q"
+isFinaltrue"8
+type0WeakHashMap<ReactContext, HeadlessJsTaskContext>"˜
+declarationString·<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>WeakHashMap<ReactContext, HeadlessJsTaskContext> <mark class="class-field">INSTANCES</mark> = new WeakHashMap<>();"
+isStatictrue"
+accessprivate*	INSTANCES2ì
+java.util.WeakHashMapTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java ("2∑
+0com.facebook.react.jstasks.HeadlessJsTaskContextTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java# (/2≠
+&com.facebook.react.bridge.ReactContextTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java1 (F2°
+#java.util.WeakHashMap.WeakHashMap()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java 
+  (≠
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mReactContext@50.44:50.57VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java2, 2(9"
+isFinaltrue"#
+typeWeakReference<ReactContext>"™
+declarationStringî<mark class="modifier">private </mark><mark class="modifier">final </mark>WeakReference<ReactContext> <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2ô
+java.lang.ref.WeakReferenceTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java2 2(2≠
+&com.facebook.react.bridge.ReactContextTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java2 2(*«
+Zcom.facebook.react.jstasks.HeadlessJsTaskContext?mHeadlessJsTaskEventListeners@51.49:51.78VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java31 3(N"
+isFinaltrue"(
+type Set<HeadlessJsTaskEventListener>"ﬁ
+declarationString»<mark class="modifier">private </mark><mark class="modifier">final </mark>Set<HeadlessJsTaskEventListener> <mark class="class-field">mHeadlessJsTaskEventListeners</mark> = new CopyOnWriteArraySet<>();"
+isStaticfalse"
+accessprivate*mHeadlessJsTaskEventListeners2ã
+java.util.SetTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java3 3(2Ω
+6com.facebook.react.jstasks.HeadlessJsTaskEventListenerTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java3 3(/2º
+>java.util.concurrent.CopyOnWriteArraySet.CopyOnWriteArraySet()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java4
+ 4(æ
+Hcom.facebook.react.jstasks.HeadlessJsTaskContext?mLastTaskId@53.30:53.41VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java5 5()"
+isFinaltrue"
+typeAtomicInteger"≤
+declarationStringú<mark class="modifier">private </mark><mark class="modifier">final </mark>AtomicInteger <mark class="class-field">mLastTaskId</mark> = new AtomicInteger(0);"
+isStaticfalse"
+accessprivate*mLastTaskId2ß
+)java.util.concurrent.atomic.AtomicIntegerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java5 5(2∫
+<java.util.concurrent.atomic.AtomicInteger.AtomicInteger(int)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java50 5(=Œ
+Ecom.facebook.react.jstasks.HeadlessJsTaskContext?mHandler@54.24:54.32VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java6 6( "
+isFinaltrue"
+typeHandler"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">final </mark>Handler <mark class="class-field">mHandler</mark> = new Handler();"
+isStaticfalse"
+accessprivate*mHandler2ê
+android.os.HandlerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java6 6(«
+Icom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTasks@55.29:55.41VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java7 7()"
+isFinaltrue"
+typeSet<Integer>"π
+declarationString£<mark class="modifier">private </mark><mark class="modifier">final </mark>Set<Integer> <mark class="class-field">mActiveTasks</mark> = new CopyOnWriteArraySet<>();"
+isStaticfalse"
+accessprivate*mActiveTasks2ã
+java.util.SetTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java7 7(2ò
+java.lang.IntegerTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java7 7(2º
+>java.util.concurrent.CopyOnWriteArraySet.CopyOnWriteArraySet()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java70 7(E∏	
+Ocom.facebook.react.jstasks.HeadlessJsTaskContext?mActiveTaskConfigs@56.51:56.69VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java83 8(E"
+isFinaltrue"*
+type"Map<Integer, HeadlessJsTaskConfig>"”
+declarationStringΩ<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<Integer, HeadlessJsTaskConfig> <mark class="class-field">mActiveTaskConfigs</mark> = new ConcurrentHashMap<>();"
+isStaticfalse"
+accessprivate*mActiveTaskConfigs2ã
+java.util.MapTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java8 8(2ò
+java.lang.IntegerTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java8 8(2∂
+/com.facebook.react.jstasks.HeadlessJsTaskConfigTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java8 8(12∏
+:java.util.concurrent.ConcurrentHashMap.ConcurrentHashMap()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java8L 8(_°
+Jcom.facebook.react.jstasks.HeadlessJsTaskContext?mTaskTimeouts@57.38:57.51VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java9& 9(3"
+isFinaltrue"
+typeSparseArray<Runnable>"ª
+declarationString•<mark class="modifier">private </mark><mark class="modifier">final </mark>SparseArray<Runnable> <mark class="class-field">mTaskTimeouts</mark> = new SparseArray<>();"
+isStaticfalse"
+accessprivate*mTaskTimeouts2ñ
+android.util.SparseArrayTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java9 9(2ô
+java.lang.RunnableTYPE_ARGUMENTt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/jstasks/HeadlessJsTaskContext.java9 9($

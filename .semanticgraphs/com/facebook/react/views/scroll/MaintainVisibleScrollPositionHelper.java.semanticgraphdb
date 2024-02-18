@@ -1,0 +1,841 @@
+
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java¨0
+Ccom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelperCLASSá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java   (0"*
+packagecom.facebook.react.views.scroll"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¿
+declarationString™<mark class="modifier">public </mark><mark class="modifier">class </mark>MaintainVisibleScrollPositionHelper<mark class="modifier"><br>implements </mark>UIManagerListener"
+accesspublic*#MaintainVisibleScrollPositionHelper2ñ
+}com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<	 <(,2≥
+ôcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.setConfig(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA A(2‰
+Kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.start()DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaF F(2„
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.stop()DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaO O(2Û
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPosition()DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java[ [("2˚
+bcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javac c(+2Ô
+Tcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getContentView()DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaâ# â(12Û
+Xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getUIManagerModule()DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaç ç(&2Ú
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaî î( 2ú
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willDispatchViewUpdates(com.facebook.react.bridge.UIManager)DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ Æ(%2í
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willMountItems(com.facebook.react.bridge.UIManager)DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ π(2ë
+vcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didMountItems(com.facebook.react.bridge.UIManager)DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ æ(2ô
+~com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didDispatchMountItems(com.facebook.react.bridge.UIManager)DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√ √(#2ô
+~com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didScheduleMountItems(com.facebook.react.bridge.UIManager)DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java» »(#2Ù
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java" "('2Ù
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java# #(#2
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java$ $("2˙
+acom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mFirstVisibleView@37.40:37.57DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java%( %(92ˇ
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java& &(/2Û
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mListening@39.18:39.28DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java' '(2ø
++com.facebook.react.bridge.UIManagerListenerEXTENDá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java! !( 2Î
+Ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ScrollViewTTYPE_PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java 1  (<ˇ
+}com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)CONSTRUCTORá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<	 <(,"Ä
+declarationStringÍ<mark class="modifier">public </mark><mark class="method">MaintainVisibleScrollPositionHelper</mark>(ScrollViewT scrollView<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> horizontal)*#MaintainVisibleScrollPositionHelper2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java= =(2õ
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)!scrollViewCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java= =(2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java> >(2õ
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)!horizontalCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java> >(2†
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)!scrollView	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<9 <(C2†
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)!horizontal	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<M <(W2‹
+Ccom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelperRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<	 <(,‰
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)!scrollView	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<9 <(C"
+typeScrollViewT"
+isFinalfalse"+
+declarationStringScrollViewT scrollView*
+scrollView2·
+Ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ScrollViewTTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<- <(8≤
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.MaintainVisibleScrollPositionHelper(ScrollViewT, boolean)!horizontal	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<M <(W"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> horizontal*
+horizontal2ô
+booleanTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java<E <(L…
+ôcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.setConfig(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)METHODá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA A("
+isFinalfalse"∂
+declarationString†<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setConfig</mark>(<mark class="annotation">@Nullable</mark> Config config)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setConfig2È
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaB B(2≥
+†com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.setConfig(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)!configCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaB B(2∏
+†com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.setConfig(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)!config	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA) A(/2ù
+voidRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA	 A(è
+†com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.setConfig(com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config)!config	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA) A(/"
+typeConfig"
+isFinalfalse"L
+declarationString7<mark class="annotation">@Nullable</mark> Config config*config2‹
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ConfigTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA" A((®
+Kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.start()METHODá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaF F("
+isFinalfalse"˚
+declarationStringÂ<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">start</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*start2¸
+jcom.facebook.react.bridge.UIManager.addUIManagerEventListener(com.facebook.react.bridge.UIManagerListener)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaK K(22Í
+Xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getUIManagerModule()CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaK K(2Ï
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mListening@39.18:39.28CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaG G(2Ï
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mListening@39.18:39.28CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaJ J(2ù
+voidRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaF	 F(®
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.stop()METHODá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaO O("
+isFinalfalse"˙
+declarationString‰<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">stop</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*stop2ˇ
+mcom.facebook.react.bridge.UIManager.removeUIManagerEventListener(com.facebook.react.bridge.UIManagerListener)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaT T(52Í
+Xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getUIManagerModule()CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaT T(2Ï
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mListening@39.18:39.28CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaP	 P(2Ï
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mListening@39.18:39.28CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaS S(2ù
+voidRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaO	 O(Ú	
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPosition()METHODá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java[ [(""
+isFinalfalse"ä
+declarationStringÙ<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">updateScrollPosition</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*updateScrollPosition2Ù
+bcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java` `( 2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java]" ](-2ù
+voidRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java[	 [(àh
+bcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()METHODá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javac c(+"
+isFinalfalse"ì
+declarationString˝<mark class="modifier">private </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">updateScrollPositionInternal</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*updateScrollPositionInternal2Ø
+java.lang.ref.Reference.get()CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah. h(12È
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javad d(2Û
+acom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mFirstVisibleView@37.40:37.57CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javad d(,2¯
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javad8 d(N2Û
+acom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mFirstVisibleView@37.40:37.57CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah h(-2ì
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?firstVisibleView@104.9:104.25CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javai i(2ì
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?firstVisibleView@104.9:104.25CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javan n(2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javan  n((2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javap p(2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq q(2¯
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq# q(92â
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaX@113.10:113.16CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javar
+ r(2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javas s(!2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javat t(2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollX@115.12:115.19CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javat t($2â
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaX@113.10:113.16CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javat' t(-2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javat/ t(:2¯
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javau u(2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javau! u()2È
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javav v(2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollX@115.12:115.19CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaw w(2È
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaw w(!2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javax
+ x(2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javax- x(82ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java| |(2¯
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java|" |(82â
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaY@124.10:124.16CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java}
+ }(2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java~ ~(!2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java (2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java ((2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollY@126.12:126.19CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java7 (>2â
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaY@124.10:124.16CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaA (G2˙
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÄ Ä(2å
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÄ! Ä()2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÅ Å(2å
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollY@126.12:126.19CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÇ Ç(2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÇ Ç(!2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÉ
+ É(2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÉ* É(52Å
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javav v(,2Å
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaw" w(:2É
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÅ Å(,2É
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÇ" Ç(:2ö
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?firstVisibleView@104.9:104.25DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah	 h(2ë
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javam	 m(2ê
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaX@113.10:113.16DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq
+ q(2ë
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollX@115.12:115.19DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javas s(2ê
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaY@124.10:124.16DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java|
+ |(2ë
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollY@126.12:126.19DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java~ ~(2ù
+voidRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javac
+ c(û
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?firstVisibleView@104.9:104.25VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah	 h("
+typeView"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark>View <mark class="class-field">firstVisibleView</mark> = mFirstVisibleView.get()*firstVisibleView2£
+android.view.ViewTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah h(2Ø
+java.lang.ref.Reference.get()CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah. h(12Û
+acom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mFirstVisibleView@37.40:37.57CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javah h(-”
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javam	 m("
+typeRect"
+isFinalfalse"o
+declarationStringZ<mark class="modifier"> </mark>Rect <mark class="class-field">newFrame</mark> = new Rect()*newFrame2ß
+android.graphics.RectTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javam m(É	
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaX@113.10:113.16VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq
+ q("
+typeint"
+isFinalfalse"¨
+declarationStringñ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">deltaX</mark> = newFrame.left - mPrevFirstVisibleFrame.left*deltaX2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq q(	2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq q(2¯
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaq# q(9€
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollX@115.12:115.19VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javas s("
+typeint"
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">scrollX</mark> = mScrollView.getScrollX()*scrollX2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javas s(2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javas s(!Å	
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?deltaY@124.10:124.16VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java|
+ |("
+typeint"
+isFinalfalse"™
+declarationStringî<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">deltaY</mark> = newFrame.top - mPrevFirstVisibleFrame.top*deltaY2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java| |(	2ä
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?newFrame@109.9:109.17CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java| |(2¯
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java|" |(8€
+xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()?scrollY@126.12:126.19VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java~ ~("
+typeint"
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">scrollY</mark> = mScrollView.getScrollY()*scrollY2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java~ ~(2Ì
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java~ ~(!Ω
+Tcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getContentView()METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaâ# â(1"
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Nullable</mark> <br><mark class="modifier">private </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; ReactViewGroup <mark class="method">getContentView</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeReactViewGroup*getContentView2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaä ä('2«
+,com.facebook.react.views.view.ReactViewGroupRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaâ â("˙	
+Xcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getUIManagerModule()METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaç ç(&"
+isFinalfalse"
+declarationString⁄<mark class="modifier">private </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; UIManager <mark class="method">getUIManagerModule</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+type	UIManager*getUIManagerModule2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaê ê(&2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaë& ë(12æ
+#com.facebook.react.bridge.UIManagerRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaç
+ ç(√G
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaî î( "
+isFinalfalse"à
+declarationStringÚ<mark class="modifier">private </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">computeTargetView</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*computeTargetView2Ë
+Tcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getContentView()CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaò! ò(/2¿
+,java.lang.ref.WeakReference.WeakReference(T)CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java¢  ¢(/2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaï ï(2Ö
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaô ô(2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù ù(#2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù& ù(12Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaùA ù(L2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû û(2˚
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû- û(.2Ö
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû1 û(<2˚
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaûN û(O2Ö
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü ü(2˚
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü* ü(+2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java† †("2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java†% †(*2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java†4 †(92Ç
+ncom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?position@160.12:160.20CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java°
+ °(2Ü
+rcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?currentScroll@157.8:157.21CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java° °("2˚
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java°& °('2Ö
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java°+ °(62ı
+acom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mFirstVisibleView@37.40:37.57CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java¢ ¢(2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java¢0 ¢(52ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java§ §(2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?frame@163.13:163.18CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java§ §(2˙
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java• •(2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?frame@163.13:163.18CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java•! •(&2˝
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?minIndexForVisible@42.21:42.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû û(+2å
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaò ò(2ç
+rcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?currentScroll@157.8:157.21DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù ù(2Ç
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû û(2Ü
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü ü(2â
+ncom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?position@160.12:160.20DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java† †(2Ü
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?frame@163.13:163.18DECLARATIONâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java£ £(2ü
+voidRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaî
+ î(Û
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30VARIABLEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaò ò("
+typeReactViewGroup"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark>ReactViewGroup <mark class="class-field">contentView</mark> = getContentView()*contentView2¿
+,com.facebook.react.views.view.ReactViewGroupTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaò ò(2Ë
+Tcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.getContentView()CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaò! ò(/Ù
+
+rcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?currentScroll@157.8:157.21VARIABLEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù ù("
+typeint"
+isFinalfalse"…
+declarationString≥<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">currentScroll</mark> = mHorizontal ? mScrollView.getScrollX() : mScrollView.getScrollY()*currentScroll2ó
+intTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù ù(2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù ù(#2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaù& ù(12Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaùA ù(L¬
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14VARIABLEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû û("
+typeint"
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = mConfig.minIndexForVisible*i2ó
+intTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû	 û(2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû û(2˝
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?minIndexForVisible@42.21:42.39CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaû û(+’
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16VARIABLEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü ü("
+typeView"
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark>View <mark class="class-field">child</mark> = contentView.getChildAt(i)*child2•
+android.view.ViewTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü ü(
+2Ö
+qcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?contentView@152.19:152.30CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü ü(2˚
+gcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?i@158.13:158.14CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaü* ü(+Ù
+
+ncom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?position@160.12:160.20VARIABLEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java† †("
+typefloat"
+isFinalfalse"Æ
+declarationStringò<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">position</mark> = mHorizontal ? child.getX() : child.getY()*position2ô
+floatTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java† †(2Ô
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java† †("2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java†% †(*2ˇ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?child@159.11:159.16CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java†4 †(9ƒ
+kcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()?frame@163.13:163.18VARIABLEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java£ £("
+typeRect"
+isFinalfalse"l
+declarationStringW<mark class="modifier"> </mark>Rect <mark class="class-field">frame</mark> = new Rect()*frame2©
+android.graphics.RectTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java£ £(µ
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willDispatchViewUpdates(com.facebook.react.bridge.UIManager)METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ Æ(%"
+isFinalfalse"‘
+declarationStringæ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">willDispatchViewUpdates</mark>(final UIManager uiManager)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*willDispatchViewUpdates2‹
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaØ Ø(2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java≥ ≥(2∏
+£com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Anonymous-45e21278-4b65-4fc3-b6da-d77783b1f246.Anonymous-45e21278-4b65-4fc3-b6da-d77783b1f246()CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java∞ ∞(2Ä
+hcom.facebook.react.bridge.UIManagerListener.willDispatchViewUpdates(com.facebook.react.bridge.UIManager)OVERRIDEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ Æ(%2§
+äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willDispatchViewUpdates(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ6 Æ(?2ü
+voidRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ	 Æ(∑
+äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willDispatchViewUpdates(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ6 Æ(?"
+type	UIManager"
+isFinaltrue"(
+declarationStringUIManager uiManager*	uiManager2∑
+#com.facebook.react.bridge.UIManagerTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaÆ, Æ(5Á
+wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willMountItems(com.facebook.react.bridge.UIManager)METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ π("
+isFinalfalse"≈
+declarationStringØ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">willMountItems</mark>(UIManager uiManager)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*willMountItems2Î
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.computeTargetView()CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java∫ ∫(2˜
+_com.facebook.react.bridge.UIManagerListener.willMountItems(com.facebook.react.bridge.UIManager)OVERRIDEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ π(2õ
+Åcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ' π(02ü
+voidRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ	 π(Ø
+Åcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.willMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ' π(0"
+type	UIManager"
+isFinalfalse"(
+declarationStringUIManager uiManager*	uiManager2∑
+#com.facebook.react.bridge.UIManagerTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaπ π(&Ì
+vcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didMountItems(com.facebook.react.bridge.UIManager)METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ æ("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">didMountItems</mark>(UIManager uiManager)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*didMountItems2ˆ
+bcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.updateScrollPositionInternal()CALLâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaø ø( 2ˆ
+^com.facebook.react.bridge.UIManagerListener.didMountItems(com.facebook.react.bridge.UIManager)OVERRIDEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ æ(2ö
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ& æ(/2ü
+voidRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ	 æ(Æ
+Äcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ& æ(/"
+type	UIManager"
+isFinalfalse"(
+declarationStringUIManager uiManager*	uiManager2∑
+#com.facebook.react.bridge.UIManagerTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.javaæ æ(%ú
+~com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didDispatchMountItems(com.facebook.react.bridge.UIManager)METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√ √(#"
+isFinalfalse"Ã
+declarationString∂<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">didDispatchMountItems</mark>(UIManager uiManager)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*didDispatchMountItems2˛
+fcom.facebook.react.bridge.UIManagerListener.didDispatchMountItems(com.facebook.react.bridge.UIManager)OVERRIDEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√ √(#2¢
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didDispatchMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√. √(72ü
+voidRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√	 √(∂
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didDispatchMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√. √(7"
+type	UIManager"
+isFinalfalse"(
+declarationStringUIManager uiManager*	uiManager2∑
+#com.facebook.react.bridge.UIManagerTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java√$ √(-ú
+~com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didScheduleMountItems(com.facebook.react.bridge.UIManager)METHODâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java» »(#"
+isFinalfalse"Ã
+declarationString∂<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">didScheduleMountItems</mark>(UIManager uiManager)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*didScheduleMountItems2˛
+fcom.facebook.react.bridge.UIManagerListener.didScheduleMountItems(com.facebook.react.bridge.UIManager)OVERRIDEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java» »(#2¢
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didScheduleMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java». »(72ü
+voidRETURN_TYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java»	 »(∂
+àcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.didScheduleMountItems(com.facebook.react.bridge.UIManager)!uiManager	PARAMETERâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java». »(7"
+type	UIManager"
+isFinalfalse"(
+declarationStringUIManager uiManager*	uiManager2∑
+#com.facebook.react.bridge.UIManagerTYPEâ
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java»$ »(-∆
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mScrollView@34.28:34.39VALUEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java" "('"
+isFinaltrue"
+typeScrollViewT"ò
+declarationStringÇ<mark class="modifier">private </mark><mark class="modifier">final </mark>ScrollViewT <mark class="class-field">mScrollView</mark>"
+isStaticfalse"
+accessprivate*mScrollView2·
+Ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ScrollViewTTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java" "(î
+[com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mHorizontal@35.24:35.35VALUEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java# #(#"
+isFinaltrue"
+typeboolean"≤
+declarationStringú<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">boolean</mark> <mark class="class-field">mHorizontal</mark>"
+isStaticfalse"
+accessprivate*mHorizontal2ô
+booleanTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java# #(â
+Wcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mConfig@36.27:36.34VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java$ $(""
+isFinalfalse"
+typeConfig"j
+declarationStringU<mark class="modifier">private </mark>Config <mark class="class-field">mConfig</mark>"
+isStaticfalse"
+accessprivate*mConfig2‹
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ConfigTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java$ $(È
+acom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mFirstVisibleView@37.40:37.57VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java%( %(9"
+isFinalfalse"
+typeWeakReference<View>"®
+declarationStringí<mark class="modifier">private </mark>WeakReference<View> <mark class="class-field">mFirstVisibleView</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mFirstVisibleView2≠
+java.lang.ref.WeakReferenceTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java% %(!2¨
+android.view.ViewTYPE_ARGUMENTá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java%" %(&•
+fcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mPrevFirstVisibleFrame@38.25:38.47VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java& &(/"
+isFinalfalse"
+typeRect"û
+declarationStringà<mark class="modifier">private </mark>Rect <mark class="class-field">mPrevFirstVisibleFrame</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mPrevFirstVisibleFrame2ß
+android.graphics.RectTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java& &(ò
+Zcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper?mListening@39.18:39.28VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java' '("
+isFinalfalse"
+typeboolean"¥
+declarationStringû<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mListening</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*
+mListening2ô
+booleanTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java'
+ '(Å
+Ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ScrollViewTTYPE_PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java 1  (<*ScrollViewT2™
+android.view.ViewGroupEXTENDá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java E  (N2Ÿ
+Ecom.facebook.react.views.scroll.ReactScrollViewHelper.HasSmoothScrollEXTENDá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java Q  (`ò
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ConfigCLASSá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java) )("N
+packageCcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ﬁ
+declarationString»<mark class="modifier">public </mark><mark class="modifier">class </mark>Config&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt;"
+accesspublic*Config2Ç
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java- -(
+2õ
+Åcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java2 2(!2Ç
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?minIndexForVisible@42.21:42.39DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java* *('2à
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java+# +(;Ê
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)CONSTRUCTORá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java- -(
+"ï
+declarationStringˇ<mark class="modifier"> </mark><mark class="method">Config</mark>(<mark class="modifier">int</mark> minIndexForVisible<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> Integer autoScrollToTopThreshold)*Config2é
+|com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)!minIndexForVisibleCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java.  .(22ï
+Çcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)!autoScrollToTopThresholdCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java/& /(>2˚
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?minIndexForVisible@42.21:42.39CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java. .(2Å
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java/ /(#2ì
+|com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)!minIndexForVisible	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java- -(!2ö
+Çcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)!autoScrollToTopThreshold	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java-5 -(M2„
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ConfigRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java- -(
+©
+|com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)!minIndexForVisible	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java- -(!"
+typeint"
+isFinalfalse"I
+declarationString4<mark class="modifier">int</mark> minIndexForVisible*minIndexForVisible2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java- -(ﬁ
+Çcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)!autoScrollToTopThreshold	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java-5 -(M"
+typeInteger"
+isFinalfalse"_
+declarationStringJ<mark class="annotation">@Nullable</mark> Integer autoScrollToTopThreshold*autoScrollToTopThreshold2£
+java.lang.IntegerTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java-- -(4Ô 
+Åcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)METHODá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java2 2(!"
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier"> </mark><mark class="modifier">static </mark>&lt;<mark class="modifier"><mark class="type-parameter">ScrollViewT extends ViewGroup & HasSmoothScroll</mark></mark>&gt; Config <mark class="method">fromReadableMap</mark>(ReadableMap value)"
+isStatictrue"
+accesspackage_private"
+
+isAbstractfalse"
+typeConfig*fromReadableMap2–
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3% 3(+2–
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java5 5(2–
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java6 6(2˚
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.Config(int, java.lang.Integer)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java8 8(2ö
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!valueCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3 3($2ö
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!valueCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java5
+ 5(2ö
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!valueCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java6 6(2≥
+†com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)?minIndexForVisible@51.10:51.28CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java8 8(*2π
+¶com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)?autoScrollToTopThreshold@52.14:52.38CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java8, 8(D2ü
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!value	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java2. 2(32∫
+†com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)?minIndexForVisible@51.10:51.28DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3
+ 3(2¿
+¶com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)?autoScrollToTopThreshold@52.14:52.38DECLARATIONá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java4 4(&2„
+Jcom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.ConfigRETURN_TYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java2 2(§	
+†com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)?minIndexForVisible@51.10:51.28VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3
+ 3("
+typeint"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">minIndexForVisible</mark> = value.getInt("minIndexForVisible")*minIndexForVisible2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3 3(	2–
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3% 3(+2ö
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!valueCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java3 3($Ù
+¶com.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)?autoScrollToTopThreshold@52.14:52.38VARIABLEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java4 4(&"
+typeInteger"
+isFinalfalse"Ò
+declarationString€<mark class="modifier"> </mark>Integer <mark class="class-field">autoScrollToTopThreshold</mark> = value.hasKey("autoscrollToTopThreshold") ? value.getInt("autoscrollToTopThreshold") : <mark class="modifier">null</mark>*autoScrollToTopThreshold2£
+java.lang.IntegerTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java4 4(2–
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java5 5(2–
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java6 6(2ö
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!valueCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java5
+ 5(2ö
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!valueCALLá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java6 6(Ø
+ácom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config.fromReadableMap(com.facebook.react.bridge.ReadableMap)!value	PARAMETERá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java2. 2(3"
+typeReadableMap"
+isFinalfalse"&
+declarationStringReadableMap value*value2∑
+%com.facebook.react.bridge.ReadableMapTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java2" 2(-¢
+icom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?minIndexForVisible@42.21:42.39VALUEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java* *('"
+isFinaltrue"
+typeint"¥
+declarationStringû<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">minIndexForVisible</mark>"
+isStaticfalse"
+accesspublic*minIndexForVisible2ï
+intTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java* *(¨
+ocom.facebook.react.views.scroll.MaintainVisibleScrollPositionHelper.Config?autoScrollToTopThreshold@43.35:43.59VALUEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java+# +(;"
+isFinaltrue"
+typeInteger"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">final </mark>Integer <mark class="class-field">autoScrollToTopThreshold</mark>"
+isStaticfalse"
+accesspublic*autoScrollToTopThreshold2£
+java.lang.IntegerTYPEá
+}node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/scroll/MaintainVisibleScrollPositionHelper.java+ +("

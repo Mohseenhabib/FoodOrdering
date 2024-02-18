@@ -1,0 +1,580 @@
+
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaß(
+'com.facebook.react.common.ShakeDetectorCLASSk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java ("$
+packagecom.facebook.react.common"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¨
+declarationStringñ<mark class="modifier">public </mark><mark class="modifier">class </mark>ShakeDetector<mark class="modifier"><br>implements </mark>SensorEventListener"
+accesspublic*ShakeDetector2Ë
+lcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener)DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java+	 +(2Ì
+qcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/	 /(2…
+Mcom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java5 5(2™
+.com.facebook.react.common.ShakeDetector.stop()DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaB B(2´
+/com.facebook.react.common.ShakeDetector.reset()DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaJ J(2ø
+Ccom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaX X(&2µ
+9com.facebook.react.common.ShakeDetector.recordShake(long)DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaa a(2—
+Ucom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javag g(2’
+Wcom.facebook.react.common.ShakeDetector.onAccuracyChanged(android.hardware.Sensor, int)DECLARATIONm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ Å(2æ
+@com.facebook.react.common.ShakeDetector.maybeDispatchShake(long)DECLARATIONm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÉ É(!2À
+Ocom.facebook.react.common.ShakeDetector?MIN_TIME_BETWEEN_SAMPLES_NS@20.28:20.55DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (72¡
+Ecom.facebook.react.common.ShakeDetector?SHAKING_WINDOW_NS@23.29:23.46DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (.2æ
+Bcom.facebook.react.common.ShakeDetector?REQUIRED_FORCE@26.29:26.43DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (+2æ
+Bcom.facebook.react.common.ShakeDetector?mAccelerationX@28.16:28.30DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (2æ
+Bcom.facebook.react.common.ShakeDetector?mAccelerationY@28.32:28.46DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java  (.2æ
+Bcom.facebook.react.common.ShakeDetector?mAccelerationZ@28.48:28.62DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java0 (>2æ
+Bcom.facebook.react.common.ShakeDetector?mShakeListener@34.30:34.44DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java" "(,2æ
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java$" $(02æ
+Bcom.facebook.react.common.ShakeDetector?mLastTimestamp@37.15:37.29DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java% %(2∫
+>com.facebook.react.common.ShakeDetector?mNumShakes@38.14:38.24DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java& &(2√
+Gcom.facebook.react.common.ShakeDetector?mLastShakeTimestamp@39.15:39.34DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java' '("2Ω
+Acom.facebook.react.common.ShakeDetector?mMinNumShakes@41.14:41.27DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java) )(2±
+5com.facebook.react.common.ShakeDetector.ShakeListenerDECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java ( 2õ
+$android.hardware.SensorEventListenerEXTENDk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java& (9˘
+lcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener)CONSTRUCTORk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java+	 +("{
+declarationStringf<mark class="modifier">public </mark><mark class="method">ShakeDetector</mark>(ShakeListener listener)*ShakeDetector2Í
+ucom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener)!listenerCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java,	 ,(2Ô
+ucom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener)!listener	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java+% +(-2£
+'com.facebook.react.common.ShakeDetectorRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java+	 +(¸
+ucom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener)!listener	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java+% +(-"
+typeShakeListener"
+isFinalfalse"+
+declarationStringShakeListener listener*listener2™
+5com.facebook.react.common.ShakeDetector.ShakeListenerTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java+ +($⁄
+qcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)CONSTRUCTORk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/	 /("Ë
+declarationString“<mark class="modifier">public </mark><mark class="method">ShakeDetector</mark>(ShakeListener listener<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> minNumShakes)*ShakeDetector2∑
+Bcom.facebook.react.common.ShakeDetector?mShakeListener@34.30:34.44CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java0 0(2Ô
+zcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)!listenerCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java0 0(2∂
+Acom.facebook.react.common.ShakeDetector?mMinNumShakes@41.14:41.27CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java1 1(2Û
+~com.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)!minNumShakesCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java1 1( 2Ù
+zcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)!listener	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/% /(-2¯
+~com.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)!minNumShakes	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/3 /(?2£
+'com.facebook.react.common.ShakeDetectorRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/	 /(Å
+zcom.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)!listener	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/% /(-"
+typeShakeListener"
+isFinalfalse"+
+declarationStringShakeListener listener*listener2™
+5com.facebook.react.common.ShakeDetector.ShakeListenerTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/ /($‰
+~com.facebook.react.common.ShakeDetector.ShakeDetector(com.facebook.react.common.ShakeDetector.ShakeListener, int)!minNumShakes	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java/3 /(?"
+typeint"
+isFinalfalse"C
+declarationString.<mark class="modifier">int</mark> minNumShakes*minNumShakes2x
+intTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java// /(2≤
+Mcom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java5 5("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">start</mark>(SensorManager manager)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*start2§
+/com.facebook.react.common.ShakeDetector.reset()CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java= =(2 
+Ucom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)!managerCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java6 6($2 
+Ucom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)!managerCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java7 7("2‹
+gcom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)?accelerometer@55.11:55.24CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java8 8(2∑
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java9 9(2 
+Ucom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)!managerCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java9 9(2∑
+Bcom.facebook.react.common.ShakeDetector?mLastTimestamp@37.15:37.29CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java: :(2∑
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java; ;(2‹
+gcom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)?accelerometer@55.11:55.24CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java;, ;(92º
+Gcom.facebook.react.common.ShakeDetector?mLastShakeTimestamp@39.15:39.34CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java< <(2œ
+Ucom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)!manager	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java5" 5()2„
+gcom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)?accelerometer@55.11:55.24DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java7 7(2Ä
+voidRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java5	 5(ê
+gcom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)?accelerometer@55.11:55.24VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java7 7("
+typeSensor"
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark>Sensor <mark class="class-field">accelerometer</mark> = manager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)*accelerometer2å
+android.hardware.SensorTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java7 7(
+2 
+Ucom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)!managerCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java7 7("√
+Ucom.facebook.react.common.ShakeDetector.start(android.hardware.SensorManager)!manager	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java5" 5()"
+typeSensorManager"
+isFinalfalse"*
+declarationStringSensorManager manager*manager2ì
+android.hardware.SensorManagerTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java5 5(!∑
+.com.facebook.react.common.ShakeDetector.stop()METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaB B("
+isFinalfalse"
+declarationStringj<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">stop</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*stop2∑
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaC C(2∑
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaD D(2∑
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaE E(2Ä
+voidRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaB	 B(Û	
+/com.facebook.react.common.ShakeDetector.reset()METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaJ J("
+isFinalfalse"Å
+declarationStringl<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">reset</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*reset2≥
+>com.facebook.react.common.ShakeDetector?mNumShakes@38.14:38.24CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaK K(2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationX@28.16:28.30CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaL L(2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationY@28.32:28.46CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaM M(2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationZ@28.48:28.62CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaN N(2Ä
+voidRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaJ
+ J(∫
+
+Ccom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaX X(&"
+isFinalfalse"π
+declarationString£<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="method">atLeastRequiredForce</mark>(<mark class="modifier">float</mark> a)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*atLeastRequiredForce2é
+java.lang.Math.abs(float)CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaY Y(2∫
+Ecom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)!aCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaY Y(2∑
+Bcom.facebook.react.common.ShakeDetector?REQUIRED_FORCE@26.29:26.43CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaY Y('2ø
+Ecom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)!a	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaX- X(.2É
+booleanRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaX
+ X(õ
+Ecom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)!a	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaX- X(."
+typefloat"
+isFinalfalse":
+declarationString%<mark class="modifier">float</mark> a*a2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaX' X(,¬
+
+9com.facebook.react.common.ShakeDetector.recordShake(long)METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaa a("
+isFinalfalse"¥
+declarationStringû<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">recordShake</mark>(<mark class="modifier">long</mark> timestamp)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*recordShake2º
+Gcom.facebook.react.common.ShakeDetector?mLastShakeTimestamp@39.15:39.34CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javab b(2∏
+Ccom.facebook.react.common.ShakeDetector.recordShake(long)!timestampCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javab b(#2≥
+>com.facebook.react.common.ShakeDetector?mNumShakes@38.14:38.24CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javac c(2Ω
+Ccom.facebook.react.common.ShakeDetector.recordShake(long)!timestamp	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaa  a()2Ä
+voidRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaa
+ a(¶
+Ccom.facebook.react.common.ShakeDetector.recordShake(long)!timestamp	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaa  a()"
+typelong"
+isFinalfalse"A
+declarationString,<mark class="modifier">long</mark> timestamp*	timestamp2y
+longTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaa a(—<
+Ucom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javag g("
+isFinalfalse"–
+declarationString∫<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onSensorChanged</mark>(SensorEvent sensorEvent)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onSensorChanged2∏
+Ccom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javar r(2∏
+Ccom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javau u(#2∏
+Ccom.facebook.react.common.ShakeDetector.atLeastRequiredForce(float)CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javax x(#2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javah h(2∑
+Bcom.facebook.react.common.ShakeDetector?mLastTimestamp@37.15:37.29CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javah  h(.2ƒ
+Ocom.facebook.react.common.ShakeDetector?MIN_TIME_BETWEEN_SAMPLES_NS@20.28:20.55CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javah1 h(L2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javal l(2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javam m(2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javan n(2∑
+Bcom.facebook.react.common.ShakeDetector?mLastTimestamp@37.15:37.29CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javap p(2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javap p( 2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ax@108.10:108.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javar r(2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ax@108.10:108.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javar$ r(&2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationX@28.16:28.30CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javar) r(72÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javas s(2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationX@28.16:28.30CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javat t(2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ax@108.10:108.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javat t(2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ay@109.10:109.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javau$ u(&2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ay@109.10:109.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javau+ u(-2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationY@28.32:28.46CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javau0 u(>2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javav v(2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationY@28.32:28.46CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaw w(2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ay@109.10:109.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaw w(2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?az@110.10:110.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javax$ x(&2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?az@110.10:110.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javax+ x(-2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationZ@28.48:28.62CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javax0 x(>2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javay y(2∑
+Bcom.facebook.react.common.ShakeDetector?mAccelerationZ@28.48:28.62CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaz z(2€
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?az@110.10:110.12CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaz z(2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java} }("2€
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEvent	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javag* g(52‚
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ax@108.10:108.12DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javal
+ l(2‚
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ay@109.10:109.12DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javam
+ m(2‚
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?az@110.10:110.12DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javan
+ n(2Ä
+voidRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javag	 g(Ô
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ax@108.10:108.12VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javal
+ l("
+typefloat"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">ax</mark> = sensorEvent.values[0]*ax2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javal l(	2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javal l(Ô
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?ay@109.10:109.12VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javam
+ m("
+typefloat"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">ay</mark> = sensorEvent.values[1]*ay2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javam m(	2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javam m(é
+fcom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)?az@110.10:110.12VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javan
+ n("
+typefloat"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">az</mark> = sensorEvent.values[2] - SensorManager.GRAVITY_EARTH*az2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javan n(	2÷
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEventCALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javan n(—
+acom.facebook.react.common.ShakeDetector.onSensorChanged(android.hardware.SensorEvent)!sensorEvent	PARAMETERk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javag* g(5"
+typeSensorEvent"
+isFinalfalse",
+declarationStringSensorEvent sensorEvent*sensorEvent2ë
+android.hardware.SensorEventTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javag g()£	
+Wcom.facebook.react.common.ShakeDetector.onAccuracyChanged(android.hardware.Sensor, int)METHODm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ Å("
+isFinalfalse"©
+declarationStringì<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onAccuracyChanged</mark>(Sensor sensor<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> i)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onAccuracyChanged2⁄
+^com.facebook.react.common.ShakeDetector.onAccuracyChanged(android.hardware.Sensor, int)!sensor	PARAMETERm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ' Å(-2’
+Ycom.facebook.react.common.ShakeDetector.onAccuracyChanged(android.hardware.Sensor, int)!i	PARAMETERm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ3 Å(42Ç
+voidRETURN_TYPEm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ	 Å(π
+^com.facebook.react.common.ShakeDetector.onAccuracyChanged(android.hardware.Sensor, int)!sensor	PARAMETERm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ' Å(-"
+typeSensor"
+isFinalfalse""
+declarationStringSensor sensor*sensor2é
+android.hardware.SensorTYPEm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ  Å(&≠
+Ycom.facebook.react.common.ShakeDetector.onAccuracyChanged(android.hardware.Sensor, int)!i	PARAMETERm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ3 Å(4"
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> i*i2z
+intTYPEm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÅ/ Å(2«
+@com.facebook.react.common.ShakeDetector.maybeDispatchShake(long)METHODm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÉ É(!"
+isFinalfalse"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">maybeDispatchShake</mark>(<mark class="modifier">long</mark> currentTimestamp)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*maybeDispatchShake2¶
+/com.facebook.react.common.ShakeDetector.reset()CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÖ Ö(2∂
+?com.facebook.react.common.ShakeDetector.ShakeListener.onShake()CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÜ Ü(2¶
+/com.facebook.react.common.ShakeDetector.reset()CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaä ä(2µ
+>com.facebook.react.common.ShakeDetector?mNumShakes@38.14:38.24CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÑ Ñ(2∏
+Acom.facebook.react.common.ShakeDetector?mMinNumShakes@41.14:41.27CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÑ Ñ('2π
+Bcom.facebook.react.common.ShakeDetector?mShakeListener@34.30:34.44CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÜ Ü(2»
+Qcom.facebook.react.common.ShakeDetector.maybeDispatchShake(long)!currentTimestampCALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaâ â(2æ
+Gcom.facebook.react.common.ShakeDetector?mLastShakeTimestamp@39.15:39.34CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaâ â(.2º
+Ecom.facebook.react.common.ShakeDetector?SHAKING_WINDOW_NS@23.29:23.46CALLm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaâ1 â(B2Õ
+Qcom.facebook.react.common.ShakeDetector.maybeDispatchShake(long)!currentTimestamp	PARAMETERm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÉ' É(72Ç
+voidRETURN_TYPEm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÉ
+ É(∆
+Qcom.facebook.react.common.ShakeDetector.maybeDispatchShake(long)!currentTimestamp	PARAMETERm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÉ' É(7"
+typelong"
+isFinalfalse"H
+declarationString3<mark class="modifier">long</mark> currentTimestamp*currentTimestamp2{
+longTYPEm
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaÉ" É(&Ö
+Ocom.facebook.react.common.ShakeDetector?MIN_TIME_BETWEEN_SAMPLES_NS@20.28:20.55VALUEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (7"
+isFinaltrue"
+typelong"ü
+declarationStringâ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">long</mark> <mark class="class-field">MIN_TIME_BETWEEN_SAMPLES_NS</mark> = TimeUnit.NANOSECONDS.convert(20, TimeUnit.MILLISECONDS);"
+isStatictrue"
+accessprivate*MIN_TIME_BETWEEN_SAMPLES_NS2y
+longTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (2ø
+Jjava.util.concurrent.TimeUnit.convert(long, java.util.concurrent.TimeUnit)CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java ("‰
+Ecom.facebook.react.common.ShakeDetector?SHAKING_WINDOW_NS@23.29:23.46VALUEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (."
+isFinaltrue"
+typefloat"ê
+declarationString˙<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">float</mark> <mark class="class-field">SHAKING_WINDOW_NS</mark> = TimeUnit.NANOSECONDS.convert(3, TimeUnit.SECONDS);"
+isStatictrue"
+accessprivate*SHAKING_WINDOW_NS2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (2ø
+Jjava.util.concurrent.TimeUnit.convert(long, java.util.concurrent.TimeUnit)CALLk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.javaF (Mã
+Bcom.facebook.react.common.ShakeDetector?REQUIRED_FORCE@26.29:26.43VALUEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (+"
+isFinaltrue"
+typefloat"ˇ
+declarationStringÈ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">float</mark> <mark class="class-field">REQUIRED_FORCE</mark> = SensorManager.GRAVITY_EARTH * 1.33f;"
+isStatictrue"
+accessprivate*REQUIRED_FORCE2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (ü
+Bcom.facebook.react.common.ShakeDetector?mAccelerationX@28.16:28.30VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java ("
+isFinalfalse"
+typefloat"é
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">float</mark> <mark class="class-field">mAccelerationX</mark>"
+isStaticfalse"
+accessprivate*mAccelerationX2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java
+ (ü
+Bcom.facebook.react.common.ShakeDetector?mAccelerationY@28.32:28.46VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java  (."
+isFinalfalse"
+typefloat"é
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">float</mark> <mark class="class-field">mAccelerationY</mark>"
+isStaticfalse"
+accessprivate*mAccelerationY2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java
+ (ü
+Bcom.facebook.react.common.ShakeDetector?mAccelerationZ@28.48:28.62VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java0 (>"
+isFinalfalse"
+typefloat"é
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">float</mark> <mark class="class-field">mAccelerationZ</mark>"
+isStaticfalse"
+accessprivate*mAccelerationZ2z
+floatTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java
+ („
+Bcom.facebook.react.common.ShakeDetector?mShakeListener@34.30:34.44VALUEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java" "(,"
+isFinaltrue"
+typeShakeListener"ù
+declarationStringá<mark class="modifier">private </mark><mark class="modifier">final </mark>ShakeListener <mark class="class-field">mShakeListener</mark>"
+isStaticfalse"
+accessprivate*mShakeListener2™
+5com.facebook.react.common.ShakeDetector.ShakeListenerTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java" "(™
+Bcom.facebook.react.common.ShakeDetector?mSensorManager@36.34:36.48VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java$" $(0"
+isFinalfalse"
+typeSensorManager"x
+declarationStringc<mark class="modifier">private </mark>SensorManager <mark class="class-field">mSensorManager</mark>"
+isStaticfalse"
+accessprivate*mSensorManager2ì
+android.hardware.SensorManagerTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java$ $(!ú
+Bcom.facebook.react.common.ShakeDetector?mLastTimestamp@37.15:37.29VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java% %("
+isFinalfalse"
+typelong"ç
+declarationStringx<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mLastTimestamp</mark>"
+isStaticfalse"
+accessprivate*mLastTimestamp2y
+longTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java%
+ %(ç
+>com.facebook.react.common.ShakeDetector?mNumShakes@38.14:38.24VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java& &("
+isFinalfalse"
+typeint"à
+declarationStrings<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mNumShakes</mark>"
+isStaticfalse"
+accessprivate*
+mNumShakes2x
+intTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java&
+ &(´
+Gcom.facebook.react.common.ShakeDetector?mLastShakeTimestamp@39.15:39.34VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java' '(""
+isFinalfalse"
+typelong"í
+declarationString}<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mLastShakeTimestamp</mark>"
+isStaticfalse"
+accessprivate*mLastShakeTimestamp2y
+longTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java'
+ '(ñ
+Acom.facebook.react.common.ShakeDetector?mMinNumShakes@41.14:41.27VARIABLEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java) )("
+isFinalfalse"
+typeint"ã
+declarationStringv<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mMinNumShakes</mark>"
+isStaticfalse"
+accessprivate*mMinNumShakes2x
+intTYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java)
+ )(Ï
+5com.facebook.react.common.ShakeDetector.ShakeListenerTRAITk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java ( "2
+package'com.facebook.react.common.ShakeDetector"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"o
+declarationStringZ<mark class="modifier">public </mark><mark class="modifier">interface </mark>ShakeListener"
+accesspublic*ShakeListener2ª
+?com.facebook.react.common.ShakeDetector.ShakeListener.onShake()DECLARATIONk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java	 (£
+?com.facebook.react.common.ShakeDetector.ShakeListener.onShake()METHODk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java	 ("
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onShake</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onShake2Ä
+voidRETURN_TYPEk
+anode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/ShakeDetector.java (

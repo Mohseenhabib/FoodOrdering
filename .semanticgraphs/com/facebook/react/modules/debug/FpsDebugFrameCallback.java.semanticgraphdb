@@ -1,0 +1,897 @@
+
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÕ4
+6com.facebook.react.modules.debug.FpsDebugFrameCallbackCLASSz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java (""+
+package com.facebook.react.modules.debug"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"º
+declarationString¶<mark class="modifier">public </mark><mark class="modifier">class </mark>FpsDebugFrameCallback<mark class="modifier"> extends </mark>ChoreographerCompat.FrameCallback"
+accesspublic*FpsDebugFrameCallback2ˇ
+tcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsDebugFrameCallback(com.facebook.react.bridge.ReactContext)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaJ	 J(2œ
+Dcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR R(2…
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.start()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javax x(2‚
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback.startAndRecordFpsAtEachFrame()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaà à(*2 
+=com.facebook.react.modules.debug.FpsDebugFrameCallback.stop()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaé é(2Ã
+?com.facebook.react.modules.debug.FpsDebugFrameCallback.getFPS()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaû û(2Œ
+Acom.facebook.react.modules.debug.FpsDebugFrameCallback.getJSFPS()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java• •(2“
+Ecom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumFrames()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¨ ¨(2‘
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumJSFrames()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∞ ∞(2⁄
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¥ ¥(!2€
+Ncom.facebook.react.modules.debug.FpsDebugFrameCallback.get4PlusFrameStutters()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∫ ∫("2‘
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getTotalTimeMS()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaæ æ(2‘
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∆ ∆(%2À
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.reset()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaœ œ(2·
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?EXPECTED_FRAME_TIME@58.30:58.49DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java: :(12‹
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java<( <(62€
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback?mReactContext@61.29:61.42DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java= =(*2ﬁ
+Scom.facebook.react.modules.debug.FpsDebugFrameCallback?mUIManagerModule@62.32:62.48DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java>  >(02Ô
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java?1 ?(R2›
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaA A(2‹
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaB B(2‡
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacks@67.14:67.32DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaC C( 2‰
+Ycom.facebook.react.modules.debug.FpsDebugFrameCallback?mExpectedNumFramesPrev@68.14:68.36DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaD D($2·
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaE E(!2Û
+hcom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacksWithBatchDispatches@70.14:70.51DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaF F(32Ï
+acom.facebook.react.modules.debug.FpsDebugFrameCallback?mIsRecordingFpsInfoAtEachFrame@71.18:71.48DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaG G(02ÿ
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaH+ H(52«
+Acom.facebook.react.modules.core.ChoreographerCompat.FrameCallbackEXTENDz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java? (L€
+tcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsDebugFrameCallback(com.facebook.react.bridge.ReactContext)CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaJ	 J("Ü
+declarationStringq<mark class="modifier">public </mark><mark class="method">FpsDebugFrameCallback</mark>(ReactContext reactContext)*FpsDebugFrameCallback2Œ
+Jcom.facebook.react.bridge.ReactContext.getNativeModule(java.lang.Class<T>)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaM. M(=2Ë
+dcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.DidJSUpdateUiDuringFrameDetector()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaN, N(L2‘
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback?mReactContext@61.29:61.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaK K(2Ü
+Åcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsDebugFrameCallback(com.facebook.react.bridge.ReactContext)!reactContextCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaK K( 2◊
+Scom.facebook.react.modules.debug.FpsDebugFrameCallback?mUIManagerModule@62.32:62.48CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaL L(2Ü
+Åcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsDebugFrameCallback(com.facebook.react.bridge.ReactContext)!reactContextCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaM! M(-2Ë
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaN N(%2ã
+Åcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsDebugFrameCallback(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaJ, J(82¡
+6com.facebook.react.modules.debug.FpsDebugFrameCallbackRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaJ	 J(û
+Åcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsDebugFrameCallback(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaJ, J(8"
+typeReactContext"
+isFinalfalse".
+declarationStringReactContext reactContext*reactContext2™
+&com.facebook.react.bridge.ReactContextTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaJ J(+öM
+Dcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR R("
+isFinalfalse"’
+declarationStringø<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">doFrame</mark>(<mark class="modifier">long</mark> l)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*doFrame2Ï
+hcom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetector.getDidJSHitFrameAndCleanup(long, long)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaZ* Z(D2—
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java_ _(02…
+Ecom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumFrames()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javai i(2À
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumJSFrames()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaj j(2√
+?com.facebook.react.modules.debug.FpsDebugFrameCallback.getFPS()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javam m(2≈
+Acom.facebook.react.modules.debug.FpsDebugFrameCallback.getJSFPS()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javan n(2À
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getTotalTimeMS()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javao o(2ü
+java.util.TreeMap.put(K, V)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javap p(2®
+$java.lang.System.currentTimeMillis()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javap p(-2ç
+àcom.facebook.react.modules.core.ChoreographerCompat.postFrameCallback(com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javat t(&2Û
+ocom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javah h(2÷
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaS S(2÷
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaT T(2 
+Fcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)!lCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaT T(2’
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaW W(,2’
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaX X(2 
+Fcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)!lCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaX X(2Ë
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaZ Z()2Ê
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?lastFrameStartTime@87.9:87.27CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaZE Z(W2 
+Fcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)!lCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaZY Z(Z2Ï
+hcom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacksWithBatchDispatches@70.14:70.51CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java[ [(+2Ÿ
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacks@67.14:67.32CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java^ ^(2Â
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java` `()2›
+Ycom.facebook.react.modules.debug.FpsDebugFrameCallback?mExpectedNumFramesPrev@68.14:68.36CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java`, `(B2·
+]com.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?framesDropped@96.8:96.21CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaa a(2⁄
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javab b(2Â
+acom.facebook.react.modules.debug.FpsDebugFrameCallback?mIsRecordingFpsInfoAtEachFrame@71.18:71.48CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javae e(&2—
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaf f()2Â
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javak k(2⁄
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javal l(!2—
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javap p(2€
+Wcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?info@103.14:103.18CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javap1 p(52›
+Ycom.facebook.react.modules.debug.FpsDebugFrameCallback?mExpectedNumFramesPrev@68.14:68.36CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javar r(2Â
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javar r(.2’
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javas s(2’
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javat t(2◊
+Ocom.facebook.react.modules.core.ChoreographerCompat.FrameCallback.doFrame(long)OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR R(2œ
+Fcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)!l	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR R(2Ì
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?lastFrameStartTime@87.9:87.27DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaW	 W(2Ï
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java_ _(2Ë
+]com.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?framesDropped@96.8:96.21DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java` `(2‚
+Wcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?info@103.14:103.18DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javag g(2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR	 R(†
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?lastFrameStartTime@87.9:87.27VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaW	 W("
+typelong"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">lastFrameStartTime</mark> = mLastFrameTime*lastFrameStartTime2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaW W(2’
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaW W(,û
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java_ _("
+typeint"
+isFinalfalse"¢
+declarationStringå<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">expectedNumFrames</mark> = getExpectedNumFrames()*expectedNumFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java_ _(2—
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java_ _(0û
+]com.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?framesDropped@96.8:96.21VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java` `("
+typeint"
+isFinalfalse"∂
+declarationString†<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">framesDropped</mark> = expectedNumFrames - mExpectedNumFramesPrev - 1*framesDropped2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java` `(2Â
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java` `()2›
+Ycom.facebook.react.modules.debug.FpsDebugFrameCallback?mExpectedNumFramesPrev@68.14:68.36CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java`, `(B€
+Wcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?info@103.14:103.18VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javag g("
+typeFpsInfo"
+isFinalfalse"⁄
+declarationStringƒ<mark class="modifier"> </mark>FpsInfo <mark class="class-field">info</mark> = new FpsInfo(getNumFrames()<mark class="modifier">,</mark> getNumJSFrames()<mark class="modifier">,</mark> expectedNumFrames, m4PlusFrameStutters, getFPS()<mark class="modifier">,</mark> getJSFPS()<mark class="modifier">,</mark> getTotalTimeMS())*info2¬
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfoTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javag g(2…
+Ecom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumFrames()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javai i(2À
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumJSFrames()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaj j(2√
+?com.facebook.react.modules.debug.FpsDebugFrameCallback.getFPS()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javam m(2≈
+Acom.facebook.react.modules.debug.FpsDebugFrameCallback.getJSFPS()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javan n(2À
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getTotalTimeMS()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javao o(2Û
+ocom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javah h(2Â
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)?expectedNumFrames@95.8:95.25CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javak k(2⁄
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javal l(!∏
+Fcom.facebook.react.modules.debug.FpsDebugFrameCallback.doFrame(long)!l	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR R("
+typelong"
+isFinalfalse"9
+declarationString$<mark class="modifier">long</mark> l*l2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaR R(ì 
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.start()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javax x("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">start</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*start2ä
+Öcom.facebook.react.bridge.CatalystInstance.addBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java{	 {(#2¿
+<com.facebook.react.bridge.ReactContext.getCatalystInstance()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaz	 z(2ß
+¢com.facebook.react.uimanager.UIManagerModule.setViewHierarchyUpdateDebugListener(com.facebook.react.uimanager.debug.NotThreadSafeViewHierarchyUpdateDebugListener)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java| |(82Ã
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java~ ~(2«
+Acom.facebook.react.modules.core.ChoreographerCompat.getInstance()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÇ1 Ç(<2è
+àcom.facebook.react.modules.core.ChoreographerCompat.postFrameCallback(com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÉ É(,2õ
+ñcom.facebook.react.modules.debug.FpsDebugFrameCallback.Anonymous-e87e9897-848b-4d77-b78e-48557dfa65a9.Anonymous-e87e9897-848b-4d77-b78e-48557dfa65a9()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java (2‘
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback?mReactContext@61.29:61.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javay y(2Ë
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java{$ {(E2◊
+Scom.facebook.react.modules.debug.FpsDebugFrameCallback?mUIManagerModule@62.32:62.48CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java| |(2Ë
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java|9 |(Z2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÇ Ç(2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÉ É(2Ë
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.start()?fpsDebugFrameCallback@125.32:125.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÉ- É(B2Ì
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.start()?fpsDebugFrameCallback@125.32:125.53DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java}  }(52è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javax	 x(∏
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.start()?fpsDebugFrameCallback@125.32:125.53VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java}  }(5"
+typeFpsDebugFrameCallback"
+isFinaltrue" 
+declarationString¥<mark class="modifier"> </mark><mark class="modifier">final </mark>FpsDebugFrameCallback <mark class="class-field">fpsDebugFrameCallback</mark> = <mark class="modifier">this</mark>*fpsDebugFrameCallback2∫
+6com.facebook.react.modules.debug.FpsDebugFrameCallbackTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java}
+ }(Ø
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback.startAndRecordFpsAtEachFrame()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaà à(*"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">startAndRecordFpsAtEachFrame</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*startAndRecordFpsAtEachFrame2ƒ
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.start()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaã ã(	2°
+java.util.TreeMap.TreeMap()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaâ â(+2”
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaâ â(2Á
+acom.facebook.react.modules.debug.FpsDebugFrameCallback?mIsRecordingFpsInfoAtEachFrame@71.18:71.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaä ä("2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaà	 à(Ω
+=com.facebook.react.modules.debug.FpsDebugFrameCallback.stop()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaé é("
+isFinalfalse"
+declarationStringj<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">stop</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*stop2è
+àcom.facebook.react.bridge.CatalystInstance.removeBridgeIdleDebugListener(com.facebook.react.bridge.NotThreadSafeBridgeIdleDebugListener)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaë	 ë(&2¬
+<com.facebook.react.bridge.ReactContext.getCatalystInstance()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaê	 ê(2©
+¢com.facebook.react.uimanager.UIManagerModule.setViewHierarchyUpdateDebugListener(com.facebook.react.uimanager.debug.NotThreadSafeViewHierarchyUpdateDebugListener)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaí í(82Œ
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaî î(2«
+Acom.facebook.react.modules.core.ChoreographerCompat.getInstance()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaò1 ò(<2ë
+äcom.facebook.react.modules.core.ChoreographerCompat.removeFrameCallback(com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaô ô(.2ù
+ñcom.facebook.react.modules.debug.FpsDebugFrameCallback.Anonymous-e97b90f2-a3e4-402a-ae27-620b86e49251.Anonymous-e97b90f2-a3e4-402a-ae27-620b86e49251()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaï ï(2÷
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback?mReactContext@61.29:61.42CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaè è(2Í
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaë' ë(H2Ÿ
+Scom.facebook.react.modules.debug.FpsDebugFrameCallback?mUIManagerModule@62.32:62.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaí í(2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaò ò(2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaô ô(2Á
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.stop()?fpsDebugFrameCallback@147.32:147.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaô/ ô(D2Ó
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.stop()?fpsDebugFrameCallback@147.32:147.53DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaì  ì(52ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaé	 é(ª
+acom.facebook.react.modules.debug.FpsDebugFrameCallback.stop()?fpsDebugFrameCallback@147.32:147.53VALUE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaì  ì(5"
+typeFpsDebugFrameCallback"
+isFinaltrue" 
+declarationString¥<mark class="modifier"> </mark><mark class="modifier">final </mark>FpsDebugFrameCallback <mark class="class-field">fpsDebugFrameCallback</mark> = <mark class="modifier">this</mark>*fpsDebugFrameCallback2º
+6com.facebook.react.modules.debug.FpsDebugFrameCallbackTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaì
+ ì(ˇ
+?com.facebook.react.modules.debug.FpsDebugFrameCallback.getFPS()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaû û("
+isFinalfalse"É
+declarationStringn<mark class="modifier">public </mark><mark class="modifier">double</mark> <mark class="method">getFPS</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typedouble*getFPS2À
+Ecom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumFrames()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¢ ¢("2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaü ü(2ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaü ü()2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¢0 ¢(>2ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¢A ¢(P2ì
+doubleRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaû	 û(á
+Acom.facebook.react.modules.debug.FpsDebugFrameCallback.getJSFPS()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java• •("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier">public </mark><mark class="modifier">double</mark> <mark class="method">getJSFPS</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typedouble*getJSFPS2Õ
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumJSFrames()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java© ©($2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¶ ¶(2ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¶ ¶()2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java©2 ©(@2ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java©C ©(R2ì
+doubleRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java•	 •(Æ
+Ecom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumFrames()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¨ ¨("
+isFinalfalse"Ü
+declarationStringq<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getNumFrames</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getNumFrames2€
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacks@67.14:67.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java≠ ≠(2ê
+intRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¨	 ¨(«
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getNumJSFrames()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∞ ∞("
+isFinalfalse"à
+declarationStrings<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getNumJSFrames</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getNumJSFrames2Ó
+hcom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacksWithBatchDispatches@70.14:70.51CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java± ±(02ê
+intRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∞	 ∞(È
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¥ ¥(!"
+isFinalfalse"é
+declarationStringy<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getExpectedNumFrames</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getExpectedNumFrames2Õ
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getTotalTimeMS()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaµ µ('2Ì
+gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?totalTimeMS@181.11:181.22CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂  ∂(+2‹
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?EXPECTED_FRAME_TIME@58.30:58.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂. ∂(A2Ô
+icom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?expectedFrames@182.8:182.22CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∑ ∑(2Ù
+gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?totalTimeMS@181.11:181.22DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaµ µ(2ˆ
+icom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?expectedFrames@182.8:182.22DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂ ∂(2ê
+intRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java¥	 ¥(õ
+gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?totalTimeMS@181.11:181.22VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaµ µ("
+typedouble"
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">totalTimeMS</mark> = getTotalTimeMS()*totalTimeMS2å
+doubleTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaµ µ(
+2Õ
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getTotalTimeMS()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaµ µ('‘
+icom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?expectedFrames@182.8:182.22VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂ ∂("
+typeint"
+isFinalfalse"‘
+declarationStringæ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">expectedFrames</mark> = (<mark class="modifier">int</mark>) (totalTimeMS / EXPECTED_FRAME_TIME + 1)*expectedFrames2â
+intTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂ ∂(2Ì
+gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getExpectedNumFrames()?totalTimeMS@181.11:181.22CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂  ∂(+2‹
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?EXPECTED_FRAME_TIME@58.30:58.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∂. ∂(A 
+Ncom.facebook.react.modules.debug.FpsDebugFrameCallback.get4PlusFrameStutters()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∫ ∫(""
+isFinalfalse"è
+declarationStringz<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">get4PlusFrameStutters</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*get4PlusFrameStutters2‹
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaª ª(2ê
+intRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∫	 ∫(ã
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getTotalTimeMS()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaæ æ("
+isFinalfalse"à
+declarationStrings<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getTotalTimeMS</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getTotalTimeMS2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaø ø()2ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaø, ø(;2ê
+intRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaæ	 æ(ƒ
+Gcom.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∆ ∆(%"
+isFinalfalse"∆
+declarationString∞<mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>FpsInfo <mark class="method">getFpsInfo</mark>(<mark class="modifier">long</mark> upToTimeMs)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeFpsInfo*
+getFpsInfo2•
+java.util.TreeMap.floorEntry(K)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java»4 »(>2§
+java.util.Map.Entry.getValue()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÃ Ã(2”
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java« «('2”
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java») »(32ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)!upToTimeMsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java»? »(I2Â
+_com.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)?bestEntry@200.29:200.38CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java… …(2Â
+_com.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)?bestEntry@200.29:200.38CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaÃ Ã(2›
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)!upToTimeMs	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∆+ ∆(52Ï
+_com.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)?bestEntry@200.29:200.38DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java» »(&2À
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfoRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∆ ∆(¨
+_com.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)?bestEntry@200.29:200.38VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java» »(&" 
+typeMap.Entry<Long, FpsInfo>"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>Map.Entry<Long, FpsInfo> <mark class="class-field">bestEntry</mark> = mTimeToFps.floorEntry(upToTimeMs)*	bestEntry2ô
+java.util.Map.EntryTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java» »(2ù
+java.lang.LongTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java» »(2Õ
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfoTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java» »(2•
+java.util.TreeMap.floorEntry(K)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java»4 »(>2”
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java») »(32ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)!upToTimeMsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java»? »(I⁄
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback.getFpsInfo(long)!upToTimeMs	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∆+ ∆(5"
+typelong"
+isFinalfalse"B
+declarationString-<mark class="modifier">long</mark> upToTimeMs*
+upToTimeMs2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java∆& ∆(*·
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.reset()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaœ œ("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">reset</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*reset2ÿ
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java– –(2◊
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java— —(2€
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacks@67.14:67.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java“ “(2‹
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java” ”(2Ó
+hcom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacksWithBatchDispatches@70.14:70.51CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java‘ ‘()2Á
+acom.facebook.react.modules.debug.FpsDebugFrameCallback?mIsRecordingFpsInfoAtEachFrame@71.18:71.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java’ ’("2”
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java÷ ÷(2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaœ	 œ(¨
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?EXPECTED_FRAME_TIME@58.30:58.49VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java: :(1"
+isFinaltrue"
+typedouble"Ê
+declarationString–<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">EXPECTED_FRAME_TIME</mark> = 16.9;"
+isStatictrue"
+accessprivate*EXPECTED_FRAME_TIME2ä
+doubleTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java: :(¯
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mChoreographer@60.40:60.54VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java<( <(6"
+isFinalfalse"
+typeChoreographerCompat"~
+declarationStringi<mark class="modifier">private </mark>ChoreographerCompat <mark class="class-field">mChoreographer</mark>"
+isStaticfalse"
+accessprivate*mChoreographer2∑
+3com.facebook.react.modules.core.ChoreographerCompatTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java< <('¸
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback?mReactContext@61.29:61.42VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java= =(*"
+isFinaltrue"
+typeReactContext"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactContext <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2™
+&com.facebook.react.bridge.ReactContextTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java= =(ë
+Scom.facebook.react.modules.debug.FpsDebugFrameCallback?mUIManagerModule@62.32:62.48VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java>  >(0"
+isFinaltrue"
+typeUIManagerModule"°
+declarationStringã<mark class="modifier">private </mark><mark class="modifier">final </mark>UIManagerModule <mark class="class-field">mUIManagerModule</mark>"
+isStaticfalse"
+accessprivate*mUIManagerModule2∞
+,com.facebook.react.uimanager.UIManagerModuleTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java> >(˚
+dcom.facebook.react.modules.debug.FpsDebugFrameCallback?mDidJSUpdateUiDuringFrameDetector@63.49:63.82VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java?1 ?(R"
+isFinaltrue"(
+type DidJSUpdateUiDuringFrameDetector"√
+declarationString≠<mark class="modifier">private </mark><mark class="modifier">final </mark>DidJSUpdateUiDuringFrameDetector <mark class="class-field">mDidJSUpdateUiDuringFrameDetector</mark>"
+isStaticfalse"
+accessprivate*!mDidJSUpdateUiDuringFrameDetector2≈
+Acom.facebook.react.modules.debug.DidJSUpdateUiDuringFrameDetectorTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java? ?(0”
+Rcom.facebook.react.modules.debug.FpsDebugFrameCallback?mFirstFrameTime@65.15:65.30VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaA A("
+isFinalfalse"
+typelong"î
+declarationString<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mFirstFrameTime</mark> = -1;"
+isStaticfalse"
+accessprivate*mFirstFrameTime2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaA
+ A(–
+Qcom.facebook.react.modules.debug.FpsDebugFrameCallback?mLastFrameTime@66.15:66.29VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaB B("
+isFinalfalse"
+typelong"ì
+declarationString~<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mLastFrameTime</mark> = -1;"
+isStaticfalse"
+accessprivate*mLastFrameTime2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaB
+ B(Ÿ
+Ucom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacks@67.14:67.32VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaC C( "
+isFinalfalse"
+typeint"ñ
+declarationStringÄ<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mNumFrameCallbacks</mark> = 0;"
+isStaticfalse"
+accessprivate*mNumFrameCallbacks2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaC
+ C(Â
+Ycom.facebook.react.modules.debug.FpsDebugFrameCallback?mExpectedNumFramesPrev@68.14:68.36VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaD D($"
+isFinalfalse"
+typeint"ö
+declarationStringÑ<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mExpectedNumFramesPrev</mark> = 0;"
+isStaticfalse"
+accessprivate*mExpectedNumFramesPrev2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaD
+ D(‹
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback?m4PlusFrameStutters@69.14:69.33VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaE E(!"
+isFinalfalse"
+typeint"ó
+declarationStringÅ<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">m4PlusFrameStutters</mark> = 0;"
+isStaticfalse"
+accessprivate*m4PlusFrameStutters2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaE
+ E(í
+hcom.facebook.react.modules.debug.FpsDebugFrameCallback?mNumFrameCallbacksWithBatchDispatches@70.14:70.51VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaF F(3"
+isFinalfalse"
+typeint"©
+declarationStringì<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mNumFrameCallbacksWithBatchDispatches</mark> = 0;"
+isStaticfalse"
+accessprivate*%mNumFrameCallbacksWithBatchDispatches2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaF
+ F(´
+acom.facebook.react.modules.debug.FpsDebugFrameCallback?mIsRecordingFpsInfoAtEachFrame@71.18:71.48VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaG G(0"
+isFinalfalse"
+typeboolean"»
+declarationString≤<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mIsRecordingFpsInfoAtEachFrame</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mIsRecordingFpsInfoAtEachFrame2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaG
+ G(º
+Mcom.facebook.react.modules.debug.FpsDebugFrameCallback?mTimeToFps@72.43:72.53VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaH+ H(5"
+isFinalfalse"
+typeTreeMap<Long, FpsInfo>"}
+declarationStringh<mark class="modifier">private </mark>TreeMap<Long, FpsInfo> <mark class="class-field">mTimeToFps</mark>"
+isStaticfalse"
+accessprivate*
+mTimeToFps2ï
+java.util.TreeMapTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaH H(2À
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfoTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaH H( 2õ
+java.lang.LongTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.javaH" H()Ü
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfoCLASSz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java ("A
+package6com.facebook.react.modules.debug.FpsDebugFrameCallback"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"e
+declarationStringP<mark class="modifier">public </mark><mark class="modifier">class </mark>FpsInfo"
+accesspublic*FpsInfo2˙
+ocom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java( ((2·
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalFrames@32.21:32.32DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java   ( 2„
+Xcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalJsFrames@33.21:33.34DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java! !("2È
+^com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalExpectedFrames@34.21:34.40DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java" "((2Ì
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?total4PlusFrameStutters@35.21:35.44DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java# #(,2Ÿ
+Ncom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?fps@36.24:36.27DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java$ $(2€
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?jsFps@37.24:37.29DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java% %(2·
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalTimeMs@38.21:38.32DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java& &( ’2
+ocom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java( (("ù
+declarationStringá<mark class="modifier">public </mark><mark class="method">FpsInfo</mark>(<mark class="modifier">int</mark> totalFrames<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> totalJsFrames<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> totalExpectedFrames<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> total4PlusFrameStutters<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">double</mark> fps<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">double</mark> jsFps<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> totalTimeMs)*FpsInfo2ˇ
+{com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalFramesCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java0 0($2Å
+}com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalJsFramesCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java1 1((2à
+Écom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalExpectedFramesCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java2! 2(42å
+ácom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!total4PlusFrameStuttersCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java3% 3(<2˜
+scom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!fpsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java4 4(2˘
+ucom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!jsFpsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java5 5(2ˇ
+{com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalTimeMsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java6 6($2⁄
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalFrames@32.21:32.32CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java0 0(2‹
+Xcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalJsFrames@33.21:33.34CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java1 1(2‚
+^com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalExpectedFrames@34.21:34.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java2 2(2Ê
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?total4PlusFrameStutters@35.21:35.44CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java3 3("2“
+Ncom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?fps@36.24:36.27CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java4 4(2‘
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?jsFps@37.24:37.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java5 5(2⁄
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalTimeMs@38.21:38.32CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java6 6(2Ñ
+{com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalFrames	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java) )(2Ü
+}com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalJsFrames	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java* *(2ç
+Écom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalExpectedFrames	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java+ +(2ë
+ácom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!total4PlusFrameStutters	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java, ,(#2¸
+scom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!fps	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java- -(2˛
+ucom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!jsFps	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java. .(2Ñ
+{com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalTimeMs	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java/ /(2…
+>com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfoRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java( ((˛
+{com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalFrames	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java) )("
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> totalFrames*totalFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java) )(Ñ
+}com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalJsFrames	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java* *("
+typeint"
+isFinalfalse"D
+declarationString/<mark class="modifier">int</mark> totalJsFrames*totalJsFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java* *(ó
+Écom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalExpectedFrames	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java+ +("
+typeint"
+isFinalfalse"J
+declarationString5<mark class="modifier">int</mark> totalExpectedFrames*totalExpectedFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java+ +(£
+ácom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!total4PlusFrameStutters	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java, ,(#"
+typeint"
+isFinalfalse"N
+declarationString9<mark class="modifier">int</mark> total4PlusFrameStutters*total4PlusFrameStutters2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java, ,(Ô
+scom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!fps	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java- -("
+typedouble"
+isFinalfalse"=
+declarationString(<mark class="modifier">double</mark> fps*fps2ä
+doubleTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java- -(ı
+ucom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!jsFps	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java. .("
+typedouble"
+isFinalfalse"?
+declarationString*<mark class="modifier">double</mark> jsFps*jsFps2ä
+doubleTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java. .(˛
+{com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo.FpsInfo(int, int, int, int, double, double, int)!totalTimeMs	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java/ /("
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> totalTimeMs*totalTimeMs2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java/ /(Â
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalFrames@32.21:32.32VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java   ( "
+isFinaltrue"
+typeint"≠
+declarationStringó<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">totalFrames</mark>"
+isStaticfalse"
+accesspublic*totalFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java   (Î
+Xcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalJsFrames@33.21:33.34VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java! !(""
+isFinaltrue"
+typeint"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">totalJsFrames</mark>"
+isStaticfalse"
+accesspublic*totalJsFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java! !(˝
+^com.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalExpectedFrames@34.21:34.40VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java" "(("
+isFinaltrue"
+typeint"µ
+declarationStringü<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">totalExpectedFrames</mark>"
+isStaticfalse"
+accesspublic*totalExpectedFrames2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java" "(â
+bcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?total4PlusFrameStutters@35.21:35.44VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java# #(,"
+isFinaltrue"
+typeint"π
+declarationString£<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">total4PlusFrameStutters</mark>"
+isStaticfalse"
+accesspublic*total4PlusFrameStutters2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java# #(÷
+Ncom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?fps@36.24:36.27VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java$ $("
+isFinaltrue"
+typedouble"®
+declarationStringí<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">fps</mark>"
+isStaticfalse"
+accesspublic*fps2ä
+doubleTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java$ $(‹
+Pcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?jsFps@37.24:37.29VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java% %("
+isFinaltrue"
+typedouble"™
+declarationStringî<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">jsFps</mark>"
+isStaticfalse"
+accesspublic*jsFps2ä
+doubleTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java% %(Â
+Vcom.facebook.react.modules.debug.FpsDebugFrameCallback.FpsInfo?totalTimeMs@38.21:38.32VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java& &( "
+isFinaltrue"
+typeint"≠
+declarationStringó<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">totalTimeMs</mark>"
+isStaticfalse"
+accesspublic*totalTimeMs2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/debug/FpsDebugFrameCallback.java& &(

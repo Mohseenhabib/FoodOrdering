@@ -1,0 +1,828 @@
+
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∏!
+8com.facebook.react.modules.permissions.PermissionsModuleCLASS|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java ("1
+package&com.facebook.react.modules.permissions"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Õ
+declarationString∑<mark class="annotation">@ReactModule(name = NativePermissionsAndroidSpec.NAME)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>PermissionsModule<mark class="modifier"> extends </mark>NativePermissionsAndroidSpec<mark class="modifier"><br>implements </mark>PermissionListener"
+accesspublic*PermissionsModule2ä
+}com.facebook.react.modules.permissions.PermissionsModule.PermissionsModule(com.facebook.react.bridge.ReactApplicationContext)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java'	 '(2ä
+}com.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1 1(2†
+ícom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaE E(22å
+com.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY Y(2Ø
+ücom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜ Ü((2Ç
+scom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java« «(+2‰
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java÷" ÷(<2Ë
+[com.facebook.react.modules.permissions.PermissionsModule?ERROR_INVALID_ACTIVITY@32.30:32.52DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java   (42‹
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java!& !(02ﬁ
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java" "(2Ÿ
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java# #(2ÿ
+Kcom.facebook.react.modules.permissions.PermissionsModule?DENIED@36.23:36.29DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java$ $(2·
+Tcom.facebook.react.modules.permissions.PermissionsModule?NEVER_ASK_AGAIN@37.23:37.38DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java% %(&2∫
+2com.facebook.react.modules.core.PermissionListenerEXTEND|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaO (a2§
+NativePermissionsAndroidSpecEXTEND|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java' (C˙
+
+}com.facebook.react.modules.permissions.PermissionsModule.PermissionsModule(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTOR|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java'	 '("ç
+declarationStringx<mark class="modifier">public </mark><mark class="method">PermissionsModule</mark>(ReactApplicationContext reactContext)*PermissionsModule2ë
+äcom.facebook.react.modules.permissions.PermissionsModule.PermissionsModule(com.facebook.react.bridge.ReactApplicationContext)!reactContextCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java(
+ ((2’
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java) )(2ñ
+äcom.facebook.react.modules.permissions.PermissionsModule.PermissionsModule(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java'3 '(?2≈
+8com.facebook.react.modules.permissions.PermissionsModuleRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java'	 '(Ã
+äcom.facebook.react.modules.permissions.PermissionsModule.PermissionsModule(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java'3 '(?"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2∑
+1com.facebook.react.bridge.ReactApplicationContextTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java' '(2˜
+}com.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1 1("
+isFinalfalse"£
+declarationStringç<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">checkPermission</mark>(final String permission<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*checkPermission2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java4 4(2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java9 9(2å
+Öcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java4 4(2ò
+ëcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@50.12:50.19CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java5
+ 5(2è
+àcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java5" 5(,2å
+Öcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java9 9(2ò
+ëcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@50.12:50.19CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java9 9(2è
+àcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java90 9(:2î
+àcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!permission	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1+ 1(52ë
+Öcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1E 1(L2ü
+ëcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@50.12:50.19DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java2 2(2ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1	 1(ˇ
+ëcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@50.12:50.19VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java2 2("
+typeContext"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>Context <mark class="class-field">context</mark> = getReactApplicationContext().getBaseContext()*context2ù
+android.content.ContextTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java2 2(Ç
+àcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!permission	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1+ 1(5"
+typeString"
+isFinaltrue"&
+declarationStringString permission*
+permission2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1$ 1(*å
+Öcom.facebook.react.modules.permissions.PermissionsModule.checkPermission(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1E 1(L"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2ß
+!com.facebook.react.bridge.PromiseTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java1= 1(D∆#
+ícom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaE E(2"
+isFinalfalse"∏
+declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">shouldShowRequestPermissionRationale</mark>(final String permission<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*$shouldShowRequestPermissionRationale2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaG G(2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaK K(2Ù
+ncom.facebook.react.modules.core.PermissionAwareActivity.shouldShowRequestPermissionRationale(java.lang.String)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaL' L(K2€
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaL
+ L($2’
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaN N(2°
+öcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaG G(2°
+öcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaK K(2§
+ùcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaLL L(V2°
+öcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaN N(2·
+[com.facebook.react.modules.permissions.PermissionsModule?ERROR_INVALID_ACTIVITY@32.30:32.52CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaN N(+2ß
+†com.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)?e@77.35:77.36CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaN- N(.2©
+ùcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!permission	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaE@ E(J2¶
+öcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaEZ E(a2Æ
+†com.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)?e@77.35:77.36DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaM# M($2ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaE	 E(ó
+ùcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!permission	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaE@ E(J"
+typeString"
+isFinaltrue"&
+declarationStringString permission*
+permission2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaE9 E(?°
+öcom.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaEZ E(a"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2ß
+!com.facebook.react.bridge.PromiseTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaER E(Yµ
+†com.facebook.react.modules.permissions.PermissionsModule.shouldShowRequestPermissionRationale(java.lang.String, com.facebook.react.bridge.Promise)?e@77.35:77.36VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaM# M($"
+typeIllegalStateException"
+isFinalfalse",
+declarationStringIllegalStateException e*e2•
+java.lang.IllegalStateExceptionTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaM M("—a
+com.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY Y("
+isFinalfalse"•
+declarationStringè<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">requestPermission</mark>(final String permission<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*requestPermission2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java\ \(2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javad d(2€
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javai) i(C2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javar r(2Ù
+ncom.facebook.react.modules.core.PermissionAwareActivity.shouldShowRequestPermissionRationale(java.lang.String)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javau u(A2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javav v(!2¡
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javax x(!2◊
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÅ Å(2ü
+òcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-abd95973-da92-41e9-b0da-7f792c3cda31.Anonymous-abd95973-da92-41e9-b0da-7f792c3cda31()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javam m(2é
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java\ \(2ö
+ìcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@90.12:90.19CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java]
+ ](2ë
+äcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java]" ](,2“
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java_ _(2—
+Kcom.facebook.react.modules.permissions.PermissionsModule?DENIED@36.23:36.29CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java` `(2ö
+ìcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@90.12:90.19CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javac c(2ë
+äcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javac$ c(.2é
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javad d(2“
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javad d(2’
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javak k(2◊
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javal
+ l(2è
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-85ac18b5-c497-4462-bc54-06152d91249f.invoke(java.lang.Object...)!argsCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javap& p(*2†
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-ca1a7208-aa12-4782-afcc-4f21471ed113.invoke(java.lang.Object...)?results@112.20:112.27CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaq q(2†
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-1eda03b0-262e-4d8f-9480-01a17b9decd3.invoke(java.lang.Object...)?results@112.20:112.27CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaq( q(/2é
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javar r(2“
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javar  r('2è
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-be3c3235-8a2e-47cb-a0a6-900ba457bb56.invoke(java.lang.Object...)!argsCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javatM t(Q2°
+öcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-536386fd-54d0-450e-a908-42ae72b32c3d.invoke(java.lang.Object...)?activity@116.40:116.48CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javau u(2ë
+äcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javauB u(L2é
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javav v(2—
+Kcom.facebook.react.modules.permissions.PermissionsModule?DENIED@36.23:36.29CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javav" v((2é
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javax x(2⁄
+Tcom.facebook.react.modules.permissions.PermissionsModule?NEVER_ASK_AGAIN@37.23:37.38CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javax" x(12ù
+ñcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?activity@105.30:105.38CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java~ ~(2ë
+äcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!permissionCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java~0 ~(:2◊
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java~= ~(I2◊
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java (2ê
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÅ Å(2„
+[com.facebook.react.modules.permissions.PermissionsModule?ERROR_INVALID_ACTIVITY@32.30:32.52CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÅ Å(+2ò
+ècom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?e@128.35:128.36CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÅ- Å(.2ñ
+äcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!permission	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY- Y(72ì
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaYG Y(N2°
+ìcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@90.12:90.19DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaZ Z(2§
+ñcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?activity@105.30:105.38DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javai i(&2ß
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-2c70d28f-2d3a-46c3-bc99-4f943d8db303.invoke(java.lang.Object...)?results@112.20:112.27DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javap p(2®
+öcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-16f461e3-9d05-47aa-9415-65b6b869c9a3.invoke(java.lang.Object...)?activity@116.40:116.48DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javat( t(02ü
+ècom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?e@128.35:128.36DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÄ# Ä($2ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY	 Y(Å
+ìcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?context@90.12:90.19VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaZ Z("
+typeContext"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>Context <mark class="class-field">context</mark> = getReactApplicationContext().getBaseContext()*context2ù
+android.content.ContextTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaZ Z(ì
+ñcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?activity@105.30:105.38VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javai i(&"
+typePermissionAwareActivity"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>PermissionAwareActivity <mark class="class-field">activity</mark> = getPermissionAwareActivity()*activity2Ω
+7com.facebook.react.modules.core.PermissionAwareActivityTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javai i(2€
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javai) i(C†
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-1c693797-cedc-458c-81a6-51313c813908.invoke(java.lang.Object...)?results@112.20:112.27VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javap p("
+typeint"
+isFinalfalse"±
+declarationStringõ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">results</mark> = (<mark class="modifier">int</mark>[]) args[0]*results2ã
+int[]TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javap p(2è
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-722c9c37-50bd-4d71-863d-39ceda200cda.invoke(java.lang.Object...)!argsCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javap& p(*—
+öcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-e00fec74-d8bc-4bfc-be2d-ee858c6189e3.invoke(java.lang.Object...)?activity@116.40:116.48VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javat( t(0"
+typePermissionAwareActivity"
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier"> </mark>PermissionAwareActivity <mark class="class-field">activity</mark> = (PermissionAwareActivity) args[1]*activity2Ω
+7com.facebook.react.modules.core.PermissionAwareActivityTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javat t('2è
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-50718d63-f693-4b7c-8c53-8737398a67bd.invoke(java.lang.Object...)!argsCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javatM t(QÑ
+äcom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!permission	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY- Y(7"
+typeString"
+isFinaltrue"&
+declarationStringString permission*
+permission2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY& Y(,é
+ácom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaYG Y(N"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2ß
+!com.facebook.react.bridge.PromiseTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaY? Y(F˘
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-69b4a8b9-b0d9-4431-8952-f95bd8cd322d.invoke(java.lang.Object...)!args	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javao) o(-"
+typeObject"
+isFinalfalse" 
+declarationStringObject args*args2ò
+java.lang.Object[]TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javao o(%®
+ècom.facebook.react.modules.permissions.PermissionsModule.requestPermission(java.lang.String, com.facebook.react.bridge.Promise)?e@128.35:128.36VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÄ# Ä($"
+typeIllegalStateException"
+isFinalfalse",
+declarationStringIllegalStateException e*e2ß
+java.lang.IllegalStateExceptionTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÄ Ä("‘ 
+ücom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)METHOD~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜ Ü(("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">requestMultiplePermissions</mark>(final ReadableArray permissions<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*requestMultiplePermissions2∂
+.com.facebook.react.bridge.ReadableArray.size()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç$ ç((2æ
+6com.facebook.react.bridge.ReadableArray.getString(int)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé  é()2€
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaë ë($2€
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaô ô($2¢
+java.util.ArrayList.add(E)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaú ú(2∂
+.com.facebook.react.bridge.ReadableArray.size()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaü ü(2√
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java† †(2›
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java•) •(C2¢
+java.util.ArrayList.size()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ5 Æ(92§
+java.util.ArrayList.get(int)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ7 Ø(:2€
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java±% ±(.2ˆ
+ncom.facebook.react.modules.core.PermissionAwareActivity.shouldShowRequestPermissionRationale(java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≥ ≥(C2€
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¥' ¥(02€
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∂' ∂(02√
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∫ ∫(2®
+ java.util.ArrayList.toArray(T[])CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaæ5 æ(<2◊
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¡ ¡(2«
+?com.facebook.react.bridge.WritableNativeMap.WritableNativeMap()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaá/ á(@2ß
+java.util.ArrayList.ArrayList()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaà5 à(F2°
+òcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-c83df0e4-0014-42a5-9c95-5d2c075f25a1.Anonymous-c83df0e4-0014-42a5-9c95-5d2c075f25a1()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java© ©(2∏
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?i@141.13:141.14CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç ç(2¥
+´com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!permissionsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç ç(#2∏
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?i@141.13:141.14CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç, ç(-2¥
+´com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!permissionsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé é(2∏
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?i@141.13:141.14CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé* é(+2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaë ë(2ª
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaí í(2æ
+µcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?context@139.12:139.19CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaì ì(2ª
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaì$ ì((2‘
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaï ï(2”
+Kcom.facebook.react.modules.permissions.PermissionsModule?DENIED@36.23:36.29CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javañ ñ(2Õ
+ƒcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?checkedPermissionsCount@137.8:137.31CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaó ó(2æ
+µcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?context@139.12:139.19CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaò ò(2ª
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaò- ò(12…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaô ô(2ª
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaô% ô()2‘
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaô+ ô(22Õ
+ƒcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?checkedPermissionsCount@137.8:137.31CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaö ö(2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaú ú(2ª
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaú ú(#2¥
+´com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!permissionsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaü ü(2Õ
+ƒcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?checkedPermissionsCount@137.8:137.31CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaü ü(52∞
+ßcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promiseCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java† †(2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java† †((2◊
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaß ß(2Ÿ
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java®
+ ®(2ë
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-927d1771-06ff-4996-8546-9636d4c0be47.invoke(java.lang.Object...)!argsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¨& ¨(*2ë
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-f62043db-b46a-43a1-92ed-fbda0e72718f.invoke(java.lang.Object...)!argsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≠K ≠(O2ú
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-ccf6012b-cc98-44f3-80cf-b39ab526adf4.invoke(java.lang.Object...)?j@174.23:174.24CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ Æ(2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ" Æ(42ú
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-7cfa1d51-b3e1-4ce9-a47a-75bc3645c6d4.invoke(java.lang.Object...)?j@174.23:174.24CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ= Æ(>2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ$ Ø(62ú
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-89166f2d-0f8f-439b-98d6-a68c9eda2afc.invoke(java.lang.Object...)?j@174.23:174.24CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ; Ø(<2¢
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-ecb1066d-bd43-41c5-be3a-7aa651105b60.invoke(java.lang.Object...)?results@172.20:172.27CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∞ ∞(2¢
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-59b2d16b-dc01-4acf-b9b6-ba9b97a0ef23.invoke(java.lang.Object...)?results@172.20:172.27CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∞* ∞(12ú
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-f4d9fdb4-4a87-4c7e-8043-2db9b85622f7.invoke(java.lang.Object...)?j@174.23:174.24CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∞2 ∞(32…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java± ±($2•
+úcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-b1da3097-382a-4834-bc30-2413901d83bc.invoke(java.lang.Object...)?permission@175.23:175.33CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java±/ ±(92‘
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java±; ±(B2£
+öcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-c92f60e5-a955-4666-a8ea-cc7afb9dc85a.invoke(java.lang.Object...)?activity@173.38:173.46CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≥ ≥(2•
+úcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-47ead42a-969d-4f21-9693-760bddfb8cd1.invoke(java.lang.Object...)?permission@175.23:175.33CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≥D ≥(N2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¥ ¥(&2•
+úcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-18c29575-925c-4659-800d-b94bb596052a.invoke(java.lang.Object...)?permission@175.23:175.33CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¥1 ¥(;2”
+Kcom.facebook.react.modules.permissions.PermissionsModule?DENIED@36.23:36.29CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¥= ¥(C2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∂ ∂(&2•
+úcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-81a5fabe-80c4-4a65-af76-396141e1a97f.invoke(java.lang.Object...)?permission@175.23:175.33CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∂1 ∂(;2‹
+Tcom.facebook.react.modules.permissions.PermissionsModule?NEVER_ASK_AGAIN@37.23:37.38CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∂= ∂(L2∞
+ßcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promiseCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∫ ∫(2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java∫ ∫(02ø
+∂com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?activity@165.30:165.38CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaæ æ(2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaæ" æ(42Ÿ
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaæM æ(Y2Ÿ
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaø ø(2∞
+ßcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promiseCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¡ ¡(2„
+[com.facebook.react.modules.permissions.PermissionsModule?ERROR_INVALID_ACTIVITY@32.30:32.52CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¡ ¡(+2∏
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?e@192.35:192.36CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¡- ¡(.2π
+´com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!permissions	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜ= Ü(H2µ
+ßcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promise	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜX Ü(_2–
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaá á((2–
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaà à(.2‘
+ƒcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?checkedPermissionsCount@137.8:137.31DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaâ â(2≈
+µcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?context@139.12:139.19DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaã ã(2ø
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?i@141.13:141.14DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç ç(2¬
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé é(2∆
+∂com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?activity@165.30:165.38DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java• •(&2©
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-33ebdd26-4aa5-4809-80c3-3bd9571688b1.invoke(java.lang.Object...)?results@172.20:172.27DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¨ ¨(2™
+öcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-18b15e41-09ca-47aa-b213-6788d8859933.invoke(java.lang.Object...)?activity@173.38:173.46DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≠& ≠(.2£
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-c76a741d-6407-454a-8270-7b0308c1f132.invoke(java.lang.Object...)?j@174.23:174.24DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ Æ(2¨
+úcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-5bb5dc0f-95a1-4821-95eb-ac7bd5996b33.invoke(java.lang.Object...)?permission@175.23:175.33DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ Ø(!2ø
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?e@192.35:192.36DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¿# ¿($2ì
+voidRETURN_TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜ	 Ü(≥
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?grantedPermissions@135.22:135.40VALUE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaá á(("
+typeWritableMap"
+isFinaltrue"≤
+declarationStringú<mark class="modifier"> </mark><mark class="modifier">final </mark>WritableMap <mark class="class-field">grantedPermissions</mark> = new WritableNativeMap()*grantedPermissions2≠
+%com.facebook.react.bridge.WritableMapTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaá
+ á(2«
+?com.facebook.react.bridge.WritableNativeMap.WritableNativeMap()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaá/ á(@±
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46VALUE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaà à(."
+typeArrayList<String>"
+isFinaltrue"∏
+declarationString¢<mark class="modifier"> </mark><mark class="modifier">final </mark>ArrayList<String> <mark class="class-field">permissionsToCheck</mark> = new ArrayList<String>()*permissionsToCheck2õ
+java.util.ArrayListTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaà
+ à(2°
+java.lang.StringTYPE_ARGUMENT~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaà à(2ß
+java.util.ArrayList.ArrayList()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaà5 à(F¨
+ƒcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?checkedPermissionsCount@137.8:137.31VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaâ â("
+typeint"
+isFinalfalse"í
+declarationString}<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">checkedPermissionsCount</mark> = 0*checkedPermissionsCount2ã
+intTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaâ â(ß
+µcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?context@139.12:139.19VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaã ã("
+typeContext"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>Context <mark class="class-field">context</mark> = getReactApplicationContext().getBaseContext()*context2ü
+android.content.ContextTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaã ã(Í
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?i@141.13:141.14VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç ç("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ã
+intTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaç	 ç(≤
+≤com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?perm@142.13:142.17VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé é("
+typeString"
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark>String <mark class="class-field">perm</mark> = permissions.getString(i)*perm2ò
+java.lang.StringTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé é(2æ
+6com.facebook.react.bridge.ReadableArray.getString(int)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé  é()2¥
+´com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!permissionsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé é(2∏
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?i@141.13:141.14CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaé* é(+π
+∂com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?activity@165.30:165.38VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java• •(&"
+typePermissionAwareActivity"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>PermissionAwareActivity <mark class="class-field">activity</mark> = getPermissionAwareActivity()*activity2ø
+7com.facebook.react.modules.core.PermissionAwareActivityTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java• •(2›
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java•) •(C¶
+ôcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-8111695e-7d12-49b8-965b-5f9034b4ee30.invoke(java.lang.Object...)?results@172.20:172.27VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¨ ¨("
+typeint"
+isFinalfalse"±
+declarationStringõ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">results</mark> = (<mark class="modifier">int</mark>[]) args[0]*results2ç
+int[]TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¨ ¨(2ë
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-48994002-d744-49b6-a7e7-233ea43da27d.invoke(java.lang.Object...)!argsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¨& ¨(*◊
+öcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-9683de4f-dcbb-4af7-8c5f-f071960de88e.invoke(java.lang.Object...)?activity@173.38:173.46VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≠& ≠(."
+typePermissionAwareActivity"
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier"> </mark>PermissionAwareActivity <mark class="class-field">activity</mark> = (PermissionAwareActivity) args[1]*activity2ø
+7com.facebook.react.modules.core.PermissionAwareActivityTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≠ ≠(%2ë
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-c851cb55-73a5-4e9e-951b-46ae93551d8e.invoke(java.lang.Object...)!argsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java≠K ≠(OŒ
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-42612726-6a13-4a5e-b684-40ab53f32541.invoke(java.lang.Object...)?j@174.23:174.24VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ Æ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">j</mark> = 0*j2ã
+intTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÆ Æ(â
+úcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-dbe206da-9591-46a0-9ea8-f6e6a3932cd7.invoke(java.lang.Object...)?permission@175.23:175.33VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ Ø(!"
+typeString"
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark>String <mark class="class-field">permission</mark> = permissionsToCheck.get(j)*
+permission2ò
+java.lang.StringTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ Ø(2§
+java.util.ArrayList.get(int)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ7 Ø(:2…
+¿com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?permissionsToCheck@136.28:136.46CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ$ Ø(62ú
+ìcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-4453c712-7cad-4f15-9092-061b2f3c5288.invoke(java.lang.Object...)?j@174.23:174.24CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaØ; Ø(<–
+´com.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!permissions	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜ= Ü(H"
+typeReadableArray"
+isFinaltrue".
+declarationStringReadableArray permissions*permissions2Ø
+'com.facebook.react.bridge.ReadableArrayTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜ/ Ü(<≤
+ßcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promise	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜX Ü(_"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2©
+!com.facebook.react.bridge.PromiseTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÜP Ü(W˝
+àcom.facebook.react.modules.permissions.PermissionsModule.Anonymous-f2be6849-f778-4124-8515-305562cadd61.invoke(java.lang.Object...)!args	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java´) ´(-"
+typeObject"
+isFinalfalse" 
+declarationStringObject args*args2ö
+java.lang.Object[]TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java´ ´(%»
+Øcom.facebook.react.modules.permissions.PermissionsModule.requestMultiplePermissions(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)?e@192.35:192.36VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¿# ¿($"
+typeIllegalStateException"
+isFinalfalse",
+declarationStringIllegalStateException e*e2ß
+java.lang.IllegalStateExceptionTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java¿ ¿("§!
+scom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])METHOD~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java« «(+"
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">onRequestPermissionsResult</mark>(<mark class="modifier">int</mark> requestCode<mark class="modifier"><mark class="modifier">,</mark></mark> String[] permissions<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark>[] grantResults)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*onRequestPermissionsResult2›
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java 7  (Q2◊
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java   (2á
+com.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!requestCodeCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java   ( 2â
+Äcom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!grantResultsCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java )  (52◊
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÀ À(2á
+com.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!requestCodeCALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÀ À(#2◊
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÃ Ã(2å
+Écom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])?e@205.35:205.36CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java–
+ –(2˘
+mcom.facebook.react.modules.core.PermissionListener.onRequestPermissionsResult(int, java.lang.String[], int[])OVERRIDE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java« «(+2å
+com.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!requestCode	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»
+ »(2å
+com.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!permissions	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»  »(+2é
+Äcom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!grantResults	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»3 »(?2ì
+Écom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])?e@205.35:205.36DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÕ# Õ($2ñ
+booleanRETURN_TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java«	 «(ä
+com.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!requestCode	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»
+ »("
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> requestCode*requestCode2ã
+intTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java» »(	Ö
+com.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!permissions	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»  »(+"
+typeString[]"
+isFinalfalse")
+declarationStringString[] permissions*permissions2ö
+java.lang.String[]TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java» »(î
+Äcom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])!grantResults	PARAMETER~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»3 »(?"
+typeint[]"
+isFinalfalse"E
+declarationString0<mark class="modifier">int</mark>[] grantResults*grantResults2ç
+int[]TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java»- »(2ú
+Écom.facebook.react.modules.permissions.PermissionsModule.onRequestPermissionsResult(int, java.lang.String[], int[])?e@205.35:205.36VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÕ# Õ($"
+typeIllegalStateException"
+isFinalfalse",
+declarationStringIllegalStateException e*e2ß
+java.lang.IllegalStateExceptionTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÕ Õ("«
+Ucom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()METHOD~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java÷" ÷(<"
+isFinalfalse"ã
+declarationStringv<mark class="modifier">private </mark>PermissionAwareActivity <mark class="method">getPermissionAwareActivity</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typePermissionAwareActivity*getPermissionAwareActivity2œ
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaŸ Ÿ(%2œ
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java‹ ‹(%2Ù
+lcom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()?activity@215.13:215.21CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.javaÿ ÿ(2Ù
+lcom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()?activity@215.13:215.21CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java€ €(2Ù
+lcom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()?activity@215.13:215.21CALL~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java‡% ‡(-2˚
+lcom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()?activity@215.13:215.21DECLARATION~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java◊ ◊(2∆
+7com.facebook.react.modules.core.PermissionAwareActivityRETURN_TYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java÷
+ ÷(!ƒ
+lcom.facebook.react.modules.permissions.PermissionsModule.getPermissionAwareActivity()?activity@215.13:215.21VARIABLE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java◊ ◊("
+typeActivity"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>Activity <mark class="class-field">activity</mark> = getCurrentActivity()*activity2ú
+android.app.ActivityTYPE~
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java◊ ◊(∑
+[com.facebook.react.modules.permissions.PermissionsModule?ERROR_INVALID_ACTIVITY@32.30:32.52VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java   (4"
+isFinaltrue"
+typeString"€
+declarationString≈<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">ERROR_INVALID_ACTIVITY</mark> = "E_INVALID_ACTIVITY";"
+isStatictrue"
+accessprivate*ERROR_INVALID_ACTIVITY2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java   (±
+Ocom.facebook.react.modules.permissions.PermissionsModule?mCallbacks@33.38:33.48VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java!& !(0"
+isFinaltrue"
+typeSparseArray<Callback>"°
+declarationStringã<mark class="modifier">private </mark><mark class="modifier">final </mark>SparseArray<Callback> <mark class="class-field">mCallbacks</mark>"
+isStaticfalse"
+accessprivate*
+mCallbacks2û
+android.util.SparseArrayTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java! !(2±
+"com.facebook.react.bridge.CallbackTYPE_ARGUMENT|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java! !($Ã
+Qcom.facebook.react.modules.permissions.PermissionsModule?mRequestCode@34.14:34.26VARIABLE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java" "("
+isFinalfalse"
+typeint"è
+declarationStringz<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mRequestCode</mark> = 0;"
+isStaticfalse"
+accessprivate*mRequestCode2â
+intTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java"
+ "(€
+Lcom.facebook.react.modules.permissions.PermissionsModule?GRANTED@35.23:35.30VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java# #("
+isFinaltrue"
+typeString"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">GRANTED</mark> = "granted";"
+isStaticfalse"
+accessprivate*GRANTED2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java# #(◊
+Kcom.facebook.react.modules.permissions.PermissionsModule?DENIED@36.23:36.29VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java$ $("
+isFinaltrue"
+typeString"ö
+declarationStringÑ<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">DENIED</mark> = "denied";"
+isStaticfalse"
+accessprivate*DENIED2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java$ $(˚
+Tcom.facebook.react.modules.permissions.PermissionsModule?NEVER_ASK_AGAIN@37.23:37.38VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java% %(&"
+isFinaltrue"
+typeString"¨
+declarationStringñ<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">NEVER_ASK_AGAIN</mark> = "never_ask_again";"
+isStaticfalse"
+accessprivate*NEVER_ASK_AGAIN2ñ
+java.lang.StringTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/permissions/PermissionsModule.java% %(

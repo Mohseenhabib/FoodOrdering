@@ -1,0 +1,1517 @@
+
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java‰(
+9com.facebook.react.devsupport.InspectorPackagerConnectionCLASS}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java (("(
+packagecom.facebook.react.devsupport"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"y
+declarationStringd<mark class="modifier">public </mark><mark class="modifier">class </mark>InspectorPackagerConnection"
+accesspublic*InspectorPackagerConnection2ÿ
+…com.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java%	 %($2—
+Ccom.facebook.react.devsupport.InspectorPackagerConnection.connect()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java- -(2÷
+Hcom.facebook.react.devsupport.InspectorPackagerConnection.closeQuietly()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java1 1(2Û
+ecom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java5 5('2Ô
+acom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java= =(2›
+Ocom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaQ Q(2Í
+\com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaX X(2Ì
+_com.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java (2Ò
+acom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ â(!2‘
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaï ï(2˛
+ncom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶ ¶(2˜
+gcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠ ≠(2Ì
+]com.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥ ¥(&2◊
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java (!2ﬂ
+Qcom.facebook.react.devsupport.InspectorPackagerConnection?mConnection@32.27:32.38DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java   (&2È
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java!7 !(L2‡
+Rcom.facebook.react.devsupport.InspectorPackagerConnection?mPackageName@34.23:34.35DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java" "(#2È
+[com.facebook.react.devsupport.InspectorPackagerConnection?mBundleStatusProvider@35.31:35.52DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java# #(42‘
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.ConnectionDECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∫ ∫(2ﬁ
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProviderDECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaŒ Œ('Ÿ!
+…com.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)CONSTRUCTOR}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java%	 %($"µ
+declarationStringü<mark class="modifier">public </mark><mark class="method">InspectorPackagerConnection</mark>(String url<mark class="modifier"><mark class="modifier">,</mark></mark> String packageName<mark class="modifier"><mark class="modifier">,</mark></mark> BundleStatusProvider bundleStatusProvider)*InspectorPackagerConnection2Ë
+acom.facebook.react.devsupport.InspectorPackagerConnection.Connection.Connection(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java' '( 2¢
+java.util.HashMap.HashMap()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java(  (()2ÿ
+Qcom.facebook.react.devsupport.InspectorPackagerConnection?mConnection@32.27:32.38CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java' '(2’
+Õcom.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!urlCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java'! '($2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java( ((2Ÿ
+Rcom.facebook.react.devsupport.InspectorPackagerConnection?mPackageName@34.23:34.35CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java) )(2›
+’com.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!packageNameCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java) )(2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mBundleStatusProvider@35.31:35.52CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java* *(2Ê
+ﬁcom.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!bundleStatusProviderCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java* *(02⁄
+Õcom.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!url	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java& &(2‚
+’com.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!packageName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java& &($2Î
+ﬁcom.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!bundleStatusProvider	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java&; &(O2«
+9com.facebook.react.devsupport.InspectorPackagerConnectionRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java%	 %($º
+Õcom.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!url	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java& &("
+typeString"
+isFinalfalse"
+declarationString
+String url*url2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java& &(‘
+’com.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!packageName	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java& &($"
+typeString"
+isFinalfalse"'
+declarationStringString packageName*packageName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java& &(…
+ﬁcom.facebook.react.devsupport.InspectorPackagerConnection.InspectorPackagerConnection(java.lang.String, java.lang.String, com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider)!bundleStatusProvider	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java&; &(O"
+typeBundleStatusProvider"
+isFinalfalse">
+declarationString)BundleStatusProvider bundleStatusProvider*bundleStatusProvider2’
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProviderTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java&& &(:¸
+Ccom.facebook.react.devsupport.InspectorPackagerConnection.connect()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java- -("
+isFinalfalse"Ç
+declarationStringm<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">connect</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*connect2’
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java. .(2ÿ
+Qcom.facebook.react.devsupport.InspectorPackagerConnection?mConnection@32.27:32.38CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java. .(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java-	 -(â
+Hcom.facebook.react.devsupport.InspectorPackagerConnection.closeQuietly()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java1 1("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">closeQuietly</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*closeQuietly2”
+Lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.close()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java2 2(2ÿ
+Qcom.facebook.react.devsupport.InspectorPackagerConnection?mConnection@32.27:32.38CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java2 2(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java1	 1(Ì
+ecom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java5 5('"
+isFinalfalse"°
+declarationStringã<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">sendEventToAllConnections</mark>(String event)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*sendEventToAllConnections2ü
+java.util.Map.entrySet()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java7 7(&2•
+java.util.Map.Entry.getValue()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java8O 8(W2ÿ
+Qcom.facebook.react.bridge.Inspector.LocalConnection.sendMessage(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java9 9(%2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java7 7(2í
+äcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnectionEntry@54.54:54.78CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java86 8(N2ç
+Öcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnection@56.32:56.51CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java9 9(2Ú
+kcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)!eventCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java9& 9(+2˜
+kcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)!event	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java5/ 5(42ô
+äcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnectionEntry@54.54:54.78DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java66 6(N2î
+Öcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnection@56.32:56.51DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java8  8(32í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java5	 5(ú
+äcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnectionEntry@54.54:54.78VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java66 6(N"4
+type,Map.Entry<String, Inspector.LocalConnection>"
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark>Map.Entry<String, Inspector.LocalConnection> <mark class="class-field">inspectorConnectionEntry</mark>*inspectorConnectionEntry2ö
+java.util.Map.EntryTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java6 6(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java6	 6(2√
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java6 6(Å	
+Öcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnection@56.32:56.51VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java8  8(3"!
+typeInspector.LocalConnection"
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark>Inspector.LocalConnection <mark class="class-field">inspectorConnection</mark> = inspectorConnectionEntry.getValue()*inspectorConnection2∫
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java8 8(2•
+java.util.Map.Entry.getValue()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java8O 8(W2í
+äcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)?inspectorConnectionEntry@54.54:54.78CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java86 8(N›
+kcom.facebook.react.devsupport.InspectorPackagerConnection.sendEventToAllConnections(java.lang.String)!event	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java5/ 5(4"
+typeString"
+isFinalfalse"!
+declarationStringString event*event2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java5( 5(.Ö
+acom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java= =("
+isFinalfalse"¥
+declarationStringû<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">handleProxyMessage</mark>(JSONObject message)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException<mark class="modifier"><mark class="modifier">,</mark></mark> IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*handleProxyMessage2Ó
+gcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaA A(2À
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaA A(&2‘
+Mjava.lang.IllegalArgumentException.IllegalArgumentException(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaM M(*2
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!messageCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java> >(2˙
+scom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)?event@62.11:62.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java? ?(2
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!messageCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaD D("2
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!messageCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaG G(2
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!messageCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaJ J( 2˙
+scom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)?event@62.11:62.16CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaM? M(D2ı
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!message	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java=% =(,2Å
+scom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)?event@62.11:62.16DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java> >(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java= =(¥
+scom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)?event@62.11:62.16VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java> >("
+typeString"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>String <mark class="class-field">event</mark> = message.getString("event")*event2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java> >(
+2
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!messageCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java> >(Í
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)!message	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java=% =(,"
+type
+JSONObject"
+isFinalfalse"'
+declarationStringJSONObject message*message2ö
+org.json.JSONObjectTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java= =($ 
+Ocom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaQ Q("
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">closeAllConnections</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*closeAllConnections2ü
+java.util.Map.entrySet()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaRT R(\2«
+@com.facebook.react.bridge.Inspector.LocalConnection.disconnect()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaS S(!2•
+java.util.Map.Entry.getValue()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaS S(2ú
+java.util.Map.clear()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaU U(2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaR> R(S2Ë
+acom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()?entry@82.54:82.59CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaS S(2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaU U(2Ô
+acom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()?entry@82.54:82.59DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaR6 R(;2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaQ Q(À
+acom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()?entry@82.54:82.59VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaR6 R(;"4
+type,Map.Entry<String, Inspector.LocalConnection>"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark>Map.Entry<String, Inspector.LocalConnection> <mark class="class-field">entry</mark>*entry2ö
+java.util.Map.EntryTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaR R(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaR	 R(2√
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaR R(˚R
+\com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaX X("
+isFinalfalse"Ì
+declarationString◊<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">handleConnect</mark>(JSONObject payload)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*handleConnect2≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZJ Z(P2Ì
+fcom.facebook.react.bridge.Inspector.connect(int, com.facebook.react.bridge.Inspector.RemoteConnection)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javab b(2≥
+,java.lang.Integer.parseInt(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javac c(2ı
+ncom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javah h($2≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaq* q(02Ó
+gcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javar r(2‰
+]com.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javar, r(=2û
+java.util.Map.put(K, V)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javax x(2Ó
+gcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java{ {(2‰
+]com.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java{ {(/2Œ
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java\ \(%2°
+ôcom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-b33ff67f-b6b3-4dc0-ab26-2858c2ee2bff.Anonymous-b33ff67f-b6b3-4dc0-ab26-2858c2ee2bff()CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javad d(,2Î
+dcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)!payloadCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaY Y(!2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZ4 Z(I2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZQ Z(W2É
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?inspectorConnection@90.30:90.49CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java[ [(2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java\> \(D2É
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?inspectorConnection@90.30:90.49CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaa a(2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javac c(%2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javah% h(+2î
+åcom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-ae87dc71-34d6-4d27-aa0a-6421a61d8891.onMessage(java.lang.String)!messageCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javah- h(42–
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaj j(2ú
+îcom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-7b9e8847-29d5-4254-9f6f-a3fd8d762334.onMessage(java.lang.String)?e@105.41:105.42CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javajC j(D2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaq q()2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaq1 q(72ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javar> r(D2–
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javat t(2è
+ácom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-80d9bd16-66a6-4cb6-93c1-3ed435648beb.onDisconnect()?e@115.41:115.42CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javatC t(D2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javax x(2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javax  x(&2É
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?inspectorConnection@90.30:90.49CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javax( x(;2–
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaz z(2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaz, z(22Û
+lcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?e@121.23:121.24CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaz4 z(52ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java{0 {(62
+dcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)!payload	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaX( X(/2˝
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaY Y(2ä
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?inspectorConnection@90.30:90.49DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZ Z(12£
+îcom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-5df2abf5-6bf8-4c60-85ca-f732cb860d4a.onMessage(java.lang.String)?e@105.41:105.42DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javai) i(*2ñ
+ácom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-14a5cca3-940b-448a-b4d7-bf46ffaeffd7.onDisconnect()?e@115.41:115.42DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javas) s(*2˙
+lcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?e@121.23:121.24DECLARATION}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javay y(2í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaX
+ X(–
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaY Y("
+typeString"
+isFinaltrue"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">final </mark>String <mark class="class-field">pageId</mark> = payload.getString("pageId")*pageId2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaY
+ Y(2Î
+dcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)!payloadCALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaY Y(!…
+
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?inspectorConnection@90.30:90.49VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZ Z(1"!
+typeInspector.LocalConnection"
+isFinalfalse"™
+declarationStringî<mark class="modifier"> </mark>Inspector.LocalConnection <mark class="class-field">inspectorConnection</mark> = mInspectorConnections.remove(pageId)*inspectorConnection2∫
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZ Z(2≠
+&java.util.Map.remove(java.lang.Object)CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZJ Z(P2‚
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZ4 Z(I2ˆ
+ocom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?pageId@89.17:89.23CALL}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaZQ Z(WÂ
+dcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)!payload	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaX( X(/"
+type
+JSONObject"
+isFinalfalse"'
+declarationStringJSONObject payload*payload2ö
+org.json.JSONObjectTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaX X('É
+åcom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-0547b127-3225-496f-bfa4-a9fc6c7dba3e.onMessage(java.lang.String)!message	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaf- f(4"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaf& f(,í
+îcom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-066d67cd-473d-4109-9ce7-a08fef9e6582.onMessage(java.lang.String)?e@105.41:105.42VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javai) i(*"
+typeJSONException"
+isFinalfalse"$
+declarationStringJSONException e*e2ù
+org.json.JSONExceptionTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javai i((Ö
+ácom.facebook.react.devsupport.InspectorPackagerConnection.Anonymous-23b0d9d0-18f5-4836-8d8a-82529bd178d1.onDisconnect()?e@115.41:115.42VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javas) s(*"
+typeJSONException"
+isFinalfalse"$
+declarationStringJSONException e*e2ù
+org.json.JSONExceptionTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javas s((ﬁ
+lcom.facebook.react.devsupport.InspectorPackagerConnection.handleConnect(org.json.JSONObject)?e@121.23:121.24VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javay y("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ö
+java.lang.ExceptionTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javay y(„
+_com.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)METHOD}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java ("
+isFinalfalse"
+declarationString⁄<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">handleDisconnect</mark>(JSONObject payload)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*handleDisconnect2Ø
+&java.util.Map.remove(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅJ Å(P2…
+@com.facebook.react.bridge.Inspector.LocalConnection.disconnect()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÜ Ü("2
+gcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÄ Ä(!2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅ4 Å(I2˝
+tcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?pageId@128.17:128.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅQ Å(W2ã
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?inspectorConnection@129.30:129.49CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÇ Ç(2ã
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?inspectorConnection@129.30:129.49CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÜ Ü(2Û
+gcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)!payload	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java+ (22Ñ
+tcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?pageId@128.17:128.23DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÄ Ä(2í
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?inspectorConnection@129.30:129.49DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅ Å(12í
+voidRETURN_TYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java
+ (ﬁ
+tcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?pageId@128.17:128.23VALUE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÄ Ä("
+typeString"
+isFinaltrue"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">final </mark>String <mark class="class-field">pageId</mark> = payload.getString("pageId")*pageId2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÄ
+ Ä(2
+gcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÄ Ä(!ﬁ
+
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?inspectorConnection@129.30:129.49VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅ Å(1"!
+typeInspector.LocalConnection"
+isFinalfalse"™
+declarationStringî<mark class="modifier"> </mark>Inspector.LocalConnection <mark class="class-field">inspectorConnection</mark> = mInspectorConnections.remove(pageId)*inspectorConnection2º
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅ Å(2Ø
+&java.util.Map.remove(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅJ Å(P2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅ4 Å(I2˝
+tcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)?pageId@128.17:128.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅQ Å(WË
+gcom.facebook.react.devsupport.InspectorPackagerConnection.handleDisconnect(org.json.JSONObject)!payload	PARAMETER}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java+ (2"
+type
+JSONObject"
+isFinalfalse"'
+declarationStringJSONObject payload*payload2ö
+org.json.JSONObjectTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java  (*ˆ$
+acom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ â(!"
+isFinalfalse"Ú
+declarationString‹<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">handleWrappedEvent</mark>(JSONObject payload)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*handleWrappedEvent2¨
+#java.util.Map.get(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaåJ å(M2⁄
+Qcom.facebook.react.bridge.Inspector.LocalConnection.sendMessage(java.lang.String)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaí í(#2Ú
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaä ä(!2Ú
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaã ã(!2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaå4 å(I2ˇ
+vcom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?pageId@138.17:138.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaåN å(T2ç
+Écom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?inspectorConnection@140.30:140.49CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaç ç(2“
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaè è(2ˇ
+vcom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?pageId@138.17:138.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaè è($2Ö
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?wrappedEvent@139.11:139.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaèN è(Z2ç
+Écom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?inspectorConnection@140.30:140.49CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaí í(2Ö
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?wrappedEvent@139.11:139.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaí$ í(02˜
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)!payload	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ- â(42Ü
+vcom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?pageId@138.17:138.23DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaä ä(2å
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?wrappedEvent@139.11:139.23DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaã ã(2î
+Écom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?inspectorConnection@140.30:140.49DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaå å(12î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ
+ â(‚
+vcom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?pageId@138.17:138.23VALUE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaä ä("
+typeString"
+isFinaltrue"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">final </mark>String <mark class="class-field">pageId</mark> = payload.getString("pageId")*pageId2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaä
+ ä(2Ú
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaä ä(!Ÿ
+|com.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?wrappedEvent@139.11:139.23VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaã ã("
+typeString"
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark>String <mark class="class-field">wrappedEvent</mark> = payload.getString("wrappedEvent")*wrappedEvent2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaã ã(
+2Ú
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaã ã(!‹
+
+Écom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?inspectorConnection@140.30:140.49VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaå å(1"!
+typeInspector.LocalConnection"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark>Inspector.LocalConnection <mark class="class-field">inspectorConnection</mark> = mInspectorConnections.get(pageId)*inspectorConnection2º
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaå å(2¨
+#java.util.Map.get(java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaåJ å(M2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaå4 å(I2ˇ
+vcom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)?pageId@138.17:138.23CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaåN å(TÓ
+icom.facebook.react.devsupport.InspectorPackagerConnection.handleWrappedEvent(org.json.JSONObject)!payload	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ- â(4"
+type
+JSONObject"
+isFinalfalse"'
+declarationStringJSONObject payload*payload2ú
+org.json.JSONObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ" â(,Î9
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaï ï("
+isFinalfalse"Ω
+declarationStringß<mark class="modifier">private </mark>JSONArray <mark class="method">getPages</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+type	JSONArray*getPages2∑
+.com.facebook.react.bridge.Inspector.getPages()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ+ ñ(32È
+`com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider.getBundleStatus()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò6 ò(E2¶
+java.lang.String.valueOf(int)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaõ  õ('2π
+0com.facebook.react.bridge.Inspector.Page.getId()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaõ- õ(22º
+3com.facebook.react.bridge.Inspector.Page.getTitle()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaú! ú()2π
+0com.facebook.react.bridge.Inspector.Page.getVM()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaû û(#2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection?mBundleStatusProvider@35.31:35.52CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò  ò(52·
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?pages@150.25:150.30CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaô ô($2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaõ õ(2‡
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?page@153.24:153.28CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaõ( õ(,2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaú ú(2‡
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?page@153.24:153.28CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaú ú( 2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù ù(2€
+Rcom.facebook.react.devsupport.InspectorPackagerConnection?mPackageName@34.23:34.35CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù ù(&2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaû û(2‡
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?page@153.24:153.28CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaû û(2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaü ü(2Ë
+_com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?bundleStatus@152.17:152.29CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaü2 ü(>2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java† †(2Ë
+_com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?bundleStatus@152.17:152.29CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java†, †(82·
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?array@151.14:151.19CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java° °(2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java° °(2·
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?array@151.14:151.19CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java£ £(2Û
+jcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?isLastDownloadSuccess@321.19:321.40CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaü? ü(T2Ì
+dcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?updateTimestamp@322.16:322.31CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java†9 †(H2Ë
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?pages@150.25:150.30DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ(2Ë
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?array@151.14:151.19DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaó ó(2Ô
+_com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?bundleStatus@152.17:152.29DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò ò(2Á
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?page@153.24:153.28DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaô ô(2Î
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaö ö(2¢
+org.json.JSONArrayRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaï
+ ï(∂
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?pages@150.25:150.30VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ("
+typeList<Inspector.Page>"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>List<Inspector.Page> <mark class="class-field">pages</mark> = Inspector.getPages()*pages2ó
+java.util.ListTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ(2∫
+(com.facebook.react.bridge.Inspector.PageTYPE_ARGUMENT
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ(2∑
+.com.facebook.react.bridge.Inspector.getPages()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ+ ñ(3ß
+Xcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?array@151.14:151.19VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaó ó("
+type	JSONArray"
+isFinalfalse"v
+declarationStringa<mark class="modifier"> </mark>JSONArray <mark class="class-field">array</mark> = new JSONArray()*array2õ
+org.json.JSONArrayTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaó ó(„
+_com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?bundleStatus@152.17:152.29VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò ò("
+typeBundleStatus"
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier"> </mark>BundleStatus <mark class="class-field">bundleStatus</mark> = mBundleStatusProvider.getBundleStatus()*bundleStatus2œ
+Fcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò ò(2È
+`com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider.getBundleStatus()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò6 ò(E2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection?mBundleStatusProvider@35.31:35.52CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaò  ò(5≤
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.getPages()?page@153.24:153.28VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaô ô("
+typeInspector.Page"
+isFinalfalse"h
+declarationStringS<mark class="modifier"> </mark>Inspector.Page <mark class="class-field">page</mark>*page2±
+(com.facebook.react.bridge.Inspector.PageTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaô ô(¥
+[com.facebook.react.devsupport.InspectorPackagerConnection.getPages()?jsonPage@154.17:154.25VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaö ö("
+type
+JSONObject"
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark>JSONObject <mark class="class-field">jsonPage</mark> = new JSONObject()*jsonPage2ú
+org.json.JSONObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaö ö(Ö
+ncom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶ ¶("
+isFinalfalse"∑
+declarationString°<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">sendWrappedEvent</mark>(String pageId<mark class="modifier"><mark class="modifier">,</mark></mark> String message)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*sendWrappedEvent2
+gcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java™ ™(2é
+Ñcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)?payload@167.15:167.22CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java® ®(2˛
+ucom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)!pageIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java® ®( 2é
+Ñcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)?payload@167.15:167.22CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java© ©(2ˇ
+vcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)!messageCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java©  ©('2é
+Ñcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)?payload@167.15:167.22CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java™ ™(%2É
+ucom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)!pageId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶' ¶(-2Ñ
+vcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)!message	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶6 ¶(=2ï
+Ñcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)?payload@167.15:167.22DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaß ß(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶
+ ¶(‹
+Ñcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)?payload@167.15:167.22VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaß ß("
+type
+JSONObject"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>JSONObject <mark class="class-field">payload</mark> = new JSONObject()*payload2ú
+org.json.JSONObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaß ß(Ì
+ucom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)!pageId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶' ¶(-"
+typeString"
+isFinalfalse""
+declarationStringString pageId*pageId2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶  ¶(&
+vcom.facebook.react.devsupport.InspectorPackagerConnection.sendWrappedEvent(java.lang.String, java.lang.String)!message	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶6 ¶(="
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶/ ¶(5ñ
+gcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠ ≠("
+isFinalfalse"Æ
+declarationStringò<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">sendEvent</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Object payload)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*	sendEvent2Á
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection.send(org.json.JSONObject)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java± ±(2ã
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)?jsonMessage@174.15:174.26CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaØ Ø(2ı
+lcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)!nameCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaØ Ø(!2ã
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)?jsonMessage@174.15:174.26CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∞ ∞(2¯
+ocom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)!payloadCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∞ ∞(&2⁄
+Qcom.facebook.react.devsupport.InspectorPackagerConnection?mConnection@32.27:32.38CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java± ±(2ã
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)?jsonMessage@174.15:174.26CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java± ±( 2˙
+lcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)!name	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠  ≠($2˝
+ocom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)!payload	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠- ≠(42í
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)?jsonMessage@174.15:174.26DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠
+ ≠(·
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)?jsonMessage@174.15:174.26VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ("
+type
+JSONObject"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>JSONObject <mark class="class-field">jsonMessage</mark> = new JSONObject()*jsonMessage2ú
+org.json.JSONObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(‡
+lcom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)!name	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠  ≠($"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠ ≠(È
+ocom.facebook.react.devsupport.InspectorPackagerConnection.sendEvent(java.lang.String, java.lang.Object)!payload	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠- ≠(4"
+typeObject"
+isFinalfalse"#
+declarationStringObject payload*payload2ô
+java.lang.ObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≠& ≠(,¬
+]com.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥ ¥(&"
+isFinalfalse"‘
+declarationStringæ<mark class="modifier">private </mark>JSONObject <mark class="method">makePageIdPayload</mark>(String pageId)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>JSONException"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+type
+JSONObject*makePageIdPayload2¸
+scom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)?payload@181.15:181.22CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∂ ∂(2Ì
+dcom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)!pageIdCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∂ ∂( 2¸
+scom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)?payload@181.15:181.22CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∑ ∑(2Ú
+dcom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)!pageId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥. ¥(42É
+scom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)?payload@181.15:181.22DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaµ µ(2£
+org.json.JSONObjectRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥
+ ¥( 
+scom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)?payload@181.15:181.22VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaµ µ("
+type
+JSONObject"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>JSONObject <mark class="class-field">payload</mark> = new JSONObject()*payload2ú
+org.json.JSONObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaµ µ(‹
+dcom.facebook.react.devsupport.InspectorPackagerConnection.makePageIdPayload(java.lang.String)!pageId	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥. ¥(4"
+typeString"
+isFinalfalse""
+declarationStringString pageId*pageId2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥' ¥(-ä
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java (!"
+isFinaltrue"
+typeString"—
+declarationStringª<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = "InspectorPackagerConnection";"
+isStatictrue"
+accessprivate*TAG2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java (ô
+Qcom.facebook.react.devsupport.InspectorPackagerConnection?mConnection@32.27:32.38VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java   (&"
+isFinaltrue"
+type
+Connection"ó
+declarationStringÅ<mark class="modifier">private </mark><mark class="modifier">final </mark>Connection <mark class="class-field">mConnection</mark>"
+isStaticfalse"
+accessprivate*mConnection2À
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.ConnectionTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java   (°
+[com.facebook.react.devsupport.InspectorPackagerConnection?mInspectorConnections@33.55:33.76VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java!7 !(L"
+isFinaltrue".
+type&Map<String, Inspector.LocalConnection>"Ω
+declarationStringß<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<String, Inspector.LocalConnection> <mark class="class-field">mInspectorConnections</mark>"
+isStaticfalse"
+accessprivate*mInspectorConnections2î
+java.util.MapTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java! !(2†
+java.lang.StringTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java! !(2√
+3com.facebook.react.bridge.Inspector.LocalConnectionTYPE_ARGUMENT}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java!& !(5ﬂ
+Rcom.facebook.react.devsupport.InspectorPackagerConnection?mPackageName@34.23:34.35VALUE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java" "(#"
+isFinaltrue"
+typeString"ì
+declarationString~<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">mPackageName</mark>"
+isStaticfalse"
+accessprivate*mPackageName2ó
+java.lang.StringTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java" "(¥
+[com.facebook.react.devsupport.InspectorPackagerConnection?mBundleStatusProvider@35.31:35.52VARIABLE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java# #(4"
+isFinalfalse"
+typeBundleStatusProvider"Ü
+declarationStringq<mark class="modifier">private </mark>BundleStatusProvider <mark class="class-field">mBundleStatusProvider</mark>"
+isStaticfalse"
+accessprivate*mBundleStatusProvider2’
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProviderTYPE}
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java#
+ #(Ç(
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.ConnectionCLASS
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∫ ∫("D
+package9com.facebook.react.devsupport.InspectorPackagerConnection"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">class </mark>Connection<mark class="modifier"> extends </mark>WebSocketListener"
+accessprivate*
+Connection2Ò
+acom.facebook.react.devsupport.InspectorPackagerConnection.Connection.Connection(java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈(2Ä
+pcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ À(2ô
+àcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java– –(2É
+scom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄ ⁄(2á
+wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„ „(2ﬁ
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÎ Î(2‡
+Pcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.reconnect()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¸ ¸(2‹
+Lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.close()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaë ë(2Ó
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection.send(org.json.JSONObject)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù ù(2Å
+qcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(2Ï
+\com.facebook.react.devsupport.InspectorPackagerConnection.Connection.closeWebSocketQuietly()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥ ¥(&2ı
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection?RECONNECT_DELAY_MS@187.29:187.47DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaª ª(/2Á
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mUrl@189.25:189.29DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaΩ Ω(2Ó
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHttpClient@191.25:191.36DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaø ø($2Ì
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¿  ¿(*2Î
+[com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHandler@193.26:193.34DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¡ ¡("2Í
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¬ ¬(2¸
+lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mSuppressConnectionErrors@195.20:195.45DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java√ √(-2§
+okhttp3.WebSocketListenerEXTEND
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∫# ∫(4Û
+acom.facebook.react.devsupport.InspectorPackagerConnection.Connection.Connection(java.lang.String)CONSTRUCTOR
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈("l
+declarationStringW<mark class="modifier">public </mark><mark class="method">Connection</mark>(String url)*
+Connection2‡
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mUrl@189.25:189.29CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∆ ∆(
+2Ó
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection.Connection(java.lang.String)!urlCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∆ ∆(2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHandler@193.26:193.34CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java« «(2Û
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection.Connection(java.lang.String)!url	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈( 2‘
+Dcom.facebook.react.devsupport.InspectorPackagerConnection.ConnectionRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈(◊
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection.Connection(java.lang.String)!url	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈( "
+typeString"
+isFinalfalse"
+declarationString
+String url*url2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈(ç
+pcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ À("
+isFinalfalse"í
+declarationString¸<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onOpen</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> Response response)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onOpen2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÃ Ã(2É
+zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)!webSocketCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÃ Ã(2à
+zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ! À(*2á
+ycom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)!response	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ5 À(=2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ À(ˇ
+zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ! À(*"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ö
+okhttp3.WebSocketTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ À( ˘
+ycom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onOpen(okhttp3.WebSocket, okhttp3.Response)!response	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ5 À(="
+typeResponse"
+isFinalfalse"&
+declarationStringResponse response*response2ô
+okhttp3.ResponseTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÀ, À(4ì
+àcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java– –("
+isFinalfalse"ﬁ
+declarationString»<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onFailure</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable t<mark class="modifier"><mark class="modifier">,</mark></mark> Response response)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	onFailure2˙
+qcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java“ “(2Ÿ
+Pcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.reconnect()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java’ ’(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java—
+ —(2î
+äcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!tCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java“% “(&2„
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java‘ ‘(2°
+ícom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–$ –(-2ô
+äcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!t	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–9 –(:2†
+ëcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!response	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–E –(M2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java– –(ò
+ícom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–$ –(-"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ö
+okhttp3.WebSocketTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java– –(#Ç
+äcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!t	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–9 –(:"
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable t*t2ú
+java.lang.ThrowableTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–/ –(8í
+ëcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!response	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–E –(M"
+typeResponse"
+isFinalfalse"&
+declarationStringResponse response*response2ô
+okhttp3.ResponseTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java–< –(Dá
+scom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄ ⁄("
+isFinalfalse"è
+declarationString˘<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onMessage</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	onMessage2Í
+acom.facebook.react.devsupport.InspectorPackagerConnection.handleProxyMessage(org.json.JSONObject)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java‹ ‹(2…
+@java.lang.RuntimeException.RuntimeException(java.lang.Throwable)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaﬁ ﬁ("2Å
+xcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)!textCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java‹* ‹(.2ç
+Écom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)?e@221.25:221.26CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaﬁ# ﬁ($2ã
+}com.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄$ ⁄(-2Ü
+xcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)!text	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄6 ⁄(:2î
+Écom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)?e@221.25:221.26DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java› ›(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄ ⁄(Ç
+}com.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄$ ⁄(-"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ö
+okhttp3.WebSocketTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄ ⁄(#Ï
+xcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)!text	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄6 ⁄(:"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java⁄/ ⁄(5˙
+Écom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onMessage(okhttp3.WebSocket, java.lang.String)?e@221.25:221.26VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java› ›("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ú
+java.lang.ExceptionTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java› ›(©
+wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„ „("
+isFinalfalse"Ù
+declarationStringﬁ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onClosed</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> code<mark class="modifier"><mark class="modifier">,</mark></mark> String reason)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onClosed2ÿ
+Ocom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÂ Â(2Ÿ
+Pcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.reconnect()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÁ Á(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java‰ ‰(2„
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÊ Ê(2ê
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„# „(,2ä
+|com.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)!code	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„2 „(62å
+~com.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)!reason	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„? „(E2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„ „(á
+Åcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)!webSocket	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„# „(,"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ö
+okhttp3.WebSocketTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„ „("˚
+|com.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)!code	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„2 „(6"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> code*code2å
+intTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„. „(1ˆ
+~com.facebook.react.devsupport.InspectorPackagerConnection.Connection.onClosed(okhttp3.WebSocket, int, java.lang.String)!reason	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„? „(E"
+typeString"
+isFinalfalse""
+declarationStringString reason*reason2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java„8 „(>ô
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÎ Î("
+isFinalfalse"Ç
+declarationStringm<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">connect</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*connect2–
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÌ Ì('2„
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÏ
+ Ï(2Á
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHttpClient@191.25:191.36CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÔ
+ Ô(2Á
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHttpClient@191.25:191.36CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java (2‡
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mUrl@189.25:189.29CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¯2 ¯(62Á
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHttpClient@191.25:191.36CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java˘ ˘(2Ì
+dcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()?request@248.14:248.21CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java˘ ˘(&2Ù
+dcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()?request@248.14:248.21DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¯ ¯(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÎ Î(¨
+dcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()?request@248.14:248.21VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¯ ¯("
+typeRequest"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>Request <mark class="class-field">request</mark> = new Request.Builder().url(mUrl).build()*request2ò
+okhttp3.RequestTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¯ ¯(2‡
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mUrl@189.25:189.29CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¯2 ¯(6ß
+Pcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.reconnect()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¸ ¸("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">reconnect</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*	reconnect2◊
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.Connection.connect()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaä ä(2–
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java˛ ˛('2Æ
+§com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-300b6d3d-f4b3-459c-bcd1-d60d5c6330ff.Anonymous-300b6d3d-f4b3-459c-bcd1-d60d5c6330ff()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÖ Ö(2„
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java˝
+ ˝(2ı
+lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mSuppressConnectionErrors@195.20:195.45CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÄ Ä($2“
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÅ Å(2ı
+lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mSuppressConnectionErrors@195.20:195.45CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÇ Ç(!2‰
+[com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHandler@193.26:193.34CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÑ Ñ(2„
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaâ â(2Ó
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection?RECONNECT_DELAY_MS@187.29:187.47CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaé
+ é(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¸ ¸(‚
+Lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.close()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaë ë("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">close</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*close2„
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaí í(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaì
+ ì(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaï
+ ï(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaô ô(2Ï
+\com.facebook.react.devsupport.InspectorPackagerConnection.Connection.close()?e@278.27:278.28DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaë ë(“
+\com.facebook.react.devsupport.InspectorPackagerConnection.Connection.close()?e@278.27:278.28VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ú
+java.lang.ExceptionTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javañ ñ(ó
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection.send(org.json.JSONObject)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù ù("
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">send</mark>(final JSONObject object)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*send2™
+†com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-5d2c5f43-e3f9-4da1-9810-f7ffc5c7342e.doInBackground(okhttp3.WebSocket...)!socketsCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java° °(2™
+†com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-4648377b-db17-4019-96e8-b4cc2b55e397.doInBackground(okhttp3.WebSocket...)!socketsCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java°! °((2™
+†com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-965a998b-86e1-4908-a9fc-462b71bc3806.doInBackground(okhttp3.WebSocket...)!socketsCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java• •(2Ó
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection.send(org.json.JSONObject)!objectCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java• •("2“
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaß ß(2≤
+®com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-a4aca8b8-e4bf-435a-8d12-c2d6bba50057.doInBackground(okhttp3.WebSocket...)?e@294.29:294.30CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaß; ß(<2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java´ ´(2Û
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection.send(org.json.JSONObject)!object	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù& ù(,2π
+®com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-0b0412de-2309-44e6-92cb-682291ee5f1d.doInBackground(okhttp3.WebSocket...)?e@294.29:294.30DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶ ¶(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù ù(Á
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection.send(org.json.JSONObject)!object	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù& ù(,"
+type
+JSONObject"
+isFinaltrue"&
+declarationStringJSONObject object*object2ú
+org.json.JSONObjectTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaù ù(%§
+†com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-b74f16fe-0470-4bce-a080-c045e45f4ad8.doInBackground(okhttp3.WebSocket...)!sockets	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java†3 †(:"
+type	WebSocket"
+isFinalfalse"&
+declarationStringWebSocket sockets*sockets2ú
+okhttp3.WebSocket[]TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java†& †(/ü
+®com.facebook.react.devsupport.InspectorPackagerConnection.Connection.Anonymous-06394b03-1069-461a-8825-b5655e9cdc9a.doInBackground(okhttp3.WebSocket...)?e@294.29:294.30VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶ ¶("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ú
+java.lang.ExceptionTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¶ ¶(á
+qcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ("
+isFinalfalse"›
+declarationString«<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">abort</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable cause)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*abort2ÿ
+Ocom.facebook.react.devsupport.InspectorPackagerConnection.closeAllConnections()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∞ ∞(2Â
+\com.facebook.react.devsupport.InspectorPackagerConnection.Connection.closeWebSocketQuietly()CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java± ±(2“
+Icom.facebook.react.devsupport.InspectorPackagerConnection?TAG@30.30:30.33CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaØ Ø(2Ç
+ycom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)!messageCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaØK Ø(R2Ä
+wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)!causeCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaØT Ø(Y2á
+ycom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)!message	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(%2Ö
+wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)!cause	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ1 Æ(62î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(Û
+ycom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)!message	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(%"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ Æ(ˆ
+wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.abort(java.lang.String, java.lang.Throwable)!cause	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ1 Æ(6"
+type	Throwable"
+isFinalfalse"$
+declarationStringThrowable cause*cause2ú
+java.lang.ThrowableTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaÆ' Æ(0æ
+\com.facebook.react.devsupport.InspectorPackagerConnection.Connection.closeWebSocketQuietly()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥ ¥(&"
+isFinalfalse"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">closeWebSocketQuietly</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*closeWebSocketQuietly2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaµ
+ µ(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∑
+ ∑(2Ê
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaª ª(2¸
+lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.closeWebSocketQuietly()?e@312.27:312.28DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∏ ∏(2î
+voidRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¥ ¥(‚
+lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection.closeWebSocketQuietly()?e@312.27:312.28VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∏ ∏("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ú
+java.lang.ExceptionTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∏ ∏(∫
+ecom.facebook.react.devsupport.InspectorPackagerConnection.Connection?RECONNECT_DELAY_MS@187.29:187.47VALUE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaª ª(/"
+isFinaltrue"
+typeint"‚
+declarationStringÃ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">RECONNECT_DELAY_MS</mark> = 2000;"
+isStatictrue"
+accessprivate*RECONNECT_DELAY_MS2å
+intTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaª ª(ÿ
+Wcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mUrl@189.25:189.29VALUE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaΩ Ω("
+isFinaltrue"
+typeString"ã
+declarationStringv<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">mUrl</mark>"
+isStaticfalse"
+accessprivate*mUrl2ô
+java.lang.StringTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaΩ Ω(‹
+^com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHttpClient@191.25:191.36VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaø ø($"
+isFinalfalse"
+typeOkHttpClient"t
+declarationString_<mark class="modifier">private </mark>OkHttpClient <mark class="class-field">mHttpClient</mark>"
+isStaticfalse"
+accessprivate*mHttpClient2ù
+okhttp3.OkHttpClientTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaø ø(–
+]com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mWebSocket@192.32:192.42VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¿  ¿(*"
+isFinalfalse"
+type	WebSocket"p
+declarationString[<mark class="modifier">private </mark>WebSocket <mark class="class-field">mWebSocket</mark>"
+isStaticfalse"
+accessprivate*
+mWebSocket2ö
+okhttp3.WebSocketTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¿ ¿(Ë
+[com.facebook.react.devsupport.InspectorPackagerConnection.Connection?mHandler@193.26:193.34VALUE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¡ ¡(""
+isFinaltrue"
+typeHandler"ê
+declarationString{<mark class="modifier">private </mark><mark class="modifier">final </mark>Handler <mark class="class-field">mHandler</mark>"
+isStaticfalse"
+accessprivate*mHandler2õ
+android.os.HandlerTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¡ ¡(ÿ
+Zcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mClosed@194.20:194.27VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¬ ¬("
+isFinalfalse"
+typeboolean"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mClosed</mark>"
+isStaticfalse"
+accessprivate*mClosed2ê
+booleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¬ ¬(è
+lcom.facebook.react.devsupport.InspectorPackagerConnection.Connection?mSuppressConnectionErrors@195.20:195.45VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java√ √(-"
+isFinalfalse"
+typeboolean"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mSuppressConnectionErrors</mark>"
+isStaticfalse"
+accessprivate*mSuppressConnectionErrors2ê
+booleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java√ √(∫
+Fcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusCLASS
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¿ ¿(""D
+package9com.facebook.react.devsupport.InspectorPackagerConnection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"j
+declarationStringU<mark class="modifier">public </mark><mark class="modifier">class </mark>BundleStatus"
+accesspublic*BundleStatus2¸
+lcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ ƒ(2Â
+Ucom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java… …(2˙
+jcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?isLastDownloadSuccess@321.19:321.40DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¡ ¡((2Ù
+dcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?updateTimestamp@322.16:322.31DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¬ ¬(ˆ
+lcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)CONSTRUCTOR
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ ƒ("Ú
+declarationString‹<mark class="modifier">public </mark><mark class="method">BundleStatus</mark>(Boolean isLastDownloadSuccess<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> updateTimestamp)*BundleStatus2å
+Çcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)!isLastDownloadSuccessCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈# ≈(82Ö
+|com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)!updateTimestampCALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∆ ∆(,2Û
+jcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?isLastDownloadSuccess@321.19:321.40CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java≈ ≈( 2Ì
+dcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?updateTimestamp@322.16:322.31CALL
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java∆ ∆(2ë
+Çcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)!isLastDownloadSuccess	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ  ƒ(52ä
+|com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)!updateTimestamp	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ< ƒ(K2÷
+Fcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ ƒ(ú
+Çcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)!isLastDownloadSuccess	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ  ƒ(5"
+typeBoolean"
+isFinalfalse"2
+declarationStringBoolean isLastDownloadSuccess*isLastDownloadSuccess2ö
+java.lang.BooleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ ƒ(î
+|com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus(java.lang.Boolean, long)!updateTimestamp	PARAMETER
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ< ƒ(K"
+typelong"
+isFinalfalse"G
+declarationString2<mark class="modifier">long</mark> updateTimestamp*updateTimestamp2ç
+longTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaƒ7 ƒ(;≤
+Ucom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus.BundleStatus()CONSTRUCTOR
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java… …("d
+declarationStringO<mark class="modifier">public </mark><mark class="method">BundleStatus</mark>()*BundleStatus2÷
+Fcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java… …(Ì
+jcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?isLastDownloadSuccess@321.19:321.40VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¡ ¡(("
+isFinalfalse"
+typeBoolean"x
+declarationStringc<mark class="modifier">public </mark>Boolean <mark class="class-field">isLastDownloadSuccess</mark>"
+isStaticfalse"
+accesspublic*isLastDownloadSuccess2ö
+java.lang.BooleanTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¡ ¡(Ì
+dcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatus?updateTimestamp@322.16:322.31VARIABLE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¬ ¬("
+isFinalfalse"
+typelong"ì
+declarationString~<mark class="modifier">public </mark><mark class="modifier">long</mark> <mark class="class-field">updateTimestamp</mark> = -1;"
+isStaticfalse"
+accesspublic*updateTimestamp2ç
+longTYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.java¬ ¬(Ó
+Ncom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProviderTRAIT
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaŒ Œ('"D
+package9com.facebook.react.devsupport.InspectorPackagerConnection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"v
+declarationStringa<mark class="modifier">public </mark><mark class="modifier">interface </mark>BundleStatusProvider"
+accesspublic*BundleStatusProvider2
+`com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider.getBundleStatus()DECLARATION
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaœ œ( ∞
+`com.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusProvider.getBundleStatus()METHOD
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaœ œ( "
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>BundleStatus <mark class="method">getBundleStatus</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeBundleStatus*getBundleStatus2÷
+Fcom.facebook.react.devsupport.InspectorPackagerConnection.BundleStatusRETURN_TYPE
+snode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/InspectorPackagerConnection.javaœ œ(

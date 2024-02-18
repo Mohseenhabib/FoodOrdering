@@ -1,0 +1,221 @@
+
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.javaÃ
+5com.facebook.react.fabric.interop.InteropEventEmitterCLASSy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java ( ",
+package!com.facebook.react.fabric.interop"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Æ
+declarationStringò<mark class="modifier">public </mark><mark class="modifier">class </mark>InteropEventEmitter<mark class="modifier"><br>implements </mark>RCTEventEmitter"
+accesspublic*InteropEventEmitter2˚
+qcom.facebook.react.fabric.interop.InteropEventEmitter.InteropEventEmitter(com.facebook.react.bridge.ReactContext)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java#	 #(2ã
+Äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java( ((2≥
+®com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java6 6(2ç
+Çcom.facebook.react.fabric.interop.InteropEventEmitter.overrideEventDispatcher(com.facebook.react.uimanager.events.EventDispatcher)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java= =(2Ÿ
+Ocom.facebook.react.fabric.interop.InteropEventEmitter?mReactContext@31.29:31.42DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java (*2‰
+Zcom.facebook.react.fabric.interop.InteropEventEmitter?mEventDispatcherOverride@33.36:33.60DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java!$ !(<2∏
+3com.facebook.react.uimanager.events.RCTEventEmitterEXTENDy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java, (;ª
+
+qcom.facebook.react.fabric.interop.InteropEventEmitter.InteropEventEmitter(com.facebook.react.bridge.ReactContext)CONSTRUCTORy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java#	 #("Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="method">InteropEventEmitter</mark>(ReactContext reactContext)*InteropEventEmitter2“
+Ocom.facebook.react.fabric.interop.InteropEventEmitter?mReactContext@31.29:31.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java$ $(2Å
+~com.facebook.react.fabric.interop.InteropEventEmitter.InteropEventEmitter(com.facebook.react.bridge.ReactContext)!reactContextCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java$ $( 2Ü
+~com.facebook.react.fabric.interop.InteropEventEmitter.InteropEventEmitter(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java#* #(62ø
+5com.facebook.react.fabric.interop.InteropEventEmitterRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java#	 #(ò
+~com.facebook.react.fabric.interop.InteropEventEmitter.InteropEventEmitter(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java#* #(6"
+typeReactContext"
+isFinalfalse".
+declarationStringReactContext reactContext*reactContext2©
+&com.facebook.react.bridge.ReactContextTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java# #()‡4
+Äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java( (("
+isFinalfalse"à
+declarationStringÚ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveEvent</mark>(<mark class="modifier">int</mark> targetReactTag<mark class="modifier"><mark class="modifier">,</mark></mark> String eventName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> WritableMap eventData)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveEvent2˙
+wcom.facebook.react.uimanager.UIManagerHelper.getEventDispatcherForReactTag(com.facebook.react.bridge.ReactContext, int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java-# -(@2Ô
+lcom.facebook.react.uimanager.events.EventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java1 1(2Å
+~com.facebook.react.fabric.interop.InteropEvent.InteropEvent(java.lang.String, com.facebook.react.bridge.WritableMap, int, int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java1# 1(/2›
+Zcom.facebook.react.fabric.interop.InteropEventEmitter?mEventDispatcherOverride@33.36:33.60CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java* *( 2õ
+ócom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?dispatcher@41.20:41.30CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java+ +(2›
+Zcom.facebook.react.fabric.interop.InteropEventEmitter?mEventDispatcherOverride@33.36:33.60CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java+ +(+2õ
+ócom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?dispatcher@41.20:41.30CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java- -(2“
+Ocom.facebook.react.fabric.interop.InteropEventEmitter?mReactContext@31.29:31.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java-A -(N2ì
+ècom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTagCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java-P -(^2“
+Ocom.facebook.react.fabric.interop.InteropEventEmitter?mReactContext@31.29:31.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java/1 /(>2õ
+ócom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?dispatcher@41.20:41.30CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java0 0(2õ
+ócom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?dispatcher@41.20:41.30CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java1 1(2é
+äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventNameCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java10 1(92é
+äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventDataCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java1; 1(D2ô
+ïcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?surfaceId@47.8:47.17CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java1F 1(O2ì
+ècom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTagCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java1Q 1(_2Ö
+~com.facebook.react.uimanager.events.RCTEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java( ((2ò
+ècom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTag	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java( ((-2ì
+äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(6 ((?2ì
+äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventData	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(W ((`2¢
+ócom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?dispatcher@41.20:41.30DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java) )(2†
+ïcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?surfaceId@47.8:47.17DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java/ /(2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(	 ((Ä
+ócom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?dispatcher@41.20:41.30VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java) )("
+typeEventDispatcher"
+isFinalfalse"o
+declarationStringZ<mark class="modifier"> </mark>EventDispatcher <mark class="class-field">dispatcher</mark>*
+dispatcher2∂
+3com.facebook.react.uimanager.events.EventDispatcherTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java) )(◊
+ïcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)?surfaceId@47.8:47.17VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java/ /("
+typeint"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">surfaceId</mark> = UIManagerHelper.getSurfaceId(mReactContext)*	surfaceId2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java/ /(2“
+Ocom.facebook.react.fabric.interop.InteropEventEmitter?mReactContext@31.29:31.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java/1 /(>ó
+ècom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTag	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java( ((-"
+typeint"
+isFinalfalse"E
+declarationString0<mark class="modifier">int</mark> targetReactTag*targetReactTag2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java( ((˝
+äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(6 ((?"
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(/ ((5∆
+äcom.facebook.react.fabric.interop.InteropEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventData	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(W ((`"
+typeWritableMap"
+isFinalfalse"T
+declarationString?<mark class="annotation">@Nullable</mark> WritableMap eventData*	eventData2®
+%com.facebook.react.bridge.WritableMapTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java(K ((VÏ
+®com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java6 6("
+isFinalfalse"ı
+declarationStringﬂ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveTouches</mark>(String eventName<mark class="modifier"><mark class="modifier">,</mark></mark> WritableArray touches<mark class="modifier"><mark class="modifier">,</mark></mark> WritableArray changedIndices)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveTouches2⁄
+Wjava.lang.UnsupportedOperationException.UnsupportedOperationException(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java8 8(+2Æ
+¶com.facebook.react.uimanager.events.RCTEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java6 6(2ª
+≤com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7 7(2π
+∞com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touches	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7& 7(-2¿
+∑com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!changedIndices	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7= 7(K2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java6	 6(•
+≤com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7 7("
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7 7(ƒ
+∞com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touches	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7& 7(-"
+typeWritableArray"
+isFinalfalse"*
+declarationStringWritableArray touches*touches2™
+'com.facebook.react.bridge.WritableArrayTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7 7(%Ÿ
+∑com.facebook.react.fabric.interop.InteropEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!changedIndices	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7= 7(K"
+typeWritableArray"
+isFinalfalse"1
+declarationStringWritableArray changedIndices*changedIndices2™
+'com.facebook.react.bridge.WritableArrayTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java7/ 7(<™
+Çcom.facebook.react.fabric.interop.InteropEventEmitter.overrideEventDispatcher(com.facebook.react.uimanager.events.EventDispatcher)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java= =("
+isFinalfalse"Î
+declarationString’<mark class="annotation">@VisibleForTesting</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">overrideEventDispatcher</mark>(EventDispatcher eventDispatcherOverride)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*overrideEventDispatcher2›
+Zcom.facebook.react.fabric.interop.InteropEventEmitter?mEventDispatcherOverride@33.36:33.60CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java> >(2û
+öcom.facebook.react.fabric.interop.InteropEventEmitter.overrideEventDispatcher(com.facebook.react.uimanager.events.EventDispatcher)!eventDispatcherOverrideCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java> >(62£
+öcom.facebook.react.fabric.interop.InteropEventEmitter.overrideEventDispatcher(com.facebook.react.uimanager.events.EventDispatcher)!eventDispatcherOverride	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java=/ =(F2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java= =(ﬁ
+öcom.facebook.react.fabric.interop.InteropEventEmitter.overrideEventDispatcher(com.facebook.react.uimanager.events.EventDispatcher)!eventDispatcherOverride	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java=/ =(F"
+typeEventDispatcher"
+isFinalfalse"<
+declarationString'EventDispatcher eventDispatcherOverride*eventDispatcherOverride2∂
+3com.facebook.react.uimanager.events.EventDispatcherTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java= =(.˘
+Ocom.facebook.react.fabric.interop.InteropEventEmitter?mReactContext@31.29:31.42VALUEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java (*"
+isFinaltrue"
+typeReactContext"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactContext <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2©
+&com.facebook.react.bridge.ReactContextTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java (å
+Zcom.facebook.react.fabric.interop.InteropEventEmitter?mEventDispatcherOverride@33.36:33.60VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java!$ !(<"
+isFinalfalse"
+typeEventDispatcher"Ñ
+declarationStringo<mark class="modifier">private </mark>EventDispatcher <mark class="class-field">mEventDispatcherOverride</mark>"
+isStaticfalse"
+accessprivate*mEventDispatcherOverride2∂
+3com.facebook.react.uimanager.events.EventDispatcherTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/interop/InteropEventEmitter.java! !(#

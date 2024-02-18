@@ -1,0 +1,392 @@
+
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaÅ
+5com.facebook.react.animated.FrameBasedAnimationDriverCLASSy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java ("&
+packagecom.facebook.react.animated"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">class </mark>FrameBasedAnimationDriver<mark class="modifier"> extends </mark>AnimationDriver"
+accesspackage_private*FrameBasedAnimationDriver2Ä
+vcom.facebook.react.animated.FrameBasedAnimationDriver.FrameBasedAnimationDriver(com.facebook.react.bridge.ReadableMap)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java! !(2Ú
+hcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java& &(2÷
+Lcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@ @(2›
+Scom.facebook.react.animated.FrameBasedAnimationDriver?FRAME_TIME_MILLIS@24.30:24.47DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (/2‡
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (#2”
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (2‘
+Jcom.facebook.react.animated.FrameBasedAnimationDriver?mToValue@28.17:28.25DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (2÷
+Lcom.facebook.react.animated.FrameBasedAnimationDriver?mFromValue@29.17:29.27DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (2◊
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (2ÿ
+Ncom.facebook.react.animated.FrameBasedAnimationDriver?mCurrentLoop@31.14:31.26DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (2∞
++com.facebook.react.animated.AnimationDriverEXTENDy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java( (7’
+
+vcom.facebook.react.animated.FrameBasedAnimationDriver.FrameBasedAnimationDriver(com.facebook.react.bridge.ReadableMap)CONSTRUCTORy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java! !("}
+declarationStringh<mark class="modifier"> </mark><mark class="method">FrameBasedAnimationDriver</mark>(ReadableMap config)*FrameBasedAnimationDriver2Î
+hcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java" "(2Ä
+}com.facebook.react.animated.FrameBasedAnimationDriver.FrameBasedAnimationDriver(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java" "(2Ö
+}com.facebook.react.animated.FrameBasedAnimationDriver.FrameBasedAnimationDriver(com.facebook.react.bridge.ReadableMap)!config	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java!( !(.2ø
+5com.facebook.react.animated.FrameBasedAnimationDriverRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java! !(à
+}com.facebook.react.animated.FrameBasedAnimationDriver.FrameBasedAnimationDriver(com.facebook.react.bridge.ReadableMap)!config	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java!( !(."
+typeReadableMap"
+isFinalfalse"'
+declarationStringReadableMap config*config2®
+%com.facebook.react.bridge.ReadableMapTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java! !('ƒN
+hcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java& &("
+isFinalfalse"«
+declarationString±<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">resetConfig</mark>(ReadableMap config)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*resetConfig2√
+@com.facebook.react.bridge.ReadableMap.getArray(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java'" '(*2±
+.com.facebook.react.bridge.ReadableArray.size()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java(  (($2π
+6com.facebook.react.bridge.ReadableArray.getDouble(int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java- -(#2¡
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java/ /(2¬
+?com.facebook.react.bridge.ReadableMap.getType(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java0 0(2ƒ
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java0K 0(T2¡
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java4 4(2¬
+?com.facebook.react.bridge.ReadableMap.getType(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java6 6(2¡
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java6G 6(M2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java' '(!2˛
+{com.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?frames@39.18:39.24CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java( ((2Ã
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java) )(2Ã
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java) )("2Ü
+Çcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?numberOfFrames@40.8:40.22CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java)- )(;2Ã
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java* *(2Ü
+Çcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?numberOfFrames@40.8:40.22CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java* *()2˘
+vcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?i@44.13:44.14CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java, ,(2Ü
+Çcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?numberOfFrames@40.8:40.22CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java, ,(&2˘
+vcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?i@44.13:44.14CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java,( ,()2Ã
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java- -(2˘
+vcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?i@44.13:44.14CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java- -(2˛
+{com.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?frames@39.18:39.24CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java- -(2˘
+vcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?i@44.13:44.14CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java-$ -(%2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java/ /(2Õ
+Jcom.facebook.react.animated.FrameBasedAnimationDriver?mToValue@28.17:28.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java0 0(2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java0 0(2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java0D 0(J2Õ
+Jcom.facebook.react.animated.FrameBasedAnimationDriver?mToValue@28.17:28.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java2 2(2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java4 4(2–
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java5 5(2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java6
+ 6(2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java6@ 6(F2–
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java8 8(2—
+Ncom.facebook.react.animated.FrameBasedAnimationDriver?mCurrentLoop@31.14:31.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java: :(2–
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java; ;(2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java< <(2Â
+^com.facebook.react.animated.AnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java& &(2˜
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!config	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java&& &(,2Ö
+{com.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?frames@39.18:39.24DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java' '(2ç
+Çcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?numberOfFrames@40.8:40.22DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java( ((2Ä
+vcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?i@44.13:44.14DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java, ,(2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java&	 &(£
+{com.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?frames@39.18:39.24VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java' '("
+typeReadableArray"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>ReadableArray <mark class="class-field">frames</mark> = config.getArray("frames")*frames2™
+'com.facebook.react.bridge.ReadableArrayTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java' '(2√
+@com.facebook.react.bridge.ReadableMap.getArray(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java'" '(*2Ú
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!configCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java' '(!ê
+Çcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?numberOfFrames@40.8:40.22VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java( (("
+typeint"
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">numberOfFrames</mark> = frames.size()*numberOfFrames2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java( ((2±
+.com.facebook.react.bridge.ReadableArray.size()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java(  (($2˛
+{com.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?frames@39.18:39.24CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java( ((¶
+vcom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)?i@44.13:44.14VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java, ,("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java,	 ,(˙
+ocom.facebook.react.animated.FrameBasedAnimationDriver.resetConfig(com.facebook.react.bridge.ReadableMap)!config	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java&& &(,"
+typeReadableMap"
+isFinalfalse"'
+declarationStringReadableMap config*config2®
+%com.facebook.react.bridge.ReadableMapTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java& &(%ÎF
+Lcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@ @("
+isFinalfalse"Î
+declarationString’<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">runAnimationStep</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*runAnimationStep2ü
+java.lang.Math.round(double)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI  I(%2 
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaQ Q('2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaA A(2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaB B(2ﬁ
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanosCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaB B(+2—
+Ncom.facebook.react.animated.FrameBasedAnimationDriver?mCurrentLoop@31.14:31.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaC
+ C(2œ
+Lcom.facebook.react.animated.FrameBasedAnimationDriver?mFromValue@29.17:29.27CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaE E(2ﬁ
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanosCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH  H(.2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH1 H(E2Ó
+kcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?timeFromStartMillis@72.9:72.28CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI& I(92÷
+Scom.facebook.react.animated.FrameBasedAnimationDriver?FRAME_TIME_MILLIS@24.30:24.47CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI< I(M2Â
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?frameIndex@73.8:73.18CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaJ J(2ﬁ
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanosCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaM M(2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaO O($2„
+`com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?message@75.13:75.20CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaQ( Q(/2„
+`com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?message@75.13:75.20CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaS# S(*2Â
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?frameIndex@73.8:73.18CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java[ [(2Ã
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java[ [(2Â
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?nextValue@90.11:90.20CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java\ \(2Õ
+Jcom.facebook.react.animated.FrameBasedAnimationDriver?mToValue@28.17:28.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java\ \(2–
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java]
+ ](2—
+Ncom.facebook.react.animated.FrameBasedAnimationDriver?mCurrentLoop@31.14:31.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java] ](+2–
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java]. ](92Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java^ ^(2—
+Ncom.facebook.react.animated.FrameBasedAnimationDriver?mCurrentLoop@31.14:31.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java_ _(2Â
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?nextValue@90.11:90.20CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javad d(2œ
+Lcom.facebook.react.animated.FrameBasedAnimationDriver?mFromValue@29.17:29.27CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javad d(2Ã
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javad d(&2Â
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?frameIndex@73.8:73.18CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javad' d(12Õ
+Jcom.facebook.react.animated.FrameBasedAnimationDriver?mToValue@28.17:28.25CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javad6 d(>2œ
+Lcom.facebook.react.animated.FrameBasedAnimationDriver?mFromValue@29.17:29.27CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javadA d(K2Â
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?nextValue@90.11:90.20CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaf f(%2…
+Bcom.facebook.react.animated.AnimationDriver.runAnimationStep(long)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@ @(2„
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanos	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@$ @(22ı
+kcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?timeFromStartMillis@72.9:72.28DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH	 H(2Ï
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?frameIndex@73.8:73.18DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI I(2Í
+`com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?message@75.13:75.20DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaK K(2Ï
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?nextValue@90.11:90.20DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaZ Z(2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@	 @(±
+kcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?timeFromStartMillis@72.9:72.28VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH	 H("
+typelong"
+isFinalfalse"¿
+declarationString™<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">timeFromStartMillis</mark> = (frameTimeNanos - mStartFrameTimeNanos) / 1000000*timeFromStartMillis2á
+longTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH H(2ﬁ
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanosCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH  H(.2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaH1 H(EË	
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?frameIndex@73.8:73.18VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI I("
+typeint"
+isFinalfalse"‹
+declarationString∆<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">frameIndex</mark> = (<mark class="modifier">int</mark>) Math.round(timeFromStartMillis / FRAME_TIME_MILLIS)*
+frameIndex2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI I(2ü
+java.lang.Math.round(double)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI  I(%2Ó
+kcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?timeFromStartMillis@72.9:72.28CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI& I(92÷
+Scom.facebook.react.animated.FrameBasedAnimationDriver?FRAME_TIME_MILLIS@24.30:24.47CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaI< I(MË
+`com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?message@75.13:75.20VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaK K("
+typeString"
+isFinalfalse"Ä
+declarationStringÍ<mark class="modifier"> </mark>String <mark class="class-field">message</mark> = "Calculated frame index should never be lower than 0. Called with frameTimeNanos " + frameTimeNanos + " and mStartFrameTimeNanos " + mStartFrameTimeNanos*message2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaK K(2ﬁ
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanosCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaM M(2Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaO O($®
+bcom.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)?nextValue@90.11:90.20VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaZ Z("
+typedouble"
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">double</mark> <mark class="class-field">nextValue</mark>*	nextValue2â
+doubleTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.javaZ Z(
+Â
+[com.facebook.react.animated.FrameBasedAnimationDriver.runAnimationStep(long)!frameTimeNanos	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@$ @(2"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2á
+longTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java@ @(#™
+Scom.facebook.react.animated.FrameBasedAnimationDriver?FRAME_TIME_MILLIS@24.30:24.47VALUEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (/"
+isFinaltrue"
+typedouble"Î
+declarationString’<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">FRAME_TIME_MILLIS</mark> = 1000d / 60d;"
+isStatictrue"
+accessprivate*FRAME_TIME_MILLIS2â
+doubleTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (Ÿ
+Vcom.facebook.react.animated.FrameBasedAnimationDriver?mStartFrameTimeNanos@26.15:26.35VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java (#"
+isFinalfalse"
+typelong"ì
+declarationString~<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mStartFrameTimeNanos</mark>"
+isStaticfalse"
+accessprivate*mStartFrameTimeNanos2á
+longTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java
+ (º
+Icom.facebook.react.animated.FrameBasedAnimationDriver?mFrames@27.19:27.26VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java ("
+isFinalfalse"
+typedouble"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">double</mark>[] <mark class="class-field">mFrames</mark>"
+isStaticfalse"
+accessprivate*mFrames2ã
+double[]TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java
+ (ª
+Jcom.facebook.react.animated.FrameBasedAnimationDriver?mToValue@28.17:28.25VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java ("
+isFinalfalse"
+typedouble"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mToValue</mark>"
+isStaticfalse"
+accessprivate*mToValue2â
+doubleTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java
+ (¡
+Lcom.facebook.react.animated.FrameBasedAnimationDriver?mFromValue@29.17:29.27VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java ("
+isFinalfalse"
+typedouble"ã
+declarationStringv<mark class="modifier">private </mark><mark class="modifier">double</mark> <mark class="class-field">mFromValue</mark>"
+isStaticfalse"
+accessprivate*
+mFromValue2â
+doubleTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java
+ (ª
+Mcom.facebook.react.animated.FrameBasedAnimationDriver?mIterations@30.14:30.25VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java ("
+isFinalfalse"
+typeint"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mIterations</mark>"
+isStaticfalse"
+accessprivate*mIterations2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java
+ (æ
+Ncom.facebook.react.animated.FrameBasedAnimationDriver?mCurrentLoop@31.14:31.26VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java ("
+isFinalfalse"
+typeint"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mCurrentLoop</mark>"
+isStaticfalse"
+accessprivate*mCurrentLoop2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/animated/FrameBasedAnimationDriver.java
+ (

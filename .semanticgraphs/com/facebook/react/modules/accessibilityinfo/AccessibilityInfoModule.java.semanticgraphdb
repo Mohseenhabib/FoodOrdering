@@ -1,0 +1,835 @@
+
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÓF
+Dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModuleCLASSà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java   ($"7
+package,com.facebook.react.modules.accessibilityinfo"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"’
+declarationStringø<mark class="annotation">@ReactModule(name = NativeAccessibilityInfoSpec.NAME)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>AccessibilityInfoModule<mark class="modifier"> extends </mark>NativeAccessibilityInfoSpec<mark class="modifier"><br>implements </mark>LifecycleEventListener"
+accesspublic*AccessibilityInfoModule2™
+ècom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaW	 W( 2˛
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javae e(/2ò
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isReduceMotionEnabled(com.facebook.react.bridge.Callback)DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javar r(#2ù
+Çcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isTouchExplorationEnabled(com.facebook.react.bridge.Callback)DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaw w('2°
+Ücom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isAccessibilityServiceEnabled(com.facebook.react.bridge.Callback)DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java| |(+2á
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÄ Ä(32í
+vcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaç ç(72ñ
+zcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaô ô(;2Ô
+Scom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostResume()DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaß ß(2Ó
+Rcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostPause()DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∂ ∂(2Ì
+Qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.initialize()DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¿ ¿(2Ì
+Qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.invalidate()DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java» »(2
+Tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostDestroy()DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaŒ Œ(2ã
+ocom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java— —(&2˛
+bcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.setAccessibilityFocus(double)DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaﬂ ﬂ(#2©
+åcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰ ‰()2Å
+gcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?animationScaleObserver@59.32:59.54DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java;  ;(62Ä
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaJ) J(>2è
+ucom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationStateChangeListener@75.61:75.97DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaK= K(a2é
+tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceChangeListener@76.60:76.95DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaL< L(_2˚
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaM  M(02ˇ
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaN N(&2É
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaO O(*2á
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaP P(.2˛
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mRecommendedTimeout@81.14:81.33DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaQ Q(!2É
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?REDUCE_MOTION_EVENT_NAME@83.30:83.54DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaS S(62á
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?TOUCH_EXPLORATION_EVENT_NAME@84.30:84.58DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaT T(:2ã
+qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?ACCESSIBILITY_SERVICE_EVENT_NAME@85.30:85.62DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaU U(>2á
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListenerDECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java$ $(82Ü
+lcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListenerDECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java1 1(72≈
+0com.facebook.react.bridge.LifecycleEventListenerEXTENDà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java! !(%2∞
+NativeAccessibilityInfoSpecEXTENDà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java -  (Hò*
+ècom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTORà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaW	 W( "é
+declarationStringy<mark class="modifier">public </mark><mark class="method">AccessibilityInfoModule</mark>(ReactApplicationContext context)*AccessibilityInfoModule2˜
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java_  _(=2¨
+òcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListener.ReactTouchExplorationStateChangeListener()CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java`/ `(W2™
+ñcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListener.ReactAccessibilityServiceChangeListener()CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaa. a(U2´
+ócom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)!contextCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaX
+ X(2´
+ócom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)!contextCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaY Y( 2˘
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaZ Z(2∫
+¶com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)?appContext@89.12:89.22CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java[ [()2Ù
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java\ \(2¸
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java] ](2˘
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java] ](42Ä
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java^ ^( 2˘
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java^# ^(82¯
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java_ _(2à
+ucom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationStateChangeListener@75.61:75.97CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java` `((2á
+tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceChangeListener@76.60:76.95CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaa a('2∞
+ócom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)!context	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaW9 W(@2¡
+¶com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)?appContext@89.12:89.22DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaY Y(2ﬁ
+Dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModuleRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaW	 W( ‘
+¶com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)?appContext@89.12:89.22VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaY Y("
+typeContext"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>Context <mark class="class-field">appContext</mark> = context.getApplicationContext()*
+appContext2™
+android.content.ContextTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaY Y(2´
+ócom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)!contextCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaY Y( È
+ócom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.AccessibilityInfoModule(com.facebook.react.bridge.ReactApplicationContext)!context	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaW9 W(@"
+typeReactApplicationContext"
+isFinalfalse"4
+declarationStringReactApplicationContext context*context2ƒ
+1com.facebook.react.bridge.ReactApplicationContextTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaW! W(8©
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()METHODà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javae e(/"
+isFinalfalse"Í
+declarationString‘<mark class="annotation">@TargetApi(Build.VERSION_CODES.LOLLIPOP)</mark> <br><mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="method">getIsReduceMotionEnabledValue</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*getIsReduceMotionEnabledValue2ø
+,java.lang.Float.parseFloat(java.lang.String)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal1 l(;2Ù
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javai" i(22é
+{com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?rawValue@104.11:104.19CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal l( 2é
+{com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?rawValue@104.11:104.19CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal< l(D2ë
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?parsedValue@108.10:108.21CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javan n(2ï
+{com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?rawValue@104.11:104.19DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javah h(2ò
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?parsedValue@108.10:108.21DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal
+ l(2°
+booleanRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javae
+ e(ù
+{com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?rawValue@104.11:104.19VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javah h("
+typeString"
+isFinalfalse"ø
+declarationString©<mark class="modifier"> </mark>String <mark class="class-field">rawValue</mark> = Settings.Global.getString(mContentResolver, Settings.Global.TRANSITION_ANIMATION_SCALE)*rawValue2£
+java.lang.StringTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javah h(
+2Ù
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javai" i(2â
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?parsedValue@108.10:108.21VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal
+ l("
+typeFloat"
+isFinalfalse"∫
+declarationString§<mark class="modifier"> </mark>Float <mark class="class-field">parsedValue</mark> = rawValue != <mark class="modifier">null</mark> ? Float.parseFloat(rawValue) : 1f*parsedValue2¢
+java.lang.FloatTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal l(	2ø
+,java.lang.Float.parseFloat(java.lang.String)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal1 l(;2é
+{com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?rawValue@104.11:104.19CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal l( 2é
+{com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()?rawValue@104.11:104.19CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javal< l(Dù
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isReduceMotionEnabled(com.facebook.react.bridge.Callback)METHODà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javar r(#"
+isFinalfalse"◊
+declarationString¡<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isReduceMotionEnabled</mark>(Callback successCallback)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isReduceMotionEnabled2—
+>com.facebook.react.bridge.Callback.invoke(java.lang.Object...)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javas s(2¢
+écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isReduceMotionEnabled(com.facebook.react.bridge.Callback)!successCallbackCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javas s(2¯
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javas s(/2ß
+écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isReduceMotionEnabled(com.facebook.react.bridge.Callback)!successCallback	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javar- r(<2û
+voidRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javar	 r(√
+écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isReduceMotionEnabled(com.facebook.react.bridge.Callback)!successCallback	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javar- r(<"
+typeCallback"
+isFinalfalse"-
+declarationStringCallback successCallback*successCallback2µ
+"com.facebook.react.bridge.CallbackTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javar$ r(,∂
+Çcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isTouchExplorationEnabled(com.facebook.react.bridge.Callback)METHODà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaw w('"
+isFinalfalse"€
+declarationString≈<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isTouchExplorationEnabled</mark>(Callback successCallback)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isTouchExplorationEnabled2—
+>com.facebook.react.bridge.Callback.invoke(java.lang.Object...)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javax x(2¶
+ícom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isTouchExplorationEnabled(com.facebook.react.bridge.Callback)!successCallbackCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javax x(2¸
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javax x(32´
+ícom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isTouchExplorationEnabled(com.facebook.react.bridge.Callback)!successCallback	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaw1 w(@2û
+voidRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaw	 w(«
+ícom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isTouchExplorationEnabled(com.facebook.react.bridge.Callback)!successCallback	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaw1 w(@"
+typeCallback"
+isFinalfalse"-
+declarationStringCallback successCallback*successCallback2µ
+"com.facebook.react.bridge.CallbackTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaw( w(0Œ
+Ücom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isAccessibilityServiceEnabled(com.facebook.react.bridge.Callback)METHODà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java| |(+"
+isFinalfalse"ﬂ
+declarationString…<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isAccessibilityServiceEnabled</mark>(Callback successCallback)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isAccessibilityServiceEnabled2—
+>com.facebook.react.bridge.Callback.invoke(java.lang.Object...)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java} }(2™
+ñcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isAccessibilityServiceEnabled(com.facebook.react.bridge.Callback)!successCallbackCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java} }(2Ä
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java} }(72Ø
+ñcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isAccessibilityServiceEnabled(com.facebook.react.bridge.Callback)!successCallback	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java|5 |(D2û
+voidRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java|	 |(À
+ñcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.isAccessibilityServiceEnabled(com.facebook.react.bridge.Callback)!successCallback	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java|5 |(D"
+typeCallback"
+isFinalfalse"-
+declarationStringCallback successCallback*successCallback2µ
+"com.facebook.react.bridge.CallbackTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java|, |(4¥
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÄ Ä(3"
+isFinalfalse"°
+declarationStringã<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">updateAndSendReduceMotionChangeEvent</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*$updateAndSendReduceMotionChangeEvent2˘
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÅ) Å(F2Ô
+Zcom.facebook.react.bridge.ReactContext.emitDeviceEvent(java.lang.String, java.lang.Object)CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaà  à(/2˙
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÉ É(2•
+ècom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?isReduceMotionEnabled@129.12:129.33CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÉ  É(52˙
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÑ Ñ(2•
+ècom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?isReduceMotionEnabled@129.12:129.33CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÑ Ñ(22ß
+ëcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?reactApplicationContext@134.30:134.53CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaá
+ á(!2ß
+ëcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?reactApplicationContext@134.30:134.53CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaà à(2˛
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?REDUCE_MOTION_EVENT_NAME@83.30:83.54CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaà0 à(H2˙
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaàJ à(^2¨
+ècom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?isReduceMotionEnabled@129.12:129.33DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÅ Å(!2Æ
+ëcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?reactApplicationContext@134.30:134.53DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÜ Ü(52†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÄ
+ Ä(◊
+ècom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?isReduceMotionEnabled@129.12:129.33VARIABLEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÅ Å(!"
+typeboolean"
+isFinalfalse"÷
+declarationString¿<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">isReduceMotionEnabled</mark> = <mark class="modifier">this</mark>.getIsReduceMotionEnabledValue()*isReduceMotionEnabled2ú
+booleanTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÅ Å(2˘
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getIsReduceMotionEnabledValue()CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÅ) Å(Fı
+ëcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()?reactApplicationContext@134.30:134.53VARIABLEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÜ Ü(5"
+typeReactApplicationContext"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>ReactApplicationContext <mark class="class-field">reactApplicationContext</mark> = getReactApplicationContextIfActiveOrWarn()*reactApplicationContext2∆
+1com.facebook.react.bridge.ReactApplicationContextTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÜ Ü( 
+vcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaç ç(7"
+isFinalfalse"“
+declarationStringº<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">updateAndSendTouchExplorationChangeEvent</mark>(<mark class="modifier">boolean</mark> enabled)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*(updateAndSendTouchExplorationChangeEvent2˛
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaé é( 2ì
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)!enabledCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaé$ é(+2˛
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaè è(2ì
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)!enabledCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaè! è((2≤
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)?reactApplicationContext@145.30:145.53CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaí
+ í(!2Ç
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?TOUCH_EXPLORATION_EVENT_NAME@84.30:84.58CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaî î(92˛
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaî; î(S2ò
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)!enabled	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaç@ ç(G2π
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)?reactApplicationContext@145.30:145.53DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaë ë(52†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaç
+ ç(Ä
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)?reactApplicationContext@145.30:145.53VARIABLEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaë ë(5"
+typeReactApplicationContext"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>ReactApplicationContext <mark class="class-field">reactApplicationContext</mark> = getReactApplicationContextIfActiveOrWarn()*reactApplicationContext2∆
+1com.facebook.react.bridge.ReactApplicationContextTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaë ë(ß
+~com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)!enabled	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaç@ ç(G"
+typeboolean"
+isFinalfalse"B
+declarationString-<mark class="modifier">boolean</mark> enabled*enabled2ú
+booleanTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaç8 ç(?˝
+zcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaô ô(;"
+isFinalfalse"÷
+declarationString¿<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">updateAndSendAccessibilityServiceChangeEvent</mark>(<mark class="modifier">boolean</mark> enabled)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*,updateAndSendAccessibilityServiceChangeEvent2Ç
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaö ö($2ò
+Çcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)!enabledCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaö( ö(/2Ç
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaõ õ("2ò
+Çcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)!enabledCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaõ% õ(,2∂
+†com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)?reactApplicationContext@157.30:157.53CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaû
+ û(!2Ü
+qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?ACCESSIBILITY_SERVICE_EVENT_NAME@85.30:85.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java† †(=2Ç
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java†? †([2ù
+Çcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)!enabled	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaôD ô(K2Ω
+†com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)?reactApplicationContext@157.30:157.53DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaù ù(52†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaô
+ ô(Ñ
+†com.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)?reactApplicationContext@157.30:157.53VARIABLEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaù ù(5"
+typeReactApplicationContext"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>ReactApplicationContext <mark class="class-field">reactApplicationContext</mark> = getReactApplicationContextIfActiveOrWarn()*reactApplicationContext2∆
+1com.facebook.react.bridge.ReactApplicationContextTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaù ù(¨
+Çcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)!enabled	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaôD ô(K"
+typeboolean"
+isFinalfalse"B
+declarationString-<mark class="modifier">boolean</mark> enabled*enabled2ú
+booleanTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaô< ô(CÃ
+Scom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostResume()METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaß ß("
+isFinalfalse"⁄
+declarationStringƒ <br><mark class="annotation">@TargetApi(Build.VERSION_CODES.LOLLIPOP)</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostResume</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostResume2Ä
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java± ±((2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java® ®(2ä
+ucom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationStateChangeListener@75.61:75.97CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java© ©(,2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java™ ™(2â
+tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceChangeListener@76.60:76.95CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java™> ™(a2ˆ
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java≠ ≠(2É
+ncom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostResume()?transitionUri@172.8:172.21CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java≠- ≠(:2¸
+gcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?animationScaleObserver@59.32:59.54CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java≠C ≠(Y2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaØ- Ø(B2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∞1 ∞(F2ÿ
+?com.facebook.react.bridge.LifecycleEventListener.onHostResume()OVERRIDEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaß ß(2ä
+ncom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostResume()?transitionUri@172.8:172.21DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¨ ¨(2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaß	 ß(é
+ncom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostResume()?transitionUri@172.8:172.21VARIABLEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¨ ¨("
+typeUri"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark>Uri <mark class="class-field">transitionUri</mark> = Settings.Global.getUriFor(Settings.Global.TRANSITION_ANIMATION_SCALE)*transitionUri2§
+android.net.UriTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¨ ¨(∂
+Rcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostPause()METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∂ ∂("
+isFinalfalse"Ÿ
+declarationString√ <br><mark class="annotation">@TargetApi(Build.VERSION_CODES.LOLLIPOP)</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostPause</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostPause2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∑ ∑(2ä
+ucom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationStateChangeListener@75.61:75.97CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∏ ∏(,2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaπ π(2â
+tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceChangeListener@76.60:76.95CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∫ ∫(+2ˆ
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaº º(2¸
+gcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?animationScaleObserver@59.32:59.54CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaº/ º(E2◊
+>com.facebook.react.bridge.LifecycleEventListener.onHostPause()OVERRIDEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∂ ∂(2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java∂	 ∂(ß
+Qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.initialize()METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¿ ¿("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">initialize</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+initialize2Ä
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaƒ ƒ((2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¬- ¬(B2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java√1 √(F2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java¿	 ¿(®
+Qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.invalidate()METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java» »("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">invalidate</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+invalidate2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java»	 »(ç
+Tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.onHostDestroy()METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaŒ Œ("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostDestroy2Ÿ
+@com.facebook.react.bridge.LifecycleEventListener.onHostDestroy()OVERRIDEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaŒ Œ(2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaŒ	 Œ(—
+ocom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java— —(&"
+isFinalfalse"–
+declarationString∫<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">announceForAccessibility</mark>(String message)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*announceForAccessibility2Æ
+java.lang.Class.getName()CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÿ5 ÿ(<2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java“ “(2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java“* “(?2ô
+Écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)?event@214.23:214.28CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java◊ ◊(	2å
+wcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)!messageCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java◊ ◊(2ô
+Écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)?event@214.23:214.28CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÿ ÿ(	2ô
+Écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)?event@214.23:214.28CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaŸ Ÿ(	2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java€ €(2ô
+Écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)?event@214.23:214.28CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java€1 €(62ë
+wcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)!message	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java—. —(52†
+Écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)?event@214.23:214.28DECLARATIONä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java÷ ÷(2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java—	 —( 
+Écom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)?event@214.23:214.28VARIABLEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java÷ ÷("
+typeAccessibilityEvent"
+isFinalfalse"∞
+declarationStringö<mark class="modifier"> </mark>AccessibilityEvent <mark class="class-field">event</mark> = AccessibilityEvent.obtain(AccessibilityEvent.TYPE_ANNOUNCEMENT)*event2¬
+-android.view.accessibility.AccessibilityEventTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java÷ ÷(â
+wcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.announceForAccessibility(java.lang.String)!message	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java—. —(5"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2•
+java.lang.StringTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java—' —(-Ñ
+bcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.setAccessibilityFocus(double)METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaﬂ ﬂ(#"
+isFinalfalse"Ï
+declarationString÷<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAccessibilityFocus</mark>(<mark class="modifier">double</mark> reactTag)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setAccessibilityFocus2Ö
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.setAccessibilityFocus(double)!reactTag	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaﬂ+ ﬂ(32†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaﬂ	 ﬂ(ì
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.setAccessibilityFocus(double)!reactTag	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaﬂ+ ﬂ(3"
+typedouble"
+isFinalfalse"B
+declarationString-<mark class="modifier">double</mark> reactTag*reactTag2õ
+doubleTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaﬂ$ ﬂ(*˙
+åcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)METHODä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰ ‰()"
+isFinalfalse"œ
+declarationStringπ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getRecommendedTimeoutMillis</mark>(<mark class="modifier">double</mark> originalTimeout<mark class="modifier"><mark class="modifier">,</mark></mark> Callback successCallback)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getRecommendedTimeoutMillis2”
+>com.facebook.react.bridge.Callback.invoke(java.lang.Object...)CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÊ Ê(2”
+>com.facebook.react.bridge.Callback.invoke(java.lang.Object...)CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÏ Ï(2≤
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!successCallbackCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÊ Ê(2≤
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!originalTimeoutCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÊ# Ê(22˘
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mRecommendedTimeout@81.14:81.33CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÈ È(2˚
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÍ Í(2≤
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!originalTimeoutCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÎ Î(!2≤
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!successCallbackCALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÏ Ï(2˘
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mRecommendedTimeout@81.14:81.33CALLä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaÏ Ï(.2∑
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!originalTimeout	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰1 ‰(@2∑
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!successCallback	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰K ‰(Z2†
+voidRETURN_TYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰	 ‰(”
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!originalTimeout	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰1 ‰(@"
+typedouble"
+isFinalfalse"I
+declarationString4<mark class="modifier">double</mark> originalTimeout*originalTimeout2õ
+doubleTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰* ‰(0’
+úcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.getRecommendedTimeoutMillis(double, com.facebook.react.bridge.Callback)!successCallback	PARAMETERä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰K ‰(Z"
+typeCallback"
+isFinalfalse"-
+declarationStringCallback successCallback*successCallback2∑
+"com.facebook.react.bridge.CallbackTYPEä
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java‰B ‰(JÑ
+gcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?animationScaleObserver@59.32:59.54VALUEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java;  ;(6"
+isFinaltrue"
+typeContentObserver"ì
+declarationString˝<mark class="modifier">private </mark><mark class="modifier">final </mark>ContentObserver <mark class="class-field">animationScaleObserver</mark> = new ContentObserver(new Handler(Looper.getMainLooper())) {
+
+    @Override
+    public <mark class="modifier">void</mark> onChange(<mark class="modifier">boolean</mark> selfChange) {
+        <mark class="modifier">this</mark>.onChange(selfChange, <mark class="modifier">null</mark>);
+    }
+
+    @Override
+    public <mark class="modifier">void</mark> onChange(<mark class="modifier">boolean</mark> selfChange, Uri uri) {
+        if (getReactApplicationContext().hasActiveReactInstance()) {
+            AccessibilityInfoModule.<mark class="modifier">this</mark>.updateAndSendReduceMotionChangeEvent();
+        }
+    }
+};"
+isStaticfalse"
+accessprivate*animationScaleObserver2≥
+ android.database.ContentObserverTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java; ;(2™
+ñcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.Anonymous-259c7875-8cd8-4781-a9b4-852a3ce536e6.onChange(boolean, android.net.Uri)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java? ?(2˛
+kcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendReduceMotionChangeEvent()CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaE) E(M2§
+êcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.Anonymous-116fd4da-eede-47e4-93f6-470e087e7fff.onChange(boolean)!selfChangeCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java? ?("∏
+fcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityManager@74.41:74.62VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaJ) J(>"
+isFinalfalse"
+typeAccessibilityManager"Ü
+declarationStringq<mark class="modifier">private </mark>AccessibilityManager <mark class="class-field">mAccessibilityManager</mark>"
+isStaticfalse"
+accessprivate*mAccessibilityManager2¬
+/android.view.accessibility.AccessibilityManagerTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaJ J((Ã
+ucom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationStateChangeListener@75.61:75.97VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaK= K(a"
+isFinalfalse"0
+type(ReactTouchExplorationStateChangeListener"™
+declarationStringî<mark class="modifier">private </mark>ReactTouchExplorationStateChangeListener <mark class="class-field">mTouchExplorationStateChangeListener</mark>"
+isStaticfalse"
+accessprivate*$mTouchExplorationStateChangeListener2Ä
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListenerTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaK K(<∆
+tcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceChangeListener@76.60:76.95VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaL< L(_"
+isFinalfalse"/
+type'ReactAccessibilityServiceChangeListener"®
+declarationStringí<mark class="modifier">private </mark>ReactAccessibilityServiceChangeListener <mark class="class-field">mAccessibilityServiceChangeListener</mark>"
+isStaticfalse"
+accessprivate*#mAccessibilityServiceChangeListener2ˇ
+lcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListenerTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaL L(;∞
+acom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mContentResolver@77.32:77.48VALUEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaM  M(0"
+isFinaltrue"
+typeContentResolver"°
+declarationStringã<mark class="modifier">private </mark><mark class="modifier">final </mark>ContentResolver <mark class="class-field">mContentResolver</mark>"
+isStaticfalse"
+accessprivate*mContentResolver2≤
+android.content.ContentResolverTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaM M(π
+ecom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mReduceMotionEnabled@78.18:78.38VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaN N(&"
+isFinalfalse"
+typeboolean"æ
+declarationString®<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mReduceMotionEnabled</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mReduceMotionEnabled2ö
+booleanTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaN
+ N(≈
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mTouchExplorationEnabled@79.18:79.42VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaO O(*"
+isFinalfalse"
+typeboolean"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mTouchExplorationEnabled</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mTouchExplorationEnabled2ö
+booleanTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaO
+ O(—
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mAccessibilityServiceEnabled@80.18:80.46VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaP P(."
+isFinalfalse"
+typeboolean"∆
+declarationString∞<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mAccessibilityServiceEnabled</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mAccessibilityServiceEnabled2ö
+booleanTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaP
+ P(Ç
+dcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?mRecommendedTimeout@81.14:81.33VARIABLEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaQ Q(!"
+isFinalfalse"
+typeint"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mRecommendedTimeout</mark>"
+isStaticfalse"
+accessprivate*mRecommendedTimeout2ñ
+intTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaQ
+ Q(Ê
+icom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?REDUCE_MOTION_EVENT_NAME@83.30:83.54VALUEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaS S(6"
+isFinaltrue"
+typeString"‡
+declarationString <mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">REDUCE_MOTION_EVENT_NAME</mark> = "reduceMotionDidChange";"
+isStatictrue"
+accessprivate*REDUCE_MOTION_EVENT_NAME2£
+java.lang.StringTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaS S(ˆ
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?TOUCH_EXPLORATION_EVENT_NAME@84.30:84.58VALUEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaT T(:"
+isFinaltrue"
+typeString"Ë
+declarationString“<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TOUCH_EXPLORATION_EVENT_NAME</mark> = "touchExplorationDidChange";"
+isStatictrue"
+accessprivate*TOUCH_EXPLORATION_EVENT_NAME2£
+java.lang.StringTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaT T(Ü
+qcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule?ACCESSIBILITY_SERVICE_EVENT_NAME@85.30:85.62VALUEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaU U(>"
+isFinaltrue"
+typeString"
+declarationString⁄<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">ACCESSIBILITY_SERVICE_EVENT_NAME</mark> = "accessibilityServiceDidChange";"
+isStatictrue"
+accessprivate* ACCESSIBILITY_SERVICE_EVENT_NAME2£
+java.lang.StringTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.javaU U(¶
+
+mcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListenerCLASSà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java$ $(8"O
+packageDcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"∫
+declarationString§<mark class="annotation">@TargetApi(Build.VERSION_CODES.LOLLIPOP)</mark> <br><mark class="modifier">private </mark><mark class="modifier">class </mark>ReactTouchExplorationStateChangeListener<mark class="modifier"><br>implements </mark>AccessibilityManager.TouchExplorationStateChangeListener"
+accessprivate*(ReactTouchExplorationStateChangeListener2∞
+ïcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListener.onTouchExplorationStateChanged(boolean)DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java( ((.2Ë
+Sandroid.view.accessibility.AccessibilityManager.TouchExplorationStateChangeListenerEXTENDà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java%& %(I∑
+ïcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListener.onTouchExplorationStateChanged(boolean)METHODà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java( ((."
+isFinalfalse"ı
+declarationStringﬂ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onTouchExplorationStateChanged</mark>(<mark class="modifier">boolean</mark> enabled)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onTouchExplorationStateChanged2â
+vcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendTouchExplorationChangeEvent(boolean)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java) )(.2±
+ùcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListener.onTouchExplorationStateChanged(boolean)!enabledCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java)/ )(62∂
+ùcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListener.onTouchExplorationStateChanged(boolean)!enabled	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java(7 ((>2û
+voidRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java( ((√
+ùcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactTouchExplorationStateChangeListener.onTouchExplorationStateChanged(boolean)!enabled	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java(7 ((>"
+typeboolean"
+isFinalfalse"B
+declarationString-<mark class="modifier">boolean</mark> enabled*enabled2ö
+booleanTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java(/ ((6ô
+
+lcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListenerCLASSà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java1 1(7"O
+packageDcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"∂
+declarationString†<mark class="annotation">@TargetApi(Build.VERSION_CODES.LOLLIPOP)</mark> <br><mark class="modifier">private </mark><mark class="modifier">class </mark>ReactAccessibilityServiceChangeListener<mark class="modifier"><br>implements </mark>AccessibilityManager.AccessibilityStateChangeListener"
+accessprivate*'ReactAccessibilityServiceChangeListener2¨
+ëcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListener.onAccessibilityStateChanged(boolean)DECLARATIONà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java5 5(+2Â
+Pandroid.view.accessibility.AccessibilityManager.AccessibilityStateChangeListenerEXTENDà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java2& 2(F©
+ëcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListener.onAccessibilityStateChanged(boolean)METHODà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java5 5(+"
+isFinalfalse"Ú
+declarationString‹<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onAccessibilityStateChanged</mark>(<mark class="modifier">boolean</mark> enabled)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onAccessibilityStateChanged2ç
+zcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.updateAndSendAccessibilityServiceChangeEvent(boolean)CALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java6 6(22≠
+ôcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListener.onAccessibilityStateChanged(boolean)!enabledCALLà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java63 6(:2≤
+ôcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListener.onAccessibilityStateChanged(boolean)!enabled	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java54 5(;2û
+voidRETURN_TYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java5 5(ø
+ôcom.facebook.react.modules.accessibilityinfo.AccessibilityInfoModule.ReactAccessibilityServiceChangeListener.onAccessibilityStateChanged(boolean)!enabled	PARAMETERà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java54 5(;"
+typeboolean"
+isFinalfalse"B
+declarationString-<mark class="modifier">boolean</mark> enabled*enabled2ö
+booleanTYPEà
+~node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/accessibilityinfo/AccessibilityInfoModule.java5, 5(3

@@ -1,0 +1,539 @@
+
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java#
+-com.facebook.react.uimanager.ViewGroupManagerCLASSq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (&"'
+packagecom.facebook.react.uimanager"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue"®
+declarationStringí<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>ViewGroupManager<mark class="modifier"> extends </mark>BaseViewManager<T, LayoutShadowNode><mark class="modifier"><br>implements </mark>IViewGroupManager&lt;T&gt;"
+accesspublic*ViewGroupManager2 
+Hcom.facebook.react.uimanager.ViewGroupManager.createShadowNodeInstance()DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (22ƒ
+Bcom.facebook.react.uimanager.ViewGroupManager.getShadowNodeClass()DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java+ (=2‘
+Rcom.facebook.react.uimanager.ViewGroupManager.updateExtraData(T, java.lang.Object)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java! !(2“
+Pcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$ $(2ﬁ
+\com.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/ /(2’
+Scom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7 7("2–
+Ncom.facebook.react.uimanager.ViewGroupManager.getViewZIndex(android.view.View)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java;" ;(/2¿
+>com.facebook.react.uimanager.ViewGroupManager.getChildCount(T)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@ @(2¬
+@com.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE E(2ƒ
+Bcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ J(2–
+Ncom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP P(2¡
+?com.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java[ [(2Œ
+Lcom.facebook.react.uimanager.ViewGroupManager.needsCustomLayoutForChildren()DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javal l(-2«
+Ecom.facebook.react.uimanager.ViewGroupManager?mZIndexHash@20.44:20.55DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java, (72´
+.com.facebook.react.uimanager.IViewGroupManagerEXTENDq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java< (M2©
+,com.facebook.react.uimanager.BaseViewManagerEXTENDq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (2¥
+/com.facebook.react.uimanager.ViewGroupManager.TTYPE_PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java' ((2∫
+/com.facebook.react.uimanager.ViewGroupManager.TEXTEND_TYPE_ARGUMENTq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaN (O2∫
+/com.facebook.react.uimanager.ViewGroupManager.TEXTEND_TYPE_ARGUMENTq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (2∏
+-com.facebook.react.uimanager.LayoutShadowNodeEXTEND_TYPE_ARGUMENTq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (/∆
+Hcom.facebook.react.uimanager.ViewGroupManager.createShadowNodeInstance()METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (2"
+isFinalfalse"é
+declarationString¯<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; LayoutShadowNode <mark class="method">createShadowNodeInstance</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeLayoutShadowNode*createShadowNodeInstance2ª
+@com.facebook.react.uimanager.LayoutShadowNode.LayoutShadowNode()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (2Ø
+-com.facebook.react.uimanager.LayoutShadowNodeRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java	 (Ä
+Bcom.facebook.react.uimanager.ViewGroupManager.getShadowNodeClass()METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java+ (="
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; Class&lt;? extends LayoutShadowNode&gt; <mark class="method">getShadowNodeClass</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse")
+type!Class<? extends LayoutShadowNode>*getShadowNodeClass2ë
+java.lang.ClassRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java	 (π
+Rcom.facebook.react.uimanager.ViewGroupManager.updateExtraData(T, java.lang.Object)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java! !("
+isFinalfalse"Î
+declarationString’<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">updateExtraData</mark>(T root<mark class="modifier"><mark class="modifier">,</mark></mark> Object extraData)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*updateExtraData2Ã
+Mcom.facebook.react.uimanager.ViewManager.updateExtraData(T, java.lang.Object)OVERRIDEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java! !(2◊
+Wcom.facebook.react.uimanager.ViewGroupManager.updateExtraData(T, java.lang.Object)!root	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java!  !($2‹
+\com.facebook.react.uimanager.ViewGroupManager.updateExtraData(T, java.lang.Object)!extraData	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java!- !(62Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java!	 !(ƒ
+Wcom.facebook.react.uimanager.ViewGroupManager.updateExtraData(T, java.lang.Object)!root	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java!  !($"	
+typeT"
+isFinalfalse"
+declarationStringT root*root2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java! !(æ
+\com.facebook.react.uimanager.ViewGroupManager.updateExtraData(T, java.lang.Object)!extraData	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java!- !(6"
+typeObject"
+isFinalfalse"%
+declarationStringObject extraData*	extraData2ã
+java.lang.ObjectTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java!& !(,‹
+Pcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$ $("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">addView</mark>(T parent<mark class="modifier"><mark class="modifier">,</mark></mark> View child<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addView2“
+Wcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java% %(
+2—
+Vcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!childCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java% %(2—
+Vcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!indexCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java% %(2–
+Qcom.facebook.react.uimanager.IViewGroupManager.addView(T, android.view.View, int)OVERRIDEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$ $(2◊
+Wcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$ $(2÷
+Vcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!child	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$% $(*2÷
+Vcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!index	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$0 $(52Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$	 $(»
+Wcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$ $("	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$ $(≠
+Vcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!child	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$% $(*"
+typeView"
+isFinalfalse"
+declarationString
+View child*child2å
+android.view.ViewTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$  $($∫
+Vcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)!index	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$0 $(5"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java$, $(/å!
+\com.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/ /("
+isFinalfalse"æ
+declarationString®<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">addViews</mark>(T parent<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;View&gt; views)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addViews2¥
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java0 0(!2ê
+java.util.List.size()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2! 2(%2À
+Pcom.facebook.react.uimanager.ViewGroupManager.addView(T, android.view.View, int)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java3 3(2í
+java.util.List.get(int)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java3 3(2›
+bcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!viewsCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2 2( 2Â
+jcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?i@50.13:50.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2) 2(*2Ë
+mcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?size@50.20:50.24CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2- 2(12Â
+jcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?i@50.13:50.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java23 2(42ﬁ
+ccom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java3 3(2›
+bcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!viewsCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java3 3(2Â
+jcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?i@50.13:50.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java3  3(!2Â
+jcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?i@50.13:50.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java3$ 3(%2„
+ccom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/ /(2‚
+bcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!views	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/, /(12Ï
+jcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?i@50.13:50.14DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2 2(2Ô
+mcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?size@50.20:50.24DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2 2(2Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/	 /(ü
+jcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?i@50.13:50.14VARIABLEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2 2("
+typeint"
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0, size = views.size()*i2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2	 2(õ
+mcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)?size@50.20:50.24VARIABLEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2 2("
+typeint"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">size</mark> = 0, size = views.size()*size2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2	 2(2ê
+java.util.List.size()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2! 2(%2›
+bcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!viewsCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java2 2( ‘
+ccom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/ /("	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/ /(⁄
+bcom.facebook.react.uimanager.ViewGroupManager.addViews(T, java.util.List<android.view.View>)!views	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/, /(1"
+type
+List<View>"
+isFinalfalse"%
+declarationStringList<View> views*views2â
+java.util.ListTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/! /(%2ï
+android.view.ViewTYPE_ARGUMENTq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java/& /(*Ö
+Scom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7 7(""
+isFinalfalse"˚
+declarationStringÂ<mark class="modifier">public </mark><mark class="modifier">static </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setViewZIndex</mark>(View view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> zIndex)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setViewZIndex2ö
+java.util.WeakHashMap.put(K, V)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java8 8(2¿
+Ecom.facebook.react.uimanager.ViewGroupManager?mZIndexHash@20.44:20.55CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java8 8(2”
+Xcom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)!viewCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java8 8(2’
+Zcom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)!zIndexCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java8 8( 2ÿ
+Xcom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)!view	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7( 7(,2⁄
+Zcom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)!zIndex	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java72 7(82Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7 7(≠
+Xcom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)!view	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7( 7(,"
+typeView"
+isFinalfalse"
+declarationString	View view*view2å
+android.view.ViewTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7# 7('¿
+Zcom.facebook.react.uimanager.ViewGroupManager.setViewZIndex(android.view.View, int)!zIndex	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java72 7(8"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> zIndex*zIndex2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java7. 7(1ä
+Ncom.facebook.react.uimanager.ViewGroupManager.getViewZIndex(android.view.View)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java;" ;(/"
+isFinalfalse"®
+declarationStringí<mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; Integer <mark class="method">getViewZIndex</mark>(View view)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeInteger*getViewZIndex2¶
++java.util.WeakHashMap.get(java.lang.Object)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java< <(2¿
+Ecom.facebook.react.uimanager.ViewGroupManager?mZIndexHash@20.44:20.55CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java< <(2Œ
+Scom.facebook.react.uimanager.ViewGroupManager.getViewZIndex(android.view.View)!viewCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java< <(2”
+Scom.facebook.react.uimanager.ViewGroupManager.getViewZIndex(android.view.View)!view	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java;5 ;(92ì
+java.lang.IntegerRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java; ;(!®
+Scom.facebook.react.uimanager.ViewGroupManager.getViewZIndex(android.view.View)!view	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java;5 ;(9"
+typeView"
+isFinalfalse"
+declarationString	View view*view2å
+android.view.ViewTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java;0 ;(4ñ
+
+>com.facebook.react.uimanager.ViewGroupManager.getChildCount(T)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@ @("
+isFinalfalse"ú
+declarationStringÜ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">int</mark> <mark class="method">getChildCount</mark>(T parent)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getChildCount2¿
+Ecom.facebook.react.uimanager.ViewGroupManager.getChildCount(T)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaA A(2æ
+?com.facebook.react.uimanager.IViewGroupManager.getChildCount(T)OVERRIDEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@ @(2≈
+Ecom.facebook.react.uimanager.ViewGroupManager.getChildCount(T)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@ @(#2Ö
+intRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@	 @(∂
+Ecom.facebook.react.uimanager.ViewGroupManager.getChildCount(T)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@ @(#"	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java@ @(¸
+@com.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE E("
+isFinalfalse"·
+declarationStringÀ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; View <mark class="method">getChildAt</mark>(T parent<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeView*
+getChildAt2¬
+Gcom.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaF F(2¡
+Fcom.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)!indexCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaF F("2¿
+Acom.facebook.react.uimanager.IViewGroupManager.getChildAt(T, int)OVERRIDEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE E(2«
+Gcom.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE E(!2∆
+Fcom.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)!index	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE' E(,2ì
+android.view.ViewRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE	 E(∏
+Gcom.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE E(!"	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE E(™
+Fcom.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)!index	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE' E(,"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaE# E(&‘
+Bcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ J("
+isFinalfalse"Å
+declarationStringÎ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">removeViewAt</mark>(T parent<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeViewAt2¥
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaK K(!2ƒ
+Icom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaM M(
+2√
+Hcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)!indexCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaM M(2¬
+Ccom.facebook.react.uimanager.IViewGroupManager.removeViewAt(T, int)OVERRIDEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ J(2…
+Icom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ J(#2»
+Hcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)!index	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ) J(.2Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ	 J(∫
+Icom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ J(#"	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ J(¨
+Hcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)!index	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ) J(."
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaJ% J((¢
+Ncom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP P("
+isFinalfalse"≥
+declarationStringù<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">removeView</mark>(T parent<mark class="modifier"><mark class="modifier">,</mark></mark> View view)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+removeView2¥
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaQ Q(!2π
+>com.facebook.react.uimanager.ViewGroupManager.getChildCount(T)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS S(%2ª
+@com.facebook.react.uimanager.ViewGroupManager.getChildAt(T, int)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaT
+ T(2Ω
+Bcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaU U(2◊
+\com.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)?i@83.13:83.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS S(2–
+Ucom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS& S(,2◊
+\com.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)?i@83.13:83.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS/ S(02–
+Ucom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaT T(2◊
+\com.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)?i@83.13:83.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaT T(2Œ
+Scom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!viewCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaT# T('2–
+Ucom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaU U(2◊
+\com.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)?i@83.13:83.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaU U(2’
+Ucom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP P(!2”
+Scom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!view	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP( P(,2ﬁ
+\com.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)?i@83.13:83.14DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS S(2Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP	 P(˚
+\com.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)?i@83.13:83.14VARIABLEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS S("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaS	 S(∆
+Ucom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP P(!"	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP P(®
+Scom.facebook.react.uimanager.ViewGroupManager.removeView(T, android.view.View)!view	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP( P(,"
+typeView"
+isFinalfalse"
+declarationString	View view*view2å
+android.view.ViewTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javaP# P('Ÿ
+?com.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java[ [("
+isFinalfalse"
+declarationString⁄<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">removeAllViews</mark>(T parent)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeAllViews2¥
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java\ \(!2π
+>com.facebook.react.uimanager.ViewGroupManager.getChildCount(T)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^ ^(2Ω
+Bcom.facebook.react.uimanager.ViewGroupManager.removeViewAt(T, int)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java_ _(2¡
+Fcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^ ^(%2»
+Mcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)?i@94.13:94.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^, ^(-2»
+Mcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)?i@94.13:94.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^4 ^(52¡
+Fcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java_ _(2»
+Mcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)?i@94.13:94.14CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java_ _(2∆
+Fcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java[ [(%2œ
+Mcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)?i@94.13:94.14DECLARATIONq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^ ^(2Ü
+voidRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java[	 [(Ö
+Mcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)?i@94.13:94.14VARIABLEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^ ^("
+typeint"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = getChildCount(parent) - 1*i2~
+intTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^	 ^(2π
+>com.facebook.react.uimanager.ViewGroupManager.getChildCount(T)CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^ ^(2¡
+Fcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)!parentCALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java^ ^(%∑
+Fcom.facebook.react.uimanager.ViewGroupManager.removeAllViews(T)!parent	PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java[ [(%"	
+typeT"
+isFinalfalse"
+declarationStringT parent*parent2™
+/com.facebook.react.uimanager.ViewGroupManager.TTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java[ [(–
+Lcom.facebook.react.uimanager.ViewGroupManager.needsCustomLayoutForChildren()METHODq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javal l(-"
+isFinalfalse"ß
+declarationStringë<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T extends ViewGroup</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">needsCustomLayoutForChildren</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*needsCustomLayoutForChildren2”
+Tcom.facebook.react.uimanager.IViewManagerWithChildren.needsCustomLayoutForChildren()OVERRIDEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javal l(-2â
+booleanRETURN_TYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.javal	 l(“
+Ecom.facebook.react.uimanager.ViewGroupManager?mZIndexHash@20.44:20.55VARIABLEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java, (7"
+isFinalfalse""
+typeWeakHashMap<View, Integer>"ø
+declarationString©<mark class="modifier">private </mark><mark class="modifier">static </mark>WeakHashMap<View, Integer> <mark class="class-field">mZIndexHash</mark> = new WeakHashMap<>();"
+isStatictrue"
+accessprivate*mZIndexHash2ê
+java.util.WeakHashMapTYPEq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (2ï
+java.lang.IntegerTYPE_ARGUMENTq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java (!2ï
+android.view.ViewTYPE_ARGUMENTq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java# (*2û
+#java.util.WeakHashMap.WeakHashMap()CALLq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java> (KÕ
+/com.facebook.react.uimanager.ViewGroupManager.TTYPE_PARAMETERq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java' ((*T2ì
+android.view.ViewGroupEXTENDq
+gnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/ViewGroupManager.java1 (:

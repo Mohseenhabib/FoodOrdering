@@ -1,0 +1,347 @@
+
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaΩ
+6com.facebook.react.common.futures.SimpleSettableFutureCLASSz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (!",
+package!com.facebook.react.common.futures"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">class </mark>SimpleSettableFuture<mark class="modifier"><br>implements </mark>Future&lt;T&gt;"
+accesspublic*SimpleSettableFuture2»
+=com.facebook.react.common.futures.SimpleSettableFuture.set(T)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (2„
+Xcom.facebook.react.common.futures.SimpleSettableFuture.setException(java.lang.Exception)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java' '(2—
+Fcom.facebook.react.common.futures.SimpleSettableFuture.cancel(boolean)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java. .(2œ
+Dcom.facebook.react.common.futures.SimpleSettableFuture.isCancelled()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java3 3(2 
+?com.facebook.react.common.futures.SimpleSettableFuture.isDone()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java8 8(2«
+<com.facebook.react.common.futures.SimpleSettableFuture.get()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java= =(2Í
+_com.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN N(2Œ
+Ccom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java] ](2Ò
+fcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai i(2œ
+Dcom.facebook.react.common.futures.SimpleSettableFuture.checkNotSet()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaq q(2Ÿ
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (*2’
+Jcom.facebook.react.common.futures.SimpleSettableFuture?mResult@22.22:22.29DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (2ÿ
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java ((2°
+java.util.concurrent.FutureEXTENDz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java0 (62∆
+8com.facebook.react.common.futures.SimpleSettableFuture.TTYPE_PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java" (#2Ã
+8com.facebook.react.common.futures.SimpleSettableFuture.TEXTEND_TYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java7 (8ö
+=com.facebook.react.common.futures.SimpleSettableFuture.set(T)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java ("
+isFinalfalse"°
+declarationStringã<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">set</mark>(<mark class="annotation">@Nullable</mark> <mark class="type-parameter">T</mark> result)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*set2»
+Dcom.facebook.react.common.futures.SimpleSettableFuture.checkNotSet()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (2≥
+/java.util.concurrent.CountDownLatch.countDown()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java   (2Œ
+Jcom.facebook.react.common.futures.SimpleSettableFuture?mResult@22.22:22.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (2»
+Dcom.facebook.react.common.futures.SimpleSettableFuture.set(T)!resultCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (2“
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java   (2Õ
+Dcom.facebook.react.common.futures.SimpleSettableFuture.set(T)!result	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java ($2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java	 (û
+Dcom.facebook.react.common.futures.SimpleSettableFuture.set(T)!result	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java ($"	
+typeT"
+isFinalfalse"k
+declarationStringV<mark class="annotation">@Nullable</mark> <mark class="type-parameter">T</mark> result*result2º
+8com.facebook.react.common.futures.SimpleSettableFuture.TTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (√
+Xcom.facebook.react.common.futures.SimpleSettableFuture.setException(java.lang.Exception)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java' '("
+isFinalfalse"Á
+declarationString—<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">setException</mark>(Exception exception)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setException2»
+Dcom.facebook.react.common.futures.SimpleSettableFuture.checkNotSet()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java( ((2≥
+/java.util.concurrent.CountDownLatch.countDown()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java* *(2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java) )(2Ê
+bcom.facebook.react.common.futures.SimpleSettableFuture.setException(java.lang.Exception)!exceptionCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java) )(2“
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java* *(2Î
+bcom.facebook.react.common.futures.SimpleSettableFuture.setException(java.lang.Exception)!exception	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java'% '(.2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java'	 '(ﬂ
+bcom.facebook.react.common.futures.SimpleSettableFuture.setException(java.lang.Exception)!exception	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java'% '(."
+type	Exception"
+isFinalfalse"(
+declarationStringException exception*	exception2ó
+java.lang.ExceptionTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java' '($π	
+Fcom.facebook.react.common.futures.SimpleSettableFuture.cancel(boolean)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java. .("
+isFinalfalse"∫
+declarationString§<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">cancel</mark>(<mark class="modifier">boolean</mark> mayInterruptIfRunning)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*cancel2À
+Gjava.lang.UnsupportedOperationException.UnsupportedOperationException()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java/ /(+2Â
+\com.facebook.react.common.futures.SimpleSettableFuture.cancel(boolean)!mayInterruptIfRunning	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java.  .(52í
+booleanRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java.	 .(ˇ
+\com.facebook.react.common.futures.SimpleSettableFuture.cancel(boolean)!mayInterruptIfRunning	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java.  .(5"
+typeboolean"
+isFinalfalse"P
+declarationString;<mark class="modifier">boolean</mark> mayInterruptIfRunning*mayInterruptIfRunning2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java. .(–
+Dcom.facebook.react.common.futures.SimpleSettableFuture.isCancelled()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java3 3("
+isFinalfalse"Ñ
+declarationStringÓ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isCancelled</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isCancelled2í
+booleanRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java3	 3(À
+?com.facebook.react.common.futures.SimpleSettableFuture.isDone()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java8 8("
+isFinalfalse"ˇ
+declarationStringÈ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; <mark class="modifier">boolean</mark> <mark class="method">isDone</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isDone2≤
+.java.util.concurrent.CountDownLatch.getCount()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java9 9(2“
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java9 9(2í
+booleanRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java8	 8(ã
+<com.facebook.react.common.futures.SimpleSettableFuture.get()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java= =("
+isFinalfalse"Ö
+declarationStringÔ <br><mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; T <mark class="method">get</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>InterruptedException<mark class="modifier"><mark class="modifier">,</mark></mark> ExecutionException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*get2Ø
++java.util.concurrent.CountDownLatch.await()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java> >(2”
+Ojava.util.concurrent.ExecutionException.ExecutionException(java.lang.Throwable)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java@ @("2“
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java> >(2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java? ?(2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java@# @(-2Œ
+Jcom.facebook.react.common.futures.SimpleSettableFuture?mResult@22.22:22.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaC C(2å
+TRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java= =(ü
+_com.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN N("
+isFinalfalse"»
+declarationString≤ <br><mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; T <mark class="method">get</mark>(<mark class="modifier">long</mark> timeout<mark class="modifier"><mark class="modifier">,</mark></mark> TimeUnit unit)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>InterruptedException<mark class="modifier"><mark class="modifier">,</mark></mark> ExecutionException<mark class="modifier"><mark class="modifier">,</mark></mark> TimeoutException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*get2“
+Njava.util.concurrent.CountDownLatch.await(long, java.util.concurrent.TimeUnit)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaP P(2Ã
+Hjava.util.concurrent.TimeoutException.TimeoutException(java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaQ Q( 2”
+Ojava.util.concurrent.ExecutionException.ExecutionException(java.lang.Throwable)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaT T("2“
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaP	 P(2Î
+gcom.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)!timeoutCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaP P("2Ë
+dcom.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)!unitCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaP$ P((2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaS S(2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaT# T(-2Œ
+Jcom.facebook.react.common.futures.SimpleSettableFuture?mResult@22.22:22.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaW W(2
+gcom.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)!timeout	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN N(%2Ì
+dcom.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)!unit	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN0 N(42å
+TRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN N(Â
+gcom.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)!timeout	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN N(%"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> timeout*timeout2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN N(ﬂ
+dcom.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)!unit	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN0 N(4"
+typeTimeUnit"
+isFinalfalse""
+declarationStringTimeUnit unit*unit2°
+java.util.concurrent.TimeUnitTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaN' N(/ﬁ
+Ccom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java] ]("
+isFinalfalse"ﬂ
+declarationString…<mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; T <mark class="method">getOrThrow</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*
+getOrThrow2¿
+<com.facebook.react.common.futures.SimpleSettableFuture.get()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java_ _(2ƒ
+@java.lang.RuntimeException.RuntimeException(java.lang.Throwable)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaa a( 2’
+Qcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()?e@96.55:96.56CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaa! a("2‹
+Qcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()?e@96.55:96.56DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java`7 `(82å
+TRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java] ](≤
+Qcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()?e@96.55:96.56VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java`7 `(8"1
+type)InterruptedException | ExecutionException"
+isFinalfalse"@
+declarationString+InterruptedException | ExecutionException e*e2Ã
+Hjava.lang.InterruptedException | java.util.concurrent.ExecutionExceptionTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java` `(6ª
+fcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai i("
+isFinalfalse"‘
+declarationStringæ<mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; T <mark class="method">getOrThrow</mark>(<mark class="modifier">long</mark> timeout<mark class="modifier"><mark class="modifier">,</mark></mark> TimeUnit unit)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*
+getOrThrow2„
+_com.facebook.react.common.futures.SimpleSettableFuture.get(long, java.util.concurrent.TimeUnit)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javak k(2ƒ
+@java.lang.RuntimeException.RuntimeException(java.lang.Throwable)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javam m( 2Ú
+ncom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)!timeoutCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javak k(2Ô
+kcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)!unitCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javak k(2˙
+vcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)?e@108.74:108.75CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javam! m("2˜
+ncom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)!timeout	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai% i(,2Ù
+kcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)!unit	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai7 i(;2Å
+vcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)?e@108.74:108.75DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javalJ l(K2å
+TRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai i(Ï
+ncom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)!timeout	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai% i(,"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> timeout*timeout2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai  i($Ê
+kcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)!unit	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai7 i(;"
+typeTimeUnit"
+isFinalfalse""
+declarationStringTimeUnit unit*unit2°
+java.util.concurrent.TimeUnitTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javai. i(6•
+vcom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow(long, java.util.concurrent.TimeUnit)?e@108.74:108.75VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javalJ l(K"D
+type<InterruptedException | ExecutionException | TimeoutException"
+isFinalfalse"S
+declarationString>InterruptedException | ExecutionException | TimeoutException e*e2Ù
+pjava.lang.InterruptedException | java.util.concurrent.ExecutionException | java.util.concurrent.TimeoutExceptionTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javal l(IÈ	
+Dcom.facebook.react.common.futures.SimpleSettableFuture.checkNotSet()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaq q("
+isFinalfalse"‘
+declarationStringæ<mark class="modifier">private </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">checkNotSet</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*checkNotSet2≤
+.java.util.concurrent.CountDownLatch.getCount()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javar r(2¡
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javas s( 2“
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javar r(2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.javaq
+ q(Œ
+Ncom.facebook.react.common.futures.SimpleSettableFuture?mReadyLatch@21.31:21.42VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (*"
+isFinaltrue"
+typeCountDownLatch"¥
+declarationStringû<mark class="modifier">private </mark><mark class="modifier">final </mark>CountDownLatch <mark class="class-field">mReadyLatch</mark> = new CountDownLatch(1);"
+isStaticfalse"
+accessprivate*mReadyLatch2ß
+#java.util.concurrent.CountDownLatchTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (2ª
+7java.util.concurrent.CountDownLatch.CountDownLatch(int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java1 (?ƒ
+Jcom.facebook.react.common.futures.SimpleSettableFuture?mResult@22.22:22.29VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java ("
+isFinalfalse"	
+typeT"e
+declarationStringP<mark class="modifier">private </mark>T <mark class="class-field">mResult</mark>"
+isStaticfalse"
+accessprivate*mResult2º
+8com.facebook.react.common.futures.SimpleSettableFuture.TTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (∏
+Mcom.facebook.react.common.futures.SimpleSettableFuture?mException@23.30:23.40VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (("
+isFinalfalse"
+type	Exception"p
+declarationString[<mark class="modifier">private </mark>Exception <mark class="class-field">mException</mark>"
+isStaticfalse"
+accessprivate*
+mException2ó
+java.lang.ExceptionTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java (…
+8com.facebook.react.common.futures.SimpleSettableFuture.TTYPE_PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/common/futures/SimpleSettableFuture.java" (#*T

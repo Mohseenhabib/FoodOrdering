@@ -1,0 +1,760 @@
+
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java◊"
+ expo.modules.core.ModuleRegistryCLASSd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ("
+packageexpo.modules.core"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">class </mark>ModuleRegistry"
+accesspublic*ModuleRegistry2ô
+£expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java	 (2≥
+>expo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java. .(2π
+Dexpo.modules.core.ModuleRegistry.getExportedModule(java.lang.String)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java2 2()2ø
+Jexpo.modules.core.ModuleRegistry.getExportedModuleOfClass(java.lang.Class)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java6 6(02≠
+8expo.modules.core.ModuleRegistry.getAllExportedModules()DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java:$ :(92Œ
+Yexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java> >(!2Ÿ
+dexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH H($2ø
+Jexpo.modules.core.ModuleRegistry.unregisterInternalModule(java.lang.Class)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaN N(02Œ
+Yexpo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaR R($2€
+fexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaX X(%2„
+nexpo.modules.core.ModuleRegistry.registerExtraListener(expo.modules.core.interfaces.RegistryLifecycleListener)DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java] ](#2´
+6expo.modules.core.ModuleRegistry.ensureIsInitialized()DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javar r(.2¢
+-expo.modules.core.ModuleRegistry.initialize()DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javay y(2£
+,expo.modules.core.ModuleRegistry.onDestroy()DECLARATIONf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaâ â(2µ
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java+ (>2µ
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java, (?2º
+Gexpo.modules.core.ModuleRegistry?mExportedModulesByClassMap@16.43:16.69DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java+ (E2∂
+Aexpo.modules.core.ModuleRegistry?mSingletonModulesMap@17.45:17.65DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java- (A2¬
+Mexpo.modules.core.ModuleRegistry?mExtraRegistryLifecycleListeners@18.63:18.95DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java? (_2∞
+;expo.modules.core.ModuleRegistry?mIsInitialized@19.27:19.41DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ()»8
+£expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)CONSTRUCTORd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java	 ("›
+declarationString«<mark class="modifier">public </mark><mark class="method">ModuleRegistry</mark>(Collection&lt;InternalModule&gt; internalModules<mark class="modifier"><mark class="modifier">,</mark></mark> Collection&lt;ExportedModule&gt; exportedModules<mark class="modifier"><mark class="modifier">,</mark></mark> Collection&lt;ViewManager&gt; viewManagers<mark class="modifier"><mark class="modifier">,</mark></mark> Collection&lt;SingletonModule&gt; singletonModules)*ModuleRegistry2“
+dexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2«
+Yexpo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2‘
+fexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java# #(2¢
+≥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!internalModulesCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java) (82≠
+æexpo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?internalModule@26.24:26.38CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (+2¢
+≥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!exportedModulesCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java! (02•
+∂expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?module@30.24:30.30CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (#2£
+¥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!singletonModulesCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java"% "(52®
+πexpo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?singleton@34.25:34.34CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java# #('2ß
+≥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!internalModules	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (.2ß
+≥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!exportedModules	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (.2§
+∞expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!viewManagers	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ((2®
+¥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!singletonModules	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java  (02¥
+æexpo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?internalModule@26.24:26.38DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (&2¨
+∂expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?module@30.24:30.30DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2Ø
+πexpo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?singleton@34.25:34.34DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java" "("2ï
+ expo.modules.core.ModuleRegistryRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java	 (˚
+æexpo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?internalModule@26.24:26.38VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (&"
+typeInternalModule"
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>InternalModule <mark class="class-field">internalModule</mark>*internalModule2ô
++expo.modules.core.interfaces.InternalModuleTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java	 (ÿ
+∂expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?module@30.24:30.30VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ("
+typeExportedModule"
+isFinalfalse"j
+declarationStringU<mark class="modifier"> </mark>ExportedModule <mark class="class-field">module</mark>*module2é
+ expo.modules.core.ExportedModuleTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java	 (Ô
+πexpo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)?singleton@34.25:34.34VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java" "(""
+typeSingletonModule"
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>SingletonModule <mark class="class-field">singleton</mark>*	singleton2ö
+,expo.modules.core.interfaces.SingletonModuleTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java"	 "(Ÿ
+≥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!internalModules	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (.""
+typeCollection<InternalModule>"
+isFinalfalse"?
+declarationString*Collection<InternalModule> internalModules*internalModules2Ç
+java.util.CollectionTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2¢
++expo.modules.core.interfaces.InternalModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (Œ
+≥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!exportedModules	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (.""
+typeCollection<ExportedModule>"
+isFinalfalse"?
+declarationString*Collection<ExportedModule> exportedModules*exportedModules2Ç
+java.util.CollectionTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2ó
+ expo.modules.core.ExportedModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (º
+∞expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!viewManagers	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (("
+typeCollection<ViewManager>"
+isFinalfalse"9
+declarationString$Collection<ViewManager> viewManagers*viewManagers2Ç
+java.util.CollectionTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2î
+expo.modules.core.ViewManagerTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (ﬂ
+¥expo.modules.core.ModuleRegistry.ModuleRegistry(java.util.Collection<expo.modules.core.interfaces.InternalModule>, java.util.Collection<expo.modules.core.ExportedModule>, java.util.Collection<expo.modules.core.ViewManager>, java.util.Collection<expo.modules.core.interfaces.SingletonModule>)!singletonModules	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java  (0"#
+typeCollection<SingletonModule>"
+isFinalfalse"A
+declarationString,Collection<SingletonModule> singletonModules*singletonModules2Ç
+java.util.CollectionTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2£
+,expo.modules.core.interfaces.SingletonModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (–
+>expo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java. .("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@SuppressWarnings("unchecked")</mark> <br><mark class="modifier">public </mark>T <mark class="method">getModule</mark>(Class&lt;T&gt; interfaceClass)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*	getModule2ë
+#java.util.Map.get(java.lang.Object)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java/# /(&2Æ
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java/ /("2ª
+Mexpo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>)!interfaceClassCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java/' /(52¿
+Mexpo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>)!interfaceClass	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java." .(02v
+TRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java. .(2∏
+@expo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>).TTYPE_PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java.
+ .(ˇ
+Mexpo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>)!interfaceClass	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java." .(0"
+typeClass<T>"
+isFinalfalse"P
+declarationString;Class<<mark class="type-parameter">T</mark>> interfaceClass*interfaceClass2}
+java.lang.ClassTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java. .(2∑
+@expo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>).TTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java. .( ª
+@expo.modules.core.ModuleRegistry.getModule(java.lang.Class<T>).TTYPE_PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java.
+ .(*Tá
+
+Dexpo.modules.core.ModuleRegistry.getExportedModule(java.lang.String)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java2 2()"
+isFinalfalse"É
+declarationStringn<mark class="modifier">public </mark>ExportedModule <mark class="method">getExportedModule</mark>(String name)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeExportedModule*getExportedModule2ë
+#java.util.Map.get(java.lang.Object)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java3 3("2Æ
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java3 3(2∑
+Iexpo.modules.core.ModuleRegistry.getExportedModule(java.lang.String)!nameCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java3# 3('2º
+Iexpo.modules.core.ModuleRegistry.getExportedModule(java.lang.String)!name	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java21 2(52ï
+ expo.modules.core.ExportedModuleRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java2	 2(Ü
+Iexpo.modules.core.ModuleRegistry.getExportedModule(java.lang.String)!name	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java21 2(5"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2~
+java.lang.StringTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java2* 2(0¬
+
+Jexpo.modules.core.ModuleRegistry.getExportedModuleOfClass(java.lang.Class)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java6 6(0"
+isFinalfalse"ê
+declarationString{<mark class="modifier">public </mark>ExportedModule <mark class="method">getExportedModuleOfClass</mark>(Class moduleClass)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeExportedModule*getExportedModuleOfClass2ë
+#java.util.Map.get(java.lang.Object)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java7& 7()2µ
+Gexpo.modules.core.ModuleRegistry?mExportedModulesByClassMap@16.43:16.69CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java7 7(%2ƒ
+Vexpo.modules.core.ModuleRegistry.getExportedModuleOfClass(java.lang.Class)!moduleClassCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java7* 7(52…
+Vexpo.modules.core.ModuleRegistry.getExportedModuleOfClass(java.lang.Class)!moduleClass	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java67 6(B2ï
+ expo.modules.core.ExportedModuleRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java6	 6(û
+Vexpo.modules.core.ModuleRegistry.getExportedModuleOfClass(java.lang.Class)!moduleClass	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java67 6(B"
+typeClass"
+isFinalfalse"&
+declarationStringClass moduleClass*moduleClass2}
+java.lang.ClassTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java61 6(6•
+8expo.modules.core.ModuleRegistry.getAllExportedModules()METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java:$ :(9"
+isFinalfalse"é
+declarationStringy<mark class="modifier">public </mark>Collection&lt;ExportedModule&gt; <mark class="method">getAllExportedModules</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse""
+typeCollection<ExportedModule>*getAllExportedModules2Ñ
+java.util.Map.values()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java; ;(%2Æ
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java; ;(2â
+java.util.CollectionRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java:	 :(2û
+ expo.modules.core.ExportedModuleRETURN_TYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java: :("∫
+Yexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java> >(!"
+isFinalfalse"‹
+declarationString∆<mark class="modifier">public </mark>T <mark class="method">getSingletonModule</mark>(String singletonName<mark class="modifier"><mark class="modifier">,</mark></mark> Class&lt;T&gt; singletonClass)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*getSingletonModule2ë
+#java.util.Map.get(java.lang.Object)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java?$ ?('2Ø
+Aexpo.modules.core.ModuleRegistry?mSingletonModulesMap@17.45:17.65CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java? ?(#2’
+gexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)!singletonNameCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java?( ?(52⁄
+gexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)!singletonName	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>) >(62€
+hexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)!singletonClass	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>A >(O2v
+TRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java> >(2”
+[expo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>).TTYPE_PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>
+ >(∂
+gexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)!singletonName	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>) >(6"
+typeString"
+isFinalfalse")
+declarationStringString singletonName*singletonName2~
+java.lang.StringTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>" >((µ
+hexpo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>)!singletonClass	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>A >(O"
+typeClass<T>"
+isFinalfalse"P
+declarationString;Class<<mark class="type-parameter">T</mark>> singletonClass*singletonClass2}
+java.lang.ClassTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>8 >(=2“
+[expo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>).TTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>> >(?÷
+[expo.modules.core.ModuleRegistry.getSingletonModule(java.lang.String, java.lang.Class<T>).TTYPE_PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java>
+ >(*T‡
+dexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH H($"
+isFinalfalse"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerInternalModule</mark>(InternalModule module)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerInternalModule2±
+Cexpo.modules.core.interfaces.InternalModule.getExportedInterfaces()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaI* I(?2Ö
+java.util.Map.put(K, V)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaJ J(2Ÿ
+kexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaI# I()2Æ
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaJ J(2Ò
+Çexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)?exportedInterface@73.15:73.32CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaJ J(/2Ÿ
+kexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaJ1 J(72ﬁ
+kexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)!module	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH4 H(:2¯
+Çexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)?exportedInterface@73.15:73.32DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaI I( 2y
+voidRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH	 H(ñ
+Çexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)?exportedInterface@73.15:73.32VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaI I( "
+typeClass"
+isFinalfalse"l
+declarationStringW<mark class="modifier"> </mark>Class <mark class="class-field">exportedInterface</mark>*exportedInterface2}
+java.lang.ClassTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaI	 I(ÿ
+kexpo.modules.core.ModuleRegistry.registerInternalModule(expo.modules.core.interfaces.InternalModule)!module	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH4 H(:"
+typeInternalModule"
+isFinalfalse"*
+declarationStringInternalModule module*module2ô
++expo.modules.core.interfaces.InternalModuleTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH% H(3‹
+
+Jexpo.modules.core.ModuleRegistry.unregisterInternalModule(java.lang.Class)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaN N(0"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark>InternalModule <mark class="method">unregisterInternalModule</mark>(Class exportedInterface)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeInternalModule*unregisterInternalModule2î
+&java.util.Map.remove(java.lang.Object)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaO O(%2Æ
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaO O(2 
+\expo.modules.core.ModuleRegistry.unregisterInternalModule(java.lang.Class)!exportedInterfaceCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaO& O(72œ
+\expo.modules.core.ModuleRegistry.unregisterInternalModule(java.lang.Class)!exportedInterface	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaN7 N(H2†
++expo.modules.core.interfaces.InternalModuleRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaN	 N(∞
+\expo.modules.core.ModuleRegistry.unregisterInternalModule(java.lang.Class)!exportedInterface	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaN7 N(H"
+typeClass"
+isFinalfalse",
+declarationStringClass exportedInterface*exportedInterface2}
+java.lang.ClassTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaN1 N(6„
+Yexpo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaR R($"
+isFinalfalse"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerExportedModule</mark>(ExportedModule module)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerExportedModule2ò
+*expo.modules.core.ExportedModule.getName()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S(&2Ö
+java.util.Map.put(K, V)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaT T(2Ö
+java.util.Map.put(K, V)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaU U("2â
+java.lang.Object.getClass()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaU* U(22Œ
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S(2Æ
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaT T(2ﬁ
+pexpo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)?moduleName@83.11:83.21CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaT T(&2Œ
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaT( T(.2µ
+Gexpo.modules.core.ModuleRegistry?mExportedModulesByClassMap@16.43:16.69CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaU U(2Œ
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaU# U()2Œ
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaU6 U(<2”
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!module	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaR4 R(:2Â
+pexpo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)?moduleName@83.11:83.21DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S(2y
+voidRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaR	 R(˜
+pexpo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)?moduleName@83.11:83.21VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S("
+typeString"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>String <mark class="class-field">moduleName</mark> = module.getName()*
+moduleName2~
+java.lang.StringTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S(
+2ò
+*expo.modules.core.ExportedModule.getName()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S(&2Œ
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!moduleCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaS S(¬
+`expo.modules.core.ModuleRegistry.registerExportedModule(expo.modules.core.ExportedModule)!module	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaR4 R(:"
+typeExportedModule"
+isFinalfalse"*
+declarationStringExportedModule module*module2é
+ expo.modules.core.ExportedModuleTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaR% R(3Á
+fexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaX X(%"
+isFinalfalse"¨
+declarationStringñ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerSingletonModule</mark>(SingletonModule singleton)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerSingletonModule2§
+6expo.modules.core.interfaces.SingletonModule.getName()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY% Y(,2Ö
+java.util.Map.put(K, V)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaZ Z(2ﬁ
+pexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)!singletonCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY Y($2Ø
+Aexpo.modules.core.ModuleRegistry?mSingletonModulesMap@17.45:17.65CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaZ Z(2Ô
+Äexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)?singletonName@89.11:89.24CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaZ Z(*2ﬁ
+pexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)!singletonCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaZ, Z(52„
+pexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)!singleton	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaX6 X(?2ˆ
+Äexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)?singletonName@89.11:89.24DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY Y(2y
+voidRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaX	 X(≠
+Äexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)?singletonName@89.11:89.24VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY Y("
+typeString"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>String <mark class="class-field">singletonName</mark> = singleton.getName()*singletonName2~
+java.lang.StringTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY Y(
+2§
+6expo.modules.core.interfaces.SingletonModule.getName()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY% Y(,2ﬁ
+pexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)!singletonCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaY Y($Ê
+pexpo.modules.core.ModuleRegistry.registerSingletonModule(expo.modules.core.interfaces.SingletonModule)!singleton	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaX6 X(?"
+typeSingletonModule"
+isFinalfalse".
+declarationStringSingletonModule singleton*	singleton2ö
+,expo.modules.core.interfaces.SingletonModuleTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaX& X(5≈
+nexpo.modules.core.ModuleRegistry.registerExtraListener(expo.modules.core.interfaces.RegistryLifecycleListener)METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java] ](#"
+isFinalfalse"∏
+declarationString¢<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerExtraListener</mark>(RegistryLifecycleListener outerListener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerExtraListener2É
+java.util.List.add(E)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java^% ^((2ö
+,java.lang.ref.WeakReference.WeakReference(T)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java^- ^(<2ª
+Mexpo.modules.core.ModuleRegistry?mExtraRegistryLifecycleListeners@18.63:18.95CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java^ ^($2Í
+|expo.modules.core.ModuleRegistry.registerExtraListener(expo.modules.core.interfaces.RegistryLifecycleListener)!outerListenerCALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java^= ^(J2Ô
+|expo.modules.core.ModuleRegistry.registerExtraListener(expo.modules.core.interfaces.RegistryLifecycleListener)!outerListener	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java]> ](K2y
+voidRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java]	 ](ò
+|expo.modules.core.ModuleRegistry.registerExtraListener(expo.modules.core.interfaces.RegistryLifecycleListener)!outerListener	PARAMETERd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java]> ](K"!
+typeRegistryLifecycleListener"
+isFinalfalse"<
+declarationString'RegistryLifecycleListener outerListener*outerListener2§
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java]$ ](=√
+6expo.modules.core.ModuleRegistry.ensureIsInitialized()METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javar r(."
+isFinalfalse"∫
+declarationString§<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">ensureIsInitialized</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*ensureIsInitialized2õ
+-expo.modules.core.ModuleRegistry.initialize()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javat t(2©
+;expo.modules.core.ModuleRegistry?mIsInitialized@19.27:19.41CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javas	 s(2©
+;expo.modules.core.ModuleRegistry?mIsInitialized@19.27:19.41CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javau u(2y
+voidRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javar r(ˆ!
+-expo.modules.core.ModuleRegistry.initialize()METHODd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javay y("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">initialize</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+initialize2¶
+8java.util.List.addAll(java.util.Collection<? extends E>)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java{ {(2Ñ
+java.util.Map.values()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java{2 {(82¶
+8java.util.List.addAll(java.util.Collection<? extends E>)CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java| |(2Ñ
+java.util.Map.values()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java|2 |(82ã
+java.lang.ref.Reference.get()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2Ö
+java.util.List.add(E)CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÄ Ä(2ç
+java.lang.ref.Reference.get()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÄ# Ä(&2—
+aexpo.modules.core.interfaces.RegistryLifecycleListener.onCreate(expo.modules.core.ModuleRegistry)CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÖ Ö( 2ç
+java.util.ArrayList.ArrayList()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaz= z(H2º
+Nexpo.modules.core.ModuleRegistry.initialize()?lifecycleListeners@122.36:122.54CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java{ {(2Æ
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java{ {(12º
+Nexpo.modules.core.ModuleRegistry.initialize()?lifecycleListeners@122.36:122.54CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java| |(2Æ
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java| |(12ª
+Mexpo.modules.core.ModuleRegistry?mExtraRegistryLifecycleListeners@18.63:18.95CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java~8 ~(X2≠
+?expo.modules.core.ModuleRegistry.initialize()?ref@126.50:126.53CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java
+ (2æ
+Nexpo.modules.core.ModuleRegistry.initialize()?lifecycleListeners@122.36:122.54CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÄ Ä(2Ø
+?expo.modules.core.ModuleRegistry.initialize()?ref@126.50:126.53CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÄ Ä("2æ
+Nexpo.modules.core.ModuleRegistry.initialize()?lifecycleListeners@122.36:122.54CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÑ7 Ñ(I2Ω
+Mexpo.modules.core.ModuleRegistry.initialize()?lifecycleListener@132.35:132.52CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÖ Ö(2√
+Nexpo.modules.core.ModuleRegistry.initialize()?lifecycleListeners@122.36:122.54DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaz$ z(62¥
+?expo.modules.core.ModuleRegistry.initialize()?ref@126.50:126.53DECLARATIONd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java~2 ~(52ƒ
+Mexpo.modules.core.ModuleRegistry.initialize()?lifecycleListener@132.35:132.52DECLARATIONf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÑ# Ñ(42y
+voidRETURN_TYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javay	 y(Ï
+Nexpo.modules.core.ModuleRegistry.initialize()?lifecycleListeners@122.36:122.54VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaz$ z(6"'
+typeList<RegistryLifecycleListener>"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>List<RegistryLifecycleListener> <mark class="class-field">lifecycleListeners</mark> = new ArrayList<>()*lifecycleListeners2|
+java.util.ListTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaz z(2≠
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaz	 z("2ç
+java.util.ArrayList.ArrayList()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaz= z(H∫
+?expo.modules.core.ModuleRegistry.initialize()?ref@126.50:126.53VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java~2 ~(5"0
+type(WeakReference<RegistryLifecycleListener>"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>WeakReference<RegistryLifecycleListener> <mark class="class-field">ref</mark>*ref2â
+java.lang.ref.WeakReferenceTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java~	 ~(2≠
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java~ ~(0µ
+Mexpo.modules.core.ModuleRegistry.initialize()?lifecycleListener@132.35:132.52VARIABLEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÑ# Ñ(4"!
+typeRegistryLifecycleListener"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>RegistryLifecycleListener <mark class="class-field">lifecycleListener</mark>*lifecycleListener2¶
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaÑ	 Ñ("Í!
+,expo.modules.core.ModuleRegistry.onDestroy()METHODf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaâ â("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	onDestroy2®
+8java.util.List.addAll(java.util.Collection<? extends E>)CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaã ã(2Ü
+java.util.Map.values()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaã2 ã(82®
+8java.util.List.addAll(java.util.Collection<? extends E>)CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaå å(2Ü
+java.util.Map.values()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaå2 å(82ç
+java.lang.ref.Reference.get()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaè è(2Ö
+java.util.List.add(E)CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaê ê(2ç
+java.lang.ref.Reference.get()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaê# ê(&2≤
+Bexpo.modules.core.interfaces.RegistryLifecycleListener.onDestroy()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaï ï(!2è
+java.util.ArrayList.ArrayList()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaä= ä(H2Ω
+Mexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListeners@138.36:138.54CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaã ã(2∞
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaã ã(12Ω
+Mexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListeners@138.36:138.54CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaå å(2∞
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaå å(12Ω
+Mexpo.modules.core.ModuleRegistry?mExtraRegistryLifecycleListeners@18.63:18.95CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaé8 é(X2Æ
+>expo.modules.core.ModuleRegistry.onDestroy()?ref@142.50:142.53CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaè
+ è(2Ω
+Mexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListeners@138.36:138.54CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaê ê(2Æ
+>expo.modules.core.ModuleRegistry.onDestroy()?ref@142.50:142.53CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaê ê("2Ω
+Mexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListeners@138.36:138.54CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaî7 î(I2º
+Lexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListener@148.35:148.52CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaï ï(2ƒ
+Mexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListeners@138.36:138.54DECLARATIONf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaä$ ä(62µ
+>expo.modules.core.ModuleRegistry.onDestroy()?ref@142.50:142.53DECLARATIONf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaé2 é(52√
+Lexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListener@148.35:148.52DECLARATIONf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaî# î(42{
+voidRETURN_TYPEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaâ	 â(Û
+Mexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListeners@138.36:138.54VARIABLEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaä$ ä(6"'
+typeList<RegistryLifecycleListener>"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>List<RegistryLifecycleListener> <mark class="class-field">lifecycleListeners</mark> = new ArrayList<>()*lifecycleListeners2~
+java.util.ListTYPEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaä ä(2Ø
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPE_ARGUMENTf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaä	 ä("2è
+java.util.ArrayList.ArrayList()CALLf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaä= ä(Hø
+>expo.modules.core.ModuleRegistry.onDestroy()?ref@142.50:142.53VARIABLEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaé2 é(5"0
+type(WeakReference<RegistryLifecycleListener>"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>WeakReference<RegistryLifecycleListener> <mark class="class-field">ref</mark>*ref2ã
+java.lang.ref.WeakReferenceTYPEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaé	 é(2Ø
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPE_ARGUMENTf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaé é(0¥
+Lexpo.modules.core.ModuleRegistry.onDestroy()?lifecycleListener@148.35:148.52VARIABLEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaî# î(4"!
+typeRegistryLifecycleListener"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark>RegistryLifecycleListener <mark class="class-field">lifecycleListener</mark>*lifecycleListener2¶
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPEf
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaî	 î("õ
+@expo.modules.core.ModuleRegistry?mInternalModulesMap@14.43:14.62VALUEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java+ (>"
+isFinaltrue""
+typeMap<Class, InternalModule>"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<Class, InternalModule> <mark class="class-field">mInternalModulesMap</mark> = new HashMap<>();"
+isStaticfalse"
+accessprivate*mInternalModulesMap2{
+java.util.MapTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2Ü
+java.lang.ClassTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2¢
++expo.modules.core.interfaces.InternalModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ()2â
+java.util.HashMap.HashMap()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaE (Nì
+@expo.modules.core.ModuleRegistry?mExportedModulesMap@15.44:15.63VALUEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java, (?"
+isFinaltrue"#
+typeMap<String, ExportedModule>"√
+declarationString≠<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<String, ExportedModule> <mark class="class-field">mExportedModulesMap</mark> = new HashMap<>();"
+isStaticfalse"
+accessprivate*mExportedModulesMap2{
+java.util.MapTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2á
+java.lang.StringTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2ó
+ expo.modules.core.ExportedModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (*2â
+java.util.HashMap.HashMap()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaF (O•
+Gexpo.modules.core.ModuleRegistry?mExportedModulesByClassMap@16.43:16.69VALUEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java+ (E"
+isFinaltrue""
+typeMap<Class, ExportedModule>"…
+declarationString≥<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<Class, ExportedModule> <mark class="class-field">mExportedModulesByClassMap</mark> = new HashMap<>();"
+isStaticfalse"
+accessprivate*mExportedModulesByClassMap2{
+java.util.MapTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2Ü
+java.lang.ClassTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2ó
+ expo.modules.core.ExportedModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ()2â
+java.util.HashMap.HashMap()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaL (U§
+Aexpo.modules.core.ModuleRegistry?mSingletonModulesMap@17.45:17.65VALUEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java- (A"
+isFinaltrue"$
+typeMap<String, SingletonModule>"≈
+declarationStringØ<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<String, SingletonModule> <mark class="class-field">mSingletonModulesMap</mark> = new HashMap<>();"
+isStaticfalse"
+accessprivate*mSingletonModulesMap2{
+java.util.MapTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2á
+java.lang.StringTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2£
+,expo.modules.core.interfaces.SingletonModuleTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (+2â
+java.util.HashMap.HashMap()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaH (Qà	
+Mexpo.modules.core.ModuleRegistry?mExtraRegistryLifecycleListeners@18.63:18.95VALUEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java? (_"
+isFinaltrue"6
+type.List<WeakReference<RegistryLifecycleListener>>"Â
+declarationStringœ<mark class="modifier">private </mark><mark class="modifier">final </mark>List<WeakReference<RegistryLifecycleListener>> <mark class="class-field">mExtraRegistryLifecycleListeners</mark> = new ArrayList<>();"
+isStaticfalse"
+accessprivate* mExtraRegistryLifecycleListeners2|
+java.util.ListTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (2í
+java.lang.ref.WeakReferenceTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ("2≠
+6expo.modules.core.interfaces.RegistryLifecycleListenerTYPE_ARGUMENTd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java# (<2ç
+java.util.ArrayList.ArrayList()CALLd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.javaf (q∏
+;expo.modules.core.ModuleRegistry?mIsInitialized@19.27:19.41VARIABLEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java ()"
+isFinalfalse"
+typeboolean"∏
+declarationString¢<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mIsInitialized</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mIsInitialized2u
+booleanTYPEd
+Znode_modules/expo-modules-core/android/src/main/java/expo/modules/core/ModuleRegistry.java (

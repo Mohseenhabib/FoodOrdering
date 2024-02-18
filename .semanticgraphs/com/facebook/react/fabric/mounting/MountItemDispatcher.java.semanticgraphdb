@@ -1,0 +1,1313 @@
+
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java»>
+6com.facebook.react.fabric.mounting.MountItemDispatcherCLASSz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java# #( "-
+package"com.facebook.react.fabric.mounting"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">class </mark>MountItemDispatcher"
+accesspublic*MountItemDispatcher2◊
+Àcom.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;	 ;(2£
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaB B(&2á
+|com.facebook.react.fabric.mounting.MountItemDispatcher.addMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaF F(2ì
+ácom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaJ J(%2¢
+ñcom.facebook.react.fabric.mounting.MountItemDispatcher.addViewCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaZ Z(%2Ÿ
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javag g(&2°
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò ò( 2ÿ
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≥ ≥($2ﬂ
+Rcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏ ∏(#2é
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java⁄ ⁄(2ã
+~com.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ/ Î(G2È
+\com.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛ ˛(82Ê
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetViewCommandMountItems()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÖ) Ö(I2€
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetMountItems()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaã ã(/2ﬁ
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetPreMountItems()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaè  è(82›
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher.getBatchedExecutionTime()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì ì(%2’
+Hcom.facebook.react.fabric.mounting.MountItemDispatcher.getRunStartTime()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaó ó(2û
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ õ($2—
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java% %(!2€
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?FRAME_TIME_MS@38.27:38.40DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java& &((2˝
+rcom.facebook.react.fabric.mounting.MountItemDispatcher?MAX_TIME_IN_FRAME_FOR_NON_BATCHED_OPERATIONS_MS@39.27:39.74DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java' '(J2ﬁ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java)  )(02„
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mItemDispatchListener@42.37:42.58DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java*% *(:2‰
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher?mViewCommandMountItems@45.64:45.86DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java-@ -(V2Ÿ
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mMountItems@49.49:49.60DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java11 1(<2‹
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher?mPreMountItems@52.49:52.63DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java41 4(?2Ÿ
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mInDispatch@54.18:54.29DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java6 6(2‡
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java7 7( 2„
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mBatchedExecutionTime@56.15:56.36DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java8 8($2€
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?mRunStartTime@57.15:57.28DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java9 9(2ÿ
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListenerDECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java§ §('⁄
+Àcom.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;	 ;("Ê
+declarationString–<mark class="modifier">public </mark><mark class="method">MountItemDispatcher</mark>(MountingManager mountingManager<mark class="modifier"><mark class="modifier">,</mark></mark> ItemDispatchListener listener)*MountItemDispatcher2◊
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java< <(2‡
+€com.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)!mountingManagerCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java< <(&2‹
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mItemDispatchListener@42.37:42.58CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java= =(2Ÿ
+‘com.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)!listenerCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java= =($2Â
+€com.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)!mountingManager	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;- ;(<2ﬁ
+‘com.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)!listener	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;S ;([2¡
+6com.facebook.react.fabric.mounting.MountItemDispatcherRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;	 ;(ê
+€com.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)!mountingManager	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;- ;(<"
+typeMountingManager"
+isFinalfalse"4
+declarationStringMountingManager mountingManager*mountingManager2∂
+2com.facebook.react.fabric.mounting.MountingManagerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java; ;(,û
+‘com.facebook.react.fabric.mounting.MountItemDispatcher.MountItemDispatcher(com.facebook.react.fabric.mounting.MountingManager, com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener)!listener	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;S ;(["
+typeItemDispatchListener"
+isFinalfalse"2
+declarationStringItemDispatchListener listener*listener2œ
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListenerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java;> ;(Rä
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaB B(&"
+isFinalfalse"Ú
+declarationString‹ <br><mark class="annotation">@ThreadConfined(ANY)</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchCommandMountItem</mark>(DispatchCommandMountItem command)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchCommandMountItem2õ
+ñcom.facebook.react.fabric.mounting.MountItemDispatcher.addViewCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaC C(2§
+ücom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)!commandCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaC C(#2©
+ücom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)!command	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaB@ B(G2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaB	 B(Í
+ücom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)!command	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaB@ B(G" 
+typeDispatchCommandMountItem"
+isFinalfalse"5
+declarationString DispatchCommandMountItem command*command2 
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaB' B(?»
+|com.facebook.react.fabric.mounting.MountItemDispatcher.addMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaF F("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addMountItem</mark>(MountItem mountItem)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addMountItem2µ
+1java.util.concurrent.ConcurrentLinkedQueue.add(E)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaG G(2“
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mMountItems@49.49:49.60CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaG G(2ã
+Ücom.facebook.react.fabric.mounting.MountItemDispatcher.addMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItemCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaG G(2ê
+Ücom.facebook.react.fabric.mounting.MountItemDispatcher.addMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItem	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaF% F(.2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaF	 F(®
+Ücom.facebook.react.fabric.mounting.MountItemDispatcher.addMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItem	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaF% F(."
+type	MountItem"
+isFinalfalse"(
+declarationStringMountItem mountItem*	mountItem2ª
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaF F($Ä
+ácom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaJ J(%"
+isFinalfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addPreAllocateMountItem</mark>(MountItem mountItem)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addPreAllocateMountItem2Ã
+Hcom.facebook.react.fabric.mounting.MountingManager.surfaceIsStopped(int)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaO O(*2 
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaO5 O(A2µ
+1java.util.concurrent.ConcurrentLinkedQueue.add(E)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaP P(2 
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaU U( 2ü
+java.lang.Object.toString()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaV V(2◊
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaO	 O(2ñ
+ëcom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItemCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaO+ O(42’
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher?mPreMountItems@52.49:52.63CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaP P(2ñ
+ëcom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItemCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaP P("2 
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaS
+ S(2ñ
+ëcom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItemCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaU
+ U(2ñ
+ëcom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItemCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaV
+ V(2õ
+ëcom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItem	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaJ0 J(92è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaJ	 J(≥
+ëcom.facebook.react.fabric.mounting.MountItemDispatcher.addPreAllocateMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem)!mountItem	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaJ0 J(9"
+type	MountItem"
+isFinalfalse"(
+declarationStringMountItem mountItem*	mountItem2ª
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaJ& J(/«
+ñcom.facebook.react.fabric.mounting.MountItemDispatcher.addViewCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaZ Z(%"
+isFinalfalse"µ
+declarationStringü<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addViewCommandMountItem</mark>(DispatchCommandMountItem mountItem)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addViewCommandMountItem2µ
+1java.util.concurrent.ConcurrentLinkedQueue.add(E)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java[ [(2›
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher?mViewCommandMountItems@45.64:45.86CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java[ [(2•
+†com.facebook.react.fabric.mounting.MountItemDispatcher.addViewCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)!mountItemCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java[ [((2™
+†com.facebook.react.fabric.mounting.MountItemDispatcher.addViewCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)!mountItem	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaZ? Z(H2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaZ	 Z(Ô
+†com.facebook.react.fabric.mounting.MountItemDispatcher.addViewCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)!mountItem	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaZ? Z(H" 
+typeDispatchCommandMountItem"
+isFinalfalse"7
+declarationString"DispatchCommandMountItem mountItem*	mountItem2 
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaZ& Z(>Ÿ*
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javag g(&"
+isFinalfalse"—
+declarationStringª <br><mark class="annotation">@ThreadConfined(UI)</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">tryDispatchMountItems</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*tryDispatchMountItems2œ
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javav v(+2È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didDispatchMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÅ Å(/2
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaá! á(12‘
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaê ê(2Â
+_com.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaâ â()2“
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mInDispatch@54.18:54.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javap p(2Ò
+mcom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?didDispatchItems@116.18:116.34CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javav v(2Ÿ
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javax x(2‚
+^com.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?e@119.23:119.24CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javay y(2“
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mInDispatch@54.18:54.29CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java| |(2ﬁ
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mItemDispatchListener@42.37:42.58CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÅ Å(2€
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÑ Ñ(2Û
+mcom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?didDispatchItems@116.18:116.34CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÑ# Ñ(32€
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÜ
+ Ü(2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaà à(2€
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaã ã((2€
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaè è(2€
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaí í(2Û
+mcom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?didDispatchItems@116.18:116.34CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì ì(2¯
+mcom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?didDispatchItems@116.18:116.34DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javat t("2È
+^com.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?e@119.23:119.24DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaw w(2í
+booleanRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javag	 g(Á
+mcom.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?didDispatchItems@116.18:116.34VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javat t(""
+typeboolean"
+isFinaltrue"∞
+declarationStringö<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">boolean</mark> <mark class="class-field">didDispatchItems</mark>*didDispatchItems2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javat
+ t( 
+^com.facebook.react.fabric.mounting.MountItemDispatcher.tryDispatchMountItems()?e@119.23:119.24VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaw w("
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable e*e2ó
+java.lang.ThrowableTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaw w(˝6
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò ò( "
+isFinalfalse"Ï
+declarationString÷ <br><mark class="annotation">@ThreadConfined(UI)</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchMountItems</mark>(Queue&lt;MountItem&gt; mountItems)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchMountItems2§
+java.util.Collection.isEmpty()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaô ô(2ú
+java.util.Queue.poll()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö" ö(&2˘
+scom.facebook.react.fabric.mounting.mountitems.MountItem.execute(com.facebook.react.fabric.mounting.MountingManager)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaú ú(2Ÿ
+Scom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem.getRetries()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¢ ¢("2ﬂ
+Ycom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem.incrementRetries()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java£ £(&2û
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¶ ¶($2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java©
+ ©(2¶
+ java.lang.Throwable.getMessage()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java™L ™(V2•
+ûcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItemsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaô ô(2•
+ûcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItemsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö ö(!2≠
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaú ú(2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaú ú(%2≠
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û(2≠
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java†J †(N2≤
+´com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?mountItem@160.35:160.44CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¢ ¢(2≤
+´com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?mountItem@160.35:160.44CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java£ £(2≤
+´com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?mountItem@160.35:160.44CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¶% ¶(.2≠
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java™ ™(2™
+£com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?e@157.47:157.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java™J ™(K2™
+ûcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItems	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò2 ò(<2¥
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö ö(2π
+´com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?mountItem@160.35:160.44DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java†# †(,2±
+£com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?e@157.47:157.48DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaù/ ù(02ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò	 ò(‹
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö ö("
+type	MountItem"
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>MountItem <mark class="class-field">item</mark> = mountItems.poll()*item2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö ö(2ú
+java.util.Queue.poll()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö" ö(&2•
+ûcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItemsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaö ö(!ë
+´com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?mountItem@160.35:160.44VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java†# †(," 
+typeDispatchCommandMountItem"
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier"> </mark>DispatchCommandMountItem <mark class="class-field">mountItem</mark> = (DispatchCommandMountItem) item*	mountItem2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java†
+ †("2≠
+¶com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?item@154.16:154.20CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java†J †(Nı
+ûcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItems	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò2 ò(<"
+typeQueue<MountItem>"
+isFinalfalse"0
+declarationStringQueue<MountItem> mountItems*
+mountItems2ï
+java.util.QueueTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò! ò(&2∆
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò' ò(0Ê
+£com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems(java.util.Queue<com.facebook.react.fabric.mounting.mountitems.MountItem>)?e@157.47:157.48VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaù/ ù(0"'
+typeRetryableMountingLayerException"
+isFinalfalse"6
+declarationString!RetryableMountingLayerException e*e2ø
+9com.facebook.react.bridge.RetryableMountingLayerExceptionTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaù ù(.¬¨
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≥ ≥($"
+isFinalfalse"œ
+declarationStringπ <br><mark class="annotation">@ThreadConfined(UI)</mark> <br><mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="method">dispatchMountItems</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"`
+typeX/**
+ * Nothing should call this directly except for `tryDispatchMountItems`.
+ */
+boolean*dispatchMountItems2ﬂ
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetViewCommandMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaª ª((2‘
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaº+ º(@2™
+£com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.willMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¬ ¬((2…
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaœ œ(2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‘
+ ‘(2á
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java◊
+ ◊(2Ÿ
+Scom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem.getRetries()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java€ €( 2ﬂ
+Ycom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem.incrementRetries()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‹ ‹($2û
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchCommandMountItem(com.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java› ›($2
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÂ% Â(52°
+java.lang.Object.toString()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaËI Ë(Q2
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÏ# Ï(32°
+java.lang.Object.toString()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÔG Ô(O2µ
+/com.facebook.systrace.Systrace.endSection(long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÛ Û(2◊
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetPreMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¯4 ¯(L2…
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˚ ˚(2á
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ ˇ(2µ
+/com.facebook.systrace.Systrace.endSection(long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÇ Ç(2…
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÜ Ü(2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaé
+ é(2á
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaí
+ í(2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ õ(2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaù ù($2œ
+Icom.facebook.react.fabric.mounting.MountingManager.getSurfaceManager(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü! ü(22Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü= ü(I2”
+Mcom.facebook.react.fabric.mounting.SurfaceMountingManager.printSurfaceState()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java° °(.2‡
+Zcom.facebook.react.bridge.ReactIgnorableMountingException.isIgnorable(java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java•. •(92
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¶% ¶(52©
+¢com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaØ Ø('2µ
+/com.facebook.systrace.Systrace.endSection(long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java± ±(2˙
+tcom.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String, java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÁ Á(-2ÿ
+Rjava.lang.RuntimeException.RuntimeException(java.lang.String, java.lang.Throwable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÓ Ó("2€
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¥ ¥(2ﬁ
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mBatchedExecutionTime@56.15:56.36CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaµ µ(2÷
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?mRunStartTime@57.15:57.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏ ∏(2Ù
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaæ æ(2ˇ
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?viewCommandMountItemsToDispatch@186.35:186.66CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaæ( æ(G2ﬁ
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mItemDispatchListener@42.37:42.58CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¬ ¬(2Ù
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¬) ¬(=2ˇ
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?viewCommandMountItemsToDispatch@186.35:186.66CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaŒ Œ('2ˇ
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?viewCommandMountItemsToDispatch@186.35:186.66CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java“. “(M2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‘ ‘( 2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java◊ ◊("2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java€ €(2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‹ ‹(2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java›% ›(,2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÊ Ê(2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaËA Ë(H2·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@216.49:216.50CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaËU Ë(V2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÌ Ì(2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÔ? Ô(F2·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@234.27:234.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÔS Ô(T2˜
+qcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItemsToDispatch@248.26:248.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˙ ˙(2˜
+qcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItemsToDispatch@248.26:248.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛$ ˛(;2Ï
+fcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItem@254.21:254.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ ˇ(%2Ù
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÖ Ö(2Ù
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaå! å(52È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaé é("2È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaí í($2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaï ï(2·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@275.27:275.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaïV ï(W2Ù
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javañ ñ(12·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?m@278.25:278.26CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaó ó(2È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaó ó(2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaô ô(2·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?m@278.25:278.26CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ õ(2È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaù ù(2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü ü( 2È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü3 ü(<2Ó
+hcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?surfaceManager@286.35:286.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java† †(2Ó
+hcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?surfaceManager@286.35:286.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java° °(2·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@275.27:275.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java•: •(;2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¶6 ¶(92·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@275.27:275.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¶; ¶(<2·
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@275.27:275.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java® ®(2ﬁ
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mBatchedExecutionTime@56.15:56.36CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¨ ¨(2˘
+scom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?batchedExecutionStartTime@266.11:266.36CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¨< ¨(U2ﬁ
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mItemDispatchListener@42.37:42.58CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaØ Ø(2Ù
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaØ( Ø(<2Ü
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?viewCommandMountItemsToDispatch@186.35:186.66DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∫# ∫(B2˚
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaº º((2Ó
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java“$ “(+2˛
+qcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItemsToDispatch@248.26:248.49DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¯ ¯(12Û
+fcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItem@254.21:254.33DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛ ˛(!2Ä
+scom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?batchedExecutionStartTime@266.11:266.36DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaä ä($2
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaå å(2Ë
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?m@278.25:278.26DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javañ ñ(2ı
+hcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?surfaceManager@286.35:286.49DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû# û(12Ë
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@216.49:216.50DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÿ1 ÿ(22Ë
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@234.27:234.28DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÍ Í(2Ë
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@275.27:275.28DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì ì(2î
+booleanRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≥
+ ≥(Î
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?viewCommandMountItemsToDispatch@186.35:186.66VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∫# ∫(B"&
+typeList<DispatchCommandMountItem>"
+isFinalfalse"π
+declarationString£<mark class="modifier"> </mark>List<DispatchCommandMountItem> <mark class="class-field">viewCommandMountItemsToDispatch</mark> = getAndResetViewCommandMountItems()*viewCommandMountItemsToDispatch2î
+java.util.ListTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∫ ∫(2’
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∫	 ∫(!2ﬂ
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetViewCommandMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaª ª((Ü
+ncom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItemsToDispatch@188.20:188.40VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaº º(("
+typeList<MountItem>"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>List<MountItem> <mark class="class-field">mountItemsToDispatch</mark> = getAndResetMountItems()*mountItemsToDispatch2î
+java.util.ListTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaº º(2∆
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaº	 º(2‘
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaº+ º(@Ó
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?command@210.36:210.43VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java“$ “(+" 
+typeDispatchCommandMountItem"
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>DispatchCommandMountItem <mark class="class-field">command</mark>*command2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java“ “(#®
+qcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItemsToDispatch@248.26:248.49VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¯ ¯(1"
+typeCollection<MountItem>"
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark>Collection<MountItem> <mark class="class-field">preMountItemsToDispatch</mark> = getAndResetPreMountItems()*preMountItemsToDispatch2ö
+java.util.CollectionTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¯ ¯(2∆
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¯ ¯(2◊
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetPreMountItems()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¯4 ¯(L–
+fcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?preMountItem@254.21:254.33VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛ ˛(!"
+type	MountItem"
+isFinalfalse"k
+declarationStringV<mark class="modifier"> </mark>MountItem <mark class="class-field">preMountItem</mark>*preMountItem2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛ ˛(˜
+scom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?batchedExecutionStartTime@266.11:266.36VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaä ä($"
+typelong"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">batchedExecutionStartTime</mark> = SystemClock.uptimeMillis()*batchedExecutionStartTime2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaä ä(
+«
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaå å("
+type	MountItem"
+isFinalfalse"h
+declarationStringS<mark class="modifier"> </mark>MountItem <mark class="class-field">mountItem</mark>*	mountItem2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaå å(Ø
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?m@278.25:278.26VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javañ ñ("
+type	MountItem"
+isFinalfalse"`
+declarationStringK<mark class="modifier"> </mark>MountItem <mark class="class-field">m</mark>*m2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javañ ñ(ú
+hcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?surfaceManager@286.35:286.49VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû# û(1"
+typeSurfaceMountingManager"
+isFinalfalse"∫
+declarationString§<mark class="modifier"> </mark>SurfaceMountingManager <mark class="class-field">surfaceManager</mark> = mMountingManager.getSurfaceManager(mountItem.getSurfaceId())*surfaceManager2ø
+9com.facebook.react.fabric.mounting.SurfaceMountingManagerTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û("2œ
+Icom.facebook.react.fabric.mounting.MountingManager.getSurfaceManager(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü! ü(22Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü= ü(I2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü ü( 2È
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?mountItem@268.21:268.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü3 ü(<ù
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@216.49:216.50VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÿ1 ÿ(2"'
+typeRetryableMountingLayerException"
+isFinalfalse"6
+declarationString!RetryableMountingLayerException e*e2ø
+9com.facebook.react.bridge.RetryableMountingLayerExceptionTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÿ ÿ(0À
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@234.27:234.28VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÍ Í("
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable e*e2ô
+java.lang.ThrowableTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÍ Í(À
+[com.facebook.react.fabric.mounting.MountItemDispatcher.dispatchMountItems()?e@275.27:275.28VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì ì("
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable e*e2ô
+java.lang.ThrowableTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì ì(ê!
+Rcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏ ∏(#"
+isFinalfalse"ˇ
+declarationStringÈ <br><mark class="annotation">@ThreadConfined(UI)</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchPreMountItems</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchPreMountItems2…
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaπ π(2‚
+\com.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¡ ¡(+2∑
+1java.util.concurrent.ConcurrentLinkedQueue.poll()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈: ≈(>2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÃ
+ Ã(2á
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java— —(2µ
+/com.facebook.systrace.Systrace.endSection(long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java◊ ◊(2‘
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mInDispatch@54.18:54.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaΩ Ω(2Á
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)!frameTimeNanosCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java¡, ¡(:2◊
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher?mPreMountItems@52.49:52.63CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈+ ≈(92˝
+wcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)?preMountItemToDispatch@325.18:325.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java« «("2˝
+wcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)?preMountItemToDispatch@325.18:325.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÕ Õ($2˝
+wcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)?preMountItemToDispatch@325.18:325.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java— —(/2‘
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mInDispatch@54.18:54.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‘ ‘(2Ï
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)!frameTimeNanos	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏) ∏(72Ñ
+wcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)?preMountItemToDispatch@325.18:325.40DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈ ≈((2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏	 ∏(¢
+wcom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)?preMountItemToDispatch@325.18:325.40VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈ ≈(("
+type	MountItem"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>MountItem <mark class="class-field">preMountItemToDispatch</mark> = mPreMountItems.poll()*preMountItemToDispatch2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈ ≈(2∑
+1java.util.concurrent.ConcurrentLinkedQueue.poll()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈: ≈(>2◊
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher?mPreMountItems@52.49:52.63CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java≈+ ≈(9Ò
+acom.facebook.react.fabric.mounting.MountItemDispatcher.dispatchPreMountItems(long)!frameTimeNanos	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏) ∏(7"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java∏$ ∏((Ò)
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java⁄ ⁄("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">executeOrEnqueue</mark>(MountItem item)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*executeOrEnqueue2‘
+Ncom.facebook.react.fabric.mounting.MountingManager.isWaitingForViewAttach(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java€ €(/2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java€5 €(A2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‡ ‡(2œ
+Icom.facebook.react.fabric.mounting.MountingManager.getSurfaceManager(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„ „(,2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„2 „(>2ç
+Ücom.facebook.react.fabric.mounting.SurfaceMountingManager.executeOnViewAttach(com.facebook.react.fabric.mounting.mountitems.MountItem)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‰ ‰(02˘
+scom.facebook.react.fabric.mounting.mountitems.MountItem.execute(com.facebook.react.fabric.mounting.MountingManager)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÊ Ê(2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java€ €(2å
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!itemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java€0 €(42Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaﬁ ﬁ(2å
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!itemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‡ ‡(2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„
+ „(2å
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!itemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„- „(12¨
+•com.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)?surfaceMountingManager@354.29:354.51CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‰ ‰(2å
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!itemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‰1 ‰(52å
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!itemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÊ Ê(
+2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÊ Ê(#2ë
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!item	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java⁄* ⁄(.2≥
+•com.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)?surfaceMountingManager@354.29:354.51DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‚ ‚(32ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java⁄
+ ⁄(à
+•com.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)?surfaceMountingManager@354.29:354.51VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‚ ‚(3"
+typeSurfaceMountingManager"
+isFinalfalse"Ω
+declarationStringß<mark class="modifier"> </mark>SurfaceMountingManager <mark class="class-field">surfaceMountingManager</mark> = mMountingManager.getSurfaceManager(item.getSurfaceId())*surfaceMountingManager2ø
+9com.facebook.react.fabric.mounting.SurfaceMountingManagerTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java‚ ‚(2œ
+Icom.facebook.react.fabric.mounting.MountingManager.getSurfaceManager(int)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„ „(,2Ã
+Fcom.facebook.react.fabric.mounting.mountitems.MountItem.getSurfaceId()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„2 „(>2Ÿ
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„
+ „(2å
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!itemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java„- „(1°
+Öcom.facebook.react.fabric.mounting.MountItemDispatcher.executeOrEnqueue(com.facebook.react.fabric.mounting.mountitems.MountItem)!item	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java⁄* ⁄(."
+type	MountItem"
+isFinalfalse"#
+declarationStringMountItem item*item2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java⁄  ⁄()Ë*
+~com.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ/ Î(G"
+isFinalfalse"˜
+declarationString·<mark class="annotation">@Nullable</mark> <br><mark class="modifier">private </mark><mark class="modifier">static </mark>List&lt;E&gt; <mark class="method">drainConcurrentItemQueue</mark>(ConcurrentLinkedQueue&lt;E&gt; queue)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeList<E>*drainConcurrentItemQueue2∫
+4java.util.concurrent.ConcurrentLinkedQueue.isEmpty()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÌ Ì(2∑
+1java.util.concurrent.ConcurrentLinkedQueue.poll()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú(2õ
+java.util.List.add(E)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÙ Ù(2∫
+4java.util.concurrent.ConcurrentLinkedQueue.isEmpty()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˆ ˆ(2õ
+java.util.List.size()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˜ ˜(2•
+java.util.ArrayList.ArrayList()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java ($2ã
+Ñcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)!queueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÌ Ì(2ã
+Ñcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)!queueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú(2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?item@370.8:370.12CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÛ
+ Û(2ö
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?result@368.12:368.18CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÙ Ù(2ó
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?item@370.8:370.12CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÙ Ù(2ã
+Ñcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)!queueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˆ ˆ(2ö
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?result@368.12:368.18CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˜ ˜(2ö
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?result@368.12:368.18CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˙ ˙(2ê
+Ñcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)!queue	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÏ Ï($2°
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?result@368.12:368.18DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java (2û
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?item@370.8:370.12DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú(2õ
+java.util.ListRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ' Î(+2ó
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>).ERETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ, Î(-2ë
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>).ETYPE_PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ Î(î
+ìcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?result@368.12:368.18VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java ("
+typeList<E>"
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>List<E> <mark class="class-field">result</mark> = new ArrayList<>()*result2î
+java.util.ListTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java (2ê
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>).ETYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java	 (
+2•
+java.util.ArrayList.ArrayList()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java ($¸
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)?item@370.8:370.12VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú("	
+typeE"
+isFinalfalse"j
+declarationStringU<mark class="modifier"> </mark>E <mark class="class-field">item</mark> = queue.poll()*item2á
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>).ETYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú(2∑
+1java.util.concurrent.ConcurrentLinkedQueue.poll()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú(2ã
+Ñcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)!queueCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÚ Ú(∆
+Ñcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)!queue	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÏ Ï($" 
+typeConcurrentLinkedQueue<E>"
+isFinalfalse"3
+declarationStringConcurrentLinkedQueue<E> queue*queue2∞
+*java.util.concurrent.ConcurrentLinkedQueueTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÏ Ï(2ê
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>).ETYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÏ Ï(÷
+Äcom.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>).ETYPE_PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ Î(*E2ø
+7com.facebook.react.fabric.mounting.mountitems.MountItemEXTEND|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÎ Î(%·
+\com.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛ ˛(8"
+isFinalfalse"ı
+declarationStringﬂ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">haveExceededNonBatchedFrameTime</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*haveExceededNonBatchedFrameTime2°
+java.lang.System.nanoTime()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ4 ˇ(<2÷
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?FRAME_TIME_MS@38.27:38.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ ˇ((2Ò
+kcom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)!frameTimeNanosCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇA ˇ(O2ˇ
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)?timeLeftInFrame@383.9:383.24CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÄ Ä(2¯
+rcom.facebook.react.fabric.mounting.MountItemDispatcher?MAX_TIME_IN_FRAME_FOR_NON_BATCHED_OPERATIONS_MS@39.27:39.74CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÄ Ä(L2ˆ
+kcom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)!frameTimeNanos	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛> ˛(L2Ü
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)?timeLeftInFrame@383.9:383.24DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ	 ˇ(2î
+booleanRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛ ˛(Ä
+
+ycom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)?timeLeftInFrame@383.9:383.24VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ	 ˇ("
+typelong"
+isFinalfalse"À
+declarationStringµ<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">timeLeftInFrame</mark> = FRAME_TIME_MS - ((System.nanoTime() - frameTimeNanos) / 1000000)*timeLeftInFrame2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ ˇ(2°
+java.lang.System.nanoTime()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ4 ˇ(<2÷
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?FRAME_TIME_MS@38.27:38.40CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇ ˇ((2Ò
+kcom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)!frameTimeNanosCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaˇA ˇ(O˚
+kcom.facebook.react.fabric.mounting.MountItemDispatcher.haveExceededNonBatchedFrameTime(long)!frameTimeNanos	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛> ˛(L"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java˛9 ˛(=Ω
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetViewCommandMountItems()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÖ) Ö(I"
+isFinalfalse"‹
+declarationString∆ <br><mark class="annotation">@ThreadConfined(UI)</mark> <br><mark class="modifier">private </mark>List&lt;DispatchCommandMountItem&gt; <mark class="method">getAndResetViewCommandMountItems</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"&
+typeList<DispatchCommandMountItem>* getAndResetViewCommandMountItems2Ñ
+~com.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÜ Ü(#2ﬂ
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher?mViewCommandMountItems@45.64:45.86CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÜ$ Ü(:2õ
+java.util.ListRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÖ
+ Ö(2‹
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaÖ Ö('‰
+
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetMountItems()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaã ã(/"
+isFinalfalse"¬
+declarationString¨ <br><mark class="annotation">@ThreadConfined(UI)</mark> <br><mark class="modifier">private </mark>List&lt;MountItem&gt; <mark class="method">getAndResetMountItems</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeList<MountItem>*getAndResetMountItems2Ñ
+~com.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaå å(#2‘
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mMountItems@49.49:49.60CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaå$ å(/2õ
+java.util.ListRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaã
+ ã(2Õ
+7com.facebook.react.fabric.mounting.mountitems.MountItemRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaã ã(ƒ
+
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher.getAndResetPreMountItems()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaè  è(8"
+isFinalfalse"ç
+declarationStringx<mark class="modifier">private </mark>Collection&lt;MountItem&gt; <mark class="method">getAndResetPreMountItems</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeCollection<MountItem>*getAndResetPreMountItems2Ñ
+~com.facebook.react.fabric.mounting.MountItemDispatcher.drainConcurrentItemQueue(java.util.concurrent.ConcurrentLinkedQueue<E>)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaê ê(#2◊
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher?mPreMountItems@52.49:52.63CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaê$ ê(22°
+java.util.CollectionRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaè
+ è(2Õ
+7com.facebook.react.fabric.mounting.mountitems.MountItemRETURN_TYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaè è(’
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher.getBatchedExecutionTime()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì ì(%"
+isFinalfalse"í
+declarationString}<mark class="modifier">public </mark><mark class="modifier">long</mark> <mark class="method">getBatchedExecutionTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typelong*getBatchedExecutionTime2ﬁ
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mBatchedExecutionTime@56.15:56.36CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaî î( 2ë
+longRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaì	 ì(µ
+Hcom.facebook.react.fabric.mounting.MountItemDispatcher.getRunStartTime()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaó ó("
+isFinalfalse"ä
+declarationStringu<mark class="modifier">public </mark><mark class="modifier">long</mark> <mark class="method">getRunStartTime</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typelong*getRunStartTime2÷
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?mRunStartTime@57.15:57.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaò ò(2ë
+longRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaó	 ó(∞
+êcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ õ($"
+isFinalfalse"é
+declarationString¯<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">printMountItem</mark>(MountItem mountItem<mark class="modifier"><mark class="modifier">,</mark></mark> String prefix)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typevoid*printMountItem2Æ
+(java.lang.String.split(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû3 û(82°
+java.lang.Object.toString()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû( û(02°
+öcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!mountItemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û('2¥
+≠com.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)?mountItemLines@414.13:414.27CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü ü("2Ã
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java† †(2û
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!prefixCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java† †(2ß
+†com.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)?m@415.16:415.17CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java†" †(#2¶
+öcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!mountItem	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ/ õ(82£
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!prefix	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõA õ(G2ª
+≠com.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)?mountItemLines@414.13:414.27DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û(2Æ
+†com.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)?m@415.16:415.17DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü ü(2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ õ(ê
+
+≠com.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)?mountItemLines@414.13:414.27VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û("
+typeString"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark>String[] <mark class="class-field">mountItemLines</mark> = mountItem.toString().split("\n")*mountItemLines2ò
+java.lang.String[]TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û(2Æ
+(java.lang.String.split(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû3 û(82°
+java.lang.Object.toString()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû( û(02°
+öcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!mountItemCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaû û('»
+†com.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)?m@415.16:415.17VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü ü("
+typeString"
+isFinalfalse"]
+declarationStringH<mark class="modifier"> </mark>String <mark class="class-field">m</mark>*m2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaü	 ü(¿
+öcom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!mountItem	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ/ õ(8"
+type	MountItem"
+isFinalfalse"(
+declarationStringMountItem mountItem*	mountItem2Ω
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ% õ(.ä
+ócom.facebook.react.fabric.mounting.MountItemDispatcher.printMountItem(com.facebook.react.fabric.mounting.mountitems.MountItem, java.lang.String)!prefix	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõA õ(G"
+typeString"
+isFinalfalse""
+declarationStringString prefix*prefix2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaõ: õ(@˘
+Fcom.facebook.react.fabric.mounting.MountItemDispatcher?TAG@37.30:37.33VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java% %(!"
+isFinaltrue"
+typeString"…
+declarationString≥<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = "MountItemDispatcher";"
+isStatictrue"
+accessprivate*TAG2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java% %(è
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?FRAME_TIME_MS@38.27:38.40VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java& &(("
+isFinaltrue"
+typeint"€
+declarationString≈<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">FRAME_TIME_MS</mark> = 16;"
+isStatictrue"
+accessprivate*FRAME_TIME_MS2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java& &(Ù
+rcom.facebook.react.fabric.mounting.MountItemDispatcher?MAX_TIME_IN_FRAME_FOR_NON_BATCHED_OPERATIONS_MS@39.27:39.74VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java' '(J"
+isFinaltrue"
+typeint"¸
+declarationStringÊ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">MAX_TIME_IN_FRAME_FOR_NON_BATCHED_OPERATIONS_MS</mark> = 8;"
+isStatictrue"
+accessprivate*/MAX_TIME_IN_FRAME_FOR_NON_BATCHED_OPERATIONS_MS2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java' '(ó
+Scom.facebook.react.fabric.mounting.MountItemDispatcher?mMountingManager@41.32:41.48VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java)  )(0"
+isFinaltrue"
+typeMountingManager"°
+declarationStringã<mark class="modifier">private </mark><mark class="modifier">final </mark>MountingManager <mark class="class-field">mMountingManager</mark>"
+isStaticfalse"
+accessprivate*mMountingManager2∂
+2com.facebook.react.fabric.mounting.MountingManagerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java) )(…
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mItemDispatchListener@42.37:42.58VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java*% *(:"
+isFinaltrue"
+typeItemDispatchListener"´
+declarationStringï<mark class="modifier">private </mark><mark class="modifier">final </mark>ItemDispatchListener <mark class="class-field">mItemDispatchListener</mark>"
+isStaticfalse"
+accessprivate*mItemDispatchListener2œ
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListenerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java* *($°	
+Ycom.facebook.react.fabric.mounting.MountItemDispatcher?mViewCommandMountItems@45.64:45.86VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java-@ -(V"
+isFinaltrue"7
+type/ConcurrentLinkedQueue<DispatchCommandMountItem>"Ë
+declarationString“<mark class="modifier">private </mark><mark class="modifier">final </mark>ConcurrentLinkedQueue<DispatchCommandMountItem> <mark class="class-field">mViewCommandMountItems</mark> = new ConcurrentLinkedQueue<>();"
+isStaticfalse"
+accessprivate*mViewCommandMountItems2Æ
+*java.util.concurrent.ConcurrentLinkedQueueTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java- -(%2”
+Fcom.facebook.react.fabric.mounting.mountitems.DispatchCommandMountItemTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java-& -(>2∆
+Bjava.util.concurrent.ConcurrentLinkedQueue.ConcurrentLinkedQueue()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java.
+ .(!”
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mMountItems@49.49:49.60VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java11 1(<"
+isFinaltrue"(
+type ConcurrentLinkedQueue<MountItem>"Œ
+declarationString∏<mark class="modifier">private </mark><mark class="modifier">final </mark>ConcurrentLinkedQueue<MountItem> <mark class="class-field">mMountItems</mark> = new ConcurrentLinkedQueue<>();"
+isStaticfalse"
+accessprivate*mMountItems2Æ
+*java.util.concurrent.ConcurrentLinkedQueueTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java1 1(%2ƒ
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java1& 1(/2∆
+Bjava.util.concurrent.ConcurrentLinkedQueue.ConcurrentLinkedQueue()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java1C 1(Z‹
+Qcom.facebook.react.fabric.mounting.MountItemDispatcher?mPreMountItems@52.49:52.63VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java41 4(?"
+isFinaltrue"(
+type ConcurrentLinkedQueue<MountItem>"—
+declarationStringª<mark class="modifier">private </mark><mark class="modifier">final </mark>ConcurrentLinkedQueue<MountItem> <mark class="class-field">mPreMountItems</mark> = new ConcurrentLinkedQueue<>();"
+isStaticfalse"
+accessprivate*mPreMountItems2Æ
+*java.util.concurrent.ConcurrentLinkedQueueTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java4 4(%2ƒ
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java4& 4(/2∆
+Bjava.util.concurrent.ConcurrentLinkedQueue.ConcurrentLinkedQueue()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java4F 4(]Ú
+Ncom.facebook.react.fabric.mounting.MountItemDispatcher?mInDispatch@54.18:54.29VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java6 6("
+isFinalfalse"
+typeboolean"µ
+declarationStringü<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mInDispatch</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mInDispatch2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java6
+ 6(Ÿ
+Ucom.facebook.react.fabric.mounting.MountItemDispatcher?mReDispatchCounter@55.14:55.32VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java7 7( "
+isFinalfalse"
+typeint"ñ
+declarationStringÄ<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mReDispatchCounter</mark> = 0;"
+isStaticfalse"
+accessprivate*mReDispatchCounter2á
+intTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java7
+ 7(Ê
+Xcom.facebook.react.fabric.mounting.MountItemDispatcher?mBatchedExecutionTime@56.15:56.36VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java8 8($"
+isFinalfalse"
+typelong"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mBatchedExecutionTime</mark> = 0L;"
+isStaticfalse"
+accessprivate*mBatchedExecutionTime2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java8
+ 8(Õ
+Pcom.facebook.react.fabric.mounting.MountItemDispatcher?mRunStartTime@57.15:57.28VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java9 9("
+isFinalfalse"
+typelong"í
+declarationString}<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mRunStartTime</mark> = 0L;"
+isStaticfalse"
+accessprivate*mRunStartTime2à
+longTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java9
+ 9(Ã
+
+Kcom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListenerTRAIT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java§ §('"A
+package6com.facebook.react.fabric.mounting.MountItemDispatcher"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"v
+declarationStringa<mark class="modifier">public </mark><mark class="modifier">interface </mark>ItemDispatchListener"
+accesspublic*ItemDispatchListener2±
+£com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.willMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java•	 •(2∞
+¢com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß	 ß(2
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didDispatchMountItems()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java©	 ©(ó
+£com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.willMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java•	 •("
+isFinalfalse"§
+declarationStringé<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">willMountItems</mark>(List&lt;MountItem&gt; mountItems)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*willMountItems2∫
+Æcom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.willMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItems	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java•( •(22ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java• •(Ç
+Æcom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.willMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItems	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java•( •(2"
+typeList<MountItem>"
+isFinalfalse"/
+declarationStringList<MountItem> mountItems*
+mountItems2î
+java.util.ListTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java• •(2∆
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java• •(&ì
+¢com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß	 ß("
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">didMountItems</mark>(List&lt;MountItem&gt; mountItems)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*didMountItems2π
+≠com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItems	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß' ß(12ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß ß(Å
+≠com.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didMountItems(java.util.List<com.facebook.react.fabric.mounting.mountitems.MountItem>)!mountItems	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß' ß(1"
+typeList<MountItem>"
+isFinalfalse"/
+declarationStringList<MountItem> mountItems*
+mountItems2î
+java.util.ListTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß ß(2∆
+7com.facebook.react.fabric.mounting.mountitems.MountItemTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.javaß ß(%Ü
+ccom.facebook.react.fabric.mounting.MountItemDispatcher.ItemDispatchListener.didDispatchMountItems()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java©	 ©("
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">didDispatchMountItems</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*didDispatchMountItems2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/fabric/mounting/MountItemDispatcher.java© ©(

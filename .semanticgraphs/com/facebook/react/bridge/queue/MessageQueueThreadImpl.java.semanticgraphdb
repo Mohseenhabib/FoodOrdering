@@ -1,0 +1,928 @@
+
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÈ1
+6com.facebook.react.bridge.queue.MessageQueueThreadImplCLASSz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (#"*
+packagecom.facebook.react.bridge.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"‰
+declarationStringŒ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>MessageQueueThreadImpl<mark class="modifier"><br>implements </mark>MessageQueueThread"
+accesspublic*MessageQueueThreadImpl2ª
+Øcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java"
+ "( 2¯
+Ïcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java'
+ '( 2‡
+Ucom.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9 9(2Ô
+dcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH H("2Œ
+Ccom.facebook.react.bridge.queue.MessageQueueThreadImpl.isOnThread()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java] ](2‘
+Icom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javag g(2‰
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread(java.lang.String)DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq q(2”
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl.quitSynchronous()DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java} }(2“
+Ecom.facebook.react.bridge.queue.MessageQueueThreadImpl.getPerfStats()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaã% ã(12‘
+Gcom.facebook.react.bridge.queue.MessageQueueThreadImpl.resetPerfStats()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaë ë(2Ã
+?com.facebook.react.bridge.queue.MessageQueueThreadImpl.isIdle()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java† †(2ü
+ëcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§ §('2œ
+Bcom.facebook.react.bridge.queue.MessageQueueThreadImpl.getLooper()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java© ©(2Õ
+@com.facebook.react.bridge.queue.MessageQueueThreadImpl.getName()DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≠ ≠(2¿
+≤com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java±' ±(-2ß
+ôcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaæ( æ(;2≤
+§com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java◊( ◊(@2”
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mName@27.23:27.28DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (2’
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (2÷
+Kcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mHandler@29.42:29.50DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java* (22‰
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl?mAssertionErrorMessage@30.23:30.45DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (-2ÿ
+Mcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mPerfStats@31.38:31.48DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java& (02Ÿ
+Ncom.facebook.react.bridge.queue.MessageQueueThreadImpl?mIsFinished@32.27:32.38DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java   (&2∏
+2com.facebook.react.bridge.queue.MessageQueueThreadEXTENDz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java/ (A›
+Øcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java"
+ "( "∞
+declarationStringö<mark class="modifier">private </mark><mark class="method">MessageQueueThreadImpl</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Looper looper<mark class="modifier"><mark class="modifier">,</mark></mark> QueueThreadExceptionHandler exceptionHandler)*MessageQueueThreadImpl2π
+¥com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!nameCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java$	 $(2ª
+∂com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!looperCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java$ $(2≈
+¿com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandlerCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java$ $('2æ
+¥com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!name	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java# #(2¿
+∂com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!looper	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java# #( 2 
+¿com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java#> #(N2¡
+6com.facebook.react.bridge.queue.MessageQueueThreadImplRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java"
+ "( ü
+¥com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!name	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java# #("
+typeString"
+isFinalfalse" 
+declarationStringString name*name2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java# #(¶
+∂com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!looper	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java# #( "
+typeLooper"
+isFinalfalse""
+declarationStringLooper looper*looper2ï
+android.os.LooperTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java# #(ò
+¿com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java#> #(N"#
+typeQueueThreadExceptionHandler"
+isFinalfalse"A
+declarationString,QueueThreadExceptionHandler exceptionHandler*exceptionHandler2ø
+;com.facebook.react.bridge.queue.QueueThreadExceptionHandlerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java#" #(=Û.
+Ïcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)CONSTRUCTORz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java'
+ '( "è
+declarationString˘<mark class="modifier">private </mark><mark class="method">MessageQueueThreadImpl</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> Looper looper<mark class="modifier"><mark class="modifier">,</mark></mark> QueueThreadExceptionHandler exceptionHandler<mark class="modifier"><mark class="modifier">,</mark></mark> MessageQueueThreadPerfStats stats)*MessageQueueThreadImpl2ƒ
+@com.facebook.react.bridge.queue.MessageQueueThreadImpl.getName()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java0B 0(I2®
+£com.facebook.react.bridge.queue.MessageQueueThreadHandler.MessageQueueThreadHandler(android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java. .(,2Ã
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mName@27.23:27.28CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java, ,(	2ˆ
+Òcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!nameCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java, ,(2Œ
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java- -(2¯
+Ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!looperCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java- -(2œ
+Kcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mHandler@29.42:29.50CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java. .(2¯
+Ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!looperCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java.- .(32Ç
+˝com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!exceptionHandlerCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java.5 .(E2—
+Mcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mPerfStats@31.38:31.48CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java/ /(2˜
+Úcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!statsCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java/ /(2›
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl?mAssertionErrorMessage@30.23:30.45CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java0 0(2˚
+Òcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!name	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java( ((2˝
+Ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!looper	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java) )(2á
+˝com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!exceptionHandler	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java*" *(22¸
+Úcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!stats	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java+" +('2¡
+6com.facebook.react.bridge.queue.MessageQueueThreadImplRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java'
+ '( ‹
+Òcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!name	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java( (("
+typeString"
+isFinalfalse" 
+declarationStringString name*name2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java( ((„
+Ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!looper	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java) )("
+typeLooper"
+isFinalfalse""
+declarationStringLooper looper*looper2ï
+android.os.LooperTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java) )(’
+˝com.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!exceptionHandler	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java*" *(2"#
+typeQueueThreadExceptionHandler"
+isFinalfalse"A
+declarationString,QueueThreadExceptionHandler exceptionHandler*exceptionHandler2ø
+;com.facebook.react.bridge.queue.QueueThreadExceptionHandlerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java* *(!¥
+Úcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler, com.facebook.react.bridge.queue.MessageQueueThreadPerfStats)!stats	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java+" +('"#
+typeMessageQueueThreadPerfStats"
+isFinalfalse"6
+declarationString!MessageQueueThreadPerfStats stats*stats2ø
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java+ +(!¬
+Ucom.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9 9("
+isFinalfalse"Õ
+declarationString∑ <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">runOnQueue</mark>(Runnable runnable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*
+runOnQueue2ƒ
+@com.facebook.react.bridge.queue.MessageQueueThreadImpl.getName()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java> >(2“
+Ncom.facebook.react.bridge.queue.MessageQueueThreadImpl?mIsFinished@32.27:32.38CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java: :(2œ
+Kcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mHandler@29.42:29.50CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaB B(2‚
+^com.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)!runnableCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaB B(2Ÿ
+Qcom.facebook.react.bridge.queue.MessageQueueThread.runOnQueue(java.lang.Runnable)OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9 9(2Á
+^com.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)!runnable	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9% 9(-2í
+booleanRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9	 9(÷
+^com.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)!runnable	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9% 9(-"
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable runnable*runnable2ñ
+java.lang.RunnableTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java9 9($∑%
+dcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH H(""
+isFinalfalse"«
+declarationString± <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Future&lt;T&gt; <mark class="method">callOnQueue</mark>(final Callable&lt;T&gt; callable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type	Future<T>*callOnQueue2Ÿ
+Ucom.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaJ J(2¡
+=com.facebook.react.common.futures.SimpleSettableFuture.set(T)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaO O(2®
+$java.util.concurrent.Callable.call()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaO" O(&2‹
+Xcom.facebook.react.common.futures.SimpleSettableFuture.setException(java.lang.Exception)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaQ Q(!2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture.SimpleSettableFuture()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaI/ I(E2õ
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-a14a4602-08c6-4e2d-8443-9087849f0ad0.Anonymous-a14a4602-08c6-4e2d-8443-9087849f0ad0()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaK K(2˚
+wcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)?future@73.34:73.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaO O(2Ò
+mcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)!callableCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaO O(!2˚
+wcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)?future@73.34:73.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaQ Q(2˝
+ycom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-7ea37b2a-e412-4c41-8add-90969bf72f0c.run()?e@80.31:80.32CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaQ" Q(#2˚
+wcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)?future@73.34:73.40CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaU U(2Ë
+`com.facebook.react.bridge.queue.MessageQueueThread.callOnQueue(java.util.concurrent.Callable<T>)OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH H("2ˆ
+mcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)!callable	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH5 H(=2Ç
+wcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)?future@73.34:73.40DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaI" I((2Ñ
+ycom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-6ba515fa-56ea-4c29-bc1b-55dddcec8024.run()?e@80.31:80.32DECLARATIONz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaP P( 2¶
+java.util.concurrent.FutureRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH H(2˙
+fcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>).TRETURN_TYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH H(2Ù
+fcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH
+ H(˜
+wcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)?future@73.34:73.40VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaI" I(("
+typeSimpleSettableFuture<T>"
+isFinaltrue"∑
+declarationString°<mark class="modifier"> </mark><mark class="modifier">final </mark>SimpleSettableFuture<T> <mark class="class-field">future</mark> = new SimpleSettableFuture<>()*future2∫
+6com.facebook.react.common.futures.SimpleSettableFutureTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaI
+ I(2Û
+fcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaI I( 2—
+Mcom.facebook.react.common.futures.SimpleSettableFuture.SimpleSettableFuture()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaI/ I(Eè
+mcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>)!callable	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH5 H(="
+typeCallable<T>"
+isFinaltrue"M
+declarationString8Callable<<mark class="type-parameter">T</mark>> callable*callable2°
+java.util.concurrent.CallableTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH) H(12Û
+fcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_ARGUMENTz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH2 H(3Â
+ycom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-57574bc1-e79b-4c3f-8fb4-de09eed5ff87.run()?e@80.31:80.32VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaP P( "
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ó
+java.lang.ExceptionTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaP P(˜
+fcom.facebook.react.bridge.queue.MessageQueueThreadImpl.callOnQueue(java.util.concurrent.Callable<T>).TTYPE_PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaH
+ H(*T»	
+Ccom.facebook.react.bridge.queue.MessageQueueThreadImpl.isOnThread()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java] ]("
+isFinalfalse"º
+declarationString¶ <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isOnThread</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*
+isOnThread2§
+ java.lang.Thread.currentThread()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java^) ^(62Œ
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java^ ^(2«
+?com.facebook.react.bridge.queue.MessageQueueThread.isOnThread()OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java] ](2í
+booleanRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java]	 ](„
+Icom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javag g("
+isFinalfalse"ø
+declarationString© <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">assertIsOnThread</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*assertIsOnThread2◊
+Scom.facebook.react.bridge.SoftAssertions.assertCondition(boolean, java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javah h("2«
+Ccom.facebook.react.bridge.queue.MessageQueueThreadImpl.isOnThread()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javah# h(-2›
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl?mAssertionErrorMessage@30.23:30.45CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javah1 h(G2Õ
+Ecom.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread()OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javag g(2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javag	 g(‚
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread(java.lang.String)METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq q("
+isFinalfalse"Õ
+declarationString∑ <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">assertIsOnThread</mark>(String message)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*assertIsOnThread2◊
+Scom.facebook.react.bridge.SoftAssertions.assertCondition(boolean, java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javar r("2«
+Ccom.facebook.react.bridge.queue.MessageQueueThreadImpl.isOnThread()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javas s(2¶
+"java.lang.StringBuilder.toString()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javatW t(_2¥
+0java.lang.StringBuilder.append(java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javatG t(M2¥
+0java.lang.StringBuilder.append(java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javat; t(A2¥
+0java.lang.StringBuilder.append(java.lang.String)CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javat t("2´
+'java.lang.StringBuilder.StringBuilder()CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javat t(2›
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl?mAssertionErrorMessage@30.23:30.45CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javat# t(92Â
+acom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread(java.lang.String)!messageCALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javatN t(U2›
+Ucom.facebook.react.bridge.queue.MessageQueueThread.assertIsOnThread(java.lang.String)OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq q(2Í
+acom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread(java.lang.String)!message	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq& q(-2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq	 q(—
+acom.facebook.react.bridge.queue.MessageQueueThreadImpl.assertIsOnThread(java.lang.String)!message	PARAMETERz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq& q(-"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaq q(%œ
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl.quitSynchronous()METHODz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java} }("
+isFinalfalse"æ
+declarationString® <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">quitSynchronous</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*quitSynchronous2¶
+ java.lang.Thread.currentThread()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÄ& Ä(32√
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÑ Ñ("2“
+Ncom.facebook.react.bridge.queue.MessageQueueThreadImpl?mIsFinished@32.27:32.38CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java~ ~(2Œ
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALLz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (2–
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÄ Ä(2–
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÇ Ç(2Œ
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mName@27.23:27.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÑO Ñ(T2Ã
+Dcom.facebook.react.bridge.queue.MessageQueueThread.quitSynchronous()OVERRIDEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java} }(2Â
+Xcom.facebook.react.bridge.queue.MessageQueueThreadImpl.quitSynchronous()?e@131.36:131.37DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÉ$ É(%2è
+voidRETURN_TYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java}	 }(È
+Xcom.facebook.react.bridge.queue.MessageQueueThreadImpl.quitSynchronous()?e@131.36:131.37VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÉ$ É(%"
+typeInterruptedException"
+isFinalfalse"+
+declarationStringInterruptedException e*e2§
+java.lang.InterruptedExceptionTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÉ É(#Ú
+Ecom.facebook.react.bridge.queue.MessageQueueThreadImpl.getPerfStats()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaã% ã(1"
+isFinalfalse"¥
+declarationStringû <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>MessageQueueThreadPerfStats <mark class="method">getPerfStats</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"#
+typeMessageQueueThreadPerfStats*getPerfStats2”
+Mcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mPerfStats@31.38:31.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaå å(2À
+Acom.facebook.react.bridge.queue.MessageQueueThread.getPerfStats()OVERRIDE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaã% ã(12»
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaã	 ã($˘
+Gcom.facebook.react.bridge.queue.MessageQueueThreadImpl.resetPerfStats()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaë ë("
+isFinalfalse"Ω
+declarationStringß <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">resetPerfStats</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*resetPerfStats2ò
+ëcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaí í(2€
+Ucom.facebook.react.bridge.queue.MessageQueueThreadImpl.runOnQueue(java.lang.Runnable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaì ì(2ò
+ëcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaô ô(2ù
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-7007777e-3b0a-44fe-b0e7-8cfea84a0bec.Anonymous-7007777e-3b0a-44fe-b0e7-8cfea84a0bec()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaî î(2”
+Mcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mPerfStats@31.38:31.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaí í( 2”
+Mcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mPerfStats@31.38:31.48CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaô ô((2â
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-52f7a779-c196-471e-bf41-d56ccc180fb0.run()?wallTime@151.17:151.25CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaô* ô(22à
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-eda5c7e3-f2ce-4394-8608-cf1c6fd6c080.run()?cpuTime@152.17:152.24CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaô4 ô(;2Õ
+Ccom.facebook.react.bridge.queue.MessageQueueThread.resetPerfStats()OVERRIDE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaë ë(2ê
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-3e216adf-35ed-4104-8c39-f9440ae8dfa4.run()?wallTime@151.17:151.25DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaó ó(2è
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-03e54981-a1d8-4fc8-833a-d9c739851677.run()?cpuTime@152.17:152.24DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaò ò(2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaë	 ë(Â
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-2feaa71b-3103-4705-93e3-49bbfd8dd462.run()?wallTime@151.17:151.25VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaó ó("
+typelong"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">wallTime</mark> = SystemClock.uptimeMillis()*wallTime2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaó ó(Ì
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-9f70c26f-ec28-4a4c-95a7-4c27e52fa279.run()?cpuTime@152.17:152.24VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaò ò("
+typelong"
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">cpuTime</mark> = SystemClock.currentThreadTimeMillis()*cpuTime2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaò ò(ô
+?com.facebook.react.bridge.queue.MessageQueueThreadImpl.isIdle()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java† †("
+isFinalfalse"∏
+declarationString¢ <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isIdle</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isIdle2–
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java° °(2≈
+;com.facebook.react.bridge.queue.MessageQueueThread.isIdle()OVERRIDE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java† †(2î
+booleanRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java†	 †(´
+ëcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§ §('"
+isFinalfalse"ù
+declarationStringá<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">assignToPerfStats</mark>(MessageQueueThreadPerfStats stats<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> wall<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> cpu)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typevoid*assignToPerfStats2û
+ócom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!statsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java• •(	2ù
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!wallCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java• •(2û
+ócom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!statsCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¶ ¶(	2ú
+ïcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!cpuCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¶ ¶(2£
+ócom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!stats	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§D §(I2¢
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!wall	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§P §(T2°
+ïcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!cpu	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§[ §(^2ë
+voidRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§ §(›
+ócom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!stats	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§D §(I"#
+typeMessageQueueThreadPerfStats"
+isFinalfalse"6
+declarationString!MessageQueueThreadPerfStats stats*stats2¡
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§( §(Cì
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!wall	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§P §(T"
+typelong"
+isFinalfalse"<
+declarationString'<mark class="modifier">long</mark> wall*wall2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§K §(Oê
+ïcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)!cpu	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§[ §(^"
+typelong"
+isFinalfalse";
+declarationString&<mark class="modifier">long</mark> cpu*cpu2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java§V §(Zè
+Bcom.facebook.react.bridge.queue.MessageQueueThreadImpl.getLooper()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java© ©("
+isFinalfalse"h
+declarationStringS<mark class="modifier">public </mark>Looper <mark class="method">getLooper</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeLooper*	getLooper2–
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java™ ™(2û
+android.os.LooperRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java©	 ©(Ü
+@com.facebook.react.bridge.queue.MessageQueueThreadImpl.getName()METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≠ ≠("
+isFinalfalse"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2Œ
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mName@27.23:27.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÆ Æ(2ù
+java.lang.StringRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≠	 ≠(£,
+≤com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java±' ±(-"
+isFinalfalse"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">static </mark>MessageQueueThreadImpl <mark class="method">create</mark>(MessageQueueThreadSpec spec<mark class="modifier"><mark class="modifier">,</mark></mark> QueueThreadExceptionHandler exceptionHandler)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeMessageQueueThreadImpl*create2Ã
+Fcom.facebook.react.bridge.queue.MessageQueueThreadSpec.getThreadType()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≥ ≥(2†
+ôcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaµ µ("2∆
+@com.facebook.react.bridge.queue.MessageQueueThreadSpec.getName()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaµ( µ(/2´
+§com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java∑ ∑('2∆
+@com.facebook.react.bridge.queue.MessageQueueThreadSpec.getName()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java∑- ∑(42À
+Ecom.facebook.react.bridge.queue.MessageQueueThreadSpec.getStackSize()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java∑= ∑(I2Ã
+Fcom.facebook.react.bridge.queue.MessageQueueThreadSpec.getThreadType()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaπB π(O2√
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaπ π("2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!specCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≥ ≥(2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!specCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaµ# µ('2 
+√com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandlerCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaµ3 µ(C2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!specCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java∑( ∑(,2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!specCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java∑8 ∑(<2 
+√com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandlerCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java∑M ∑(]2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!specCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaπ= π(A2√
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!spec	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≤ ≤(!2œ
+√com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≤? ≤(O2√
+6com.facebook.react.bridge.queue.MessageQueueThreadImplRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java± ±(&Ï
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!spec	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≤ ≤(!"
+typeMessageQueueThreadSpec"
+isFinalfalse"0
+declarationStringMessageQueueThreadSpec spec*spec2º
+6com.facebook.react.bridge.queue.MessageQueueThreadSpecTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≤ ≤(ü
+√com.facebook.react.bridge.queue.MessageQueueThreadImpl.create(com.facebook.react.bridge.queue.MessageQueueThreadSpec, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≤? ≤(O"#
+typeQueueThreadExceptionHandler"
+isFinalfalse"A
+declarationString,QueueThreadExceptionHandler exceptionHandler*exceptionHandler2¡
+;com.facebook.react.bridge.queue.QueueThreadExceptionHandlerTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java≤# ≤(>§"
+ôcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaæ( æ(;"
+isFinalfalse"û
+declarationStringà<mark class="modifier">private </mark><mark class="modifier">static </mark>MessageQueueThreadImpl <mark class="method">createForMainThread</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> QueueThreadExceptionHandler exceptionHandler)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeMessageQueueThreadImpl*createForMainThread2ª
+5com.facebook.react.bridge.UiThreadUtil.isOnUiThread()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaƒ ƒ(!2Œ
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java« «( 2∂
+Øcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬ ¬("2ù
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-6f51d602-698c-4825-93b4-0c2d25c40cb3.Anonymous-6f51d602-698c-4825-93b4-0c2d25c40cb3()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java» »(2•
+ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!nameCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬# ¬('2π
+≤com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mainLooper@192.11:192.21CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬) ¬(32±
+™com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandlerCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬5 ¬(E2≤
+´com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mqt@193.33:193.36CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaœ œ(2™
+ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!name	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaø ø(2∂
+™com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaø/ ø(?2¿
+≤com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mainLooper@192.11:192.21DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¿ ¿(2π
+´com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mqt@193.33:193.36DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¡! ¡($2√
+6com.facebook.react.bridge.queue.MessageQueueThreadImplRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaæ æ('Ü
+≤com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mainLooper@192.11:192.21VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¿ ¿("
+typeLooper"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>Looper <mark class="class-field">mainLooper</mark> = Looper.getMainLooper()*
+mainLooper2ó
+android.os.LooperTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¿ ¿(
+—
+´com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mqt@193.33:193.36VALUE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¡! ¡($"
+typeMessageQueueThreadImpl"
+isFinaltrue"’
+declarationStringø<mark class="modifier"> </mark><mark class="modifier">final </mark>MessageQueueThreadImpl <mark class="class-field">mqt</mark> = new MessageQueueThreadImpl(name, mainLooper, exceptionHandler)*mqt2º
+6com.facebook.react.bridge.queue.MessageQueueThreadImplTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¡
+ ¡( 2∂
+Øcom.facebook.react.bridge.queue.MessageQueueThreadImpl.MessageQueueThreadImpl(java.lang.String, android.os.Looper, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬ ¬("2•
+ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!nameCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬# ¬('2π
+≤com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?mainLooper@192.11:192.21CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬) ¬(32±
+™com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandlerCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java¬5 ¬(Eç
+ûcom.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!name	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaø ø("
+typeString"
+isFinalfalse" 
+declarationStringString name*name2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaø ø(Ü
+™com.facebook.react.bridge.queue.MessageQueueThreadImpl.createForMainThread(java.lang.String, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaø/ ø(?"#
+typeQueueThreadExceptionHandler"
+isFinalfalse"A
+declarationString,QueueThreadExceptionHandler exceptionHandler*exceptionHandler2¡
+;com.facebook.react.bridge.queue.QueueThreadExceptionHandlerTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaø ø(.íM
+§com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)METHOD|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java◊( ◊(@"
+isFinalfalse"ì
+declarationString˝<mark class="modifier">private </mark><mark class="modifier">static </mark>MessageQueueThreadImpl <mark class="method">startNewBackgroundThread</mark>(final String name<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> stackSize<mark class="modifier"><mark class="modifier">,</mark></mark> QueueThreadExceptionHandler exceptionHandler)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeMessageQueueThreadImpl*startNewBackgroundThread2ò
+ëcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ Á(!2√
+=com.facebook.react.common.futures.SimpleSettableFuture.set(T)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaË Ë(2û
+java.lang.Thread.start()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÓ Ó(2…
+Ccom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java@ (J2”
+Mcom.facebook.react.common.futures.SimpleSettableFuture.SimpleSettableFuture()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java⁄ ⁄("2‡
+Zjava.lang.Thread.Thread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String, long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java› ›(2ù
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-a47025f8-0563-429b-8662-b3aa5488f512.Anonymous-a47025f8-0563-429b-8662-b3aa5488f512()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaﬂ ﬂ(2ﬂ
+Ycom.facebook.react.bridge.queue.MessageQueueThreadPerfStats.MessageQueueThreadPerfStats()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‰8 ‰(S2Ö
+com.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-844e2835-31ff-4918-a117-e4c8d2d38c29.run()?stats@228.44:228.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ" Á('2â
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-2bdc408d-dfd6-4787-a71f-30fa2ddd1f06.run()?wallTime@229.21:229.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ) Á(12à
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-6d88ba24-7a70-4049-b713-860e4706d048.run()?cpuTime@230.21:230.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ3 Á(:2ƒ
+Ωcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?dataFuture@217.74:217.84CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaË Ë(2Ö
+com.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-dc568d0f-8356-4863-a19e-5aa8fcf9469e.run()?stats@228.44:228.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaË= Ë(B2∞
+©com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!nameCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÏ Ï(2µ
+Æcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!stackSizeCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÌ Ì(2¬
+ªcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?bgThread@220.11:220.19CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÓ Ó(2ƒ
+Ωcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?dataFuture@217.74:217.84CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java5 (?2∞
+©com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!nameCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÒ& Ò(*2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?pair@240.46:240.50CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÒ, Ò(02º
+µcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandlerCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÒ8 Ò(H2æ
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?pair@240.46:240.50CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÒJ Ò(N2µ
+©com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!name	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ ÿ(2∫
+Æcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!stackSize	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ ÿ('2¡
+µcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿE ÿ(U2À
+Ωcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?dataFuture@217.74:217.84DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaŸJ Ÿ(T2œ
+¡com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?startTimeMillis@219.9:219.24DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java€	 €(2…
+ªcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?bgThread@220.11:220.19DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‹ ‹(2å
+com.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-b0f27db4-007d-4001-bd92-2afa889642fd.run()?stats@228.44:228.49DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‰, ‰(12ê
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-c59be152-3007-43c7-83a6-cb1f71cb91fe.run()?wallTime@229.21:229.29DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÂ Â(2è
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-82bee306-26c0-4c1d-9719-cf1314c833b3.run()?cpuTime@230.21:230.28DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÊ Ê(2≈
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?pair@240.46:240.50DECLARATION|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java. (22√
+6com.facebook.react.bridge.queue.MessageQueueThreadImplRETURN_TYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java◊ ◊('π
+Ωcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?dataFuture@217.74:217.84VALUE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaŸJ Ÿ(T"G
+type?SimpleSettableFuture<Pair<Looper, MessageQueueThreadPerfStats>>"
+isFinaltrue"„
+declarationStringÕ<mark class="modifier"> </mark><mark class="modifier">final </mark>SimpleSettableFuture<Pair<Looper, MessageQueueThreadPerfStats>> <mark class="class-field">dataFuture</mark> = new SimpleSettableFuture<>()*
+dataFuture2º
+6com.facebook.react.common.futures.SimpleSettableFutureTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaŸ
+ Ÿ(2†
+android.util.PairTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaŸ Ÿ(#2†
+android.os.LooperTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaŸ$ Ÿ(*2 
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaŸ, Ÿ(G2”
+Mcom.facebook.react.common.futures.SimpleSettableFuture.SimpleSettableFuture()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java⁄ ⁄("î
+¡com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?startTimeMillis@219.9:219.24VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java€	 €("
+typelong"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">startTimeMillis</mark>*startTimeMillis2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java€ €(˚#
+ªcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?bgThread@220.11:220.19VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‹ ‹("
+typeThread"
+isFinalfalse"Œ
+declarationString∏<mark class="modifier"> </mark>Thread <mark class="class-field">bgThread</mark> = new Thread(<mark class="modifier">null</mark><mark class="modifier">,</mark> new Runnable() {
+
+    @Override
+    public <mark class="modifier">void</mark> run() {
+        Process.setThreadPriority(Process.THREAD_PRIORITY_DISPLAY);
+        Looper.prepare();
+        MessageQueueThreadPerfStats stats = new MessageQueueThreadPerfStats();
+        <mark class="modifier">long</mark> wallTime = SystemClock.uptimeMillis();
+        <mark class="modifier">long</mark> cpuTime = SystemClock.currentThreadTimeMillis();
+        assignToPerfStats(stats, wallTime, cpuTime);
+        dataFuture.set(new Pair<>(Looper.myLooper()<mark class="modifier">,</mark> stats));
+        Looper.loop();
+    }
+}<mark class="modifier">,</mark> "mqt_" + name, stackSize)*bgThread2ñ
+java.lang.ThreadTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‹ ‹(
+2ò
+ëcom.facebook.react.bridge.queue.MessageQueueThreadImpl.assignToPerfStats(com.facebook.react.bridge.queue.MessageQueueThreadPerfStats, long, long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ Á(!2√
+=com.facebook.react.common.futures.SimpleSettableFuture.set(T)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaË Ë(2‡
+Zjava.lang.Thread.Thread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String, long)CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java› ›(2ù
+ñcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-774b549d-79fe-4019-974f-cb1b339b484f.Anonymous-774b549d-79fe-4019-974f-cb1b339b484f()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaﬂ ﬂ(2ﬂ
+Ycom.facebook.react.bridge.queue.MessageQueueThreadPerfStats.MessageQueueThreadPerfStats()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‰8 ‰(S2Ö
+com.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-678d7fc7-7365-4db5-8e2e-3f2ab6f6d2fa.run()?stats@228.44:228.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ" Á('2â
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-e4eee292-d3fa-46e1-a89e-4e186a09fb00.run()?wallTime@229.21:229.29CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ) Á(12à
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-4e7825cc-b12e-4d8e-9573-ceb142c02610.run()?cpuTime@230.21:230.28CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÁ3 Á(:2ƒ
+Ωcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?dataFuture@217.74:217.84CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaË Ë(2Ö
+com.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-2f1229ec-7faf-4290-b5d0-63cd71693578.run()?stats@228.44:228.49CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaË= Ë(B2∞
+©com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!nameCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÏ Ï(2µ
+Æcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!stackSizeCALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÌ Ì(ã
+com.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-eaf63c0f-c3bc-418d-bd77-d0f777733de5.run()?stats@228.44:228.49VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‰, ‰(1"#
+typeMessageQueueThreadPerfStats"
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark>MessageQueueThreadPerfStats <mark class="class-field">stats</mark> = new MessageQueueThreadPerfStats()*stats2¡
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‰ ‰(+2ﬂ
+Ycom.facebook.react.bridge.queue.MessageQueueThreadPerfStats.MessageQueueThreadPerfStats()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java‰8 ‰(SÂ
+Çcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-19d33186-c004-4eb0-a9fc-8a1a8a40e8ed.run()?wallTime@229.21:229.29VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÂ Â("
+typelong"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">wallTime</mark> = SystemClock.uptimeMillis()*wallTime2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÂ Â(Ì
+Åcom.facebook.react.bridge.queue.MessageQueueThreadImpl.Anonymous-476c6af2-fa76-45e1-be80-a69f3ffa2186.run()?cpuTime@230.21:230.28VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÊ Ê("
+typelong"
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">cpuTime</mark> = SystemClock.currentThreadTimeMillis()*cpuTime2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÊ Ê(À
+∑com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?pair@240.46:240.50VARIABLE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java. (2"1
+type)Pair<Looper, MessageQueueThreadPerfStats>"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark>Pair<Looper, MessageQueueThreadPerfStats> <mark class="class-field">pair</mark> = dataFuture.getOrThrow()*pair2ó
+android.util.PairTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (2†
+android.os.LooperTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java	 (2 
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsTYPE_ARGUMENT|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (,2…
+Ccom.facebook.react.common.futures.SimpleSettableFuture.getOrThrow()CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java@ (J2ƒ
+Ωcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)?dataFuture@217.74:217.84CALL|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java5 (?ó
+©com.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!name	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ ÿ("
+typeString"
+isFinaltrue" 
+declarationStringString name*name2ñ
+java.lang.StringTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ ÿ(µ
+Æcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!stackSize	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ ÿ('"
+typelong"
+isFinalfalse"A
+declarationString,<mark class="modifier">long</mark> stackSize*	stackSize2ä
+longTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ ÿ(ë
+µcom.facebook.react.bridge.queue.MessageQueueThreadImpl.startNewBackgroundThread(java.lang.String, long, com.facebook.react.bridge.queue.QueueThreadExceptionHandler)!exceptionHandler	PARAMETER|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿE ÿ(U"#
+typeQueueThreadExceptionHandler"
+isFinalfalse"A
+declarationString,QueueThreadExceptionHandler exceptionHandler*exceptionHandler2¡
+;com.facebook.react.bridge.queue.QueueThreadExceptionHandlerTYPE|
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.javaÿ) ÿ(D¡
+Hcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mName@27.23:27.28VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java ("
+isFinaltrue"
+typeString"å
+declarationStringw<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">mName</mark>"
+isStaticfalse"
+accessprivate*mName2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (»
+Jcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mLooper@28.23:28.30VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java ("
+isFinaltrue"
+typeLooper"é
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">final </mark>Looper <mark class="class-field">mLooper</mark>"
+isStaticfalse"
+accessprivate*mLooper2ï
+android.os.LooperTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (ö
+Kcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mHandler@29.42:29.50VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java* (2"
+isFinaltrue"!
+typeMessageQueueThreadHandler"£
+declarationStringç<mark class="modifier">private </mark><mark class="modifier">final </mark>MessageQueueThreadHandler <mark class="class-field">mHandler</mark>"
+isStaticfalse"
+accessprivate*mHandler2Ω
+9com.facebook.react.bridge.queue.MessageQueueThreadHandlerTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java ()ı
+Ycom.facebook.react.bridge.queue.MessageQueueThreadImpl?mAssertionErrorMessage@30.23:30.45VALUEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (-"
+isFinaltrue"
+typeString"û
+declarationStringà<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">mAssertionErrorMessage</mark>"
+isStaticfalse"
+accessprivate*mAssertionErrorMessage2î
+java.lang.StringTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java (Ö
+Mcom.facebook.react.bridge.queue.MessageQueueThreadImpl?mPerfStats@31.38:31.48VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java& (0"
+isFinalfalse"#
+typeMessageQueueThreadPerfStats"Ç
+declarationStringm<mark class="modifier">private </mark>MessageQueueThreadPerfStats <mark class="class-field">mPerfStats</mark>"
+isStaticfalse"
+accessprivate*
+mPerfStats2ø
+;com.facebook.react.bridge.queue.MessageQueueThreadPerfStatsTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java
+ (%Ú
+Ncom.facebook.react.bridge.queue.MessageQueueThreadImpl?mIsFinished@32.27:32.38VARIABLEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java   (&"
+isFinalfalse"
+typeboolean"µ
+declarationStringü<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mIsFinished</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mIsFinished2ã
+booleanTYPEz
+pnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/queue/MessageQueueThreadImpl.java   (

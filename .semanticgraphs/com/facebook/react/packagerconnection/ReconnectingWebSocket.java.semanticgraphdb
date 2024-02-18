@@ -1,0 +1,744 @@
+
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaı6
+;com.facebook.react.packagerconnection.ReconnectingWebSocketCLASS
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (("0
+package%com.facebook.react.packagerconnection"
+isFinaltrue"
+inner classfalse"
+
+isAbstractfalse"–
+declarationString∫<mark class="modifier">public </mark><mark class="modifier">final </mark><mark class="modifier">class </mark>ReconnectingWebSocket<mark class="modifier"> extends </mark>WebSocketListener"
+accesspublic*ReconnectingWebSocket2ë
+Äcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java2	 2(2’
+Ecom.facebook.react.packagerconnection.ReconnectingWebSocket.connect()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaC C(2ﬁ
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.delayedReconnect()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaL L(,2◊
+Gcom.facebook.react.packagerconnection.ReconnectingWebSocket.reconnect()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaS S(2⁄
+Jcom.facebook.react.packagerconnection.ReconnectingWebSocket.closeQuietly()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javag g(2„
+Scom.facebook.react.packagerconnection.ReconnectingWebSocket.closeWebSocketQuietly()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaq q($2¯
+hcom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java| |(2˙
+gcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ Ç(!2í
+com.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå å($2˝
+jcom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô ô($2¸
+icom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java† †($2Å
+ncom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß ß(#2Ï
+Ycom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(java.lang.String)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java± ±(&2Î
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(okio.ByteString)DECLARATIONÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaπ π(&2€
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket?TAG@25.30:25.33DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (!2Í
+Zcom.facebook.react.packagerconnection.ReconnectingWebSocket?RECONNECT_DELAY_MS@27.27:27.45DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (-2‹
+Lcom.facebook.react.packagerconnection.ReconnectingWebSocket?mUrl@41.23:41.27DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java) )(2‡
+Pcom.facebook.react.packagerconnection.ReconnectingWebSocket?mHandler@42.24:42.32DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java* *( 2Â
+Ucom.facebook.react.packagerconnection.ReconnectingWebSocket?mOkHttpClient@43.29:43.42DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java+ +(*2ﬂ
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java, ,(2Ò
+acom.facebook.react.packagerconnection.ReconnectingWebSocket?mSuppressConnectionErrors@45.18:45.43DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java- -(+2‚
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java. .((2Ë
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java/$ /(42Î
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java0' 0(:2€
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallbackDECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java ("2ﬁ
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallbackDECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java# #(%2§
+okhttp3.WebSocketListenerEXTEND
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java1 (B»"
+Äcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)CONSTRUCTOR
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java2	 2("ƒ
+declarationStringÆ MessageCallback messageCallback<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ConnectionCallback connectionCallback)*ReconnectingWebSocket2’
+Lcom.facebook.react.packagerconnection.ReconnectingWebSocket?mUrl@41.23:41.27CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java7 7(2é
+Ñcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!urlCALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java7 7(2·
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java8 8(2ö
+êcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!messageCallbackCALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java8 8(&2‰
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java9 9(2ù
+ìcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!connectionCallbackCALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java9 9(,2Ÿ
+Pcom.facebook.react.packagerconnection.ReconnectingWebSocket?mHandler@42.24:42.32CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java: :(2ﬁ
+Ucom.facebook.react.packagerconnection.ReconnectingWebSocket?mOkHttpClient@43.29:43.42CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java; ;(2ì
+Ñcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!url	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java3 3(2ü
+êcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!messageCallback	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java4  4(/2¢
+ìcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!connectionCallback	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java5# 5(52À
+;com.facebook.react.packagerconnection.ReconnectingWebSocketRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java2	 2(˜
+Ñcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!url	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java3 3("
+typeString"
+isFinalfalse"
+declarationString
+String url*url2ô
+java.lang.StringTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java3 3(í
+êcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!messageCallback	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java4  4(/"
+typeMessageCallback"
+isFinalfalse"^
+declarationStringI<mark class="annotation">@Nullable</mark> MessageCallback messageCallback*messageCallback2‘
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallbackTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java4 4(§
+ìcom.facebook.react.packagerconnection.ReconnectingWebSocket.ReconnectingWebSocket(java.lang.String, com.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback, com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback)!connectionCallback	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java5# 5(5"
+typeConnectionCallback"
+isFinalfalse"d
+declarationStringO<mark class="annotation">@Nullable</mark> ConnectionCallback connectionCallback*connectionCallback2◊
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallbackTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java5 5("á
+Ecom.facebook.react.packagerconnection.ReconnectingWebSocket.connect()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaC C("
+isFinalfalse"Ç
+declarationStringm<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">connect</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*connect2–
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaE E(%2ÿ
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaD D(2’
+Lcom.facebook.react.packagerconnection.ReconnectingWebSocket?mUrl@41.23:41.27CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaH0 H(42ﬁ
+Ucom.facebook.react.packagerconnection.ReconnectingWebSocket?mOkHttpClient@43.29:43.42CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaI I(2‚
+Ycom.facebook.react.packagerconnection.ReconnectingWebSocket.connect()?request@72.12:72.19CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaI I(&2È
+Ycom.facebook.react.packagerconnection.ReconnectingWebSocket.connect()?request@72.12:72.19DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaH H(2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaC	 C(ñ
+Ycom.facebook.react.packagerconnection.ReconnectingWebSocket.connect()?request@72.12:72.19VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaH H("
+typeRequest"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>Request <mark class="class-field">request</mark> = new Request.Builder().url(mUrl).build()*request2ò
+okhttp3.RequestTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaH H(2’
+Lcom.facebook.react.packagerconnection.ReconnectingWebSocket?mUrl@41.23:41.27CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaH0 H(4ƒ
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.delayedReconnect()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaL L(,"
+isFinalfalse"∏
+declarationString¢<mark class="modifier">private </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">delayedReconnect</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*delayedReconnect2Œ
+Ecom.facebook.react.packagerconnection.ReconnectingWebSocket.connect()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaO O(2ÿ
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaN	 N(2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaL L(“
+Gcom.facebook.react.packagerconnection.ReconnectingWebSocket.reconnect()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaS S("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">reconnect</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*	reconnect2◊
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.delayedReconnect()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaa a(2–
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaU U(%2•
+õcom.facebook.react.packagerconnection.ReconnectingWebSocket.Anonymous-e0998bab-804c-484a-98d5-9cc1f30dc375.Anonymous-e0998bab-804c-484a-98d5-9cc1f30dc375()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java^ ^(2ÿ
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaT T(2Í
+acom.facebook.react.packagerconnection.ReconnectingWebSocket?mSuppressConnectionErrors@45.18:45.43CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaX	 X("2‘
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket?TAG@25.30:25.33CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaY Y(2’
+Lcom.facebook.react.packagerconnection.ReconnectingWebSocket?mUrl@41.23:41.27CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaY- Y(12Í
+acom.facebook.react.packagerconnection.ReconnectingWebSocket?mSuppressConnectionErrors@45.18:45.43CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaZ Z(2Ÿ
+Pcom.facebook.react.packagerconnection.ReconnectingWebSocket?mHandler@42.24:42.32CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java] ](2„
+Zcom.facebook.react.packagerconnection.ReconnectingWebSocket?RECONNECT_DELAY_MS@27.27:27.45CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javad d(2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaS
+ S(µ
+Jcom.facebook.react.packagerconnection.ReconnectingWebSocket.closeQuietly()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javag g("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">closeQuietly</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*closeQuietly2‹
+Scom.facebook.react.packagerconnection.ReconnectingWebSocket.closeWebSocketQuietly()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javai i(2Ë
+_com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onDisconnected()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javam m((2ÿ
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javah h(2·
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaj j(2‰
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javal l(2‰
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javam m(2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javag	 g(ã
+Scom.facebook.react.packagerconnection.ReconnectingWebSocket.closeWebSocketQuietly()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaq q($"
+isFinalfalse"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">closeWebSocketQuietly</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*closeWebSocketQuietly2€
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javar r(2€
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javat t(2€
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javax x(2Û
+ccom.facebook.react.packagerconnection.ReconnectingWebSocket.closeWebSocketQuietly()?e@117.25:117.26DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javau u(2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaq
+ q(Ÿ
+ccom.facebook.react.packagerconnection.ReconnectingWebSocket.closeWebSocketQuietly()?e@117.25:117.26VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javau u("
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ú
+java.lang.ExceptionTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javau u(¯
+hcom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java| |("
+isFinalfalse"›
+declarationString«<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">abort</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable cause)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*abort2‹
+Scom.facebook.react.packagerconnection.ReconnectingWebSocket.closeWebSocketQuietly()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java~ ~(2‘
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket?TAG@25.30:25.33CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java} }(2˘
+pcom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)!messageCALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java}I }(P2˜
+ncom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)!causeCALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java}R }(W2˛
+pcom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)!message	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java| |(#2¸
+ncom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)!cause	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java|/ |(42î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java|
+ |(Í
+pcom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)!message	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java| |(#"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ô
+java.lang.StringTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java| |(Ì
+ncom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)!cause	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java|/ |(4"
+type	Throwable"
+isFinalfalse"$
+declarationStringThrowable cause*cause2ú
+java.lang.ThrowableTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java|% |(. 
+gcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ Ç(!"
+isFinalfalse"Ω
+declarationStringß<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onOpen</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> Response response)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onOpen2Ë
+\com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onConnected()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaá á(%2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÉ É(2˝
+qcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)!webSocketCALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÉ É(2Ì
+acom.facebook.react.packagerconnection.ReconnectingWebSocket?mSuppressConnectionErrors@45.18:45.43CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÑ Ñ(2Á
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÜ Ü(2Á
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaá á(2Ç
+qcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ, Ç(52Å
+pcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)!response	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ@ Ç(H2ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ Ç(¸
+qcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ, Ç(5"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ù
+okhttp3.WebSocketTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ" Ç(+ˆ
+pcom.facebook.react.packagerconnection.ReconnectingWebSocket.onOpen(okhttp3.WebSocket, okhttp3.Response)!response	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ@ Ç(H"
+typeResponse"
+isFinalfalse"&
+declarationStringResponse response*response2ú
+okhttp3.ResponseTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaÇ7 Ç(?»
+com.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå å($"
+isFinalfalse"â
+declarationStringÛ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onFailure</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable t<mark class="modifier"><mark class="modifier">,</mark></mark> Response response)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	onFailure2Ù
+hcom.facebook.react.packagerconnection.ReconnectingWebSocket.abort(java.lang.String, java.lang.Throwable)CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaé é(2Î
+_com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onDisconnected()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaí í(*2”
+Gcom.facebook.react.packagerconnection.ReconnectingWebSocket.reconnect()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaî î(2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaç ç(2é
+Åcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!tCALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaé# é($2€
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaê	 ê(2Á
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaë
+ ë(2Á
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaí í(2õ
+âcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå/ å(82ì
+Åcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!t	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaåD å(E2ö
+àcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!response	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaåP å(X2ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå å(ï
+âcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå/ å(8"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ù
+okhttp3.WebSocketTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå% å(.ˇ
+Åcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!t	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaåD å(E"
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable t*t2ü
+java.lang.ThrowableTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaå: å(Cè
+àcom.facebook.react.packagerconnection.ReconnectingWebSocket.onFailure(okhttp3.WebSocket, java.lang.Throwable, okhttp3.Response)!response	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaåP å(X"
+typeResponse"
+isFinalfalse"&
+declarationStringResponse response*response2ú
+okhttp3.ResponseTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaåG å(OÅ
+jcom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô ô($"
+isFinalfalse"∫
+declarationString§<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onMessage</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	onMessage2Û
+gcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(java.lang.String)CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaõ õ( 2‰
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaö ö(2‰
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaõ õ(2˚
+ocom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)!textCALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaõ! õ(%2Ö
+tcom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô/ ô(82Ä
+ocom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)!text	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaôA ô(E2ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô ô(ˇ
+tcom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô/ ô(8"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ù
+okhttp3.WebSocketTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô% ô(.È
+ocom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, java.lang.String)!text	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaôA ô(E"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2ú
+java.lang.StringTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaô: ô(@É
+icom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java† †($"
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onMessage</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> ByteString bytes)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	onMessage2Ú
+fcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(okio.ByteString)CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java¢ ¢( 2‰
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java° °(2‰
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java¢ ¢(2˚
+ocom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)!bytesCALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java¢! ¢(&2Ñ
+scom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java†/ †(82Ä
+ocom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)!bytes	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java†E †(J2ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java† †(˛
+scom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java†/ †(8"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ù
+okhttp3.WebSocketTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java†% †(.Ú
+ocom.facebook.react.packagerconnection.ReconnectingWebSocket.onMessage(okhttp3.WebSocket, okio.ByteString)!bytes	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java†E †(J"
+type
+ByteString"
+isFinalfalse"%
+declarationStringByteString bytes*bytes2õ
+okio.ByteStringTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java†: †(Dè
+ncom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß ß(#"
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">onClosed</mark>(WebSocket webSocket<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> code<mark class="modifier"><mark class="modifier">,</mark></mark> String reason)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onClosed2Î
+_com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onDisconnected()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java´ ´(*2”
+Gcom.facebook.react.packagerconnection.ReconnectingWebSocket.reconnect()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java≠ ≠(2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java® ®(2€
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java©	 ©(2Á
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java™
+ ™(2Á
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java´ ´(2â
+xcom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß. ß(72Ñ
+scom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)!code	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß= ß(A2Ü
+ucom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)!reason	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaßJ ß(P2ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß ß(É
+xcom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)!webSocket	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß. ß(7"
+type	WebSocket"
+isFinalfalse"(
+declarationStringWebSocket webSocket*	webSocket2ù
+okhttp3.WebSocketTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß$ ß(-¯
+scom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)!code	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß= ß(A"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> code*code2è
+intTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaß9 ß(<Û
+ucom.facebook.react.packagerconnection.ReconnectingWebSocket.onClosed(okhttp3.WebSocket, int, java.lang.String)!reason	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaßJ ß(P"
+typeString"
+isFinalfalse""
+declarationStringString reason*reason2ú
+java.lang.StringTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaßC ß(IÒ
+Ycom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(java.lang.String)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java± ±(&"
+isFinalfalse"è
+declarationString˘<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">sendMessage</mark>(String message)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*sendMessage2Õ
+Ajava.nio.channels.ClosedChannelException.ClosedChannelException()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaµ µ(&2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java≤ ≤(2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java≥ ≥(2Ì
+acom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(java.lang.String)!messageCALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java≥ ≥(2Ú
+acom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(java.lang.String)!message	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java±. ±(52ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java± ±(·
+acom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(java.lang.String)!message	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java±. ±(5"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ú
+java.lang.StringTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java±' ±(-Ú
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(okio.ByteString)METHODÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaπ π(&"
+isFinalfalse"ì
+declarationString˝<mark class="modifier">public </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">sendMessage</mark>(ByteString message)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*sendMessage2Õ
+Ajava.nio.channels.ClosedChannelException.ClosedChannelException()CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaΩ Ω(&2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java∫ ∫(2ﬁ
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40CALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaª ª(2Ï
+`com.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(okio.ByteString)!messageCALLÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaª ª(2Ò
+`com.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(okio.ByteString)!message	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaπ2 π(92ó
+voidRETURN_TYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaπ π(Á
+`com.facebook.react.packagerconnection.ReconnectingWebSocket.sendMessage(okio.ByteString)!message	PARAMETERÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaπ2 π(9"
+type
+ByteString"
+isFinalfalse"'
+declarationStringByteString message*message2õ
+okio.ByteStringTYPEÅ
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.javaπ' π(1…
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket?TAG@25.30:25.33VALUE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (!"
+isFinaltrue"
+typeString"ﬂ
+declarationString…<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = ReconnectingWebSocket.class.getSimpleName();"
+isStatictrue"
+accessprivate*TAG2ô
+java.lang.StringTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (2®
+java.lang.Class.getSimpleName()CALL
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java@ (MØ
+Zcom.facebook.react.packagerconnection.ReconnectingWebSocket?RECONNECT_DELAY_MS@27.27:27.45VALUE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (-"
+isFinaltrue"
+typeint"‚
+declarationStringÃ<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">RECONNECT_DELAY_MS</mark> = 2000;"
+isStatictrue"
+accessprivate*RECONNECT_DELAY_MS2å
+intTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (Õ
+Lcom.facebook.react.packagerconnection.ReconnectingWebSocket?mUrl@41.23:41.27VALUE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java) )("
+isFinaltrue"
+typeString"ã
+declarationStringv<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">mUrl</mark>"
+isStaticfalse"
+accessprivate*mUrl2ô
+java.lang.StringTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java) )(›
+Pcom.facebook.react.packagerconnection.ReconnectingWebSocket?mHandler@42.24:42.32VALUE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java* *( "
+isFinaltrue"
+typeHandler"ê
+declarationString{<mark class="modifier">private </mark><mark class="modifier">final </mark>Handler <mark class="class-field">mHandler</mark>"
+isStaticfalse"
+accessprivate*mHandler2õ
+android.os.HandlerTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java* *(˘
+Ucom.facebook.react.packagerconnection.ReconnectingWebSocket?mOkHttpClient@43.29:43.42VALUE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java+ +(*"
+isFinaltrue"
+typeOkHttpClient"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">final </mark>OkHttpClient <mark class="class-field">mOkHttpClient</mark>"
+isStaticfalse"
+accessprivate*mOkHttpClient2ù
+okhttp3.OkHttpClientTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java+ +(ı
+Ocom.facebook.react.packagerconnection.ReconnectingWebSocket?mClosed@44.18:44.25VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java, ,("
+isFinalfalse"
+typeboolean"±
+declarationStringõ<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mClosed</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mClosed2ê
+booleanTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java,
+ ,(Ñ
+acom.facebook.react.packagerconnection.ReconnectingWebSocket?mSuppressConnectionErrors@45.18:45.43VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java- -(+"
+isFinalfalse"
+typeboolean"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mSuppressConnectionErrors</mark>"
+isStaticfalse"
+accessprivate*mSuppressConnectionErrors2ê
+booleanTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java-
+ -(≈
+Rcom.facebook.react.packagerconnection.ReconnectingWebSocket?mWebSocket@46.30:46.40VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java. .(("
+isFinalfalse"
+type	WebSocket"p
+declarationString[<mark class="modifier">private </mark>WebSocket <mark class="class-field">mWebSocket</mark>"
+isStaticfalse"
+accessprivate*
+mWebSocket2ö
+okhttp3.WebSocketTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java. .(ù
+Xcom.facebook.react.packagerconnection.ReconnectingWebSocket?mMessageCallback@47.36:47.52VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java/$ /(4"
+isFinalfalse"
+typeMessageCallback"|
+declarationStringg<mark class="modifier">private </mark>MessageCallback <mark class="class-field">mMessageCallback</mark>"
+isStaticfalse"
+accessprivate*mMessageCallback2‘
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallbackTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java/ /(#∞
+[com.facebook.react.packagerconnection.ReconnectingWebSocket?mConnectionCallback@48.39:48.58VARIABLE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java0' 0(:"
+isFinalfalse"
+typeConnectionCallback"Ç
+declarationStringm<mark class="modifier">private </mark>ConnectionCallback <mark class="class-field">mConnectionCallback</mark>"
+isStaticfalse"
+accessprivate*mConnectionCallback2◊
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallbackTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java0 0(&„
+Kcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallbackTRAIT
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (""F
+package;com.facebook.react.packagerconnection.ReconnectingWebSocket"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>MessageCallback"
+accesspublic*MessageCallback2˜
+gcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(java.lang.String)DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java	 (2ˆ
+fcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(okio.ByteString)DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java 	  (Ä
+gcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(java.lang.String)METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java	 ("
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onMessage</mark>(String text)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	onMessage2˙
+lcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(java.lang.String)!text	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (‡
+lcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(java.lang.String)!text	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java ("
+typeString"
+isFinalfalse" 
+declarationStringString text*text2ô
+java.lang.StringTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java (Ñ
+fcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(okio.ByteString)METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java 	  ("
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onMessage</mark>(ByteString bytes)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	onMessage2˙
+lcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(okio.ByteString)!bytes	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java   (#2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java   (È
+lcom.facebook.react.packagerconnection.ReconnectingWebSocket.MessageCallback.onMessage(okio.ByteString)!bytes	PARAMETER
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java   (#"
+type
+ByteString"
+isFinalfalse"%
+declarationStringByteString bytes*bytes2ò
+okio.ByteStringTYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java   (⁄
+Ncom.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallbackTRAIT
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java# #(%"F
+package;com.facebook.react.packagerconnection.ReconnectingWebSocket"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"t
+declarationString_<mark class="modifier">public </mark><mark class="modifier">interface </mark>ConnectionCallback"
+accesspublic*ConnectionCallback2Ï
+\com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onConnected()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java$	 $(2Ô
+_com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onDisconnected()DECLARATION
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java&	 &(Ò
+\com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onConnected()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java$	 $("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onConnected</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onConnected2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java$ $(˙
+_com.facebook.react.packagerconnection.ReconnectingWebSocket.ConnectionCallback.onDisconnected()METHOD
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java&	 &("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onDisconnected</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onDisconnected2î
+voidRETURN_TYPE
+unode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/packagerconnection/ReconnectingWebSocket.java& &(

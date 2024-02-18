@@ -1,0 +1,542 @@
+
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java«%
+8expo.modules.interfaces.taskManager.TaskServiceInterfaceTRAIT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (%".
+package#expo.modules.interfaces.taskManager"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"≠
+declarationStringó<mark class="modifier">public </mark><mark class="modifier">interface </mark>TaskServiceInterface<mark class="modifier"> extends </mark>SingletonModule"
+accesspublic*TaskServiceInterface2˚
+nexpo.modules.interfaces.taskManager.TaskServiceInterface.hasRegisteredTask(java.lang.String, java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java
+ (2Õ
+øexpo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (2â
+|expo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (2¯
+kexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterAllTasksForAppScopeKey(java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java! !('2í
+Ñexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&
+ &( 2¯
+kexpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskOptions(java.lang.String, java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+	 +(2Ó
+aexpo.modules.interfaces.taskManager.TaskServiceInterface.getTasksForAppScopeKey(java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0 0(%2Ë
+[expo.modules.interfaces.taskManager.TaskServiceInterface.getTaskConsumers(java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java5 5(.2∞
+¢expo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java: :(2≥
+•expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java? ?(2Í
+]expo.modules.interfaces.taskManager.TaskServiceInterface.handleIntent(android.content.Intent)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaD D(2ä
+}expo.modules.interfaces.taskManager.TaskServiceInterface.handleJob(android.app.job.JobService, android.app.job.JobParameters)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI
+ I(2ä
+}expo.modules.interfaces.taskManager.TaskServiceInterface.cancelJob(android.app.job.JobService, android.app.job.JobParameters)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN
+ N(2‰
+÷expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS S(2Ò
+dexpo.modules.interfaces.taskManager.TaskServiceInterface.isStartedByHeadlessLoader(java.lang.String)DECLARATION|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaX
+ X(#2¥
+,expo.modules.core.interfaces.SingletonModuleEXTEND|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java. (=ˇ	
+nexpo.modules.interfaces.taskManager.TaskServiceInterface.hasRegisteredTask(java.lang.String, java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java
+ ("
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">hasRegisteredTask</mark>(String taskName<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasRegisteredTask2Ç
+wexpo.modules.interfaces.taskManager.TaskServiceInterface.hasRegisteredTask(java.lang.String, java.lang.String)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java# (+2Ö
+zexpo.modules.interfaces.taskManager.TaskServiceInterface.hasRegisteredTask(java.lang.String, java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java4 (?2î
+booleanRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (	Ì
+wexpo.modules.interfaces.taskManager.TaskServiceInterface.hasRegisteredTask(java.lang.String, java.lang.String)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java# (+"
+typeString"
+isFinalfalse"$
+declarationStringString taskName*taskName2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java ("ˆ
+zexpo.modules.interfaces.taskManager.TaskServiceInterface.hasRegisteredTask(java.lang.String, java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java4 (?"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java- (3Ì
+øexpo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java ("
+isFinalfalse"Â
+declarationStringœ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">registerTask</mark>(String taskName<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey<mark class="modifier"><mark class="modifier">,</mark></mark> String appUrl<mark class="modifier"><mark class="modifier">,</mark></mark> Class consumerClass<mark class="modifier"><mark class="modifier">,</mark></mark> Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark> Object&gt; options)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>Exception"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*registerTask2‘
+»expo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (#2◊
+Àexpo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java, (72“
+∆expo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!appUrl	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java@ (F2Ÿ
+Õexpo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!consumerClass	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN ([2”
+«expo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!options	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaq (x2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (ø
+»expo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (#"
+typeString"
+isFinalfalse"$
+declarationStringString taskName*taskName2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (»
+Àexpo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java, (7"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java% (+π
+∆expo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!appUrl	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java@ (F"
+typeString"
+isFinalfalse""
+declarationStringString appUrl*appUrl2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java9 (?À
+Õexpo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!consumerClass	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN (["
+typeClass"
+isFinalfalse"(
+declarationStringClass consumerClass*consumerClass2ï
+java.lang.ClassTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaH (Mó
+«expo.modules.interfaces.taskManager.TaskServiceInterface.registerTask(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, java.util.Map<java.lang.String, java.lang.Object>)!options	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaq (x"
+typeMap<String, Object>"
+isFinalfalse"0
+declarationStringMap<String, Object> options*options2ì
+java.util.MapTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java] (`2ü
+java.lang.StringTYPE_ARGUMENT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaa (g2ü
+java.lang.ObjectTYPE_ARGUMENT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javai (o”
+|expo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java ("
+isFinalfalse"Å
+declarationStringÎ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">unregisterTask</mark>(String taskName<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey<mark class="modifier"><mark class="modifier">,</mark></mark> Class consumerClass)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>Exception"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*unregisterTask2ë
+Öexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (%2î
+àexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java. (92ñ
+äexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)!consumerClass	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaA (N2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (¸
+Öexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (%"
+typeString"
+isFinalfalse"$
+declarationStringString taskName*taskName2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java (Ö
+àexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java. (9"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java' (-à
+äexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterTask(java.lang.String, java.lang.String, java.lang.Class)!consumerClass	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaA (N"
+typeClass"
+isFinalfalse"(
+declarationStringClass consumerClass*consumerClass2ï
+java.lang.ClassTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java; (@º
+kexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterAllTasksForAppScopeKey(java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java! !('"
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">unregisterAllTasksForAppScopeKey</mark>(String appScopeKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid* unregisterAllTasksForAppScopeKey2Ç
+wexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterAllTasksForAppScopeKey(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java!/ !(:2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java! !(Û
+wexpo.modules.interfaces.taskManager.TaskServiceInterface.unregisterAllTasksForAppScopeKey(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java!/ !(:"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java!( !(.¿
+Ñexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&
+ &( "
+isFinalfalse"ø
+declarationString©<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">taskHasConsumerOfClass</mark>(String taskName<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey<mark class="modifier"><mark class="modifier">,</mark></mark> Class consumerClass)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*taskHasConsumerOfClass2ô
+çexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&( &(02ú
+êexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&9 &(D2û
+íexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)!consumerClass	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&L &(Y2î
+booleanRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java& &(	Ñ
+çexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&( &(0"
+typeString"
+isFinalfalse"$
+declarationStringString taskName*taskName2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&! &('ç
+êexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&9 &(D"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&2 &(8ê
+íexpo.modules.interfaces.taskManager.TaskServiceInterface.taskHasConsumerOfClass(java.lang.String, java.lang.String, java.lang.Class)!consumerClass	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&L &(Y"
+typeClass"
+isFinalfalse"(
+declarationStringClass consumerClass*consumerClass2ï
+java.lang.ClassTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java&F &(K⁄	
+kexpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskOptions(java.lang.String, java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+	 +("
+isFinalfalse"«
+declarationString±<mark class="modifier"> </mark>Bundle <mark class="method">getTaskOptions</mark>(String taskName<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeBundle*getTaskOptions2ˇ
+texpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskOptions(java.lang.String, java.lang.String)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+ +('2Ç
+wexpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskOptions(java.lang.String, java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+0 +(;2û
+android.os.BundleRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+ +(Í
+texpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskOptions(java.lang.String, java.lang.String)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+ +('"
+typeString"
+isFinalfalse"$
+declarationStringString taskName*taskName2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+ +(Û
+wexpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskOptions(java.lang.String, java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+0 +(;"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java+) +(/ø
+aexpo.modules.interfaces.taskManager.TaskServiceInterface.getTasksForAppScopeKey(java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0 0(%"
+isFinalfalse"ç
+declarationStringx<mark class="modifier"> </mark>List&lt;Bundle&gt; <mark class="method">getTasksForAppScopeKey</mark>(String appScopeKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Bundle>*getTasksForAppScopeKey2¯
+mexpo.modules.interfaces.taskManager.TaskServiceInterface.getTasksForAppScopeKey(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0- 0(82õ
+java.util.ListRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0 0(2ß
+android.os.BundleRETURN_TYPE_ARGUMENT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0 0(È
+mexpo.modules.interfaces.taskManager.TaskServiceInterface.getTasksForAppScopeKey(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0- 0(8"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java0& 0(,Ó
+[expo.modules.interfaces.taskManager.TaskServiceInterface.getTaskConsumers(java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java5 5(."
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark>List&lt;TaskConsumerInterface&gt; <mark class="method">getTaskConsumers</mark>(String appScopeKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"#
+typeList<TaskConsumerInterface>*getTaskConsumers2Ú
+gexpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskConsumers(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java56 5(A2õ
+java.util.ListRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java5 5(2œ
+9expo.modules.interfaces.taskManager.TaskConsumerInterfaceRETURN_TYPE_ARGUMENT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java5 5(„
+gexpo.modules.interfaces.taskManager.TaskServiceInterface.getTaskConsumers(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java56 5(A"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java5/ 5(5Ì
+¢expo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java: :("
+isFinalfalse"É
+declarationStringÌ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">notifyTaskFinished</mark>(String taskName<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey<mark class="modifier"><mark class="modifier">,</mark></mark> Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark> Object&gt; response)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*notifyTaskFinished2∑
+´expo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:! :()2∫
+Æexpo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:2 :(=2∑
+´expo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)!response	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:S :([2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java: :(¢
+´expo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)!taskName	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:! :()"
+typeString"
+isFinalfalse"$
+declarationStringString taskName*taskName2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java: :( ´
+Æexpo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:2 :(="
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:+ :(1˝
+´expo.modules.interfaces.taskManager.TaskServiceInterface.notifyTaskFinished(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.Object>)!response	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:S :(["
+typeMap<String, Object>"
+isFinalfalse"1
+declarationStringMap<String, Object> response*response2ì
+java.util.MapTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:? :(B2ü
+java.lang.StringTYPE_ARGUMENT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:C :(I2ü
+java.lang.ObjectTYPE_ARGUMENT|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java:K :(Q≤
+•expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java? ?("
+isFinalfalse"ø
+declarationString©<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setTaskManager</mark>(TaskManagerInterface taskManager<mark class="modifier"><mark class="modifier">,</mark></mark> String appScopeKey<mark class="modifier"><mark class="modifier">,</mark></mark> String appUrl)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setTaskManager2Ω
+±expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)!taskManager	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?+ ?(62Ω
+±expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?? ?(J2∏
+¨expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)!appUrl	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?S ?(Y2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java? ?(Ú
+±expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)!taskManager	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?+ ?(6"
+typeTaskManagerInterface"
+isFinalfalse"5
+declarationString TaskManagerInterface taskManager*taskManager2æ
+8expo.modules.interfaces.taskManager.TaskManagerInterfaceTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java? ?(*Æ
+±expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?? ?(J"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?8 ?(>ü
+¨expo.modules.interfaces.taskManager.TaskServiceInterface.setTaskManager(expo.modules.interfaces.taskManager.TaskManagerInterface, java.lang.String, java.lang.String)!appUrl	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?S ?(Y"
+typeString"
+isFinalfalse""
+declarationStringString appUrl*appUrl2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.java?L ?(RÌ
+]expo.modules.interfaces.taskManager.TaskServiceInterface.handleIntent(android.content.Intent)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaD D("
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">handleIntent</mark>(Intent intent)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*handleIntent2Ô
+dexpo.modules.interfaces.taskManager.TaskServiceInterface.handleIntent(android.content.Intent)!intent	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaD D(!2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaD D(‹
+dexpo.modules.interfaces.taskManager.TaskServiceInterface.handleIntent(android.content.Intent)!intent	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaD D(!"
+typeIntent"
+isFinalfalse""
+declarationStringIntent intent*intent2ú
+android.content.IntentTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaD D(±
+
+}expo.modules.interfaces.taskManager.TaskServiceInterface.handleJob(android.app.job.JobService, android.app.job.JobParameters)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI
+ I("
+isFinalfalse"
+declarationString⁄<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">handleJob</mark>(JobService jobService<mark class="modifier"><mark class="modifier">,</mark></mark> JobParameters jobParameters)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*	handleJob2î
+àexpo.modules.interfaces.taskManager.TaskServiceInterface.handleJob(android.app.job.JobService, android.app.job.JobParameters)!jobService	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI I()2ó
+ãexpo.modules.interfaces.taskManager.TaskServiceInterface.handleJob(android.app.job.JobService, android.app.job.JobParameters)!jobParameters	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI9 I(F2î
+booleanRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI I(	ï
+àexpo.modules.interfaces.taskManager.TaskServiceInterface.handleJob(android.app.job.JobService, android.app.job.JobParameters)!jobService	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI I()"
+type
+JobService"
+isFinalfalse"*
+declarationStringJobService jobService*
+jobService2†
+android.app.job.JobServiceTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI I(ß
+ãexpo.modules.interfaces.taskManager.TaskServiceInterface.handleJob(android.app.job.JobService, android.app.job.JobParameters)!jobParameters	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI9 I(F"
+typeJobParameters"
+isFinalfalse"0
+declarationStringJobParameters jobParameters*jobParameters2£
+android.app.job.JobParametersTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaI+ I(8±
+
+}expo.modules.interfaces.taskManager.TaskServiceInterface.cancelJob(android.app.job.JobService, android.app.job.JobParameters)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN
+ N("
+isFinalfalse"
+declarationString⁄<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">cancelJob</mark>(JobService jobService<mark class="modifier"><mark class="modifier">,</mark></mark> JobParameters jobParameters)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*	cancelJob2î
+àexpo.modules.interfaces.taskManager.TaskServiceInterface.cancelJob(android.app.job.JobService, android.app.job.JobParameters)!jobService	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN N()2ó
+ãexpo.modules.interfaces.taskManager.TaskServiceInterface.cancelJob(android.app.job.JobService, android.app.job.JobParameters)!jobParameters	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN9 N(F2î
+booleanRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN N(	ï
+àexpo.modules.interfaces.taskManager.TaskServiceInterface.cancelJob(android.app.job.JobService, android.app.job.JobParameters)!jobService	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN N()"
+type
+JobService"
+isFinalfalse"*
+declarationStringJobService jobService*
+jobService2†
+android.app.job.JobServiceTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN N(ß
+ãexpo.modules.interfaces.taskManager.TaskServiceInterface.cancelJob(android.app.job.JobService, android.app.job.JobParameters)!jobParameters	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN9 N(F"
+typeJobParameters"
+isFinalfalse"0
+declarationStringJobParameters jobParameters*jobParameters2£
+android.app.job.JobParametersTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaN+ N(8î
+÷expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS S("
+isFinalfalse"Å
+declarationStringÎ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">executeTask</mark>(TaskInterface task<mark class="modifier"><mark class="modifier">,</mark></mark> Bundle data<mark class="modifier"><mark class="modifier">,</mark></mark> Error error<mark class="modifier"><mark class="modifier">,</mark></mark> TaskExecutionCallback callback)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*executeTask2Á
+€expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!task	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS! S(%2Á
+€expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!data	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS. S(22Ë
+‹expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!error	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS: S(?2Î
+ﬂexpo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!callback	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaSW S(_2ë
+voidRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS S(˘
+€expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!task	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS! S(%"
+typeTaskInterface"
+isFinalfalse"'
+declarationStringTaskInterface task*task2∑
+1expo.modules.interfaces.taskManager.TaskInterfaceTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS S( À
+€expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!data	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS. S(2"
+typeBundle"
+isFinalfalse" 
+declarationStringBundle data*data2ó
+android.os.BundleTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS' S(- 
+‹expo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!error	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS: S(?"
+typeError"
+isFinalfalse" 
+declarationStringError error*error2ï
+java.lang.ErrorTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaS4 S(9ù
+ﬂexpo.modules.interfaces.taskManager.TaskServiceInterface.executeTask(expo.modules.interfaces.taskManager.TaskInterface, android.os.Bundle, java.lang.Error, expo.modules.interfaces.taskManager.TaskExecutionCallback)!callback	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaSW S(_"
+typeTaskExecutionCallback"
+isFinalfalse"3
+declarationStringTaskExecutionCallback callback*callback2ø
+9expo.modules.interfaces.taskManager.TaskExecutionCallbackTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaSA S(V©
+dexpo.modules.interfaces.taskManager.TaskServiceInterface.isStartedByHeadlessLoader(java.lang.String)METHOD|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaX
+ X(#"
+isFinalfalse"§
+declarationStringé<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isStartedByHeadlessLoader</mark>(String appScopeKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isStartedByHeadlessLoader2˚
+pexpo.modules.interfaces.taskManager.TaskServiceInterface.isStartedByHeadlessLoader(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaX+ X(62î
+booleanRETURN_TYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaX X(	Ï
+pexpo.modules.interfaces.taskManager.TaskServiceInterface.isStartedByHeadlessLoader(java.lang.String)!appScopeKey	PARAMETER|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaX+ X(6"
+typeString"
+isFinalfalse"'
+declarationStringString appScopeKey*appScopeKey2ñ
+java.lang.StringTYPE|
+rnode_modules/expo-modules-core/android/src/main/java/expo/modules/interfaces/taskManager/TaskServiceInterface.javaX$ X(*

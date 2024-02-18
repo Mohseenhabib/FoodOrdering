@@ -1,0 +1,394 @@
+
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaâ
+3com.facebook.react.modules.network.TLSSocketFactoryCLASSw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java ("-
+package"com.facebook.react.modules.network"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">class </mark>TLSSocketFactory<mark class="modifier"> extends </mark>SSLSocketFactory"
+accesspublic*TLSSocketFactory2Œ
+Fcom.facebook.react.modules.network.TLSSocketFactory.TLSSocketFactory()DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java	 (2‘
+Lcom.facebook.react.modules.network.TLSSocketFactory.getDefaultCipherSuites()DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java" "((2÷
+Ncom.facebook.react.modules.network.TLSSocketFactory.getSupportedCipherSuites()DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java' '(*2˘
+qcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java, ,(2ﬂ
+Wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2 2(2˙
+rcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7 7(2„
+[com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java= =(2˛
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB B(2ﬁ
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaG G("2–
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (#2°
+javax.net.ssl.SSLSocketFactoryEXTENDw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java& (6á
+Fcom.facebook.react.modules.network.TLSSocketFactory.TLSSocketFactory()CONSTRUCTORw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java	 ("ô
+declarationStringÉ<mark class="modifier">public </mark><mark class="method">TLSSocketFactory</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>KeyManagementException<mark class="modifier"><mark class="modifier">,</mark></mark> NoSuchAlgorithmException*TLSSocketFactory2∑
+6javax.net.ssl.SSLContext.getInstance(java.lang.String)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java$ (/2Ù
+sjavax.net.ssl.SSLContext.init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (2¨
++javax.net.ssl.SSLContext.getSocketFactory()CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java ('2€
+Zcom.facebook.react.modules.network.TLSSocketFactory.TLSSocketFactory()?context@28.15:28.22CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (2…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (2€
+Zcom.facebook.react.modules.network.TLSSocketFactory.TLSSocketFactory()?context@28.15:28.22CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (2‚
+Zcom.facebook.react.modules.network.TLSSocketFactory.TLSSocketFactory()?context@28.15:28.22DECLARATIONw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (2ª
+3com.facebook.react.modules.network.TLSSocketFactoryRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java# (9Ó
+Zcom.facebook.react.modules.network.TLSSocketFactory.TLSSocketFactory()?context@28.15:28.22VARIABLEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java ("
+type
+SSLContext"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark>SSLContext <mark class="class-field">context</mark> = SSLContext.getInstance("TLS")*context2ô
+javax.net.ssl.SSLContextTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (2∑
+6javax.net.ssl.SSLContext.getInstance(java.lang.String)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java$ (/í
+Lcom.facebook.react.modules.network.TLSSocketFactory.getDefaultCipherSuites()METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java" "(("
+isFinalfalse"¶
+declarationStringê<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String[] <mark class="method">getDefaultCipherSuites</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString[]*getDefaultCipherSuites2∏
+7javax.net.ssl.SSLSocketFactory.getDefaultCipherSuites()CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java# #(*2…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java# #(2ö
+java.lang.String[]RETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java"	 "(ö
+Ncom.facebook.react.modules.network.TLSSocketFactory.getSupportedCipherSuites()METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java' '(*"
+isFinalfalse"®
+declarationStringí<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String[] <mark class="method">getSupportedCipherSuites</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString[]*getSupportedCipherSuites2∫
+9javax.net.ssl.SSLSocketFactory.getSupportedCipherSuites()CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java( ((,2…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java( ((2ö
+java.lang.String[]RETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java'	 '(Ù
+qcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java, ,("
+isFinalfalse"ã
+declarationStringı<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Socket <mark class="method">createSocket</mark>(Socket s<mark class="modifier"><mark class="modifier">,</mark></mark> String host<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> port<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> autoClose)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSocket*createSocket2◊
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java. .(2›
+\javax.net.ssl.SSLSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java.& .(22…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java. .(%2Ù
+scom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!sCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java.3 .(42˜
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!hostCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java.6 .(:2˜
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!portCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java.< .(@2¸
+{com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!autoCloseCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java.B .(K2˘
+scom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!s	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,$ ,(%2¸
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,. ,(22¸
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,8 ,(<2Å
+{com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!autoClose	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,F ,(O2ó
+java.net.SocketRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,	 ,(–
+scom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!s	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,$ ,(%"
+typeSocket"
+isFinalfalse"
+declarationStringSocket s*s2ê
+java.net.SocketTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java, ,(#⁄
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,. ,(2"
+typeString"
+isFinalfalse" 
+declarationStringString host*host2ë
+java.lang.StringTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,' ,(-Â
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,8 ,(<"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> port*port2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,4 ,(7Ä
+{com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.Socket, java.lang.String, int, boolean)!autoClose	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,F ,(O"
+typeboolean"
+isFinalfalse"D
+declarationString/<mark class="modifier">boolean</mark> autoClose*	autoClose2à
+booleanTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java,> ,(E˙
+Wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2 2("
+isFinalfalse"™
+declarationStringî<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Socket <mark class="method">createSocket</mark>(String host<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> port)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException<mark class="modifier"><mark class="modifier">,</mark></mark> UnknownHostException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSocket*createSocket2◊
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java3 3(2º
+;javax.net.SocketFactory.createSocket(java.lang.String, int)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java3& 3(22…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java3 3(%2›
+\com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)!hostCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java33 3(72›
+\com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)!portCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java39 3(=2‚
+\com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2$ 2((2‚
+\com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2. 2(22ó
+java.net.SocketRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2	 2(¿
+\com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2$ 2(("
+typeString"
+isFinalfalse" 
+declarationStringString host*host2ë
+java.lang.StringTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2 2(#À
+\com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2. 2(2"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> port*port2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java2* 2(-‚
+rcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7 7("
+isFinalfalse"Ê
+declarationString–<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Socket <mark class="method">createSocket</mark>(String host<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> port<mark class="modifier"><mark class="modifier">,</mark></mark> InetAddress localHost<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> localPort)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException<mark class="modifier"><mark class="modifier">,</mark></mark> UnknownHostException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSocket*createSocket2◊
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java9 9(2◊
+Vjavax.net.SocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java9& 9(22…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java9 9(%2¯
+wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!hostCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java93 9(72¯
+wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!portCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java99 9(=2˝
+|com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!localHostCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java9? 9(H2˝
+|com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!localPortCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java9J 9(S2˝
+wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7$ 7((2˝
+wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7. 7(22Ç
+|com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!localHost	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7@ 7(I2Ç
+|com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!localPort	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7O 7(X2ó
+java.net.SocketRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7	 7(€
+wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7$ 7(("
+typeString"
+isFinalfalse" 
+declarationStringString host*host2ë
+java.lang.StringTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7 7(#Ê
+wcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7. 7(2"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> port*port2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7* 7(-¯
+|com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!localHost	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7@ 7(I"
+typeInetAddress"
+isFinalfalse"*
+declarationStringInetAddress localHost*	localHost2ï
+java.net.InetAddressTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java74 7(?ı
+|com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.lang.String, int, java.net.InetAddress, int)!localPort	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7O 7(X"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> localPort*	localPort2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java7K 7(N≈
+[com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java= =("
+isFinalfalse"›
+declarationString«<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Socket <mark class="method">createSocket</mark>(InetAddress host<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> port)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSocket*createSocket2◊
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java> >(2¿
+?javax.net.SocketFactory.createSocket(java.net.InetAddress, int)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java>& >(22…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java> >(%2·
+`com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)!hostCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java>3 >(72·
+`com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)!portCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java>9 >(=2Ê
+`com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java=) =(-2Ê
+`com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java=3 =(72ó
+java.net.SocketRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java=	 =(“
+`com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)!host	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java=) =(-"
+typeInetAddress"
+isFinalfalse"%
+declarationStringInetAddress host*host2ï
+java.net.InetAddressTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java= =((œ
+`com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java=3 =(7"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> port*port2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java=/ =(2”
+vcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB B("
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Socket <mark class="method">createSocket</mark>(InetAddress address<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> port<mark class="modifier"><mark class="modifier">,</mark></mark> InetAddress localAddress<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> localPort)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeSocket*createSocket2◊
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaD D(2€
+Zjavax.net.SocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaD& D(22…
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaD D(%2ˇ
+~com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!addressCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaD3 D(:2¸
+{com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!portCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaD< D(@2Ö
+Écom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!localAddressCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaDB D(N2Ç
+Äcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!localPortCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaDP D(Y2Ñ
+~com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!address	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB) B(02Å
+{com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB6 B(:2ä
+Écom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!localAddress	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaBH B(T2á
+Äcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!localPort	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaBZ B(c2ó
+java.net.SocketRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB	 B(ˆ
+~com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!address	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB) B(0"
+typeInetAddress"
+isFinalfalse"(
+declarationStringInetAddress address*address2ï
+java.net.InetAddressTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB B((Í
+{com.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!port	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB6 B(:"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> port*port2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB2 B(5Ü
+Écom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!localAddress	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaBH B(T"
+typeInetAddress"
+isFinalfalse"-
+declarationStringInetAddress localAddress*localAddress2ï
+java.net.InetAddressTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaB< B(G˙
+Äcom.facebook.react.modules.network.TLSSocketFactory.createSocket(java.net.InetAddress, int, java.net.InetAddress, int)!localPort	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaBZ B(c"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> localPort*	localPort2Ñ
+intTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaBV B(Yê
+Vcom.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)METHODw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaG G(""
+isFinalfalse"~
+declarationStringi<mark class="modifier">private </mark>Socket <mark class="method">enableTLSOnSocket</mark>(Socket socket)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeSocket*enableTLSOnSocket2¿
+?javax.net.ssl.SSLSocket.setEnabledProtocols(java.lang.String[])CALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaI I(.2ﬁ
+]com.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)!socketCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaH H(2ﬁ
+]com.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)!socketCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaH H(!2ﬁ
+]com.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)!socketCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaI I(2ﬁ
+]com.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)!socketCALLw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaK K(2„
+]com.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)!socket	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaG* G(02ó
+java.net.SocketRETURN_TYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaG
+ G(ƒ
+]com.facebook.react.modules.network.TLSSocketFactory.enableTLSOnSocket(java.net.Socket)!socket	PARAMETERw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaG* G(0"
+typeSocket"
+isFinalfalse""
+declarationStringSocket socket*socket2ê
+java.net.SocketTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.javaG# G()¬
+Hcom.facebook.react.modules.network.TLSSocketFactory?delegate@25.27:25.35VARIABLEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java (#"
+isFinalfalse"
+typeSSLSocketFactory"u
+declarationString`<mark class="modifier">private </mark>SSLSocketFactory <mark class="class-field">delegate</mark>"
+isStaticfalse"
+accessprivate*delegate2ü
+javax.net.ssl.SSLSocketFactoryTYPEw
+mnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/network/TLSSocketFactory.java
+ (

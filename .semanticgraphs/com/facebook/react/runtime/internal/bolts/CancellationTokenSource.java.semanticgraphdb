@@ -1,0 +1,554 @@
+
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÕ,
+Acom.facebook.react.runtime.internal.bolts.CancellationTokenSourceCLASSÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java ($"4
+package)com.facebook.react.runtime.internal.bolts"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¨
+declarationStringñ<mark class="modifier">public </mark><mark class="modifier">class </mark>CancellationTokenSource<mark class="modifier"><br>implements </mark>Closeable"
+accesspublic*CancellationTokenSource2Ú
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource.CancellationTokenSource()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java&	 &( 2Ú
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource.isCancellationRequested()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java, ,((2„
+Lcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.getToken()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java4$ 4(,2·
+Jcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java< <(2Í
+Scom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long)DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaT T(2â
+rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX X(2‡
+Icom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java| |(2˜
+^com.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaé  é((2˘
+`com.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfCancellationRequested()DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java° °(12Ø
+ïcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.unregister(com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration)DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java™ ™(2ƒ
+™com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑ ∑(2Â
+Lcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.toString()DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaæ æ(2Í
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java   (2¯
+_com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelScheduledCancellation()DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java— —(*2È
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java (2Ú
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java= (J2Ì
+Vcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?executor@32.50:32.58DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java 2  (:2˙
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java!' !(<2˙
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java" "('2Î
+Tcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?closed@35.18:35.24DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java# #(2£
+java.io.CloseableEXTENDÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java0 (9◊
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource.CancellationTokenSource()CONSTRUCTORÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java&	 &( "o
+declarationStringZ<mark class="modifier">public </mark><mark class="method">CancellationTokenSource</mark>()*CancellationTokenSource2ÿ
+Acom.facebook.react.runtime.internal.bolts.CancellationTokenSourceRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java&	 &( ‹
+
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource.isCancellationRequested()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java, ,(("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isCancellationRequested</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isCancellationRequested2·
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java. .(2‚
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java- -(2Û
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java/ /("2û
+booleanRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java,	 ,(¥
+Lcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.getToken()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java4$ 4(,"
+isFinalfalse"†
+declarationStringä<mark class="annotation">@NonNull</mark> <br><mark class="modifier">public </mark>CancellationToken <mark class="method">getToken</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeCancellationToken*getToken2·
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java6 6(2°
+êcom.facebook.react.runtime.internal.bolts.CancellationToken.CancellationToken(com.facebook.react.runtime.internal.bolts.CancellationTokenSource)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java7 7("2‚
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java5 5(2“
+;com.facebook.react.runtime.internal.bolts.CancellationTokenRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java4 4(#Ú
+Jcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java< <("
+isFinalfalse"Å
+declarationStringl<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">cancel</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*cancel2·
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java? ?(2Ô
+_com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelScheduledCancellation()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaD D(!2ª
+™com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaI I(2–
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaG G(%2‚
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java> >(2Û
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java@
+ @(2Û
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaF F(2Ù
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()?registrations@61.40:61.53CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaG G(2Ù
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()?registrations@61.40:61.53CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaI I(!2Î
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaG+ G(82˚
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()?registrations@61.40:61.53DECLARATIONÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java=( =(52õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java<	 <(”
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()?registrations@61.40:61.53VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java=( =(5"+
+type#List<CancellationTokenRegistration>"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>List<CancellationTokenRegistration> <mark class="class-field">registrations</mark>*registrations2û
+java.util.ListTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java= =(2‡
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPE_ARGUMENTÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java=	 =(&Ñ
+Scom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long)METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaT T("
+isFinalfalse"µ
+declarationStringü<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">cancelAfter</mark>(final <mark class="modifier">long</mark> delay)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*cancelAfter2Ç
+rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaU U(2È
+Ycom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long)!delayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaU U(2Ó
+Ycom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long)!delay	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaT% T(*2õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaT	 T(Í
+Ycom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long)!delay	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaT% T(*"
+typelong"
+isFinaltrue"=
+declarationString(<mark class="modifier">long</mark> delay*delay2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaT  T($Í+
+rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX X("
+isFinalfalse"®
+declarationStringí<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">cancelAfter</mark>(<mark class="modifier">long</mark> delay<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@NonNull</mark> TimeUnit timeUnit)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*cancelAfter2⁄
+Jcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java^ ^(2Ô
+_com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelScheduledCancellation()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javag g(!2ˇ
+ojava.util.concurrent.ScheduledExecutorService.schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javak k(2⁄
+Jcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancel()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javar r(2›
+Mjava.lang.IllegalArgumentException.IllegalArgumentException(java.lang.String)CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaZ Z((2≤
+°com.facebook.react.runtime.internal.bolts.CancellationTokenSource.Anonymous-9a5261d4-afaf-4fc0-87b7-1716005b1f57.Anonymous-9a5261d4-afaf-4fc0-87b7-1716005b1f57()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javal l(2à
+xcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!delayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaY Y(2à
+xcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!delayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java] ](2‚
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javab b(2Û
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javac
+ c(2à
+xcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!delayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javai
+ i(2Û
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaj j(2Ê
+Vcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?executor@32.50:32.58CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javak k(2‚
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javao" o(&2Û
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javap p(+2à
+xcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!delayCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javau u(2ã
+{com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!timeUnitCALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javav v(2ç
+xcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!delay	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX  X(%2ê
+{com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!timeUnit	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX9 X(A2õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX
+ X(ä
+xcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!delay	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX  X(%"
+typelong"
+isFinalfalse"=
+declarationString(<mark class="modifier">long</mark> delay*delay2î
+longTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX X(ø
+{com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelAfter(long, java.util.concurrent.TimeUnit)!timeUnit	PARAMETERÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX9 X(A"
+typeTimeUnit"
+isFinalfalse"O
+declarationString:<mark class="annotation">@NonNull</mark> TimeUnit timeUnit*timeUnit2≠
+java.util.concurrent.TimeUnitTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaX0 X(8Ì
+Icom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()METHODÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java| |("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">close</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*close2Ò
+_com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelScheduledCancellation()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÇ Ç(!2·
+Ocom.facebook.react.runtime.internal.bolts.CancellationTokenRegistration.close()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÜ Ü(2®
+java.util.List.clear()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaà à(2“
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑ> Ñ(I2‚
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java} }(2‰
+Tcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?closed@35.18:35.24CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java~
+ ~(2˜
+ecom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()?registrations@132.42:132.55CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÖ8 Ö(E2ˆ
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()?registration@133.41:133.53CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÜ Ü(2Ê
+Tcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?closed@35.18:35.24CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaâ â(2Ì
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑO Ñ(\2Ì
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaà à(2˛
+ecom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()?registrations@132.42:132.55DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑ* Ñ(72˝
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()?registration@133.41:133.53DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÖ) Ö(52õ
+voidRETURN_TYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java|	 |(‰
+
+ecom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()?registrations@132.42:132.55VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑ* Ñ(7"+
+type#List<CancellationTokenRegistration>"
+isFinalfalse"À
+declarationStringµ<mark class="modifier"> </mark>List<CancellationTokenRegistration> <mark class="class-field">registrations</mark> = new ArrayList<>(<mark class="modifier">this</mark>.registrations)*registrations2†
+java.util.ListTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑ Ñ(
+2‚
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPE_ARGUMENTá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑ Ñ((2“
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑ> Ñ(I2Ì
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÑO Ñ(\û
+dcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.close()?registration@133.41:133.53VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÖ) Ö(5"%
+typeCancellationTokenRegistration"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>CancellationTokenRegistration <mark class="class-field">registration</mark>*registration2Ÿ
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÖ Ö((∆!
+^com.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaé  é(("
+isFinalfalse"∂
+declarationString† <br><mark class="modifier"> </mark>CancellationTokenRegistration <mark class="method">register</mark>(<mark class="annotation">@NonNull</mark> Runnable action)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"%
+typeCancellationTokenRegistration*register2„
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaë ë(2Â
+Scom.facebook.react.runtime.internal.bolts.CancellationTokenRegistration.runAction()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaï ï(2ß
+java.util.List.add(E)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaó ó(2œ
+ºcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistration.CancellationTokenRegistration(com.facebook.react.runtime.internal.bolts.CancellationTokenSource, java.lang.Runnable)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaì ì(-2‰
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaê ê(2Ç
+pcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)?ctr@143.34:143.37CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaì ì(	2˜
+ecom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)!actionCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaì4 ì(:2ı
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaî
+ î(2Ç
+pcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)?ctr@143.34:143.37CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaï ï(2Ì
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaó ó(2Ç
+pcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)?ctr@143.34:143.37CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaó ó(2Ç
+pcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)?ctr@143.34:143.37CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaö ö(2¸
+ecom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)!action	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaé; é(A2â
+pcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)?ctr@143.34:143.37DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaè" è(%2‡
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaé é(ò
+pcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)?ctr@143.34:143.37VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaè" è(%"%
+typeCancellationTokenRegistration"
+isFinalfalse"v
+declarationStringa<mark class="modifier"> </mark>CancellationTokenRegistration <mark class="class-field">ctr</mark>*ctr2Ÿ
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaè è(!û
+ecom.facebook.react.runtime.internal.bolts.CancellationTokenSource.register(java.lang.Runnable)!action	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaé; é(A"
+typeRunnable"
+isFinalfalse"M
+declarationString8<mark class="annotation">@NonNull</mark> Runnable action*action2§
+java.lang.RunnableTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaé2 é(:ü
+`com.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfCancellationRequested()METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java° °(1"
+isFinalfalse"Î
+declarationString’<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">throwIfCancellationRequested</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>CancellationException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*throwIfCancellationRequested2„
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java£ £(2‘
+Bjava.util.concurrent.CancellationException.CancellationException()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java• •('2‰
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java¢ ¢(2ı
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java§
+ §(2ù
+voidRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java° °(˝
+ïcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.unregister(com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration)METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java™ ™("
+isFinalfalse"”
+declarationStringΩ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">unregister</mark>(<mark class="annotation">@NonNull</mark> CancellationTokenRegistration registration)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+unregister2„
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java¨ ¨(2π
+'java.util.List.remove(java.lang.Object)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java≠ ≠(2‰
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java´ ´(2Ì
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java≠ ≠(2µ
+¢com.facebook.react.runtime.internal.bolts.CancellationTokenSource.unregister(com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration)!registrationCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java≠ ≠('2∫
+¢com.facebook.react.runtime.internal.bolts.CancellationTokenSource.unregister(com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration)!registration	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java™G ™(S2ù
+voidRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java™ ™(«
+¢com.facebook.react.runtime.internal.bolts.CancellationTokenSource.unregister(com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration)!registration	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java™G ™(S"%
+typeCancellationTokenRegistration"
+isFinalfalse"h
+declarationStringS<mark class="annotation">@NonNull</mark> CancellationTokenRegistration registration*registration2Ÿ
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java™) ™(FÄ
+™com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑ ∑("
+isFinalfalse"Ï
+declarationString÷<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">notifyListeners</mark>(<mark class="annotation">@NonNull</mark> List&lt;CancellationTokenRegistration&gt; registrations)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*notifyListeners2Â
+Scom.facebook.react.runtime.internal.bolts.CancellationTokenRegistration.runAction()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaπ π(2À
+∏com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)!registrationsCALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∏6 ∏(C2ÿ
+≈com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)?registration@184.39:184.51CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaπ π(2–
+∏com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)!registrations	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑L ∑(Y2ﬂ
+≈com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)?registration@184.39:184.51DECLARATIONá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∏' ∏(32ù
+voidRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑
+ ∑(Ä
+≈com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)?registration@184.39:184.51VARIABLEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∏' ∏(3"%
+typeCancellationTokenRegistration"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>CancellationTokenRegistration <mark class="class-field">registration</mark>*registration2Ÿ
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∏	 ∏(&ó
+∏com.facebook.react.runtime.internal.bolts.CancellationTokenSource.notifyListeners(java.util.List<com.facebook.react.runtime.internal.bolts.CancellationTokenRegistration>)!registrations	PARAMETERá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑L ∑(Y"+
+type#List<CancellationTokenRegistration>"
+isFinalfalse"o
+declarationStringZ<mark class="annotation">@NonNull</mark> List<CancellationTokenRegistration> registrations*registrations2†
+java.util.ListTYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑( ∑(,2‚
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPE_ARGUMENTá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java∑- ∑(J›
+Lcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.toString()METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaæ æ("
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">toString</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*toString2‚
+Pjava.lang.String.format(java.util.Locale, java.lang.String, java.lang.Object...)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaø ø(2´
+java.lang.Class.getName()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java¬ ¬(2≠
+java.lang.Object.getClass()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java¬ ¬(2¥
+"java.lang.Integer.toHexString(int)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java√ √(2≠
+java.lang.Object.hashCode()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java√ √($2µ
+#java.lang.Boolean.toString(boolean)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaƒ ƒ(2Ì
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource.isCancellationRequested()CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaƒ ƒ(02©
+java.lang.StringRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaæ	 æ(¿
+Qcom.facebook.react.runtime.internal.bolts.CancellationTokenSource.throwIfClosed()METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java   ("
+isFinalfalse"â
+declarationStringt<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">throwIfClosed</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*throwIfClosed2Ÿ
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÃ Ã(%2Ê
+Tcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?closed@35.18:35.24CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaÀ À(2ù
+voidRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java 
+  (Œ
+_com.facebook.react.runtime.internal.bolts.CancellationTokenSource.cancelScheduledCancellation()METHODá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java— —(*"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">cancelScheduledCancellation</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*cancelScheduledCancellation2Ω
++java.util.concurrent.Future.cancel(boolean)CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java” ”("2ı
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java“ “(2ı
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java” ”(2ı
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60CALLá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java‘ ‘(2ù
+voidRETURN_TYPEá
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java—
+ —(û
+Rcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?lock@30.23:30.27VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java ("
+isFinaltrue"
+typeObject"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">lock</mark> = new Object();"
+isStaticfalse"
+accessprivate*lock2†
+java.lang.ObjectTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java (2©
+java.lang.Object.Object()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java" ((ﬂ
+[com.facebook.react.runtime.internal.bolts.CancellationTokenSource?registrations@31.61:31.74VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java= (J"
+isFinaltrue"+
+type#List<CancellationTokenRegistration>"«
+declarationString±<mark class="modifier">private </mark><mark class="modifier">final </mark>List<CancellationTokenRegistration> <mark class="class-field">registrations</mark> = new ArrayList<>();"
+isStaticfalse"
+accessprivate*registrations2û
+java.util.ListTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java (2‡
+Gcom.facebook.react.runtime.internal.bolts.CancellationTokenRegistrationTYPE_ARGUMENTÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java (;2Ø
+java.util.ArrayList.ArrayList()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.javaQ (\§
+Vcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?executor@32.50:32.58VALUEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java 2  (:"
+isFinaltrue" 
+typeScheduledExecutorService"¿
+declarationString™<mark class="modifier">private </mark><mark class="modifier">final </mark>ScheduledExecutorService <mark class="class-field">executor</mark> = BoltsExecutors.scheduled();"
+isStaticfalse"
+accessprivate*executor2Ω
+-java.util.concurrent.ScheduledExecutorServiceTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java   (12‘
+Dcom.facebook.react.runtime.internal.bolts.BoltsExecutors.scheduled()CALLÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java L  (U†
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?scheduledCancellation@33.39:33.60VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java!' !(<"
+isFinalfalse"
+typeScheduledFuture<?>"Ñ
+declarationStringo<mark class="modifier">private </mark>ScheduledFuture<?> <mark class="class-field">scheduledCancellation</mark>"
+isStaticfalse"
+accessprivate*scheduledCancellation2¥
+$java.util.concurrent.ScheduledFutureTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java! !(#å
+ccom.facebook.react.runtime.internal.bolts.CancellationTokenSource?cancellationRequested@34.18:34.39VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java" "('"
+isFinalfalse"
+typeboolean"ò
+declarationStringÇ<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">cancellationRequested</mark>"
+isStaticfalse"
+accessprivate*cancellationRequested2ó
+booleanTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java"
+ "(ﬁ
+Tcom.facebook.react.runtime.internal.bolts.CancellationTokenSource?closed@35.18:35.24VARIABLEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java# #("
+isFinalfalse"
+typeboolean"à
+declarationStrings<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">closed</mark>"
+isStaticfalse"
+accessprivate*closed2ó
+booleanTYPEÖ
+{node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/internal/bolts/CancellationTokenSource.java#
+ #(

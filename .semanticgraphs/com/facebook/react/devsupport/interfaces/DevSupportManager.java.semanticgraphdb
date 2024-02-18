@@ -1,0 +1,863 @@
+
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÔV
+:com.facebook.react.devsupport.interfaces.DevSupportManagerTRAIT~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (""3
+package(com.facebook.react.devsupport.interfaces"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"≠
+declarationStringó<mark class="modifier">public </mark><mark class="modifier">interface </mark>DevSupportManager<mark class="modifier"> extends </mark>JSExceptionHandler"
+accesspublic*DevSupportManager2Å
+rcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJavaError(java.lang.String, java.lang.Throwable)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (2™
+öcom.facebook.react.devsupport.interfaces.DevSupportManager.addCustomDevOption(java.lang.String, com.facebook.react.devsupport.interfaces.DevOptionHandler)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (2Í
+[com.facebook.react.devsupport.interfaces.DevSupportManager.createRootView(java.lang.String)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java   (2Ï
+]com.facebook.react.devsupport.interfaces.DevSupportManager.destroyRootView(android.view.View)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java" "(2ô
+âcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$ $(2ò
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java& &(2‹
+Mcom.facebook.react.devsupport.interfaces.DevSupportManager.hideRedboxDialog()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java( ((2‡
+Qcom.facebook.react.devsupport.interfaces.DevSupportManager.showDevOptionsDialog()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java* *(2Á
+Xcom.facebook.react.devsupport.interfaces.DevSupportManager.setDevSupportEnabled(boolean)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java, ,(2⁄
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.startInspector()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java. .(2Ÿ
+Jcom.facebook.react.devsupport.interfaces.DevSupportManager.stopInspector()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java0 0(2‡
+Qcom.facebook.react.devsupport.interfaces.DevSupportManager.getDevSupportEnabled()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java2
+ 2(2⁄
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.getDevSettings()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java4 4("2‹
+Mcom.facebook.react.devsupport.interfaces.DevSupportManager.getRedBoxHandler()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java6 6( 2ä
+{com.facebook.react.devsupport.interfaces.DevSupportManager.onNewReactContextCreated(com.facebook.react.bridge.ReactContext)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java8 8(2ä
+{com.facebook.react.devsupport.interfaces.DevSupportManager.onReactInstanceDestroyed(com.facebook.react.bridge.ReactContext)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java: :(2€
+Lcom.facebook.react.devsupport.interfaces.DevSupportManager.getSourceMapUrl()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java<	 <(2ÿ
+Icom.facebook.react.devsupport.interfaces.DevSupportManager.getSourceUrl()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java>	 >(2Ï
+]com.facebook.react.devsupport.interfaces.DevSupportManager.getJSBundleURLForRemoteDebugging()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java@	 @()2Â
+Vcom.facebook.react.devsupport.interfaces.DevSupportManager.getDownloadedJSBundleFile()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaB	 B("2Ê
+Wcom.facebook.react.devsupport.interfaces.DevSupportManager.hasUpToDateJSBundleInCache()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaD
+ D($2⁄
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.reloadSettings()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaF F(2⁄
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.handleReloadJS()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaH H(2Ó
+_com.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaJ J(2¨
+úcom.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.BundleLoadCallback)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL L(2∑
+ßcom.facebook.react.devsupport.interfaces.DevSupportManager.loadSplitBundleFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.DevSplitBundleCallback)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN N( 2ù
+çcom.facebook.react.devsupport.interfaces.DevSupportManager.isPackagerRunning(com.facebook.react.devsupport.interfaces.PackagerStatusCallback)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaP P(2Ò
+bcom.facebook.react.devsupport.interfaces.DevSupportManager.setHotModuleReplacementEnabled(boolean)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaR R(%2Í
+[com.facebook.react.devsupport.interfaces.DevSupportManager.setRemoteJSDebugEnabled(boolean)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaT T(2Â
+Vcom.facebook.react.devsupport.interfaces.DevSupportManager.setFpsDebugEnabled(boolean)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaV V(2‚
+Scom.facebook.react.devsupport.interfaces.DevSupportManager.toggleElementInspector()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaX X(2ã
+|com.facebook.react.devsupport.interfaces.DevSupportManager.downloadBundleResourceFromUrlSync(java.lang.String, java.io.File)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[ [((2›
+Ncom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorTitle()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java^	 ^(2›
+Ncom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorStack()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaa a( 2‹
+Mcom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorType()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javad d(2ﬁ
+Ocom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorCookie()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaf f(2ú
+åcom.facebook.react.devsupport.interfaces.DevSupportManager.registerErrorCustomizer(com.facebook.react.devsupport.interfaces.ErrorCustomizer)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javah h(2æ
+Æcom.facebook.react.devsupport.interfaces.DevSupportManager.processErrorCustomizers(android.util.Pair<java.lang.String, com.facebook.react.devsupport.interfaces.StackFrame[]>)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaj j(42ø
+Øcom.facebook.react.devsupport.interfaces.DevSupportManager.setPackagerLocationCustomizer(com.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javau u($2ﬁ
+Ocom.facebook.react.devsupport.interfaces.DevSupportManager.getCurrentActivity()DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javax x(2Ù
+bcom.facebook.react.devsupport.interfaces.DevSupportManager.createSurfaceDelegate(java.lang.String)DECLARATIONÄ
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÅ Å('2‰
+Ucom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizerDECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaq q(&2∂
+,com.facebook.react.bridge.JSExceptionHandlerEXTEND~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java+ (=ı	
+rcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJavaError(java.lang.String, java.lang.Throwable)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java ("
+isFinalfalse"›
+declarationString«<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">showNewJavaError</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> Throwable e)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*showNewJavaError2á
+zcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJavaError(java.lang.String, java.lang.Throwable)!message	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (&2Å
+tcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJavaError(java.lang.String, java.lang.Throwable)!e	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java2 (32ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (Ú
+zcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJavaError(java.lang.String, java.lang.Throwable)!message	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (&"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (È
+tcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJavaError(java.lang.String, java.lang.Throwable)!e	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java2 (3"
+type	Throwable"
+isFinalfalse" 
+declarationStringThrowable e*e2õ
+java.lang.ThrowableTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java( (1ô
+öcom.facebook.react.devsupport.interfaces.DevSupportManager.addCustomDevOption(java.lang.String, com.facebook.react.devsupport.interfaces.DevOptionHandler)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java ("
+isFinalfalse"ı
+declarationStringﬂ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addCustomDevOption</mark>(String optionName<mark class="modifier"><mark class="modifier">,</mark></mark> DevOptionHandler optionHandler)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*addCustomDevOption2≥
+•com.facebook.react.devsupport.interfaces.DevSupportManager.addCustomDevOption(java.lang.String, com.facebook.react.devsupport.interfaces.DevOptionHandler)!optionName	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java! (+2∂
+®com.facebook.react.devsupport.interfaces.DevSupportManager.addCustomDevOption(java.lang.String, com.facebook.react.devsupport.interfaces.DevOptionHandler)!optionHandler	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java> (K2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java (§
+•com.facebook.react.devsupport.interfaces.DevSupportManager.addCustomDevOption(java.lang.String, com.facebook.react.devsupport.interfaces.DevOptionHandler)!optionName	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java! (+"
+typeString"
+isFinalfalse"&
+declarationStringString optionName*
+optionName2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java ( Í
+®com.facebook.react.devsupport.interfaces.DevSupportManager.addCustomDevOption(java.lang.String, com.facebook.react.devsupport.interfaces.DevOptionHandler)!optionHandler	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java> (K"
+typeDevOptionHandler"
+isFinalfalse"3
+declarationStringDevOptionHandler optionHandler*optionHandler2¡
+9com.facebook.react.devsupport.interfaces.DevOptionHandlerTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java- (=ë
+[com.facebook.react.devsupport.interfaces.DevSupportManager.createRootView(java.lang.String)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java   ("
+isFinalfalse"°
+declarationStringã<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>View <mark class="method">createRootView</mark>(String appKey)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeView*createRootView2Ô
+bcom.facebook.react.devsupport.interfaces.DevSupportManager.createRootView(java.lang.String)!appKey	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java   (#2†
+android.view.ViewRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java   (ÿ
+bcom.facebook.react.devsupport.interfaces.DevSupportManager.createRootView(java.lang.String)!appKey	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java   (#"
+typeString"
+isFinalfalse""
+declarationStringString appKey*appKey2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java   (˚
+]com.facebook.react.devsupport.interfaces.DevSupportManager.destroyRootView(android.view.View)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java" "("
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">destroyRootView</mark>(View rootView)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*destroyRootView2Û
+fcom.facebook.react.devsupport.interfaces.DevSupportManager.destroyRootView(android.view.View)!rootView	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java" "($2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java" "(›
+fcom.facebook.react.devsupport.interfaces.DevSupportManager.destroyRootView(android.view.View)!rootView	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java" "($"
+typeView"
+isFinalfalse""
+declarationStringView rootView*rootView2ô
+android.view.ViewTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java" "(⁄
+âcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$ $("
+isFinalfalse"–
+declarationString∫<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">showNewJSError</mark>(String message<mark class="modifier"><mark class="modifier">,</mark></mark> ReadableArray details<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> errorCookie)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*showNewJSError2ü
+ëcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!message	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$ $($2ü
+ëcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!details	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$4 $(;2£
+ïcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!errorCookie	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$A $(L2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$ $(ä
+ëcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!message	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$ $($"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$ $(Ø
+ëcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!details	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$4 $(;"
+typeReadableArray"
+isFinalfalse"*
+declarationStringReadableArray details*details2Ø
+'com.facebook.react.bridge.ReadableArrayTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$& $(3°
+ïcom.facebook.react.devsupport.interfaces.DevSupportManager.showNewJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!errorCookie	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$A $(L"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> errorCookie*errorCookie2ã
+intTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java$= $(@Ê
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java& &("
+isFinalfalse"·
+declarationStringÀ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">updateJSError</mark>(final String message<mark class="modifier"><mark class="modifier">,</mark></mark> final ReadableArray details<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">int</mark> errorCookie)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*updateJSError2û
+êcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!message	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&" &()2û
+êcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!details	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&? &(F2¢
+îcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!errorCookie	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&R &(]2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java& &(à
+êcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!message	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&" &()"
+typeString"
+isFinaltrue"#
+declarationStringString message*message2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java& &(!≠
+êcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!details	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&? &(F"
+typeReadableArray"
+isFinaltrue"*
+declarationStringReadableArray details*details2Ø
+'com.facebook.react.bridge.ReadableArrayTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&1 &(>ü
+îcom.facebook.react.devsupport.interfaces.DevSupportManager.updateJSError(java.lang.String, com.facebook.react.bridge.ReadableArray, int)!errorCookie	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&R &(]"
+typeint"
+isFinaltrue"B
+declarationString-<mark class="modifier">int</mark> errorCookie*errorCookie2ã
+intTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java&N &(QÍ
+Mcom.facebook.react.devsupport.interfaces.DevSupportManager.hideRedboxDialog()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java( (("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">hideRedboxDialog</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*hideRedboxDialog2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java( ((ˆ
+Qcom.facebook.react.devsupport.interfaces.DevSupportManager.showDevOptionsDialog()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java* *("
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">showDevOptionsDialog</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*showDevOptionsDialog2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java* *(≥
+Xcom.facebook.react.devsupport.interfaces.DevSupportManager.setDevSupportEnabled(boolean)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java, ,("
+isFinalfalse"√
+declarationString≠<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setDevSupportEnabled</mark>(<mark class="modifier">boolean</mark> isDevSupportEnabled)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setDevSupportEnabled2˘
+lcom.facebook.react.devsupport.interfaces.DevSupportManager.setDevSupportEnabled(boolean)!isDevSupportEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java,$ ,(72ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java, ,(ì
+lcom.facebook.react.devsupport.interfaces.DevSupportManager.setDevSupportEnabled(boolean)!isDevSupportEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java,$ ,(7"
+typeboolean"
+isFinalfalse"N
+declarationString9<mark class="modifier">boolean</mark> isDevSupportEnabled*isDevSupportEnabled2è
+booleanTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java, ,(#‰
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.startInspector()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java. .("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">startInspector</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*startInspector2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java. .(·
+Jcom.facebook.react.devsupport.interfaces.DevSupportManager.stopInspector()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java0 0("
+isFinalfalse"Ç
+declarationStringm<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">stopInspector</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*stopInspector2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java0 0(ˇ
+Qcom.facebook.react.devsupport.interfaces.DevSupportManager.getDevSupportEnabled()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java2
+ 2("
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">getDevSupportEnabled</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*getDevSupportEnabled2ñ
+booleanRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java2 2(	ò
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.getDevSettings()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java4 4(""
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>DeveloperSettings <mark class="method">getDevSettings</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeDeveloperSettings*getDevSettings2Ã
+=com.facebook.react.modules.debug.interfaces.DeveloperSettingsRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java4 4(è
+Mcom.facebook.react.devsupport.interfaces.DevSupportManager.getRedBoxHandler()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java6 6( "
+isFinalfalse"p
+declarationString[<mark class="modifier"> </mark>RedBoxHandler <mark class="method">getRedBoxHandler</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeRedBoxHandler*getRedBoxHandler2≈
+6com.facebook.react.devsupport.interfaces.RedBoxHandlerRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java6 6(€
+{com.facebook.react.devsupport.interfaces.DevSupportManager.onNewReactContextCreated(com.facebook.react.bridge.ReactContext)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java8 8("
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onNewReactContextCreated</mark>(ReactContext reactContext)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onNewReactContextCreated2ñ
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.onNewReactContextCreated(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java8- 8(92ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java8 8(≠
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.onNewReactContextCreated(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java8- 8(9"
+typeReactContext"
+isFinalfalse".
+declarationStringReactContext reactContext*reactContext2Æ
+&com.facebook.react.bridge.ReactContextTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java8  8(,€
+{com.facebook.react.devsupport.interfaces.DevSupportManager.onReactInstanceDestroyed(com.facebook.react.bridge.ReactContext)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java: :("
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">onReactInstanceDestroyed</mark>(ReactContext reactContext)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*onReactInstanceDestroyed2ñ
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.onReactInstanceDestroyed(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java:- :(92ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java: :(≠
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.onReactInstanceDestroyed(com.facebook.react.bridge.ReactContext)!reactContext	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java:- :(9"
+typeReactContext"
+isFinalfalse".
+declarationStringReactContext reactContext*reactContext2Æ
+&com.facebook.react.bridge.ReactContextTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java:  :(,ÿ
+Lcom.facebook.react.devsupport.interfaces.DevSupportManager.getSourceMapUrl()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java<	 <("
+isFinalfalse"h
+declarationStringS<mark class="modifier"> </mark>String <mark class="method">getSourceMapUrl</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getSourceMapUrl2ü
+java.lang.StringRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java< <(œ
+Icom.facebook.react.devsupport.interfaces.DevSupportManager.getSourceUrl()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java>	 >("
+isFinalfalse"e
+declarationStringP<mark class="modifier"> </mark>String <mark class="method">getSourceUrl</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getSourceUrl2ü
+java.lang.StringRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java> >(ã
+]com.facebook.react.devsupport.interfaces.DevSupportManager.getJSBundleURLForRemoteDebugging()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java@	 @()"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>String <mark class="method">getJSBundleURLForRemoteDebugging</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString* getJSBundleURLForRemoteDebugging2ü
+java.lang.StringRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java@ @(ˆ
+Vcom.facebook.react.devsupport.interfaces.DevSupportManager.getDownloadedJSBundleFile()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaB	 B(""
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>String <mark class="method">getDownloadedJSBundleFile</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getDownloadedJSBundleFile2ü
+java.lang.StringRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaB B(ë
+Wcom.facebook.react.devsupport.interfaces.DevSupportManager.hasUpToDateJSBundleInCache()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaD
+ D($"
+isFinalfalse"í
+declarationString}<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">hasUpToDateJSBundleInCache</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasUpToDateJSBundleInCache2ñ
+booleanRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaD D(	‰
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.reloadSettings()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaF F("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">reloadSettings</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*reloadSettings2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaF F(‰
+Kcom.facebook.react.devsupport.interfaces.DevSupportManager.handleReloadJS()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaH H("
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">handleReloadJS</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*handleReloadJS2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaH H(ê
+_com.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaJ J("
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">reloadJSFromServer</mark>(final String bundleURL)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*reloadJSFromServer2ˆ
+icom.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String)!bundleURL	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaJ' J(02ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaJ J(‰
+icom.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String)!bundleURL	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaJ' J(0"
+typeString"
+isFinaltrue"%
+declarationStringString bundleURL*	bundleURL2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaJ  J(&°
+úcom.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.BundleLoadCallback)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL L("
+isFinalfalse"˝
+declarationStringÁ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">reloadJSFromServer</mark>(final String bundleURL<mark class="modifier"><mark class="modifier">,</mark></mark> final BundleLoadCallback callback)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*reloadJSFromServer2¥
+¶com.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.BundleLoadCallback)!bundleURL	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL' L(02≥
+•com.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.BundleLoadCallback)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaLK L(S2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL L(¢
+¶com.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.BundleLoadCallback)!bundleURL	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL' L(0"
+typeString"
+isFinaltrue"%
+declarationStringString bundleURL*	bundleURL2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL  L(&‚
+•com.facebook.react.devsupport.interfaces.DevSupportManager.reloadJSFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.BundleLoadCallback)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaLK L(S"
+typeBundleLoadCallback"
+isFinaltrue"0
+declarationStringBundleLoadCallback callback*callback2√
+;com.facebook.react.devsupport.interfaces.BundleLoadCallbackTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaL8 L(J 
+ßcom.facebook.react.devsupport.interfaces.DevSupportManager.loadSplitBundleFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.DevSplitBundleCallback)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN N( "
+isFinalfalse"˝
+declarationStringÁ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">loadSplitBundleFromServer</mark>(String bundlePath<mark class="modifier"><mark class="modifier">,</mark></mark> DevSplitBundleCallback callback)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*loadSplitBundleFromServer2¿
+≤com.facebook.react.devsupport.interfaces.DevSupportManager.loadSplitBundleFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.DevSplitBundleCallback)!bundlePath	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN( N(22æ
+∞com.facebook.react.devsupport.interfaces.DevSupportManager.loadSplitBundleFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.DevSplitBundleCallback)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaNK N(S2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN N(±
+≤com.facebook.react.devsupport.interfaces.DevSupportManager.loadSplitBundleFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.DevSplitBundleCallback)!bundlePath	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN( N(2"
+typeString"
+isFinalfalse"&
+declarationStringString bundlePath*
+bundlePath2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN! N('˙
+∞com.facebook.react.devsupport.interfaces.DevSupportManager.loadSplitBundleFromServer(java.lang.String, com.facebook.react.devsupport.interfaces.DevSplitBundleCallback)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaNK N(S"
+typeDevSplitBundleCallback"
+isFinalfalse"4
+declarationStringDevSplitBundleCallback callback*callback2«
+?com.facebook.react.devsupport.interfaces.DevSplitBundleCallbackTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaN4 N(JÙ
+çcom.facebook.react.devsupport.interfaces.DevSupportManager.isPackagerRunning(com.facebook.react.devsupport.interfaces.PackagerStatusCallback)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaP P("
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">isPackagerRunning</mark>(PackagerStatusCallback callback)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*isPackagerRunning2§
+ñcom.facebook.react.devsupport.interfaces.DevSupportManager.isPackagerRunning(com.facebook.react.devsupport.interfaces.PackagerStatusCallback)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaP0 P(82ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaP P(‡
+ñcom.facebook.react.devsupport.interfaces.DevSupportManager.isPackagerRunning(com.facebook.react.devsupport.interfaces.PackagerStatusCallback)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaP0 P(8"
+typePackagerStatusCallback"
+isFinalfalse"4
+declarationStringPackagerStatusCallback callback*callback2«
+?com.facebook.react.devsupport.interfaces.PackagerStatusCallbackTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaP P(/ˆ
+bcom.facebook.react.devsupport.interfaces.DevSupportManager.setHotModuleReplacementEnabled(boolean)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaR R(%"
+isFinalfalse"›
+declarationString«<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setHotModuleReplacementEnabled</mark>(final <mark class="modifier">boolean</mark> isHotModuleReplacementEnabled)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setHotModuleReplacementEnabled2é
+Äcom.facebook.react.devsupport.interfaces.DevSupportManager.setHotModuleReplacementEnabled(boolean)!isHotModuleReplacementEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaR4 R(Q2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaR R(ª
+Äcom.facebook.react.devsupport.interfaces.DevSupportManager.setHotModuleReplacementEnabled(boolean)!isHotModuleReplacementEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaR4 R(Q"
+typeboolean"
+isFinaltrue"X
+declarationStringC<mark class="modifier">boolean</mark> isHotModuleReplacementEnabled*isHotModuleReplacementEnabled2è
+booleanTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaR, R(3À
+[com.facebook.react.devsupport.interfaces.DevSupportManager.setRemoteJSDebugEnabled(boolean)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaT T("
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setRemoteJSDebugEnabled</mark>(final <mark class="modifier">boolean</mark> isRemoteJSDebugEnabled)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setRemoteJSDebugEnabled2ˇ
+rcom.facebook.react.devsupport.interfaces.DevSupportManager.setRemoteJSDebugEnabled(boolean)!isRemoteJSDebugEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaT- T(C2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaT T(û
+rcom.facebook.react.devsupport.interfaces.DevSupportManager.setRemoteJSDebugEnabled(boolean)!isRemoteJSDebugEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaT- T(C"
+typeboolean"
+isFinaltrue"Q
+declarationString<<mark class="modifier">boolean</mark> isRemoteJSDebugEnabled*isRemoteJSDebugEnabled2è
+booleanTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaT% T(,≠
+Vcom.facebook.react.devsupport.interfaces.DevSupportManager.setFpsDebugEnabled(boolean)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaV V("
+isFinalfalse"≈
+declarationStringØ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setFpsDebugEnabled</mark>(final <mark class="modifier">boolean</mark> isFpsDebugEnabled)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setFpsDebugEnabled2ı
+hcom.facebook.react.devsupport.interfaces.DevSupportManager.setFpsDebugEnabled(boolean)!isFpsDebugEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaV( V(92ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaV V(ä
+hcom.facebook.react.devsupport.interfaces.DevSupportManager.setFpsDebugEnabled(boolean)!isFpsDebugEnabled	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaV( V(9"
+typeboolean"
+isFinaltrue"L
+declarationString7<mark class="modifier">boolean</mark> isFpsDebugEnabled*isFpsDebugEnabled2è
+booleanTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaV  V('¸
+Scom.facebook.react.devsupport.interfaces.DevSupportManager.toggleElementInspector()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaX X("
+isFinalfalse"ã
+declarationStringv<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">toggleElementInspector</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*toggleElementInspector2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaX X(
+
+|com.facebook.react.devsupport.interfaces.DevSupportManager.downloadBundleResourceFromUrlSync(java.lang.String, java.io.File)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[ [(("
+isFinalfalse"í
+declarationString¸<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>File <mark class="method">downloadBundleResourceFromUrlSync</mark>(final String resourceURL<mark class="modifier"><mark class="modifier">,</mark></mark> final File outputFile)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeFile*!downloadBundleResourceFromUrlSync2ñ
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.downloadBundleResourceFromUrlSync(java.lang.String, java.io.File)!resourceURL	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[6 [(A2ï
+ácom.facebook.react.devsupport.interfaces.DevSupportManager.downloadBundleResourceFromUrlSync(java.lang.String, java.io.File)!outputFile	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[N [(X2õ
+java.io.FileRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[ [(à
+àcom.facebook.react.devsupport.interfaces.DevSupportManager.downloadBundleResourceFromUrlSync(java.lang.String, java.io.File)!resourceURL	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[6 [(A"
+typeString"
+isFinaltrue"'
+declarationStringString resourceURL*resourceURL2ò
+java.lang.StringTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[/ [(5˝
+ácom.facebook.react.devsupport.interfaces.DevSupportManager.downloadBundleResourceFromUrlSync(java.lang.String, java.io.File)!outputFile	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[N [(X"
+typeFile"
+isFinaltrue"$
+declarationStringFile outputFile*
+outputFile2î
+java.io.FileTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java[I [(Mé
+Ncom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorTitle()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java^	 ^("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>String <mark class="method">getLastErrorTitle</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getLastErrorTitle2ü
+java.lang.StringRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.java^ ^(ø
+Ncom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorStack()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaa a( "
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>StackFrame[] <mark class="method">getLastErrorStack</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeStackFrame[]*getLastErrorStack2ƒ
+5com.facebook.react.devsupport.interfaces.StackFrame[]RETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaa a(≥
+Mcom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorType()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javad d("
+isFinalfalse"õ
+declarationStringÖ<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>ErrorType <mark class="method">getLastErrorType</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	ErrorType*getLastErrorType2¡
+2com.facebook.react.devsupport.interfaces.ErrorTypeRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javad d(Ì
+Ocom.facebook.react.devsupport.interfaces.DevSupportManager.getLastErrorCookie()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaf f("
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">getLastErrorCookie</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getLastErrorCookie2í
+intRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaf f(Ö
+åcom.facebook.react.devsupport.interfaces.DevSupportManager.registerErrorCustomizer(com.facebook.react.devsupport.interfaces.ErrorCustomizer)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javah h("
+isFinalfalse"¨
+declarationStringñ<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">registerErrorCustomizer</mark>(ErrorCustomizer errorCustomizer)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*registerErrorCustomizer2™
+úcom.facebook.react.devsupport.interfaces.DevSupportManager.registerErrorCustomizer(com.facebook.react.devsupport.interfaces.ErrorCustomizer)!errorCustomizer	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javah/ h(>2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javah h(ﬂ
+úcom.facebook.react.devsupport.interfaces.DevSupportManager.registerErrorCustomizer(com.facebook.react.devsupport.interfaces.ErrorCustomizer)!errorCustomizer	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javah/ h(>"
+typeErrorCustomizer"
+isFinalfalse"4
+declarationStringErrorCustomizer errorCustomizer*errorCustomizer2¿
+8com.facebook.react.devsupport.interfaces.ErrorCustomizerTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javah h(.ë
+Æcom.facebook.react.devsupport.interfaces.DevSupportManager.processErrorCustomizers(android.util.Pair<java.lang.String, com.facebook.react.devsupport.interfaces.StackFrame[]>)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaj j(4"
+isFinalfalse"¨
+declarationStringñ<mark class="modifier"> </mark>Pair&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>StackFrame[]&gt; <mark class="method">processErrorCustomizers</mark>(Pair&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark> StackFrame[]&gt; errorInfo)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse""
+typePair<String, StackFrame[]>*processErrorCustomizers2∆
+∏com.facebook.react.devsupport.interfaces.DevSupportManager.processErrorCustomizers(android.util.Pair<java.lang.String, com.facebook.react.devsupport.interfaces.StackFrame[]>)!errorInfo	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javajP j(Y2†
+android.util.PairRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaj j(2®
+java.lang.StringRETURN_TYPE_ARGUMENT~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaj j(Ç
+∏com.facebook.react.devsupport.interfaces.DevSupportManager.processErrorCustomizers(android.util.Pair<java.lang.String, com.facebook.react.devsupport.interfaces.StackFrame[]>)!errorInfo	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javajP j(Y""
+typePair<String, StackFrame[]>"
+isFinalfalse"9
+declarationString$Pair<String, StackFrame[]> errorInfo*	errorInfo2ô
+android.util.PairTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaj5 j(92°
+java.lang.StringTYPE_ARGUMENT~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaj: j(@¯
+Øcom.facebook.react.devsupport.interfaces.DevSupportManager.setPackagerLocationCustomizer(com.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javau u($"
+isFinalfalse"»
+declarationString≤<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">setPackagerLocationCustomizer</mark>(PackagerLocationCustomizer packagerLocationCustomizer)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*setPackagerLocationCustomizer2ÿ
+ com.facebook.react.devsupport.interfaces.DevSupportManager.setPackagerLocationCustomizer(com.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer)!packagerLocationCustomizer	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javau@ u(Z2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javau u(÷
+ com.facebook.react.devsupport.interfaces.DevSupportManager.setPackagerLocationCustomizer(com.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer)!packagerLocationCustomizer	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javau@ u(Z""
+typePackagerLocationCustomizer"
+isFinalfalse"J
+declarationString5PackagerLocationCustomizer packagerLocationCustomizer*packagerLocationCustomizer2›
+Ucom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizerTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javau% u(?ô
+Ocom.facebook.react.devsupport.interfaces.DevSupportManager.getCurrentActivity()METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javax x("
+isFinalfalse"ú
+declarationStringÜ<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>Activity <mark class="method">getCurrentActivity</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeActivity*getCurrentActivity2£
+android.app.ActivityRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javax x(
+Ï
+bcom.facebook.react.devsupport.interfaces.DevSupportManager.createSurfaceDelegate(java.lang.String)METHODÄ
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÅ Å('"
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>SurfaceDelegate <mark class="method">createSurfaceDelegate</mark>(String moduleName)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeSurfaceDelegate*createSurfaceDelegate2˝
+mcom.facebook.react.devsupport.interfaces.DevSupportManager.createSurfaceDelegate(java.lang.String)!moduleName	PARAMETERÄ
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÅ/ Å(92ª
+)com.facebook.react.common.SurfaceDelegateRETURN_TYPEÄ
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÅ Å(Ò
+mcom.facebook.react.devsupport.interfaces.DevSupportManager.createSurfaceDelegate(java.lang.String)!moduleName	PARAMETERÄ
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÅ/ Å(9"
+typeString"
+isFinalfalse"&
+declarationStringString moduleName*
+moduleName2õ
+java.lang.StringTYPEÄ
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaÅ( Å(.ê
+Ucom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizerTRAIT~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javaq q(&"E
+package:com.facebook.react.devsupport.interfaces.DevSupportManager"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"v
+declarationStringa<mark class="modifier"> </mark><mark class="modifier">interface </mark>PackagerLocationCustomizer"
+accesspackage_private*PackagerLocationCustomizer2¸
+mcom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer.run(java.lang.Runnable)DECLARATION~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javar	 r(á
+mcom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer.run(java.lang.Runnable)METHOD~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javar	 r("
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">run</mark>(Runnable callback)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*run2É
+vcom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer.run(java.lang.Runnable)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javar r(2ì
+voidRETURN_TYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javar r(ˆ
+vcom.facebook.react.devsupport.interfaces.DevSupportManager.PackagerLocationCustomizer.run(java.lang.Runnable)!callback	PARAMETER~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javar r("
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable callback*callback2ö
+java.lang.RunnableTYPE~
+tnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/devsupport/interfaces/DevSupportManager.javar r(

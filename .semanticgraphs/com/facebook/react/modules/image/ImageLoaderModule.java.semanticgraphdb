@@ -1,0 +1,1537 @@
+
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¿2
+2com.facebook.react.modules.image.ImageLoaderModuleCLASSv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java' '("+
+package com.facebook.react.modules.image"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"—
+declarationStringª<mark class="annotation">@ReactModule(name = NativeImageLoaderAndroidSpec.NAME)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ImageLoaderModule<mark class="modifier"> extends </mark>NativeImageLoaderAndroidSpec<mark class="modifier"><br>implements </mark>LifecycleEventListener"
+accesspublic*ImageLoaderModule2˛
+wcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java4	 4(2ë
+âcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9	 9(2Ë
+‡com.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java>	 >(2Ã
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaH H(+2Ã
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaN N((2ˆ
+ocom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ Z(2´
+°com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaì ì( 2Ü
+}com.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java– –(2–
+Gcom.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˛ ˛(2ì
+âcom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ Ü(2Ñ
+{com.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù ù(2Œ
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£% £(22 
+Acom.facebook.react.modules.image.ImageLoaderModule.onHostResume()DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¨ ¨(2…
+@com.facebook.react.modules.image.ImageLoaderModule.onHostPause()DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaØ Ø(2À
+Bcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤ ≤(2◊
+Pcom.facebook.react.modules.image.ImageLoaderModule?ERROR_INVALID_URI@42.30:42.47DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java* *(/2‹
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_PREFETCH_FAILURE@43.30:43.52DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java+ +(42‹
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java, ,(42‘
+Mcom.facebook.react.modules.image.ImageLoaderModule?mCallerContext@46.33:46.47DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java.! .(/2›
+Vcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequestMonitor@47.23:47.46DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java/ /(.2◊
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java0. 0(?2‘
+Mcom.facebook.react.modules.image.ImageLoaderModule?mImagePipeline@49.34:49.48DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java1" 1(02€
+Tcom.facebook.react.modules.image.ImageLoaderModule?mCallerContextFactory@50.46:50.67DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java2. 2(C2≤
+0com.facebook.react.bridge.LifecycleEventListenerEXTENDv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java( ((%2û
+NativeImageLoaderAndroidSpecEXTENDv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java'' '(C¬
+
+wcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTORv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java4	 4("ç
+declarationStringx<mark class="modifier">public </mark><mark class="method">ImageLoaderModule</mark>(ReactApplicationContext reactContext)*ImageLoaderModule2Ö
+Ñcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext)!reactContextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java5
+ 5(2Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mCallerContext@46.33:46.47CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java6 6(2ä
+Ñcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java43 4(?2π
+2com.facebook.react.modules.image.ImageLoaderModuleRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java4	 4(∫
+Ñcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java43 4(?"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2±
+1com.facebook.react.bridge.ReactApplicationContextTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java4 4(2á
+âcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)CONSTRUCTORv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9	 9("‡
+declarationString <mark class="modifier">public </mark><mark class="method">ImageLoaderModule</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> Object callerContext)*ImageLoaderModule2ó
+ñcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)!reactContextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java:
+ :(2Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mCallerContext@46.33:46.47CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java; ;(2ò
+ócom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)!callerContextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java; ;("2ú
+ñcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)!reactContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java93 9(?2ù
+ócom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)!callerContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9H 9(U2π
+2com.facebook.react.modules.image.ImageLoaderModuleRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9	 9(Ã
+ñcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)!reactContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java93 9(?"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2±
+1com.facebook.react.bridge.ReactApplicationContextTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9 9(2å
+ócom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, java.lang.Object)!callerContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9H 9(U"
+typeObject"
+isFinalfalse")
+declarationStringObject callerContext*callerContext2ê
+java.lang.ObjectTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java9A 9(GÀ
+‡com.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)CONSTRUCTORv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java>	 >("”
+declarationStringΩ<mark class="modifier">public </mark><mark class="method">ImageLoaderModule</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> ImagePipeline imagePipeline<mark class="modifier"><mark class="modifier">,</mark></mark> ReactCallerContextFactory callerContextFactory)*ImageLoaderModule2Ó
+Ìcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!reactContextCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaB
+ B(2‘
+Tcom.facebook.react.modules.image.ImageLoaderModule?mCallerContextFactory@50.46:50.67CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaC C(2ˆ
+ıcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!callerContextFactoryCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaC C(02Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mImagePipeline@49.34:49.48CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaD D(2Ô
+Ócom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!imagePipelineCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaD D("2Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mCallerContext@46.33:46.47CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaE E(2Û
+Ìcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!reactContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java? ?(*2Ù
+Ócom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!imagePipeline	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java@ @(!2˚
+ıcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!callerContextFactory	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaA  A(42π
+2com.facebook.react.modules.image.ImageLoaderModuleRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java>	 >(£
+Ìcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!reactContext	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java? ?(*"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2±
+1com.facebook.react.bridge.ReactApplicationContextTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java? ?(é
+Ócom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!imagePipeline	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java@ @(!"
+typeImagePipeline"
+isFinalfalse"0
+declarationStringImagePipeline imagePipeline*imagePipeline2≠
+-com.facebook.imagepipeline.core.ImagePipelineTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java@ @(∆
+ıcom.facebook.react.modules.image.ImageLoaderModule.ImageLoaderModule(com.facebook.react.bridge.ReactApplicationContext, com.facebook.imagepipeline.core.ImagePipeline, com.facebook.react.views.image.ReactCallerContextFactory)!callerContextFactory	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaA  A(4"!
+typeReactCallerContextFactory"
+isFinalfalse"C
+declarationString.ReactCallerContextFactory callerContextFactory*callerContextFactory2∏
+8com.facebook.react.views.image.ReactCallerContextFactoryTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaA A(Ë
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaH H(+"
+isFinalfalse"ü
+declarationStringâ<mark class="annotation">@Nullable</mark> <br><mark class="modifier">private </mark>Object <mark class="method">getCallerContext</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeObject*getCallerContext2ı
+ucom.facebook.react.views.image.ReactCallerContextFactory.getOrCreateCallerContext(java.lang.String, java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaJ  J(82‘
+Tcom.facebook.react.modules.image.ImageLoaderModule?mCallerContextFactory@50.46:50.67CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaI I( 2‘
+Tcom.facebook.react.modules.image.ImageLoaderModule?mCallerContextFactory@50.46:50.67CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaJ
+ J(2Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mCallerContext@46.33:46.47CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaK
+ K(2ó
+java.lang.ObjectRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaH H(ç
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaN N(("
+isFinalfalse"w
+declarationStringb<mark class="modifier">private </mark>ImagePipeline <mark class="method">getImagePipeline</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeImagePipeline*getImagePipeline2Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mImagePipeline@49.34:49.48CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaO O(2Õ
+Mcom.facebook.react.modules.image.ImageLoaderModule?mImagePipeline@49.34:49.48CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaO$ O(22¥
+-com.facebook.imagepipeline.core.ImagePipelineRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaN
+ N(›p
+ocom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)METHODv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ Z("
+isFinalfalse"ù
+declarationStringá<mark class="annotation">@ReactMethod</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getSize</mark>(final String uriString<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getSize2ö
+java.lang.String.isEmpty()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java[' [(.2Ã
+Lcom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java\ \(2π
+9com.facebook.react.views.imagehelper.ImageSource.getUri()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaaK a(Q2≈
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javad d(2≈
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javad6 d(F2Ø
+/com.facebook.react.bridge.Arguments.createMap()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javas. s(72ª
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaw w(2œ
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay y(2∫
+:com.facebook.react.bridge.Promise.reject(java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java~ ~(2˘
+ycom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!uriStringCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java[ [(2˘
+ycom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!uriStringCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java[ [(&2˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java\ \(2–
+Pcom.facebook.react.modules.image.ImageLoaderModule?ERROR_INVALID_URI@42.30:42.47CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java\ \(&2˘
+ycom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!uriStringCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java`G `(P2É
+Çcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?source@96.16:96.22CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaaD a(J2Ñ
+Écom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?request@97.17:97.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javad- d(42Ö
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-3276bfea-3737-42e4-9b67-4e955c030bb1.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javak k(2Ö
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-a6fb7af8-cf00-4428-8851-0233547195f7.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan5 n(?2å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-a46862dd-db8e-4ae7-b912-88d26d29903b.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javao o(2å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-368c2de6-a003-490b-9204-261b0cd88ce6.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaq' q(*2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-24af2562-d2ac-4ff0-bd17-af75790ff141.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javat t(2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-761c25ec-9f46-4a2b-8333-1bf8bcff6ce7.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@113.31:113.36CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javat& t(+2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-03a268c7-391c-42d3-aee8-862f57f1d08e.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javau u(2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-a0a20c23-226d-4f2a-ad3f-a2061fdbd6e3.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@113.31:113.36CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javau' u(,2˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaw w(2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-7761ccd4-fbe8-43b5-a871-19dd76a70492.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaw  w(%2˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay y(2’
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay y(52ä
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-cf9c1ef4-58f6-496c-860a-8d3ecae921ab.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@120.33:120.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay7 y(82å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-7c8e22ca-68b4-4b14-bea5-ae0275e0338a.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java{/ {(22˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java~ ~(2’
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java~ ~(32˘
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÑ Ñ(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÑ Ñ(12Ö
+Çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-58444eaf-9cd9-4fd6-bccc-225f1e9a2d9b.onFailureImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÑ3 Ñ(=2â
+Ücom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?dataSource@99.51:99.61CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaá á(2è
+åcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?dataSubscriber@102.55:102.69CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaá á('2˛
+ycom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!uriString	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ# Z(,2¸
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ< Z(C2ä
+Çcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?source@96.16:96.22DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java` `(2ã
+Écom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?request@97.17:97.24DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaa a(2é
+Ücom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?dataSource@99.51:99.61DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javac3 c(=2î
+åcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?dataSubscriber@102.55:102.69DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaf7 f(E2ì
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-42c7f5f6-9e5c-4ec2-ba2b-bf71952f448d.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan/ n(22ï
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-c3305ea1-258d-4117-84ec-68c02bf450fc.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@113.31:113.36DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaq q($2ï
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-0ecc598d-ae96-4439-a8c3-c643748465d9.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javas s(!2ë
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-4051e9b3-b2fc-43f5-9139-7a93c952f4d4.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@120.33:120.34DECLARATIONv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javax! x("2ã
+voidRETURN_TYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ	 Z(©
+Çcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?source@96.16:96.22VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java` `("
+typeImageSource"
+isFinalfalse"¡
+declarationString´<mark class="modifier"> </mark>ImageSource <mark class="class-field">source</mark> = new ImageSource(getReactApplicationContext()<mark class="modifier">,</mark> uriString)*source2∞
+0com.facebook.react.views.imagehelper.ImageSourceTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java` `(2˘
+ycom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!uriStringCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java`G `(Pﬁ
+Écom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?request@97.17:97.24VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaa a("
+typeImageRequest"
+isFinalfalse"Æ
+declarationStringò<mark class="modifier"> </mark>ImageRequest <mark class="class-field">request</mark> = ImageRequestBuilder.newBuilderWithSource(source.getUri()).build()*request2Ø
+/com.facebook.imagepipeline.request.ImageRequestTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaa a(2π
+9com.facebook.react.views.imagehelper.ImageSource.getUri()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaaK a(Q2É
+Çcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?source@96.16:96.22CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaaD a(JÎ
+Ücom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?dataSource@99.51:99.61VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javac3 c(="6
+type.DataSource<CloseableReference<CloseableImage>>"
+isFinalfalse"”
+declarationStringΩ<mark class="modifier"> </mark>DataSource<CloseableReference<CloseableImage>> <mark class="class-field">dataSource</mark> = getImagePipeline().fetchDecodedImage(request, getCallerContext())*
+dataSource2¢
+"com.facebook.datasource.DataSourceTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javac c(2∫
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javac c(!2∏
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javac" c(02≈
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javad d(2≈
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javad6 d(F2Ñ
+Écom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?request@97.17:97.24CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javad- d(4°J
+åcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)?dataSubscriber@102.55:102.69VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaf7 f(E":
+type2DataSubscriber<CloseableReference<CloseableImage>>"
+isFinalfalse"Ù
+
+declarationStringﬁ
+<mark class="modifier"> </mark>DataSubscriber<CloseableReference<CloseableImage>> <mark class="class-field">dataSubscriber</mark> = new BaseDataSubscriber<CloseableReference<CloseableImage>>() {
+
+    @Override
+    protected <mark class="modifier">void</mark> onNewResultImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
+        if (!dataSource.isFinished()) {
+            return;
+        }
+        CloseableReference<CloseableImage> ref = dataSource.getResult();
+        if (ref != <mark class="modifier">null</mark>) {
+            try {
+                CloseableImage image = ref.get();
+                WritableMap sizes = Arguments.createMap();
+                sizes.putInt("width"<mark class="modifier">,</mark> image.getWidth());
+                sizes.putInt("height"<mark class="modifier">,</mark> image.getHeight());
+                promise.resolve(sizes);
+            } catch (Exception e) {
+                promise.reject(ERROR_GET_SIZE_FAILURE, e);
+            } finally {
+                CloseableReference.closeSafely(ref);
+            }
+        } else {
+            promise.reject(ERROR_GET_SIZE_FAILURE);
+        }
+    }
+
+    @Override
+    protected <mark class="modifier">void</mark> onFailureImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
+        promise.reject(ERROR_GET_SIZE_FAILURE, dataSource.getFailureCause());
+    }
+}*dataSubscriber2¶
+&com.facebook.datasource.DataSubscriberTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaf f(2∫
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaf f(%2∏
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaf& f(42Ø
+/com.facebook.react.bridge.Arguments.createMap()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javas. s(72ª
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaw w(2œ
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay y(2∫
+:com.facebook.react.bridge.Promise.reject(java.lang.String)CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java~ ~(2Ö
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-1fff6f3b-e4c2-4eb8-afdd-80016a29cd8b.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javak k(2Ö
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-d6ed1494-2d9a-48f0-9e04-1a73e0b3e961.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan5 n(?2å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-dce8e459-1660-42a1-af07-3a2c1a7d91b8.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javao o(2å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-c6afd9f6-9d58-402d-add3-2fd6b29a4a63.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaq' q(*2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-16dc4529-d373-451b-a014-e35ee6f5a69a.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javat t(2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-9cbeb489-8e0d-44e1-888f-da786f903141.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@113.31:113.36CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javat& t(+2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-d83e56c4-5309-4859-ac4c-11566795b9ba.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javau u(2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-195c5468-c4b2-4381-ba30-c1518ef2f4d4.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@113.31:113.36CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javau' u(,2˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaw w(2é
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-d2b23015-86df-4656-8527-cd76659bb9db.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaw  w(%2˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay y(2’
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay y(52ä
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-5b561170-64f4-4f83-addc-d6d2f10ffa94.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@120.33:120.34CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javay7 y(82å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-ef627627-becc-46ae-a416-cd3664c9ffa2.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java{/ {(22˜
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java~ ~(2’
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java~ ~(32˘
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÑ Ñ(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÑ Ñ(12Ö
+Çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-857f1198-724c-40ff-b438-cd6812453bce.onFailureImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÑ3 Ñ(=·
+
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-09047f26-67b7-40bb-a945-ce3d56885e80.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan/ n(2"*
+type"CloseableReference<CloseableImage>"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>CloseableReference<CloseableImage> <mark class="class-field">ref</mark> = dataSource.getResult()*ref2±
+1com.facebook.common.references.CloseableReferenceTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan n(2∏
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan n(-2Ö
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-6ea24ca7-943b-43c7-998d-23140b386e9b.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javan5 n(?˚
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-77fb6795-e354-43af-88c7-6f60cec8d907.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@113.31:113.36VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaq q($"
+typeCloseableImage"
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>CloseableImage <mark class="class-field">image</mark> = ref.get()*image2Ø
+/com.facebook.imagepipeline.image.CloseableImageTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaq q(2å
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-9960adb6-d593-450c-a44f-dde7de132435.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@110.47:110.50CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaq' q(*ö
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-7c3341aa-d448-43f7-99e7-d3ee7338a298.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@115.28:115.33VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javas s(!"
+typeWritableMap"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>WritableMap <mark class="class-field">sizes</mark> = Arguments.createMap()*sizes2•
+%com.facebook.react.bridge.WritableMapTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javas s(2Ø
+/com.facebook.react.bridge.Arguments.createMap()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javas. s(7‰
+ycom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!uriString	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ# Z(,"
+typeString"
+isFinaltrue"%
+declarationStringString uriString*	uriString2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ Z("Ò
+wcom.facebook.react.modules.image.ImageLoaderModule.getSize(java.lang.String, com.facebook.react.bridge.Promise)!promise	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ< Z(C"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2°
+!com.facebook.react.bridge.PromiseTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaZ4 Z(;Õ
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-f15e4365-c486-4cb7-8e75-3d7744aa1e2a.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSource	PARAMETERv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaj= j(G"6
+type.DataSource<CloseableReference<CloseableImage>>"
+isFinalfalse"N
+declarationString9DataSource<CloseableReference<CloseableImage>> dataSource*
+dataSource2¢
+"com.facebook.datasource.DataSourceTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaj j(2∫
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaj j(+2∏
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaj, j(:Ó
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-29315cf1-348a-4c66-a6c8-0d1ec74b8c2b.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@120.33:120.34VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javax! x(""
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ì
+java.lang.ExceptionTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javax x( ”
+Çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-c4105968-d769-445e-9bd1-6fd28e5c1e81.onFailureImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSource	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÉV É(`"6
+type.DataSource<CloseableReference<CloseableImage>>"
+isFinalfalse"N
+declarationString9DataSource<CloseableReference<CloseableImage>> dataSource*
+dataSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÉ' É(12º
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÉ2 É(D2∫
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÉE É(S°Ü
+°com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaì ì( "
+isFinalfalse"ˇ
+declarationStringÈ<mark class="annotation">@ReactMethod</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getSizeWithHeaders</mark>(final String uriString<mark class="modifier"><mark class="modifier">,</mark></mark> final ReadableMap headers<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getSizeWithHeaders2ú
+java.lang.String.isEmpty()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaï' ï(.2Œ
+Lcom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.String)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javañ ñ(2ª
+9com.facebook.react.views.imagehelper.ImageSource.getUri()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaú8 ú(>2≥
+∞com.facebook.react.modules.fresco.ReactNetworkImageRequest.fromBuilderWithHeaders(com.facebook.imagepipeline.request.ImageRequestBuilder, com.facebook.react.bridge.ReadableMap)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaû! û(72«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java° °(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java°6 °(F2±
+/com.facebook.react.bridge.Arguments.createMap()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∞. ∞(72Ω
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥ ¥(2—
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(2º
+:com.facebook.react.bridge.Promise.reject(java.lang.String)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(2Æ
+´com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaï ï(2Æ
+´com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaï ï(&2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javañ ñ(2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?ERROR_INVALID_URI@42.30:42.47CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javañ ñ(&2Æ
+´com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaöG ö(P2π
+∂com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?source@154.16:154.22CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaú1 ú(72∆
+√com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?imageRequestBuilder@155.24:155.43CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaû8 û(K2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!headersCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaûM û(T2∫
+∑com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?request@157.17:157.24CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java°- °(42á
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-ca297df5-e693-4fe8-857f-beaf1e59aaf0.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java® ®(2á
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-0b4d7045-984d-4943-8f91-e6f2ab3a1b66.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´5 ´(?2é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-97c4b8b0-5262-4360-9668-caa4c8589b64.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¨ ¨(2é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-ee47492f-58cc-4476-bb85-12d4763ee97a.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÆ' Æ(*2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-93785527-9451-46a7-a7d1-62e60822d568.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java± ±(2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-242958b3-7944-4a2d-a046-67a2a79f9e18.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@174.31:174.36CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java±& ±(+2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-368ef49f-c00c-4e31-954b-189853a9ed3a.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤ ≤(2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-a40723c4-9567-478c-a6fd-7b70d66003a0.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@174.31:174.36CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤' ≤(,2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥ ¥(2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-35d24dc4-d98d-41f0-b127-f4b54bb33d74.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥  ¥(%2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(52å
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-384a6f37-3a93-4b27-b0ff-9d329401030f.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@181.33:181.34CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂7 ∂(82é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-edd996c1-91a0-4084-830d-f18b8437fc04.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∏/ ∏(22¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(32¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¡ ¡(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¡ ¡(12Ö
+Çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-1ce00753-7d9d-44b3-b266-e09c2864f795.onFailureImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¡3 ¡(=2Ω
+∫com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?dataSource@160.51:160.61CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaƒ ƒ(2¡
+æcom.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?dataSubscriber@163.55:163.69CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaƒ ƒ('2≥
+´com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!uriString	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî î(2±
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!headers	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî0 î(72±
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promise	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaîG î(N2¿
+∂com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?source@154.16:154.22DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaö ö(2Õ
+√com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?imageRequestBuilder@155.24:155.43DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaõ õ(+2¡
+∑com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?request@157.17:157.24DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù ù(2ƒ
+∫com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?dataSource@160.51:160.61DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java†3 †(=2»
+æcom.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?dataSubscriber@163.55:163.69DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£7 £(E2ï
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-b5521bb4-286a-4b90-8ac9-2d0cf038c3e0.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´/ ´(22ó
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-1fc3ea27-fdbf-4ed4-aac2-597c3731dad8.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@174.31:174.36DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÆ Æ($2ó
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-0c4b05b3-c368-423d-a0dd-dab9b4c33719.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∞ ∞(!2ì
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-5abd82c3-4c40-4594-a3f0-45417921521f.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@181.33:181.34DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ! µ("2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaì	 ì(ñ
+∂com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?source@154.16:154.22VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaö ö("
+typeImageSource"
+isFinalfalse"¡
+declarationString´<mark class="modifier"> </mark>ImageSource <mark class="class-field">source</mark> = new ImageSource(getReactApplicationContext()<mark class="modifier">,</mark> uriString)*source2≤
+0com.facebook.react.views.imagehelper.ImageSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaö ö(2Æ
+´com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaöG ö(Pˇ	
+√com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?imageRequestBuilder@155.24:155.43VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaõ õ(+"
+typeImageRequestBuilder"
+isFinalfalse"π
+declarationString£<mark class="modifier"> </mark>ImageRequestBuilder <mark class="class-field">imageRequestBuilder</mark> = ImageRequestBuilder.newBuilderWithSource(source.getUri())*imageRequestBuilder2∏
+6com.facebook.imagepipeline.request.ImageRequestBuilderTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaõ õ(2ª
+9com.facebook.react.views.imagehelper.ImageSource.getUri()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaú8 ú(>2π
+∂com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?source@154.16:154.22CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaú1 ú(7é
+∑com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?request@157.17:157.24VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù ù("
+typeImageRequest"
+isFinalfalse"∫
+declarationString§<mark class="modifier"> </mark>ImageRequest <mark class="class-field">request</mark> = ReactNetworkImageRequest.fromBuilderWithHeaders(imageRequestBuilder, headers)*request2±
+/com.facebook.imagepipeline.request.ImageRequestTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù ù(2≥
+∞com.facebook.react.modules.fresco.ReactNetworkImageRequest.fromBuilderWithHeaders(com.facebook.imagepipeline.request.ImageRequestBuilder, com.facebook.react.bridge.ReadableMap)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaû! û(72∆
+√com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?imageRequestBuilder@155.24:155.43CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaû8 û(K2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!headersCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaûM û(T·
+∫com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?dataSource@160.51:160.61VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java†3 †(="6
+type.DataSource<CloseableReference<CloseableImage>>"
+isFinalfalse"”
+declarationStringΩ<mark class="modifier"> </mark>DataSource<CloseableReference<CloseableImage>> <mark class="class-field">dataSource</mark> = getImagePipeline().fetchDecodedImage(request, getCallerContext())*
+dataSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java† †(2º
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java† †(!2∫
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java†" †(02«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java° °(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java°6 °(F2∫
+∑com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?request@157.17:157.24CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java°- °(4œL
+æcom.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)?dataSubscriber@163.55:163.69VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£7 £(E":
+type2DataSubscriber<CloseableReference<CloseableImage>>"
+isFinalfalse"Ù
+
+declarationStringﬁ
+<mark class="modifier"> </mark>DataSubscriber<CloseableReference<CloseableImage>> <mark class="class-field">dataSubscriber</mark> = new BaseDataSubscriber<CloseableReference<CloseableImage>>() {
+
+    @Override
+    protected <mark class="modifier">void</mark> onNewResultImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
+        if (!dataSource.isFinished()) {
+            return;
+        }
+        CloseableReference<CloseableImage> ref = dataSource.getResult();
+        if (ref != <mark class="modifier">null</mark>) {
+            try {
+                CloseableImage image = ref.get();
+                WritableMap sizes = Arguments.createMap();
+                sizes.putInt("width"<mark class="modifier">,</mark> image.getWidth());
+                sizes.putInt("height"<mark class="modifier">,</mark> image.getHeight());
+                promise.resolve(sizes);
+            } catch (Exception e) {
+                promise.reject(ERROR_GET_SIZE_FAILURE, e);
+            } finally {
+                CloseableReference.closeSafely(ref);
+            }
+        } else {
+            promise.reject(ERROR_GET_SIZE_FAILURE);
+        }
+    }
+
+    @Override
+    protected <mark class="modifier">void</mark> onFailureImpl(DataSource<CloseableReference<CloseableImage>> dataSource) {
+        promise.reject(ERROR_GET_SIZE_FAILURE, dataSource.getFailureCause());
+    }
+}*dataSubscriber2®
+&com.facebook.datasource.DataSubscriberTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£ £(2º
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£ £(%2∫
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£& £(42±
+/com.facebook.react.bridge.Arguments.createMap()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∞. ∞(72Ω
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥ ¥(2—
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(2º
+:com.facebook.react.bridge.Promise.reject(java.lang.String)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(2á
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-e7b37349-8a2b-488b-9303-0143d3a0fddc.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java® ®(2á
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-3ed800c0-6f12-4742-8fa1-e12375c2b387.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´5 ´(?2é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-0defdff8-bcc5-4e5b-bae0-33c34e3a1e11.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¨ ¨(2é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-8eaccf75-1089-46ae-a4b4-ba103f481e81.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÆ' Æ(*2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-ad7a89bd-95fc-4295-b3fa-a50cc6555573.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java± ±(2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-14501e8a-8071-451a-9cc0-a4af24ab7abc.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@174.31:174.36CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java±& ±(+2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-c3b5652c-728f-4498-ad09-ac16b7c98a06.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤ ≤(2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-addca1f6-26de-481f-817e-d83fd9d9cc8c.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@174.31:174.36CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤' ≤(,2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥ ¥(2ê
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-f73bc753-415b-4cc0-8890-bf6ab277caf1.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥  ¥(%2¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(52å
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-16edd3c9-95da-4b49-9a4d-2cd6389ed8d7.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@181.33:181.34CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂7 ∂(82é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-3dcbd7ba-8a1b-49b8-a3fd-60eb01e6e99f.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∏/ ∏(22¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(32¨
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¡ ¡(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¡ ¡(12Ö
+Çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-8cb4f3cd-3388-4bbc-9e4f-40b2f5705018.onFailureImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¡3 ¡(=È
+
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-bc03cc21-eede-4275-80fb-18f2a8df6a8e.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´/ ´(2"*
+type"CloseableReference<CloseableImage>"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>CloseableReference<CloseableImage> <mark class="class-field">ref</mark> = dataSource.getResult()*ref2≥
+1com.facebook.common.references.CloseableReferenceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´ ´(2∫
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´ ´(-2á
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-aef322ec-8150-4e5e-aa7a-ab08332f4790.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java´5 ´(?Å	
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-dcb7cd9a-b4bb-4b52-8a10-4329e68817ef.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?image@174.31:174.36VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÆ Æ($"
+typeCloseableImage"
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>CloseableImage <mark class="class-field">image</mark> = ref.get()*image2±
+/com.facebook.imagepipeline.image.CloseableImageTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÆ Æ(2é
+ãcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-beecb583-ac04-4e0a-903a-5b15a85dde36.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?ref@171.47:171.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÆ' Æ(*†
+çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-48a753f0-d7ae-4b14-a38f-602dc5e189fa.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?sizes@176.28:176.33VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∞ ∞(!"
+typeWritableMap"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>WritableMap <mark class="class-field">sizes</mark> = Arguments.createMap()*sizes2ß
+%com.facebook.react.bridge.WritableMapTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∞ ∞(2±
+/com.facebook.react.bridge.Arguments.createMap()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∞. ∞(7õ
+´com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!uriString	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî î("
+typeString"
+isFinaltrue"%
+declarationStringString uriString*	uriString2í
+java.lang.StringTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî î(¥
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!headers	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî0 î(7"
+typeReadableMap"
+isFinaltrue"(
+declarationStringReadableMap headers*headers2ß
+%com.facebook.react.bridge.ReadableMapTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî$ î(/®
+©com.facebook.react.modules.image.ImageLoaderModule.getSizeWithHeaders(java.lang.String, com.facebook.react.bridge.ReadableMap, com.facebook.react.bridge.Promise)!promise	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaîG î(N"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2£
+!com.facebook.react.bridge.PromiseTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî? î(F’
+Ñcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-0316d5d5-a46a-45af-86df-08ec946766ed.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSource	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaß= ß(G"6
+type.DataSource<CloseableReference<CloseableImage>>"
+isFinalfalse"N
+declarationString9DataSource<CloseableReference<CloseableImage>> dataSource*
+dataSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaß ß(2º
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaß ß(+2∫
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaß, ß(:Ú
+âcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-e2f0b345-d04a-4794-bf6c-e68782131bbb.onNewResultImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)?e@181.33:181.34VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ! µ(""
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ï
+java.lang.ExceptionTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ( ”
+Çcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-de739a03-187e-4f8e-bef9-123574f99e40.onFailureImpl(com.facebook.datasource.DataSource<com.facebook.common.references.CloseableReference<com.facebook.imagepipeline.image.CloseableImage>>)!dataSource	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¿V ¿(`"6
+type.DataSource<CloseableReference<CloseableImage>>"
+isFinalfalse"N
+declarationString9DataSource<CloseableReference<CloseableImage>> dataSource*
+dataSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¿' ¿(12º
+1com.facebook.common.references.CloseableReferenceTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¿2 ¿(D2∫
+/com.facebook.imagepipeline.image.CloseableImageTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¿E ¿(S“]
+}com.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java– –("
+isFinalfalse"ö
+declarationStringÑ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">prefetchImage</mark>(final String uriString<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">double</mark> requestIdAsDouble<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*prefetchImage2ú
+java.lang.String.isEmpty()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‘' ‘(.2Œ
+Lcom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.String)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java’ ’(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java› ›(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java›8 ›(H2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÊ Ê(2Ω
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÁ Á(2—
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ È(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÚ Ú(2˝
+{com.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˘ ˘(2í
+ècom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!requestIdAsDoubleCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java“  “(12ä
+ácom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‘ ‘(2ä
+ácom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‘ ‘(&2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java’ ’(2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?ERROR_INVALID_URI@42.30:42.47CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java’ ’(&2ä
+ácom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaŸ Ÿ(!2ë
+écom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?uri@217.8:217.11CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java⁄D ⁄(G2ñ
+ìcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?request@218.17:218.24CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java›/ ›(62≥
+∞com.facebook.react.modules.image.ImageLoaderModule.Anonymous-a5c27276-5e84-4263-a070-e252b13e5388.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‚ ‚(2ò
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÊ Ê(%2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÁ Á(2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ È(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_PREFETCH_FAILURE@43.30:43.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ È(32∏
+µcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-914a103a-6001-4736-935b-74d3e5ccce75.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)?e@232.31:232.32CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ5 È(62≥
+∞com.facebook.react.modules.image.ImageLoaderModule.Anonymous-56fd47df-cf7e-4d1f-a746-003a2d937ae9.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÎ Î(2ò
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÚ Ú(%2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÛ Û(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_PREFETCH_FAILURE@43.30:43.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÛ Û(32±
+Æcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-c1569d84-744a-423a-b249-15ef17085cfc.onFailureImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÛ5 Û(?2±
+Æcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-b9b09eab-5ef2-4d4e-890b-386577c0cc1d.onFailureImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaı ı(2ò
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˘ ˘(2ù
+öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSource@220.21:220.35CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˘ ˘(-2ù
+öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSource@220.21:220.35CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˙ ˙(2°
+ûcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSubscriber@222.25:222.43CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˙ ˙(/2è
+ácom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!uriString	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java— —(2ó
+ècom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!requestIdAsDouble	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java—+ —(<2ç
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promise	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java—L —(S2ü
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java“ “(2ò
+écom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?uri@217.8:217.11DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaŸ Ÿ(2ù
+ìcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?request@218.17:218.24DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java⁄ ⁄(2§
+öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSource@220.21:220.35DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‹ ‹(#2®
+ûcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSubscriber@222.25:222.43DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaﬁ ﬁ(+2ø
+µcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-e420c92f-7090-4a86-bdb1-3945837fa4ac.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)?e@232.31:232.32DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaË Ë( 2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java–	 –(ø
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23VALUEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java“ “("
+typeint"
+isFinaltrue"›
+declarationString«<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">requestId</mark> = (<mark class="modifier">int</mark>) requestIdAsDouble*	requestId2Ö
+intTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java“
+ “(2í
+ècom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!requestIdAsDoubleCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java“  “(1œ
+écom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?uri@217.8:217.11VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaŸ Ÿ("
+typeUri"
+isFinalfalse"s
+declarationString^<mark class="modifier"> </mark>Uri <mark class="class-field">uri</mark> = Uri.parse(uriString)*uri2ë
+android.net.UriTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaŸ Ÿ(2ä
+ácom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!uriStringCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaŸ Ÿ(!∏
+ìcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?request@218.17:218.24VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java⁄ ⁄("
+typeImageRequest"
+isFinalfalse"¢
+declarationStringå<mark class="modifier"> </mark>ImageRequest <mark class="class-field">request</mark> = ImageRequestBuilder.newBuilderWithSource(uri).build()*request2±
+/com.facebook.imagepipeline.request.ImageRequestTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java⁄ ⁄(2ë
+écom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?uri@217.8:217.11CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java⁄D ⁄(Gã
+öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSource@220.21:220.35VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‹ ‹(#"
+typeDataSource<Void>"
+isFinalfalse"ª
+declarationString•<mark class="modifier"> </mark>DataSource<Void> <mark class="class-field">prefetchSource</mark> = getImagePipeline().prefetchToDiskCache(request, getCallerContext())*prefetchSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‹ ‹(2ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‹ ‹(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java› ›(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getCallerContext()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java›8 ›(H2ñ
+ìcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?request@218.17:218.24CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java›/ ›(6ı,
+ûcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?prefetchSubscriber@222.25:222.43VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaﬁ ﬁ(+"
+typeDataSubscriber<Void>"
+isFinalfalse"Ä
+declarationStringÍ<mark class="modifier"> </mark>DataSubscriber<Void> <mark class="class-field">prefetchSubscriber</mark> = new BaseDataSubscriber<Void>() {
+
+    @Override
+    protected <mark class="modifier">void</mark> onNewResultImpl(DataSource<Void> dataSource) {
+        if (!dataSource.isFinished()) {
+            return;
+        }
+        try {
+            removeRequest(requestId);
+            promise.resolve(true);
+        } catch (Exception e) {
+            promise.reject(ERROR_PREFETCH_FAILURE, e);
+        } finally {
+            dataSource.close();
+        }
+    }
+
+    @Override
+    protected <mark class="modifier">void</mark> onFailureImpl(DataSource<Void> dataSource) {
+        try {
+            removeRequest(requestId);
+            promise.reject(ERROR_PREFETCH_FAILURE, dataSource.getFailureCause());
+        } finally {
+            dataSource.close();
+        }
+    }
+}*prefetchSubscriber2®
+&com.facebook.datasource.DataSubscriberTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaﬁ ﬁ(2ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaﬁ ﬁ(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÊ Ê(2Ω
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÁ Á(2—
+Ocom.facebook.react.bridge.Promise.reject(java.lang.String, java.lang.Throwable)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ È(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÚ Ú(2≥
+∞com.facebook.react.modules.image.ImageLoaderModule.Anonymous-ff133620-6204-4a99-bc11-515630f1add6.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java‚ ‚(2ò
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÊ Ê(%2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÁ Á(2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ È(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_PREFETCH_FAILURE@43.30:43.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ È(32∏
+µcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-e4c0c6f5-6606-4e45-8166-0841aae9c377.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)?e@232.31:232.32CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÈ5 È(62≥
+∞com.facebook.react.modules.image.ImageLoaderModule.Anonymous-c442e672-21b6-47e4-9bfb-f8ca618c4aa9.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÎ Î(2ò
+ïcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)?requestId@210.14:210.23CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÚ Ú(%2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÛ Û(2◊
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_PREFETCH_FAILURE@43.30:43.52CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÛ Û(32±
+Æcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-d893a2ed-9dd1-4195-b1f4-2d05635f4693.onFailureImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÛ5 Û(?2±
+Æcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-4fb05b6b-8964-415e-ba59-ab913f9d2017.onFailureImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSourceCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaı ı(˜
+ácom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!uriString	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java— —("
+typeString"
+isFinaltrue"%
+declarationStringString uriString*	uriString2í
+java.lang.StringTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java— —(£
+ècom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!requestIdAsDouble	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java—+ —(<"
+typedouble"
+isFinaltrue"K
+declarationString6<mark class="modifier">double</mark> requestIdAsDouble*requestIdAsDouble2à
+doubleTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java—$ —(*Ñ
+Öcom.facebook.react.modules.image.ImageLoaderModule.prefetchImage(java.lang.String, double, com.facebook.react.bridge.Promise)!promise	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java—L —(S"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2£
+!com.facebook.react.bridge.PromiseTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java—D —(KÂ
+∞com.facebook.react.modules.image.ImageLoaderModule.Anonymous-6d670a65-83f0-4ab2-b18c-9e95fe1d02f0.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSource	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java·: ·(D"
+typeDataSource<Void>"
+isFinalfalse"0
+declarationStringDataSource<Void> dataSource*
+dataSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java·) ·(32ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java·4 ·(8û
+µcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-d2d4ea4d-ba01-4ae1-9d6c-259403b2d895.onNewResultImpl(com.facebook.datasource.DataSource<java.lang.Void>)?e@232.31:232.32VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaË Ë( "
+type	Exception"
+isFinalfalse" 
+declarationStringException e*e2ï
+java.lang.ExceptionTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaË Ë(„
+Æcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-bed2f940-a901-4271-968c-b85fe3f815c3.onFailureImpl(com.facebook.datasource.DataSource<java.lang.Void>)!dataSource	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java8 (B"
+typeDataSource<Void>"
+isFinalfalse"0
+declarationStringDataSource<Void> dataSource*
+dataSource2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java' (12ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java2 (6“
+Gcom.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˛ ˛("
+isFinalfalse"‰
+declarationStringŒ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">abortRequest</mark>(<mark class="modifier">double</mark> requestId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*abortRequest2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ ˇ(,2”
+Qcom.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)!requestIdCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ3 ˇ(<2ﬂ
+]com.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)?request@255.21:255.28CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÄ Ä(2ﬂ
+]com.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)?request@255.21:255.28CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÅ Å(2ÿ
+Qcom.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)!requestId	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˛" ˛(+2Ê
+]com.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)?request@255.21:255.28DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ ˇ(2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˛	 ˛(´	
+]com.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)?request@255.21:255.28VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ ˇ("
+typeDataSource<Void>"
+isFinalfalse"≠
+declarationStringó<mark class="modifier"> </mark>DataSource<Void> <mark class="class-field">request</mark> = removeRequest((<mark class="modifier">int</mark>) requestId)*request2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ ˇ(2ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ ˇ(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ ˇ(,2”
+Qcom.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)!requestIdCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaˇ3 ˇ(<’
+Qcom.facebook.react.modules.image.ImageLoaderModule.abortRequest(double)!requestId	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˛" ˛(+"
+typedouble"
+isFinalfalse"C
+declarationString.<mark class="modifier">double</mark> requestId*	requestId2à
+doubleTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java˛ ˛(!‚G
+âcom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ Ü("
+isFinalfalse"¢
+declarationStringå<mark class="annotation">@ReactMethod</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">queryCache</mark>(final ReadableArray uris<mark class="modifier"><mark class="modifier">,</mark></mark> final Promise promise)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+queryCache2±
+/com.facebook.react.bridge.Arguments.createMap()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaã' ã(02«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaå& å(62∞
+.com.facebook.react.bridge.ReadableArray.size()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç! ç(%2∏
+6com.facebook.react.bridge.ReadableArray.getString(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé" é(+2’
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaí í(2’
+Scom.facebook.react.bridge.WritableMap.putString(java.lang.String, java.lang.String)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî î(2Ω
+;com.facebook.react.bridge.Promise.resolve(java.lang.Object)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaò ò(2ù
+öcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-78c7486d-1651-40bd-86b7-93b39375e6f9.doInBackgroundGuarded(java.lang.Void...)?i@269.17:269.18CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç ç(2ë
+écom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!urisCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç ç( 2ù
+öcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-411840c2-932d-45ab-b191-01580aa66ccd.doInBackgroundGuarded(java.lang.Void...)?i@269.17:269.18CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç) ç(*2ë
+écom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!urisCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé é(!2ù
+öcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-71bb6cee-5659-428d-8b31-1bc58ec16e5b.doInBackgroundGuarded(java.lang.Void...)?i@269.17:269.18CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé, é(-2•
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-9178b11e-a300-45db-8b9e-aecb72887ddd.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaè! è(*2•
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-14b5250f-ef5b-43ce-b036-2a050938c52d.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaê& ê(/2©
+¶com.facebook.react.modules.image.ImageLoaderModule.Anonymous-60e699f9-0cd7-40d4-8d8b-75ee89263521.doInBackgroundGuarded(java.lang.Void...)?imagePipeline@268.22:268.35CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaë ë(2ü
+úcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-153a4147-a409-4aa4-82db-cfdcb451a62b.doInBackgroundGuarded(java.lang.Void...)?uri@272.22:272.25CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaë4 ë(72¢
+ücom.facebook.react.modules.image.ImageLoaderModule.Anonymous-2a1a46f2-ae30-4b7c-8c38-b874c9d3c32a.doInBackgroundGuarded(java.lang.Void...)?result@267.20:267.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaí í(2•
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-0b2ca0a4-4125-4556-b539-6f82a5ef2a98.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaí í((2©
+¶com.facebook.react.modules.image.ImageLoaderModule.Anonymous-c48af6e3-877c-4549-9958-34aad75791e0.doInBackgroundGuarded(java.lang.Void...)?imagePipeline@268.22:268.35CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaì ì($2ü
+úcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-e9ea468a-f02e-4b03-8a02-080a8106d093.doInBackgroundGuarded(java.lang.Void...)?uri@272.22:272.25CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaì7 ì(:2¢
+ücom.facebook.react.modules.image.ImageLoaderModule.Anonymous-dbd983a3-b636-4f00-ba27-540fba0b8a8f.doInBackgroundGuarded(java.lang.Void...)?result@267.20:267.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî î(2•
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-295c0fb3-a0fe-4a70-9386-a90a72e09f2d.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaî î((2î
+ëcom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promiseCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaò ò(2¢
+ücom.facebook.react.modules.image.ImageLoaderModule.Anonymous-4652d7a4-ffbe-4d74-99aa-001f0e7c6d56.doInBackgroundGuarded(java.lang.Void...)?result@267.20:267.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaò ò(2ñ
+écom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!uris	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ- Ü(12ô
+ëcom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promise	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜA Ü(H2©
+ücom.facebook.react.modules.image.ImageLoaderModule.Anonymous-01ada83a-054b-4c09-bdbb-f8027ce5f1c9.doInBackgroundGuarded(java.lang.Void...)?result@267.20:267.26DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaã ã(2∞
+¶com.facebook.react.modules.image.ImageLoaderModule.Anonymous-7d529c7b-bce6-49cd-944c-1cf683a7b791.doInBackgroundGuarded(java.lang.Void...)?imagePipeline@268.22:268.35DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaå å(#2§
+öcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-46de38ee-7df0-43e8-8ce4-bba5e75945bb.doInBackgroundGuarded(java.lang.Void...)?i@269.17:269.18DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç ç(2¨
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-b6e7c053-9473-4202-b057-841cd21a597d.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé é(2¶
+úcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-1584fc7d-6746-44c8-9d57-09eaf268859a.doInBackgroundGuarded(java.lang.Void...)?uri@272.22:272.25DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaê ê(2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ	 Ü(¥
+ücom.facebook.react.modules.image.ImageLoaderModule.Anonymous-2d37f723-954b-4522-be7c-93eadbc242d5.doInBackgroundGuarded(java.lang.Void...)?result@267.20:267.26VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaã ã("
+typeWritableMap"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>WritableMap <mark class="class-field">result</mark> = Arguments.createMap()*result2ß
+%com.facebook.react.bridge.WritableMapTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaã ã(2±
+/com.facebook.react.bridge.Arguments.createMap()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaã' ã(0È
+¶com.facebook.react.modules.image.ImageLoaderModule.Anonymous-9c0539c1-ad69-49ec-913e-5eefba0d16b9.doInBackgroundGuarded(java.lang.Void...)?imagePipeline@268.22:268.35VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaå å(#"
+typeImagePipeline"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>ImagePipeline <mark class="class-field">imagePipeline</mark> = getImagePipeline()*imagePipeline2Ø
+-com.facebook.imagepipeline.core.ImagePipelineTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaå å(2«
+Ecom.facebook.react.modules.image.ImageLoaderModule.getImagePipeline()CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaå& å(6…
+öcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-9cccf81f-53ef-4506-b8f4-7583c83fab01.doInBackgroundGuarded(java.lang.Void...)?i@269.17:269.18VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç ç("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2Ö
+intTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaç ç(’
+
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-7b00d184-4fe6-4f6f-a93d-4ead08e60a3d.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé é("
+typeString"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>String <mark class="class-field">uriString</mark> = uris.getString(i)*	uriString2í
+java.lang.StringTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé
+ é(2∏
+6com.facebook.react.bridge.ReadableArray.getString(int)CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé" é(+2ë
+écom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!urisCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé é(!2ù
+öcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-8b52717f-c8aa-405d-92bb-62e15ddf2d56.doInBackgroundGuarded(java.lang.Void...)?i@269.17:269.18CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaé, é(-ö
+úcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-b3c9aa5e-481e-4ad6-9ca4-c5d90457d573.doInBackgroundGuarded(java.lang.Void...)?uri@272.22:272.25VALUEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaê ê("
+typeUri"
+isFinaltrue"ò
+declarationStringÇ<mark class="modifier"> </mark><mark class="modifier">final </mark>Uri <mark class="class-field">uri</mark> = Uri.parse(uriString)*uri2ë
+android.net.UriTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaê ê(2•
+¢com.facebook.react.modules.image.ImageLoaderModule.Anonymous-4023ca82-a106-4892-a593-e77a1a43503d.doInBackgroundGuarded(java.lang.Void...)?uriString@270.17:270.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaê& ê(/ô
+écom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!uris	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ- Ü(1"
+typeReadableArray"
+isFinaltrue"'
+declarationStringReadableArray uris*uris2©
+'com.facebook.react.bridge.ReadableArrayTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ Ü(,ê
+ëcom.facebook.react.modules.image.ImageLoaderModule.queryCache(com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.Promise)!promise	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜA Ü(H"
+typePromise"
+isFinaltrue"$
+declarationStringPromise promise*promise2£
+!com.facebook.react.bridge.PromiseTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaÜ9 Ü(@¯
+ëcom.facebook.react.modules.image.ImageLoaderModule.Anonymous-c9d5c2ae-1c60-463f-beed-13cd9c11469a.doInBackgroundGuarded(java.lang.Void...)!params	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaä3 ä(9"
+typeVoid"
+isFinalfalse" 
+declarationStringVoid params*params2í
+java.lang.Void[]TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaä+ ä(/Û
+{com.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù ù("
+isFinalfalse"ì
+declarationString˝<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">registerRequest</mark>(<mark class="modifier">int</mark> requestId<mark class="modifier"><mark class="modifier">,</mark></mark> DataSource&lt;Void&gt; request)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*registerRequest2ÿ
+Vcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequestMonitor@47.23:47.46CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaû û()2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaü ü(2à
+Öcom.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)!requestIdCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaü ü(%2Ü
+Écom.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)!requestCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaü' ü(.2ç
+Öcom.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)!requestId	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù# ù(,2ã
+Écom.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)!request	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù? ù(F2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù
+ ù(Å
+Öcom.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)!requestId	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù# ù(,"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> requestId*	requestId2Ö
+intTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù ù("≤
+Écom.facebook.react.modules.image.ImageLoaderModule.registerRequest(int, com.facebook.datasource.DataSource<java.lang.Void>)!request	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù? ù(F"
+typeDataSource<Void>"
+isFinalfalse"-
+declarationStringDataSource<Void> request*request2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù. ù(82ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaù9 ù(=∑
+Ecom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£% £(2"
+isFinalfalse"◊
+declarationString¡<mark class="annotation">@Nullable</mark> <br><mark class="modifier">private </mark>DataSource&lt;Void&gt; <mark class="method">removeRequest</mark>(<mark class="modifier">int</mark> requestId)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeDataSource<Void>*removeRequest2ÿ
+Vcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequestMonitor@47.23:47.46CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java§ §()2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java•! •(22—
+Ocom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)!requestIdCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java•7 •(@2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¶ ¶(2—
+Ocom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)!requestIdCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¶ ¶((2›
+[com.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)?request@293.23:293.30CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaß ß(2÷
+Ocom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)!requestId	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£7 £(@2‰
+[com.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)?request@293.23:293.30DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java• •(2´
+"com.facebook.datasource.DataSourceRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£ £(2†
+java.lang.VoidRETURN_TYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£ £(#ï	
+[com.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)?request@293.23:293.30VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java• •("
+typeDataSource<Void>"
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark>DataSource<Void> <mark class="class-field">request</mark> = mEnqueuedRequests.get(requestId)*request2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java• •(2ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java• •(2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java•! •(22—
+Ocom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)!requestIdCALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java•7 •(@ 
+Ocom.facebook.react.modules.image.ImageLoaderModule.removeRequest(int)!requestId	PARAMETERx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£7 £(@"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> requestId*	requestId2Ö
+intTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java£3 £(6æ
+Acom.facebook.react.modules.image.ImageLoaderModule.onHostResume()METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¨ ¨("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostResume</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostResume2≈
+?com.facebook.react.bridge.LifecycleEventListener.onHostResume()OVERRIDEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¨ ¨(2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¨	 ¨(∫
+@com.facebook.react.modules.image.ImageLoaderModule.onHostPause()METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaØ Ø("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostPause</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostPause2ƒ
+>com.facebook.react.bridge.LifecycleEventListener.onHostPause()OVERRIDEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaØ Ø(2ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaØ	 Ø(
+Bcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()METHODx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤ ≤("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostDestroy2ÿ
+Vcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequestMonitor@47.23:47.46CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java¥ ¥()2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ(.2‘
+Rcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?i@309.15:309.16CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ7 µ(82◊
+Ucom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?size@309.22:309.26CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ; µ(?2‘
+Rcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?i@309.15:309.16CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµA µ(B2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂5 ∂(F2‘
+Rcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?i@309.15:309.16CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂O ∂(P2‚
+`com.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?enqueuedRequest@310.35:310.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∑ ∑(2‚
+`com.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?enqueuedRequest@310.35:310.50CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∏
+ ∏(2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaª ª(2∆
+@com.facebook.react.bridge.LifecycleEventListener.onHostDestroy()OVERRIDEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤ ≤(2€
+Rcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?i@309.15:309.16DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ(2ﬁ
+Ucom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?size@309.22:309.26DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ(2È
+`com.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?enqueuedRequest@310.35:310.50DECLARATIONx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂# ∂(22ç
+voidRETURN_TYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java≤	 ≤(£
+Rcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?i@309.15:309.16VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ("
+typeint"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0, size = mEnqueuedRequests.size()*i2Ö
+intTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ(Å
+Ucom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?size@309.22:309.26VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ("
+typeint"
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">size</mark> = 0, size = mEnqueuedRequests.size()*size2Ö
+intTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ(2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.javaµ µ(.©	
+`com.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?enqueuedRequest@310.35:310.50VARIABLEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂# ∂(2"
+typeDataSource<Void>"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark>DataSource<Void> <mark class="class-field">enqueuedRequest</mark> = mEnqueuedRequests.valueAt(i)*enqueuedRequest2§
+"com.facebook.datasource.DataSourceTYPEx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(2ô
+java.lang.VoidTYPE_ARGUMENTx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂ ∂(!2“
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂5 ∂(F2‘
+Rcom.facebook.react.modules.image.ImageLoaderModule.onHostDestroy()?i@309.15:309.16CALLx
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java∂O ∂(Pë
+Pcom.facebook.react.modules.image.ImageLoaderModule?ERROR_INVALID_URI@42.30:42.47VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java* *(/"
+isFinaltrue"
+typeString"—
+declarationStringª<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">ERROR_INVALID_URI</mark> = "E_INVALID_URI";"
+isStatictrue"
+accessprivate*ERROR_INVALID_URI2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java* *(•
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_PREFETCH_FAILURE@43.30:43.52VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java+ +(4"
+isFinaltrue"
+typeString"€
+declarationString≈<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">ERROR_PREFETCH_FAILURE</mark> = "E_PREFETCH_FAILURE";"
+isStatictrue"
+accessprivate*ERROR_PREFETCH_FAILURE2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java+ +(•
+Ucom.facebook.react.modules.image.ImageLoaderModule?ERROR_GET_SIZE_FAILURE@44.30:44.52VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java, ,(4"
+isFinaltrue"
+typeString"€
+declarationString≈<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">ERROR_GET_SIZE_FAILURE</mark> = "E_GET_SIZE_FAILURE";"
+isStatictrue"
+accessprivate*ERROR_GET_SIZE_FAILURE2ê
+java.lang.StringTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java, ,(—
+Mcom.facebook.react.modules.image.ImageLoaderModule?mCallerContext@46.33:46.47VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java.! .(/"
+isFinaltrue"
+typeObject"ñ
+declarationStringÄ<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">mCallerContext</mark>"
+isStaticfalse"
+accessprivate*mCallerContext2ê
+java.lang.ObjectTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java. .( ò
+Vcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequestMonitor@47.23:47.46VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java/ /(."
+isFinaltrue"
+typeObject"Ø
+declarationStringô<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">mEnqueuedRequestMonitor</mark> = new Object();"
+isStaticfalse"
+accessprivate*mEnqueuedRequestMonitor2ê
+java.lang.ObjectTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java/ /(2ô
+java.lang.Object.Object()CALLv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java/5 /(;Ô
+Pcom.facebook.react.modules.image.ImageLoaderModule?mEnqueuedRequests@48.46:48.63VALUEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java0. 0(?"
+isFinaltrue"%
+typeSparseArray<DataSource<Void>>"«
+declarationString±<mark class="modifier">private </mark><mark class="modifier">final </mark>SparseArray<DataSource<Void>> <mark class="class-field">mEnqueuedRequests</mark> = new SparseArray<>();"
+isStaticfalse"
+accessprivate*mEnqueuedRequests2ò
+android.util.SparseArrayTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java0 0(2´
+"com.facebook.datasource.DataSourceTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java0 0(&2ó
+java.lang.VoidTYPE_ARGUMENTv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java0' 0(+Ç
+Mcom.facebook.react.modules.image.ImageLoaderModule?mImagePipeline@49.34:49.48VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java1" 1(0"
+isFinalfalse"
+typeImagePipeline"ü
+declarationStringâ<mark class="modifier">private </mark>ImagePipeline <mark class="class-field">mImagePipeline</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mImagePipeline2≠
+-com.facebook.imagepipeline.core.ImagePipelineTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java1 1(!ì
+Tcom.facebook.react.modules.image.ImageLoaderModule?mCallerContextFactory@50.46:50.67VARIABLEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java2. 2(C"
+isFinalfalse"!
+typeReactCallerContextFactory"ã
+declarationStringv<mark class="modifier">private </mark>ReactCallerContextFactory <mark class="class-field">mCallerContextFactory</mark>"
+isStaticfalse"
+accessprivate*mCallerContextFactory2∏
+8com.facebook.react.views.image.ReactCallerContextFactoryTYPEv
+lnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/image/ImageLoaderModule.java2 2(-

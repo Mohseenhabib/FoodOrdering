@@ -1,0 +1,218 @@
+
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.javaÓ
+8com.facebook.react.modules.i18nmanager.I18nManagerModuleCLASS|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java ("1
+package&com.facebook.react.modules.i18nmanager"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ä
+declarationStringÍ<mark class="annotation">@ReactModule(name = NativeI18nManagerSpec.NAME)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>I18nManagerModule<mark class="modifier"> extends </mark>NativeI18nManagerSpec"
+accesspublic*I18nManagerModule2ä
+}com.facebook.react.modules.i18nmanager.I18nManagerModule.I18nManagerModule(com.facebook.react.bridge.ReactApplicationContext)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java	 (2·
+Tcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (62◊
+Jcom.facebook.react.modules.i18nmanager.I18nManagerModule.allowRTL(boolean)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java/ /(2◊
+Jcom.facebook.react.modules.i18nmanager.I18nManagerModule.forceRTL(boolean)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java4 4(2‰
+Wcom.facebook.react.modules.i18nmanager.I18nManagerModule.swapLeftAndRightInRTL(boolean)DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java9 9(#2Ë
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (/2ù
+NativeI18nManagerSpecEXTEND|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java' (<ì	
+}com.facebook.react.modules.i18nmanager.I18nManagerModule.I18nManagerModule(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTOR|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java	 ("à
+declarationStrings<mark class="modifier">public </mark><mark class="method">I18nManagerModule</mark>(ReactApplicationContext context)*I18nManagerModule2å
+Öcom.facebook.react.modules.i18nmanager.I18nManagerModule.I18nManagerModule(com.facebook.react.bridge.ReactApplicationContext)!contextCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java
+ (2ë
+Öcom.facebook.react.modules.i18nmanager.I18nManagerModule.I18nManagerModule(com.facebook.react.bridge.ReactApplicationContext)!context	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java3 (:2≈
+8com.facebook.react.modules.i18nmanager.I18nManagerModuleRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java	 (Ω
+Öcom.facebook.react.modules.i18nmanager.I18nManagerModule.I18nManagerModule(com.facebook.react.bridge.ReactApplicationContext)!context	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java3 (:"
+typeReactApplicationContext"
+isFinalfalse"4
+declarationStringReactApplicationContext context*context2∑
+1com.facebook.react.bridge.ReactApplicationContextTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (2÷0
+Tcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (6"
+isFinalfalse"ı
+declarationStringﬂ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">getTypedExportedConstants</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Object>*getTypedExportedConstants2∑
+1com.facebook.react.common.MapBuilder.newHashMap()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java&5 &(?2ù
+java.util.Map.put(K, V)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java' '(2‘
+Ncom.facebook.react.modules.i18nmanager.I18nUtil.isRTL(android.content.Context)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java'2 '(72ù
+java.util.Map.put(K, V)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java( ((2Ê
+`com.facebook.react.modules.i18nmanager.I18nUtil.doLeftAndRightSwapInRTL(android.content.Context)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java): )(Q2ù
+java.util.Map.put(K, V)CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java* *(2°
+java.util.Locale.toString()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java*- *(52Ì
+gcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?locale@31.17:31.23CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java! !(2Ó
+hcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?context@30.18:30.25CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java! !(2Ì
+gcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?locale@31.17:31.23CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java# #(2Ó
+hcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?context@30.18:30.25CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java# #(2
+jcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?constants@38.30:38.39CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java' '(2·
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java' '(12Ó
+hcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?context@30.18:30.25CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java'8 '(?2
+jcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?constants@38.30:38.39CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java( ((2·
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java)# )(92Ó
+hcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?context@30.18:30.25CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java)R )(Y2
+jcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?constants@38.30:38.39CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java* *(2Ì
+gcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?locale@31.17:31.23CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java*& *(,2
+jcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?constants@38.30:38.39CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java+ +(2ı
+hcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?context@30.18:30.25DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (2Ù
+gcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?locale@31.17:31.23DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (2˜
+jcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?constants@38.30:38.39DECLARATION|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java& &('2ö
+java.util.MapRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java	 (2¶
+java.lang.StringRETURN_TYPE_ARGUMENT|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (2¶
+java.lang.ObjectRETURN_TYPE_ARGUMENT|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (Â
+hcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?context@30.18:30.25VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java ("
+typeContext"
+isFinaltrue"®
+declarationStringí<mark class="modifier"> </mark><mark class="modifier">final </mark>Context <mark class="class-field">context</mark> = getReactApplicationContext()*context2ù
+android.content.ContextTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java
+ (π
+gcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?locale@31.17:31.23VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java ("
+typeLocale"
+isFinaltrue"Ü
+declarationStringq<mark class="modifier"> </mark><mark class="modifier">final </mark>Locale <mark class="class-field">locale</mark>*locale2ñ
+java.util.LocaleTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java
+ (Ú
+jcom.facebook.react.modules.i18nmanager.I18nManagerModule.getTypedExportedConstants()?constants@38.30:38.39VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java& &('"
+typeMap<String, Object>"
+isFinaltrue"±
+declarationStringõ<mark class="modifier"> </mark><mark class="modifier">final </mark>Map<String, Object> <mark class="class-field">constants</mark> = MapBuilder.newHashMap()*	constants2ì
+java.util.MapTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java&
+ &(2ü
+java.lang.StringTYPE_ARGUMENT|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java& &(2ü
+java.lang.ObjectTYPE_ARGUMENT|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java& &(2∑
+1com.facebook.react.common.MapBuilder.newHashMap()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java&5 &(?≈
+
+Jcom.facebook.react.modules.i18nmanager.I18nManagerModule.allowRTL(boolean)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java/ /("
+isFinalfalse"›
+declarationString«<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">allowRTL</mark>(<mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*allowRTL2·
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java0 0(2÷
+Pcom.facebook.react.modules.i18nmanager.I18nManagerModule.allowRTL(boolean)!valueCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java0B 0(G2€
+Pcom.facebook.react.modules.i18nmanager.I18nManagerModule.allowRTL(boolean)!value	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java/ /($2ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java/	 /(◊
+Pcom.facebook.react.modules.i18nmanager.I18nManagerModule.allowRTL(boolean)!value	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java/ /($"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ç
+booleanTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java/ /(≈
+
+Jcom.facebook.react.modules.i18nmanager.I18nManagerModule.forceRTL(boolean)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java4 4("
+isFinalfalse"›
+declarationString«<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">forceRTL</mark>(<mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*forceRTL2·
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java5 5(2÷
+Pcom.facebook.react.modules.i18nmanager.I18nManagerModule.forceRTL(boolean)!valueCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java5B 5(G2€
+Pcom.facebook.react.modules.i18nmanager.I18nManagerModule.forceRTL(boolean)!value	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java4 4($2ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java4	 4(◊
+Pcom.facebook.react.modules.i18nmanager.I18nManagerModule.forceRTL(boolean)!value	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java4 4($"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ç
+booleanTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java4 4(Ü
+Wcom.facebook.react.modules.i18nmanager.I18nManagerModule.swapLeftAndRightInRTL(boolean)METHOD|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java9 9(#"
+isFinalfalse"Í
+declarationString‘<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">swapLeftAndRightInRTL</mark>(<mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*swapLeftAndRightInRTL2·
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java: :(2„
+]com.facebook.react.modules.i18nmanager.I18nManagerModule.swapLeftAndRightInRTL(boolean)!valueCALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java:O :(T2Ë
+]com.facebook.react.modules.i18nmanager.I18nManagerModule.swapLeftAndRightInRTL(boolean)!value	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java9, 9(12ë
+voidRETURN_TYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java9	 9(‰
+]com.facebook.react.modules.i18nmanager.I18nManagerModule.swapLeftAndRightInRTL(boolean)!value	PARAMETER|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java9, 9(1"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ç
+booleanTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java9$ 9(+˛
+[com.facebook.react.modules.i18nmanager.I18nManagerModule?sharedI18nUtilInstance@22.25:22.47VALUE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (/"
+isFinaltrue"
+typeI18nUtil"∫
+declarationString§<mark class="modifier">private </mark><mark class="modifier">final </mark>I18nUtil <mark class="class-field">sharedI18nUtilInstance</mark> = I18nUtil.getInstance();"
+isStaticfalse"
+accessprivate*sharedI18nUtilInstance2µ
+/com.facebook.react.modules.i18nmanager.I18nUtilTYPE|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java (2√
+=com.facebook.react.modules.i18nmanager.I18nUtil.getInstance()CALL|
+rnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/i18nmanager/I18nManagerModule.java; (F

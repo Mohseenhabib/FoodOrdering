@@ -1,0 +1,699 @@
+
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÚ 
+5com.facebook.react.uimanager.events.ReactEventEmitterCLASSy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (".
+package#com.facebook.react.uimanager.events"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">class </mark>ReactEventEmitter<mark class="modifier"><br>implements </mark>RCTModernEventEmitter"
+accesspublic*ReactEventEmitter2Ñ
+zcom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java"	 "(2à
+~com.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java& &(2Ç
+xcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+ +(2œ
+Ecom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java0 0(2ã
+Äcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9 9(2ê
+Öcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java> >(2≥
+®com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaE E(2˛
+tcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU U(2ÿ
+Ncom.facebook.react.uimanager.events.ReactEventEmitter.getDefaultEventEmitter()DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javap p(02£
+òcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (2œ
+Ecom.facebook.react.uimanager.events.ReactEventEmitter?TAG@23.30:23.33DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (!2ﬂ
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java  (32‹
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (*2Ÿ
+Ocom.facebook.react.uimanager.events.ReactEventEmitter?mReactContext@32.40:32.53DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (  (52æ
+9com.facebook.react.uimanager.events.RCTModernEventEmitterEXTENDy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java* (?ﬂ
+
+zcom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTORy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java"	 "("ç
+declarationStringx<mark class="modifier">public </mark><mark class="method">ReactEventEmitter</mark>(ReactApplicationContext reactContext)*ReactEventEmitter2“
+Ocom.facebook.react.uimanager.events.ReactEventEmitter?mReactContext@32.40:32.53CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java# #(2ã
+ácom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)!reactContextCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java# #( 2ê
+ácom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java"3 "(?2ø
+5com.facebook.react.uimanager.events.ReactEventEmitterRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java"	 "(√
+ácom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java"3 "(?"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2¥
+1com.facebook.react.bridge.ReactApplicationContextTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java" "(2Ï
+~com.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java& &("
+isFinalfalse"¬
+declarationString¨<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">register</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType<mark class="modifier"><mark class="modifier">,</mark></mark> RCTModernEventEmitter eventEmitter)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*register2ê
+åcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerTypeCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java' '(2ÿ
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java( ((2è
+ãcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitterCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java( ((&2ï
+åcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerType	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&* &(72î
+ãcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitter	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&O &([2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&	 &(¡
+åcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerType	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&* &(7"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&& &()À
+ãcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitter	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&O &(["
+typeRCTModernEventEmitter"
+isFinalfalse"7
+declarationString"RCTModernEventEmitter eventEmitter*eventEmitter2º
+9com.facebook.react.uimanager.events.RCTModernEventEmitterTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java&9 &(N≈
+xcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+ +("
+isFinalfalse"º
+declarationString¶<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">register</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType<mark class="modifier"><mark class="modifier">,</mark></mark> RCTEventEmitter eventEmitter)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*register2ä
+Ücom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerTypeCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java, ,(2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java- -(2â
+Öcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitterCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java- -(#2è
+Ücom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerType	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+* +(72é
+Öcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitter	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+I +(U2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+	 +(ª
+Ücom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerType	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+* +(7"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+& +()≥
+Öcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitter	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+I +(U"
+typeRCTEventEmitter"
+isFinalfalse"1
+declarationStringRCTEventEmitter eventEmitter*eventEmitter2∂
+3com.facebook.react.uimanager.events.RCTEventEmitterTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java+9 +(Hí
+Ecom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java0 0("
+isFinalfalse"‰
+declarationStringŒ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">unregister</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+unregister2÷
+Scom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)!uiManagerTypeCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java1 1(2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java2 2(2ÿ
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java4 4(2€
+Scom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)!uiManagerType	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java0, 0(92é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java0	 0(á
+Scom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)!uiManagerType	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java0, 0(9"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java0( 0(+ë
+Äcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9 9("
+isFinalfalse"Ñ
+declarationStringÓ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveEvent</mark>(<mark class="modifier">int</mark> targetReactTag<mark class="modifier"><mark class="modifier">,</mark></mark> String eventName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> WritableMap event)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveEvent2â
+Öcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java: :(2ì
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTagCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java: :(#2é
+äcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventNameCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java:% :(.2ä
+Ücom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java:0 :(52Ö
+~com.facebook.react.uimanager.events.RCTEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9 9(2ò
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTag	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9 9(-2ì
+äcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java96 9(?2è
+Ücom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!event	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9W 9(\2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9	 9(ó
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetReactTag	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9 9(-"
+typeint"
+isFinalfalse"E
+declarationString0<mark class="modifier">int</mark> targetReactTag*targetReactTag2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9 9(˝
+äcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java96 9(?"
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9/ 9(5∫
+Ücom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)!event	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9W 9(\"
+typeWritableMap"
+isFinalfalse"P
+declarationString;<mark class="annotation">@Nullable</mark> WritableMap event*event2®
+%com.facebook.react.bridge.WritableMapTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java9K 9(Vﬁ
+Öcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java> >("
+isFinalfalse"Ë
+declarationString“ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveEvent</mark>(<mark class="modifier">int</mark> surfaceId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> targetTag<mark class="modifier"><mark class="modifier">,</mark></mark> String eventName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> WritableMap event)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveEvent2ú
+òcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaA A(2ì
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!surfaceIdCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaA A(2ì
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetTagCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaA A(%2ì
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventNameCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaA' A(02è
+ãcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaA< A(A2ë
+âcom.facebook.react.uimanager.events.RCTModernEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java> >(2ò
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!surfaceId	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?
+ ?(2ò
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetTag	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java? ?("2ò
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?+ ?(42î
+ãcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!event	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?L ?(Q2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java>	 >(ç
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!surfaceId	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?
+ ?("
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> surfaceId*	surfaceId2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java? ?(	ç
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!targetTag	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java? ?(""
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> targetTag*	targetTag2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java? ?(Ç
+ècom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?+ ?(4"
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?$ ?(*ø
+ãcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, com.facebook.react.bridge.WritableMap)!event	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?L ?(Q"
+typeWritableMap"
+isFinalfalse"P
+declarationString;<mark class="annotation">@Nullable</mark> WritableMap event*event2®
+%com.facebook.react.bridge.WritableMapTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java?@ ?(K£3
+®com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaE E("
+isFinalfalse"ı
+declarationStringﬂ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveTouches</mark>(String eventName<mark class="modifier"><mark class="modifier">,</mark></mark> WritableArray touches<mark class="modifier"><mark class="modifier">,</mark></mark> WritableArray changedIndices)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveTouches2±
+.com.facebook.react.bridge.ReadableArray.size()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaK' K(+2¡
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM% M(+2∂
+3com.facebook.react.bridge.ReadableArray.getMap(int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M(!2≈
+Bcom.facebook.react.uimanager.common.ViewUtil.getUIManagerType(int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaN0 N(@2—
+Ncom.facebook.react.uimanager.events.ReactEventEmitter.getDefaultEventEmitter()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaO2 O(H2™
+¶com.facebook.react.uimanager.events.RCTEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaP P(%2¥
+∞com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touchesCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaK K(&2¥
+∞com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touchesCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M(2¿
+ºcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?reactTag@77.8:77.16CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaNA N(I2∆
+¬com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?uiManagerType@78.23:78.36CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaO O(2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaP P(2∂
+≤com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!eventNameCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaP& P(/2¥
+∞com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touchesCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaP1 P(82ª
+∑com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!changedIndicesCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaP: P(H2Æ
+¶com.facebook.react.uimanager.events.RCTEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaE E(2ª
+≤com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF F(2π
+∞com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touches	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF& F(-2¿
+∑com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!changedIndices	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF= F(K2«
+ºcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?reactTag@77.8:77.16DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M(2Õ
+¬com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?uiManagerType@78.23:78.36DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaN N($2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaE	 E(‘
+
+ºcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?reactTag@77.8:77.16VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M("
+typeint"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">reactTag</mark> = touches.getMap(0).getInt(TARGET_KEY)*reactTag2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M(2¡
+>com.facebook.react.bridge.ReadableMap.getInt(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM% M(+2∂
+3com.facebook.react.bridge.ReadableArray.getMap(int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M(!2¥
+∞com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touchesCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaM M(∫	
+¬com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?uiManagerType@78.23:78.36VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaN N($"
+typeint"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">uiManagerType</mark> = ViewUtil.getUIManagerType(reactTag)*uiManagerType2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaN N(2≈
+Bcom.facebook.react.uimanager.common.ViewUtil.getUIManagerType(int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaN0 N(@2¿
+ºcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)?reactTag@77.8:77.16CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaNA N(I•
+≤com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!eventName	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF F("
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF F(ƒ
+∞com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!touches	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF& F(-"
+typeWritableArray"
+isFinalfalse"*
+declarationStringWritableArray touches*touches2™
+'com.facebook.react.bridge.WritableArrayTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF F(%Ÿ
+∑com.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(java.lang.String, com.facebook.react.bridge.WritableArray, com.facebook.react.bridge.WritableArray)!changedIndices	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF= F(K"
+typeWritableArray"
+isFinalfalse"1
+declarationStringWritableArray changedIndices*changedIndices2™
+'com.facebook.react.bridge.WritableArrayTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaF/ F(<∑:
+tcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU U("
+isFinalfalse"»
+declarationString≤<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveTouches</mark>(TouchEvent event)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveTouches2π
+6com.facebook.react.uimanager.events.Event.getViewTag()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V(#2 
+Gcom.facebook.react.uimanager.common.ViewUtil.getUIManagerType(int, int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX! X(12π
+6com.facebook.react.uimanager.events.Event.getViewTag()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX8 X(B2ª
+8com.facebook.react.uimanager.events.Event.getSurfaceId()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaXL X(X2˚
+xcom.facebook.react.uimanager.events.RCTModernEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaZ Z((2—
+Ncom.facebook.react.uimanager.events.ReactEventEmitter.getDefaultEventEmitter()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java[9 [(O2¨
+®com.facebook.react.uimanager.events.TouchesHelper.sendTouchesLegacy(com.facebook.react.uimanager.events.RCTEventEmitter, com.facebook.react.uimanager.events.TouchEvent)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java\ \(%2Ì
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java^ ^(/2¿
+=com.facebook.react.uimanager.events.TouchEvent.getEventName()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaf f(&2‚
+_com.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java` `('2˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V(2˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX2 X(72˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaXF X(K2ë
+çcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?uiManagerType@88.8:88.21CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaY Y(2ÿ
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaY1 Y(D2ÿ
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaZ Z(2˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaZ) Z(.2ë
+çcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?uiManagerType@88.8:88.21CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java[ [(2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java\& \(62˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java\8 \(=2»
+Ecom.facebook.react.uimanager.events.ReactEventEmitter?TAG@23.30:23.33CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java_
+ _(2å
+àcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?reactTag@86.8:86.16CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javab b(2ë
+çcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?uiManagerType@88.8:88.21CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javad d(!2˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaf f(2ˇ
+xcom.facebook.react.uimanager.events.RCTModernEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU U(2Ç
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!event	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU( U(-2ì
+àcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?reactTag@86.8:86.16DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V(2ò
+çcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?uiManagerType@88.8:88.21DECLARATIONy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX X(2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU	 U(ï
+àcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?reactTag@86.8:86.16VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V("
+typeint"
+isFinalfalse"î
+declarationString<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">reactTag</mark> = event.getViewTag()*reactTag2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V(2π
+6com.facebook.react.uimanager.events.Event.getViewTag()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V(#2˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaV V(ˇ
+çcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)?uiManagerType@88.8:88.21VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX X("
+typeint"
+isFinalfalse"È
+declarationString”<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">uiManagerType</mark> = ViewUtil.getUIManagerType(event.getViewTag()<mark class="modifier">,</mark> event.getSurfaceId())*uiManagerType2Ü
+intTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX X(2 
+Gcom.facebook.react.uimanager.common.ViewUtil.getUIManagerType(int, int)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX! X(12π
+6com.facebook.react.uimanager.events.Event.getViewTag()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX8 X(B2ª
+8com.facebook.react.uimanager.events.Event.getSurfaceId()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaXL X(X2˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaX2 X(72˝
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!eventCALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaXF X(Kä
+zcom.facebook.react.uimanager.events.ReactEventEmitter.receiveTouches(com.facebook.react.uimanager.events.TouchEvent)!event	PARAMETERy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU( U(-"
+type
+TouchEvent"
+isFinalfalse"%
+declarationStringTouchEvent event*event2±
+.com.facebook.react.uimanager.events.TouchEventTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaU U('•
+Ncom.facebook.react.uimanager.events.ReactEventEmitter.getDefaultEventEmitter()METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javap p(0"
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@Nullable</mark> <br><mark class="modifier">private </mark>RCTEventEmitter <mark class="method">getDefaultEventEmitter</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeRCTEventEmitter*getDefaultEventEmitter2¬
+?com.facebook.react.bridge.ReactContext.hasActiveReactInstance()CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javar r(.2…
+Fcom.facebook.react.bridge.ReactContext.getJSModule(java.lang.Class<T>)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javas) s(42Ì
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javau! u(12‚
+_com.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String)CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaw w()2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaq q(2“
+Ocom.facebook.react.uimanager.events.ReactEventEmitter?mReactContext@32.40:32.53CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javar
+ r(2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javas s(2“
+Ocom.facebook.react.uimanager.events.ReactEventEmitter?mReactContext@32.40:32.53CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javas s((2»
+Ecom.facebook.react.uimanager.events.ReactEventEmitter?TAG@23.30:23.33CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javav v(2’
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALLy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java{ {(2Ω
+3com.facebook.react.uimanager.events.RCTEventEmitterRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javap
+ p(áX
+òcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)METHODy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java ("
+isFinalfalse"√
+declarationString≠ WritableMap event<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@EventCategoryDef</mark> <mark class="modifier">int</mark> category)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveEvent2Ã
+Gcom.facebook.react.uimanager.common.ViewUtil.getUIManagerType(int, int)CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaá0 á(@2¢
+úcom.facebook.react.uimanager.events.RCTModernEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaâ â(&2”
+Ncom.facebook.react.uimanager.events.ReactEventEmitter.getDefaultEventEmitter()CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaë9 ë(O2É
+~com.facebook.react.uimanager.events.RCTEventEmitter.receiveEvent(int, java.lang.String, com.facebook.react.bridge.WritableMap)CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaí í(#2Ô
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaî î(/2‰
+_com.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String)CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javañ ñ('2≠
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTagCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaáA á(O2®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!surfaceIdCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaáQ á(Z2∫
+¥com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)?uiManagerType@135.23:135.36CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaà à(2⁄
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaà1 à(D2⁄
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaâ â(2®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!surfaceIdCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaä
+ ä(2≠
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTagCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaã
+ ã(2®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventNameCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaå
+ å(2Ø
+©com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!canCoalesceEventCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaç
+ ç(2∞
+™com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!customCoalesceKeyCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaé
+ é(2§
+ûcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaè
+ è(2ß
+°com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!categoryCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaê
+ ê(2∫
+¥com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)?uiManagerType@135.23:135.36CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaë ë(2◊
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaí í(2≠
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTagCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaí$ í(22®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventNameCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaí4 í(=2§
+ûcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaí? í(D2 
+Ecom.facebook.react.uimanager.events.ReactEventEmitter?TAG@23.30:23.33CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaï
+ ï(2®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!surfaceIdCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaò ò(2≠
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTagCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaö ö("2∫
+¥com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)?uiManagerType@135.23:135.36CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaú ú(!2®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventNameCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaû û(2§
+úcom.facebook.react.uimanager.events.RCTModernEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)OVERRIDEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (2≠
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!surfaceId	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÄ
+ Ä(2≤
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTag	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÅ
+ Å(2≠
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventName	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÇ Ç(2¥
+©com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!canCoalesceEvent	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÉ É(2µ
+™com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!customCoalesceKey	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÑ
+ Ñ(2©
+ûcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!event	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÖ Ö(!2¨
+°com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!category	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÜ Ü($2¡
+¥com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)?uiManagerType@135.23:135.36DECLARATION{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaá á($2é
+voidRETURN_TYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java	 (‡
+¥com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)?uiManagerType@135.23:135.36VARIABLE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaá á($"
+typeint"
+isFinalfalse"º
+declarationString¶<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">uiManagerType</mark> = ViewUtil.getUIManagerType(targetReactTag, surfaceId)*uiManagerType2à
+intTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaá á(2Ã
+Gcom.facebook.react.uimanager.common.ViewUtil.getUIManagerType(int, int)CALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaá0 á(@2≠
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTagCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaáA á(O2®
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!surfaceIdCALL{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaáQ á(Z§
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!surfaceId	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÄ
+ Ä("
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> surfaceId*	surfaceId2à
+intTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÄ Ä(	≥
+ßcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!targetReactTag	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÅ
+ Å("
+typeint"
+isFinalfalse"E
+declarationString0<mark class="modifier">int</mark> targetReactTag*targetReactTag2à
+intTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÅ Å(	ô
+¢com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!eventName	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÇ Ç("
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ï
+java.lang.StringTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÇ Ç(≈
+©com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!canCoalesceEvent	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÉ É("
+typeboolean"
+isFinalfalse"K
+declarationString6<mark class="modifier">boolean</mark> canCoalesceEvent*canCoalesceEvent2å
+booleanTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÉ É(º
+™com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!customCoalesceKey	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÑ
+ Ñ("
+typeint"
+isFinalfalse"H
+declarationString3<mark class="modifier">int</mark> customCoalesceKey*customCoalesceKey2à
+intTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÑ Ñ(	÷
+ûcom.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!event	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÖ Ö(!"
+typeWritableMap"
+isFinalfalse"P
+declarationString;<mark class="annotation">@Nullable</mark> WritableMap event*event2™
+%com.facebook.react.bridge.WritableMapTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÖ Ö(”
+°com.facebook.react.uimanager.events.ReactEventEmitter.receiveEvent(int, int, java.lang.String, boolean, int, com.facebook.react.bridge.WritableMap, int)!category	PARAMETER{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÜ Ü($"
+typeint"
+isFinalfalse"q
+declarationString\<mark class="annotation">@EventCategoryDef</mark> <mark class="modifier">int</mark> category*category2à
+intTYPE{
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.javaÜ Ü(Ù
+Ecom.facebook.react.uimanager.events.ReactEventEmitter?TAG@23.30:23.33VALUEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (!"
+isFinaltrue"
+typeString"«
+declarationString±<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = "ReactEventEmitter";"
+isStatictrue"
+accessprivate*TAG2ì
+java.lang.StringTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (∂
+Ucom.facebook.react.uimanager.events.ReactEventEmitter?mFabricEventEmitter@26.32:26.51VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java  (3"
+isFinalfalse"
+typeRCTModernEventEmitter"¨
+declarationStringñ<mark class="modifier">private </mark>RCTModernEventEmitter <mark class="class-field">mFabricEventEmitter</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mFabricEventEmitter2º
+9com.facebook.react.uimanager.events.RCTModernEventEmitterTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java
+ (õ
+Rcom.facebook.react.uimanager.events.ReactEventEmitter?mRCTEventEmitter@30.26:30.42VARIABLEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (*"
+isFinalfalse"
+typeRCTEventEmitter"£
+declarationStringç<mark class="modifier">private </mark>RCTEventEmitter <mark class="class-field">mRCTEventEmitter</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mRCTEventEmitter2∂
+3com.facebook.react.uimanager.events.RCTEventEmitterTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java
+ (ö
+Ocom.facebook.react.uimanager.events.ReactEventEmitter?mReactContext@32.40:32.53VALUEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java (  (5"
+isFinaltrue"
+typeReactApplicationContext"¶
+declarationStringê<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactApplicationContext <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2¥
+1com.facebook.react.bridge.ReactApplicationContextTYPEy
+onode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/ReactEventEmitter.java   ('

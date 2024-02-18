@@ -1,0 +1,1495 @@
+
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaçR
+7com.facebook.react.uimanager.events.EventDispatcherImplCLASS{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java8 8( ".
+package#com.facebook.react.uimanager.events"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"∆
+declarationString∞<mark class="modifier">public </mark><mark class="modifier">class </mark>EventDispatcherImpl<mark class="modifier"><br>implements </mark>EventDispatcher, LifecycleEventListener"
+accesspublic*EventDispatcherImpl2ä
+~com.facebook.react.uimanager.events.EventDispatcherImpl.EventDispatcherImpl(com.facebook.react.bridge.ReactApplicationContext)DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javah	 h(2¸
+pcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao o(2◊
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchAllEvents()DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java~ ~(2Á
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.maybePostFrameCallbackFromNonUI()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÇ Ç(.2è
+Äcom.facebook.react.uimanager.events.EventDispatcherImpl.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê ê(2í
+Écom.facebook.react.uimanager.events.EventDispatcherImpl.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï ï(2®
+ôcom.facebook.react.uimanager.events.EventDispatcherImpl.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaô ô(-2´
+úcom.facebook.react.uimanager.events.EventDispatcherImpl.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaù ù(02‘
+Fcom.facebook.react.uimanager.events.EventDispatcherImpl.onHostResume()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¢ ¢(2”
+Ecom.facebook.react.uimanager.events.EventDispatcherImpl.onHostPause()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaß ß(2’
+Gcom.facebook.react.uimanager.events.EventDispatcherImpl.onHostDestroy()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¨ ¨(2„
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl.onCatalystInstanceDestroyed()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∞ ∞()2Ÿ
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.stopFrameCallback()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∫ ∫( 2Á
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≈ ≈(.2Ú
+dcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ Û(2Á
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ ˇ($2ï
+Ücom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ Ö("2õ
+åcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ â("2·
+Scom.facebook.react.uimanager.events.EventDispatcherImpl.unregisterEventEmitter(int)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé é($2ã
+}com.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ Å()2›
+Ocom.facebook.react.uimanager.events.EventDispatcherImpl.clearEventsToDispatch()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaà à($2‡
+Tcom.facebook.react.uimanager.events.EventDispatcherImpl?EVENT_COMPARATOR@58.41:58.57DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java:) :(92‚
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsStagingLock@83.23:83.41DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaS S()2Â
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchLock@84.23:84.44DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaT T(,2›
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaU( U(52Í
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaV) V(C2„
+Wcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventNameToEventId@87.35:87.54DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaW# W(62Á
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mDispatchEventsRunnable@88.39:88.62DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaX' X(>2›
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaY! Y(.2⁄
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl?mListeners@90.62:90.72DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaZ> Z(H2Î
+_com.facebook.react.uimanager.events.EventDispatcherImpl?mPostEventDispatchListeners@92.67:92.94DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java\C \(^2Â
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mCurrentFrameCallback@94.46:94.67DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java^. ^(C2Í
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduledCount@96.30:96.56DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java` `(82·
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javab b(#2Â
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javac c(#2‰
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javad% d(72‚
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mNextEventTypeId@101.16:101.32DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javae e( 2Á
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduled@102.27:102.48DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaf f(02„
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallbackDECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaí í(-2‹
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnableDECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’ ’(&2∫
+3com.facebook.react.uimanager.events.EventDispatcherEXTEND{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java8, 8(;2∑
+0com.facebook.react.bridge.LifecycleEventListenerEXTEND{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java8= 8(Sã
+~com.facebook.react.uimanager.events.EventDispatcherImpl.EventDispatcherImpl(com.facebook.react.bridge.ReactApplicationContext)CONSTRUCTOR{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javah	 h("è
+declarationStringz<mark class="modifier">public </mark><mark class="method">EventDispatcherImpl</mark>(ReactApplicationContext reactContext)*EventDispatcherImpl2˜
+rcom.facebook.react.bridge.ReactContext.addLifecycleEventListener(com.facebook.react.bridge.LifecycleEventListener)CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaj j(+2ˇ
+zcom.facebook.react.uimanager.events.ReactEventEmitter.ReactEventEmitter(com.facebook.react.bridge.ReactApplicationContext)CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javak k(.2÷
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javai i(2ë
+ãcom.facebook.react.uimanager.events.EventDispatcherImpl.EventDispatcherImpl(com.facebook.react.bridge.ReactApplicationContext)!reactContextCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javai i( 2÷
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaj j(2›
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javak k(2÷
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javak/ k(<2ñ
+ãcom.facebook.react.uimanager.events.EventDispatcherImpl.EventDispatcherImpl(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETER{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javah5 h(A2√
+7com.facebook.react.uimanager.events.EventDispatcherImplRETURN_TYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javah	 h(À
+ãcom.facebook.react.uimanager.events.EventDispatcherImpl.EventDispatcherImpl(com.facebook.react.bridge.ReactApplicationContext)!reactContext	PARAMETER{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javah5 h(A"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2∂
+1com.facebook.react.bridge.ReactApplicationContextTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javah h(4¡'
+pcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)METHOD{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao o("
+isFinalfalse"ì
+declarationString~<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchEvent</mark>(Event event)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchEvent2æ
+9com.facebook.react.uimanager.events.Event.isInitialized()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javap% p(22˚
+vcom.facebook.react.uimanager.events.EventDispatcherListener.onEventDispatch(com.facebook.react.uimanager.events.Event)CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javas s(2ü
+java.util.ArrayList.add(E)CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaw w(2œ
+Jcom.facebook.systrace.Systrace.startAsyncFlow(long, java.lang.String, int)CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javax x(2Ω
+8com.facebook.react.uimanager.events.Event.getEventName()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javay6 y(B2º
+7com.facebook.react.uimanager.events.Event.getUniqueID()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javayL y(W2ﬁ
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.maybePostFrameCallbackFromNonUI()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java{ {(#2˚
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javap p($2”
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl?mListeners@90.62:90.72CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javar, r(62ç
+ácom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)?listener@114.33:114.41CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javas s(2˚
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javas s($2€
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsStagingLock@83.23:83.41CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javav v($2÷
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaw w(2˚
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaw w(2˚
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javay0 y(52˚
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!eventCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javayF y(K2ı
+lcom.facebook.react.uimanager.events.EventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)OVERRIDE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao o(2Ä
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!event	PARAMETER{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao" o('2î
+ácom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)?listener@114.33:114.41DECLARATION{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javar! r()2ê
+voidRETURN_TYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao	 o(à
+ácom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)?listener@114.33:114.41VARIABLE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javar! r()"
+typeEventDispatcherListener"
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>EventDispatcherListener <mark class="class-field">listener</mark>*listener2¿
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javar	 r( ˚
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchEvent(com.facebook.react.uimanager.events.Event)!event	PARAMETER{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao" o('"
+typeEvent"
+isFinalfalse" 
+declarationStringEvent event*event2Æ
+)com.facebook.react.uimanager.events.EventTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javao o(!ï
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.dispatchAllEvents()METHOD{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java~ ~("
+isFinalfalse"å
+declarationStringw<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">dispatchAllEvents</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*dispatchAllEvents2ﬁ
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.maybePostFrameCallbackFromNonUI()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java (#2–
+Gcom.facebook.react.uimanager.events.EventDispatcher.dispatchAllEvents()OVERRIDE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java~ ~(2ê
+voidRETURN_TYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java~	 ~(À
+
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.maybePostFrameCallbackFromNonUI()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÇ Ç(."
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">maybePostFrameCallbackFromNonUI</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*maybePostFrameCallbackFromNonUI2Ò
+jcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePostFromNonUI()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÜ Ü(.2ﬂ
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÉ É(2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mCurrentFrameCallback@94.46:94.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÜ Ü(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÇ
+ Ç(˘
+Äcom.facebook.react.uimanager.events.EventDispatcherImpl.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê ê("
+isFinalfalse"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addListener</mark>(EventDispatcherListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addListener2∑
+0java.util.concurrent.CopyOnWriteArrayList.add(E)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaë ë(2’
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl?mListeners@90.62:90.72CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaë ë(2ë
+âcom.facebook.react.uimanager.events.EventDispatcherImpl.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listenerCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaë ë(2á
+|com.facebook.react.uimanager.events.EventDispatcher.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê ê(2ñ
+âcom.facebook.react.uimanager.events.EventDispatcherImpl.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê2 ê(:2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê	 ê(œ
+âcom.facebook.react.uimanager.events.EventDispatcherImpl.addListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê2 ê(:"
+typeEventDispatcherListener"
+isFinalfalse"5
+declarationString EventDispatcherListener listener*listener2¬
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaê ê(1ù
+Écom.facebook.react.uimanager.events.EventDispatcherImpl.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï ï("
+isFinalfalse"™
+declarationStringî<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeListener</mark>(EventDispatcherListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeListener2…
+Bjava.util.concurrent.CopyOnWriteArrayList.remove(java.lang.Object)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javañ ñ(2’
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl?mListeners@90.62:90.72CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javañ ñ(2î
+åcom.facebook.react.uimanager.events.EventDispatcherImpl.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listenerCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javañ ñ(2ä
+com.facebook.react.uimanager.events.EventDispatcher.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï ï(2ô
+åcom.facebook.react.uimanager.events.EventDispatcherImpl.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï5 ï(=2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï	 ï(“
+åcom.facebook.react.uimanager.events.EventDispatcherImpl.removeListener(com.facebook.react.uimanager.events.EventDispatcherListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï5 ï(="
+typeEventDispatcherListener"
+isFinalfalse"5
+declarationString EventDispatcherListener listener*listener2¬
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaï ï(4ú
+ôcom.facebook.react.uimanager.events.EventDispatcherImpl.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaô ô(-"
+isFinalfalse"¿
+declarationString™<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addBatchEventDispatchedListener</mark>(BatchEventDispatchedListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addBatchEventDispatchedListener2∑
+0java.util.concurrent.CopyOnWriteArrayList.add(E)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaö  ö(#2Ê
+_com.facebook.react.uimanager.events.EventDispatcherImpl?mPostEventDispatchListeners@92.67:92.94CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaö ö(2™
+¢com.facebook.react.uimanager.events.EventDispatcherImpl.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listenerCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaö$ ö(,2°
+ïcom.facebook.react.uimanager.events.EventDispatcher.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaô ô(-2Ø
+¢com.facebook.react.uimanager.events.EventDispatcherImpl.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaôK ô(S2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaô	 ô(˜
+¢com.facebook.react.uimanager.events.EventDispatcherImpl.addBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaôK ô(S"$
+typeBatchEventDispatchedListener"
+isFinalfalse":
+declarationString%BatchEventDispatchedListener listener*listener2«
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaô. ô(J¿
+úcom.facebook.react.uimanager.events.EventDispatcherImpl.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaù ù(0"
+isFinalfalse"√
+declarationString≠<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeBatchEventDispatchedListener</mark>(BatchEventDispatchedListener listener)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*"removeBatchEventDispatchedListener2…
+Bjava.util.concurrent.CopyOnWriteArrayList.remove(java.lang.Object)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaû  û(&2Ê
+_com.facebook.react.uimanager.events.EventDispatcherImpl?mPostEventDispatchListeners@92.67:92.94CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaû û(2≠
+•com.facebook.react.uimanager.events.EventDispatcherImpl.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listenerCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaû' û(/2§
+òcom.facebook.react.uimanager.events.EventDispatcher.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaù ù(02≤
+•com.facebook.react.uimanager.events.EventDispatcherImpl.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaùN ù(V2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaù	 ù(˙
+•com.facebook.react.uimanager.events.EventDispatcherImpl.removeBatchEventDispatchedListener(com.facebook.react.uimanager.events.BatchEventDispatchedListener)!listener	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaùN ù(V"$
+typeBatchEventDispatchedListener"
+isFinalfalse":
+declarationString%BatchEventDispatchedListener listener*listener2«
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaù1 ù(Mµ
+Fcom.facebook.react.uimanager.events.EventDispatcherImpl.onHostResume()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¢ ¢("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostResume</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostResume2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.maybePostFrameCallbackFromNonUI()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java£ £(#2 
+?com.facebook.react.bridge.LifecycleEventListener.onHostResume()OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¢ ¢(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¢	 ¢(£
+Ecom.facebook.react.uimanager.events.EventDispatcherImpl.onHostPause()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaß ß("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostPause</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostPause2“
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.stopFrameCallback()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java® ®(2…
+>com.facebook.react.bridge.LifecycleEventListener.onHostPause()OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaß ß(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaß	 ß(´
+Gcom.facebook.react.uimanager.events.EventDispatcherImpl.onHostDestroy()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¨ ¨("
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostDestroy2“
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.stopFrameCallback()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≠ ≠(2À
+@com.facebook.react.bridge.LifecycleEventListener.onHostDestroy()OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¨ ¨(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¨	 ¨(¨
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl.onCatalystInstanceDestroyed()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∞ ∞()"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onCatalystInstanceDestroyed</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onCatalystInstanceDestroyed2œ
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java± ±(2“
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.stopFrameCallback()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaµ µ(2ü
+ócom.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-272c7cee-267b-4ed1-85fd-82f78061e2bd.Anonymous-272c7cee-267b-4ed1-85fd-82f78061e2bd()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≤ ≤(2‹
+Qcom.facebook.react.uimanager.events.EventDispatcher.onCatalystInstanceDestroyed()OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∞ ∞()2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∞	 ∞(Û	
+Kcom.facebook.react.uimanager.events.EventDispatcherImpl.stopFrameCallback()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∫ ∫( "
+isFinalfalse"ç
+declarationStringx<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">stopFrameCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*stopFrameCallback2¿
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaª ª(!2„
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.stop()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaº º(2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mCurrentFrameCallback@94.46:94.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaº º(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∫
+ ∫(âx
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≈ ≈(."
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">moveStagedEventsToDispatchQueue</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*moveStagedEventsToDispatchQueue2°
+java.util.ArrayList.size()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java»* »(.2£
+java.util.ArrayList.get(int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java…& …()2æ
+7com.facebook.react.uimanager.events.Event.canCoalesce()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÀ À( 2Ñ
+}com.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÃ Ã(&2Î
+dcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java— —(2Ω
+6com.facebook.react.uimanager.events.Event.getViewTag()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—# —(-2ø
+8com.facebook.react.uimanager.events.Event.getEventName()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—7 —(C2√
+<com.facebook.react.uimanager.events.Event.getCoalescingKey()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—M —(]2º
+5com.facebook.react.uimanager.events.Event.coalesce(T)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹) ‹(12Ñ
+}com.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË Ë(&2∫
+3com.facebook.react.uimanager.events.Event.dispose()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÎ Î("2¢
+java.util.ArrayList.clear()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÔ Ô(2›
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsStagingLock@83.23:83.41CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∆ ∆($2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchLock@84.23:84.44CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java« «()2
+icom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?i@200.17:200.18CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java» »(2ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java» »()2
+icom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?i@200.17:200.18CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java»2 »(32ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java… …(%2
+icom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?i@200.17:200.18CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java…* …(+2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÀ À(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÃ' Ã(,2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java— —("2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—1 —(62Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—G —(L2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’! ’(;2˙
+scom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventCookie@208.15:208.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’@ ’(K2˚
+tcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEventIdx@213.18:213.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java◊ ◊(2˘
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToAdd@211.16:211.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÿ ÿ(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÿ ÿ(2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaŸ Ÿ(&2˙
+scom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventCookie@208.15:208.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaŸ+ Ÿ(62‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaŸ8 Ÿ(M2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€ €(/2˚
+tcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEventIdx@213.18:213.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€0 €(<2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹# ‹((2¯
+qcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEvent@219.18:219.27CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹2 ‹(;2˝
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?coalescedEvent@220.18:220.32CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java› ›(2¯
+qcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEvent@219.18:219.27CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java›" ›(+2˘
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToAdd@211.16:211.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬁ ﬁ(2˝
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?coalescedEvent@220.18:220.32CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬁ ﬁ()2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬂ ﬂ((2˙
+scom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventCookie@208.15:208.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬂ- ﬂ(82‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬂ: ﬂ(O2˝
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToDispose@212.16:212.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‡ ‡(2¯
+qcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEvent@219.18:219.27CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‡ ‡((2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java· ·(2˚
+tcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEventIdx@213.18:213.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java·  ·(,2˝
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToDispose@212.16:212.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java„ „(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java„ „($2˘
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToAdd@211.16:211.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÁ Á(2˘
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToAdd@211.16:211.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË' Ë(12˝
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToDispose@212.16:212.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÍ Í(2˝
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToDispose@212.16:212.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÎ Î(2ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÔ Ô(2˜
+icom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?i@200.17:200.18DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java» »(2˚
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java… …(2Å
+scom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventCookie@208.15:208.26DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java– –(2Ä
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToAdd@211.16:211.26DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java” ”(2Ñ
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToDispose@212.16:212.30DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‘ ‘(2Ç
+tcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEventIdx@213.18:213.30DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’ ’(2ˇ
+qcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEvent@219.18:219.27DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€ €(2Ñ
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?coalescedEvent@220.18:220.32DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹ ‹( 2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≈
+ ≈(°
+icom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?i@200.17:200.18VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java» »("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java» »(¿	
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java… …("
+typeEvent"
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>Event <mark class="class-field">event</mark> = mEventStaging.get(i)*event2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java…
+ …(2£
+java.util.ArrayList.get(int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java…& …()2ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java… …(%2
+icom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?i@200.17:200.18CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java…* …(+Ï
+scom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventCookie@208.15:208.26VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java– –("
+typelong"
+isFinalfalse"ï
+declarationStringˇ<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">eventCookie</mark> = getEventCookie(event.getViewTag()<mark class="modifier">,</mark> event.getEventName()<mark class="modifier">,</mark> event.getCoalescingKey())*eventCookie2ã
+longTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java–
+ –(2Î
+dcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java— —(2Ω
+6com.facebook.react.uimanager.events.Event.getViewTag()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—# —(-2ø
+8com.facebook.react.uimanager.events.Event.getEventName()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—7 —(C2√
+<com.facebook.react.uimanager.events.Event.getCoalescingKey()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—M —(]2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java— —("2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—1 —(62Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java—G —(LÍ
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToAdd@211.16:211.26VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java” ”("
+typeEvent"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark>Event <mark class="class-field">eventToAdd</mark> = <mark class="modifier">null</mark>*
+eventToAdd2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java”
+ ”(ˆ
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventToDispose@212.16:212.30VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‘ ‘("
+typeEvent"
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark>Event <mark class="class-field">eventToDispose</mark> = <mark class="modifier">null</mark>*eventToDispose2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‘
+ ‘(À
+tcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEventIdx@213.18:213.30VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’ ’("
+typeInteger"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark>Integer <mark class="class-field">lastEventIdx</mark> = mEventCookieToLastEventIdx.get(eventCookie)*lastEventIdx2ò
+java.lang.IntegerTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’
+ ’(2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’! ’(;2˙
+scom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?eventCookie@208.15:208.26CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’@ ’(K¡
+qcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEvent@219.18:219.27VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€ €("
+typeEvent"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>Event <mark class="class-field">lastEvent</mark> = mEventsToDispatch[lastEventIdx]*	lastEvent2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€ €(2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€ €(/2˚
+tcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEventIdx@213.18:213.30CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€0 €(<û
+
+vcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?coalescedEvent@220.18:220.32VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹ ‹( "
+typeEvent"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>Event <mark class="class-field">coalescedEvent</mark> = event.coalesce(lastEvent)*coalescedEvent2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹ ‹(2º
+5com.facebook.react.uimanager.events.Event.coalesce(T)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹) ‹(12Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?event@201.16:201.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹# ‹((2¯
+qcom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()?lastEvent@219.18:219.27CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‹2 ‹(;⁄.
+dcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ Û("
+isFinalfalse"Ò
+declarationString€<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="method">getEventCookie</mark>(<mark class="modifier">int</mark> viewTag<mark class="modifier"><mark class="modifier">,</mark></mark> String eventName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">short</mark> coalescingKey)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typelong*getEventCookie2™
+#java.util.Map.get(java.lang.Object)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı+ ı(.2û
+java.util.Map.put(K, V)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˙ ˙(2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¸ ¸(2ﬁ
+Wcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventNameToEventId@87.35:87.54CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı ı(*2ı
+ncom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!eventNameCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı/ ı(82Ñ
+}com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventIdObj@245.10:245.20CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˆ ˆ(2Ö
+~com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventTypeId@244.10:244.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˜ ˜(2Ñ
+}com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventIdObj@245.10:245.20CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˜ ˜(2Ö
+~com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventTypeId@244.10:244.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˘ ˘(2›
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mNextEventTypeId@101.16:101.32CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˘ ˘($2ﬁ
+Wcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventNameToEventId@87.35:87.54CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˙ ˙(2ı
+ncom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!eventNameCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˙ ˙('2Ö
+~com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventTypeId@244.10:244.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˙) ˙(42Û
+lcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!viewTagCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¸ ¸(!2Ö
+~com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventTypeId@244.10:244.21CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¸# ¸(.2˘
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!coalescingKeyCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¸0 ¸(=2¯
+lcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!viewTag	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ" Û()2˙
+ncom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!eventName	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ2 Û(;2˛
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!coalescingKey	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛC Û(P2å
+~com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventTypeId@244.10:244.21DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÙ
+ Ù(2ã
+}com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventIdObj@245.10:245.20DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı
+ ı(2í
+longRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ
+ Û(Õ
+~com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventTypeId@244.10:244.21VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÙ
+ Ù("
+typeshort"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark><mark class="modifier">short</mark> <mark class="class-field">eventTypeId</mark>*eventTypeId2å
+shortTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÙ Ù(	·	
+}com.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)?eventIdObj@245.10:245.20VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı
+ ı("
+typeShort"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark>Short <mark class="class-field">eventIdObj</mark> = mEventNameToEventId.get(eventName)*
+eventIdObj2ñ
+java.lang.ShortTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı ı(	2™
+#java.util.Map.get(java.lang.Object)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı+ ı(.2ﬁ
+Wcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventNameToEventId@87.35:87.54CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı ı(*2ı
+ncom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!eventNameCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı/ ı(8Ì
+lcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!viewTag	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ" Û()"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> viewTag*viewTag2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ Û(!Ë
+ncom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!eventName	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ2 Û(;"
+typeString"
+isFinalfalse"%
+declarationStringString eventName*	eventName2ó
+java.lang.StringTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ+ Û(1Ö
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, java.lang.String, short)!coalescingKey	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛC Û(P"
+typeshort"
+isFinalfalse"F
+declarationString1<mark class="modifier">short</mark> coalescingKey*coalescingKey2å
+shortTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÛ= Û(Bæ
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ ˇ($"
+isFinalfalse"µ
+declarationStringü<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">long</mark> <mark class="method">getEventCookie</mark>(<mark class="modifier">int</mark> viewTag<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">short</mark> eventTypeId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">short</mark> coalescingKey)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typelong*getEventCookie2Ë
+acom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!viewTagCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÄ Ä(2Ï
+ecom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!eventTypeIdCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ Å(2Ó
+gcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!coalescingKeyCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÇ Ç( 2Ì
+acom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!viewTag	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ) ˇ(02Ò
+ecom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!eventTypeId	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ8 ˇ(C2Û
+gcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!coalescingKey	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇK ˇ(X2í
+longRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ ˇ(‚
+acom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!viewTag	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ) ˇ(0"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> viewTag*viewTag2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ% ˇ((Ù
+ecom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!eventTypeId	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ8 ˇ(C"
+typeshort"
+isFinalfalse"D
+declarationString/<mark class="modifier">short</mark> eventTypeId*eventTypeId2å
+shortTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇ2 ˇ(7˙
+gcom.facebook.react.uimanager.events.EventDispatcherImpl.getEventCookie(int, short, short)!coalescingKey	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇK ˇ(X"
+typeshort"
+isFinalfalse"F
+declarationString1<mark class="modifier">short</mark> coalescingKey*coalescingKey2å
+shortTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaˇE ˇ(JŸ
+Ücom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ Ö(""
+isFinalfalse"»
+declarationString≤<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerEventEmitter</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType<mark class="modifier"><mark class="modifier">,</mark></mark> RCTEventEmitter eventEmitter)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerEventEmitter2ˇ
+xcom.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTEventEmitter)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÜ Ü(2ﬂ
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÜ Ü(2ú
+îcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerTypeCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÜ  Ü(-2õ
+ìcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitterCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÜ/ Ü(;2é
+Çcom.facebook.react.uimanager.events.EventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ Ö("2°
+îcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerType	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ6 Ö(C2†
+ìcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitter	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖU Ö(a2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ	 Ö(—
+îcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!uiManagerType	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ6 Ö(C"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ2 Ö(5…
+ìcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTEventEmitter)!eventEmitter	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖU Ö(a"
+typeRCTEventEmitter"
+isFinalfalse"1
+declarationStringRCTEventEmitter eventEmitter*eventEmitter2∫
+3com.facebook.react.uimanager.events.RCTEventEmitterTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖE Ö(Tâ
+åcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ â(""
+isFinalfalse"Œ
+declarationString∏<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">registerEventEmitter</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType<mark class="modifier"><mark class="modifier">,</mark></mark> RCTModernEventEmitter eventEmitter)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*registerEventEmitter2Ö
+~com.facebook.react.uimanager.events.ReactEventEmitter.register(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaã ã(2ﬂ
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaã ã(2¢
+öcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerTypeCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaã  ã(-2°
+ôcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitterCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaã/ ã(;2î
+àcom.facebook.react.uimanager.events.EventDispatcher.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ â("2ß
+öcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerType	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä ä(&2¶
+ôcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitter	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä> ä(J2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ	 â(◊
+öcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!uiManagerType	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä ä(&"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä ä(·
+ôcom.facebook.react.uimanager.events.EventDispatcherImpl.registerEventEmitter(int, com.facebook.react.uimanager.events.RCTModernEventEmitter)!eventEmitter	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä> ä(J"
+typeRCTModernEventEmitter"
+isFinalfalse"7
+declarationString"RCTModernEventEmitter eventEmitter*eventEmitter2¿
+9com.facebook.react.uimanager.events.RCTModernEventEmitterTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä( ä(=ø
+Scom.facebook.react.uimanager.events.EventDispatcherImpl.unregisterEventEmitter(int)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé é($"
+isFinalfalse"
+declarationString⁄<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">unregisterEventEmitter</mark>(<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*unregisterEventEmitter2Ã
+Ecom.facebook.react.uimanager.events.ReactEventEmitter.unregister(int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaè è(!2ﬂ
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaè è(2Ë
+acom.facebook.react.uimanager.events.EventDispatcherImpl.unregisterEventEmitter(int)!uiManagerTypeCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaè" è(/2⁄
+Ocom.facebook.react.uimanager.events.EventDispatcher.unregisterEventEmitter(int)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé é($2Ì
+acom.facebook.react.uimanager.events.EventDispatcherImpl.unregisterEventEmitter(int)!uiManagerType	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé8 é(E2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé	 é(ù
+acom.facebook.react.uimanager.events.EventDispatcherImpl.unregisterEventEmitter(int)!uiManagerType	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé8 é(E"
+typeint"
+isFinalfalse"s
+declarationString^<mark class="annotation">@UIManagerType</mark> <mark class="modifier">int</mark> uiManagerType*uiManagerType2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaé4 é(7§
+}com.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ Å()"
+isFinalfalse"¢
+declarationStringå<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">addEventToEventsToDispatch</mark>(Event event)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*addEventToEventsToDispatch2®
+!java.util.Arrays.copyOf(T[], int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÉ! É('2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÇ Ç(2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÇ! Ç(22‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÉ É(2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÉ( É(92‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÉ? É(P2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ Ö(2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ Ö(+2ã
+Écom.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)!eventCALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÖ1 Ö(62ê
+Écom.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)!event	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ0 Å(52í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ
+ Å(ç
+Écom.facebook.react.uimanager.events.EventDispatcherImpl.addEventToEventsToDispatch(com.facebook.react.uimanager.events.Event)!event	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ0 Å(5"
+typeEvent"
+isFinalfalse" 
+declarationStringEvent event*event2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÅ* Å(/Á
+Ocom.facebook.react.uimanager.events.EventDispatcherImpl.clearEventsToDispatch()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaà à($"
+isFinalfalse"ë
+declarationString|<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">clearEventsToDispatch</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*clearEventsToDispatch2Ã
+Ejava.util.Arrays.fill(java.lang.Object[], int, int, java.lang.Object)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ â(2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ â(!2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaâ& â(;2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaä ä(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaà
+ à(”&
+Tcom.facebook.react.uimanager.events.EventDispatcherImpl?EVENT_COMPARATOR@58.41:58.57VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java:) :(9"
+isFinaltrue"
+typeComparator<Event>"˜
+declarationString·<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>Comparator<Event> <mark class="class-field">EVENT_COMPARATOR</mark> = new Comparator<Event>() {
+
+    @Override
+    public <mark class="modifier">int</mark> compare(Event lhs, Event rhs) {
+        if (lhs == <mark class="modifier">null</mark> && rhs == <mark class="modifier">null</mark>) {
+            return 0;
+        }
+        if (lhs == <mark class="modifier">null</mark>) {
+            return -1;
+        }
+        if (rhs == <mark class="modifier">null</mark>) {
+            return 1;
+        }
+        <mark class="modifier">long</mark> diff = lhs.getTimestampMs() - rhs.getTimestampMs();
+        if (diff == 0) {
+            return 0;
+        } else if (diff < 0) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+};"
+isStatictrue"
+accessprivate*EVENT_COMPARATOR2ô
+java.util.ComparatorTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java: :(!2∑
+)com.facebook.react.uimanager.events.EventTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java:" :('2ø
+:com.facebook.react.uimanager.events.Event.getTimestampMs()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaH H((2ø
+:com.facebook.react.uimanager.events.Event.getTimestampMs()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaH1 H(?2ù
+ócom.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-68629f91-3177-4bfa-8247-401d06efa86f.Anonymous-68629f91-3177-4bfa-8247-401d06efa86f()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java;
+ ;(2Œ
+»com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-80b857e0-cc1b-4194-8cb0-0bb4582bcf5e.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)!lhsCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java> >(2Œ
+»com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-2f78bf8e-3ddb-4e0f-898e-a7482bd97be3.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)!rhsCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java> >( 2Œ
+»com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-ad5d594f-771f-4e70-affa-74b04c64b18a.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)!lhsCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaA A(2Œ
+»com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-d37fbb30-2cae-46f0-ad06-a805435f3e9c.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)!rhsCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaD D(2Œ
+»com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-ffe26863-f871-4ad3-ac72-d5be7f2b560d.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)!lhsCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaH H(2Œ
+»com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-5844f15a-87af-42c3-ba8c-78fded10b903.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)!rhsCALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaH- H(02€
+’com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-160cc547-5262-4b00-b54a-75597092e085.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)?diff@72.15:72.19CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaI I(2€
+’com.facebook.react.uimanager.events.EventDispatcherImpl.Anonymous-4967861e-2d9d-4c2a-a86e-eafdfc8bdd0a.compare(com.facebook.react.uimanager.events.Event, com.facebook.react.uimanager.events.Event)?diff@72.15:72.19CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaK K(ù
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsStagingLock@83.23:83.41VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaS S()"
+isFinaltrue"
+typeObject"™
+declarationStringî<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">mEventsStagingLock</mark> = new Object();"
+isStaticfalse"
+accessprivate*mEventsStagingLock2ï
+java.lang.ObjectTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaS S(2û
+java.lang.Object.Object()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaS0 S(6¶
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchLock@84.23:84.44VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaT T(,"
+isFinaltrue"
+typeObject"≠
+declarationStringó<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">mEventsToDispatchLock</mark> = new Object();"
+isStaticfalse"
+accessprivate*mEventsToDispatchLock2ï
+java.lang.ObjectTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaT T(2û
+java.lang.Object.Object()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaT3 T(9†
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaU( U(5"
+isFinaltrue"
+typeReactApplicationContext"¶
+declarationStringê<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactApplicationContext <mark class="class-field">mReactContext</mark>"
+isStaticfalse"
+accessprivate*mReactContext2∂
+1com.facebook.react.bridge.ReactApplicationContextTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaU U('Ò
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaV) V(C"
+isFinaltrue" 
+typeLongSparseArray<Integer>"œ
+declarationStringπ<mark class="modifier">private </mark><mark class="modifier">final </mark>LongSparseArray<Integer> <mark class="class-field">mEventCookieToLastEventIdx</mark> = new LongSparseArray<>();"
+isStaticfalse"
+accessprivate*mEventCookieToLastEventIdx2°
+android.util.LongSparseArrayTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaV V(2ü
+java.lang.IntegerTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaV  V('ô	
+Wcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventNameToEventId@87.35:87.54VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaW# W(6"
+isFinaltrue"
+typeMap<String, Short>"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">final </mark>Map<String, Short> <mark class="class-field">mEventNameToEventId</mark> = MapBuilder.newHashMap();"
+isStaticfalse"
+accessprivate*mEventNameToEventId2í
+java.util.MapTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaW W(2û
+java.lang.StringTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaW W(2ù
+java.lang.ShortTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaW W(!2∂
+1com.facebook.react.common.MapBuilder.newHashMap()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaWD W(NË
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mDispatchEventsRunnable@88.39:88.62VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaX' X(>"
+isFinaltrue"
+typeDispatchEventsRunnable"œ
+declarationStringπ<mark class="modifier">private </mark><mark class="modifier">final </mark>DispatchEventsRunnable <mark class="class-field">mDispatchEventsRunnable</mark> = new DispatchEventsRunnable();"
+isStaticfalse"
+accessprivate*mDispatchEventsRunnable2”
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnableTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaX X(&2Ï
+gcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.DispatchEventsRunnable()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaXE X([Í
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mEventStaging@89.33:89.46VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaY! Y(."
+isFinaltrue"
+typeArrayList<Event>"¥
+declarationStringû<mark class="modifier">private </mark><mark class="modifier">final </mark>ArrayList<Event> <mark class="class-field">mEventStaging</mark> = new ArrayList<>();"
+isStaticfalse"
+accessprivate*mEventStaging2ò
+java.util.ArrayListTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaY Y(2∑
+)com.facebook.react.uimanager.events.EventTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaY Y(2§
+java.util.ArrayList.ArrayList()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaY5 Y(@Ô
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl?mListeners@90.62:90.72VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaZ> Z(H"
+isFinaltrue"5
+type-CopyOnWriteArrayList<EventDispatcherListener>"Ÿ
+declarationString√<mark class="modifier">private </mark><mark class="modifier">final </mark>CopyOnWriteArrayList<EventDispatcherListener> <mark class="class-field">mListeners</mark> = new CopyOnWriteArrayList<>();"
+isStaticfalse"
+accessprivate*
+mListeners2Æ
+)java.util.concurrent.CopyOnWriteArrayListTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaZ Z($2…
+;com.facebook.react.uimanager.events.EventDispatcherListenerTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaZ% Z(<2≈
+@java.util.concurrent.CopyOnWriteArrayList.CopyOnWriteArrayList()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java[
+ [( ±	
+_com.facebook.react.uimanager.events.EventDispatcherImpl?mPostEventDispatchListeners@92.67:92.94VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java\C \(^"
+isFinaltrue":
+type2CopyOnWriteArrayList<BatchEventDispatchedListener>"Ô
+declarationStringŸ<mark class="modifier">private </mark><mark class="modifier">final </mark>CopyOnWriteArrayList<BatchEventDispatchedListener> <mark class="class-field">mPostEventDispatchListeners</mark> = new CopyOnWriteArrayList<>();"
+isStaticfalse"
+accessprivate*mPostEventDispatchListeners2Æ
+)java.util.concurrent.CopyOnWriteArrayListTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java\ \($2Œ
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE_ARGUMENT{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java\% \(A2≈
+@java.util.concurrent.CopyOnWriteArrayList.CopyOnWriteArrayList()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java]
+ ]( å
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mCurrentFrameCallback@94.46:94.67VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java^. ^(C"
+isFinaltrue"%
+typeScheduleDispatchFrameCallback"€
+declarationString≈<mark class="modifier">private </mark><mark class="modifier">final </mark>ScheduleDispatchFrameCallback <mark class="class-field">mCurrentFrameCallback</mark> = new ScheduleDispatchFrameCallback();"
+isStaticfalse"
+accessprivate*mCurrentFrameCallback2⁄
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallbackTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java^ ^(-2˙
+ucom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.ScheduleDispatchFrameCallback()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java_
+ _('É
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduledCount@96.30:96.56VALUE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java` `(8"
+isFinaltrue"
+typeAtomicInteger"¿
+declarationString™<mark class="modifier">private </mark><mark class="modifier">final </mark>AtomicInteger <mark class="class-field">mHasDispatchScheduledCount</mark> = new AtomicInteger();"
+isStaticfalse"
+accessprivate*mHasDispatchScheduledCount2Æ
+)java.util.concurrent.atomic.AtomicIntegerTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java` `(2æ
+9java.util.concurrent.atomic.AtomicInteger.AtomicInteger()CALL{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java`? `(LÙ
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35VARIABLE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javab b(#"
+isFinalfalse"
+typeEvent"Ü
+declarationStringq<mark class="modifier">private </mark>Event[] <mark class="class-field">mEventsToDispatch</mark> = new Event[16];"
+isStaticfalse"
+accessprivate*mEventsToDispatch2∞
++com.facebook.react.uimanager.events.Event[]TYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javab
+ b(Â
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35VARIABLE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javac c(#"
+isFinalfalse"
+typeint"ô
+declarationStringÉ<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">mEventsToDispatchSize</mark> = 0;"
+isStaticfalse"
+accessprivate*mEventsToDispatchSize2à
+intTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javac
+ c(à
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55VARIABLE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javad% d(7"
+isFinalfalse"
+typeReactEventEmitter"Ä
+declarationStringk<mark class="modifier">private </mark>ReactEventEmitter <mark class="class-field">mReactEventEmitter</mark>"
+isStaticfalse"
+accessprivate*mReactEventEmitter2∫
+5com.facebook.react.uimanager.events.ReactEventEmitterTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javad d($ﬁ
+Vcom.facebook.react.uimanager.events.EventDispatcherImpl?mNextEventTypeId@101.16:101.32VARIABLE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javae e( "
+isFinalfalse"
+typeshort"ñ
+declarationStringÄ<mark class="modifier">private </mark><mark class="modifier">short</mark> <mark class="class-field">mNextEventTypeId</mark> = 0;"
+isStaticfalse"
+accessprivate*mNextEventTypeId2ä
+shortTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javae
+ e(ï
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduled@102.27:102.48VARIABLE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaf f(0"
+isFinalfalse"
+typeboolean"ø
+declarationString©<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mHasDispatchScheduled</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mHasDispatchScheduled2å
+booleanTYPE{
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaf f(›
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallbackCLASS}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaí í(-"B
+package7com.facebook.react.uimanager.events.EventDispatcherImpl"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"≈
+declarationStringØ<mark class="modifier">private </mark><mark class="modifier">class </mark>ScheduleDispatchFrameCallback<mark class="modifier"> extends </mark>ChoreographerCompat.FrameCallback"
+accessprivate*ScheduleDispatchFrameCallback2Ò
+ccom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.doFrame(long)DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó(2Í
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.stop()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java± ±(2Ô
+acom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePost()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaµ µ(2Í
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.post()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaº º(2¯
+jcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePostFromNonUI()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¡ ¡("2˚
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mIsPosted@275.29:275.38DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaì ì(&2˝
+ocom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mShouldStop@276.20:276.31DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaî î(2 
+Acom.facebook.react.modules.core.ChoreographerCompat.FrameCallbackEXTEND}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaíJ í(Wˇ"
+ccom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.doFrame(long)METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó("
+isFinalfalse"‚
+declarationStringÃ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">doFrame</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*doFrame2¿
+9com.facebook.react.bridge.UiThreadUtil.assertOnUiThread()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaò ò(#2„
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.post()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaù ù(2 
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java† †(2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl.moveStagedEventsToDispatchQueue()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¢ ¢('2—
+Jcom.facebook.systrace.Systrace.startAsyncFlow(long, java.lang.String, int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¶ ¶(!2∂
+/java.util.concurrent.atomic.AtomicInteger.get()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java©) ©(,2‘
+Mcom.facebook.react.bridge.ReactContext.runOnJSQueueThread(java.lang.Runnable)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java™ ™(*2∂
+/com.facebook.systrace.Systrace.endSection(long)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≠ ≠(2ˆ
+ocom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mShouldStop@276.20:276.31CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaö
+ ö(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mIsPosted@275.29:275.38CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaõ õ(2‚
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduled@102.27:102.48CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java§ §("2‚
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduled@102.27:102.48CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java•
+ •(2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduledCount@96.30:96.56CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java© ©((2ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java™
+ ™(2‚
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mDispatchEventsRunnable@88.39:88.62CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java™+ ™(B2⁄
+Ocom.facebook.react.modules.core.ChoreographerCompat.FrameCallback.doFrame(long)OVERRIDE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó(2˛
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.doFrame(long)!frameTimeNanos	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó(+2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó(Ñ
+rcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.doFrame(long)!frameTimeNanos	PARAMETER}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó(+"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2ã
+longTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaó ó(‘
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.stop()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java± ±("
+isFinalfalse"
+declarationStringj<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">stop</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*stop2ˆ
+ocom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mShouldStop@276.20:276.31CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java≤ ≤(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java± ±(ø
+
+acom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePost()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaµ µ("
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">maybePost</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	maybePost2„
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.post()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∏ ∏(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mIsPosted@275.29:275.38CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∂ ∂(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mIsPosted@275.29:275.38CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java∑ ∑(2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaµ µ(ﬁ
+
+\com.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.post()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaº º("
+isFinalfalse"Ä
+declarationStringk<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">post</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*post2–
+»com.facebook.react.modules.core.ReactChoreographer.postFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaæ æ(2«
+@com.facebook.react.modules.core.ReactChoreographer.getInstance()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaΩ Ω($2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mCurrentFrameCallback@94.46:94.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaæL æ(a2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaº º(‰
+jcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePostFromNonUI()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¡ ¡(""
+isFinalfalse"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">maybePostFromNonUI</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*maybePostFromNonUI2¡
+:com.facebook.react.bridge.ReactContext.isOnUiQueueThread()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java« «()2Ë
+acom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePost()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java» »(2‘
+Mcom.facebook.react.bridge.ReactContext.runOnUiQueueThread(java.lang.Runnable)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java   ((2Ë
+acom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.maybePost()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaŒ Œ(2Ω
+µcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback.Anonymous-37951e52-6f16-46b3-b7b5-046a6804c558.Anonymous-37951e52-6f16-46b3-b7b5-046a6804c558()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÀ À(2Ù
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mIsPosted@275.29:275.38CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¬
+ ¬(2ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java«
+ «(2ÿ
+Qcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactContext@85.40:85.53CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java   (2í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¡ ¡(ì
+mcom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mIsPosted@275.29:275.38VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaì ì(&"
+isFinalfalse"
+typeboolean"≥
+declarationStringù<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mIsPosted</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*	mIsPosted2é
+booleanTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaì ì(ô
+ocom.facebook.react.uimanager.events.EventDispatcherImpl.ScheduleDispatchFrameCallback?mShouldStop@276.20:276.31VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaî î("
+isFinalfalse"
+typeboolean"µ
+declarationStringü<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mShouldStop</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mShouldStop2é
+booleanTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaî î(≤
+Ncom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnableCLASS}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’ ’(&"B
+package7com.facebook.react.uimanager.events.EventDispatcherImpl"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"´
+declarationStringï<mark class="modifier">private </mark><mark class="modifier">class </mark>DispatchEventsRunnable<mark class="modifier"><br>implements </mark>Runnable"
+accessprivate*DispatchEventsRunnable2‚
+Tcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÿ ÿ(2õ
+java.lang.RunnableEXTEND}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java’2 ’(:§H
+Tcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()METHOD}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÿ ÿ("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">run</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*run2 
+Ccom.facebook.systrace.Systrace.beginSection(long, java.lang.String)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaŸ Ÿ(2œ
+Hcom.facebook.systrace.Systrace.endAsyncFlow(long, java.lang.String, int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java€ €(2¬
+;java.util.concurrent.atomic.AtomicInteger.getAndIncrement()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬁ' ﬁ(62Ã
+Ejava.util.Arrays.sort(T[], int, int, java.util.Comparator<? super T>)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÊ Ê(2œ
+Hcom.facebook.systrace.Systrace.endAsyncFlow(long, java.lang.String, int)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÓ Ó(#2ø
+8com.facebook.react.uimanager.events.Event.getEventName()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÔ> Ô(J2æ
+7com.facebook.react.uimanager.events.Event.getUniqueID()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÔT Ô(_2˙
+scom.facebook.react.uimanager.events.Event.dispatchModern(com.facebook.react.uimanager.events.RCTModernEventEmitter)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÒ Ò("2∫
+3com.facebook.react.uimanager.events.Event.dispose()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÚ Ú(2÷
+Ocom.facebook.react.uimanager.events.EventDispatcherImpl.clearEventsToDispatch()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÙ Ù(!2‡
+Ycom.facebook.react.uimanager.events.BatchEventDispatchedListener.onBatchEventDispatched()CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˘ ˘()2∂
+/com.facebook.systrace.Systrace.endSection(long)CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¸ ¸(2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduledCount@96.30:96.56CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬁ ﬁ(&2‚
+[com.facebook.react.uimanager.events.EventDispatcherImpl?mHasDispatchScheduled@102.27:102.48CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaﬂ ﬂ(2ﬂ
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‡! ‡(32‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchLock@84.23:84.44CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java· ·(+2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java‚ ‚(#2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÂ Â(%2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÊ Ê(+2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÊ0 Ê(E2€
+Tcom.facebook.react.uimanager.events.EventDispatcherImpl?EVENT_COMPARATOR@58.41:58.57CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÊG Ê(W2Ú
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?eventIdx@360.21:360.29CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË# Ë(+2‡
+Ycom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatchSize@99.14:99.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË. Ë(C2Ú
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?eventIdx@360.21:360.29CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaËE Ë(M2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ È(-2Ú
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?eventIdx@360.21:360.29CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ. È(62Ô
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÎ Î(2Ô
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÔ8 Ô(=2Ô
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÔN Ô(S2Ô
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÒ Ò(2ﬂ
+Xcom.facebook.react.uimanager.events.EventDispatcherImpl?mReactEventEmitter@100.37:100.55CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÒ# Ò(52Ô
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÚ Ú(2Â
+^com.facebook.react.uimanager.events.EventDispatcherImpl?mEventCookieToLastEventIdx@86.41:86.67CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaı ı(&2Ê
+_com.facebook.react.uimanager.events.EventDispatcherImpl?mPostEventDispatchListeners@92.67:92.94CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¯5 ¯(P2Ú
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?listener@376.42:376.50CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java˘
+ ˘(2˘
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?eventIdx@360.21:360.29DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË Ë(2ˆ
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ È(2˘
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?listener@376.42:376.50DECLARATION}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¯* ¯(22í
+voidRETURN_TYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÿ ÿ(≤
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?eventIdx@360.21:360.29VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË Ë("
+typeint"
+isFinalfalse"É
+declarationStringn<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">eventIdx</mark> = 0*eventIdx2ä
+intTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaË Ë(¢
+hcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?event@361.20:361.25VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ È("
+typeEvent"
+isFinalfalse"~
+declarationStringi<mark class="modifier"> </mark>Event <mark class="class-field">event</mark> = mEventsToDispatch[eventIdx]*event2∞
+)com.facebook.react.uimanager.events.EventTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ È(2‹
+Ucom.facebook.react.uimanager.events.EventDispatcherImpl?mEventsToDispatch@98.18:98.35CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ È(-2Ú
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?eventIdx@360.21:360.29CALL}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.javaÈ. È(6˛
+kcom.facebook.react.uimanager.events.EventDispatcherImpl.DispatchEventsRunnable.run()?listener@376.42:376.50VARIABLE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¯* ¯(2"$
+typeBatchEventDispatchedListener"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>BatchEventDispatchedListener <mark class="class-field">listener</mark>*listener2«
+@com.facebook.react.uimanager.events.BatchEventDispatchedListenerTYPE}
+qnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/events/EventDispatcherImpl.java¯ ¯()

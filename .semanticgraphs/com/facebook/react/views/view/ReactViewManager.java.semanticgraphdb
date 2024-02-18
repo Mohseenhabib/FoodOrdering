@@ -1,0 +1,1586 @@
+
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÔP
+.com.facebook.react.views.view.ReactViewManagerCLASSr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java' '("(
+packagecom.facebook.react.views.view"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"î
+declarationString˛<mark class="annotation">@ReactModule(name = ReactViewManager.REACT_CLASS)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ReactViewManager<mark class="modifier"> extends </mark>ReactClippingViewManager<ReactViewGroup>"
+accesspublic*ReactViewManager2ƒ
+Acom.facebook.react.views.view.ReactViewManager.ReactViewManager()DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java;	 ;(2¶
+¢com.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaB B(/2ˆ
+scom.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM M(2¸
+ycom.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR R(!2Ú
+ocom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[ [(2ı
+rcom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java` `(2Ú
+ocom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae e(2Û
+pcom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj j(2
+mcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao o(2˝
+xcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ Ñ(2Ç
+}com.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï ï(2ñ
+êcom.facebook.react.views.view.ReactViewManager.setexperimental_layoutConformance(com.facebook.react.views.view.ReactViewGroup, java.lang.String)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaú ú(/2ê
+äcom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java† †(2Ñ
+com.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡ ¡(2ù
+ócom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆ ∆(!2ù
+ócom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(!2ç
+ácom.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java◊ ◊(/2¸
+wcom.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ Á(2â
+Écom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ Å(2˘
+tcom.facebook.react.views.view.ReactViewManager.setCollapsable(com.facebook.react.views.view.ReactViewGroup, boolean)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ â(2˜
+rcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè è(2ˇ
+zcom.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠ ≠(2ä
+Ñcom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤ ≤(#2Û
+ncom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑ ∑(2…
+√com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaº º(%2Ω
+8com.facebook.react.views.view.ReactViewManager.getName()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≈ ≈(2˜
+rcom.facebook.react.views.view.ReactViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java   (*2ƒ
+?com.facebook.react.views.view.ReactViewManager.getCommandsMap()DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(,2ü
+ôcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘ ‘(2¨
+¶com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰ ‰(2ú
+ñcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ Û(2ü
+ôcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚ ˚("2…
+Fcom.facebook.react.views.view.ReactViewManager?REACT_CLASS@41.48:41.59DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java)0 )(;2À
+Hcom.facebook.react.views.view.ReactViewManager?SPACING_TYPES@43.29:43.42DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java+ +(*2–
+Mcom.facebook.react.views.view.ReactViewManager?CMD_HOTSPOT_UPDATE@55.27:55.45DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java7 7(-2Õ
+Jcom.facebook.react.views.view.ReactViewManager?CMD_SET_PRESSED@56.27:56.42DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java8 8(*2–
+Mcom.facebook.react.views.view.ReactViewManager?HOTSPOT_UPDATE_KEY@57.30:57.48DECLARATIONr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java9 9(02¥
+6com.facebook.react.views.view.ReactClippingViewManagerEXTENDr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java'& '(>2∏
+,com.facebook.react.views.view.ReactViewGroupEXTEND_TYPE_ARGUMENTr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java'? '(MÄ
+Acom.facebook.react.views.view.ReactViewManager.ReactViewManager()CONSTRUCTORr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java;	 ;("h
+declarationStringS<mark class="modifier">public </mark><mark class="method">ReactViewManager</mark>()*ReactViewManager2π
+=com.facebook.react.uimanager.ViewManager.setupViewRecycling()CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java> >(2Õ
+Qcom.facebook.react.views.view.ReactClippingViewManager.ReactClippingViewManager()CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java< <(	2±
+.com.facebook.react.views.view.ReactViewManagerRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java;	 ;(°
+¢com.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaB B(/"
+isFinalfalse"ù
+declarationStringá <br><mark class="modifier">protected </mark>ReactViewGroup <mark class="method">prepareToRecycleView</mark>(<mark class="annotation">@NonNull</mark> ThemedReactContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> ReactViewGroup view)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typeReactViewGroup*prepareToRecycleView2Ò
+ucom.facebook.react.uimanager.BaseViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, T)CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaE
+ E(2∂
+:com.facebook.react.views.view.ReactViewGroup.recycleView()CALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaG	 G(2¨
+Øcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!reactContextCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaE E(+2§
+ßcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaE- E(12§
+ßcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaG G(2§
+ßcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaI I(2±
+Øcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaC" C(.2©
+ßcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaC? C(C2Ø
+,com.facebook.react.views.view.ReactViewGroupRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaB B(˙
+Øcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!reactContext	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaC" C(."
+typeThemedReactContext"
+isFinalfalse"]
+declarationStringH<mark class="annotation">@NonNull</mark> ThemedReactContext reactContext*reactContext2´
+/com.facebook.react.uimanager.ThemedReactContextTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaC C(!Æ
+ßcom.facebook.react.views.view.ReactViewManager.prepareToRecycleView(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.view.ReactViewGroup)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaC? C(C"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaC0 C(>ß
+scom.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM M("
+isFinalfalse"Œ
+declarationString∏<mark class="annotation">@ReactProp(name</mark> = "accessible") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAccessible</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> accessible)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setAccessible2Ù
+xcom.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaN N(2˙
+~com.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)!accessibleCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaN N( 2˘
+xcom.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM+ M(/2ˇ
+~com.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)!accessible	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM9 M(C2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM	 M(˛
+xcom.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM+ M(/"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM M(*˚
+~com.facebook.react.views.view.ReactViewManager.setAccessible(com.facebook.react.views.view.ReactViewGroup, boolean)!accessible	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM9 M(C"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> accessible*
+accessible2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaM1 M(8Ò
+ycom.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR R(!"
+isFinalfalse"Ê
+declarationString–<mark class="annotation">@ReactProp(name</mark> = "hasTVPreferredFocus") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setTVPreferredFocus</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> hasTVPreferredFocus)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setTVPreferredFocus2ä
+çcom.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!hasTVPreferredFocusCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaS S(2˙
+~com.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaT T(
+2˙
+~com.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaU U(
+2˙
+~com.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaV V(
+2ˇ
+~com.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR1 R(52è
+çcom.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!hasTVPreferredFocus	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR? R(R2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR	 R(Ñ
+~com.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR1 R(5"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR" R(0ù
+çcom.facebook.react.views.view.ReactViewManager.setTVPreferredFocus(com.facebook.react.views.view.ReactViewGroup, boolean)!hasTVPreferredFocus	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR? R(R"
+typeboolean"
+isFinalfalse"N
+declarationString9<mark class="modifier">boolean</mark> hasTVPreferredFocus*hasTVPreferredFocus2É
+booleanTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaR7 R(>€
+ocom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[ [("
+isFinalfalse"û
+declarationStringà<mark class="annotation">@ReactProp(name</mark> = "nextFocusDown"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultInt = View.NO_ID) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">nextFocusDown</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> viewId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*nextFocusDown2
+tcom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java\ \(2Ú
+vcom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)!viewIdCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java\ \("2ı
+tcom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[+ [(/2˜
+vcom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[5 [(;2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[	 [(˙
+tcom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[+ [(/"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[ [(*ﬁ
+vcom.facebook.react.views.view.ReactViewManager.nextFocusDown(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[5 [(;"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> viewId*viewId2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java[1 [(4Û
+rcom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java` `("
+isFinalfalse"§
+declarationStringé<mark class="annotation">@ReactProp(name</mark> = "nextFocusForward"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultInt = View.NO_ID) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">nextFocusForward</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> viewId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*nextFocusForward2Û
+wcom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaa a(2ı
+ycom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)!viewIdCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaa a(%2¯
+wcom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java`. `(22˙
+ycom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java`8 `(>2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java`	 `(˝
+wcom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java`. `(2"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java` `(-·
+ycom.facebook.react.views.view.ReactViewManager.nextFocusForward(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java`8 `(>"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> viewId*viewId2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java`4 `(7€
+ocom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae e("
+isFinalfalse"û
+declarationStringà<mark class="annotation">@ReactProp(name</mark> = "nextFocusLeft"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultInt = View.NO_ID) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">nextFocusLeft</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> viewId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*nextFocusLeft2
+tcom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaf f(2Ú
+vcom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)!viewIdCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaf f("2ı
+tcom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae+ e(/2˜
+vcom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae5 e(;2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae	 e(˙
+tcom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae+ e(/"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae e(*ﬁ
+vcom.facebook.react.views.view.ReactViewManager.nextFocusLeft(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae5 e(;"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> viewId*viewId2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javae1 e(4„
+pcom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj j("
+isFinalfalse"†
+declarationStringä<mark class="annotation">@ReactProp(name</mark> = "nextFocusRight"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultInt = View.NO_ID) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">nextFocusRight</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> viewId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*nextFocusRight2Ò
+ucom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javak k(2Û
+wcom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)!viewIdCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javak k(#2ˆ
+ucom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj, j(02¯
+wcom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj6 j(<2á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj	 j(˚
+ucom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj, j(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj j(+ﬂ
+wcom.facebook.react.views.view.ReactViewManager.nextFocusRight(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj6 j(<"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> viewId*viewId2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaj2 j(5À
+mcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)METHODr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao o("
+isFinalfalse"ö
+declarationStringÑ<mark class="annotation">@ReactProp(name</mark> = "nextFocusUp"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultInt = View.NO_ID) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">nextFocusUp</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> viewId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*nextFocusUp2Ó
+rcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)!viewCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javap p(2
+tcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)!viewIdCALLr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javap p( 2Û
+rcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao) o(-2ı
+tcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao3 o(92á
+voidRETURN_TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao	 o(¯
+rcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)!view	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao) o(-"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2®
+,com.facebook.react.views.view.ReactViewGroupTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao o((‹
+tcom.facebook.react.views.view.ReactViewManager.nextFocusUp(com.facebook.react.views.view.ReactViewGroup, int)!viewId	PARAMETERr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao3 o(9"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> viewId*viewId2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javao/ o(2è7
+xcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ Ñ("
+isFinalfalse"®
+declarationStringí<mark class="annotation">@ReactPropGroup(names</mark> = { ViewProps.BORDER_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_LEFT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_RIGHT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_RIGHT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_LEFT_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_START_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_END_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_START_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_END_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_END_END_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_END_START_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_START_END_RADIUS<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_START_START_RADIUS }<mark class="modifier"><mark class="modifier">,</mark></mark> defaultFloat = YogaConstants.UNDEFINED) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderRadius</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> borderRadius)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderRadius2∞
+2com.facebook.yoga.YogaConstants.isUndefined(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ Ö("2∞
+2com.facebook.yoga.YogaConstants.isUndefined(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ â("2∫
+<com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaä ä(-2¡
+Ccom.facebook.react.views.view.ReactViewGroup.setBorderRadius(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaé é(2∆
+Hcom.facebook.react.views.view.ReactViewGroup.setBorderRadius(float, int)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaê ê(2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ# Ö(/2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ4 Ö(@2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÜ Ü(2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ# â(/2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaä ä(2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaä. ä(:2¸
+~com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!indexCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaç ç(2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaé é(
+2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaé é('2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaê ê(
+2Ñ
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadiusCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaê ê('2¸
+~com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!indexCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaê) ê(.2Ä
+}com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ- Ñ(12Å
+~com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!index	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ7 Ñ(<2â
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadius	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑD Ñ(P2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ	 Ñ(á
+}com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ- Ñ(1"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ Ñ(,È
+~com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!index	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ7 Ñ(<"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2Å
+intTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ3 Ñ(6Ö
+Öcom.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float)!borderRadius	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑD Ñ(P"
+typefloat"
+isFinalfalse"E
+declarationString0<mark class="modifier">float</mark> borderRadius*borderRadius2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ> Ñ(Cô
+}com.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï ï("
+isFinalfalse"≠
+declarationStringó = "borderStyle") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderStyle</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String borderStyle)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderStyle2À
+Mcom.facebook.react.views.view.ReactViewGroup.setBorderStyle(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javañ	 ñ(2Å
+Çcom.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javañ ñ(2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!borderStyleCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javañ ñ(#2Ü
+Çcom.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï, ï(02ç
+âcom.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!borderStyle	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaïC ï(N2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï	 ï(ç
+Çcom.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï, ï(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï ï(+†
+âcom.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!borderStyle	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaïC ï(N"
+typeString"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> String borderStyle*borderStyle2é
+java.lang.StringTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï< ï(Bª
+êcom.facebook.react.views.view.ReactViewManager.setexperimental_layoutConformance(com.facebook.react.views.view.ReactViewGroup, java.lang.String)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaú ú(/"
+isFinalfalse"Ÿ
+declarationString√ = "experimental_layoutConformance") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setexperimental_layoutConformance</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String layoutConformance)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*!setexperimental_layoutConformance2ô
+ïcom.facebook.react.views.view.ReactViewManager.setexperimental_layoutConformance(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù ù(2¶
+¢com.facebook.react.views.view.ReactViewManager.setexperimental_layoutConformance(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!layoutConformance	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù, ù(=2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaú	 ú(†
+ïcom.facebook.react.views.view.ReactViewManager.setexperimental_layoutConformance(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù ù("
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù ù(≈
+¢com.facebook.react.views.view.ReactViewManager.setexperimental_layoutConformance(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!layoutConformance	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù, ù(="
+typeString"
+isFinalfalse"W
+declarationStringB<mark class="annotation">@Nullable</mark> String layoutConformance*layoutConformance2é
+java.lang.StringTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù% ù(+ﬂW
+äcom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java† †("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@ReactProp(name</mark> = "hitSlop") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setHitSlop</mark>(final ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> Dynamic hitSlop)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setHitSlop2©
++com.facebook.react.bridge.Dynamic.getType()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java° °(2ß
+)com.facebook.react.bridge.Dynamic.asMap()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£) £(.2–
+Rcom.facebook.react.views.view.ReactViewGroup.setHitSlopRect(android.graphics.Rect)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java§ §(2º
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¶ ¶(!2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaß& ß(42ø
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaß@ ß(I2º
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java© ©(!2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java™& ™(42ø
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java™@ ™(I2º
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¨ ¨(!2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠& ≠(42ø
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠@ ≠(I2º
+>com.facebook.react.bridge.ReadableMap.hasKey(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaØ Ø(!2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∞& ∞(42ø
+Acom.facebook.react.bridge.ReadableMap.getDouble(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∞@ ∞(I2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥+ ¥(92™
+,com.facebook.react.bridge.Dynamic.asDouble()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥B ¥(J2–
+Rcom.facebook.react.views.view.ReactViewGroup.setHitSlopRect(android.graphics.Rect)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaµ µ(2©
++com.facebook.react.bridge.Dynamic.getType()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∏Q ∏(X2–
+Rcom.facebook.react.views.view.ReactViewGroup.setHitSlopRect(android.graphics.Rect)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaª ª(2ë
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlopCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java° °(2ë
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlopCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£! £((2é
+ècom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java§ §(2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¶ ¶(2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaß5 ß(?2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java© ©(2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java™5 ™(?2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¨ ¨(2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠5 ≠(?2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaØ Ø(2¢
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∞5 ∞(?2ë
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlopCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥: ¥(A2é
+ècom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaµ µ(2§
+•com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopValue@180.12:180.24CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaµ% µ(12§
+•com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopValue@180.12:180.24CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaµ3 µ(?2§
+•com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopValue@180.12:180.24CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaµA µ(M2§
+•com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopValue@180.12:180.24CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaµO µ([2ë
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlopCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∏I ∏(P2é
+ècom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaª ª(2ì
+ècom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java†. †(22ñ
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlop	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java†< †(C2©
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£ £(2´
+•com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopValue@180.12:180.24DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥ ¥(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java†	 †(º
+£com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopMap@163.20:163.30VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£ £("
+typeReadableMap"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>ReadableMap <mark class="class-field">hitSlopMap</mark> = hitSlop.asMap()*
+hitSlopMap2£
+%com.facebook.react.bridge.ReadableMapTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£ £(2ß
+)com.facebook.react.bridge.Dynamic.asMap()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£) £(.2ë
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlopCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£! £((≤
+
+•com.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)?hitSlopValue@180.12:180.24VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥ ¥("
+typeint"
+isFinalfalse"◊
+declarationString¡<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">hitSlopValue</mark> = (<mark class="modifier">int</mark>) PixelUtil.toPixelFromDIP(hitSlop.asDouble())*hitSlopValue2Å
+intTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥ ¥(2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥+ ¥(92™
+,com.facebook.react.bridge.Dynamic.asDouble()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥B ¥(J2ë
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlopCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¥: ¥(Aô
+ècom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java†. †(2"
+typeReactViewGroup"
+isFinaltrue"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java† †(-ä
+ícom.facebook.react.views.view.ReactViewManager.setHitSlop(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.Dynamic)!hitSlop	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java†< †(C"
+typeDynamic"
+isFinalfalse"$
+declarationStringDynamic hitSlop*hitSlop2ü
+!com.facebook.react.bridge.DynamicTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java†4 †(;≠
+com.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡ ¡("
+isFinalfalse"ø
+declarationString© = ViewProps.POINTER_EVENTS) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPointerEvents</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> String pointerEventsStr)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setPointerEvents2Á
+icom.facebook.react.views.view.ReactViewGroup.setPointerEvents(com.facebook.react.uimanager.PointerEvents)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¬	 ¬(2Õ
+Ocom.facebook.react.uimanager.PointerEvents.parsePointerEvents(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¬( ¬(:2É
+Ñcom.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¬ ¬(2è
+êcom.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!pointerEventsStrCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¬; ¬(K2à
+Ñcom.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡. ¡(22î
+êcom.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!pointerEventsStr	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡E ¡(U2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡	 ¡(è
+Ñcom.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡. ¡(2"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡ ¡(-±
+êcom.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!pointerEventsStr	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡E ¡(U"
+typeString"
+isFinalfalse"V
+declarationStringA<mark class="annotation">@Nullable</mark> String pointerEventsStr*pointerEventsStr2é
+java.lang.StringTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡> ¡(Dà
+ócom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆ ∆(!"
+isFinalfalse"∫
+declarationString§ = "nativeBackgroundAndroid") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setNativeBackground</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableMap bg)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setNativeBackground2õ
+úcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java« «(2ô
+öcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!bgCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java» »(
+2õ
+úcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java B  (F2ô
+öcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!bgCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java U  (W2†
+úcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆1 ∆(52û
+öcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!bg	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆M ∆(O2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆	 ∆(ß
+úcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆1 ∆(5"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆" ∆(0æ
+öcom.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!bg	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆M ∆(O"
+typeReadableMap"
+isFinalfalse"M
+declarationString8<mark class="annotation">@Nullable</mark> ReadableMap bg*bg2£
+%com.facebook.react.bridge.ReadableMapTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆A ∆(Là
+ócom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(!"
+isFinalfalse"∫
+declarationString§ = "nativeForegroundAndroid") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setNativeForeground</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableMap fg)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setNativeForeground2õ
+úcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java– –(2ô
+öcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!fgCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java— —(
+2õ
+úcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java”B ”(F2ô
+öcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!fgCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java”U ”(W2†
+úcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ1 œ(52û
+öcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!fg	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœM œ(O2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ	 œ(ß
+úcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ1 œ(5"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ" œ(0æ
+öcom.facebook.react.views.view.ReactViewManager.setNativeForeground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap)!fg	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœM œ(O"
+typeReadableMap"
+isFinalfalse"M
+declarationString8<mark class="annotation">@Nullable</mark> ReadableMap fg*fg2£
+%com.facebook.react.bridge.ReadableMapTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœA œ(L˜
+ácom.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java◊ ◊(/"
+isFinalfalse"ï
+declarationStringˇ<mark class="annotation">@ReactProp(name</mark> = ViewProps.NEEDS_OFFSCREEN_ALPHA_COMPOSITING) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setNeedsOffscreenAlphaCompositing</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> needsOffscreenAlphaCompositing)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*!setNeedsOffscreenAlphaCompositing2’
+Wcom.facebook.react.views.view.ReactViewGroup.setNeedsOffscreenAlphaCompositing(boolean)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaŸ	 Ÿ(*2ã
+åcom.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaŸ Ÿ(2•
+¶com.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)!needsOffscreenAlphaCompositingCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaŸ+ Ÿ(I2ê
+åcom.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ ÿ(2™
+¶com.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)!needsOffscreenAlphaCompositing	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ# ÿ(A2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java◊	 ◊(ó
+åcom.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ ÿ("
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ ÿ(–
+¶com.facebook.react.views.view.ReactViewManager.setNeedsOffscreenAlphaCompositing(com.facebook.react.views.view.ReactViewGroup, boolean)!needsOffscreenAlphaCompositing	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ# ÿ(A"
+typeboolean"
+isFinalfalse"Y
+declarationStringD<mark class="modifier">boolean</mark> needsOffscreenAlphaCompositing*needsOffscreenAlphaCompositing2Ö
+booleanTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ ÿ("÷+
+wcom.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ Á("
+isFinalfalse"Ω
+declarationStringß<mark class="annotation">@ReactPropGroup(names</mark> = { ViewProps.BORDER_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_LEFT_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_RIGHT_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_START_WIDTH<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_END_WIDTH }<mark class="modifier"><mark class="modifier">,</mark></mark> defaultFloat = YogaConstants.UNDEFINED) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderWidth</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> width)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderWidth2∞
+2com.facebook.yoga.YogaConstants.isUndefined(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaË Ë("2∞
+2com.facebook.yoga.YogaConstants.isUndefined(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÏ Ï("2∫
+<com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÌ Ì(&2≈
+Gcom.facebook.react.views.view.ReactViewGroup.setBorderWidth(int, float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java	 (2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaË# Ë((2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaË- Ë(22˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÈ È(2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÏ# Ï((2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÌ Ì(2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÌ' Ì(,2˙
+|com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java (2∆
+Hcom.facebook.react.views.view.ReactViewManager?SPACING_TYPES@43.29:43.42CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java (%2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!indexCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java& (+2˚
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!widthCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java. (32ˇ
+|com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ, Á(02Ä
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!index	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ6 Á(;2Ä
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!width	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁC Á(H2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ	 Á(Ü
+|com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ, Á(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ Á(+Ë
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!index	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ6 Á(;"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2Å
+intTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ2 Á(5Ó
+}com.facebook.react.views.view.ReactViewManager.setBorderWidth(com.facebook.react.views.view.ReactViewGroup, int, float)!width	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁC Á(H"
+typefloat"
+isFinalfalse">
+declarationString)<mark class="modifier">float</mark> width*width2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÁ= Á(Bæ-
+Écom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ Å("
+isFinalfalse"ß
+
+declarationStringë
+<mark class="annotation">@ReactPropGroup(names</mark> = { ViewProps.BORDER_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_LEFT_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_RIGHT_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_TOP_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BOTTOM_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_START_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_END_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BLOCK_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BLOCK_END_COLOR<mark class="modifier"><mark class="modifier">,</mark></mark> ViewProps.BORDER_BLOCK_START_COLOR }<mark class="modifier"><mark class="modifier">,</mark></mark> customType = "Color") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBorderColor</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> index<mark class="modifier"><mark class="modifier">,</mark></mark> Integer color)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBorderColor2Ã
+Ncom.facebook.react.views.view.ReactViewGroup.setBorderColor(int, float, float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ	 Ö(2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉ É(2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉA É(F2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ Ñ( 2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑT Ñ(Y2á
+àcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ Ö(2∆
+Hcom.facebook.react.views.view.ReactViewManager?SPACING_TYPES@43.29:43.42CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ Ö(%2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!indexCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ& Ö(+2ù
+ûcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)?rgbComponent@258.10:258.22CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ. Ö(:2ü
+†com.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)?alphaComponent@260.10:260.24CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÖ< Ö(J2å
+àcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ, Å(02ç
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!index	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ6 Å(;2ç
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!color	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅE Å(J2§
+ûcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)?rgbComponent@258.10:258.22DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ
+ Ç(2¶
+†com.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)?alphaComponent@260.10:260.24DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ
+ Ñ(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ	 Å(û
+
+ûcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)?rgbComponent@258.10:258.22VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ
+ Ç("
+typefloat"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">rgbComponent</mark> = color == <mark class="modifier">null</mark> ? YogaConstants.UNDEFINED : (<mark class="modifier">float</mark>) ((<mark class="modifier">int</mark>) color & 0x00FFFFFF)*rgbComponent2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ Ç(	2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉ É(2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉA É(Fû
+
+†com.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)?alphaComponent@260.10:260.24VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ
+ Ñ("
+typefloat"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">alphaComponent</mark> = color == <mark class="modifier">null</mark> ? YogaConstants.UNDEFINED : (<mark class="modifier">float</mark>) ((<mark class="modifier">int</mark>) color >>> 24)*alphaComponent2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ Ñ(	2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑ Ñ( 2à
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!colorCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÑT Ñ(Yì
+àcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ, Å(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ Å(+ı
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!index	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ6 Å(;"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> index*index2Å
+intTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ2 Å(5Ì
+âcom.facebook.react.views.view.ReactViewManager.setBorderColor(com.facebook.react.views.view.ReactViewGroup, int, java.lang.Integer)!color	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅE Å(J"
+typeInteger"
+isFinalfalse""
+declarationStringInteger color*color2è
+java.lang.IntegerTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ= Å(DÃ
+
+tcom.facebook.react.views.view.ReactViewManager.setCollapsable(com.facebook.react.views.view.ReactViewGroup, boolean)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ â("
+isFinalfalse"Ÿ
+declarationString√<mark class="annotation">@ReactProp(name</mark> = ViewProps.COLLAPSABLE) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setCollapsable</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> collapsable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setCollapsable2¸
+ycom.facebook.react.views.view.ReactViewManager.setCollapsable(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ, â(02Ñ
+Äcom.facebook.react.views.view.ReactViewManager.setCollapsable(com.facebook.react.views.view.ReactViewGroup, boolean)!collapsable	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ: â(E2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ	 â(É
+ycom.facebook.react.views.view.ReactViewManager.setCollapsable(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ, â(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ â(+Ñ
+Äcom.facebook.react.views.view.ReactViewManager.setCollapsable(com.facebook.react.views.view.ReactViewGroup, boolean)!collapsable	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ: â(E"
+typeboolean"
+isFinalfalse"F
+declarationString1<mark class="modifier">boolean</mark> collapsable*collapsable2Ö
+booleanTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaâ2 â(9µ$
+rcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè è("
+isFinalfalse"—
+declarationStringª<mark class="annotation">@ReactProp(name</mark> = "focusable") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setFocusable</mark>(final ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> focusable)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setFocusable2Í
+lcom.facebook.react.uimanager.events.EventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaõ õ(,2˙
+|com.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!focusableCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaê ê(2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaë ë(
+2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaó% ó()2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaó8 ó(<2ñ
+ócom.facebook.react.views.view.ReactViewManager.Anonymous-d38976d5-1420-488f-869a-a4ab94a7a9d0.onClick(android.view.View)?mEventDispatcher@277.36:277.52CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaò ò("2ñ
+ócom.facebook.react.views.view.ReactViewManager.Anonymous-3fc0bfc3-8cd1-4d4c-a308-87c9383479b8.onClick(android.view.View)?mEventDispatcher@277.36:277.52CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaõ õ(2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaù3 ù(72ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaùG ù(K2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java£ £(
+2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java• •(
+2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¶ ¶(
+2˙
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè0 è(42ˇ
+|com.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!focusable	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè> è(G2ù
+ócom.facebook.react.views.view.ReactViewManager.Anonymous-1c500222-66f5-464b-81e4-b85332a35de9.onClick(android.view.View)?mEventDispatcher@277.36:277.52DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï$ ï(42â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè	 è(í
+
+ócom.facebook.react.views.view.ReactViewManager.Anonymous-3016a061-31f3-4e1b-9a3c-a37e6cf3cf5e.onClick(android.view.View)?mEventDispatcher@277.36:277.52VALUEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï$ ï(4"
+typeEventDispatcher"
+isFinaltrue"ò
+declarationStringÇ<mark class="modifier"> </mark><mark class="modifier">final </mark>EventDispatcher <mark class="class-field">mEventDispatcher</mark> = UIManagerHelper.getEventDispatcherForReactTag((ReactContext) view.getContext()<mark class="modifier">,</mark> view.getId())*mEventDispatcher2±
+3com.facebook.react.uimanager.events.EventDispatcherTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaï ï(#2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaó% ó()2ı
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaó8 ó(<Ä
+wcom.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè0 è(4"
+typeReactViewGroup"
+isFinaltrue"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè! è(/˚
+|com.facebook.react.views.view.ReactViewManager.setFocusable(com.facebook.react.views.view.ReactViewGroup, boolean)!focusable	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè> è(G"
+typeboolean"
+isFinalfalse"D
+declarationString/<mark class="modifier">boolean</mark> focusable*	focusable2Ö
+booleanTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaè6 è(=œ
+zcom.facebook.react.views.view.ReactViewManager.Anonymous-5560dcf0-fd45-474f-9656-aded825c8f35.onClick(android.view.View)!v	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaî% î(&"
+typeView"
+isFinalfalse"
+declarationStringView v*v2è
+android.view.ViewTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaî  î($Ä
+zcom.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠ ≠("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@ReactProp(name</mark> = ViewProps.OVERFLOW) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setOverflow</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> String overflow)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setOverflow2»
+Jcom.facebook.react.views.view.ReactViewGroup.setOverflow(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÆ	 Æ(2˝
+com.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÆ Æ(2Ç
+Écom.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!overflowCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÆ Æ(2Ç
+com.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠) ≠(-2á
+Écom.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!overflow	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠6 ≠(>2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠	 ≠(â
+com.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠) ≠(-"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠ ≠((Í
+Écom.facebook.react.views.view.ReactViewManager.setOverflow(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!overflow	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠6 ≠(>"
+typeString"
+isFinalfalse"$
+declarationStringString overflow*overflow2é
+java.lang.StringTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≠/ ≠(5Û
+Ñcom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤ ≤(#"
+isFinalfalse"«
+declarationString±<mark class="annotation">@ReactProp(name</mark> = "backfaceVisibility") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBackfaceVisibility</mark>(ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> String backfaceVisibility)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBackfaceVisibility2“
+Tcom.facebook.react.views.view.ReactViewGroup.setBackfaceVisibility(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≥	 ≥(2à
+âcom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≥ ≥(2ñ
+ócom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!backfaceVisibilityCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≥ ≥(12ç
+âcom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤3 ≤(72õ
+ócom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!backfaceVisibility	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤@ ≤(R2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤	 ≤(î
+âcom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤3 ≤(7"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤$ ≤(2í
+ócom.facebook.react.views.view.ReactViewManager.setBackfaceVisibility(com.facebook.react.views.view.ReactViewGroup, java.lang.String)!backfaceVisibility	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤@ ≤(R"
+typeString"
+isFinalfalse".
+declarationStringString backfaceVisibility*backfaceVisibility2é
+java.lang.StringTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≤9 ≤(?º
+ncom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑ ∑("
+isFinalfalse"∞
+declarationStringö <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setOpacity</mark>(<mark class="annotation">@NonNull</mark> ReactViewGroup view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">float</mark> opacity)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setOpacity2∆
+Hcom.facebook.react.views.view.ReactViewGroup.setOpacityIfPossible(float)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∏	 ∏(2Ò
+scom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∏ ∏(2Ù
+vcom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)!opacityCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∏ ∏(%2ˆ
+scom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑1 ∑(52˘
+vcom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)!opacity	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑= ∑(D2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑	 ∑(¶
+scom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑1 ∑(5"
+typeReactViewGroup"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@NonNull</mark> ReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑" ∑(0Î
+vcom.facebook.react.views.view.ReactViewManager.setOpacity(com.facebook.react.views.view.ReactViewGroup, float)!opacity	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑= ∑(D"
+typefloat"
+isFinalfalse"@
+declarationString+<mark class="modifier">float</mark> opacity*opacity2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∑7 ∑(<ü
+√com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaº º(%"
+isFinalfalse"µ
+declarationStringü ReadableArray transforms<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray transformOrigin)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typevoid*setTransformProperty2ï
+ñcom.facebook.react.uimanager.BaseViewManager.setTransformProperty(T, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¿
+ ¿(2“
+Tcom.facebook.react.views.view.ReactViewGroup.setBackfaceVisibilityDependantOpacity()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡	 ¡(.2«
+»com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¿ ¿(#2Õ
+Œcom.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!transformsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¿% ¿(/2“
+”com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!transformOriginCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¿1 ¿(@2«
+»com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!viewCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¡ ¡(2Ã
+»com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaΩ Ω("2“
+Œcom.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!transforms	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaæ æ((2◊
+”com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!transformOrigin	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaø ø(-2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaº º(¸
+»com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!view	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaΩ Ω(""
+typeReactViewGroup"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@NonNull</mark> ReactViewGroup view*view2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaΩ Ω(à
+Œcom.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!transforms	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaæ æ(("
+typeReadableArray"
+isFinalfalse"W
+declarationStringB<mark class="annotation">@Nullable</mark> ReadableArray transforms*
+transforms2•
+'com.facebook.react.bridge.ReadableArrayTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaæ æ(ó
+”com.facebook.react.views.view.ReactViewManager.setTransformProperty(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableArray)!transformOrigin	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaø ø(-"
+typeReadableArray"
+isFinalfalse"\
+declarationStringG<mark class="annotation">@Nullable</mark> ReadableArray transformOrigin*transformOrigin2•
+'com.facebook.react.bridge.ReadableArrayTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaø ø(ˇ
+8com.facebook.react.views.view.ReactViewManager.getName()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≈ ≈("
+isFinalfalse"î
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2ƒ
+Fcom.facebook.react.views.view.ReactViewManager?REACT_CLASS@41.48:41.59CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java∆ ∆(2¥
+2com.facebook.react.uimanager.ViewManager.getName()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≈ ≈(2≤
+0com.facebook.react.bridge.NativeModule.getName()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≈ ≈(2ï
+java.lang.StringRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java≈	 ≈(ﬁ	
+rcom.facebook.react.views.view.ReactViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java   (*"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>ReactViewGroup <mark class="method">createViewInstance</mark>(ThemedReactContext context)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeReactViewGroup*createViewInstance2¯
+zcom.facebook.react.views.view.ReactViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!contextCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÀ À(%2˝
+zcom.facebook.react.views.view.ReactViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!context	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java >  (E2±
+,com.facebook.react.views.view.ReactViewGroupRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java 	  (ï
+zcom.facebook.react.views.view.ReactViewManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!context	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java >  (E"
+typeThemedReactContext"
+isFinalfalse"/
+declarationStringThemedReactContext context*context2≠
+/com.facebook.react.uimanager.ThemedReactContextTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java +  (=ÿ
+?com.facebook.react.views.view.ReactViewManager.getCommandsMap()METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(,"
+isFinalfalse"Î
+declarationString’<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Integer&gt; <mark class="method">getCommandsMap</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Integer>*getCommandsMap2±
+3com.facebook.react.common.MapBuilder.of(K, V, K, V)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java– –(2À
+Mcom.facebook.react.views.view.ReactViewManager?HOTSPOT_UPDATE_KEY@57.30:57.48CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java– –(+2À
+Mcom.facebook.react.views.view.ReactViewManager?CMD_HOTSPOT_UPDATE@55.27:55.45CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java–- –(?2»
+Jcom.facebook.react.views.view.ReactViewManager?CMD_SET_PRESSED@56.27:56.42CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java–O –(^2ª
+9com.facebook.react.uimanager.ViewManager.getCommandsMap()OVERRIDEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(,2í
+java.util.MapRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ	 œ(2û
+java.lang.StringRETURN_TYPE_ARGUMENTt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(2ü
+java.lang.IntegerRETURN_TYPE_ARGUMENTt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaœ œ(˝ 
+ôcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘ ‘("
+isFinalfalse"Ö
+declarationStringÔ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveCommand</mark>(ReactViewGroup root<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> commandId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveCommand2ò
+ôcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ
+ ÿ(2ï
+ñcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java›
+ ›(2¢
+£com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!commandIdCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java’ ’(2À
+Mcom.facebook.react.views.view.ReactViewManager?CMD_HOTSPOT_UPDATE@55.27:55.45CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java÷ ÷(2ù
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!rootCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ ÿ("2ù
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÿ$ ÿ((2»
+Jcom.facebook.react.views.view.ReactViewManager?CMD_SET_PRESSED@56.27:56.42CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java€ €(2ù
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!rootCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java› ›(2ù
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java›! ›(%2¢
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘, ‘(02ß
+£com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘6 ‘(?2¢
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘Y ‘(]2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘	 ‘(©
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘, ‘(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup root*root2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘ ‘(+ó
+£com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘6 ‘(?"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> commandId*	commandId2Å
+intTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘2 ‘(5Ã
+ûcom.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, int, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘Y ‘(]"
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2•
+'com.facebook.react.bridge.ReadableArrayTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‘K ‘(Xå 
+¶com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰ ‰("
+isFinalfalse"Í
+declarationString‘ <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">receiveCommand</mark>(ReactViewGroup root<mark class="modifier"><mark class="modifier">,</mark></mark> String commandId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveCommand2ò
+ôcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaË
+ Ë(2ï
+ñcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÌ
+ Ì(2Ø
+∞com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandIdCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÂ Â(2À
+Mcom.facebook.react.views.view.ReactViewManager?HOTSPOT_UPDATE_KEY@57.30:57.48CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÊ Ê(2™
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!rootCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaË Ë("2™
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaË$ Ë((2™
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!rootCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÌ Ì(2™
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÌ! Ì(%2Ø
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰, ‰(02¥
+∞com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰9 ‰(B2Ø
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰\ ‰(`2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰	 ‰(∂
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰, ‰(0"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup root*root2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰ ‰(+ô
+∞com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰9 ‰(B"
+typeString"
+isFinalfalse"%
+declarationStringString commandId*	commandId2é
+java.lang.StringTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰2 ‰(8Ÿ
+´com.facebook.react.views.view.ReactViewManager.receiveCommand(com.facebook.react.views.view.ReactViewGroup, java.lang.String, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰\ ‰(`"
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2•
+'com.facebook.react.bridge.ReadableArrayTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java‰N ‰([ƒ
+ñcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ Û("
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">handleSetPressed</mark>(ReactViewGroup root<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*handleSetPressed2¨
+.com.facebook.react.bridge.ReadableArray.size()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÙ Ù(!2µ
+7com.facebook.react.bridge.ReadableArray.getBoolean(int)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¯ ¯(#2ı
+wcom.facebook.react.bridge.JSApplicationIllegalArgumentException.JSApplicationIllegalArgumentException(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaı ı(52ö
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÙ Ù(2ö
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÙ Ù(2ö
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!rootCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¯ ¯(2ö
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¯ ¯(2ü
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ/ Û(32ü
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛM Û(Q2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ
+ Û(¶
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ/ Û(3"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup root*root2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ  Û(.…
+õcom.facebook.react.views.view.ReactViewManager.handleSetPressed(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛM Û(Q"
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2•
+'com.facebook.react.bridge.ReadableArrayTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÛ? Û(LÎ(
+ôcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)METHODt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚ ˚(""
+isFinalfalse"ù
+declarationStringá<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">handleHotspotUpdate</mark>(ReactViewGroup root<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*handleHotspotUpdate2¨
+.com.facebook.react.bridge.ReadableArray.size()CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¸ ¸(!2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ Å(&2¥
+6com.facebook.react.bridge.ReadableArray.getDouble(int)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ, Å(52ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ Ç(&2¥
+6com.facebook.react.bridge.ReadableArray.getDouble(int)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ, Ç(52ı
+wcom.facebook.react.bridge.JSApplicationIllegalArgumentException.JSApplicationIllegalArgumentException(java.lang.String)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˝ ˝(52ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¸ ¸(2ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java¸ ¸(2ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ' Å(+2ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ' Ç(+2ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!rootCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉ É(2®
+©com.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)?x@385.10:385.11CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉ  É(!2®
+©com.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)?y@386.10:386.11CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÉ# É($2¢
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚2 ˚(62¢
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚P ˚(T2Ø
+©com.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)?x@385.10:385.11DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ
+ Å(2Ø
+©com.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)?y@386.10:386.11DECLARATIONt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ
+ Ç(2â
+voidRETURN_TYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚
+ ˚(ó
+
+©com.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)?x@385.10:385.11VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ
+ Å("
+typefloat"
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">x</mark> = PixelUtil.toPixelFromDIP(args.getDouble(0))*x2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ Å(	2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ Å(&2¥
+6com.facebook.react.bridge.ReadableArray.getDouble(int)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ, Å(52ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÅ' Å(+ó
+
+©com.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)?y@386.10:386.11VARIABLEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ
+ Ç("
+typefloat"
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark><mark class="modifier">float</mark> <mark class="class-field">y</mark> = PixelUtil.toPixelFromDIP(args.getDouble(1))*y2É
+floatTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ Ç(	2ª
+=com.facebook.react.uimanager.PixelUtil.toPixelFromDIP(double)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ Ç(&2¥
+6com.facebook.react.bridge.ReadableArray.getDouble(int)CALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ, Ç(52ù
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!argsCALLt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.javaÇ' Ç(+©
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!root	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚2 ˚(6"
+typeReactViewGroup"
+isFinalfalse"(
+declarationStringReactViewGroup root*root2™
+,com.facebook.react.views.view.ReactViewGroupTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚# ˚(1Ã
+ûcom.facebook.react.views.view.ReactViewManager.handleHotspotUpdate(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableArray)!args	PARAMETERt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚P ˚(T"
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2•
+'com.facebook.react.bridge.ReadableArrayTYPEt
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java˚B ˚(O˚
+Fcom.facebook.react.views.view.ReactViewManager?REACT_CLASS@41.48:41.59VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java)0 )(;"
+isFinaltrue"
+typeString"‘
+declarationStringæ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">REACT_CLASS</mark> = ViewProps.VIEW_CLASS_NAME;"
+isStatictrue"
+accesspublic*REACT_CLASS2å
+java.lang.StringTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java)) )(/ï
+Hcom.facebook.react.views.view.ReactViewManager?SPACING_TYPES@43.29:43.42VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java+ +(*"
+isFinaltrue"
+typeint"˜
+declarationString·<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark>[] <mark class="class-field">SPACING_TYPES</mark> = { Spacing.ALL, Spacing.LEFT, Spacing.RIGHT, Spacing.TOP, Spacing.BOTTOM, Spacing.START, Spacing.END, Spacing.BLOCK, Spacing.BLOCK_END, Spacing.BLOCK_START };"
+isStatictrue"
+accessprivate*SPACING_TYPES2Å
+int[]TYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java+ +(Ñ
+Mcom.facebook.react.views.view.ReactViewManager?CMD_HOTSPOT_UPDATE@55.27:55.45VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java7 7(-"
+isFinaltrue"
+typeint"ﬂ
+declarationString…<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">CMD_HOTSPOT_UPDATE</mark> = 1;"
+isStatictrue"
+accessprivate*CMD_HOTSPOT_UPDATE2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java7 7(˚
+Jcom.facebook.react.views.view.ReactViewManager?CMD_SET_PRESSED@56.27:56.42VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java8 8(*"
+isFinaltrue"
+typeint"‹
+declarationString∆<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">CMD_SET_PRESSED</mark> = 2;"
+isStatictrue"
+accessprivate*CMD_SET_PRESSED2
+intTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java8 8(à
+Mcom.facebook.react.views.view.ReactViewManager?HOTSPOT_UPDATE_KEY@57.30:57.48VALUEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java9 9(0"
+isFinaltrue"
+typeString"“
+declarationStringº<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">HOTSPOT_UPDATE_KEY</mark> = "hotspotUpdate";"
+isStatictrue"
+accessprivate*HOTSPOT_UPDATE_KEY2å
+java.lang.StringTYPEr
+hnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/view/ReactViewManager.java9 9(

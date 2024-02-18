@@ -1,0 +1,217 @@
+
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.javaˆ
+
+,com.facebook.react.bridge.BackgroundExecutorCLASSp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ("$
+packagecom.facebook.react.bridge"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¡
+declarationString‹<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>BackgroundExecutor"
+accesspublic*BackgroundExecutor2Ò
+Qcom.facebook.react.bridge.BackgroundExecutor.BackgroundExecutor(java.lang.String)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java$
+ $(2Ï
+Ncom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java) )(2½
+<com.facebook.react.bridge.BackgroundExecutor?TAG@16.30:16.33DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (!2Ê
+Icom.facebook.react.bridge.BackgroundExecutor?mExecutorService@33.32:33.48DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java!  !(0é
+Qcom.facebook.react.bridge.BackgroundExecutor.BackgroundExecutor(java.lang.String)CONSTRUCTORp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java$
+ $("§
+declarationString‘<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">private </mark><mark class="method">BackgroundExecutor</mark>(String name)*BackgroundExecutor2Ô
+Zjava.util.concurrent.Executors.newFixedThreadPool(int, java.util.concurrent.ThreadFactory)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java%! %(32Þ
+dcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.NamedThreadFactory(java.lang.String)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java%; %(M2Ã
+Icom.facebook.react.bridge.BackgroundExecutor?mExecutorService@33.32:33.48CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java% %(2Ð
+Vcom.facebook.react.bridge.BackgroundExecutor.BackgroundExecutor(java.lang.String)!nameCALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java%N %(R2Õ
+Vcom.facebook.react.bridge.BackgroundExecutor.BackgroundExecutor(java.lang.String)!name	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java$$ $((2­
+,com.facebook.react.bridge.BackgroundExecutorRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java$
+ $(¬
+Vcom.facebook.react.bridge.BackgroundExecutor.BackgroundExecutor(java.lang.String)!name	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java$$ $(("
+typeString"
+isFinalfalse" 
+declarationStringString name*name2Š
+java.lang.StringTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java$ $(#»
+Ncom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java) )("
+isFinalfalse"Ë
+declarationStringµ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">queueRunnable</mark>(Runnable runnable)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*queueRunnable2ä
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java1 1(/2ä
+jcom.facebook.react.bridge.ReactSoftExceptionLogger.logSoftException(java.lang.String, java.lang.Throwable)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java8 8(/2³
+9java.util.concurrent.Executor.execute(java.lang.Runnable)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java= =(2Ù
+_com.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java2 2(,2Ù
+_com.facebook.react.bridge.ReactNoCrashSoftException.ReactNoCrashSoftException(java.lang.String)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java9 9(,2Ñ
+Wcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)!runnableCALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java0 0(2¶
+<com.facebook.react.bridge.BackgroundExecutor?TAG@16.30:16.33CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java2
+ 2(2Ã
+Icom.facebook.react.bridge.BackgroundExecutor?mExecutorService@33.32:33.48CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java6, 6(<2ä
+jcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)?executorService@54.26:54.41CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java7 7(2¶
+<com.facebook.react.bridge.BackgroundExecutor?TAG@16.30:16.33CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java9
+ 9(2ä
+jcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)?executorService@54.26:54.41CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java= =(2Ñ
+Wcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)!runnableCALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java= =($2Ö
+Wcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)!runnable	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java)& )(.2ë
+jcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)?executorService@54.26:54.41DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java6 6()2…
+voidRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java)
+ )(¶
+jcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)?executorService@54.26:54.41VALUEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java6 6()"
+typeExecutorService"
+isFinaltrue"¬
+declarationString–<mark class="modifier"> </mark><mark class="modifier">final </mark>ExecutorService <mark class="class-field">executorService</mark> = mExecutorService*executorService2ž
+$java.util.concurrent.ExecutorServiceTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java6
+ 6(2Ã
+Icom.facebook.react.bridge.BackgroundExecutor?mExecutorService@33.32:33.48CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java6, 6(<»
+Wcom.facebook.react.bridge.BackgroundExecutor.queueRunnable(java.lang.Runnable)!runnable	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java)& )(."
+typeRunnable"
+isFinalfalse"&
+declarationStringRunnable runnable*runnable2Œ
+java.lang.RunnableTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java) )(%à
+<com.facebook.react.bridge.BackgroundExecutor?TAG@16.30:16.33VALUEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (!"
+isFinaltrue"
+typeString"Î
+declarationString¸<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">TAG</mark> = "FabricBackgroundExecutor";"
+isStatictrue"
+accessprivate*TAG2Š
+java.lang.StringTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (ë
+Icom.facebook.react.bridge.BackgroundExecutor?mExecutorService@33.32:33.48VALUEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java!  !(0"
+isFinaltrue"
+typeExecutorService"¡
+declarationString‹<mark class="modifier">private </mark><mark class="modifier">final </mark>ExecutorService <mark class="class-field">mExecutorService</mark>"
+isStaticfalse"
+accessprivate*mExecutorService2ž
+$java.util.concurrent.ExecutorServiceTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java! !(Å
+
+?com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactoryCLASSp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ()"7
+package,com.facebook.react.bridge.BackgroundExecutor"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¬
+declarationString–<mark class="modifier">private </mark><mark class="modifier">class </mark>NamedThreadFactory<mark class="modifier"><br>implements </mark>ThreadFactory"
+accessprivate*NamedThreadFactory2å
+dcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.NamedThreadFactory(java.lang.String)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2Þ
+]com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2Ò
+Qcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory?mName@19.25:19.30DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2ž
+"java.util.concurrent.ThreadFactoryEXTENDp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java5 (BÒ	
+dcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.NamedThreadFactory(java.lang.String)CONSTRUCTORp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ("u
+declarationString`<mark class="modifier">public </mark><mark class="method">NamedThreadFactory</mark>(String name)*NamedThreadFactory2Ë
+Qcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory?mName@19.25:19.30CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2ã
+icom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.NamedThreadFactory(java.lang.String)!nameCALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2è
+icom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.NamedThreadFactory(java.lang.String)!name	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java% ()2À
+?com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactoryRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (¿
+icom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.NamedThreadFactory(java.lang.String)!name	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java% ()"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2Š
+java.lang.StringTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ($ç
+]com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)METHODp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ("
+isFinalfalse"¡
+declarationString‹<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Thread <mark class="method">newThread</mark>(Runnable r)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeThread*	newThread2º
+@java.util.concurrent.ThreadFactory.newThread(java.lang.Runnable)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java7 (@2¯
+5java.util.concurrent.Executors.defaultThreadFactory()CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java  (42¤
+*java.lang.Thread.setName(java.lang.String)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2Ù
+_com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)!rCALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.javaA (B2ê
+pcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)?thread@27.13:27.19CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2Ë
+Qcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory?mName@19.25:19.30CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2ê
+pcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)?thread@27.13:27.19CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2Þ
+_com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)!r	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java% (&2ñ
+pcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)?thread@27.13:27.19DECLARATIONp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2‘
+java.lang.ThreadRETURN_TYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (…	
+pcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)?thread@27.13:27.19VARIABLEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ("
+typeThread"
+isFinalfalse"’
+declarationString}<mark class="modifier"> </mark>Thread <mark class="class-field">thread</mark> = Executors.defaultThreadFactory().newThread(r)*thread2Š
+java.lang.ThreadTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (2º
+@java.util.concurrent.ThreadFactory.newThread(java.lang.Runnable)CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java7 (@2¯
+5java.util.concurrent.Executors.defaultThreadFactory()CALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java  (42Ù
+_com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)!rCALLp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.javaA (Bµ
+_com.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory.newThread(java.lang.Runnable)!r	PARAMETERp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java% (&"
+typeRunnable"
+isFinalfalse"
+declarationString
+Runnable r*r2Œ
+java.lang.RunnableTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ($¶
+Qcom.facebook.react.bridge.BackgroundExecutor.NamedThreadFactory?mName@19.25:19.30VALUEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java ("
+isFinaltrue"
+typeString"Œ
+declarationStringw<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">mName</mark>"
+isStaticfalse"
+accessprivate*mName2Š
+java.lang.StringTYPEp
+fnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/bridge/BackgroundExecutor.java (

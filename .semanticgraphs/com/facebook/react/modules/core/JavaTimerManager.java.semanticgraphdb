@@ -1,0 +1,1682 @@
+
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaπH
+0com.facebook.react.modules.core.JavaTimerManagerCLASSt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java ("*
+packagecom.facebook.react.modules.core"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"n
+declarationStringY<mark class="modifier">public </mark><mark class="modifier">class </mark>JavaTimerManager"
+accesspublic*JavaTimerManager2•
+ùcom.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©	 ©(2≈
+>com.facebook.react.modules.core.JavaTimerManager.onHostPause()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «(2«
+@com.facebook.react.modules.core.JavaTimerManager.onHostDestroy()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÕ Õ(2∆
+?com.facebook.react.modules.core.JavaTimerManager.onHostResume()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“ “(2“
+Kcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskStart(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java⁄ ⁄(#2”
+Lcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java· ·($2À
+Dcom.facebook.react.modules.core.JavaTimerManager.onInstanceDestroy()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÎ Î(2€
+Tcom.facebook.react.modules.core.JavaTimerManager.maybeSetChoreographerIdleCallback()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java (02À
+Dcom.facebook.react.modules.core.JavaTimerManager.maybeIdleCallback()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¯ ¯( 2“
+Kcom.facebook.react.modules.core.JavaTimerManager.setChoreographerCallback()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˛ ˛('2Ã
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü(!2÷
+Ocom.facebook.react.modules.core.JavaTimerManager.setChoreographerIdleCallback()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê(+2ÿ
+Qcom.facebook.react.modules.core.JavaTimerManager.clearChoreographerIdleCallback()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaò ò(-2◊
+Pcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java© ©(2Í
+ccom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaª ª(%2»
+Acom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹ ‹(2“
+Kcom.facebook.react.modules.core.JavaTimerManager.setSendIdleEvents(boolean)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaË Ë(2‘
+Mcom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÑ Ñ(.2Ñ
+}com.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô ô('2·
+\com.facebook.react.modules.core.JavaTimerManager?IDLE_CALLBACK_FRAME_DEADLINE_MS@33.29:33.60DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java! !(<2”
+Ncom.facebook.react.modules.core.JavaTimerManager?FRAME_DURATION_MS@37.29:37.46DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java% %(.2ﬁ
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaò( ò(@2ﬁ
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô( ô(@2Ÿ
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö# ö(62ÿ
+Qcom.facebook.react.modules.core.JavaTimerManager?mDevSupportManager@155.34:155.52DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaõ" õ(42—
+Jcom.facebook.react.modules.core.JavaTimerManager?mTimerGuard@156.23:156.34DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaú ú("2ÿ
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleCallbackGuard@157.23:157.41DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaù ù()2Õ
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaû% û(,2◊
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaü# ü(42Œ
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java† †(&2‘
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java° °(,2Ÿ
+Rcom.facebook.react.modules.core.JavaTimerManager?mTimerFrameCallback@162.35:162.54DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¢# ¢(62ÿ
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleFrameCallback@163.34:163.52DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java£" £(42‚
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java§) §(E2⁄
+Scom.facebook.react.modules.core.JavaTimerManager?mFrameCallbackPosted@165.18:165.38DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java• •(&2ﬁ
+Wcom.facebook.react.modules.core.JavaTimerManager?mFrameIdleCallbackPosted@166.18:166.42DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¶ ¶(*2’
+Ncom.facebook.react.modules.core.JavaTimerManager?mSendIdleEvents@167.18:167.33DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaß ß(!2»
+Ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallbackDECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java5 5("2«
+Bcom.facebook.react.modules.core.JavaTimerManager.IdleFrameCallbackDECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java[ [(!2 
+Ecom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnableDECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javao o($ÎB
+ùcom.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)CONSTRUCTORv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©	 ©("Ω
+declarationStringß<mark class="modifier">public </mark><mark class="method">JavaTimerManager</mark>(ReactApplicationContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> JavaScriptTimerExecutor javaScriptTimerManager<mark class="modifier"><mark class="modifier">,</mark></mark> ReactChoreographer reactChoreographer<mark class="modifier"><mark class="modifier">,</mark></mark> DevSupportManager devSupportManager)*JavaTimerManager2À
+Kjava.util.PriorityQueue.PriorityQueue(int, java.util.Comparator<? super E>)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaµ µ( 2ë
+êcom.facebook.react.modules.core.JavaTimerManager.Anonymous-d5688587-45cd-442c-bbf0-a7ec6c368255.Anonymous-d5688587-45cd-442c-bbf0-a7ec6c368255()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∑ ∑(!2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÆ Æ(2´
+™com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!reactContextCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÆ Æ(+2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaØ Ø(2µ
+¥com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!javaScriptTimerManagerCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaØ Ø(52“
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∞ ∞(2±
+∞com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!reactChoreographerCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∞ ∞(,2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mDevSupportManager@155.34:155.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java± ±(2∞
+Øcom.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!devSupportManagerCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java± ±(*2∆
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¥ ¥(2‹
+€com.facebook.react.modules.core.JavaTimerManager.Anonymous-869f7347-a5b8-469d-bf80-54e753a920dc.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)!lhsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫ ∫(2‹
+€com.facebook.react.modules.core.JavaTimerManager.Anonymous-5e39df3b-b331-4e90-8532-38dc5fd15024.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)!rhsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫. ∫(12Î
+Ícom.facebook.react.modules.core.JavaTimerManager.Anonymous-405226dd-007a-42d9-9ba9-2e8af866aa27.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)?diff@186.21:186.25CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaª ª(2Î
+Ícom.facebook.react.modules.core.JavaTimerManager.Anonymous-2563367e-3fdb-49c4-b3f0-0890721d2b9b.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)?diff@186.21:186.25CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaΩ Ω(2–
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaƒ ƒ(2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫  ∫(+2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫2 ∫(=2∞
+™com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!reactContext	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™ ™(*2∫
+¥com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!javaScriptTimerManager	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(42∂
+∞com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!reactChoreographer	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¨ ¨(+2µ
+Øcom.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!devSupportManager	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java≠ ≠()2Ú
+Ícom.facebook.react.modules.core.JavaTimerManager.Anonymous-0e49399c-9567-42fa-83e7-9a78aa29ee1f.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)?diff@186.21:186.25DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫ ∫(2∑
+0com.facebook.react.modules.core.JavaTimerManagerRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©	 ©(†
+Ícom.facebook.react.modules.core.JavaTimerManager.Anonymous-8901599b-6e97-4e6c-ac50-0f0e5b5d8649.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)?diff@186.21:186.25VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫ ∫("
+typelong"
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">diff</mark> = lhs.mTargetTime - rhs.mTargetTime*diff2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫ ∫(2‹
+€com.facebook.react.modules.core.JavaTimerManager.Anonymous-5614e548-c0ef-45fa-83f9-a0223a5d953c.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)!lhsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫ ∫(2‹
+€com.facebook.react.modules.core.JavaTimerManager.Anonymous-0b26e454-900c-435e-b8a1-ddb46c9c32e2.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)!rhsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫. ∫(12Œ
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫  ∫(+2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∫2 ∫(=‡
+™com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!reactContext	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™ ™(*"
+typeReactApplicationContext"
+isFinalfalse"9
+declarationString$ReactApplicationContext reactContext*reactContext2±
+1com.facebook.react.bridge.ReactApplicationContextTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™ ™(Ñ
+¥com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!javaScriptTimerManager	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(4"
+typeJavaScriptTimerExecutor"
+isFinalfalse"C
+declarationString.JavaScriptTimerExecutor javaScriptTimerManager*javaScriptTimerManager2∑
+7com.facebook.react.modules.core.JavaScriptTimerExecutorTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(È
+∞com.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!reactChoreographer	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¨ ¨(+"
+typeReactChoreographer"
+isFinalfalse":
+declarationString%ReactChoreographer reactChoreographer*reactChoreographer2≤
+2com.facebook.react.modules.core.ReactChoreographerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¨ ¨(Ï
+Øcom.facebook.react.modules.core.JavaTimerManager.JavaTimerManager(com.facebook.react.bridge.ReactApplicationContext, com.facebook.react.modules.core.JavaScriptTimerExecutor, com.facebook.react.modules.core.ReactChoreographer, com.facebook.react.devsupport.interfaces.DevSupportManager)!devSupportManager	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java≠ ≠()"
+typeDevSupportManager"
+isFinalfalse"8
+declarationString#DevSupportManager devSupportManager*devSupportManager2∫
+:com.facebook.react.devsupport.interfaces.DevSupportManagerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java≠ ≠(‡
+€com.facebook.react.modules.core.JavaTimerManager.Anonymous-b0e80945-481c-4912-a8f4-4c2fc916c913.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)!lhs	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaπ' π(*"
+typeTimer"
+isFinalfalse"
+declarationString	Timer lhs*lhs2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaπ! π(&‡
+€com.facebook.react.modules.core.JavaTimerManager.Anonymous-d4a419ee-ece3-425b-a594-11c8a2caf1e0.compare(com.facebook.react.modules.core.JavaTimerManager.Timer, com.facebook.react.modules.core.JavaTimerManager.Timer)!rhs	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaπ2 π(5"
+typeTimer"
+isFinalfalse"
+declarationString	Timer rhs*rhs2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaπ, π(1–
+
+>com.facebook.react.modules.core.JavaTimerManager.onHostPause()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «("
+isFinalfalse"Ü
+declarationStringq<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostPause</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostPause2∂
+6java.util.concurrent.atomic.AtomicBoolean.set(boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java» »(2≈
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java… …(2ƒ
+Dcom.facebook.react.modules.core.JavaTimerManager.maybeIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java   (2«
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java» »(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java«	 «(”
+@com.facebook.react.modules.core.JavaTimerManager.onHostDestroy()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÕ Õ("
+isFinalfalse"à
+declarationStrings<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostDestroy2≈
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaŒ Œ(2ƒ
+Dcom.facebook.react.modules.core.JavaTimerManager.maybeIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaœ œ(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÕ	 Õ(È
+
+?com.facebook.react.modules.core.JavaTimerManager.onHostResume()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“ “("
+isFinalfalse"á
+declarationStringr<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHostResume</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHostResume2∂
+6java.util.concurrent.atomic.AtomicBoolean.set(boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java” ”(2À
+Kcom.facebook.react.modules.core.JavaTimerManager.setChoreographerCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java÷ ÷(2‘
+Tcom.facebook.react.modules.core.JavaTimerManager.maybeSetChoreographerIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java◊ ◊(%2«
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java” ”(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“	 “(ñ
+Kcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskStart(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java⁄ ⁄(#"
+isFinalfalse"π
+declarationString£<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHeadlessJsTaskStart</mark>(<mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHeadlessJsTaskStart2º
+<java.util.concurrent.atomic.AtomicBoolean.getAndSet(boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java€ €(!2À
+Kcom.facebook.react.modules.core.JavaTimerManager.setChoreographerCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹ ‹(2‘
+Tcom.facebook.react.modules.core.JavaTimerManager.maybeSetChoreographerIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java› ›('2Õ
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java€	 €(2◊
+Rcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskStart(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java⁄( ⁄(.2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java⁄	 ⁄(√
+Rcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskStart(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java⁄( ⁄(."
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java⁄$ ⁄('
+Lcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java· ·($"
+isFinalfalse"∫
+declarationString§<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onHeadlessJsTaskFinish</mark>(<mark class="modifier">int</mark> taskId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onHeadlessJsTaskFinish2‰
+dcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„ „()2¡
+Acom.facebook.react.jstasks.HeadlessJsTaskContext.hasActiveTasks()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‰ ‰(-2∂
+6java.util.concurrent.atomic.AtomicBoolean.set(boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÂ Â(2≈
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÊ Ê(2ƒ
+Dcom.facebook.react.modules.core.JavaTimerManager.maybeIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÁ Á(2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„* „(B2
+pcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)?headlessJsTaskContext@226.26:226.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‰	 ‰(2Õ
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÂ Â(2ÿ
+Scom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java·) ·(/2˜
+pcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)?headlessJsTaskContext@226.26:226.47DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‚ ‚(/2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java·	 ·(Ú
+pcom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)?headlessJsTaskContext@226.26:226.47VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‚ ‚(/"
+typeHeadlessJsTaskContext"
+isFinalfalse"ø
+declarationString©<mark class="modifier"> </mark>HeadlessJsTaskContext <mark class="class-field">headlessJsTaskContext</mark> = HeadlessJsTaskContext.getInstance(mReactApplicationContext)*headlessJsTaskContext2∞
+0com.facebook.react.jstasks.HeadlessJsTaskContextTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‚ ‚(2‰
+dcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„ „()2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„* „(Bƒ
+Scom.facebook.react.modules.core.JavaTimerManager.onHeadlessJsTaskFinish(int)!taskId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java·) ·(/"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> taskId*taskId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java·% ·((Ï
+Dcom.facebook.react.modules.core.JavaTimerManager.onInstanceDestroy()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÎ Î("
+isFinalfalse"å
+declarationStringw<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">onInstanceDestroy</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*onInstanceDestroy2≈
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÏ Ï(2—
+Qcom.facebook.react.modules.core.JavaTimerManager.clearChoreographerIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÌ Ì("2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÎ	 Î(˙	
+Tcom.facebook.react.modules.core.JavaTimerManager.maybeSetChoreographerIdleCallback()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java (0"
+isFinalfalse"û
+declarationStringà<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">maybeSetChoreographerIdleCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*!maybeSetChoreographerIdleCallback2œ
+Ocom.facebook.react.modules.core.JavaTimerManager.setChoreographerIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÛ Û($2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleCallbackGuard@157.23:157.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÒ Ò($2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager?mSendIdleEvents@167.18:167.33CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÚ
+ Ú(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java
+ (ò
+Dcom.facebook.react.modules.core.JavaTimerManager.maybeIdleCallback()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¯ ¯( "
+isFinalfalse"ç
+declarationStringx<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">maybeIdleCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*maybeIdleCallback2Ø
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˘ ˘(2Ø
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˘* ˘(-2≈
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˙ ˙(2«
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˘ ˘(2Õ
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˘ ˘()2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¯
+ ¯(â
+Kcom.facebook.react.modules.core.JavaTimerManager.setChoreographerCallback()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˛ ˛('"
+isFinalfalse"î
+declarationString<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">setChoreographerCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*setChoreographerCallback2…
+»com.facebook.react.modules.core.ReactChoreographer.postFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä(+2”
+Scom.facebook.react.modules.core.JavaTimerManager?mFrameCallbackPosted@165.18:165.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaˇ	 ˇ(2“
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä(2“
+Rcom.facebook.react.modules.core.JavaTimerManager?mTimerFrameCallback@162.35:162.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ9 Å(L2”
+Scom.facebook.react.modules.core.JavaTimerManager?mFrameCallbackPosted@165.18:165.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÇ Ç(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java˛
+ ˛(Ÿ
+Ecom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü(!"
+isFinalfalse"é
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">clearFrameCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*clearFrameCallback2‰
+dcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaà à()2Ø
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâ) â(,2¡
+Acom.facebook.react.jstasks.HeadlessJsTaskContext.hasActiveTasks()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâI â(W2À
+ com.facebook.react.modules.core.ReactChoreographer.removeFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaä ä(-2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaà* à(B2”
+Scom.facebook.react.modules.core.JavaTimerManager?mFrameCallbackPosted@165.18:165.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâ â(2«
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâ  â((2È
+icom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()?headlessJsTaskContext@263.26:263.47CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâ3 â(H2“
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaä ä(2“
+Rcom.facebook.react.modules.core.JavaTimerManager?mTimerFrameCallback@162.35:162.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaã9 ã(L2”
+Scom.facebook.react.modules.core.JavaTimerManager?mFrameCallbackPosted@165.18:165.38CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaå å(2
+icom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()?headlessJsTaskContext@263.26:263.47DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá á(/2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ
+ Ü(Î
+icom.facebook.react.modules.core.JavaTimerManager.clearFrameCallback()?headlessJsTaskContext@263.26:263.47VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá á(/"
+typeHeadlessJsTaskContext"
+isFinalfalse"ø
+declarationString©<mark class="modifier"> </mark>HeadlessJsTaskContext <mark class="class-field">headlessJsTaskContext</mark> = HeadlessJsTaskContext.getInstance(mReactApplicationContext)*headlessJsTaskContext2∞
+0com.facebook.react.jstasks.HeadlessJsTaskContextTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá á(2‰
+dcom.facebook.react.jstasks.HeadlessJsTaskContext.getInstance(com.facebook.react.bridge.ReactContext)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaà à()2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaà* à(Bù
+Ocom.facebook.react.modules.core.JavaTimerManager.setChoreographerIdleCallback()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê(+"
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">setChoreographerIdleCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*setChoreographerIdleCallback2…
+»com.facebook.react.modules.core.ReactChoreographer.postFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaí í(+2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mFrameIdleCallbackPosted@166.18:166.42CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaë	 ë(!2“
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaí í(2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleFrameCallback@163.34:163.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaì6 ì(H2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mFrameIdleCallbackPosted@166.18:166.42CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaî î(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê
+ ê(•
+Qcom.facebook.react.modules.core.JavaTimerManager.clearChoreographerIdleCallback()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaò ò(-"
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier">private </mark><mark class="modifier">void</mark> <mark class="method">clearChoreographerIdleCallback</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typevoid*clearChoreographerIdleCallback2À
+ com.facebook.react.modules.core.ReactChoreographer.removeFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö ö(-2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mFrameIdleCallbackPosted@166.18:166.42CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô ô( 2“
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö ö(2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleFrameCallback@163.34:163.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaõ6 õ(H2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mFrameIdleCallbackPosted@166.18:166.42CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaú ú(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaò
+ ò(≥'
+Pcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java© ©("
+isFinalfalse"≈
+declarationStringØ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">createTimer</mark>(final <mark class="modifier">int</mark> callbackID<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">long</mark> delay<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">boolean</mark> repeat)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*createTimer2∞
+0com.facebook.react.common.SystemClock.nanoTime()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™) ™(12û
+java.util.PriorityQueue.add(E)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java≠ ≠(2’
+Ucom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(2÷
+Vcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!delayCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™@ ™(E2€
+[com.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!callbackIDCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(&2Ô
+ocom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?initialTargetTime@298.9:298.26CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´( ´(92÷
+Vcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!delayCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´A ´(F2◊
+Wcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!repeatCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´H ´(N2 
+Jcom.facebook.react.modules.core.JavaTimerManager?mTimerGuard@156.23:156.34CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¨ ¨(2∆
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java≠ ≠(2‰
+dcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?timer@299.10:299.15CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java≠ ≠(2–
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÆ Æ(2€
+[com.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!callbackIDCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÆ Æ(&2‰
+dcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?timer@299.10:299.15CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÆ( Æ(-2‡
+[com.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!callbackID	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©$ ©(.2€
+Vcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!delay	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©; ©(@2‹
+Wcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!repeat	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©P ©(V2ˆ
+ocom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?initialTargetTime@298.9:298.26DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™	 ™(2Î
+dcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?timer@299.10:299.15DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´
+ ´(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©	 ©(Ò
+ocom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?initialTargetTime@298.9:298.26VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™	 ™("
+typelong"
+isFinalfalse"µ
+declarationStringü<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">initialTargetTime</mark> = SystemClock.nanoTime() / 1000000 + delay*initialTargetTime2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™ ™(2∞
+0com.facebook.react.common.SystemClock.nanoTime()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™) ™(12÷
+Vcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!delayCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java™@ ™(EÊ
+dcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?timer@299.10:299.15VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´
+ ´("
+typeTimer"
+isFinalfalse"ø
+declarationString©<mark class="modifier"> </mark>Timer <mark class="class-field">timer</mark> = new Timer(callbackID, initialTargetTime, (<mark class="modifier">int</mark>) delay, repeat)*timer2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(	2’
+Ucom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(2€
+[com.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!callbackIDCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´ ´(&2Ô
+ocom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)?initialTargetTime@298.9:298.26CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´( ´(92÷
+Vcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!delayCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´A ´(F2◊
+Wcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!repeatCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java´H ´(N”
+[com.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!callbackID	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©$ ©(."
+typeint"
+isFinaltrue"A
+declarationString,<mark class="modifier">int</mark> callbackID*
+callbackID2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©  ©(#«
+Vcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!delay	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©; ©(@"
+typelong"
+isFinaltrue"=
+declarationString(<mark class="modifier">long</mark> delay*delay2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©6 ©(:”
+Wcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)!repeat	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©P ©(V"
+typeboolean"
+isFinaltrue"A
+declarationString,<mark class="modifier">boolean</mark> repeat*repeat2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java©H ©(OÏI
+ccom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaª ª(%"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">createAndMaybeCallTimer</mark>(final <mark class="modifier">int</mark> callbackID<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">int</mark> duration<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">double</mark> jsSchedulingTime<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">boolean</mark> repeat)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*createAndMaybeCallTimer2π
+9com.facebook.react.common.SystemClock.currentTimeMillis()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¿" ¿(32—
+Qcom.facebook.react.devsupport.interfaces.DevSupportManager.getDevSupportEnabled()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∆ ∆(/2ò
+java.lang.Math.abs(long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «(2ﬁ
+^com.facebook.react.modules.core.JavaScriptTimerExecutor.emitTimeDriftWarning(java.lang.String)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java…! …(52û
+java.lang.Math.max(long, long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–! –($2±
+1com.facebook.react.bridge.Arguments.createArray()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“, “(72¥
+4com.facebook.react.bridge.WritableArray.pushInt(int)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java” ”(2Î
+kcom.facebook.react.modules.core.JavaScriptTimerExecutor.callTimers(com.facebook.react.bridge.WritableArray)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‘ ‘()2–
+Pcom.facebook.react.modules.core.JavaTimerManager.createTimer(int, long, boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÿ ÿ(2Ù
+tcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!jsSchedulingTimeCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¡ ¡(-2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mDevSupportManager@155.34:155.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java∆ ∆(2˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?remoteTime@321.9:321.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java«  «(*2˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?deviceTime@320.9:320.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java«- «(72˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?driftTime@327.11:327.20CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java»
+ »(2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java… …( 2˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?remoteTime@321.9:321.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–( –(22˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?deviceTime@320.9:320.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–5 –(?2Ï
+lcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!durationCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–B –(J2Ï
+lcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!durationCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java— —(2Í
+jcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!repeatCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java— —( 2˝
+}com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?timerToCall@338.20:338.31CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java” ”(2Ó
+ncom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!callbackIDCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java” ”($2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‘ ‘(2˝
+}com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?timerToCall@338.20:338.31CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‘* ‘(52Ó
+ncom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!callbackIDCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÿ ÿ(2Ç
+Åcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?adjustedDuration@336.9:336.25CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÿ ÿ(,2Í
+jcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!repeatCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÿ. ÿ(42Û
+ncom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!callbackID	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaº º(2Ò
+lcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!duration	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaΩ Ω(2˘
+tcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!jsSchedulingTime	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaæ æ(#2Ô
+jcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!repeat	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaø ø(2Ç
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?deviceTime@320.9:320.19DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¿	 ¿(2Ç
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?remoteTime@321.9:321.19DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¡	 ¡(2Ç
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?driftTime@327.11:327.20DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «(2â
+Åcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?adjustedDuration@336.9:336.25DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–	 –(2Ñ
+}com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?timerToCall@338.20:338.31DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“ “(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaª	 ª(ñ
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?deviceTime@320.9:320.19VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¿	 ¿("
+typelong"
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">deviceTime</mark> = SystemClock.currentTimeMillis()*
+deviceTime2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¿ ¿(2π
+9com.facebook.react.common.SystemClock.currentTimeMillis()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¿" ¿(3Á
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?remoteTime@321.9:321.19VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¡	 ¡("
+typelong"
+isFinalfalse"ª
+declarationString•<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">remoteTime</mark> = (<mark class="modifier">long</mark>) jsSchedulingTime*
+remoteTime2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¡ ¡(2Ù
+tcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!jsSchedulingTimeCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¡ ¡(-Ò	
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?driftTime@327.11:327.20VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «("
+typelong"
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">driftTime</mark> = Math.abs(remoteTime - deviceTime)*	driftTime2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «(
+2ò
+java.lang.Math.abs(long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java« «(2˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?remoteTime@321.9:321.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java«  «(*2˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?deviceTime@320.9:320.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java«- «(7â
+Åcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?adjustedDuration@336.9:336.25VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–	 –("
+typelong"
+isFinalfalse"ª
+declarationString•<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">adjustedDuration</mark> = Math.max(0, remoteTime - deviceTime + duration)*adjustedDuration2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java– –(2û
+java.lang.Math.max(long, long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–! –($2˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?remoteTime@321.9:321.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–( –(22˚
+{com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?deviceTime@320.9:320.19CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–5 –(?2Ï
+lcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!durationCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java–B –(J†
+}com.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)?timerToCall@338.20:338.31VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“ “("
+typeWritableArray"
+isFinalfalse"à
+declarationStrings<mark class="modifier"> </mark>WritableArray <mark class="class-field">timerToCall</mark> = Arguments.createArray()*timerToCall2ß
+'com.facebook.react.bridge.WritableArrayTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“ “(2±
+1com.facebook.react.bridge.Arguments.createArray()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java“, “(7Ê
+ncom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!callbackID	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaº º("
+typeint"
+isFinaltrue"A
+declarationString,<mark class="modifier">int</mark> callbackID*
+callbackID2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaº º(‡
+lcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!duration	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaΩ Ω("
+typeint"
+isFinaltrue"?
+declarationString*<mark class="modifier">int</mark> duration*duration2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaΩ Ω(Å
+tcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!jsSchedulingTime	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaæ æ(#"
+typedouble"
+isFinaltrue"J
+declarationString5<mark class="modifier">double</mark> jsSchedulingTime*jsSchedulingTime2Ü
+doubleTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaæ æ(Ê
+jcom.facebook.react.modules.core.JavaTimerManager.createAndMaybeCallTimer(int, int, double, boolean)!repeat	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaø ø("
+typeboolean"
+isFinaltrue"A
+declarationString,<mark class="modifier">boolean</mark> repeat*repeat2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaø ø(Ç
+Acom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹ ‹("
+isFinalfalse"‡
+declarationString <mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">deleteTimer</mark>(<mark class="modifier">int</mark> timerId)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*deleteTimer2∞
+0java.util.PriorityQueue.remove(java.lang.Object)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„ „(2 
+Jcom.facebook.react.modules.core.JavaTimerManager?mTimerGuard@156.23:156.34CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java› ›(2–
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ ﬁ(%2…
+Icom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)!timerIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ* ﬁ(12’
+Ucom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)?timer@350.12:350.17CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬂ
+ ﬂ(2–
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‚ ‚(2…
+Icom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)!timerIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‚ ‚(&2∆
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„ „(2’
+Ucom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)?timer@350.12:350.17CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java„ „(2Œ
+Icom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)!timerId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹ ‹(%2‹
+Ucom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)?timer@350.12:350.17DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ ﬁ(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹	 ‹(›
+Ucom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)?timer@350.12:350.17VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ ﬁ("
+typeTimer"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>Timer <mark class="class-field">timer</mark> = mTimerIdsToTimers.get(timerId)*timer2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ ﬁ(2–
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ ﬁ(%2…
+Icom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)!timerIdCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaﬁ* ﬁ(1º
+Icom.facebook.react.modules.core.JavaTimerManager.deleteTimer(int)!timerId	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹ ‹(%"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> timerId*timerId2É
+intTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java‹ ‹(‹
+Kcom.facebook.react.modules.core.JavaTimerManager.setSendIdleEvents(boolean)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaË Ë("
+isFinalfalse"˜
+declarationString·<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSendIdleEvents</mark>(final <mark class="modifier">boolean</mark> sendIdleEvents)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSendIdleEvents2»
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÌ Ì(2œ
+Ocom.facebook.react.modules.core.JavaTimerManager.setChoreographerIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÛ Û(,2—
+Qcom.facebook.react.modules.core.JavaTimerManager.clearChoreographerIdleCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaı ı(.2ë
+êcom.facebook.react.modules.core.JavaTimerManager.Anonymous-c2cf5a42-b06d-4e3b-b2be-633f462952b9.Anonymous-c2cf5a42-b06d-4e3b-b2be-633f462952b9()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÓ Ó(2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleCallbackGuard@157.23:157.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÈ È($2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager?mSendIdleEvents@167.18:167.33CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÍ Í(2⁄
+Zcom.facebook.react.modules.core.JavaTimerManager.setSendIdleEvents(boolean)!sendIdleEventsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÍ Í(&2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleCallbackGuard@157.23:157.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÒ Ò(,2⁄
+Zcom.facebook.react.modules.core.JavaTimerManager.setSendIdleEvents(boolean)!sendIdleEventsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÚ Ú( 2ﬂ
+Zcom.facebook.react.modules.core.JavaTimerManager.setSendIdleEvents(boolean)!sendIdleEvents	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaË. Ë(<2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaË	 Ë(Ê
+Zcom.facebook.react.modules.core.JavaTimerManager.setSendIdleEvents(boolean)!sendIdleEvents	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaË. Ë(<"
+typeboolean"
+isFinaltrue"I
+declarationString4<mark class="modifier">boolean</mark> sendIdleEvents*sendIdleEvents2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaË& Ë(-µ
+Mcom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÑ Ñ(."
+isFinalfalse"π
+declarationString£<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">hasActiveTimersInRange</mark>(<mark class="modifier">long</mark> rangeMs)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasActiveTimersInRange2û
+java.util.PriorityQueue.peek()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ  Ü($2˝
+}com.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaã
+ ã(2˝
+}com.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaë ë(2 
+Jcom.facebook.react.modules.core.JavaTimerManager?mTimerGuard@156.23:156.34CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÖ Ö(2∆
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü(2Â
+ecom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?nextTimer@390.12:390.21CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá
+ á(2Â
+ecom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?nextTimer@390.12:390.21CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaã ã("2’
+Ucom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)!rangeMsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaã$ ã(+2∆
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê( 2·
+acom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?timer@400.17:400.22CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaë ë( 2’
+Ucom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)!rangeMsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaë" ë()2⁄
+Ucom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)!rangeMs	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÑ4 Ñ(;2Ï
+ecom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?nextTimer@390.12:390.21DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü(2Ë
+acom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?timer@400.17:400.22DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê(2é
+booleanRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÑ Ñ(Ø
+ecom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?nextTimer@390.12:390.21VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü("
+typeTimer"
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>Timer <mark class="class-field">nextTimer</mark> = mTimers.peek()*	nextTimer2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü(2û
+java.util.PriorityQueue.peek()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ  Ü($2∆
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÜ Ü(®
+acom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)?timer@400.17:400.22VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê("
+typeTimer"
+isFinalfalse"`
+declarationStringK<mark class="modifier"> </mark>Timer <mark class="class-field">timer</mark>*timer2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê(À
+Ucom.facebook.react.modules.core.JavaTimerManager.hasActiveTimersInRange(long)!rangeMs	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÑ4 Ñ(;"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> rangeMs*rangeMs2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÑ/ Ñ(3Û
+}com.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô ô('"
+isFinalfalse"¶
+declarationStringê<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">isTimerInRange</mark>(Timer timer<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> rangeMs)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*isTimerInRange2Ñ
+Écom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!timerCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö ö(2Ñ
+Écom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!timerCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö ö("2Ü
+Öcom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!rangeMsCALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö/ ö(62 
+Jcom.facebook.react.modules.core.JavaTimerManager.Timer?mRepeat@41.26:41.33CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö ö(2Ã
+Lcom.facebook.react.modules.core.JavaTimerManager.Timer?mInterval@42.22:42.31CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö# ö(,2â
+Écom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!timer	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô. ô(32ã
+Öcom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!rangeMs	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô: ô(A2é
+booleanRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô ô(å
+Écom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!timer	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô. ô(3"
+typeTimer"
+isFinalfalse" 
+declarationStringTimer timer*timer2∂
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô( ô(-¸
+Öcom.facebook.react.modules.core.JavaTimerManager.isTimerInRange(com.facebook.react.modules.core.JavaTimerManager.Timer, long)!rangeMs	PARAMETERv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô: ô(A"
+typelong"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark> rangeMs*rangeMs2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô5 ô(9∫
+\com.facebook.react.modules.core.JavaTimerManager?IDLE_CALLBACK_FRAME_DEADLINE_MS@33.29:33.60VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java! !(<"
+isFinaltrue"
+typefloat"
+declarationString⁄<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">float</mark> <mark class="class-field">IDLE_CALLBACK_FRAME_DEADLINE_MS</mark> = 1.f;"
+isStatictrue"
+accessprivate*IDLE_CALLBACK_FRAME_DEADLINE_MS2É
+floatTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java! !(ö
+Ncom.facebook.react.modules.core.JavaTimerManager?FRAME_DURATION_MS@37.29:37.46VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java% %(."
+isFinaltrue"
+typefloat"Ï
+declarationString÷<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">float</mark> <mark class="class-field">FRAME_DURATION_MS</mark> = 1000.f / 60.f;"
+isStatictrue"
+accessprivate*FRAME_DURATION_MS2É
+floatTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java% %(≤
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaò( ò(@"
+isFinaltrue"
+typeReactApplicationContext"±
+declarationStringõ<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactApplicationContext <mark class="class-field">mReactApplicationContext</mark>"
+isStaticfalse"
+accessprivate*mReactApplicationContext2±
+1com.facebook.react.bridge.ReactApplicationContextTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaò ò('∏
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô( ô(@"
+isFinaltrue"
+typeJavaScriptTimerExecutor"±
+declarationStringõ<mark class="modifier">private </mark><mark class="modifier">final </mark>JavaScriptTimerExecutor <mark class="class-field">mJavaScriptTimerExecutor</mark>"
+isStaticfalse"
+accessprivate*mJavaScriptTimerExecutor2∑
+7com.facebook.react.modules.core.JavaScriptTimerExecutorTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaô ô('ö
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö# ö(6"
+isFinaltrue"
+typeReactChoreographer"ß
+declarationStringë<mark class="modifier">private </mark><mark class="modifier">final </mark>ReactChoreographer <mark class="class-field">mReactChoreographer</mark>"
+isStaticfalse"
+accessprivate*mReactChoreographer2≤
+2com.facebook.react.modules.core.ReactChoreographerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaö ö("ù
+Qcom.facebook.react.modules.core.JavaTimerManager?mDevSupportManager@155.34:155.52VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaõ" õ(4"
+isFinaltrue"
+typeDevSupportManager"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">final </mark>DevSupportManager <mark class="class-field">mDevSupportManager</mark>"
+isStaticfalse"
+accessprivate*mDevSupportManager2∫
+:com.facebook.react.devsupport.interfaces.DevSupportManagerTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaõ õ(!Ù
+Jcom.facebook.react.modules.core.JavaTimerManager?mTimerGuard@156.23:156.34VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaú ú(""
+isFinaltrue"
+typeObject"£
+declarationStringç<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">mTimerGuard</mark> = new Object();"
+isStaticfalse"
+accessprivate*mTimerGuard2ê
+java.lang.ObjectTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaú ú(2ô
+java.lang.Object.Object()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaú) ú(/â
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleCallbackGuard@157.23:157.41VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaù ù()"
+isFinaltrue"
+typeObject"™
+declarationStringî<mark class="modifier">private </mark><mark class="modifier">final </mark>Object <mark class="class-field">mIdleCallbackGuard</mark> = new Object();"
+isStaticfalse"
+accessprivate*mIdleCallbackGuard2ê
+java.lang.ObjectTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaù ù(2ô
+java.lang.Object.Object()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaù0 ù(6°
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaû% û(,"
+isFinaltrue"
+typePriorityQueue<Timer>"ù
+declarationStringá<mark class="modifier">private </mark><mark class="modifier">final </mark>PriorityQueue<Timer> <mark class="class-field">mTimers</mark>"
+isStaticfalse"
+accessprivate*mTimers2ó
+java.util.PriorityQueueTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaû û(2ø
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPE_ARGUMENTv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaû û(#º
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaü# ü(4"
+isFinaltrue"
+typeSparseArray<Timer>"•
+declarationStringè<mark class="modifier">private </mark><mark class="modifier">final </mark>SparseArray<Timer> <mark class="class-field">mTimerIdsToTimers</mark>"
+isStaticfalse"
+accessprivate*mTimerIdsToTimers2ò
+android.util.SparseArrayTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaü ü(2ø
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPE_ARGUMENTv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaü ü(!ƒ
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java† †(&"
+isFinaltrue"
+typeAtomicBoolean"≤
+declarationStringú<mark class="modifier">private </mark><mark class="modifier">final </mark>AtomicBoolean <mark class="class-field">isPaused</mark> = new AtomicBoolean(true);"
+isStaticfalse"
+accessprivate*isPaused2©
+)java.util.concurrent.atomic.AtomicBooleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java† †(2¿
+@java.util.concurrent.atomic.AtomicBoolean.AtomicBoolean(boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java†- †(:ı
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java° °(,"
+isFinaltrue"
+typeAtomicBoolean"◊
+declarationString¡<mark class="modifier">private </mark><mark class="modifier">final </mark>AtomicBoolean <mark class="class-field">isRunningTasks</mark> = new AtomicBoolean(<mark class="modifier">false</mark>);"
+isStaticfalse"
+accessprivate*isRunningTasks2©
+)java.util.concurrent.atomic.AtomicBooleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java° °(2¿
+@java.util.concurrent.atomic.AtomicBoolean.AtomicBoolean(boolean)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java°3 °(@¢
+Rcom.facebook.react.modules.core.JavaTimerManager?mTimerFrameCallback@162.35:162.54VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¢# ¢(6"
+isFinaltrue"
+typeTimerFrameCallback"√
+declarationString≠<mark class="modifier">private </mark><mark class="modifier">final </mark>TimerFrameCallback <mark class="class-field">mTimerFrameCallback</mark> = new TimerFrameCallback();"
+isStaticfalse"
+accessprivate*mTimerFrameCallback2√
+Ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallbackTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¢ ¢("2ÿ
+Xcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.TimerFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¢= ¢(Oô
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleFrameCallback@163.34:163.52VALUEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java£" £(4"
+isFinaltrue"
+typeIdleFrameCallback"¿
+declarationString™<mark class="modifier">private </mark><mark class="modifier">final </mark>IdleFrameCallback <mark class="class-field">mIdleFrameCallback</mark> = new IdleFrameCallback();"
+isStaticfalse"
+accessprivate*mIdleFrameCallback2¬
+Bcom.facebook.react.modules.core.JavaTimerManager.IdleFrameCallbackTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java£ £(!2÷
+Vcom.facebook.react.modules.core.JavaTimerManager.IdleFrameCallback.IdleFrameCallback()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java£; £(L´
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java§) §(E"
+isFinalfalse"
+typeIdleCallbackRunnable"ç
+declarationStringx<mark class="modifier">private </mark>IdleCallbackRunnable <mark class="class-field">mCurrentIdleCallbackRunnable</mark>"
+isStaticfalse"
+accessprivate*mCurrentIdleCallbackRunnable2≈
+Ecom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnableTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java§ §((Å
+Scom.facebook.react.modules.core.JavaTimerManager?mFrameCallbackPosted@165.18:165.38VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java• •(&"
+isFinalfalse"
+typeboolean"æ
+declarationString®<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mFrameCallbackPosted</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mFrameCallbackPosted2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java•
+ •(ç
+Wcom.facebook.react.modules.core.JavaTimerManager?mFrameIdleCallbackPosted@166.18:166.42VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¶ ¶(*"
+isFinalfalse"
+typeboolean"¬
+declarationString¨<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mFrameIdleCallbackPosted</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mFrameIdleCallbackPosted2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java¶
+ ¶(Ú
+Ncom.facebook.react.modules.core.JavaTimerManager?mSendIdleEvents@167.18:167.33VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaß ß(!"
+isFinalfalse"
+typeboolean"π
+declarationString£<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mSendIdleEvents</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*mSendIdleEvents2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaß
+ ß(ﬁ
+6com.facebook.react.modules.core.JavaTimerManager.TimerCLASSt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java' '(";
+package0com.facebook.react.modules.core.JavaTimerManager"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"d
+declarationStringO<mark class="modifier">private </mark><mark class="modifier">class </mark>Timer"
+accessprivate*Timer2⁄
+Ucom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java- -(2”
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mCallbackID@40.22:40.33DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java( ((!2œ
+Jcom.facebook.react.modules.core.JavaTimerManager.Timer?mRepeat@41.26:41.33DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java) )(!2—
+Lcom.facebook.react.modules.core.JavaTimerManager.Timer?mInterval@42.22:42.31DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java* *(2”
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java+ +(≈
+Ucom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)CONSTRUCTORt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java- -("œ
+declarationStringπ<mark class="modifier">private </mark><mark class="method">Timer</mark>(<mark class="modifier">int</mark> callbackID<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> initialTargetTime<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> duration<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> repeat)*Timer2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mCallbackID@40.22:40.33CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java. .(2ﬁ
+`com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!callbackIDCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java. .(2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java/ /(2Â
+gcom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!initialTargetTimeCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java/ /(%2 
+Lcom.facebook.react.modules.core.JavaTimerManager.Timer?mInterval@42.22:42.31CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java0 0(2‹
+^com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!durationCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java0 0(2»
+Jcom.facebook.react.modules.core.JavaTimerManager.Timer?mRepeat@41.26:41.33CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java1 1(2⁄
+\com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!repeatCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java1 1(2„
+`com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!callbackID	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java- -( 2Í
+gcom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!initialTargetTime	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-' -(82·
+^com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!duration	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-> -(F2ﬂ
+\com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!repeat	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-P -(V2ª
+6com.facebook.react.modules.core.JavaTimerManager.TimerRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java- -(’
+`com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!callbackID	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java- -( "
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> callbackID*
+callbackID2Å
+intTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java- -(Ì
+gcom.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!initialTargetTime	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-' -(8"
+typelong"
+isFinalfalse"I
+declarationString4<mark class="modifier">long</mark> initialTargetTime*initialTargetTime2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-" -(&œ
+^com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!duration	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-> -(F"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> duration*duration2Å
+intTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-: -(=’
+\com.facebook.react.modules.core.JavaTimerManager.Timer.Timer(int, long, int, boolean)!repeat	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-P -(V"
+typeboolean"
+isFinalfalse"A
+declarationString,<mark class="modifier">boolean</mark> repeat*repeat2Ö
+booleanTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java-H -(O”
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mCallbackID@40.22:40.33VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java( ((!"
+isFinaltrue"
+typeint"Æ
+declarationStringò<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">mCallbackID</mark>"
+isStaticfalse"
+accessprivate*mCallbackID2Å
+intTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java( ((”
+Jcom.facebook.react.modules.core.JavaTimerManager.Timer?mRepeat@41.26:41.33VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java) )(!"
+isFinaltrue"
+typeboolean"Æ
+declarationStringò<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">boolean</mark> <mark class="class-field">mRepeat</mark>"
+isStaticfalse"
+accessprivate*mRepeat2Ö
+booleanTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java) )(Õ
+Lcom.facebook.react.modules.core.JavaTimerManager.Timer?mInterval@42.22:42.31VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java* *("
+isFinaltrue"
+typeint"¨
+declarationStringñ<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">mInterval</mark>"
+isStaticfalse"
+accessprivate*	mInterval2Å
+intTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java* *(µ
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java+ +("
+isFinalfalse"
+typelong"ä
+declarationStringu<mark class="modifier">private </mark><mark class="modifier">long</mark> <mark class="class-field">mTargetTime</mark>"
+isStaticfalse"
+accessprivate*mTargetTime2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java+ +(°	
+Ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallbackCLASSt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java5 5("";
+package0com.facebook.react.modules.core.JavaTimerManager"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"∫
+declarationString§<mark class="modifier">private </mark><mark class="modifier">class </mark>TimerFrameCallback<mark class="modifier"> extends </mark>ChoreographerCompat.FrameCallback"
+accessprivate*TimerFrameCallback2÷
+Qcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <(2‚
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java8$ 8(12¡
+Acom.facebook.react.modules.core.ChoreographerCompat.FrameCallbackEXTENDt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java5? 5(L÷O
+Qcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <("
+isFinalfalse"‚
+declarationStringÃ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">doFrame</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*doFrame2≠
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java= =(2≠
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java=, =(/2§
+&java.util.AbstractCollection.isEmpty()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaC C(2ú
+java.util.PriorityQueue.peek()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaC- C(12ú
+java.util.PriorityQueue.poll()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD  D($2Ø
+1com.facebook.react.bridge.Arguments.createArray()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaF& F(12≤
+4com.facebook.react.bridge.WritableArray.pushInt(int)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaH H(2ú
+java.util.PriorityQueue.add(E)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaK K(2È
+kcom.facebook.react.modules.core.JavaScriptTimerExecutor.callTimers(com.facebook.react.bridge.WritableArray)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaS! S(+2«
+»com.facebook.react.modules.core.ReactChoreographer.postFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaW W(+2≈
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java=
+ =(2À
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java= =(+2ﬁ
+`com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)!frameTimeNanosCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaA A(+2»
+Jcom.facebook.react.modules.core.JavaTimerManager?mTimerGuard@156.23:156.34CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaB B(2ƒ
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaC C(2ƒ
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaC% C(,2Î
+mcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?frameTimeMillis@65.11:65.26CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaCB C(Q2ƒ
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD D(2€
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaE E(2€
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaF F(2€
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaH
+ H(2·
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaH  H(%2·
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaI I(2·
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaJ J(2Î
+mcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?frameTimeMillis@65.11:65.26CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaJ  J(/2·
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaJ2 J(72ƒ
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaK K(2·
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaK K(2Œ
+Pcom.facebook.react.modules.core.JavaTimerManager?mTimerIdsToTimers@159.35:159.52CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaM M(2·
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaM% M(*2€
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaR
+ R(2’
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaS S( 2€
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaS, S(92€
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaT T(2–
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaW W(2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaC4 C(?2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mCallbackID@40.22:40.33CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaH& H(12»
+Jcom.facebook.react.modules.core.JavaTimerManager.Timer?mRepeat@41.26:41.33CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaI I(2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mTargetTime@43.17:43.28CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaJ J(2 
+Lcom.facebook.react.modules.core.JavaTimerManager.Timer?mInterval@42.22:42.31CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaJ8 J(A2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.Timer?mCallbackID@40.22:40.33CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaM+ M(62—
+Ocom.facebook.react.modules.core.ChoreographerCompat.FrameCallback.doFrame(long)OVERRIDEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <(2„
+`com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)!frameTimeNanos	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <(+2Ú
+mcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?frameTimeMillis@65.11:65.26DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaA A(2Ë
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD D(2â
+voidRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <(¨
+mcom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?frameTimeMillis@65.11:65.26VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaA A("
+typelong"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">frameTimeMillis</mark> = frameTimeNanos / 1000000*frameTimeMillis2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaA A(
+2ﬁ
+`com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)!frameTimeNanosCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaA A(+ù
+ccom.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)?timer@68.16:68.21VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD D("
+typeTimer"
+isFinalfalse"q
+declarationString\<mark class="modifier"> </mark>Timer <mark class="class-field">timer</mark> = mTimers.poll()*timer2¥
+6com.facebook.react.modules.core.JavaTimerManager.TimerTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD
+ D(2ú
+java.util.PriorityQueue.poll()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD  D($2ƒ
+Fcom.facebook.react.modules.core.JavaTimerManager?mTimers@158.37:158.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaD D(‡
+`com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback.doFrame(long)!frameTimeNanos	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <(+"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java< <(Ü
+]com.facebook.react.modules.core.JavaTimerManager.TimerFrameCallback?mTimersToCall@56.36:56.49VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java8$ 8(1"
+isFinalfalse"
+typeWritableArray"û
+declarationStringà<mark class="modifier">private </mark>WritableArray <mark class="class-field">mTimersToCall</mark> = <mark class="modifier">null</mark>;"
+isStaticfalse"
+accessprivate*mTimersToCall2•
+'com.facebook.react.bridge.WritableArrayTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java8 8(#∏
+Bcom.facebook.react.modules.core.JavaTimerManager.IdleFrameCallbackCLASSt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java[ [(!";
+package0com.facebook.react.modules.core.JavaTimerManager"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"π
+declarationString£<mark class="modifier">private </mark><mark class="modifier">class </mark>IdleFrameCallback<mark class="modifier"> extends </mark>ChoreographerCompat.FrameCallback"
+accessprivate*IdleFrameCallback2’
+Pcom.facebook.react.modules.core.JavaTimerManager.IdleFrameCallback.doFrame(long)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^(2¡
+Acom.facebook.react.modules.core.ChoreographerCompat.FrameCallbackEXTENDt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java[> [(Kñ"
+Pcom.facebook.react.modules.core.JavaTimerManager.IdleFrameCallback.doFrame(long)METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^("
+isFinalfalse"‚
+declarationStringÃ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">doFrame</mark>(<mark class="modifier">long</mark> frameTimeNanos)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*doFrame2≠
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java_ _(2≠
+/java.util.concurrent.atomic.AtomicBoolean.get()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java_, _(/2Ã
+Ncom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.cancel()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javae% e(+2À
+Mcom.facebook.react.bridge.ReactContext.runOnJSQueueThread(java.lang.Runnable)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javai i(12«
+»com.facebook.react.modules.core.ReactChoreographer.postFrameCallback(com.facebook.react.modules.core.ReactChoreographer.CallbackType, com.facebook.react.modules.core.ChoreographerCompat.FrameCallback)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javak k(+2ﬁ
+`com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.IdleCallbackRunnable(long)CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javah) h(=2≈
+Gcom.facebook.react.modules.core.JavaTimerManager?isPaused@160.30:160.38CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java_
+ _(2À
+Mcom.facebook.react.modules.core.JavaTimerManager?isRunningTasks@161.30:161.44CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java_ _(+2Ÿ
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javad
+ d(&2Ÿ
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javae e($2Ÿ
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javah h("2›
+_com.facebook.react.modules.core.JavaTimerManager.IdleFrameCallback.doFrame(long)!frameTimeNanosCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javah> h(L2’
+Wcom.facebook.react.modules.core.JavaTimerManager?mReactApplicationContext@152.40:152.64CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javai i(2Ÿ
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javai2 i(N2–
+Rcom.facebook.react.modules.core.JavaTimerManager?mReactChoreographer@154.35:154.54CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javak k(2—
+Ocom.facebook.react.modules.core.ChoreographerCompat.FrameCallback.doFrame(long)OVERRIDEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^(2‚
+_com.facebook.react.modules.core.JavaTimerManager.IdleFrameCallback.doFrame(long)!frameTimeNanos	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^(+2â
+voidRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^(ﬂ
+_com.facebook.react.modules.core.JavaTimerManager.IdleFrameCallback.doFrame(long)!frameTimeNanos	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^(+"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameTimeNanos*frameTimeNanos2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java^ ^(ã
+Ecom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnableCLASSt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javao o($";
+package0com.facebook.react.modules.core.JavaTimerManager"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"©
+declarationStringì<mark class="modifier">private </mark><mark class="modifier">class </mark>IdleCallbackRunnable<mark class="modifier"><br>implements </mark>Runnable"
+accessprivate*IdleCallbackRunnable2Â
+`com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.IdleCallbackRunnable(long)DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javas s(2–
+Kcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javax x(2’
+Ncom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.cancel()DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaì ì(2„
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mCancelled@112.29:112.39DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javap p('2Ë
+ccom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mFrameStartTime@113.23:113.38DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaq q(&2í
+java.lang.RunnableEXTENDt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javao0 o(8≤
+
+`com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.IdleCallbackRunnable(long)CONSTRUCTORt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javas s("û
+declarationStringà<mark class="modifier">public </mark><mark class="method">IdleCallbackRunnable</mark>(<mark class="modifier">long</mark> frameStartTime)*IdleCallbackRunnable2·
+ccom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mFrameStartTime@113.23:113.38CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javat t(2Ì
+ocom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.IdleCallbackRunnable(long)!frameStartTimeCALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javat t(&2Ú
+ocom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.IdleCallbackRunnable(long)!frameStartTime	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javas% s(32 
+Ecom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnableRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javas s(Ô
+ocom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.IdleCallbackRunnable(long)!frameStartTime	PARAMETERt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javas% s(3"
+typelong"
+isFinalfalse"F
+declarationString1<mark class="modifier">long</mark> frameStartTime*frameStartTime2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javas  s($˜0
+Kcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()METHODt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javax x("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">run</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*run2≤
+4com.facebook.react.common.SystemClock.uptimeMillis()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java~' ~(32π
+9com.facebook.react.common.SystemClock.currentTimeMillis()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä(/2—
+Qcom.facebook.react.modules.core.JavaScriptTimerExecutor.callIdleCallbacks(double)CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaç! ç(22‹
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mCancelled@112.29:112.39CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javay
+ y(2·
+ccom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mFrameStartTime@113.23:113.38CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java} }(,2Â
+gcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?timeSinceBoot@126.11:126.24CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java (+2Á
+icom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeMillis@125.11:125.26CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java. (=2ﬁ
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?time@128.11:128.15CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ$ Å((2Í
+jcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeElapsed@127.11:127.27CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ+ Å(;2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager?FRAME_DURATION_MS@37.29:37.46CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÉ
+ É(2Í
+jcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeElapsed@127.11:127.27CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÉ& É(62‹
+\com.facebook.react.modules.core.JavaTimerManager?IDLE_CALLBACK_FRAME_DEADLINE_MS@33.29:33.60CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÉ9 É(X2—
+Qcom.facebook.react.modules.core.JavaTimerManager?mIdleCallbackGuard@157.23:157.41CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaà à(&2Ë
+hcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?sendIdleEvents@135.14:135.28CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâ â(2Œ
+Ncom.facebook.react.modules.core.JavaTimerManager?mSendIdleEvents@167.18:167.33CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaâ â((2Ë
+hcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?sendIdleEvents@135.14:135.28CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaå
+ å(2◊
+Wcom.facebook.react.modules.core.JavaTimerManager?mJavaScriptTimerExecutor@153.40:153.64CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaç ç( 2
+pcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?absoluteFrameStartTime@129.11:129.33CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaç3 ç(I2€
+[com.facebook.react.modules.core.JavaTimerManager?mCurrentIdleCallbackRunnable@164.41:164.69CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaê ê("2Ó
+icom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeMillis@125.11:125.26DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java} }(2Ï
+gcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?timeSinceBoot@126.11:126.24DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java~ ~(2Ô
+jcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeElapsed@127.11:127.27DECLARATIONt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java (2Â
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?time@128.11:128.15DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä(2˜
+pcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?absoluteFrameStartTime@129.11:129.33DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ Å(!2Ô
+hcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?sendIdleEvents@135.14:135.28DECLARATIONv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá á(2â
+voidRETURN_TYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javax x(¨
+icom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeMillis@125.11:125.26VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java} }("
+typelong"
+isFinalfalse"§
+declarationStringé<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">frameTimeMillis</mark> = mFrameStartTime / 1000000*frameTimeMillis2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java} }(
+2·
+ccom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mFrameStartTime@113.23:113.38CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java} }(,¯
+gcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?timeSinceBoot@126.11:126.24VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java~ ~("
+typelong"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">timeSinceBoot</mark> = SystemClock.uptimeMillis()*timeSinceBoot2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java~ ~(
+2≤
+4com.facebook.react.common.SystemClock.uptimeMillis()CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java~' ~(3£
+jcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeElapsed@127.11:127.27VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java ("
+typelong"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">frameTimeElapsed</mark> = timeSinceBoot - frameTimeMillis*frameTimeElapsed2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java (
+2Â
+gcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?timeSinceBoot@126.11:126.24CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java (+2Á
+icom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeMillis@125.11:125.26CALLt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.java. (=Ì
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?time@128.11:128.15VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä("
+typelong"
+isFinalfalse"ü
+declarationStringâ<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">time</mark> = SystemClock.currentTimeMillis()*time2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä(
+2π
+9com.facebook.react.common.SystemClock.currentTimeMillis()CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÄ Ä(/≠
+pcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?absoluteFrameStartTime@129.11:129.33VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ Å(!"
+typelong"
+isFinalfalse"©
+declarationStringì<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="class-field">absoluteFrameStartTime</mark> = time - frameTimeElapsed*absoluteFrameStartTime2Ñ
+longTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ Å(
+2ﬁ
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?time@128.11:128.15CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ$ Å((2Í
+jcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?frameTimeElapsed@127.11:127.27CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaÅ+ Å(;µ
+hcom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.run()?sendIdleEvents@135.14:135.28VARIABLEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá á("
+typeboolean"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">sendIdleEvents</mark>*sendIdleEvents2á
+booleanTYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaá á(•
+Ncom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable.cancel()METHODv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaì ì("
+isFinalfalse"Å
+declarationStringl<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">cancel</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*cancel2ﬁ
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mCancelled@112.29:112.39CALLv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaî î(2ã
+voidRETURN_TYPEv
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaì ì(Ù
+^com.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mCancelled@112.29:112.39VARIABLEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javap p('"
+isFinalfalse"
+typeboolean"¥
+declarationStringû<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">mCancelled</mark> = <mark class="modifier">false</mark>;"
+isStaticfalse"
+accessprivate*
+mCancelled2Ö
+booleanTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javap p(Û
+ccom.facebook.react.modules.core.JavaTimerManager.IdleCallbackRunnable?mFrameStartTime@113.23:113.38VALUEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaq q(&"
+isFinaltrue"
+typelong"≥
+declarationStringù<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">long</mark> <mark class="class-field">mFrameStartTime</mark>"
+isStaticfalse"
+accessprivate*mFrameStartTime2Ç
+longTYPEt
+jnode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/modules/core/JavaTimerManager.javaq q(

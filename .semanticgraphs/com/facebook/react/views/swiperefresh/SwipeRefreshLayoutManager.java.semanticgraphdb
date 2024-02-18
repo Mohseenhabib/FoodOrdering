@@ -1,0 +1,764 @@
+
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¸6
+?com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManagerCLASSÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java' '(&"0
+package%com.facebook.react.views.swiperefresh"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ç
+declarationStringÏ<mark class="annotation">@ReactModule(name = REACT_CLASS)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>SwipeRefreshLayoutManager<mark class="modifier"> extends </mark>ViewGroupManager<ReactSwipeRefreshLayout><mark class="modifier"><br>implements </mark>AndroidSwipeRefreshLayoutManagerInterface&lt;ReactSwipeRefreshLayout&gt;"
+accesspublic*SwipeRefreshLayoutManager2
+[com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.SwipeRefreshLayoutManager()DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java.	 .("2ô
+Écom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java3$ 3(62ﬁ
+Icom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getName()DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java8 8(2®
+ícom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java> >(2«
+±com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD D(2¬
+¨com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaV V((2°
+ãcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[ [(2Æ
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java` `(2ø
+©com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan n(2´
+ïcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java| |(2≥
+õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇ Ç(#2≥
+õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá á(!2ÿ
+¿com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaå å(!2‡
+»com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaù ù(2Ò
+Zcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedViewConstants()DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java™ ™(52Ç
+kcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java± ±(F2‰
+Mcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getDelegate()DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaæ9 æ(D2Ï
+Wcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?REACT_CLASS@42.29:42.40DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java* *((2Í
+Ucom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?mDelegate@44.61:44.70DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java,= ,(F2π
+)AndroidSwipeRefreshLayoutManagerInterfaceEXTENDÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java( ((82Ω
+-com.facebook.react.uimanager.ViewGroupManagerEXTENDÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java'/ '(?2€
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutEXTEND_TYPE_ARGUMENTÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java(9 ((P2€
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutEXTEND_TYPE_ARGUMENTÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java'@ '(Wª
+[com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.SwipeRefreshLayoutManager()CONSTRUCTORÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java.	 .(""q
+declarationString\<mark class="modifier">public </mark><mark class="method">SwipeRefreshLayoutManager</mark>()*SwipeRefreshLayoutManager2„
+Ucom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?mDelegate@44.61:44.70CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java/ /(2‘
+?com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManagerRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java.	 .("ö
+Écom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java3$ 3(6"
+isFinalfalse"”
+declarationStringΩ<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark>ReactSwipeRefreshLayout <mark class="method">createViewInstance</mark>(ThemedReactContext reactContext)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typeReactSwipeRefreshLayout*createViewInstance2ã
+}com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.ReactSwipeRefreshLayout(com.facebook.react.bridge.ReactContext)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java4 4(&2ü
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!reactContextCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java4' 4(32§
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!reactContext	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java3J 3(V2“
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java3 3(#÷
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.createViewInstance(com.facebook.react.uimanager.ThemedReactContext)!reactContext	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java3J 3(V"
+typeThemedReactContext"
+isFinalfalse"4
+declarationStringThemedReactContext reactContext*reactContext2Ω
+/com.facebook.react.uimanager.ThemedReactContextTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java37 3(IÒ	
+Icom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getName()METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java8 8("
+isFinalfalse"î
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getName2Â
+Wcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?REACT_CLASS@42.29:42.40CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java9 9(2ƒ
+2com.facebook.react.uimanager.ViewManager.getName()OVERRIDEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java8 8(2¬
+0com.facebook.react.bridge.NativeModule.getName()OVERRIDEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java8 8(2•
+java.lang.StringRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java8	 8(ä
+ícom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java> >("
+isFinalfalse"Æ
+declarationStringò <br><mark class="annotation">@ReactProp(name</mark> = ViewProps.ENABLED<mark class="modifier"><mark class="modifier">,</mark></mark> defaultBoolean = true) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setEnabled</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> enabled)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setEnabled2¶
+ócom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java? ?(2©
+öcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!enabledCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java? ?(2´
+ócom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java>1 >(52Æ
+öcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!enabled	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java>? >(F2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java>	 >(Â
+ócom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java>1 >(5"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java> >(0∂
+öcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setEnabled(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!enabled	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java>? >(F"
+typeboolean"
+isFinalfalse"B
+declarationString-<mark class="modifier">boolean</mark> enabled*enabled2ï
+booleanTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java>7 >(>»K
+±com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD D("
+isFinalfalse"Ö
+declarationStringÔ = "colors"<mark class="modifier"><mark class="modifier">,</mark></mark> customType = "ColorArray") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setColors</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray colors)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setColors2º
+.com.facebook.react.bridge.ReadableArray.size()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF) F(-2º
+.com.facebook.react.bridge.ReadableArray.size()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG! G(%2¬
+4com.facebook.react.bridge.ReadableArray.getType(int)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaH H(2¡
+3com.facebook.react.bridge.ReadableArray.getMap(int)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaI> I(D2¡
+3com.facebook.react.bridge.ReadableArray.getInt(int)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaK" K((2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaE E(2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF" F((2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG G(2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG G( 2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG) G(*2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaH H(2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaH H(2ÿ
+…com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?colorValues@70.12:70.23CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaI
+ I(2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaI I(2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaI7 I(=2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaIE I(F2≈
+∂com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaII I(M2ÿ
+…com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?colorValues@70.12:70.23CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaK
+ K(2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaK K(2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaK K(!2Œ
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaK) K(*2≈
+∂com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaN N(
+2ÿ
+…com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?colorValues@70.12:70.23CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaN  N(+2≈
+∂com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaP P(
+2 
+∂com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD0 D(42Ã
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colors	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaDN D(T2ﬂ
+…com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?colorValues@70.12:70.23DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF F(2’
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16DECLARATIONÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG G(2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD	 D(Ê	
+…com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?colorValues@70.12:70.23VARIABLEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF F("
+typeint"
+isFinalfalse"º
+declarationString¶<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">colorValues</mark> = new <mark class="modifier">int</mark>[colors.size()]*colorValues2ì
+int[]TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF F(2º
+.com.facebook.react.bridge.ReadableArray.size()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF) F(-2«
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colorsCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaF" F((Ü
+øcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)?i@71.15:71.16VARIABLEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG G("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2ë
+intTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaG G(Ñ
+∂com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD0 D(4"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD D(/ä
+∏com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setColors(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.ReadableArray)!colors	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaDN D(T"
+typeReadableArray"
+isFinalfalse"S
+declarationString><mark class="annotation">@Nullable</mark> ReadableArray colors*colors2µ
+'com.facebook.react.bridge.ReadableArrayTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaD@ D(M”
+¨com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaV V(("
+isFinalfalse"•
+declarationStringè <br><mark class="annotation">@ReactProp(name</mark> = "progressBackgroundColor"<mark class="modifier"><mark class="modifier">,</mark></mark> customType = "Color") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setProgressBackgroundColor</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> Integer color)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setProgressBackgroundColor2¿
+±com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaW W(2¡
+≤com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!colorCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaW/ W(42¡
+≤com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!colorCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaWS W(X2≈
+±com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaVA V(E2∆
+≤com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!color	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaVO V(T2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaV	 V(ˇ
+±com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaVA V(E"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaV) V(@∂
+≤com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressBackgroundColor(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.Integer)!color	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaVO V(T"
+typeInteger"
+isFinalfalse""
+declarationStringInteger color*color2ü
+java.lang.IntegerTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaVG V(N∂
+ãcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[ [("
+isFinalfalse"Ñ
+declarationStringÓ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSize</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSize2ü
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java\ \(2†
+ëcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)!valueCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java\ \(2§
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[. [(22•
+ëcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)!value	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[8 [(=2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[	 [(ﬁ
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[. [(2"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[ [(-ù
+ëcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, int)!value	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[8 [(="
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> value*value2ë
+intTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java[4 [(7ï
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java` `("
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSize</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> String size)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSize2∑
+)java.lang.String.equals(java.lang.Object)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaa a(#2∑
+)java.lang.String.equals(java.lang.Object)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javac c(2€
+Mjava.lang.IllegalArgumentException.IllegalArgumentException(java.lang.String)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaf f((2¨
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaa a(2¨
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaa a(2¨
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javab b(
+2¨
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javac c(2¨
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javad d(
+2¨
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaf[ f(_2±
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java`. `(22±
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!size	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java`; `(?2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java`	 `(Î
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java`. `(2"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java` `(-ú
+ùcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)!size	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java`; `(?"
+typeString"
+isFinalfalse" 
+declarationStringString size*size2û
+java.lang.StringTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java`4 `(:ü+
+©com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan n("
+isFinalfalse"ß
+declarationStringë<mark class="annotation">@ReactProp(name</mark> = "size") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setSize</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> Dynamic size)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setSize2∏
+*com.facebook.react.bridge.Dynamic.isNull()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javao o(2π
++com.facebook.react.bridge.Dynamic.getType()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaq q(2∑
+)com.facebook.react.bridge.Dynamic.asInt()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javar r(2π
++com.facebook.react.bridge.Dynamic.getType()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javas s(2ß
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javat t(2∫
+,com.facebook.react.bridge.Dynamic.asString()CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javat t(!2€
+Mjava.lang.IllegalArgumentException.IllegalArgumentException(java.lang.String)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javav v((2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javao o(2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javap p(
+2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaq q(2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javar r(
+2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javar r(2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javas s(2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javat t(2Ω
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!sizeCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javat t(2¬
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan. n(22¬
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!size	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan< n(@2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan	 n(¸
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan. n(2"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan n(-¿
+Æcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setSize(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, com.facebook.react.bridge.Dynamic)!size	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan< n(@"
+typeDynamic"
+isFinalfalse"!
+declarationStringDynamic size*size2Ø
+!com.facebook.react.bridge.DynamicTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javan4 n(;µ
+ïcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)METHODÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java| |("
+isFinalfalse"‹
+declarationString∆ <br><mark class="annotation">@ReactProp(name</mark> = "refreshing") <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setRefreshing</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> refreshing)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setRefreshing2‚
+Tcom.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setRefreshing(boolean)CALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java}	 }(2©
+öcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!viewCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java} }(2Ø
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!refreshingCALLÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java} }(!2Æ
+öcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java|4 |(82¥
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!refreshing	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java|B |(L2ô
+voidRETURN_TYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java|	 |(Ë
+öcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!view	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java|4 |(8"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2À
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java| |(3¬
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!refreshing	PARAMETERÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java|B |(L"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> refreshing*
+refreshing2ï
+booleanTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java|: |(AÀ
+õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇ Ç(#"
+isFinalfalse"¿
+declarationString™ <br><mark class="annotation">@ReactProp(name</mark> = "progressViewOffset"<mark class="modifier"><mark class="modifier">,</mark></mark> defaultFloat = 0) <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setProgressViewOffset</mark>(final ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> final <mark class="modifier">float</mark> offset)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setProgressViewOffset2Í
+Zcom.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setProgressViewOffset(float)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÉ	 É(2±
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÉ É(2≥
+¢com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)!offsetCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÉ É(%2∂
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)!view	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇB Ç(F2∏
+¢com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)!offset	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇT Ç(Z2õ
+voidRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇ	 Ç(Ò
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)!view	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇB Ç(F"
+typeReactSwipeRefreshLayout"
+isFinaltrue"1
+declarationStringReactSwipeRefreshLayout view*view2Õ
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇ* Ç(Aπ
+¢com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float)!offset	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇT Ç(Z"
+typefloat"
+isFinaltrue"?
+declarationString*<mark class="modifier">float</mark> offset*offset2ï
+floatTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaÇN Ç(SÖ
+õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá á(!"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setNativeRefreshing</mark>(ReactSwipeRefreshLayout view<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setNativeRefreshing2¶
+ïcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaà à(2±
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaà à(2≤
+°com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!valueCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaà à(2∂
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!view	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá: á(>2∑
+°com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!value	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaáH á(M2õ
+voidRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá	 á(Ú
+†com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!view	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá: á(>"
+typeReactSwipeRefreshLayout"
+isFinalfalse"1
+declarationStringReactSwipeRefreshLayout view*view2Õ
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá" á(9Ω
+°com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setNativeRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)!value	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaáH á(M"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2ó
+booleanTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaá@ á(G∏#
+¿com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaå å(!"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark><mark class="modifier">void</mark> <mark class="method">addEventEmitters</mark>(final ThemedReactContext reactContext<mark class="modifier"><mark class="modifier">,</mark></mark> final ReactSwipeRefreshLayout view)"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"
+typevoid*addEventEmitters2¸
+lcom.facebook.react.uimanager.events.EventDispatcher.dispatchEvent(com.facebook.react.uimanager.events.Event)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaï ï(+2÷
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaé é(2ﬁ
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!reactContextCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaì> ì(J2÷
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaìL ì(P2©
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.Anonymous-9e43117f-8f58-445a-8702-0d53bed7b5d3.onRefresh()?eventDispatcher@146.28:146.43CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaî î(2©
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.Anonymous-5ae0095f-c072-4f4d-8fec-da8e32a8fc3c.onRefresh()?eventDispatcher@146.28:146.43CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaï ï(2÷
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javañ@ ñ(D2÷
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javañG ñ(K2„
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!reactContext	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaç ç(+2€
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!view	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaçK ç(O2∞
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.Anonymous-1a92416d-ab80-40f9-8477-e3953374ce25.onRefresh()?eventDispatcher@146.28:146.43DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaí í(+2õ
+voidRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaå å(≠
+òcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.Anonymous-0f33f8e2-93cd-4dff-abb0-1738076af741.onRefresh()?eventDispatcher@146.28:146.43VARIABLEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaí í(+"
+typeEventDispatcher"
+isFinalfalse"¡
+declarationString´<mark class="modifier"> </mark>EventDispatcher <mark class="class-field">eventDispatcher</mark> = UIManagerHelper.getEventDispatcherForReactTag(reactContext, view.getId())*eventDispatcher2√
+3com.facebook.react.uimanager.events.EventDispatcherTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaí í(2ﬁ
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!reactContextCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaì> ì(J2÷
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!viewCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaìL ì(Pñ
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!reactContext	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaç ç(+"
+typeThemedReactContext"
+isFinaltrue"4
+declarationStringThemedReactContext reactContext*reactContext2ø
+/com.facebook.react.uimanager.ThemedReactContextTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaç ç(ñ
+≈com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.addEventEmitters(com.facebook.react.uimanager.ThemedReactContext, com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout)!view	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaçK ç(O"
+typeReactSwipeRefreshLayout"
+isFinaltrue"1
+declarationStringReactSwipeRefreshLayout view*view2Õ
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaç3 ç(Jï
+»com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaù ù("
+isFinalfalse"¸
+declarationStringÊ ReactSwipeRefreshLayout root<mark class="modifier"><mark class="modifier">,</mark></mark> String commandId<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> ReadableArray args)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*receiveCommand2¶
+ïcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¢
+ ¢(2«
+7com.facebook.react.bridge.ReadableArray.getBoolean(int)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¢# ¢(-2„
+“com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandIdCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaü ü(2ﬁ
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!argsCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java° °(2ﬁ
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!rootCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¢ ¢(2ﬁ
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!argsCALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¢ ¢("2„
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!root	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaû' û(+2Ë
+“com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaû4 û(=2„
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!args	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaûW û([2õ
+voidRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaù	 ù(»
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!root	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaû' û(+"
+typeReactSwipeRefreshLayout"
+isFinalfalse"Z
+declarationStringE<mark class="annotation">@NonNull</mark> ReactSwipeRefreshLayout root*root2Õ
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaû û(&ﬂ
+“com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!commandId	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaû4 û(="
+typeString"
+isFinalfalse"%
+declarationStringString commandId*	commandId2†
+java.lang.StringTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaû- û(3ü
+Õcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.receiveCommand(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, java.lang.String, com.facebook.react.bridge.ReadableArray)!args	PARAMETERÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaûW û(["
+typeReadableArray"
+isFinalfalse"Q
+declarationString<<mark class="annotation">@Nullable</mark> ReadableArray args*args2∑
+'com.facebook.react.bridge.ReadableArrayTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaûI û(V“
+
+Zcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedViewConstants()METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java™ ™(5"
+isFinalfalse"˘
+declarationString„ <br><mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">getExportedViewConstants</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Object>*getExportedViewConstants2◊
+Ccom.facebook.react.uimanager.ViewManager.getExportedViewConstants()OVERRIDEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java™ ™(52§
+java.util.MapRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java™	 ™(2∞
+java.lang.StringRETURN_TYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java™ ™(2∞
+java.lang.ObjectRETURN_TYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java™ ™(‘%
+kcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java± ±(F"
+isFinalfalse"Ö
+declarationStringÔ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">getExportedCustomDirectEventTypeConstants</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<String, Object>*)getExportedCustomDirectEventTypeConstants2Ë
+Xcom.facebook.react.uimanager.BaseViewManager.getExportedCustomDirectEventTypeConstants()CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥7 ≥(`2Õ
+=java.util.Map.putAll(java.util.Map<? extends K, ? extends V>)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java∂ ∂(2ƒ
+4com.facebook.react.common.MapBuilder.Builder.build()CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaπ π(2∆
+6com.facebook.react.common.MapBuilder.Builder.put(K, V)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java∏ ∏(2æ
+.com.facebook.react.common.MapBuilder.builder()CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java∑# ∑(*2Ω
+-com.facebook.react.common.MapBuilder.of(K, V)CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java∏* ∏(,2´
+java.util.HashMap.HashMap()CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaµ- µ(D2°
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@179.24:179.46CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaµ µ(2°
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@179.24:179.46CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaµI µ(_2ù
+åcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@180.24:180.42CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java∂ ∂(2ù
+åcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@180.24:180.42CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java∫ ∫(2Ï
+Xcom.facebook.react.uimanager.BaseViewManager.getExportedCustomDirectEventTypeConstants()OVERRIDEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java± ±(F2Ë
+Tcom.facebook.react.uimanager.ViewManager.getExportedCustomDirectEventTypeConstants()OVERRIDEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java± ±(F2®
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@179.24:179.46DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥ ≥(.2§
+åcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@180.24:180.42DECLARATIONÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¥ ¥(*2§
+java.util.MapRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java±	 ±(2∞
+java.lang.StringRETURN_TYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java± ±(2∞
+java.lang.ObjectRETURN_TYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java± ±(Ü
+
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@179.24:179.46VARIABLEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥ ≥(."
+typeMap<String, Object>"
+isFinalfalse"¥
+declarationStringû<mark class="modifier"> </mark>Map<String, Object> <mark class="class-field">baseEventTypeConstants</mark> = super.getExportedCustomDirectEventTypeConstants()*baseEventTypeConstants2ù
+java.util.MapTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥ ≥(2©
+java.lang.StringTYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥ ≥(2©
+java.lang.ObjectTYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥ ≥(2Ë
+Xcom.facebook.react.uimanager.BaseViewManager.getExportedCustomDirectEventTypeConstants()CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java≥7 ≥(`…
+åcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?eventTypeConstants@180.24:180.42VARIABLEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¥ ¥(*"
+typeMap<String, Object>"
+isFinalfalse"Ù
+declarationStringﬁ<mark class="modifier"> </mark>Map<String, Object> <mark class="class-field">eventTypeConstants</mark> = baseEventTypeConstants == <mark class="modifier">null</mark> ? new HashMap<String, Object>() : baseEventTypeConstants*eventTypeConstants2ù
+java.util.MapTYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¥ ¥(2©
+java.lang.StringTYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¥ ¥(2©
+java.lang.ObjectTYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java¥ ¥(2´
+java.util.HashMap.HashMap()CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaµ- µ(D2°
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@179.24:179.46CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaµ µ(2°
+êcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getExportedCustomDirectEventTypeConstants()?baseEventTypeConstants@179.24:179.46CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaµI µ(_Œ	
+Mcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.getDelegate()METHODÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaæ9 æ(D"
+isFinalfalse"»
+declarationString≤<mark class="annotation">@Override</mark> <br><mark class="modifier">protected </mark>ViewManagerDelegate&lt;ReactSwipeRefreshLayout&gt; <mark class="method">getDelegate</mark>()"
+isStaticfalse"
+access	protected"
+
+isAbstractfalse"4
+type,ViewManagerDelegate<ReactSwipeRefreshLayout>*getDelegate2Â
+Ucom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?mDelegate@44.61:44.70CALLÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaø ø(2«
+0com.facebook.react.uimanager.ViewManagerDelegateRETURN_TYPEÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaæ æ(2›
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutRETURN_TYPE_ARGUMENTÖ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.javaæ  æ(7≤
+Wcom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?REACT_CLASS@42.29:42.40VALUEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java* *(("
+isFinaltrue"
+typeString"÷
+declarationString¿<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>String <mark class="class-field">REACT_CLASS</mark> = "AndroidSwipeRefreshLayout";"
+isStatictrue"
+accesspublic*REACT_CLASS2û
+java.lang.StringTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java* *(Æ
+Ucom.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager?mDelegate@44.61:44.70VALUEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java,= ,(F"
+isFinaltrue"4
+type,ViewManagerDelegate<ReactSwipeRefreshLayout>"∑
+declarationString°<mark class="modifier">private </mark><mark class="modifier">final </mark>ViewManagerDelegate<ReactSwipeRefreshLayout> <mark class="class-field">mDelegate</mark>"
+isStaticfalse"
+accessprivate*	mDelegate2æ
+0com.facebook.react.uimanager.ViewManagerDelegateTYPEÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java, ,(#2‘
+=com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayoutTYPE_ARGUMENTÉ
+ynode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/views/swiperefresh/SwipeRefreshLayoutManager.java,$ ,(;

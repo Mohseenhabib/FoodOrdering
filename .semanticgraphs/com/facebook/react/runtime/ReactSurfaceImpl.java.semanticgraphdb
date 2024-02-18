@@ -1,0 +1,864 @@
+
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaØ1
++com.facebook.react.runtime.ReactSurfaceImplCLASSo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java$ $("%
+packagecom.facebook.react.runtime"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"õ
+declarationStringÖ<mark class="annotation">@Nullsafe(Nullsafe.Mode.LOCAL)</mark> <br><mark class="annotation">@ThreadSafe</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>ReactSurfaceImpl<mark class="modifier"><br>implements </mark>ReactSurface"
+accesspublic*ReactSurfaceImpl2˙
+zcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@	 @(2ê
+ReactSurfaceImplDECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU U(2¯
+xcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java4! 4(/2‹
+\com.facebook.react.runtime.ReactSurfaceImpl.attach(com.facebook.react.runtime.ReactHostImpl)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java_ _(2„
+ccom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javai i(2Œ
+Ncom.facebook.react.runtime.ReactSurfaceImpl.updateInitProps(android.os.Bundle)DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javas s(2∫
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javax x(2¥
+4com.facebook.react.runtime.ReactSurfaceImpl.detach()DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java (2¡
+?com.facebook.react.runtime.ReactSurfaceImpl.getSurfaceHandler()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÑ Ñ("2∑
+5com.facebook.react.runtime.ReactSurfaceImpl.getView()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaâ â($2π
+7com.facebook.react.runtime.ReactSurfaceImpl.prerender()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaé é(&2µ
+3com.facebook.react.runtime.ReactSurfaceImpl.start()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaô ô("2¥
+2com.facebook.react.runtime.ReactSurfaceImpl.stop()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java™ ™(!2º
+:com.facebook.react.runtime.ReactSurfaceImpl.getSurfaceID()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaµ µ(2Ω
+;com.facebook.react.runtime.ReactSurfaceImpl.getModuleName()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java∫ ∫(2µ
+3com.facebook.react.runtime.ReactSurfaceImpl.clear()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaø ø(2”
+Qcom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÀ" À(32¬
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÿ ÿ($2∫
+8com.facebook.react.runtime.ReactSurfaceImpl.isAttached()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java·
+ ·(2π
+7com.facebook.react.runtime.ReactSurfaceImpl.isRunning()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÊ Ê(2∫
+8com.facebook.react.runtime.ReactSurfaceImpl.getContext()DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÎ Î(2÷
+Tcom.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÔ Ô(&2Ã
+Jcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÛ Û(2–
+Ncom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java˜ ˜("2ƒ
+Dcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceView@38.50:38.62DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java&2 &(>2¬
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java(/ ((92«
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java* *(.2¿
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java2 2(2á
+ReactSurfaceEXTENDo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java$) $(5´3
+zcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)CONSTRUCTORo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@	 @("¬
+declarationString¨<mark class="modifier">public </mark><mark class="method">ReactSurfaceImpl</mark>(Context context<mark class="modifier"><mark class="modifier">,</mark></mark> String moduleName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> Bundle initialProps)*ReactSurfaceImpl2∫
+Acom.facebook.react.bridge.Arguments.fromBundle(android.os.Bundle)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaF$ F(.2«
+Ncom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaO O(2√
+Jcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaP P(2Õ
+Tcom.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaQ Q(2–
+Wcom.facebook.react.fabric.SurfaceHandlerBinding.SurfaceHandlerBinding(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaA A("2∏
+?com.facebook.react.bridge.WritableNativeMap.WritableNativeMap()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaE E(#2ˇ
+Öcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!moduleNameCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaA# A(-2¸
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaA0 A(72Å
+ácom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!initialPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaD D(2Å
+ácom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!initialPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaF/ F(;2¿
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaG G(2å
+ícom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?nativeProps@67.14:67.25CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaG G((2¸
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaI$ I(+2¿
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaJ J(2è
+ïcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?displayMetrics@73.19:73.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaK$ K(22è
+ïcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?displayMetrics@73.19:73.33CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaL$ L(22¸
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaO O(2¸
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaP P(2¸
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaQ Q(2Å
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@" @()2Ñ
+Öcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!moduleName	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@2 @(<2Ü
+ácom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!initialProps	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@O @([2ì
+ícom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?nativeProps@67.14:67.25DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaC C(2ñ
+ïcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?displayMetrics@73.19:73.33DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaI I(!2´
++com.facebook.react.runtime.ReactSurfaceImplRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@	 @(œ
+ícom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?nativeProps@67.14:67.25VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaC C("
+type	NativeMap"
+isFinalfalse"Î
+declarationString’<mark class="modifier"> </mark>NativeMap <mark class="class-field">nativeProps</mark> = initialProps == <mark class="modifier">null</mark> ? new WritableNativeMap() : (NativeMap) Arguments.fromBundle(initialProps)*nativeProps2ú
+#com.facebook.react.bridge.NativeMapTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaC C(2∫
+Acom.facebook.react.bridge.Arguments.fromBundle(android.os.Bundle)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaF$ F(.2∏
+?com.facebook.react.bridge.WritableNativeMap.WritableNativeMap()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaE E(#2Å
+ácom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!initialPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaD D(2Å
+ácom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!initialPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaF/ F(;Ü
+ïcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)?displayMetrics@73.19:73.33VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaI I(!"
+typeDisplayMetrics"
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark>DisplayMetrics <mark class="class-field">displayMetrics</mark> = context.getResources().getDisplayMetrics()*displayMetrics2î
+android.util.DisplayMetricsTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaI I(2¸
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaI$ I(+Ê
+Çcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@" @()"
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2ê
+android.content.ContextTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@ @(!Ê
+Öcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!moduleName	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@2 @(<"
+typeString"
+isFinalfalse"&
+declarationStringString moduleName*
+moduleName2â
+java.lang.StringTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@+ @(1ó
+ácom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)!initialProps	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@O @(["
+typeBundle"
+isFinalfalse"R
+declarationString=<mark class="annotation">@Nullable</mark> Bundle initialProps*initialProps2ä
+android.os.BundleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java@H @(N÷
+ReactSurfaceImplCONSTRUCTORo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU U("Ñ
+declarationStringÓ<mark class="annotation">@VisibleForTesting</mark> <br><mark class="modifier"> </mark><mark class="method">ReactSurfaceImpl</mark>(SurfaceHandler surfaceHandler<mark class="modifier"><mark class="modifier">,</mark></mark> Context context)*ReactSurfaceImpl2¿
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaV V(2π
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaW W(2´
++com.facebook.react.runtime.ReactSurfaceImplRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU U(Ñ
+surfaceHandler	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU" U(0"
+typeSurfaceHandler"
+isFinalfalse"2
+declarationStringSurfaceHandler surfaceHandler*surfaceHandler2á
+SurfaceHandlerTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU U(!Í
+context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU: U(A"
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2ê
+android.content.ContextTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaU2 U(9ò#
+xcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java4! 4(/"
+isFinalfalse"ˆ
+declarationString‡<mark class="modifier">public </mark><mark class="modifier">static </mark>ReactSurfaceImpl <mark class="method">createWithView</mark>(Context context<mark class="modifier"><mark class="modifier">,</mark></mark> String moduleName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@Nullable</mark> Bundle initialProps)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeReactSurfaceImpl*createWithView2‹
+ccom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java7 7(2Û
+zcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6# 6(32¸
+Çcom.facebook.react.runtime.ReactSurfaceView.ReactSurfaceView(android.content.Context, com.facebook.react.runtime.ReactSurfaceImpl)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java7 7(+2˙
+Äcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java64 6(;2˝
+Écom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!moduleNameCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6= 6(G2ˇ
+Öcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!initialPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6I 6(U2Ü
+åcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)?surface@54.21:54.28CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java7 7(2˙
+Äcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java7, 7(32Ü
+åcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)?surface@54.21:54.28CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java75 7(<2Ü
+åcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)?surface@54.21:54.28CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java8 8(2ˇ
+Äcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5 5(2Ç
+Écom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!moduleName	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5 5((2Ñ
+Öcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!initialProps	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5; 5(G2ç
+åcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)?surface@54.21:54.28DECLARATIONo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6 6(2´
++com.facebook.react.runtime.ReactSurfaceImplRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java4 4( Ü
+åcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)?surface@54.21:54.28VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6 6("
+typeReactSurfaceImpl"
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark>ReactSurfaceImpl <mark class="class-field">surface</mark> = new ReactSurfaceImpl(context, moduleName, initialProps)*surface2§
++com.facebook.react.runtime.ReactSurfaceImplTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6 6(2Û
+zcom.facebook.react.runtime.ReactSurfaceImpl.ReactSurfaceImpl(android.content.Context, java.lang.String, android.os.Bundle)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6# 6(32˙
+Äcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!contextCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java64 6(;2˝
+Écom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!moduleNameCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6= 6(G2ˇ
+Öcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!initialPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java6I 6(U‰
+Äcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!context	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5 5("
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2ê
+android.content.ContextTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5 5(‰
+Écom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!moduleName	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5 5(("
+typeString"
+isFinalfalse"&
+declarationStringString moduleName*
+moduleName2â
+java.lang.StringTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5 5(ï
+Öcom.facebook.react.runtime.ReactSurfaceImpl.createWithView(android.content.Context, java.lang.String, android.os.Bundle)!initialProps	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java5; 5(G"
+typeBundle"
+isFinalfalse"R
+declarationString=<mark class="annotation">@Nullable</mark> Bundle initialProps*initialProps2ä
+android.os.BundleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java54 5(:—
+\com.facebook.react.runtime.ReactSurfaceImpl.attach(com.facebook.react.runtime.ReactHostImpl)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java_ _("
+isFinalfalse"ì
+declarationString~<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">attach</mark>(ReactHostImpl host)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*attach2∏
+?java.util.concurrent.atomic.AtomicReference.compareAndSet(V, V)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java` `(!2¿
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaa a(%2ª
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java`	 `(2⁄
+acom.facebook.react.runtime.ReactSurfaceImpl.attach(com.facebook.react.runtime.ReactHostImpl)!hostCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java`( `(,2ﬂ
+acom.facebook.react.runtime.ReactSurfaceImpl.attach(com.facebook.react.runtime.ReactHostImpl)!host	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java_# _('2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java_	 _(€
+acom.facebook.react.runtime.ReactSurfaceImpl.attach(com.facebook.react.runtime.ReactHostImpl)!host	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java_# _('"
+typeReactHostImpl"
+isFinalfalse"'
+declarationStringReactHostImpl host*host2°
+(com.facebook.react.runtime.ReactHostImplTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java_ _("î
+ccom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javai i("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">attachView</mark>(ReactSurfaceView view)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+attachView2∏
+?java.util.concurrent.atomic.AtomicReference.compareAndSet(V, V)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaj j(#2¿
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javak k(%2Ω
+Dcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceView@38.50:38.62CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaj	 j(2·
+hcom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)!viewCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaj* j(.2π
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javap p(2·
+hcom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)!viewCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javap p(2Ê
+hcom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)!view	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javai* i(.2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javai	 i(Î
+hcom.facebook.react.runtime.ReactSurfaceImpl.attachView(com.facebook.react.runtime.ReactSurfaceView)!view	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javai* i(."
+typeReactSurfaceView"
+isFinalfalse"*
+declarationStringReactSurfaceView view*view2§
++com.facebook.react.runtime.ReactSurfaceViewTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javai i()É
+Ncom.facebook.react.runtime.ReactSurfaceImpl.updateInitProps(android.os.Bundle)METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javas s("
+isFinalfalse"ö
+declarationStringÑ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">updateInitProps</mark>(Bundle newProps)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*updateInitProps2∫
+Acom.facebook.react.bridge.Arguments.fromBundle(android.os.Bundle)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javat3 t(=2¿
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javat t(2–
+Wcom.facebook.react.runtime.ReactSurfaceImpl.updateInitProps(android.os.Bundle)!newPropsCALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javat> t(F2’
+Wcom.facebook.react.runtime.ReactSurfaceImpl.updateInitProps(android.os.Bundle)!newProps	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javas% s(-2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javas	 s(¥
+Wcom.facebook.react.runtime.ReactSurfaceImpl.updateInitProps(android.os.Bundle)!newProps	PARAMETERo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javas% s(-"
+typeBundle"
+isFinalfalse"$
+declarationStringBundle newProps*newProps2ä
+android.os.BundleTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javas s($Ï
+:com.facebook.react.runtime.ReactSurfaceImpl.getReactHost()METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javax x("
+isFinalfalse"§
+declarationStringé<mark class="annotation">@VisibleForTesting</mark> <br><mark class="modifier"> </mark>ReactHostImpl <mark class="method">getReactHost</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeReactHostImpl*getReactHost2™
+1java.util.concurrent.atomic.AtomicReference.get()CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaz z(2ª
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaz z(2®
+(com.facebook.react.runtime.ReactHostImplRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javax x(ª
+4com.facebook.react.runtime.ReactSurfaceImpl.detach()METHODo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java ("
+isFinalfalse"∞
+declarationStringö<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">detach</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*detach2≠
+2java.util.concurrent.atomic.AtomicReference.set(V)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÄ Ä(2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÄ Ä(2Ñ
+voidRETURN_TYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java	 (à
+?com.facebook.react.runtime.ReactSurfaceImpl.getSurfaceHandler()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÑ Ñ(""
+isFinalfalse"r
+declarationString]<mark class="modifier"> </mark>SurfaceHandler <mark class="method">getSurfaceHandler</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeSurfaceHandler*getSurfaceHandler2¬
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÖ Ö(2ê
+SurfaceHandlerRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÑ Ñ(∆
+5com.facebook.react.runtime.ReactSurfaceImpl.getView()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaâ â($"
+isFinalfalse"ù
+declarationStringá <br><mark class="annotation">@Nullable</mark> <br><mark class="modifier">public </mark>ViewGroup <mark class="method">getView</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type	ViewGroup*getView2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaä ä(2ø
+Dcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceView@38.50:38.62CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaä ä(2ò
+android.view.ViewGroupRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaâ â(®
+7com.facebook.react.runtime.ReactSurfaceImpl.prerender()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaé é(&"
+isFinalfalse"™
+declarationStringî<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>TaskInterface&lt;Void&gt; <mark class="method">prerender</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeTaskInterface<Void>*	prerender2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè$ è('2«
+Lcom.facebook.react.runtime.internal.bolts.Task.forError(java.lang.Exception)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaë ë(2·
+fcom.facebook.react.runtime.ReactHostImpl.prerenderSurface(com.facebook.react.runtime.ReactSurfaceImpl)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaï ï( 2¬
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaí í(#2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè è(#2≈
+Jcom.facebook.react.runtime.ReactSurfaceImpl.prerender()?host@143.18:143.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaê ê(2≈
+Jcom.facebook.react.runtime.ReactSurfaceImpl.prerender()?host@143.18:143.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaï ï(2Ã
+Jcom.facebook.react.runtime.ReactSurfaceImpl.prerender()?host@143.18:143.22DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè è(2è
+TaskInterfaceRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaé	 é(â
+Jcom.facebook.react.runtime.ReactSurfaceImpl.prerender()?host@143.18:143.22VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè è("
+typeReactHostImpl"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>ReactHostImpl <mark class="class-field">host</mark> = mReactHost.get()*host2£
+(com.facebook.react.runtime.ReactHostImplTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè è(2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè$ è('2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaè è(#å
+3com.facebook.react.runtime.ReactSurfaceImpl.start()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaô ô(""
+isFinalfalse"¶
+declarationStringê<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>TaskInterface&lt;Void&gt; <mark class="method">start</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeTaskInterface<Void>*start2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaö ö(2«
+Lcom.facebook.react.runtime.internal.bolts.Task.forError(java.lang.Exception)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaõ õ(2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java†$ †('2«
+Lcom.facebook.react.runtime.internal.bolts.Task.forError(java.lang.Exception)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¢ ¢(2›
+bcom.facebook.react.runtime.ReactHostImpl.startSurface(com.facebook.react.runtime.ReactSurfaceImpl)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¶ ¶(2¬
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaú ú(#2¬
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java£ £(#2ø
+Dcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceView@38.50:38.62CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaö ö(2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java† †(#2¡
+Fcom.facebook.react.runtime.ReactSurfaceImpl.start()?host@160.18:160.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java° °(2¡
+Fcom.facebook.react.runtime.ReactSurfaceImpl.start()?host@160.18:160.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¶ ¶(2»
+Fcom.facebook.react.runtime.ReactSurfaceImpl.start()?host@160.18:160.22DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java† †(2è
+TaskInterfaceRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaô	 ô(Ö
+Fcom.facebook.react.runtime.ReactSurfaceImpl.start()?host@160.18:160.22VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java† †("
+typeReactHostImpl"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>ReactHostImpl <mark class="class-field">host</mark> = mReactHost.get()*host2£
+(com.facebook.react.runtime.ReactHostImplTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java† †(2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java†$ †('2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java† †(#Ö
+2com.facebook.react.runtime.ReactSurfaceImpl.stop()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java™ ™(!"
+isFinalfalse"•
+declarationStringè<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>TaskInterface&lt;Void&gt; <mark class="method">stop</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeTaskInterface<Void>*stop2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´$ ´('2«
+Lcom.facebook.react.runtime.internal.bolts.Task.forError(java.lang.Exception)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java≠ ≠(2‹
+acom.facebook.react.runtime.ReactHostImpl.stopSurface(com.facebook.react.runtime.ReactSurfaceImpl)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java± ±(2¬
+Gjava.lang.IllegalStateException.IllegalStateException(java.lang.String)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÆ Æ(#2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´ ´(#2¿
+Ecom.facebook.react.runtime.ReactSurfaceImpl.stop()?host@171.18:171.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¨ ¨(2¿
+Ecom.facebook.react.runtime.ReactSurfaceImpl.stop()?host@171.18:171.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java± ±(2«
+Ecom.facebook.react.runtime.ReactSurfaceImpl.stop()?host@171.18:171.22DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´ ´(2è
+TaskInterfaceRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java™	 ™(Ñ
+Ecom.facebook.react.runtime.ReactSurfaceImpl.stop()?host@171.18:171.22VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´ ´("
+typeReactHostImpl"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>ReactHostImpl <mark class="class-field">host</mark> = mReactHost.get()*host2£
+(com.facebook.react.runtime.ReactHostImplTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´ ´(2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´$ ´('2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java´ ´(#£
+:com.facebook.react.runtime.ReactSurfaceImpl.getSurfaceID()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaµ µ("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getSurfaceID</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getSurfaceID2¬
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java∂ ∂(2Ö
+intRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaµ	 µ(õ
+;com.facebook.react.runtime.ReactSurfaceImpl.getModuleName()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java∫ ∫("
+isFinalfalse"õ
+declarationStringÖ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getModuleName</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getModuleName2¬
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaª ª(2í
+java.lang.StringRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java∫	 ∫(‹
+3com.facebook.react.runtime.ReactSurfaceImpl.clear()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaø ø("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">clear</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*clear2√
+Hcom.facebook.react.bridge.UiThreadUtil.runOnUiThread(java.lang.Runnable)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¿ ¿(2∞
+5com.facebook.react.runtime.ReactSurfaceImpl.getView()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¬5 ¬(<2¡
+Fcom.facebook.react.runtime.ReactSurfaceImpl.clear()?view@194.27:194.31CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java√ √(2¡
+Fcom.facebook.react.runtime.ReactSurfaceImpl.clear()?view@194.27:194.31CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaƒ ƒ(2¡
+Fcom.facebook.react.runtime.ReactSurfaceImpl.clear()?view@194.27:194.31CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java≈ ≈(2»
+Fcom.facebook.react.runtime.ReactSurfaceImpl.clear()?view@194.27:194.31DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¬ ¬(2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaø	 ø(ﬂ
+Fcom.facebook.react.runtime.ReactSurfaceImpl.clear()?view@194.27:194.31VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¬ ¬("
+typeReactSurfaceView"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark>ReactSurfaceView <mark class="class-field">view</mark> = (ReactSurfaceView) getView()*view2¶
++com.facebook.react.runtime.ReactSurfaceViewTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¬
+ ¬(2∞
+5com.facebook.react.runtime.ReactSurfaceImpl.getView()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¬5 ¬(<Ü!
+Qcom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÀ" À(3"
+isFinalfalse"—
+declarationStringª<mark class="annotation">@UiThread</mark> <br><mark class="modifier"> </mark><mark class="modifier">synchronized </mark><mark class="modifier">void</mark> <mark class="method">updateLayoutSpecs</mark>(<mark class="modifier">int</mark> widthMeasureSpec<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> heightMeasureSpec<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> offsetX<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> offsetY)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type/* package */
+void*updateLayoutSpecs2…
+Ncom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java“ “(2≈
+Jcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java” ”(2œ
+Tcom.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java‘ ‘(2¬
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÕ Õ(2›
+bcom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!widthMeasureSpecCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŒ Œ(2ﬁ
+ccom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!heightMeasureSpecCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaœ œ(2‘
+Ycom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!offsetXCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java– –(2‘
+Ycom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!offsetYCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java— —(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java“ “(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java” ”(2ª
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java‘ ‘( 2‚
+bcom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!widthMeasureSpec	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ
+ Ã(2„
+ccom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!heightMeasureSpec	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ  Ã(12Ÿ
+Ycom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!offsetX	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ7 Ã(>2Ÿ
+Ycom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!offsetY	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃD Ã(K2Ü
+voidRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÀ À(!‹
+bcom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!widthMeasureSpec	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ
+ Ã("
+typeint"
+isFinalfalse"G
+declarationString2<mark class="modifier">int</mark> widthMeasureSpec*widthMeasureSpec2~
+intTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ Ã(	ﬂ
+ccom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!heightMeasureSpec	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ  Ã(1"
+typeint"
+isFinalfalse"H
+declarationString3<mark class="modifier">int</mark> heightMeasureSpec*heightMeasureSpec2~
+intTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ Ã(¡
+Ycom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!offsetX	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ7 Ã(>"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> offsetX*offsetX2~
+intTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ3 Ã(6¡
+Ycom.facebook.react.runtime.ReactSurfaceImpl.updateLayoutSpecs(int, int, int, int)!offsetY	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃD Ã(K"
+typeint"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark> offsetY*offsetY2~
+intTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÃ@ Ã(C¡
+@com.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÿ ÿ($"
+isFinalfalse"£
+declarationStringç<mark class="annotation">@Nullable</mark> <br><mark class="modifier"> </mark>EventDispatcher <mark class="method">getEventDispatcher</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeEventDispatcher*getEventDispatcher2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ$ Ÿ('2∏
+=com.facebook.react.runtime.ReactHostImpl.getEventDispatcher()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java› ›("2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ Ÿ(#2Œ
+Scom.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()?host@217.18:217.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java⁄ ⁄(2Œ
+Scom.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()?host@217.18:217.22CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java› ›(2’
+Scom.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()?host@217.18:217.22DECLARATIONq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ Ÿ(2µ
+3com.facebook.react.uimanager.events.EventDispatcherRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÿ ÿ(í
+Scom.facebook.react.runtime.ReactSurfaceImpl.getEventDispatcher()?host@217.18:217.22VARIABLEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ Ÿ("
+typeReactHostImpl"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>ReactHostImpl <mark class="class-field">host</mark> = mReactHost.get()*host2£
+(com.facebook.react.runtime.ReactHostImplTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ Ÿ(2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ$ Ÿ('2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaŸ Ÿ(#ﬂ
+8com.facebook.react.runtime.ReactSurfaceImpl.isAttached()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java·
+ ·("
+isFinalfalse"∫
+declarationString§<mark class="annotation">@VisibleForTesting</mark> <br><mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isAttached</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+isAttached2¨
+1java.util.concurrent.atomic.AtomicReference.get()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java‚ ‚(2Ω
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java‚ ‚(2â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java· ·(	¶
+7com.facebook.react.runtime.ReactSurfaceImpl.isRunning()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÊ Ê("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isRunning</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*	isRunning2¬
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÁ Á(2â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÊ	 Ê(î
+8com.facebook.react.runtime.ReactSurfaceImpl.getContext()METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÎ Î("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Context <mark class="method">getContext</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeContext*
+getContext2ª
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÏ Ï(2ô
+android.content.ContextRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÎ	 Î(ƒ
+Tcom.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÔ Ô(&"
+isFinalfalse"¡
+declarationString´<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">float</mark> <mark class="method">getPixelDensity</mark>(Context context)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typefloat*getPixelDensity2◊
+\com.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)!contextCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java (2‹
+\com.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)!context	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÔ/ Ô(62á
+floatRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÔ Ô(√
+\com.facebook.react.runtime.ReactSurfaceImpl.getPixelDensity(android.content.Context)!context	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÔ/ Ô(6"
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2í
+android.content.ContextTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÔ' Ô(.ü
+Jcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÛ Û("
+isFinalfalse"π
+declarationString£<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">isRTL</mark>(Context context)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*isRTL2…
+Ncom.facebook.react.modules.i18nmanager.I18nUtil.isRTL(android.content.Context)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÙ" Ù('2∏
+=com.facebook.react.modules.i18nmanager.I18nUtil.getInstance()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÙ Ù(2Õ
+Rcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)!contextCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÙ( Ù(/2“
+Rcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)!context	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÛ' Û(.2â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÛ Û(π
+Rcom.facebook.react.runtime.ReactSurfaceImpl.isRTL(android.content.Context)!context	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÛ' Û(."
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2í
+android.content.ContextTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.javaÛ Û(&≈
+Ncom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)METHODq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java˜ ˜(""
+isFinalfalse"Ω
+declarationStringß<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">boolean</mark> <mark class="method">doRTLSwap</mark>(Context context)"
+isStatictrue"
+accessprivate"
+
+isAbstractfalse"
+typeboolean*	doRTLSwap2€
+`com.facebook.react.modules.i18nmanager.I18nUtil.doLeftAndRightSwapInRTL(android.content.Context)CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¯" ¯(92∏
+=com.facebook.react.modules.i18nmanager.I18nUtil.getInstance()CALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¯ ¯(2—
+Vcom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)!contextCALLq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java¯: ¯(A2÷
+Vcom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)!context	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java˜+ ˜(22â
+booleanRETURN_TYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java˜ ˜(Ω
+Vcom.facebook.react.runtime.ReactSurfaceImpl.doRTLSwap(android.content.Context)!context	PARAMETERq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java˜+ ˜(2"
+typeContext"
+isFinalfalse"$
+declarationStringContext context*context2í
+android.content.ContextTYPEq
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java˜# ˜(*Æ
+Dcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceView@38.50:38.62VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java&2 &(>"
+isFinaltrue")
+type!AtomicReference<ReactSurfaceView>"Ï
+declarationString÷<mark class="modifier">private </mark><mark class="modifier">final </mark>AtomicReference<ReactSurfaceView> <mark class="class-field">mSurfaceView</mark> = new AtomicReference<>(<mark class="modifier">null</mark>);"
+isStaticfalse"
+accessprivate*mSurfaceView2§
++java.util.concurrent.atomic.AtomicReferenceTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java& &(2≠
++com.facebook.react.runtime.ReactSurfaceViewTYPE_ARGUMENTo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java&  &(02∑
+>java.util.concurrent.atomic.AtomicReference.AtomicReference(V)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java&E &(Vü
+Bcom.facebook.react.runtime.ReactSurfaceImpl?mReactHost@40.47:40.57VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java(/ ((9"
+isFinaltrue"&
+typeAtomicReference<ReactHostImpl>"Á
+declarationString—<mark class="modifier">private </mark><mark class="modifier">final </mark>AtomicReference<ReactHostImpl> <mark class="class-field">mReactHost</mark> = new AtomicReference<>(<mark class="modifier">null</mark>);"
+isStaticfalse"
+accessprivate*
+mReactHost2§
++java.util.concurrent.atomic.AtomicReferenceTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java( ((2™
+(com.facebook.react.runtime.ReactHostImplTYPE_ARGUMENTo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java(  ((-2∑
+>java.util.concurrent.atomic.AtomicReference.AtomicReference(V)CALLo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java(@ ((QÕ
+Gcom.facebook.react.runtime.ReactSurfaceImpl?mSurfaceHandler@42.31:42.46VALUEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java* *(."
+isFinaltrue"
+typeSurfaceHandler"ü
+declarationStringâ<mark class="modifier">private </mark><mark class="modifier">final </mark>SurfaceHandler <mark class="class-field">mSurfaceHandler</mark>"
+isStaticfalse"
+accessprivate*mSurfaceHandler2á
+SurfaceHandlerTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java* *(ë
+@com.facebook.react.runtime.ReactSurfaceImpl?mContext@50.18:50.26VARIABLEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java2 2("
+isFinalfalse"
+typeContext"l
+declarationStringW<mark class="modifier">private </mark>Context <mark class="class-field">mContext</mark>"
+isStaticfalse"
+accessprivate*mContext2ê
+android.content.ContextTYPEo
+enode_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/runtime/ReactSurfaceImpl.java2
+ 2(

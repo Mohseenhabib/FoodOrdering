@@ -1,0 +1,346 @@
+
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java‹
+
+/com.facebook.hermes.unicode.AndroidUnicodeUtilsCLASSs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java ( "&
+packagecom.facebook.hermes.unicode"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¢
+declarationStringå<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>AndroidUnicodeUtils"
+accesspublic*AndroidUnicodeUtils2Â
+acom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (!2ÿ
+Tcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (!2·
+]com.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java* *($2‘
+Pcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java= =( ˚
+acom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)METHODs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (!"
+isFinalfalse"≤
+declarationStringú<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="method">localeCompare</mark>(String left<mark class="modifier"><mark class="modifier">,</mark></mark> String right)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeint*localeCompare2ù
+ java.text.Collator.getInstance()CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java! (,2ª
+>java.text.Collator.compare(java.lang.String, java.lang.String)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2Û
+vcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)?collator@22.13:22.21CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2„
+fcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)!leftCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java ( 2‰
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)!rightCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java" ('2Ë
+fcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)!left	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java) (-2È
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)!right	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java6 (;2˙
+vcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)?collator@22.13:22.21DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2á
+intRETURN_TYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (ÿ
+vcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)?collator@22.13:22.21VARIABLEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java ("
+typeCollator"
+isFinalfalse"
+declarationStringj<mark class="modifier"> </mark>Collator <mark class="class-field">collator</mark> = Collator.getInstance()*collator2è
+java.text.CollatorTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2ù
+ java.text.Collator.getInstance()CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java! (,¬
+fcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)!left	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java) (-"
+typeString"
+isFinalfalse" 
+declarationStringString left*left2ç
+java.lang.StringTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java" ((≈
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.localeCompare(java.lang.String, java.lang.String)!right	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java6 (;"
+typeString"
+isFinalfalse"!
+declarationStringString right*right2ç
+java.lang.StringTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java/ (5¥&
+Tcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)METHODs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (!"
+isFinalfalse" 
+declarationString¥<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">dateFormat</mark>(<mark class="modifier">double</mark> unixtimeMs<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> formatDate<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> formatTime)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*
+dateFormat2Ø
+2java.text.DateFormat.getDateTimeInstance(int, int)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (-2¶
+)java.text.DateFormat.getDateInstance(int)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java   ()2¶
+)java.text.DateFormat.getTimeInstance(int)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java" "()2ò
+java.lang.String.toString()CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java&, &(42¶
+)java.text.Format.format(java.lang.Object)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java& &(2∫
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java$ $( 2‹
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatDateCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2‹
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatTimeCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java ( 2‰
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)?format@28.15:28.21CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2‹
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatDateCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2‰
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)?format@28.15:28.21CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java   (2‹
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatTimeCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java! !(2‰
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)?format@28.15:28.21CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java" "(2‰
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)?format@28.15:28.21CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java& &(2‹
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!unixtimeMsCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java&  &(*2·
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!unixtimeMs	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java) (32·
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatDate	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java= (G2·
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatTime	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaQ ([2Î
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)?format@28.15:28.21DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (2î
+java.lang.StringRETURN_TYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (í
+gcom.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)?format@28.15:28.21VARIABLEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java ("
+type
+DateFormat"
+isFinalfalse"f
+declarationStringQ<mark class="modifier"> </mark>DateFormat <mark class="class-field">format</mark>*format2ë
+java.text.DateFormatTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java (€
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!unixtimeMs	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java) (3"
+typedouble"
+isFinalfalse"D
+declarationString/<mark class="modifier">double</mark> unixtimeMs*
+unixtimeMs2É
+doubleTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java" ((ﬁ
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatDate	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java= (G"
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> formatDate*
+formatDate2Ñ
+booleanTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java5 (<ﬁ
+_com.facebook.hermes.unicode.AndroidUnicodeUtils.dateFormat(double, boolean, boolean)!formatTime	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaQ (["
+typeboolean"
+isFinalfalse"E
+declarationString0<mark class="modifier">boolean</mark> formatTime*
+formatTime2Ñ
+booleanTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaI (PÔ&
+]com.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)METHODs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java* *($"
+isFinalfalse"¨
+declarationStringñ<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">convertToCase</mark>(String input<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> targetCase<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> useCurrentLocale)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*convertToCase2ö
+java.util.Locale.getDefault()CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1. 1(82´
+.java.lang.String.toLowerCase(java.util.Locale)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java4 4( 2´
+.java.lang.String.toUpperCase(java.util.Locale)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java6 6( 2∫
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java8 8("2Î
+ncom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!useCurrentLocaleCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1 1($2Â
+hcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!targetCaseCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java2 2(2ˆ
+ycom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?targetLowercase@45.14:45.29CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java3 3(2‡
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!inputCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java4 4(2Ì
+pcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?locale@49.11:49.17CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java4! 4('2ˆ
+ycom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?targetUppercase@44.14:44.29CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java5 5(2‡
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!inputCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java6 6(2Ì
+pcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?locale@49.11:49.17CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java6! 6('2Â
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!input	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*, *(12Í
+hcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!targetCase	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*7 *(A2
+ncom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!useCurrentLocale	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*K *([2˝
+ycom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?targetUppercase@44.14:44.29DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java, ,(2˝
+ycom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?targetLowercase@45.14:45.29DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java- -(2Ù
+pcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?locale@49.11:49.17DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1 1(2î
+java.lang.StringRETURN_TYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java* *(€
+ycom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?targetUppercase@44.14:44.29VALUEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java, ,("
+typeint"
+isFinaltrue"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">targetUppercase</mark> = 0*targetUppercase2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java,
+ ,(€
+ycom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?targetLowercase@45.14:45.29VALUEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java- -("
+typeint"
+isFinaltrue"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">targetLowercase</mark> = 1*targetLowercase2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java-
+ -(÷
+pcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)?locale@49.11:49.17VARIABLEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1 1("
+typeLocale"
+isFinalfalse"ù
+declarationStringá<mark class="modifier"> </mark>Locale <mark class="class-field">locale</mark> = useCurrentLocale ? Locale.getDefault() : Locale.ENGLISH*locale2ç
+java.util.LocaleTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1 1(
+2ö
+java.util.Locale.getDefault()CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1. 1(82Î
+ncom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!useCurrentLocaleCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java1 1($¡
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!input	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*, *(1"
+typeString"
+isFinalfalse"!
+declarationStringString input*input2ç
+java.lang.StringTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*% *(+€
+hcom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!targetCase	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*7 *(A"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> targetCase*
+targetCase2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*3 *(6˘
+ncom.facebook.hermes.unicode.AndroidUnicodeUtils.convertToCase(java.lang.String, int, boolean)!useCurrentLocale	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*K *(["
+typeboolean"
+isFinalfalse"K
+declarationString6<mark class="modifier">boolean</mark> useCurrentLocale*useCurrentLocale2Ñ
+booleanTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java*C *(Jê(
+Pcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)METHODs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java= =( "
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@DoNotStrip</mark> <br><mark class="modifier">public </mark><mark class="modifier">static </mark>String <mark class="method">normalize</mark>(String input<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> form)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeString*	normalize2Œ
+Qjava.text.Normalizer.normalize(java.lang.CharSequence, java.text.Normalizer.Form)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaF F(#2Œ
+Qjava.text.Normalizer.normalize(java.lang.CharSequence, java.text.Normalizer.Form)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaH H(#2Œ
+Qjava.text.Normalizer.normalize(java.lang.CharSequence, java.text.Normalizer.Form)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaJ J(#2Œ
+Qjava.text.Normalizer.normalize(java.lang.CharSequence, java.text.Normalizer.Form)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaL L(#2∫
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaN N("2“
+Ucom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!formCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaD D(2ﬂ
+bcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formC@63.14:63.19CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaE E(2”
+Vcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!inputCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaF$ F()2ﬂ
+bcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formD@64.14:64.19CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaG G(2”
+Vcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!inputCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaH$ H()2‡
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formKC@65.14:65.20CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaI I(2”
+Vcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!inputCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaJ$ J()2‡
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formKD@66.14:66.20CALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaK K(2”
+Vcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!inputCALLs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaL$ L()2ÿ
+Vcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!input	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java=( =(-2◊
+Ucom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!form	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java=3 =(72Ê
+bcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formC@63.14:63.19DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java? ?(2Ê
+bcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formD@64.14:64.19DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java@ @(2Á
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formKC@65.14:65.20DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaA A(2Á
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formKD@66.14:66.20DECLARATIONs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaB B(2î
+java.lang.StringRETURN_TYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java= =(∞
+bcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formC@63.14:63.19VALUEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java? ?("
+typeint"
+isFinaltrue"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">formC</mark> = 0*formC2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java?
+ ?(∞
+bcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formD@64.14:64.19VALUEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java@ @("
+typeint"
+isFinaltrue"•
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">formD</mark> = 1*formD2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java@
+ @(≥
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formKC@65.14:65.20VALUEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaA A("
+typeint"
+isFinaltrue"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">formKC</mark> = 2*formKC2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaA
+ A(≥
+ccom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)?formKD@66.14:66.20VALUEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaB B("
+typeint"
+isFinaltrue"¶
+declarationStringê<mark class="modifier"> </mark><mark class="modifier">final </mark><mark class="modifier">int</mark> <mark class="class-field">formKD</mark> = 3*formKD2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.javaB
+ B(¥
+Vcom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!input	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java=( =(-"
+typeString"
+isFinalfalse"!
+declarationStringString input*input2ç
+java.lang.StringTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java=! =('º
+Ucom.facebook.hermes.unicode.AndroidUnicodeUtils.normalize(java.lang.String, int)!form	PARAMETERs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java=3 =(7"
+typeint"
+isFinalfalse";
+declarationString&<mark class="modifier">int</mark> form*form2Ä
+intTYPEs
+inode_modules/react-native/ReactAndroid/src/main/java/com/facebook/hermes/unicode/AndroidUnicodeUtils.java=/ =(2
