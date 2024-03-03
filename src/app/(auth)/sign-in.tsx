@@ -5,18 +5,35 @@ import {
   StyleSheet,
   Keyboard,
   TouchableWithoutFeedback,
+  Alert,
 } from "react-native";
 import React, { useState } from "react";
 import Button from "../../components/Button";
 import Colors from "../../constants/Colors";
 import { Link, Stack } from "expo-router";
+import { supabase } from "@/src/lib/supabase";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 const SignInScreen = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
+  const toggleShowPassword = () => {
+    setShowPassword(!showPassword);
+  };
   const hideKeyboard = () => {
     Keyboard.dismiss();
   };
+  const [loading, setLoading] = useState(false);
+  async function signInWithEmail() {
+    setLoading(true);
+    const { error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+    if (error) Alert.alert(error.message);
+    setLoading(false);
+  }
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={styles.container}>
@@ -32,15 +49,29 @@ const SignInScreen = () => {
         />
 
         <Text style={styles.label}>Password</Text>
-        <TextInput
-          value={password}
-          onChangeText={setPassword}
-          placeholder=""
-          style={styles.input}
-          secureTextEntry
+
+        <View style={styles.pass}>
+          <TextInput
+            value={password}
+            onChangeText={setPassword}
+            placeholder="*****"
+            style={styles.input1}
+            secureTextEntry={!showPassword}
+          />
+          <MaterialCommunityIcons
+            name={showPassword ? "eye-off" : "eye"}
+            size={24}
+            color="#aaa"
+            style={styles.icon}
+            onPress={toggleShowPassword}
+          />
+        </View>
+        <Button
+          onPress={signInWithEmail}
+          disabled={loading}
+          text={loading ? "Signing In.." : "Sign in"}
         />
 
-        <Button text="Sign in" />
         <Link href="/sign-up" style={styles.textButton}>
           Create an account
         </Link>
@@ -55,8 +86,23 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     flex: 1,
   },
+  pass: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#f3f3f3",
+    borderRadius: 8,
+    paddingHorizontal: 14,
+    borderColor: "gray",
+    borderWidth: 1,
+    marginBottom: 20,
+  },
   label: {
     color: "gray",
+    paddingBottom: 10,
+  },
+  icon: {
+    marginLeft: 10,
   },
   input: {
     borderWidth: 1,
@@ -72,6 +118,16 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: Colors.light.tint,
     marginVertical: 10,
+  },
+  input1: {
+    flex: 1,
+    color: "#333",
+    paddingVertical: 10,
+    paddingRight: 10,
+    fontSize: 16,
+    paddingTop: 10,
+    paddingBottom: 10,
+    padding: 1,
   },
 });
 
